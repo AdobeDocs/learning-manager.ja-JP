@@ -1,0 +1,679 @@
+---
+description: Learn about the new features and enhancements in Adobe Learning Manager
+jcr-language: en_us
+title: What's new in the October 2021 release of Adobe Learning Manager
+contentowner: jayakarr
+---
+
+
+# What's new in the October 2021 release of Adobe Learning Manager {#whats-new-in-the-october-release-of-adobe-learning-manager}
+
+Learn about the new features and enhancements in Adobe Learning Manager
+
+# What's new and changed {#whatsnewandchanged}
+
+## Learning Path
+
+The **October 2021** **release of Adobe Learning Manager** introduces the concept of Learning Paths. 
+
+**Note: The Settings > General page has a new option to enable extended capabilities of Learning Paths. If this option is enabled, you can add Learning Paths in another Learning Path. You cannot change the option once it is enabled.**
+
+Learning Paths replace our existing feature of Learning Programs. Imagine Learning Programs getting powerful enhancements without dropping any existing capabilities. Also, the feature gets branded as a Learning Path. 
+
+Learning Manager Learning Programs are renamed to Learning Paths. This change happens immediately after the release and the terminology of Learning Path is reflected in all roles. But the functionality of the Learning Programs (now called **Learning Paths**) doesn’t change immediately. Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. Learning Paths bring to you a range of functionalities. Some of them are available immediately after the release. Admins/Authors can start using them. Extended capabilities like “Sections”, “adding Learning Path in another Path” etc are disabled. To take benefit of extended functionalities which come with this enhancement, Administrator should enable the setting as mentioned below. Once enabled, extended capabilities of Learning Path will become available. 
+
+### Headless Learning Manager interface
+
+Users with headless interface do not get affected. APIs continue to work even after enabling ‘Learning Path’. End user learners can continue to consume the Programs (now called - Learning Path) on the headless interface. To take advantage of the added functionality of Learning Path, API support is available. Customers can use appropriate API attributes and build the required functionality. 
+
+### Advantages of Learning Path
+
+1. Assign a skill and skill level to a Learning Path directly. No need to match skill credits. Once the learner completes a Learning Path, he/she achieves the mentioned skill level. 
+1. Ability to embed an existing Learning Path into a new Learning Path. Embedding capability is available only for one level of embedding. Thus, a Learning Path already containing an embedded Path cannot be embedded in a new Path. 
+1. Ability to add pre-requisites, Job Aids and resources at a Learning Path level. 
+1. Ability to create sections. Each section can have a title. 
+1. Ability to make sections mandatory and setup completion criteria.
+
+Sharing catalogs between parent account and peer accounts is not possible if the parent account has the option Learning Paths (**Settings > General**) enabled and the peer account has the option disabled.
+
+## Brand New Salesforce App
+
+Learning Manager now offers a brand-new Salesforce App package. Once installed and configured in SFDC, Sales employees can perform their training activities within the SFDC portal. This app allows SFDC users to explore new training, view recommendations and consume them right inside the SFDC portal. Users also get the announcements sent by Administrators in the form of mastheads right inside the app within the SFDC portal. 
+
+Please reach out to your CSM or support to get access to the SFDC package and install it. This package is not available on SFDC exchange.
+
+![](assets/salesforce-app.png) 
+
+## Content Marketplace
+
+Content Marketplace was recently launched in the month of August. It offers thousands of training courses and manually curated playlists covering a wide variety of topics. In this release, we’ve enhanced the Content Marketplace by adding a **Content Hub** for Admins and Subject matter experts.
+
+For more information, see [***Content Hub***](administrators/feature-summary/content-marketplace.md#content-hub).
+
+## Reports
+
+The Learner Transcript contains three new columns to accommodate the changes: 
+
+* Embedded Path: These rows will show the name of the embedded Learning Program.  
+* Embedded Path ID: These rows will show the ids of the embedded Learning Program  
+* Embedded Path Language: These rows will display the language in which the Learning Program was created. 
+
+The Training Report also contains these columns: 
+
+* Embedded Path 
+* Embedded Path ID 
+* Embedded Course ID 
+
+These columns also appear in the reports which get exported using Connectors. Here are the details -  
+
+### Salesforce 
+
+**Existing connections**
+
+If the option Learning Path is disabled in the Admin account, no rows and columns are added in the report. 
+
+If the option Learning Path is enabled in the Admin account, the column "Type" will be populated with Learning Path in case learners are enrolled to it. 
+
+**New connections**
+
+If the option Learning Path is disabled in the Admin account, the training report will consist of the following columns, but will not contain any data. 
+
+* Embedded Path: Displays the name of the Learning Program 
+* Embedded Path ID: Displays the IDs for the Learning Program. 
+* Embedded Course ID: Displays the IDs of courses that are inside a Learning Path.  
+
+Also, for new connections in accounts where Learning Path is enabled, the three new columns will appear, and all data will flow. 
+
+In addition, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled in a Learning Path. 
+
+In the Type column, the Learning Program will be renamed as Learning Path. For existing connections, there will be no change.  
+
+### Power BI 
+
+**Admin: Learning Transcripts and Unified Report**
+
+**Existing connections**
+
+If the option Learning Path is disabled in the Admin account, no rows and columns are added in the reports. 
+
+If the option Learning Path is enabled in the Admin account, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled in a Learning Path. 
+
+**New connections**
+
+If the option Learning Path is disabled in the Admin account, the training report will consist of the following columns: 
+
+* Embedded Path: Displays the name of the Learning Program 
+
+* Embedded Path ID: Displays the IDs for the Learning Program. 
+* Embedded Course ID: Displays the IDs of courses that are inside a Learning Path. 
+
+In addition, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled to a Learning Path. 
+
+In the Type column, Learning Program will be renamed as Learning Path. For existing connections, there will be no change. However, for new connections, the changes will be reflected after 30 days. 
+
+**Training Report: Unified Report **
+
+**Existing connections**
+
+If the option Learning Path is disabled in the Admin account, no rows and columns are added in the reports. 
+
+If the option Learning Path is enabled in the Admin account, the report will contain the column "Type" will contain new value "Learning Path(Higher level) wherever applicable". 
+
+**New connections**
+
+If the option Learning Path is disabled in the Admin account, the training report will consist of the following columns: 
+
+* Embedded Path: Displays the name of the Learning Program 
+* Embedded Path ID: Displays the IDs for the Learning Program. 
+* Embedded Course ID: Displays the IDs of courses that are inside a Learning Path. 
+
+In addition, the report will contain the column type Learning Path (Higher Level) for all learners who are enrolled to a Learning Path. 
+
+In the Type column, Learning Program will be renamed as Learning Path. For existing connections, there will be no change. However, for new connections, the changes will be reflected after 30 days. 
+
+### Marketo 
+
+There is no change in reports caused by changes in Learning Path.
+
+## Session summary report
+
+This release of Learning Manager adds the Session Summary Report, which contains all sessions planned for a learner within a specified date.
+
+This allows the admin to export all the Virtual and Classroom session details falling under the given date range. Admin can also export the session report with respect to specific training or Instructors.
+
+For more information, see [***Reports***](administrators/feature-summary/reports.md).
+
+## Search enhancements
+
+This release of Learning Manager enhances learner’s search capability by supporting word-based search in addition to phrase-based search. Here’ how it works:
+
+In the Learner app, searching for courses is now more precise and produces more relevant search results. When the learner enters the search phrase say, ‘Performance Management’, typeahead results gives you the results based on complete phrase match. This is an existing behavior. But if you search for all results by hitting ‘Enter, then Learning Manager searches for individual words in addition to phrase search and combines the results in your search results. Thus, in such a case these three items will get searched “Performance Management”, “Performance” and “Management”. 
+
+This feature is also available via APIs. Reach out to the CSM/Support for details.
+
+## Player TOC enhancements
+
+As part of the changes caused by Learning Path-related changes, we have revamped the Fluidic Player TOC. Now all training that is part of a Learning Path is available in the TOC.
+
+In previous releases, if a learner opened a training that is a part of a Learning Program, only that training opened in the TOC. Also, navigating between training or jumping from one training to another was not possible.
+
+Now, in the Fluidic Player TOC, you can get a complete view of all training available in the Learning Path. In this enhanced TOC, the first level training in the TOC is depicted by a diamond. You can expand each level and jump to any module.
+
+Note that this feature is available if the training is launched from the native web app Learner Immersive Home page. It is also available in headless scenarios where customers have embedded the Fluidic Player in custom websites. 
+
+This feature is currently not available when a training is launched from the training page in the native web interface. In this case, if a Learning Path/Program is launched, Fluidic Player will continue to show the modules of the course which gets launched. The TOC icons will be the newly built icons. 
+
+## Learning Manager widgets for headless user Interface
+
+Learning Manager offers widgets, which can be embedded to your AEM or non-AEM based websites. This becomes a convenient way for customers to build their headless interface. 
+
+In this update, Learning Manager introduces a new widget ‘Catalog widget’, which displays the trainings from a particular catalog of Learning Manager. Simply configure the widget to provide the catalog ID from where you wish to fetch the trainings. You can also fetch the trainings based on other filters like - Skill name and Tag name. 
+
+Embed the widget in your headless customer interface. Once learners visit the page, this widget will display the trainings based on the configuration, provided the learner has visibility to these trainings. A learner can simply click to launch the training content and take the training immediately.  
+
+In this update, Learning Manager also supports a contemporary style of widget. This style is meant to highlight the minimum but important metadata of the training. In addition, you can even customize the colors and fonts of this style to match it with your branding requirements.
+
+For more information, see [***Integrate Learning Manager and AEM***](integrate-aem-captivate-prime.md).
+
+## Mark completion for individual course inside a certification
+
+At present, an Admin is only able to mark a Learner as ‘Complete’ for the entire certification. In this release, the Admin can mark each course as completed inside a certification.
+
+The Admin will be able to see the list of courses which is part of the certification. From there, the Admin can select the course, and mark it as complete from the action dropdown if required. 
+
+A new Course drop-down list is added to the page. 
+
+The selected course will be applicable only for marking completion.
+
+## Enable/Disable Hide Unfilled Profile Attributes
+
+In previous releases, you could hide filled profile attributes (active fields) when a learner logs on to Prime. In this release of Learning Manager, you can hide the entire ‘Complete your profile’ page from the learners. Thus, this page will not popup once the learner logs in. 
+
+Note that the existing default behavior does not change. This is an optional capability now available to Administrators.
+
+## API changes
+
+### Learning Path-related changes
+
+>[!NOTE]
+>
+>The APIs still use the terminology Learning Program instead of Learning Path to maintain backward compatibility. By default, Get/LOs will not return the enhanced Learning Paths. You must use an extra parameter to get those Learning Objects.
+
+**Learning Objects API**
+
+A new field called *isEnhancedLP *is added to the learning Object model for Learning Program, which takes the value true/false. This flag signifies if the Learning Path is a conventional one or the Learning Path contains a nested Learning Path and course sequences.
+
+**New filter**
+
+There is a filter ignoreEnhancedLP, added in GET /learningObjects API, when set to true, ignores an enhanced Learning Path. When the filter is false, all Learning Paths (enhanced and conventional) are returned.
+
+**Embedded Learning Program**
+
+To maintain backward compatibility, we’ve provided subLOs for ordered Learning Paths. For previously created Learning Programs, we will continue to provide subLOs in order. 
+
+```
+"subLOs": { 
+ "data": [ 
+ { 
+ "id": "course:3978316", 
+ "type": "learningObject" 
+ }, 
+ { 
+ "id": "learningProgram:3978316", 
+ "type": "learningObject" 
+ } 
+ ] 
+}
+```
+
+**Sections**
+
+The information in the sections is added in the response.
+
+```
+"sections:[ 
+ { 
+ id: setion_01, 
+ mandatory = true; 
+ mandatoryLOCount:2, 
+ loIds: [course:1125882,course:11258827], 
+ "localizedMetadata": [ 
+ { 
+ "name": "section name", 
+ "locale": "en-US" 
+ } 
+ ], 
+ }, 
+ { 
+ id: section_02, 
+ mandatory = true; 
+ mandatoryLOCount:1 
+ loIds: [learningProgram:123], 
+ "localizedMetadata": [ 
+ { 
+ "name": "LP2", 
+ "locale": "en-US" 
+ } 
+ ], 
+ } 
+]
+```
+
+**userBadges**
+
+This is a new API and is for Administrators. The userBadges API has two new parameters, userId and loId. The API returns information, among others, about the badge that the user has achieved after taking a course. All badges that the user has achieved and assigned will be returned.
+
+**skillInterest**
+
+This is a new API. The API is for both Administrators and Learners. Here are the operations that you can perform with the API:
+
+**Search**
+
+The /skillinterest/search allows you to retrieve a list of skill interest that contains the input query name. You can also search based on Admin-defined or Industry-aligned skills.
+
+GET /skillinterest/search returns the following response:
+<pre>{ "data": [ { "id": "string", "type": "string", "attributes": { "name": "string" } } ] }</pre>The parameters are as follows:
+
+<table border="0" cellpadding="0" cellspacing="0" width="403"> 
+ <tbody> 
+  <tr> 
+   <td height="21" width="147"><p> </p><p>Parameter </p><p> </p></td> 
+   <td><p> </p><p>Value </p><p> </p></td> 
+   <td><p> </p><p>Description </p><p> </p></td> 
+   <td><p> </p><p>Type </p><p> </p></td> 
+   <td><p> </p><p>Data type </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>page[cursor] </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The last cursor till the records is fetched. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>page[limit] </p><p> </p></td> 
+   <td><p> </p><p>10 </p><p> </p></td> 
+   <td><p> </p><p>Maximum number of records that are displayed on a page. The maximum value is 10. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>integer </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>nameStartsWith </p><p> </p></td> 
+   <td><p> </p><p>&lt;skill&gt; </p><p> </p></td> 
+   <td><p> </p><p>The skill interest to search for. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td rowspan="2" height="124"><p> </p><p>filter.skillInterestTypes </p><p> </p></td> 
+   <td><p> </p><p>ADMIN_DEFINED </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>The type of skill interest. Choose if the type is external or internal. </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>query </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"><p>INDUSTRY_ALIGNED </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Delete**
+
+The API deletes a user skill interest.
+
+DELETE /users/{userId}/skillInterest/{id} contains the following parameters:
+
+<table border="0" cellpadding="0" cellspacing="0" width="403"> 
+ <tbody> 
+  <tr> 
+   <td height="21" width="147"><p> </p><p><b>Parameter </b></p><p> </p></td> 
+   <td><p> </p><p><b>Value </b></p><p> </p></td> 
+   <td><p> </p><p><b>Description </b></p><p> </p></td> 
+   <td><p> </p><p><b>Type </b></p><p> </p></td> 
+   <td><p> </p><p><b>Data type</b> </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>id </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The id of the skill for which the skill interest must be deleted. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td rowspan="2" height="124"><p> </p><p>filter.skillInterestTypes </p><p> </p></td> 
+   <td><p> </p><p>ADMIN_DEFINED </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>The type of skill interest. Choose if the type is external or internal. </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>query </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p>INDUSTRY_ALIGNED </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"><p> </p><p>userId </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The Id of the user for whom the skill interest is removed. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Add**
+
+The API adds a user skill interest.
+
+POST /users/{userId}/skillInterest/{id} contains the following parameters:
+
+<table border="0" cellpadding="0" cellspacing="0" width="403"> 
+ <tbody> 
+  <tr> 
+   <td height="21" width="147"><p> </p><p><b>Parameter </b></p><p> </p></td> 
+   <td><p> </p><p><b>Value </b></p><p> </p></td> 
+   <td><p> </p><p><b>Description </b></p><p> </p></td> 
+   <td><p> </p><p><b>Type </b></p><p> </p></td> 
+   <td><p> </p><p><b>Data type</b> </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>id </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The id of the skill for which the skill interest must be added. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td rowspan="2" height="124"><p> </p><p>filter.skillInterestTypes </p><p> </p></td> 
+   <td><p> </p><p>ADMIN_DEFINED </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>The type of skill interest. Choose if the type is external or internal. </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>query </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p>INDUSTRY_ALIGNED </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"><p> </p><p>userId </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The Id of the user for whom the skill interest is added. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Get details of skill interest**
+
+The API gets additional details, such as, id, user_id, skill_id, created date and source of creation.
+
+GET /users/{userId}/skillInterests has the following parameters:
+
+<table border="0" cellpadding="0" cellspacing="0" width="403"> 
+ <tbody> 
+  <tr> 
+   <td height="21" width="147"><p> </p><p><b>Parameter </b></p><p> </p></td> 
+   <td><p> </p><p><b>Value </b></p><p> </p></td> 
+   <td><p> </p><p><b>Description </b></p><p> </p></td> 
+   <td><p> </p><p><b>Type </b></p><p> </p></td> 
+   <td><p> </p><p><b>Data type</b> </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>page[offset] </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The starting value of the records to be displayed in page </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>page[limit] </p><p> </p></td> 
+   <td><p> </p><p>10 </p><p> </p></td> 
+   <td><p> </p><p>Maximum number of records that are displayed on a page. The maximum value is 10. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>integer </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>sort </p><p> </p></td> 
+   <td><p> </p><p>dateCreated </p><p> </p></td> 
+   <td><p> </p><p>The sort type to be applied. </p><p> </p></td> 
+   <td><p> </p><p>query </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>userId </p><p> </p></td> 
+   <td><p> </p><p> </p><p> </p></td> 
+   <td><p> </p><p>The Id of the user whose data is being requested. </p><p> </p></td> 
+   <td><p> </p><p>path </p><p> </p></td> 
+   <td><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td rowspan="2" height="124"><p> </p><p>filter.skillInterestTypes </p><p> </p></td> 
+   <td><p> </p><p>ADMIN_DEFINED </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>The type of skill interest. Choose if the type is external or internal. </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>query </p><p> </p></td> 
+   <td rowspan="2"><p> </p><p>string </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"><p>INDUSTRY_ALIGNED </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Jobs**
+
+Now the Job api will have the capability to export a Session Report.
+
+Job API supports new jobType named “generateSessionReport”, that you can specify in the request body, and get the details of the session summary report. This API is applicable only for VC and classroom sessions.
+
+The payload also supports either courseIds or instructorIds as property, but **NOT **both.
+
+```
+\{ 
+ "data": { 
+ "type": "job", 
+ "attributes": { 
+ "description": "description of your choice", 
+ "jobType": "generateSessionReport", 
+ "payload":{ 
+ "fromDate": "2021-08-24T09:00:00.000Z", 
+ "toDate": "2021-08-31T18:00:59.999Z", 
+ "courseIds" :"course:4992782,course:4992811,course:5071907" 
+ } } 
+ } 
+}
+```
+
+# Enhanced features in this release {#Whatsnewandchanged-1}
+
+## Learning Path
+
+From this release, we are enhancing the functionality of Learning Programs significantly; and it will be called Learning Path. Learners can continue to consume Learning Programs (now called Learning Paths) and Authors/Admins can continue to create them as well. Learning Paths bring to you a range of functionalities. Some of them are available immediately after the release. Admins/Authors can start using them. Extended capabilities like “Sections”, “adding Learning Path in another Path” etc are disabled and can be enabled by checking the checkbox mentioned below. 
+
+Note that the existing feature of Learning Programs will be renamed to Learning Path immediately after the release. In case you wish to continue calling it as Learning Programs, we recommend you to use the ‘Terminologies’ feature to apply the required terminology. This way you can continue to use the word Learning Program.
+
+## Leaning Path-related changes
+
+Here is a summary of the changes that are expected in this release of Learning Manager.
+
+The changes depend on the flag Learning Paths in **Settings > General** in the Admin app.
+
+<table border="0" cellpadding="0" cellspacing="0" width="339"> 
+ <tbody> 
+  <tr> 
+   <td height="21" width="147"><p> </p><p><b>Report </b></p><p> </p></td> 
+   <td><p> </p><p><b>Changes in the report immediately after the release (with check-box is unchecked) </b></p><p> </p></td> 
+   <td><p> </p><p><b>Changes in report after checking the check-box. i.e. once new Learning Path capabilities are enabled. </b></p><p> </p></td> 
+   <td><p> </p><p><b>Changes in report that will be made after 30 days after the release. </b></p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td rowspan="7" height="141"><p> </p><p>Learner Transcript  </p><p> </p></td> 
+   <td><p> </p><p>A new column will be introduced: Embedded_Course_IDThis column will have values populated when course is part of a Learning Program Or Certification. </p><p> </p></td> 
+   <td><p> </p><p>Column 'Type' = 'Learning Path (Higher Level)' will be displayed when Learner is enrolled to a Learning Path </p><p> </p></td> 
+   <td rowspan="7"><p> </p><p>Under ‘Type’ column, 'Learning Program' will be renamed as 'Learning Path'. This is irrespective of the status of the Learning Path check-box, if enabled/disabled. </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20">It will be seen towards the extreme right end of the report. </td> 
+   <td><p>1. In addition, there are two new columns: </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"> </td> 
+   <td>Embedded Path: These rows will display the name of the embedded Learning Program. </td> 
+  </tr> 
+  <tr> 
+   <td height="20"> </td> 
+   <td><p>2. This column will be displayed after the 'Type' column </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td height="20"> </td> 
+   <td>Embedded Path ID: These rows will display the ids of the embedded Learning Program. This column will be displayed right next to 'Embedded_Course_ID' </td> 
+  </tr> 
+  <tr> 
+   <td height="21"> </td> 
+   <td>Note: The Embedded_Course_ID column will be displayed irrespective of the status of the Learning Path check-box, checked/unchecked. </td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p> </p><p>Learners’ Learner Transcript  </p><p> </p></td> 
+   <td><p> </p><p>Same as above. </p><p> </p></td> 
+   <td><p> </p><p>Same as above, except there will be no 'Type' column in the Learner Transcript. </p><p> </p></td> 
+   <td><p> </p><p>Not Applicable </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td rowspan="6" height="121"><p> </p><p>Training Report </p><p> </p></td> 
+   <td rowspan="6"><p> </p><p>Same as above.  </p><p> </p></td> 
+   <td><p> </p><p>There are three new columns: </p><p> </p></td> 
+   <td rowspan="6"><p> </p><p>Under Type column, 'Learning Program' will be renamed as 'Learning Path'. This is irrespective of the status of the Learning Path check-box, if enabled/disabled. </p><p> </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20">Embedded Path: These rows will show the name of the embedded Learning Program. </td> 
+  </tr> 
+  <tr> 
+   <td height="20">Embedded Path ID: These rows will show the ids of the embedded Learning Program </td> 
+  </tr> 
+  <tr> 
+   <td height="20">Embedded Path Language: These rows will display the language in which the Learing Program was created. </td> 
+  </tr> 
+  <tr> 
+   <td height="20"> </td> 
+  </tr> 
+  <tr> 
+   <td height="21"><p>Also, Column 'Type' = 'Learning Path (Higher Level)' will be displayed when Learner is enrolled to a Learning Path. </p></td> 
+  </tr> 
+  <tr> 
+   <td height="20"><p> </p><p>Content Audit Trail </p><p> </p></td> 
+   <td><p> </p><p>Learning Path' will be shown for LPs (irrespective of flag is enabled or disabled) </p><p> </p></td> 
+   <td><p> </p><p>Learning Path (Higher Level)' will be shown wherever enhanced Learning  Path is referred. </p><p> </p></td> 
+   <td><p> </p><p>NA </p><p> </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Enrollment Data/Details on Unenrolled Learners
+
+Often users need to audit the enrollment or unenrollment dates for accountably audits, which would benefit in cases that concern regulatory training requirements.
+
+In this release, the Enrollment date and unenrollment date columns are now distinct, which enables you to get a better picture of enrollment.
+
+New column “Unenrollment Date (UTC TimeZone)” gets introduced at the extreme right of the transcript report. This column mentions the unerollment date incase user has been unenrolled. 
+
+After this release, the platform will keep a record of the enrollment date even after un-enrollment. Thus, both enrollment date and un-enrollment date will be mentioned for all unenrollments occurring after the release. For unenrollments which have happened already before the release, date for the enrollment column will remain empty. 
+
+The Learning Transcript report contains both the columns.
+
+## Time zone information in emails
+
+When a reminder email is sent to the Learner it only sends the Date and Time. In this update of Learning Manager, the Time zone information is appended to the date and time. Functionality remains the same. To have better clarity the time zone code will be added after the date/time information. 
+
+## Changes expected in Connectors
+
+### Due to Learning Path
+
+Reports which get exported from Connectors will undergo changes. As always there are no changes expected immediately after the release. Hence your existing connections should continue to work immediately after the release. We have attached a separate snapshot in this email with a table explaining all the changes you can expect in different connectors when the Learning Path feature is enabled (checked) or disabled (unchecked). Note that there are certain changes expected 30 days after the release. Same has been explained in the snapshot. Look for a snapshot “Appendix-1” in the email you must have received from your CSM. 
+
+### Unenrollment Date column gets added
+
+Learner Transcript report will contain a new column Unenrollment Date (UTC TimeZone) to the extreme right of the report. This column will be added only when new connections are created for - 
+
+* Salesforce connector
+* Power BI (export Learner Transcript and Unified Reports)
+* Marketo connector
+
+### Language information gets added
+
+Two new columns Training language and Sub Training language gets added to the Training Report. This report gets added only when a new connection is established for -Power BI (unified report)
+
+ 
+
+## Video announcement in headless scenario
+
+Attributes required to playback video announcement in headless user interface is set to change. 
+
+In case customers are showcasing video announcements in headless custom user interface, please note that additional attributes need to be passed to fetch the video announcement. 
+
+This change will be implemented 30 days after the actual release. Thus, learners are not affected immediately after the release. But customers should carry out below changes within 30 days after the release. 
+
+**Current production behavior:**
+
+video_id = video to be played
+
+**New behavior:**
+
+* video_id: The video to be played.
+* asset_id: Internal resource ID obtained in APIs.
+* asset_type: Type of the asset. Valid values are: resource, announcement, jobaid, post, comment.
+* context: Weather formal or informal. In formal if invoked from social and formal in rest of the cases.
+* auth_token: oauth token of the client.
+
+## External login text change
+
+On the learner login page, we’ve changed the text from **Partner Login For** to **Login For**.
+
+## Changes in Learner Transcripts dialog
+
+In the **Learner Transcripts** dialog, the interface for the drop-downs have changed. We have now replaced check-box selection behavior with a tick. This component improves the accessibility aspect of the interface. There is no change in the functionality of Learner Transcript feature.
+
+* The **Search **field no longer exists for the filters. The options are now available in alphabetical order, so that you can easily locate the option (s).
+* The **Learner Transcripts** dialog is accessible-friendly and Section 508-compliant.
+
+# Release Notes {#releasenotes}
+
+For information regarding current and previous releases of Learning Manager web app and device app, see the  [***Release notes***](release-note/release-notes.md).
+
+# Bug fixes {#bugfixes}
+
+To see the bugs that are fixed in this update, refer to the  [***Bugs fixed***](release-note/release-notes.md#bug-fixes) list.
+
+# Known issues {#knownissues}
+
+To see the known issues in this update, refer to [***Known issues***](release-note/release-notes.md#known-issues) list.
+
+# System Requirements {#systemrequirements}
+
+[Learning Manager system requirements](system-requirements.md)
+
+# Previous releases of Learning Manager {#previousreleasesofcaptivateprime}
+
+* [Learning Manager | August 2021 release](whats-new-august-2021.md)
+* [Learning Manager | February 2021 release](whats-new-february-2021.md)
+* [Learning Manager | December 2020 release](whats-new-december-2020.md)
+* [Learning Manager | August 2020 release](whats-new-august-2020.md)
+
+# Have a question or an idea? {#haveaquestionoranidea}
+
+<table> 
+ <tbody>
+  <tr> 
+   <td><img src="assets/ask-the-community.svg"></td> 
+   <td><p>If you have a question to ask or an idea to share, come and participate in the <a href="https://community.adobe.com/t5/captivate-prime/bd-p/captivate-prime?page=1&amp;sort=latest_replies&amp;filter=all" disablelinktracking="false"><strong><em>Adobe Learning Manager Community</em></strong></a>. We would love to hear from you and address your queries.<br></p></td> 
+  </tr> 
+ </tbody>
+</table>
+
+### More like this
+
+* [Adobe Learning Manager product guide](https://www.adobe.com/products/captivateprime.html)
+* [Adobe Learning Manager playlist](https://www.youtube.com/playlist?list=PLq21ukQtk0URntzGmTxsx7Qt8z9b9Elth)
+* [Organize your training in Adobe Learning Manager | Ashwini Jaisim](https://elearning.adobe.com/2020/07/organize-your-trainings-in-adobe-captivate-prime/)
+* [Add your Adobe Learning Manager Account URL to your Adobe Connect Central Account Summary Page](https://elearning.adobe.com/2019/10/add-adobe-captivate-prime-account-url-adobe-connect-central-account-summary-page/)
+
