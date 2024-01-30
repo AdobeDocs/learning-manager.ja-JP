@@ -728,7 +728,7 @@ id\
 name\
 pointsEarned（獲得ポイント）\
 profile（プロファイル）\
-ROLE\
+|||ROLE|||\
 state（状態）\
 timeZoneCode（タイムゾーン）\
 uiLocale（UI のロケール）
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 read\
-ROLE
+||ROLE||
 
 +++
 
