@@ -3,7 +3,7 @@ description: Adobe Learning Manager の新機能と機能強化について説�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Learning Manager では、学習プラットフォーム内で LinkedIn Learning
 
 **アナウンス**
 
-* アナウンスに <a>アナウンスが正常に作成されません。
+* アナウンスに `<a>`アナウンスが正常に作成されません。
 
 **2. アカウント**
 
