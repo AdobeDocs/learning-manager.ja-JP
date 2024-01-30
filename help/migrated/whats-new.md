@@ -1,7 +1,7 @@
 ---
 title: このリリースの新機能
 description: AdobeのLearning Managerの新機能と機能強化について説明します
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ AdobeのLearning Managerでは、カスタム管理者が使用できるのは�
 
 カスタム管理者は、定義されたスコープに応じて次のレポートにアクセスできます。
 
-| 報告 | 使用可能 | スコープ |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>報告</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>使用可能</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>スコープ</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>コンテンツ監査証跡</p></td>
+   <td>
+    <p>はい</p></td>
+   <td>
+    <p>完全なカタログ</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>ユーザー監査追跡</p></td>
+   <td>
+    <p>はい</p></td>
+   <td>
+    <p>フルユーザー</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>ログインアクセス</p></td>
+   <td>
+    <p>はい</p></td>
+   <td>
+    <p>フルユーザー</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| コンテンツ監査証跡 | はい | カタログ全体 |
-| ユーザー監査追跡 | はい | フルユーザー |
-| ログインアクセス | はい | フルユーザー |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## 強化されたConnect統合
 
