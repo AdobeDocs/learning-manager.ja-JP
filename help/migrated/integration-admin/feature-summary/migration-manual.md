@@ -2,9 +2,9 @@
 description: 既存の LMS を Learning Manager LMS に移行する統合管理者向けの参照用マニュアル
 jcr-language: en_us
 title: 移行マニュアル
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3641'
 ht-degree: 72%
 
 ---
@@ -419,11 +419,11 @@ Learning Manager では、UTF 8 および 32 ビット形式の日時の値の�
 
 移行プロジェクトを計画することは非常に重要です。プロジェクトを複数のスプリントに分割し、各スプリントで何を移行するのかを明確に特定することをお勧めします。プロジェクトの終了時に総合的な検証を 1 回行う代わりに、各スプリントの後に検証を行い、そのスプリントに移行されたデータを確認することをお勧めします。移行プロジェクトの一部としてスプリントを起動する前に、データとコンテンツの CSV ファイルをそれぞれ FTP サーバーと Box サーバーにアップロードする必要があります。カスタムFTPおよびBox用のアカウントがない場合は、それらを作成できます。
 
-**FTP アカウントの作成**
+<!--**Create FTP account**-->
 
-「**[!UICONTROL CSV FTP フォルダーを要求]**」をクリックします。ポップアップダイアログが表示され、電子メール ID を入力するように求められます。オンラインの手順に従って、FTPアカウントを作成します。 アカウントを作成するとすぐに、FTPで移行プロジェクトとスプリントプロジェクトのフォルダーを表示できます。
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-参考までに、プロジェクトファイルおよびFTPのフォルダーのサンプルスナップショットを以下に示します。
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
