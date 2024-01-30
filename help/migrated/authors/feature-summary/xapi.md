@@ -1,37 +1,37 @@
 ---
 jcr-language: en_us
-title: Learning ManagerのxAPI
+title: Learning Manager の xAPI
 description: Experience API(xAPI)は、あらゆるタイプの学習体験を記録して追跡する方法で学習コンテンツと学習システムを相互に連携させることを可能にするeラーニングソフトウェア仕様です。
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 0%
+ht-degree: 49%
 
 ---
 
 
 
-# Learning ManagerのxAPI
+# Learning Manager の xAPI
 
-## xAPIとは？ {#whatisxapi}
+## xAPI とは？ {#whatisxapi}
 
-Experience API(xAPI)は、あらゆるタイプの学習体験を記録して追跡する方法で学習コンテンツと学習システムを相互に連携させることを可能にするeラーニングソフトウェア仕様です。 学習体験は、学習記録ストア(LRS)に記録されます。 LRSは、従来の学習管理システム(LMS)内または独自に存在できます。
+Experience API （xAPI）は、あらゆるタイプの学習経験を記録し、追跡しつつ、学習コンテンツと学習システムを相互に連携させることを可能にする e ラーニングのソフトウェア仕様です。 学習経験は、学習記録ストア（LRS）に記録されます。 LRS は、従来の学習管理システム（LMS）内、またはそれ自体で存在します。
 
 xAPIについて詳しくは、以下を参照してください。  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
-## Learning ManagerはxAPIをどのようにサポートしていますか？ {#howdoescaptivateprimesupportxapi}
+## Learning Manager は xAPI にどのように対応していますか？ {#howdoescaptivateprimesupportxapi}
 
-Learning Managerには学習記録ストアが組み込まれています。 このLRSには、Learning Manager内でホストされるコンテンツからxAPIステートメントを受け入れる完全な機能があります。 サードパーティが生成するxAPIステートメントも受け入れます。 これらのxAPIステートメントはLearning Manager内に保存されます。ステートメントはその後、Learning Manager外に書き出して、サードパーティのデータウェアハウスシステムで視覚化することができます。
+Learning Manager には学習記録ストアが組み込まれています。この LRS には、Learning Manager でホストされるコンテンツから xAPI ステートメントを受け入れる包括的な機能があります。サードパーティによって生成される xAPI ステートメントも受け入れます。 これらのxAPIステートメントはLearning Manager内に保存されます。ステートメントはその後、Learning Manager外に書き出して、サードパーティのデータウェアハウスシステムで視覚化することができます。
 
-## xAPIを使用するタイミング {#whendoyouusexapi}
+## xAPI を使用するタイミング {#whendoyouusexapi}
 
-複数のシステムにまたがるエンドユーザーの学習体験をキャプチャする必要が高まっています。  また、学習者がトレーニングコンテンツに対して抱くエンゲージメントを正確に追跡する必要もあります。 開始、進行中、完了を超えます（これらはSCORMによってキャプチャされる唯一の属性です）。
+複数のシステムにまたがるエンドユーザーの学習体験をキャプチャする必要が高まっています。  また、学習者がトレーニングコンテンツに対して抱くエンゲージメントを正確に追跡する必要もあります。 開始時だけでなく、進行中も、完了時もそうする必要があります（これらは SCORM によってキャプチャされる唯一の属性です）。
 
 ## Learning ManagerでのxAPIの使用 {#usingxapiinprime}
 
-## アプリケーションの設定 {#setupyourapplication}
+## アプリケーションを設定する {#setupyourapplication}
 
-1. 統合管理者としてログインします。 選択 **[!UICONTROL アプリケーション]** > **[!UICONTROL 登録]**.
+1. 統合管理者としてログインします。選択 **[!UICONTROL アプリケーション]** > **[!UICONTROL 登録]**.
 
    ![](assets/appregistration.png)
 
@@ -41,20 +41,20 @@ Learning Managerには学習記録ストアが組み込まれています。 こ
 
 1. アプリケーションの範囲を定義します。
 
-   * If **[!UICONTROL 管理者役割xAPI読み取りおよび書き込みアクセス]** が有効になっている場合、管理者はxAPIのステートメントとドキュメントの投稿と取得を行うことができます。
-   * If **[!UICONTROL 学習者役割xAPI読み取りおよび書き込みアクセス]** が有効になっている場合、管理者はxAPIのステートメントとドキュメントの投稿と取得を行うことができます。
+   * **[!UICONTROL 「管理者役割 xAPI 読み取りおよび書き込みアクセス」]**&#x200B;を有効にすると、管理者は xAPI のステートメントとドキュメントの投稿と取得ができます。
+   * **[!UICONTROL 「学習者役割 xAPI 読み取りおよび書き込みアクセス」]**&#x200B;を有効にすると、管理者は xAPI のステートメントとドキュメントの投稿と取得ができます。
 
-1. 変更を保存します。 開発者IDとシークレットを取得します。
+1. 変更を保存します。デベロッパーの ID とシークレットを取得します。
 
 **終点**:
 
-以下のリンクをクリックして、xAPI swaggerドキュメントを表示します。
+下のリンクをクリックして、xAPI swagger ドキュメントを表示します。
 
 [https://learningmanagereu.adobe.com/docs/primeapi/xapi/](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
 注意： Learning ManagerでサポートされているxAPIのバージョンは1.0.3です。
 
-## API認証 {#apiauthentication}
+## API 認証 {#apiauthentication}
 
 Learning Manager xAPIでは、OAuth 2.0フレームワークを使用して、クライアントアプリケーションを認証および承認します。 アプリケーションを登録すると、clientIdとclientSecretを取得できます。 Get URLは、SSOやAdobe IDなどの事前設定されたアカウントを使用して、ブラウザーでLearning Managerユーザーを認証する際に使用されます。
 
@@ -64,24 +64,24 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 ## Learning Manager LOとしてのxAPIステートメントのトラッキング {#trackingxapistatementsasprimelo}
 
-作成者は、コースの作成中にxAPIモジュールを選択し、Learning Managerの外部でユーザーエクスペリエンスを監視できるようになりました。 例えば、この機能を使用して、コースの受講に使用されるサードパーティプラットフォーム上のユーザーのアクティビティを評価できます。
+これで作成者として、コースを作成する際に xAPI モジュールを選択し、Learning Manager の外でユーザーエクスペリエンスを監視できるようになりました。例えば、この機能を使用して、コースの受講に使用されるサードパーティーのプラットフォーム上のユーザーのアクティビティを評価できます。 
 
 1. の作成中 **[!UICONTROL アクティビティモジュール]****内の[!UICONTROL 種類]**オプションを選択する場合は、ポップアップメニューで  **[!UICONTROL xAPIベースモジュール。]**
 
    ![](assets/xapimodulecreation.png)
 
-1. IRIを指定する必要があります。 指定しなかった場合、Learning Managerは自動的に生成します。
+1. IRI を指定するように要求されます。 指定しなかった場合、Learning Managerは自動的に生成します。
 
-   アクティビティのIRIは、アカウント全体で一意です。 つまり、Learning Managerの2つのモジュールで同じIRIを使用することはできません。 新しいIRIは、次の場合に生成されます。
+   アクティビティの IRI は、アカウント全体で一意です。 つまり、Learning Managerの2つのモジュールで同じIRIを使用することはできません。 新しい IRI は、次の場合に生成されます。
 
    * xAPIモジュールを含むコースがアカウント間で共有されている場合。
-   * xAPIモジュールを使用する資格認定が繰り返される場合
+   * xAPI モジュールを使用する資格認定が繰り返される場合
 
 
 
    指定のIRIを含むxAPIステートメントは上記のモジュールで追跡され、Learning Managerレポートに反映されます。
 
-1. 自動生成されたIRIをコピーするには、再度アクティビティモジュールページに移動します。
+1. 自動生成された IRI をコピーするには、再度アクティビティモジュールページに移動します。
 1. モジュールをパブリッシュします。
 
 **注意事項：**
@@ -92,25 +92,25 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 * xAPIの担当者/プロファイル、アクティビティ/プロファイル、アクティビティ/ステートの文書は、PUTリクエストによって上書きされません
 * アクターでは、不明なグループはサポートされていません。
 * パラメーター「related_activities」は、GETステートメントではサポートされていません。
-* パラメーター&#39;format=ids&#39;および&#39;format=canonical&#39;は、GETステートメントではサポートされていません。
+* パラメーター「format=ids」と「format=canonical」は、GET ステートメントでサポートされていません。
 * xAPIステートメントを無効にしても、ステートメントの投稿時にLearning Managerで発生したアクションは取り消されません。
 
-## レポートの生成 {#generatereports}
+## レポートを生成する {#generatereports}
 
 xAPIレポートは、Excelレポートとして生成できます。 管理者として、以下を開きます。 **[!UICONTROL レポート]** > **[!UICONTROL Excelレポート]** > **[!UICONTROL xAPIアクティビティレポート]**.
 
 ダウンロードされたレポートでは、学習者と管理者がステートメントに関して投稿したすべての情報が取得されます。
 
-同じレポートを、任意のサードパーティ統合用にFTPおよびBoxコネクタを使用して生成/スケジュールできます。 次の手順に従います。
+同じレポートを、任意のサードパーティ統合用にFTPおよびBoxコネクタを使用して生成/スケジュールできます。 その場合、以下の手順を実行します。
 
-統合管理者としてログインし、FTP/Boxコネクターを開いて、左ペインから「xAPIアクティビティレポート」を選択し、レポートのスケジュールまたは生成を選択します。
+統合管理者としてログインし、FTP/Box コネクタを開いて、左側のペインから xAPI アクティビティレポートを選択し、レポートのスケジュールまたは生成を選択します。
 
 ![](assets/xapischedule.png)
 
-* xAPIステートメントで生スコアのみが送信され、最大スコアが送信されない場合、クイズスコアはLTに表示されません。
+* xAPI ステートメントで未処理のスコアのみが送信され、最大スコアが送信されない場合、クイズスコアは LT に表示されません。
 
-* Learning Managerでパーセンテージスコアを取得するには、スケールスコアがxAPIを介して送信されます。
+* Learning Manager でパーセンテージスコアを取得する場合、調整済みスコアが xAPI を介して送信されます。
 
 ## サンプルレポート {#samplereport}
 
-[xAPIレポートのサンプル。](assets/xapireport8842560559890766717csv.zip)
+[xAPI のサンプルレポートです。](assets/xapireport8842560559890766717csv.zip)

@@ -1,32 +1,32 @@
 ---
 jcr-language: en_us
-title: ユーザーを一括で追加
+title: ユーザーの一括追加
 description: 一度に複数のユーザーを追加する方法を説明します。
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
 
 
-# ユーザーを一括で追加
+# ユーザーの一括追加
 
 はい。次の手順に従って、一度に複数のユーザーを追加できます。
 
 1. クリック **[!UICONTROL ユーザー]** 管理者ログインの左側のペインで、次に「 **[!UICONTROL 追加]** > **[!UICONTROL CSVをアップロード]**. ポップアップダイアログが表示されます。
 
-1. .CSVファイルを使用すると、複数のユーザーを追加できます。 クリック **[!UICONTROL 読み込み]** コンピューターで.csvファイルを選択して開きます。
+1. .CSV ファイルを使用して、複数のユーザーを追加できます。 クリック **[!UICONTROL 読み込み]** コンピューターで.csvファイルを選択して開きます。
 
-1. ファイルを読み込んだ後、最初に.csvファイルをアップロードするときに、.csvファイルの内容をアプリケーションラベルにマッピングします。
+1. ファイルを読み込んだ後、最初に.csv ファイルをアップロードするときに、.csv ファイルの内容をアプリケーションラベルにマッピングします。
 
    それ以降のすべてのアップロードでは、以前のラベルの設定が考慮されます。 クリック **[!UICONTROL 保存]** データのマッピングが完了したら、「 **[!UICONTROL 追加]** マッピングされた.csvファイルをアップロードします。
 
 1. クリック **[!UICONTROL 保存]** データのマッピングが完了したら、「 **[!UICONTROL 追加]** マッピングされた.csvファイルをアップロードします。
 
-## 必須フィールドを含むCSVアップロード {#csvuploadwithmandatoryfields}
+## 必須フィールドを含む CSV アップロード {#csvuploadwithmandatoryfields}
 
 CSVにユーザーのプロファイルとマネージャーの電子メールIDを追加する必要はありません。 ユーザー名とユーザーのemail-idのみが必須フィールドです。
 
@@ -37,9 +37,9 @@ CSVにユーザーのプロファイルとマネージャーの電子メールID
 Learning ManagerのサンプルCSVは、以下の必須フィールドで利用できます。
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
-## すべてのフィールドを含むCSVアップロード {#csvuploadwithallthefields}
+## すべてのフィールドを含む CSV アップロード {#csvuploadwithallthefields}
 
-従業員にマネージャーの電子メールIDを含める前に、必ずマネージャーを従業員としてCSVに追加してください。 例えば、以下のスナップショットの従業員名Howard Waltersを参照してください。
+従業員にマネージャーの電子メールIDを含める前に、必ずマネージャーを従業員としてCSVに追加してください。 例えば、以下のスナップショットの従業員名 Howard Walters を参照してください。
 
 ![](assets/csv-example.png)
 

@@ -1,31 +1,31 @@
 ---
-description: この記事では、カスタムアプリケーションにFluidicプレーヤーを埋め込む方法について説明します。
+description: この記事では、カスタムアプリケーションに Fluidic プレーヤーを埋め込む方法について説明します。
 jcr-language: en_us
-title: 埋め込み型Fluidicプレーヤー
+title: 埋め込み型 Fluidic プレーヤー
 contentowner: dvenkate
 preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# 埋め込み型Fluidicプレーヤー
+# 埋め込み型 Fluidic プレーヤー
 
-この記事では、カスタムアプリケーションにFluidicプレーヤーを埋め込む方法について説明します。
+この記事では、カスタムアプリケーションに Fluidic プレーヤーを埋め込む方法について説明します。
 
-企業はLearning Managerの外部でも、学習者にカスタムエクスペリエンスを提供できるようになりました。 パブリックAPIを使用して、学習目標、学習者の登録および学習の進捗状況に関連するすべての情報を取得し、webサイトに表示できます。 さらに重要な点として、Learning ManagerのFluidicプレーヤーをwebサイトに埋め込んで、学習者がwebサイト内でコンテンツを利用できるようにすることもできます。 Fluidicプレーヤーは、Learning Managerがサポートするあらゆるコンテンツを再生できます。 他のWebサイトに埋め込んだ場合も、Learning Manager内で使用するときとまったく同じ機能を利用できます。
+企業は Learning Manager の外部でも、学習者にカスタムエクスペリエンスを提供できるようになりました。パブリックAPIを使用して、学習目標、学習者の登録および学習の進捗状況に関連するすべての情報を取得し、webサイトに表示できます。 さらに重要な点として、Learning Manager の Fluidic プレーヤーを web サイトに埋め込めるようになりました。これにより、学習者は、コンテンツを web サイト内で利用できるようになります。Fluidic プレーヤーは、Learning Manager がサポートするあらゆるコンテンツを再生できます。他のWebサイトに埋め込んだ場合も、Learning Manager内で使用するときとまったく同じ機能を利用できます。
 
 **eラーニングコンテンツを再生[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
-Fluidicプレーヤーは、プラグインやダウンロードを必要とせずに、ほぼすべてのタイプのeラーニングコンテンツを、一貫した直感的な方法で再生できます。 学習者はコンテンツを起動でき、コンテンツファイルタイプに関係なく再生が開始されます。
+Fluidic プレーヤーは、プラグインやダウンロードを必要とせずに、ほぼすべてのタイプの e ラーニングコンテンツを、一貫した直感的な方法で再生できます。 コンテンツファイルの種類に関わらず、学習者がコンテンツを起動すると再生が始まります。
 
 **メモとブックマーク**
 
-ファイルの種類に関係なく、任意のコンテンツにメモしたり、ブックマークしたりすることができます。 長いファイルまたはビデオから特定の選択を行う場合、ニーズに関連する情報を見つけた場所にポイントをブックマークできます。 ノートとブックマークは、検索したり、メールとして送信したりできます。 ポイントをクリックすると、Fluidicプレーヤーでビデオやドキュメントの該当するページに正確に移動します。
+ファイルの種類に関わらず、任意のコンテンツにメモしたり、ブックマークしたりすることができます。 長いファイルまたはビデオから特定の選択を行う場合、ニーズに関連する情報を見つけた場所にポイントをブックマークできます。 ノートとブックマークは、検索したり、メールとして送信したりできます。 ノートとブックマークをクリックすると、Fluidic プレーヤーでビデオやドキュメントページの該当する部分に移動します。
 
 Fluidicプレーヤーについて詳しくは、「 [Fluidicプレーヤー](../../learners/feature-summary/fluidic-player.md).
 
@@ -33,36 +33,36 @@ Fluidicプレーヤーについて詳しくは、「 [Fluidicプレーヤー](..
 
 * **webサイトに埋め込み型Fluidicプレーヤーを使用して**従業員の登録コースをリストアウトしたり、同じページでトレーニングを開始するためのリンクを提供したりできます。 これは、学習者がイントラネットwebサイトでトレーニングを利用できることを意味します。
 
-* トレーニングをビジネスとして行っている場合は、顧客がコースを購入するWebサイトを持っている可能性があります。 埋め込み型プレーヤーを同じwebサイトに統合して、顧客がwebサイト内で購入したコンテンツを利用できるようにすることができます。
+* トレーニングをビジネスとして行っている方たちの中には、自分たちの顧客がサイト上でコースを購入できるような web サイトを運営している場合があります。 埋め込み型プレーヤーを同じwebサイトに統合して、顧客がwebサイト内で購入したコンテンツを利用できるようにすることができます。
 
-## WebサイトにFluidicプレーヤーを埋め込む手順 {#stepstoembedfluidicplayerinyourwebsite}
+## web サイトに埋め込み型 Fluidic プレーヤーを埋め込む手順 {#stepstoembedfluidicplayerinyourwebsite}
 
-WebサイトにFluidicプレーヤーを埋め込むためのカスタムアプリケーションを構築するには、次の3つの基本的な手順が必要です。
+web サイトに Fluidic プレーヤーを埋め込むためのカスタムアプリケーションを構築するには、次の 3 つの基本的な手順が必要です。
 
-1. Learning Managerの統合管理アプリでアプリケーションを作成します。
-1. アクセストークンの取得。
+1. Learning Manager の統合管理アプリでアプリケーションを作成します。
+1. アクセストークンを取得します。
 1. パブリックAPIを使用してLearning Managerからリソースを取得するために、アクセストークンを使用します。
 
-### 1.統合管理でのアプリケーションの作成 {#1createanapplicationinintegrationadmin}
+### 1. 統合管理者としてのアプリケーションの作成 {#1createanapplicationinintegrationadmin}
 
-この手順は、更新トークンとアクセストークンの取得に使用する、アプリケーション/クライアントIDとアプリケーション/クライアントシークレットを作成するために必要です。 アプリケーションの作成の詳細については、「  [アプリケーション開発プロセス。](developer-manual.md#main-pars_header_994876235)
+この手順は、更新トークンとアクセストークンの取得に使用する、アプリケーション／クライアント ID とアプリケーション／クライアントシークレットを作成する場合に必要です。 アプリケーションの作成の詳細については、「  [アプリケーション開発プロセス。](developer-manual.md#main-pars_header_994876235)
 
-1. に移動 **[!UICONTROL IntegrationAdmin]** アプリを開く **[!UICONTROL アプリケーション]**.
+1. **[!UICONTROL 統合管理]**&#x200B;アプリに移動して&#x200B;**[!UICONTROL アプリケーション]**&#x200B;を開きます。
 
-1. 選択 **[!UICONTROL 登録]** をクリックします。
-1. この **[!UICONTROL 新しいアプリケーションの登録]** ウィンドウが開きます。 必須フィールドに入力します。
+1. ページの右上隅から&#x200B;**[!UICONTROL 「登録」]**&#x200B;を選択します。
+1. **[!UICONTROL 新規アプリケーションを登録]**&#x200B;ウィンドウが開きます。 必須フィールドに入力します。
 1. カスタムアプリケーションを複数のアカウントで共有する必要がある場合は、 **[!UICONTROL いいえ]** オプションフィールド内  **[!UICONTROL このアカウントのみですか？]**
-1. アプリケーションを保存し、アプリケーションIDとシークレットを生成するには、 **[!UICONTROL 保存]**.
+1. アプリケーションを保存して、アプリケーション ID とシークレットを生成するには&#x200B;**[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
-### 2.アクセストークンの取得 {#2retrievingaccesstoken}
+### 2. アクセストークンの取得 {#2retrievingaccesstoken}
 
-Learning ManagerはOAUTH2.0を使用しています。パブリックAPIを使用してリソースを取得するには、アクセストークンが必要です。 アクセストークンは、更新トークン、クライアントID、またはクライアントシークレットを使用して取得できます。
+Learning ManagerはOAUTH2.0を使用しています。パブリックAPIを使用してリソースを取得するには、アクセストークンが必要です。 アクセストークンは、更新トークン、クライアント ID またはクライアントシークレットを使用して取得できます。
 
 **2.1更新トークン**
 
-* OAuthコードの取得
+* OAuth コードの取得
 
-更新トークンを取得するには、OAuthコードが必要です。 次のURLを使用してサインインすると、Learning ManagerはOAuthコードを使用してリダイレクトURLにユーザーをリダイレクトします（サンプルアプリケーションの「oauthredirect.html」ファイルでは、OAuthコードの抽出が例示されています）。
+更新トークンを取得するには、OAuth コードが必要です。 次のURLを使用してサインインすると、Learning ManagerはOAuthコードを使用してリダイレクトURLにユーザーをリダイレクトします（サンプルアプリケーションの「oauthredirect.html」ファイルでは、OAuthコードの抽出が例示されています）。
 
 ```
 code https://learningmanager.adobe.com/oauth/o/authorize  
@@ -89,14 +89,14 @@ OAuthコードを受信した後、受信したOAuthコード、クライアン�
 
 **https://learningmanager.adobe.com/oauth/token**
 
-POSTリクエストへの応答として、次の情報が提供されます。
+POST リクエストへの応答として、次の情報が提供されます。
 
 i. refresh_token\
 ii. access_token\
 iii. user_id\
 iv. expires_in\
 v. user_role\
-vi. account_id
+vi.  account_id
 
 **2.2更新トークンからのアクセストークンの取得**
 
@@ -104,31 +104,31 @@ vi. account_id
 
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
-POSTリクエストへの応答として、次の情報が提供されます。\
+POST リクエストへの応答として、次の情報が提供されます。\
 i. refresh_token\
 ii. access_token\
 iii. user_id\
 iv. expires_in\
 v. user_role\
-vi. account_id
+vi.  account_id
 
-### 3.パブリックAPIを使用したリソースの取得 {#3retrieveresourcesusingpublicapi}
+### 3. パブリック API を使用したリソースの取得 {#3retrieveresourcesusingpublicapi}
 
 3番目の手順として、アクセストークンを使用する必要があります。パブリックAPIを使用して、Learning Managerからリソースを取得します。  アクセストークンは、公開api呼び出しを行うために必要であり、サンプルアプリケーションで示されているように、ヘッダーに追加する必要があります。
 
 ## 埋め込み型プレーヤー {#embeddableplayer}
 
-サードパーティのアプリケーションでは、埋め込み型プレーヤーを使用して、学習目標のコンテンツを再生できます。
+サードパーティのアプリケーションでも、埋め込み型プレーヤーを使用して、学習目標のコンテンツを再生できます。
 
 **埋め込み型プレーヤーでコースを開く**
 
-1. 埋め込みURLの作成
+1. 埋め込み URL の作成
 
    埋め込み型プレーヤーを使用してコースを開くには、次のように埋め込みURLを作成する必要があります。
 
    `https://learningmanager.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>`
 
-   ここで、lo_idはV2 APIのコースID形式に準拠している必要があります。
+   ここで、lo_id は V2 API のコース ID 形式に適合している必要があります。
 
    例： `https://learningmanager.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f`
 

@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # ユーザーログイン
 
-AdobeのLearning Managerを初めて使用する場合は、以下の手順に従ってアカウントを作成する必要があります。
+Adobe Learning Manager を初めて使用する場合は、以下の手順でアカウントを作成する必要があります。
 
-1. 管理者から送信されたようこそ電子メールに記載されたセキュアリンクを使用して、AdobeのLearning Managerを起動します。
+1. 管理者から送信されたようこそメールを開き、安全なリンクから Adobe Learning Manager を起動します。
 
    ログイン画面が表示されます。
 
@@ -34,4 +34,4 @@ AdobeのLearning Managerを初めて使用する場合は、以下の手順に�
 
 >[!NOTE]
 >
->初めてログインすると、Adobe IDが会社のアカウントと関連付けられます。 以降のログインでは、ようこそメールに記載されているアカウントURL（2番目のURL）をブックマークすることができます。
+>初めてログインすると、Adobe IDが会社のアカウントと関連付けられます。 以降のログインでは、ようこそメールに記載されているアカウント URL（2 番目の URL）をブックマークして使用することができます。

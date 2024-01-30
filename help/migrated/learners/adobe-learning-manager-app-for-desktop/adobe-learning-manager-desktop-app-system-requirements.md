@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
-title: 必要システム構成 | Learning ManagerデスクトップアプリケーションのAdobe
+title: 必要システム構成 | Learning ManagerAdobe版デスクトップアプリケーション
 description: Learning ManagerデスクトップアプリケーションをAdobeするための必要システム構成
 contentowner: kuppan
 source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 0%
 
 ### オーサリング
 
-* オペレーティングシステム： Windows 7、Windows 8.1、およびWindows 10（64 bitバージョンのみ）
+* オペレーティングシステム：Windows 7、Windows 8.1、Windows 10（64 ビット版のみ）
 * プロセッサー： Intel® CoreTM i5以降
-* Ram：最小8 GB
-* ディスプレイ：1,024 x 768以上の解像度、推奨 – 1,366 x 768
-* ストレージ：5 GB以上の空き容量のあるハードディスク
+* RAM：8 GB 以上
+* ディスプレイ：1024 x 768 以上の解像度（1366 x 768 を推奨）
+* ハードディスク空き容量：5 GB 以上
 * インターネット接続
 
-## MAC OS {#macos}
+## macOS {#macos}
 
 ### オーサリング
 
 * オペレーティングシステム： Mac OSX 10.12、10.13、10.14（64ビット版のみ）
 * プロセッサー： Intel® CoreTM i5以降
-* Ram：最小8 GB
-* ディスプレイ：1,024 x 768以上の解像度、推奨 – 1,366 x 768
-* ストレージ：5 GB以上の空き容量のあるハードディスク
+* RAM：8 GB 以上
+* ディスプレイ：1024 x 768 以上の解像度（1366 x 768 を推奨）
+* ハードディスク空き容量：5 GB 以上
 * インターネット接続
 
-## 各国語バージョン {#languageversions}
+## 対応言語 {#languageversions}
 
-このアプリケーションは次の言語で利用できます。
+Adobe Captivate Prime デスクトップアプリケーションでは、以下の言語がサポートされています。
 
 * 英語
 * フランス語
@@ -51,5 +51,5 @@ ht-degree: 0%
 
 ## 推奨されるカメラとマイク {#recommendedcamerasandmicrophones}
 
-* 青いマイク(Yeti/Snowball/Snowflake)
-* ロジクールHD Webカメラ(930/920/910)
+* Blue Microphones 製のマイク（Yeti、Snowball、Snowflake）
+* Logitech HD Web カメラ（930、920、910）

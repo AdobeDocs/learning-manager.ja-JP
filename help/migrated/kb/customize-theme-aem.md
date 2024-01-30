@@ -1,21 +1,21 @@
 ---
 jcr-language: en_us
-title: AEMコンポーネントのテーマのカスタマイズ
-description: AEMコンポーネントのテーマのカスタマイズ
+title: AEM コンポーネントのテーマをカスタマイズする
+description: AEM コンポーネントのテーマをカスタマイズする
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# AEMコンポーネントのテーマのカスタマイズ
+# AEM コンポーネントのテーマをカスタマイズする
 
-以下のJSONを使用して、カタログウィジェットをカスタマイズします。
+以下の JSON を使用して、カタログウィジェットをカスタマイズします。
 
 ```
 \{ 

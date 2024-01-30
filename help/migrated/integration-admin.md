@@ -6,7 +6,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/integration-admin2.png"></td> 
-   <td><p>統合管理者の役割に関連するLearning Managerの機能については、以下を参照してください。 </p> <p>統合管理者とは、サードパーティ製アプリケーション、またはSalesForceやFTPなどの組織のアプリケーションとAdobeのLearning Managerアプリケーションを統合する管理者を指します。 Learning Managerの統合管理者は、Learning Manager APIに基づいてアプリケーションを開発することもできます。 </p></td> 
+   <td><p>統合管理者ロールに関連付けられている Learning Manager の機能については、以下を参照してください。 </p> <p>統合管理者とは、サードパーティのアプリケーションや、SalesForce または FTP などの組織のアプリケーションを、Adobe Learning Manager アプリケーションと統合させる管理者のことです。Learning Manager の統合管理者は、Learning Manager API に基づいてアプリケーションを開発することもできます。 </p></td> 
   </tr> 
  </tbody>
 </table>
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
 
-* [Learning Managerコネクタ](integration-admin/feature-summary/connectors.md)
+* [Learning Manager コネクタ](integration-admin/feature-summary/connectors.md)
 * [アプリケーションデベロッパーマニュアル](integration-admin/feature-summary/developer-manual.md)
-* [Salesforceアプリ](integration-admin/feature-summary/sfdc-app.md)
+* [Salesforce アプリ](integration-admin/feature-summary/sfdc-app.md)
 

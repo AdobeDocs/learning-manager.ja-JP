@@ -1,32 +1,32 @@
 ---
-description: このトピックのリンクをクリックすると、Learning Managerのインストラクターについて学習できます
+description: このトピックのリンクをクリックすると、Learning Manager のインストラクターについて学習できます
 jcr-language: en_us
-title: Instructors
+title: インストラクタ
 contentowner: shhivkum
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Instructors
+# インストラクタ
 
-このトピックのリンクをクリックすると、Learning Managerのインストラクターについて学習できます
+このトピックのリンクをクリックすると、Learning Manager のインストラクターについて学習できます
 
 <table> 
  <tbody>
   <tr> 
    <td><img src="assets/instructoricon.jpg"></td> 
-   <td><p>機能と、インストラクターの役割に関するよくある質問(FAQ)を紹介します。</p></td> 
+   <td><p>機能と、インストラクターの役割に関するよくある質問（FAQ）を紹介します。</p></td> 
   </tr> 
  </tbody>
 </table>
 
-## よくある質問(FAQ) {#frequentlyaskedquestionsfaq}
+## よくある質問（FAQ） {#frequentlyaskedquestionsfaq}
 
 [よくある質問](instructors/frequently-asked-questions-for-instructors.md)
 

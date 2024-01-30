@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/learner2.png"></td> 
-   <td><p>Learning Managerの機能と、学習者の役割に関するよくある質問(FAQ)を紹介します。 </p></td> 
+   <td><p>Learning Manager の機能と、学習者の役割に関するよくある質問（FAQ）を紹介します。 </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## よくある質問(FAQ) {#frequentlyaskedquestionsfaq}
+## よくある質問（FAQ） {#frequentlyaskedquestionsfaq}
 
-[学習者の役割に関するよくある質問](learners/frequently-asked-questions-for-learners.md)
+[学習者の役割に関するよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
 
 ## 機能 {#features}
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 * [カタログ](learners/feature-summary/catalogs.md)
 * [資格認定](learners/feature-summary/certifications.md)
 * [コース](learners/feature-summary/courses.md)
-* [Fluidicプレーヤー](learners/feature-summary/fluidic-player.md)
-* [モバイルおよびタブレットユーザー](learners/feature-summary/ipad-android-tablet-users.md)
+* [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
+* [モバイル＆タブレットユーザー](learners/feature-summary/ipad-android-tablet-users.md)
 * [学習プログラム](learners/feature-summary/learning-programs.md)
 * [設定](learners/feature-summary/settings.md)
 * [スキルとレベル](learners/feature-summary/skills-levels.md)

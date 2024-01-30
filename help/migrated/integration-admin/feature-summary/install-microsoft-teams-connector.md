@@ -1,40 +1,40 @@
 ---
-description: Learning Manager AdobeにMicrosoft Teamsコネクタをインストールする
+description: Adobe Learning Manager で Microsoft Teams コネクターをインストール
 jcr-language: en_us
-title: Learning Manager AdobeにMicrosoft Teamsコネクタをインストールする
+title: Adobe Learning Manager で Microsoft Teams コネクターをインストール
 contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# Learning Manager AdobeにMicrosoft Teamsコネクタをインストールする
+# Adobe Learning Manager で Microsoft Teams コネクターをインストール
 
 ## 概要
 
-Microsoft® Teams®は、文書の共有、オンラインミーティング、その他ビジネスコミュニケーション機能全般をサポートする、チャットベースの持続的なコラボレーションプラットフォームです。
+Microsoft® Teams® は、文書の共有、オンラインミーティング、その他ビジネスコミュニケーション機能全般をサポートする、チャットベースの持続的なコラボレーションプラットフォームです。
 
 AdobeのLearning Managerでは、Microsoft TeamsミーティングをLearning Managerに統合する際に、バーチャル教室コネクターを使用します。
 
-Microsoft TeamsコネクタでLearning ManagerとMicrosoft Teamsシステムを接続することで、バーチャルミーティングを自動的に同期できます。 Microsoft Teamsコネクタの機能は次のとおりです。
+Microsoft Teams のコネクターにより、Learning Manager と Microsoft Teams のシステムを接続することで、バーチャルミーティングを自動的に同期できます。Microsoft Teams コネクターの機能は以下のとおりです。
 
 **Microsoft Teamsを使用したバーチャルセッションの設定**
 
-コネクターを使用することで、AdobeのLearning ManagerアカウントとMicrosoft Teamsアカウントを連携できます。 統合されるとLearning Managerの作成者は、Learning Managerで作成されたバーチャル教室モジュールのテクノロジーサービスプロバイダーとして、Microsoft Teamsを使用することができます。
+コネクターを用いることで、Adobe Learning Manager のアカウントと Microsoft Teams のアカウントを統合することができます。 統合されると Learning Manager の作成者は、Learning Manager で作成されたバーチャル教室モジュールのテクノロジーサービスプロバイダーとして、Microsoft Teams を使用することができます。
 
 **Microsoft Teamsがバーチャルクラスルームに入るときに学習者を認証することを許可**
 
-コネクターを使用することで、ミーティングの作成時にLearning Managerからミーティング主催者をMicrosoft Teamsとして設定できます。 ミーティング主催者はロビーを管理することで、ミーティングへの入室を制限または許可するとともに、Microsoft Teamsが提供する他のミーティングオプションを制御できます。
+コネクターを使用することで、ミーティングの作成時にLearning Managerからミーティング主催者をMicrosoft Teamsとして設定できます。 ミーティング主催者はロビーを管理することで、ミーティングへの入室を制限または許可するとともに、Microsoft Teams が提供する他のミーティングオプションを制御することができます。
 
 **ユーザー完了の自動同期を使用**
 
 ユーザーによる自動的な完了の同期プロセスにより、Learning Manager管理者はMicrosoft Teamsミーティングの完了記録および記録用URLを自動で取得できます。
 
-## Microsoft Teamsのロール
+## Microsoft Teams の役割
 
 複数の参加者が含まれるミーティングを開催する場合は、各参加者に役割を割り当てて、参加者がミーティングで何ができるかを把握できるようにすることができます。
 
@@ -42,7 +42,7 @@ Microsoft TeamsコネクタでLearning ManagerとMicrosoft Teamsシステムを�
 
 詳しくは、「  [Teams Meetingのロール – Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-## Microsoft Teamsコネクタの設定
+## Microsoft Teams コネクターの設定
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Office 365 E3またはOffice 365 E5を使用している場合は、Microsoft Te
 1. クリック **[!UICONTROL 新しいクライアントシークレット]** 次の詳細を追加します。
 
    1. **説明**  – 任意の名前を入力
-   1. **有効期限**  – 任意の値に設定(推奨値：24か月 以前のクライアント資格情報の有効期限が切れたら、新しいクライアント資格情報が生成されていることを確認してください)。
+   1. **有効期限**  – 任意の値に設定(推奨値：24か月 期限が超過すると新たなクライアントの認証情報が生成されることを確認）
 
 統合時に用いられるクライアントシークレットを書き留めます。
 
@@ -123,7 +123,7 @@ Office 365 E3またはOffice 365 E5を使用している場合は、Microsoft Te
 
 PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリケーションアクセスポリシーを構成するには、次の手順に従ってください  [文書](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
-これにより、コネクタがMicrosoft Teamsのオンライン会議にアクセスできるようになります。
+これにより、コネクタから Microsoft Teams オンライン会議にアクセスできます。
 
 >[!NOTE]
 >
@@ -157,15 +157,15 @@ PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリ�
 
 ## セッションの記録
 
-セッションの記録に使用されるAPIは保護されています。 APIにアクセスするには、Microsoftからアクセスをリクエストする必要があります。 詳しくは、こちらを参照してください。  [文書](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+セッションの記録に用いられる API は保護されています。 API にアクセスするには Microsoft にアクセスを申請する必要があります。 詳しくは、こちらを参照してください。  [文書](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
 文書には以下の記載があります。
 
 *「これらの保護されたAPIへのアクセスをリクエストするには、次の手順を実行します  [リクエストフォーム](https://aka.ms/teamsgraph/requestaccess). アクセス申請は毎週水曜日に審査され、米国の主な休日を除き毎週金曜日に承認されます。休日期間中に提出された申請は、翌営業週に処理されます。 申請が承認されたかどうかを確認するには、翌営業週の月曜日にアプリケーションへのアクセスをテストしてください。」*
 
-学習者には、VCコースの概要ページに記録用URLが表示されます。
+学習者には、VC コースの概要ページに記録用 URL が表示されます。
 
-コースを完了して30分経過すると、学習者の出席がマークされます。
+学習者の出席はコース終了の 30 分後にマークされます。
 
 ## よくある質問
 
@@ -177,7 +177,7 @@ PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリ�
 
 +++主催者はLearning ManagerとMicrosoft Teamsの両方に登録されたユーザーでなければなりませんか？
 
-はい。主催者はLearning ManagerとMicrosoft Teamsの両方に登録されている必要があります。 また統合管理アプリで設定されたMicrosoftテナントにも登録されていなければなりません。
+はい。主催者は Learning Manager および Microsoft Teams の両方に登録されている必要があります。また統合管理アプリで設定されたMicrosoftテナントにも登録されていなければなりません。
 
 +++
 
@@ -187,7 +187,7 @@ PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリ�
 
 +++
 
-+++Microsoft Teamsは会議、ウェビナー、ライブイベントを開催 Teamsコネクターはどのコネクターをサポートしていますか？
++++Microsoft Teamsは会議、ウェビナー、ライブイベントを開催 そのうち Teams コネクターでサポートされているのはどれですか？
 
 現在、Teamsコネクターでサポートされているのは、Microsoft Teams内の会議のみです。 詳しくは、こちらを参照してください。  [文書](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 

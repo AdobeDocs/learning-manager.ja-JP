@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 # Contributeアーティクル
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## Adobeオープンソース行動規範
 
-このプロジェクトは、 [Adobeオープンソース行動規範](code-of-conduct.md) または [.NET Foundation行動規範](https://dotnetfoundation.org/code-of-conduct). 詳しくは、 [投稿中](contributing.md) 記事です。
+このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md) または [.NET Foundation 行動規範](https://dotnetfoundation.org/code-of-conduct)を採用しています。詳しくは、[投稿](contributing.md)の記事を参照してください。
 
 ## Adobeコンテンツに対するコントリビューションについて
 

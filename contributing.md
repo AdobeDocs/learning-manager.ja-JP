@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # 投稿中
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 行動規範
 
-この計画はAdobeに合っている [行動規範](code-of-conduct.md). 参加することにより、このコードを維持することが求められます。 認められない行為を次に報告してください：
+このプロジェクトはアドビ[行動規範](code-of-conduct.md)を遵守しています。参加することにより、このコードを維持することが求められます。 認められない行為を次に報告してください：
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## コントリビューターガイドドキュメント
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## コードレビュー
 
-すべての提出物はプルリクエストの形式で提出する必要があり、プロジェクトのコミッターによるレビューが必要です。 読み取り [GitHubのpull requestドキュメント](https://help.github.com/articles/about-pull-requests/)
+すべての提出物はプルリクエストの形式で提出する必要があり、プロジェクトのコミッターによるレビューが必要です。 読み取り [GitHubのpull requestドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 詳細は、プルリクエストの送信を参照してください。
 
 <!--

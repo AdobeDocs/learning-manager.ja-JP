@@ -1,32 +1,32 @@
 ---
-description: Google ChromeでHARファイルを生成する方法については、以下を参照してください。
+description: Google Chrome で HAR ファイルを生成する方法については、こちらをご覧ください。
 jcr-language: en_us
-title: HARファイルを生成する
+title: HAR ファイルを生成する
 contentowner: dvenkate
 source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
 
 
-# HARファイルを生成する
+# HAR ファイルを生成する
 
-Google ChromeでHARファイルを生成する方法については、以下を参照してください。
+Google Chrome で HAR ファイルを生成する方法については、こちらをご覧ください。
 
-HARファイルを生成するには、次の手順に従います。
+HAR ファイルを生成するには、以下の手順に従います。
 
-1. Google Chromeウィンドウを開き、新しいタブを開きます。
-1. ページのデベロッパーツールを開き、右クリック/Inspectを選択します。
-1. を開きます **[!UICONTROL ネットワーク]** タブをクリックします。 赤い録音ボタンがアクティブであることを確認します。 有効にする **[!UICONTROL ログを保持]** チェックボックスをオンにします。
+1. Google Chrome ウィンドウを開き、新しいタブを開きます。
+1. ページ対応の開発者ツールを開き、右クリック／ Inspect をクリックします。
+1. 「**[!UICONTROL ネットワーク]**」タブを開きます。赤い録音ボタンがアクティブであることを確認します。 有効にする **[!UICONTROL ログを保持]** チェックボックスをオンにします。
 
    ![](assets/preserve-log-checkbox.png)
 
    *「ネットワーク」タブで「ログの保存」チェックボックスをオンにします*
 
-1. ログイン先 [Learning Manager](https://learningmanager.adobe.com/acapindex.html) 認証情報を使用して、コースに参加します。 問題の原因となるすべての操作を実行します。
+1. 認証情報を使用して [Learning Manager](https://learningmanager.adobe.com/acapindex.html) にログインし、コースに参加します。問題発生の原因となるすべての操作を行います。
 1. デベロッパーツールで、右クリックして **すべてをコンテンツ付きHARとして保存**.
 
    Google Chromeの一部のバージョンでは、次の操作が必要になる場合があります **[!UICONTROL コピー]** > **[!UICONTROL すべてをHARとしてコピー]**.
@@ -35,4 +35,4 @@ HARファイルを生成するには、次の手順に従います。
 
    *すべてのHARファイルをコピー*
 
-1. コピーした内容をメモ帳ファイルに貼り付けます。 デスクトップに別名で保存 **logs.har** 電子メールでAdobeに送信します。
+1. コピーした内容をメモ帳ファイルに貼り付けます。デスクトップに別名で保存 **logs.har** 電子メールでAdobeに送信します。

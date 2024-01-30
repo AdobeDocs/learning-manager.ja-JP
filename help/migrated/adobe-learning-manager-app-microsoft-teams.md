@@ -1,37 +1,37 @@
 ---
-description: Adobe版Learning Manager Microsoft Teams版
+description: Microsoft Teams 向け Adobe Learning Manager アプリ
 jcr-language: en_us
-title: Adobe版Learning Manager Microsoft Teams版
+title: Microsoft Teams 向け Adobe Learning Manager アプリ
 contentowner: saghosh
 source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
 
-# Adobe版Learning Manager Microsoft Teams版
+# Microsoft Teams 向け Adobe Learning Manager アプリ
 
 ## 設定方法
 
-MS TeamsでALMを設定するには、3つの手順を実行し、ALM AdministratorとMicrosoft Azure Administratorからの支援が必要です。 組織によっては、Azure管理者とMS Teams管理者が異なるため、MS Teams管理者も追加する必要があります。
+MS Teams に ALM を設定するには 3 つのステップがあり、ALM 管理者と Microsoft Azure 管理者のサポートが必要です。 一部の組織では Azure 管理と MS Teams 管理を担当するスタッフが異なるため、MS Teams 管理者を別途任命することが必要です。
 
 **ALM管理者 – 統合管理者の役割がTeamsアプリを承認**
 
-統合管理者がMS Teamsアプリを承認すると、AdobeのLearning ManagerアプリがMS Teamsアプリストアで利用できるようになり、学習者はアプリにアクセスできるようになります。 ただし、アプリには通知やサイレントログインはなく、MS Teamsの学習者にアプリを固定することはできません。
+統合管理者がMS Teamsアプリを承認すると、AdobeのLearning ManagerアプリがMS Teamsアプリストアで利用できるようになり、学習者はアプリにアクセスできるようになります。 ただし、このアプリには通知やサイレントログインの機能がなく、アプリを MS Teams で学習者用にピン留めできません。
 
 **Microsoft Azure管理者がAzureダッシュボードでALMアプリの権限を承認**
 
-Azure管理者は、ALMアプリに必要な権限を承認する必要があります。 これにより、ALMアプリがMS Teamsに通知を送信し、サイレントログインを許可できるようになります。 サイレントログインでは、ブラウザーでLearning ManagerをAdobeして個別にログインする必要はありません。
+Azure 管理者は、ALM アプリに必要な権限を承認する必要があります。 管理者が承認すると、ALM アプリから MS Teams に通知を送信することや、サイレントログインを実行することが可能になります。 サイレントログインの場合は、ブラウザーで Adobe Learning Manager にログインする必要がなくなります。
 
 **MS Teams管理者がALMグループ版のポリシーを作成**
 
-管理センターのMS Teams管理者は、すべてのユーザーのALMアプリを固定し、グローバルポリシーとして許可する必要があります。 ALMが社内の特定のグループでのみ使用されている場合、MS Teams管理者はカスタムポリシーを選択し、その特定のグループにのみ適用する必要があります。
+管理センターの MS Teams 管理者は、すべてのユーザーに対して ALM アプリをピン留めし、グローバルポリシーとして許可する必要があります。 ALM を社内で使用するのが特定のグループのみの場合、MS Teams 管理者はカスタムポリシーを選択し、ポリシーをその特定のグループにのみ適用する必要があります。
 
 ## 統合管理者の役割がTeamsアプリを承認
 
-次の手順に従います。
+以下の手順を実行します。
 
 1. 統合管理者アプリで、 **[!UICONTROL アプリケーション]** > **[!UICONTROL おすすめアプリ]**、を選択します **[!UICONTROL ALM Teamsアプリ]**.
 
@@ -55,9 +55,9 @@ Azure管理者は、ALMアプリに必要な権限を承認する必要があり
 
 これで、ユーザーがMS TeamsでALMアプリにアクセスできるようになりました。
 
-## Microsoft Azure管理者がAzureダッシュボードでALMアプリの権限を承認
+## Microsoft Azure 管理者：Azure ダッシュボードでの ALM アプリの権限の承認
 
-次の手順に従います。
+以下の手順を実行します。
 
 1. Azure管理者として、Azureダッシュボードの「 Azure Active Directoryの管理」セクションに移動します。
 
@@ -100,25 +100,25 @@ Azure管理者は、ALMアプリに必要な権限を承認する必要があり
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
    *アクセス権が付与されます*
 
-## MS Teams管理者がTeamsアプリのポリシーを作成
+## MS Teams 管理者：Teams アプリ向けのポリシーの作成
 
-次の手順に従います。
+以下の手順を実行します。
 
 1. MS Teams管理者として、管理センターで、Teamsアプリを学習者のTeamsアプリに追加するためのポリシーを作成します。
 
    ![](assets/microsoft_teams_admin_center.png)
    *ポリシーの作成*
 
-1. 「Setup Policies」セクションに移動します。 グローバルポリシーを作成し、 **[!UICONTROL アプリを追加]** （「固定されたアプリ」サブセクション）。
+1. 「ポリシーの設定」セクションに移動します。 グローバルポリシーを作成し、 **[!UICONTROL アプリを追加]** （「固定されたアプリ」サブセクション）。
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *ポリシーの追加*
 
-1. 次のダイアログで、 **[!UICONTROL Learning ManagerのAdobe]**&#x200B;を選択し、アプリを追加します。 これにより、Learning Manager Adobeが「インストール済みアプリ」セクションに追加されます。
+1. 次のダイアログで&#x200B;**[!UICONTROL 「Adobe Leaning Manager」]**&#x200B;を検索して、アプリを追加します。 これにより、Learning Manager Adobeが「インストール済みアプリ」セクションに追加されます。
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *アプリをインストール*
 
 1. このポリシーを保存します。 これにより、組織内のすべてのユーザーがアプリを使用できるようになります。
 
-また、管理者はグローバルポリシーの代わりにカスタムポリシーを作成することもできます。 AdobeのLearning Managerをそのカスタムポリシーに追加し、AdobeのLearning Managerにアクセスする必要があるユーザーグループにのみカスタムポリシーを適用します。
+管理者はグローバルポリシーを使用せずに、カスタムポリシーを作成することも可能です。 AdobeのLearning Managerをそのカスタムポリシーに追加し、AdobeのLearning Managerにアクセスする必要があるユーザーグループにのみカスタムポリシーを適用します。

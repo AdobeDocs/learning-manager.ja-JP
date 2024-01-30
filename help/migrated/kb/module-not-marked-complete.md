@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
-title: Learning Manager Adobeのコース完了時に、モジュールが未完了とマークされる
-description: 学習者がLearning Manager Adobeでコースを完了した後でも、モジュールが未完了としてマークされます。
+title: Adobe Learning Manager のコース完了時に、モジュールが未完了とマークされる
+description: 学習者が Adobe Learning Manager でコースを完了した後でも、モジュールが未完了としてマークされます。
 contentowner: nluke
 source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 0%
+ht-degree: 53%
 
 ---
 
 
 
-# Learning Manager Adobeのコース完了時に、モジュールが未完了とマークされる
+# Adobe Learning Manager のコース完了時に、モジュールが未完了とマークされる
 
 ## 問題
 
-学習者がLearning Manager Adobeでコースを完了した後でも、モジュールが未完了としてマークされます。
+学習者が Adobe Learning Manager でコースを完了した後でも、モジュールが未完了としてマークされます。
 
 ## 原因
 
@@ -28,9 +28,9 @@ SCORM 2004では、合格および完了条件を定義し、両方のステー�
 
 ## 解決策
 
-この問題はレポートに関連しています **環境設定** プロジェクトに設定します。 作成者は、コースの完了および合格条件を確認する必要があります。
+この問題は、プロジェクトに設定されたレポート&#x200B;**設定**&#x200B;に関連しています。 作成者は、コースの完了および合格条件を確認する必要があります。
 
-必要な変更がある場合、作成者はAdobe Captivate Classicなどのコンテンツオーサリングツールを使用して行うことができます。 作成者はそれに応じてモジュールを更新できます。
+必要な変更がある場合、作成者はAdobe Captivate Classicなどのコンテンツオーサリングツールを使用して行うことができます。 その後、作成者はそれに応じてモジュールを更新できます。
 
 ![](assets/scorm.png)
 

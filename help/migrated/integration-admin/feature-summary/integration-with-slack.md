@@ -1,75 +1,75 @@
 ---
 jcr-language: en_us
-title: Learning ManagerとSlackの連携
-description: Learning ManagerとSlackの連携
+title: Learning Manager とSlack
+description: Learning Manager とSlack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
 
 
-# Learning ManagerとSlackの連携
+# Learning Manager とSlack
 
 我々は **削除済み** **Slack** をLearning Managerのコネクターとして使用します。 Slackコネクタにアクセスできなくなります。
 
-Slackユーザーは、AdobeのLearning ManagerアプリをSlackのアプリディレクトリからSlackチームにインストールして、Slack内でLearning Managerのコンテンツを検索することができます。 Primebotを操作して、Learning Managerで新しいコースを検索したり、推奨事項を表示したり、今後の締め切りに関する通知を受信したりできます。 また、Slack内から登録して学習に直接ジャンプすることもできます。
+Slack ユーザーは、Slack App ディレクトリの Adobe Learning Manager アプリを Slack チームにインストールして、Slack で Learning Manager のコンテンツを検索できます。Primebotを操作して、Learning Managerで新しいコースを検索したり、推奨事項を表示したり、今後の締め切りに関する通知を受信したりできます。 Slack 内で登録を行って学習内容に直接ジャンプできます。
 
 Learning ManagerアプリSlack版は、Learning ManagerのAzureインスタンスではサポートされていません。
 
-## AdobeのLearning Managerアプリのインストール {#installingadobecaptivateprimeapp}
+## Learning ManagerAdobeアプリケーションのインストール {#installingadobecaptivateprimeapp}
 
-Slackは、学習者アカウントでCP Primeアプリをインストールできます。 アプリをインストールするには、SlackアカウントでAppディレクトリを開き、Learning Managerを検索します。 アプリをダウンロードしてインストールします。 アカウントでアプリが承認されない場合は、統合管理者に連絡して承認を受けてください。 既に承認されている場合は、サインインできます。
+学習者は、Slack アカウントで CP Prime アプリをインストールできます。 アプリをインストールするには、Slack アカウントで App ディレクトリを開き、Learning Manager を検索します。アプリをダウンロードしてインストールします。 アカウントでアプリが承認されない場合は、統合管理者に連絡して承認を受けてください。 既に承認されている場合は、サインインできます。
 
-## 統合管理者としての学習者のログインを承認 {#approvinglearnersigninasanintegrationadmin}
+## 統合管理者としての学習者のログインを承認する方法 {#approvinglearnersigninasanintegrationadmin}
 
 統合管理者として、SlackでPrimeアプリケーションを使用するための権限を学習者に付与するには、次の手順に従います。
 
-1. 選択 **[!UICONTROL アプリケーション]** 左ペインで、 **[!UICONTROL おすすめアプリ]** タブをクリックします。
+1. 左ペインで&#x200B;**[!UICONTROL 「アプリケーション」]**&#x200B;を選択し&#x200B;**[!UICONTROL 「おすすめアプリ」]**&#x200B;タブをクリックします。
 
    ![](assets/featuredapps.jpg)
 
-1. アイコンをクリック **[!UICONTROL Slack]** タイル/slack統合ページが開きます。 クリック **[!UICONTROL 承認]** をクリックして、アプリケーションを承認します。
+1. **[!UICONTROL Slack]**&#x200B;タイルをクリックし、Slack との統合ページを開きます。 クリック **[!UICONTROL 承認]** をクリックして、アプリケーションを承認します。
 
    ![](assets/approval.png)
 
 1. ページに戻る **[!UICONTROL アプリケーション]** ページです。 承認されると、Slackが「 **[!UICONTROL 外部アプリ]** タブをクリックします。
-1. 学習者は、Slackを使用してPrimeアカウントにログインできるようになりました。
+1. 学習者は、Slack を使用して Prime アカウントにサインインできるようになりました。
 
-## Primebotの機能 {#primebotfunctionalities}
+## Primebot の機能 {#primebotfunctionalities}
 
-これで、Primebotを操作できるようになりました。 以下はボットの機能です。
+これで、Primebotを操作できるようになりました。 Primebot の機能を次に示します。
 
 1 – コマンド
 
 &#42;/prime&#42; AdobeのLearning Managerアカウントに関する1回限りのポイントクエリに使用できます。
 
-使用できるサブコマンドは次のとおりです。
+使用できるサブコマンドは以下のとおりです：
 
 /prime find `<query>`  – コース、資格認定などの検索
 
-/prime recommend – 推奨事項の表示
+/prime recommend - 推奨事項の表示
 
-/prime deadlines – 期限切れと期限切れ予定を表示します
+/prime deadlines - 期限切れと期限切れ予定の表示
 
-/prime enrollments – 登録の表示
+/prime enrollments - 登録の表示
 
-/prime skills – スキルの表示
+/prime skills - スキルの表示
 
-/prime notifications – 通知の表示
+/prime notifications - 通知の表示
 
-/prime catalogs – カタログの表示
+/prime catalogs - カタログの表示
 
 /prime invite - [管理者のみ] 現在のチームのSlackユーザーにprimebotを試すよう招待する
 
-/prime profile – プロファイルの表示
+/prime profile - プロファイルの表示
 
-/prime logout – このSlackチームのPrimeアカウントからログアウト
+/prime logout - この Slack チームの Prime アカウントからのログアウト
 
-/prime help – ヘルプメッセージを表示
+/prime help - ヘルプメッセージの表示
 
 2 – 推奨
 

@@ -1,38 +1,38 @@
 ---
 jcr-language: en_us
-title: Adobe Connectとの連携
+title: Adobe Connect の統合
 description: Adobe ConnectがLearning Managerアカウントと統合されている場合、Adobe Connectを使用してバーチャルクラスルームコースを受講できます。 Adobe Connectを使用できない場合は、会社の管理者に連絡してください。
 source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
 
 
-# Adobe Connectとの連携
+# Adobe Connect の統合
 
 Adobe ConnectがLearning Managerアカウントと統合されている場合、Adobe Connectを使用してバーチャルクラスルームコースを受講できます。 Adobe Connectを使用できない場合は、会社の管理者に連絡してください。
 
-## Adobe Connectバーチャルクラスルームコースの利用 {#consumeadobeconnectvirtualclassroomcourses}
+## Adobe Connect バーチャルクラスルームコースの使用 {#consumeadobeconnectvirtualclassroomcourses}
 
 学習者としてLearning Managerにログインし、「学習状況」ウィジェットからバーチャルクラスルームのコースカードをクリックします。 または、左ペインで「カタログ」を選択し、コースを絞り込んで、必要なバーチャルクラスルームコースをクリックすることもできます。
 
-Adobe Connectバーチャルクラスルームセッションに登録している場合は、セッションを開始する前にアカウントURLの通知が届きます。
+Adobe Connect のバーチャルクラスルームセッションに登録している場合は、セッションの開始前にアカウント URL の通知が届きます。
 
-1. URLをクリックし、バーチャルクラスルームカードをクリックします。
-1. ページの右上隅にある「開始」をクリックしてから、プレーヤーでセッションURLをクリックするか、または
+1. 通知から URL をクリックし、バーチャルクラスルームカードをクリックします。
+1. コースへ参加するには、ページの右上隅にある「開始」をクリックし、プレーヤーのセッション URL をクリックします。
 
-   ページ上でセッションURLを直接クリックします。
+   または、ページ上でセッション URL を直接クリックします。
 
-コースを完了すると、コースの成功通知が届きます。
+コースを修了すると、コース修了通知を受け取ります。
 
-管理者がL1フィードバックを有効にしている場合、Learning ManagerアプリケーションからL1フィードバックの提出を促すリマインダーが送信されます。
+管理者が L1 フィードバックを有効にしている場合、Learning Manager アプリケーションで L1 フィードバックの提出を求めるリマインダーが送信されます。
 
-## 記録されたバーチャルクラスルームセッションを表示 {#viewrecordedvirtualclassroomsessions}
+## バーチャルクラスルームの録音セッションを見る {#viewrecordedvirtualclassroomsessions}
 
-記録されたバーチャルクラスルームセッションを視聴する場合は、バーチャルクラスルームコースをクリックします。 記録されたすべてのセッションURLを表示できます。 これは、セッションのホストがセッションを記録する場合にのみ適用されます。
+バーチャルクラスルームの録音セッションを聞く場合は、バーチャルクラスルームコースをクリックします。録音セッションの URL は一覧表示することができます。ただし、セッションのホストが録音していた場合にのみ利用できます。
 
 >[!NOTE]
 >

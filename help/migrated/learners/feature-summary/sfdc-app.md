@@ -1,51 +1,51 @@
 ---
 jcr-language: en_us
-title: Salesforce向けLearning Managerアプリ
-description: Salesforce&trade；は、営業およびマーケティングチームに最も人気のあるCRMソリューションです。 SalesforceでAdobeのLearning Managerアプリを使用すると、学習者はSalesforceインターフェイス内からすべての学習コンテンツにアクセスできます。 学習者は、コース、学習プログラム、作業計画書など、割り当てられた学習コンテンツにSalesforce内からアクセスできます。 ユーザーは、管理者から登録とアナウンスに関する通知を受け取ることもできます。
+title: Salesforce 向け Learning Manager アプリ
+description: Salesforce&trade；は、営業およびマーケティングチームに最も人気のあるCRMソリューションです。 Salesforce で Adobe Learning Manager アプリを用いると、学習者は Salesforce のインターフェイス内からすべての学習コンテンツにアクセスすることができます。学習者は、コース、学習プログラム、ジョブエイドなどの割り当てられた学習コンテンツに Salesforce 内からアクセスできます。ユーザーは管理者から登録とアナウンスに関する通知を受信することもできます。
 contentowner: jayakarr
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
 
 
-# Salesforce向けLearning Managerアプリ
+# Salesforce 向け Learning Manager アプリ
 
 ## 概要 {#overview}
 
-Salesforce™は、セールスおよびマーケティングチームに最も人気のあるCRMソリューションです。 SalesforceでAdobeのLearning Managerアプリを使用すると、学習者はSalesforceインターフェイス内からすべての学習コンテンツにアクセスできます。 学習者は、コース、学習プログラム、作業計画書など、割り当てられた学習コンテンツにSalesforce内からアクセスできます。 ユーザーは、管理者から登録とアナウンスに関する通知を受け取ることもできます。
+Salesforce™ は、販売やマーケティングチームに最も人気のある CRM ソリューションです。Salesforce で Adobe Learning Manager アプリを用いると、学習者は Salesforce のインターフェイス内からすべての学習コンテンツにアクセスすることができます。学習者は、コース、学習プログラム、ジョブエイドなどの割り当てられた学習コンテンツに Salesforce 内からアクセスできます。ユーザーは管理者から登録とアナウンスに関する通知を受信することもできます。
 
-このアプリは、Learning Managerアカウントの管理者が必要な設定アクティビティを完了した場合にのみ、Salesforceで使用できます。 詳しくは、「 [Salesforce向けLearning Managerアプリ](../../integration-admin/feature-summary/sfdc-app.md)、管理者にSalesforce向けLearning Managerアプリのインストールを依頼してください。
+このアプリは、Learning Manager アカウントの管理者によって必要な設定手順が既に完了している場合に限り、Salesforce 内で使用することができます。詳しくは、「 [Salesforce向けLearning Managerアプリ](../../integration-admin/feature-summary/sfdc-app.md)、管理者にSalesforce向けLearning Managerアプリのインストールを依頼してください。
 
-## Salesforceでアプリを探す {#locateappinsalesforce}
+## Salesforce でアプリを検索する {#locateappinsalesforce}
 
 学習者は、 **アプリ** ページの右隅にあるドロップダウンで、Learning Manager Adobeを選択します。
 
-ドロップダウンでアプリが見つからない場合は、Salesforce管理者に連絡してください。
+ドロップダウンでアプリが見つからない場合は、Salesforce 管理者に連絡してください。
 
-アプリを選択すると、以下のスナップショットに示すように、AdobeのLearning Managerアプリに切り替えることができます。
+アプリを選択すると、以下のスナップショットが示すとおり、Adobe Learning Manager アプリに切り替えられます。
 
 <!--![](assets/connect-to-prime.png)-->
 
-## ログインと使用方法 {#loginandusageinstructions}
+## ログインと使用手順 {#loginandusageinstructions}
 
 クリック **[!UICONTROL Learning Managerに接続]** 上記のスナップショットが示すとおりLearning Manager Adobeで、Learning Managerアカウントの資格情報でログインします。
 
-Learning Managerアプリに接続し、Salesforce内から使用することができます。
+Learning Manager アプリに接続し、Salesforce 内から使用することができます。
 
-また、左ペインのホームページにあるAdobeのLearning Manager通知コンポーネントを使用して、Salesforce内でLearning Managerアカウントにログインすることもできます。 管理者がSalesforceでAdobe Learning Manager通知コンポーネントを設定した場合にのみ、学習者はコンポーネントを表示できます。
+また左ペインのホームページの Adobe Learning Manager 通知コンポーネントを用いて、Salesforce 内で Learning Manager アカウントにログインすることもできます。管理者が Salesforce で Adobe Learning Manager 通知コンポーネントを設定した場合のみ、学習者はコンポーネントを表示することができます。
 
-AdobeのLearning Managerアプリの学習者ビューの代表的なスナップショットは、以下を参照してください。
+Adobe Learning Manager アプリの学習者ビューの代表的なスナップショットは、以下を参照してください。
 
 ![](assets/learners-view.png)
 
 *AdobeのLearning Managerアプリのビュー*
 
-## アプリから切断 {#disconnectfromtheapp}
+## アプリからの接続解除 {#disconnectfromtheapp}
 
-上記のスナップショットが示すとおり、学習者ページの下部にある「切断」リンクをクリックして、 **接続解除** AdobeのLearning Managerアプリから。 切断すると、AdobeのLearning Managerアプリのウェルカムページにリダイレクトされます。
+上記のスナップショットが示すとおり、学習者ページ下の「切断」リンクをクリックし、Adobe Learning Manager アプリを&#x200B;**切断**&#x200B;することができます。切断すると、AdobeのLearning Managerアプリのウェルカムページにリダイレクトされます。
 
-アプリへの接続またはアプリからの切断は、何度でも行うことができます。
+何回でもアプリに接続または切断できます。

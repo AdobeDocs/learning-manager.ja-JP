@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -23,34 +23,34 @@ macOS X 10.12、10.13、10.14、10.15
 
 ## RAM
 
-8 GBのRAM
+8 GB 以上の RAM
 
-## 表示
+## ディスプレイ
 
-サポートされる最小解像度 – 1,024 x 720
+サポートされる最小解像度 - 1024 x 720
 
 ## ディスク容量
 
-5 GB以上の空き容量のあるハードディスク
+5 GB 以上の空き容量のあるハードディスク
 
-## 記録中
+## 録画
 
-* オーディオ録音に必要なマイク。
-* ビデオ録画に必要なwebカメラ。
+* オーディオ録音に必要なマイク
+* ビデオ録画に必要な web カメラ
 
 ## その他
 
-アプリケーションの使用に必要な、アクティブなインターネット接続とAdobeのLearning Manager学習者アカウント。
+アクティブなインターネット接続と Adobe Learning Manager 学習者アカウント（アプリケーションの使用に必要）。
 
 ## ブラウザーの仕様
 
-没入型レイアウトのホームページは、IE 11ブラウザーではサポートされていません。
+没入型レイアウトのホームページは、IE 11 ブラウザー非対応です。
 
-* Google Chromeバージョン43以降。
-* 最新バージョンのEdge、Safari（バージョン13以降）およびFirefox
+* Google Chrome バージョン 43 以降
+* 最新バージョンの Edge、Safari（バージョン 13 以降）および Firefox
 * Internet Explorerバージョン11以降
 
-## 推奨される画像サイズ {#recommendedsizeofimages}
+## 推奨画像サイズ {#recommendedsizeofimages}
 
 * マストヘッド：1280 x 360 px
 * カタログカードの画像：280 x 100 px
@@ -69,37 +69,37 @@ Intel® CoreTM i5以上
 
 ### RAM
 
-最小8 GBが必要です。
+8 GB 以上が必要です。
 
 ### 画面解像度
 
-1366 x 768ピクセル
+1366x768 ピクセル
 
 ### ディスク容量
 
-5 GB以上の空き容量のあるハードディスク
+5 GB 以上の空き容量のあるハードディスク
 
-### 記録中
+### 録画
 
-オーディオ録音にはマイクが、ビデオ録画にはwebカメラが必要です。
+オーディオ録音にはマイクが、ビデオ録画には web カメラが必要です。
 
 ## モバイルアプリ
 
 ### デバイス
 
-* iOS：最新から2つのメジャーバージョン。
+* iOS: 最新から 2 つのメジャーバージョン。
 * Android：最新から2つのメジャーバージョン。
 
 ### ブラウザー
 
-* Android版Chrome.
-* iOSのSafari
+* Android 版 Chrome.
+* iOS 版 Safari.
 
 ### ネットワーク速度
 
 * 1 Mbps
 
-### CPU、メモリ（分）デバイス
+### CPU、メモリ（最小）デバイス
 
 * Qualcomm® Snapdragon™ 695 5Gまたは同等の6 GBメモリ
 
@@ -113,15 +113,15 @@ Intel® CoreTM i5以上
 
 >[!NOTE]
 >
->Learning Managerモバイルアプリでサポートされるのは、学習者の役割のみです。
+>Learning Manager のモバイルアプリで対応するのは、学習者の役割のみです。
 
 ## 最大コンテンツサイズ {#maximumcontentsize}
 
-アップロードできる最大ファイルサイズは600 MBです。
+アップロードできる最大ファイルサイズは 600 MB です。
 
 >[!NOTE]
 >
->の *user.csv* ファイルが100 MBを超えています。このファイルを読み込むと、ブラウザーが予期しない動作をする可能性があります。 この問題は、ブラウザーのメモリが不足していることが原因で発生します。
+>サイズが 100 MB を超えている *user.csv* ファイルを読み込むと、ブラウザで予期しない問題が発生する可能性があります。 この問題は、ブラウザのメモリが不足している場合に発生します。
 
 大きなサイズの読み込みをお勧めします *user.csv* 自動Box/Exavaultワークフローを使用するファイル。 詳細については、以下を参照してください [ファイルの移行](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
@@ -136,25 +136,25 @@ Intel® CoreTM i5以上
    <td>
     <p><b>コンテンツタイプ</b></p></td>
    <td>
-    <p><b>拡張機能</b></p></td>
+    <p><b>拡張子</b></p></td>
   </tr>
   <tr>
    <td>
     <p>文書</p></td>
    <td>
-    <p>"pdf", "docx", "doc", "xls", "xlsx"</p></td>
+    <p>"pdf"、"docx"、"doc"、"xls"、"xlsx"</p></td>
   </tr>
   <tr>
    <td>
-    <p>PowerPointプレゼンテーション</p></td>
+    <p>PowerPoint プレゼンテーション</p></td>
    <td>
-    <p>"pptx", "ppt"</p></td>
+    <p>"pptx"、"ppt"</p></td>
   </tr>
   <tr>
    <td>
     <p>ビデオ</p></td>
    <td>
-    <p>"mp4", "wmv", "3gp", "3g2", "3gp2", "asf", "avi", "f4v", "h264", "mpe", "mpeg", "mpg", "mpg2", "m4v", "mov", "wmv"</p></td>
+    <p>"mp4"、"wmv"、"3gp"、"3g2"、"3gp2"、"asf"、"avi"、"f4v"、"h264"、"mpe"、"mpeg"、"mpg"、"mpg2"、"m4v"、"mov"、"wmv"</p></td>
   </tr>
   <tr>
    <td>
@@ -184,7 +184,7 @@ Intel® CoreTM i5以上
    <td>
     <p>音声</p></td>
    <td>
-    <p>"mp3", "wav", "aac", "m4a", "wma", "vorbis", "pcm", "eac3", "amr", "ac3"</p></td>
+    <p>"mp3"、"wav"、"aac"、"m4a"、"wma"、"vorbis"、"pcm"、"eac3"、"amr"、"ac3"</p></td>
   </tr>
  </tbody>
 </table>
@@ -211,50 +211,50 @@ Intel® CoreTM i5以上
   </tr>
   <tr>
    <td>
-    <p><strong>資格認定のアップロード</strong></p></td>
+    <p><strong>資格認定アップロード</strong></p></td>
    <td>
     <p> "png", "jpg", "jpeg", "pdf", "doc", "docx", "gif"</p></td>
   </tr>
   <tr>
    <td>
-    <p><strong>リソース/コースの添付ファイル</strong></p></td>
+    <p><strong>リソース／コースの添付ファイル</strong></p></td>
    <td>
     <p> すべてのファイル形式</p></td>
   </tr>
  </tbody>
 </table>
 
-## エレメントをアップロードするための高さと幅の指定 {#heightandwidthspecificationforuploadingelements}
+## 要素をアップロードするための高さと幅の指定 {#heightandwidthspecificationforuploadingelements}
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>エレメント</b></p></td>
+    <p><b>要素</b></p></td>
    <td>
     <p><b>サイズ</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>学習者のアチーブメントボードのバッジ</p></td>
+    <p>学習者の達成ボードのバッジ</p></td>
    <td>
-    <p>40 x 40ピクセル</p></td>
+    <p>40x40 ピクセル</p></td>
   </tr>
   <tr>
    <td>
-    <p>学習者アプリケーションに拡張されたバッジ</p></td>
+    <p>学習者のアプリケーションの拡大されたバッジ</p></td>
    <td>
     <p>90 x 90ピクセル</p></td>
   </tr>
   <tr>
    <td>
-    <p>学習者の実績に関するユーザープロフィール写真</p></td>
+    <p>学習者の達成のユーザープロファイル画像</p></td>
    <td>
     <p>100 x 100ピクセル</p></td>
   </tr>
   <tr>
    <td>
-    <p>サインアウトドロップダウンのユーザープロフィール写真</p></td>
+    <p>「ログアウト」ドロップダウンのユーザープロファイル画像</p></td>
    <td>
     <p>42 x 42ピクセル</p></td>
   </tr>
@@ -266,7 +266,7 @@ Intel® CoreTM i5以上
   </tr>
   <tr>
    <td>
-    <p>Learning Managerホームページの会社ロゴ</p></td>
+    <p>Learning Manager ホームページの会社ロゴ</p></td>
    <td>
     <p>高さが100ピクセルの場合、幅はそれに応じて計算されます。</p></td>
   </tr>
@@ -279,20 +279,20 @@ Intel® CoreTM i5以上
 
 サポートされる組み合わせは次のとおりです。
 
-* ChromeとNVDA
-* Edge +ナレーター
+* Chrome と NVDA
+* Edge と ナレーター
 * Mac Safari + VoiceOver
 
-### 没入型モバイルのサポート
+### サポートされる没入型モバイル
 
-次の機能がサポートされています。
+サポートされる組み合わせは次のとおりです。
 
-* Android + Talkback
-* iOSとボイスオーバー
+* Android と Talkback
+* iOS と VoiceOver
 
-## ネットワーク要件 {#networkrequirements}
+## ネットワークの要件 {#networkrequirements}
 
-制限のあるネットワーク上にある場合は、次のサードパーティのドメインが許可リストに登録されていることを確認してください。
+制限付きのネットワーク上にある場合は、次のサードパーティのドメインがホワイトリストに登録されていることを確認してください。
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -314,10 +314,10 @@ Intel® CoreTM i5以上
  <tbody>
   <tr>
    <th>機能</th>
-   <th>使用するサービス</th>
+   <th>使用されるサービス</th>
   </tr>
   <tr>
-   <td>FTPコネクタ</td>
+   <td>FTP コネクタ</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
@@ -325,32 +325,32 @@ Intel® CoreTM i5以上
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
-   <td>Lyndaコネクタ</td>
+   <td>Lynda コネクタ</td>
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
   </tr>
   <tr>
-   <td>Harvard ManageMentorコネクタ</td>
+   <td>Harvard ManageMentor コネクタ</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
-   <td>GetAbstractsコネクタ</td>
+   <td>GetAbstracts コネクタ</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
-   <td>ボックスコネクタ</td>
-   <td>フランクフルトに位置するボックスゾーン</td>
+   <td>Box コネクタ</td>
+   <td>フランクフルトにある Box Zones</td>
   </tr>
   <tr>
-   <td>ミニオレンジコネクタ</td>
-   <td>ミニオレンジ</td>
+   <td>Mini Orange コネクタ</td>
+   <td>Mini Orange</td>
   </tr>
   <tr>
-   <td>Workdayコネクタ</td>
+   <td>Workday コネクタ</td>
    <td>Workday</td>
   </tr>
   <tr>
    <td>ブルージーンズコネクタ<br></td>
-   <td>ブルージーンズ</td>
+   <td>Blue Jeans</td>
   </tr>
   <tr>
    <td>MicrosoftPower BI</td>
@@ -359,6 +359,6 @@ Intel® CoreTM i5以上
  </tbody>
 </table>
 
-## 技術的な概要 {#technicaloverview}
+## 技術概要 {#technicaloverview}
 
-[Learning Managerの技術概要](assets/learning-manager-technicaloverview.pdf)
+[Learning Manager 技術概要](assets/learning-manager-technicaloverview.pdf)

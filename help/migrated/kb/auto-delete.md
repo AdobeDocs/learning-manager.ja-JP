@@ -1,34 +1,34 @@
 ---
 jcr-language: en_us
-title: Learning Managerでユーザーが自動削除される
-description: ユーザーがLearning Managerから削除されても、管理者がそのようなアクションを実行することはありません。
+title: Learning Manager でユーザーが自動的に削除される
+description: 管理者が操作していないのに、Learning Manager からユーザーが削除されてしまいます。
 contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 61%
 
 ---
 
 
 
-# Learning Managerでユーザーが自動削除される {#user-gets-auto-deleted-in-learning-manager}
+# Learning Manager でユーザーが自動的に削除される {#user-gets-auto-deleted-in-learning-manager}
 
 ## 問題
 
-ユーザーがLearning Managerから削除されても、管理者がそのようなアクションを実行することはありません。
+管理者が操作していないのに、Learning Manager からユーザーが削除されてしまいます。
 
 ## 原因
 
-一定期間システムにログインしていないユーザーは、AdobeのLearning Managerで削除できます。
+Adobe Learning Manager には、一定期間システムにログインしていないユーザーを削除するオプションがあります。
 
-## 設定を変更/適用するにはどうすればよいですか？
+## 設定を変更 / 適用する方法
 
 ### 社内学習者の場合
 
-1. ログインする **Administrator**.
+1. **管理者**&#x200B;としてログインします。
 1. 未満 **設定**、をクリック **設定** > **一般**.
-1. [一般設定]ページで、オプションについては「 」を参照してください **社内ユーザーの自動削除**.
+1. 「一般設定」ページで&#x200B;**「社内ユーザーの自動削除」**&#x200B;というオプションを見つけます。
 1. クリック **[!UICONTROL 編集]** 学習者がシステムにアクセスしなかった場合に、自動削除されるまでの日数を入力します。
 
    ![](assets/cp-autodelete-internal.png)
@@ -37,18 +37,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->   ユーザーを自動的に削除しない場合は、このフィールドを空白のままにします。
+>   ユーザーの自動削除を行わない場合、このフィールドは空白のままにします。
 
 
 1. クリック **[!UICONTROL 保存]** 設定を保持します。
 
-### 社外学習者の場合：
+### 社外学習者の場合
 
-1. ログインする **Administrator**.
+1. **管理者**&#x200B;としてログインします。
 1. 未満 **管理**、をクリック **[!UICONTROL ユーザー]** > **[!UICONTROL 外部]**.
 1. 設定の適用が必要な社外ユーザーの名前をクリックします。
 
-   これにより、 **社外登録プロファイルを編集** ウィンドウ：
+   すると、**「社外登録プロファイルを編集」**&#x200B;ウィンドウが開きます。
 
 1. クリック **[!UICONTROL 詳細設定]** をクリックします。
 

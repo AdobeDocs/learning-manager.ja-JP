@@ -1,28 +1,28 @@
 ---
-description: このドキュメントでは、Learning ManagerアカウントにログインするためのSSO認証を設定する方法について説明します。
+description: SSO 認証を設定して Learning Manager アカウントにログインする際に、このドキュメントが役立ちます。
 jcr-language: en_us
-title: SSO認証を使用してLearning Managerにログイン
+title: SSO 認証を使用して Learning Manager にログイン
 contentowner: dvenkate
 source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
 
 
-# SSO認証を使用してLearning Managerにログイン
+# SSO 認証を使用して Learning Manager にログイン
 
-このドキュメントでは、Learning ManagerアカウントにログインするためのSSO認証を設定する方法について説明します。
+SSO 認証を設定して Learning Manager アカウントにログインする際に、このドキュメントが役立ちます。
 
-SSO認証を構成するには、次の手順を実行します。
+SSO 認証を設定するには、次の手順を実行します。
 
-1. 開く **[!UICONTROL 設定]** > **[!UICONTROL ログインメソッド。]**
+1. **[!UICONTROL 設定]**／**[!UICONTROL ログインメソッド]**&#x200B;を開きます。
 
    ![](assets/login-methods.png)
 
-1. を選択 **[!UICONTROL 社内ユーザー]** または **[!UICONTROL 社外ユーザー]** 要件に応じて。
+1. 要件に応じて、「**[!UICONTROL 内部ユーザー]**」または「**[!UICONTROL 外部ユーザー]**」を選択します。
 1. の横にあるドロップダウンをクリックします。  **[!UICONTROL login]** optionキーを押しながら **[!UICONTROL シングルサインオン]**.
 
    ![](assets/single-sign-on.png)
@@ -35,7 +35,7 @@ SSO認証を構成するには、次の手順を実行します。
 
    ![](assets/sso-configuration.png)
 
-   Learning Managerで設定するSSOは、SAML 2.0に対応している必要があります。
+   Learning Manager に設定する SSO は、SAML 2.0 に対応している必要があります。
 
-   これで、SSO認証を使用してLearning Managerにログインできるようになりました。
+   これで、SSO 認証を使用して Learning Manager にログインできるようになりました。
 
