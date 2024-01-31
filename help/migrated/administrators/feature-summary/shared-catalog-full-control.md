@@ -3,7 +3,7 @@ jcr-language: en_us
 title: 共有カタログのフルコントロールの有効化
 description: AdobeのLearning Managerで共有カタログのフルコントロールを有効にする
 contentowner: saghosh
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
