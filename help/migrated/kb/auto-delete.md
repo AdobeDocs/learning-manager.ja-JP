@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Learning Manager でユーザーが自動的に削除される
 description: 管理者が操作していないのに、Learning Manager からユーザーが削除されてしまいます。
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 61%
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 ## 問題
 
-管理者が操作していないのに、Learning Manager からユーザーが削除されてしまいます。
+A **user** 管理者がLearning Managerから削除されても、このようなアクションは実行されません。
 
 ## 原因
 
