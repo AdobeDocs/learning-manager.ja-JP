@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe学習マネージャーガイド
+user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
-user-guide-description: Learning Manager Adobeのドキュメント
+user-guide-description: Adobe Learning Manager のドキュメント
 source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
