@@ -3,10 +3,10 @@ description: トレーニング活動内のイベントにより、学習者に�
 jcr-language: en_us
 title: 電子メールテンプレート
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ Learning Manager アプリケーションでは、イベントに基づき複数
 管理者は、内容の追加や編集を行い、学習者、マネージャー、作成者によってトリガーされた各種イベントについてユーザーに通知を送信することにより、電子メールテンプレートをカスタマイズすることができます。
 
 管理者は、特定のイベントについて電子メール通知の送信を無効に設定することもできます。
+
+## 電子メールテンプレートの概要
+
+このトレーニングでは、個々の電子メールテンプレートをカスタマイズする方法、および電子メールテンプレートのコースレベルとアカウントレベルの設定をカスタマイズする方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## 電子メールテンプレートの設定 {#configureemailtemplates}
 
