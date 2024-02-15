@@ -3,10 +3,10 @@ description: この記事では、Learning Manager アプリケーションの�
 jcr-language: en_us
 title: レポート
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
-ht-degree: 65%
+source-wordcount: '6502'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,14 @@ Adobe Learning Manager では、さまざまなレポートを作成して、学
 レポートはダッシュボードに集計されます。レポートはダッシュボード内に存在している必要があります。A **[!UICONTROL デフォルトダッシュボード]** は、デフォルトでレポートページに存在します。 ユーザーによって追加されたレポートは、このデフォルトのダッシュボードに移動します。個別のダッシュボードにレポートを追加するには、ドロップダウン矢印を使用して **[!UICONTROL レポートを追加]**. ダッシュボードの作成方法の詳細については、このページの「ダッシュボード」セクションを参照してください。
 
 ## 学習の概要ダッシュボード {#dashboards}
+
+### ダッシュボードレポートの生成
+
+このトレーニングでは、データベースからダッシュボードレポートを生成する方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 プラットフォーム内のすべての学習活動のサマリーレポートを表示します。 このページでは、選択したルートユーザーのグループ版プロファイルと社外プロファイルについて、次の概要情報を表示できます。 時間範囲を選択することもできます。
 
@@ -502,6 +510,14 @@ Adobe Learning Manager では、4 つの主要なレポートタイプ（完了�
 >レポートを表示する際に使用するマネージャーの値は、一時的なものです。そのため、ダウンロードオプションを選択しても、そのレポートのビューがダウンロードされることはありません。これは、あくまでも一時的なビューです。
 
 ## コースレポートを表示する {#viewcoursereports}
+
+### コースレポートの生成
+
+このトレーニングでは、コースレポートを書き出し、これらのレポートの電子メールサブスクリプションを設定する方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 各コース固有のレポートを表示するには、以下の手順を実行します。
 
