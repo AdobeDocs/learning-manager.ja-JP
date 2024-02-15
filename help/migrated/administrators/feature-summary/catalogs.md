@@ -3,10 +3,10 @@ jcr-language: en_us
 title: カタログ
 description: カタログには、コース、学習プログラム、資格認定など、学習のコレクションが含まれます。 学習者はカタログを使用して、カスタマイズされた学習オブジェクトのセットにアクセスすることができます。 新しいカタログを作成する際に、特定の学習オブジェクトをそのカタログに関連付けることができます。
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 カタログには、コース、学習プログラム、資格認定など、学習のコレクションが含まれます。 学習者はカタログを使用して、カスタマイズされた学習オブジェクトのセットにアクセスすることができます。 新しいカタログを作成する際に、特定の学習オブジェクトをそのカタログに関連付けることができます。
 
 管理者は、自分のアカウントまたは複数のアカウントで異なる学習者用にコースを選択して、カスタムのカタログを作成することができます。
+
+## カタログ入門
+
+このトレーニングでは、カタログを作成および管理する方法について学習します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
+
 
 ## カタログの作成 {#createacatalog}
 
