@@ -3,9 +3,9 @@ description: Learning manager でユーザーまたはユーザーグループ�
 jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
-source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
+source-git-commit: abe225ed932f3d0fe8e2d39f8aea5d93cef57c73
 workflow-type: tm+mt
-source-wordcount: '3984'
+source-wordcount: '3982'
 ht-degree: 63%
 
 ---
@@ -24,30 +24,9 @@ Learning manager でユーザーまたはユーザーグループを追加する
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
 
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">トレーニングを開始</button>
-</a>
-
-<br/>
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
@@ -70,30 +49,7 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 
 シングルユーザーオプションを使用して、社内学習者をLearning Manager Adobeに追加します。
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">トレーニングを開始</button>
-</a>
-
-<br/>
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
