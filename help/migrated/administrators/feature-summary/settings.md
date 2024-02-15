@@ -3,9 +3,9 @@ description: この記事では、管理者として構成可能な Learning Man
 jcr-language: en_us
 title: 設定
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: '3815'
 ht-degree: 68%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 68%
 この記事では、管理者として構成可能な Learning Manager アカウント設定について説明します。
 
 管理者のプロファイル設定を変更したり、管理者のアカウント設定を編集したりすることができます。プロフィール情報の表示、プロフィール写真の追加/変更、変更 **[!UICONTROL 自分について]** コンテンツ： また、会社情報の更新、ユーザーのログイン方法の設定、アカウント設定を使用した接続統合のセットアップを行うこともできます。
+
+## Learning Manager Adobeを設定する
+
+このトレーニングでは、アカウントレベルの設定に関する基本的な知識を習得します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## アカウント設定 {#accountsettings}
 
