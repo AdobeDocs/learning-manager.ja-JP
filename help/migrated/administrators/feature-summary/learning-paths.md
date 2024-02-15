@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ ht-degree: 43%
 そこで登場するのが学習パスです。 学習パスとは、学習者が何らかの主題を時間をかけて習得するために通過する必要がある過程です。 学習者は自分のトレーニングエクスペリエンスを管理し、自分のペースで知識を習得、保持できるため、より高い効果を得ることができます。
 
 例えば新入社員のオンボーディングでは、ポリシーや手続き、文化、歴史などに関する研修を行います。 学習パスでは、従業員のニーズに基づいてコースが設定されるため、従業員は自分たちに合わせて設定された学習パスに従ってコースの受講登録を行うことができます。 を選択すると、このパスにユーザーを登録して、ユーザーがコースを順に進められるようになります。
+
+## 学習パスの作成と設定
+
+このトレーニングでは、学習パスの作成、学習パスへのコースの追加、学習パスの公開と廃止、学習パス内のインスタンスの設定をおこなう方法を学習します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## 学習パスのメリット
 
