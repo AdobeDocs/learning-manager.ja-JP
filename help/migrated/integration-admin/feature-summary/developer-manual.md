@@ -3,10 +3,10 @@ jcr-language: en_us
 title: アプリケーションデベロッパーマニュアル
 description: Learning Manager V1 API は非推奨になりました。 V1 API は、2021 年 2 月 28 日をもって終了します。今後はLearning Managerを操作する際に、V2 APIを使用することをお勧めします。
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 64%
+source-wordcount: '3383'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,10 @@ ht-degree: 64%
 
 # アプリケーションデベロッパーマニュアル
 
-Learning Manager V1 API は非推奨になりました。 V1 API は、2021 年 2 月 28 日をもって終了します。今後はLearning Managerを操作する際に、V2 APIを使用することをお勧めします。
+>[!NOTE]
+>
+>Learning Manager V1 API は非推奨になりました。 今後はLearning Managerを操作する際に、V2 APIを使用することをお勧めします。
+
 
 ## 概要 {#overview}
 
@@ -29,6 +32,10 @@ Learning Manager V1 API は非推奨になりました。 V1 API は、2021 年 
 Learning Manager API は、REST の原則に基づいており、Learning Manager オブジェクトモデルの主要な要素をアプリケーションデベロッパーに HTTP で公開します。デベロッパーは、API エンドポイントと HTTP メソッドの詳細を知らなくても、さまざまな Learning Manager オブジェクト、その属性および相互関係について理解できます。モデルを理解できたら、API リクエストと API 応答の構造に関する基本を学び、API 全体でよく使用される一般的なプログラミング用語を覚えることは有益です。
 
 さまざまなAPIエンドポイントとメソッドの詳細については、  [Learning Manager APIドキュメント](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>AdobeのLearning Manager学習者APIを使用すると、ユーザーにカスタムの学習エクスペリエンスを提供できます。 これらのAPIを使用するには、有効なユーザートークンが必要です。このAPIは、完全にライセンスを取得し、登録された学習者が存在するワークフローの目的でのみ使用されます。 ログインしていないユーザー/共有ユーザーやその他のケースをサポートするためのデータ取得には、そのまま使用しないでください。 ログインしていないユースケースでは、特別な処理が必要です。 これらのAPIの適切な使用方法に関する質問がある場合は、ソリューションアーキテクトに連絡して、ソリューションを展開する前に必ずソリューションを確認してください。
 
 ## API 認証 {#apiauthentication}
 
@@ -762,8 +769,8 @@ courseType\
 dateStart\
 登録済み\
 id\
-か月\
-1/4
+月\
+四半期
 
 **関連付け**
 containerLO(learningObject)\
