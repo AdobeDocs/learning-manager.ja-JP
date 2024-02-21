@@ -3,9 +3,9 @@ description: Learning Manager でさまざまなコネクターを統合する�
 jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15880'
+source-wordcount: '15898'
 ht-degree: 65%
 
 ---
@@ -2112,6 +2112,11 @@ Adobe Commerceでデータが同期されるまで、コースまたは学習パ
 ### Adobe Commerceへのコースの書き出し
 
 作成者が様々なコース、学習パス、資格認定の価格を設定すると、統合管理者はコース、学習パス、資格認定をAdobe Commerceに書き出します。
+
+>[!NOTE]
+>
+>2024年3月リリースのAdobe Learning Managerでは、以下のサポートが導入されました [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. クリック **[!UICONTROL トレーニングメタデータの書き出し]** > **[!UICONTROL オンデマンド]**.
 
