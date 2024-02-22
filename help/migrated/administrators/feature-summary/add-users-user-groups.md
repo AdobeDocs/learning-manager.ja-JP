@@ -3,10 +3,10 @@ description: Learning manager でユーザーまたはユーザーグループ�
 jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 63%
+source-wordcount: '4000'
+ht-degree: 62%
 
 ---
 
@@ -155,13 +155,21 @@ Adobe Learning Manager アカウントに学習者を追加した後で役割を
 ![](assets/edit-user.png)
 *ユーザーを編集ダイアログ*
 
-## 大文字と小文字の区別を保持する、アクティブなフィールドおよびアクティブなフィールド値のワークフロー
+## アクティブフィールド
 
-このリリースのLearning Managerでは、ユーザー属性およびその値の大文字と小文字の区別が維持されます。 **例**&#x200B;大文字と小文字の区別が保持されたユーザー属性が「location」で、値が「PARIS」の場合、同様に保持されて表示されます。 問題が発生した場合、管理者は属性名と値を編集して、大文字と小文字の区別に関するエラーを修正できるようになりました。
+### ユーザー属性の管理
+
+このトレーニングでは、アクティブフィールドを追加、カスタマイズ、設定する方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
+
+AdobeのLearning Managerでは、ユーザー属性およびその値の大文字と小文字の区別が維持されます。 **例**&#x200B;大文字と小文字の区別が保持されたユーザー属性が「location」で、値が「PARIS」の場合、同様に保持されて表示されます。 問題が発生した場合、管理者は属性名と値を編集して、大文字と小文字の区別に関するエラーを修正できるようになりました。
 
 管理者は、次のサイトにアクセスして、この操作を実行できます **[!UICONTROL 管理者アプリ]** > **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]** グループ名をクリック
 
-管理者は、UI を使用して学習者に許可された属性値を追加および更新できます。
+管理者は、UIを使用して学習者に許可された属性値を追加および更新できます。
 
 アクティブなフィールドの種類は、次のとおりです。
 

@@ -3,10 +3,10 @@ description: Learning Manager でタグを管理する方法について説明�
 jcr-language: en_us
 title: タグ
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ ht-degree: 67%
 タグに関連付けられた学習目標のリストを表示するには、各タグの横に表示されるカウントをクリックします。 このリストには、コースの数、学習プログラム、証明書、作業計画書およびコンテンツグループが表示されます。 これらのオプションのいずれかをクリックすると、リストが表示されます。
 
 **[!UICONTROL 「並べ替え」]**&#x200B;オプションを使用すると、使用状況やアルファベット順に基づいてタグを並べ替えることができます。
+
+## タグの概要
+
+このトレーニングでは、タグの追加、編集、置換、追加、削除の方法について説明します。 また、権限の設定を変更する方法や、タグフィルターを使用する方法についても説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## タグを追加／削除／編集する {#adddeleteedittags}
 

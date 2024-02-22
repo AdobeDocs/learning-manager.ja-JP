@@ -3,10 +3,10 @@ description: Learning Manager でのユーザーデータの消去について
 jcr-language: en_us
 title: ユーザーを消去
 contentowner: dvenkate
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 75%
+source-wordcount: '887'
+ht-degree: 72%
 
 ---
 
@@ -27,6 +27,16 @@ Learning Manager でのユーザーデータの消去について
 * インストラクタを消去すると、セッションに表示されなくなります。 このようなセッションでは、管理者がインストラクターを変更または追加する必要があります。
 * Learning Manager でユーザーを消去しても、外部アプリケーション（サードパーティ製のシステムや自分で作成した他のアプリケーション）ではユーザーを削除できません。そのようなアプリケーションからユーザーを削除してもらうには、外部アプリケーションのオーナーに連絡してください。
 * 消去されたユーザーをコネクタの構成設定で参照すると、そのコネクタは無効になります。 再開するには、管理者がコネクタを再構成する必要があります。
+
+### ユーザーの管理
+
+このトレーニングでは、役割の割り当てと削除、ようこそ電子メールの送信、ユーザーの削除と消去を行う方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
+
+## ユーザーを消去する方法
 
 ユーザーを消去するには、次の手順に従います。
 

@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 学習者ホームページのカスタマイズ
 description: 管理者は、学習者に合わせた、コンテンツ重視の現代的なホームページになるよう、学習者ホームページをカスタマイズすることができます。
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 47%
+source-wordcount: '1158'
+ht-degree: 46%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 47%
 
 管理者は、学習者に合わせた、コンテンツ重視の現代的なホームページになるよう、学習者ホームページをカスタマイズすることができます。
 
-パーソナライズされたアプローチでは、組織の管理者が管理者ユーザーインターフェイスでWYSIWYG方式で設定できる学習者ホームページを構築するための幅広い方法を提供します。
+パーソナライズされたアプローチでは、組織の管理者が管理者ユーザーインターフェイスでWYSIWYG方式で設定できる学習者ホームページを作成するためのウィジェットベースの方法を提供します。
 
 このエクスペリエンスは、AI主導型アルゴリズムが提供するパーソナライズされたトレーニング推奨事項によって推進されます。このアルゴリズムでは、業界スキルに関するサードパーティコンテンツの分析、ピアアクティビティの組み込み、学習者が関心を持つ領域の明示的および暗黙的なデータの使用を行います。
+
+### 学習者ホームページのカスタマイズ
+
+このトレーニングでは、学習者ホームページをカスタマイズする方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## 学習者ホームページの設定 {#configurethelearnerhomepage}
 
