@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Learning Manager AdobeのAPIの廃止
 description: AdobeのLearning ManagerのAPIの進化に伴い、APIが定期的に再編成またはアップグレードされます。 APIが進化すると、古いAPIは廃止され、最終的に削除されます。 このページでは、非推奨のAPIバージョンから新しく安定したバージョンに移行する際に知っておく必要がある情報を記載しています。
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# Learning Manager AdobeのAPIの廃止
+# Learning Manager AdobeのAPIの廃止と変更
 
 ## 2024年3月リリースのAdobe Learning ManagerにおけるAPIの廃止
 
-### レート制限の変更
+<!-- ### Changes in Rate Limits
 
-Adobe版Learning Managerの次回リリースでは、新しいアカウントのAPIレート制限が再構築されます。 既存のアカウントの場合、レートが制限されるのはAdmin APIのみです。 90日後（約3か月）、すべてのAPIのレート制限を再構築しますが、既存のアカウントは現在の使用状況に応じてホワイトリストに登録されます。 既存のアカウントでは、学習者のAPIの使用を見直す必要があります。
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-新規アカウントでレート制限を上げたい場合は、ALMのカスタマーサクセスチームに連絡する必要があります。
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### どのAPIのレートが制限されるか
+#### Which APIs will be rate limited 
 
-新しいアカウントの場合、すべての管理者、学習者、検索APIにレート制限とバーストが適用されます。
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-APIバースト率またはバースト制限とは、限られた期間内にショートバーストでAPIに対して行うことができる最大要求数を指します。
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-次の表に、APIのレートとバーストの制限を示します。
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>リクエスト数 – RPM</th>
-        <th>要求数 – バースト</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>管理者</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>学習者</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>検索</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### オフセット制限の変更
 
