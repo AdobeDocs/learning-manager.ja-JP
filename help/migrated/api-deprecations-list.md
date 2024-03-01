@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Learning Manager AdobeのAPIの廃止
 description: AdobeのLearning ManagerのAPIの進化に伴い、APIが定期的に再編成またはアップグレードされます。 APIが進化すると、古いAPIは廃止され、最終的に削除されます。 このページでは、非推奨のAPIバージョンから新しく安定したバージョンに移行する際に知っておく必要がある情報を記載しています。
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ Adobe版Learning Managerの次のリリースでは、次のAPIの並べ替え�
 
 今後、次の学習者 API は上書きフラグがあるため機能しなくなります。
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;page[極限値]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[offset]=0&amp;page[極限値]=10&amp;sort=id&amp;override=TRUE_
 
 ### スキルベースの新しい推奨事項に対するAPIの変更
 
