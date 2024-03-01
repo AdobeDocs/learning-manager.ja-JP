@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Learning Manager AdobeのAPIの廃止
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 AdobeのLearning Managerでは、モバイルアプリにホワイトラベルを適用することができます。これにより、アプリのブランドを変更し、自分のブランドの下でアプリを使用できるようになります。
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
   <td>
 
-  <p>OSがアプリを識別するために使用する名前です。 通常使用されるフォーマットはis- comです。<company-name>'.'<product-name>'.</p></td>
+  <p>OSがアプリを識別するために使用する名前です。 通常使用される形式は、 com.company-name.product-nameです。</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
   <td>
 
-  <p>アプリアイコンをpngに変換します。 このアイコンはアプリに表示されます。 名前の形式は'<account-id>'_appIcon.png.</p></td>
+  <p>アプリアイコンをpngに変換します。 このアイコンはアプリに表示されます。 名前の形式はaccount-id_appIcon.pngです。</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
   <td>
 
-  <p>アプリのスパム画面には、ユーザーがアプリを起動したときに表示される画像(png)を指定します。 名前の形式は'<account-id>'_splashIcon.png.</p></td>
+  <p>アプリのスプラッシュ画面には、ユーザーがアプリを起動したときに表示される画像(png)を指定します。 名前の形式はaccount-id_splashIcon.pngです。</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
   <td>
 
-  <p>アプリの登録時に、アカウントの統合管理者が詳細を提供します。 統合管理者は、以下を使用する必要があります。<ul><li>ロールとして「learner:read,learner:write」と入力します。</li><li>‘<internal app name>'://リダイレクト先のURLです。 </li></ul> </p></td>
+  <p>アプリの登録時に、アカウントの統合管理者が詳細を提供します。 統合管理者は、以下を使用する必要があります。 *学習者：読み取り、学習者：ロールとして書き込み*リダイレクトURLとして内部アプリname://redirect
+
+  </p></td>
 
   </tr>
 
