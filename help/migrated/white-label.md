@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Learning Manager AdobeのAPIの廃止
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 AdobeのLearning Managerでは、モバイルアプリにホワイトラベルを適用することができます。これにより、アプリのブランドを変更し、自分のブランドの下でアプリを使用できるようになります。
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 ## 変更を適用する方法
 
-お客様が必要なアセットとファイルをCSMチームに送信します。 CSMチームが [様式](https://forms.office.com/r/bJRRaRBvSh) 必要な変更を加え、必要なアセットを添付します。 チームは、変更を確認し、エンジニアリングチームに通知します。 エンジニアリングチームがビルドを生成し、CSMチームと共有します。
+必要なアセットとファイルをCSMチームに送信します。 CSMチームが [様式](https://forms.office.com/r/bJRRaRBvSh) 必要な変更を加え、必要なアセットを添付します。 チームは、変更を確認し、エンジニアリングチームに通知します。 エンジニアリングチームがビルドを生成し、CSMチームと共有します。
 
 CSMチームがお客様とビルドを共有します。
 
