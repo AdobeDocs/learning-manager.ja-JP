@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
+source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 93%
+source-wordcount: '584'
+ht-degree: 91%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 93%
    * [カスタムドメインのサポート](custom-domain.md)
    * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
    * [Adobe FTP Manager からの移行](transition-from-ftp-manager.md)
+   * [Learning Manager AdobeのAPIの廃止と変更](api-deprecations-list.md)
+   * [AdobeのLearning Managerでのホワイトラベル付け](white-label.md)
 * 開始する {#get-started}
    * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
    * [作成者の基本](authors/feature-summary/getting-started-author.md)
