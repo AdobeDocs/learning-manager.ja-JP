@@ -3,9 +3,9 @@ description: Adobe版Learning Managerの2024年3月リリースの新機能と�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Adobe Learning Manager の新機能と機能強化の詳細
 
 ### 管理者 – 「コース」または「学習パス」ページ
 
-多数の学習者がコースに登録されている場合（50,000人を超える場合など）、学習者のリストは表示されません。 学習者は、 *学習者を検索* 検索バーを選択するか、 **ダウンロード** 検索バーの上のリンクをクリックして、学習者のリストをダウンロードします。
+多数の学習者がコースに登録されている場合（50,000人を超える場合など）、学習者のリストは表示されません。 学習者は、 *学習者を検索* 検索バーを選択するか、 **ダウンロード** 検索バーの上部にあるリンクをクリックして、学習者のリストをダウンロードします。
 
 ### 管理者 – 学習者ページ
 
