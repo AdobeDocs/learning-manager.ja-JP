@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 90%
 
 ---
@@ -55,6 +55,7 @@ ht-degree: 90%
    * [ピアアカウント](administrators/feature-summary/peer-account.md)
    * [スキルとレベルの作成および変更](administrators/feature-summary/skills-levels.md)
    * [AI ベースの推奨コース](ai-based-recommendations.md)
+   * [スキルの読み込み](administrators/feature-summary/import-skills-external-sources.md)
    * [ゲーミフィケーション](administrators/feature-summary/gamification.md)
    * [学習者ホームページのカスタマイズ](administrators/feature-summary/customize-learner-homepage.md)
    * [バッジ](administrators/feature-summary/badges.md)
