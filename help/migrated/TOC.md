@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 90%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 90%
    * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
    * [レポート](administrators/feature-summary/reports.md)
    * [学習パス](administrators/feature-summary/learning-paths.md)
-   * [学習プログラム](administrators/feature-summary/learning-programs.md)
+   * [学習プラン](administrators/feature-summary/learning-plans.md)
    * [Learning Manager の注文および請求管理](administrators/feature-summary/billing-management.md)
    * [作業計画書](administrators/feature-summary/job-aids.md)
    * [資格認定](administrators/feature-summary/certifications.md)
@@ -81,6 +81,7 @@ ht-degree: 90%
    * [ネイティブな拡張機能](administrators/feature-summary/native-extensibility.md)
    * [複数登録](administrators/feature-summary/multiple-enrollment.md)
    * [ログインなしのエクスペリエンス（学習者向け）](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [学習プログラム](administrators/feature-summary/learning-programs.md)
 * 統合管理者 {#integration}
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
