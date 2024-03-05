@@ -3,9 +3,9 @@ description: Adobe版Learning Managerの2024年3月リリースの新機能と�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ L1フィードバックページで、コースの登録数が多い場合、学
 
 表示 [送信ステータス](instructors/feature-summary/learners.md#filter-file-submissions) 」を参照してください。
 
-### チェックリストの機能強化
+## チェックリストの機能強化
+
+### 必須チェックリスト
 
 現在のバージョンのAdobe Learning Managerでは、モジュールをレビュー担当者が失敗としてマークしていても、チェックリストに対してモジュールの進行状況が許可されていました。 このリリースでは、作成者は、学習者の失敗によるチェックリストの進行を防ぐように設定できます。
 
-#### チェックリスト再評価
+### チェックリスト再評価
 
 同じワークフローで、作成者は、チェックリストに失敗した学習者を再評価できます。 を選択します **有効にする** チェックリストの作成時に表示される「再評価」セクションのチェックボックス。
 
