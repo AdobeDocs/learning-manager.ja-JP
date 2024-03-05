@@ -2,10 +2,10 @@
 description: 既存の LMS を Learning Manager LMS に移行する統合管理者向けの参照用マニュアル
 jcr-language: en_us
 title: 移行マニュアル
-source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
+source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
 workflow-type: tm+mt
-source-wordcount: '3641'
-ht-degree: 72%
+source-wordcount: '3614'
+ht-degree: 73%
 
 ---
 
@@ -15,19 +15,9 @@ ht-degree: 72%
 
 既存の LMS を Learning Manager LMS に移行する統合管理者向けの参照用マニュアル
 
-## 概要 {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> は、クラウドホスト環境で学習者中心のセルフサービス学習を実現できる管理ソリューションです。Adobeを使用すると、既存のLearning Management Systems(LMS)を保有する企業が、組織のトレーニングデータとトレーニングコンテンツをLearning Manager LMSアプリケーションに移行できるようになります。 </p></td>
-  </tr>
- </tbody>
-</table>
-
-### 利用シナリオ {#usagescenario}
+## 利用シナリオ {#usagescenario}
 
 一般に、大企業は自社の LMS または他のベンダーから提供されるレガシー学習管理システムを使用します。LMSは、エンタープライズ版トレーニングコンテンツとトレーニングデータで構成されます。 企業としてLearning Managerを購入した場合、既存のLMSコンテンツとデータをLearning Managerに移動すると、直感的に使用できる最新のLMSのメリットを活用でき、組織のレガシーデータが失われることはありません。
 
@@ -388,7 +378,11 @@ Learning Manager では、コンテンツがなくてもモジュールをアッ
 </table>
 
 Learning Manager では、UTF 8 および 32 ビット形式の日時の値のみをサポートしています。範囲外の日付を2038-07-17T08としてCSVファイルに日付を記載すると、移行中にエラーが発生することがあります:53:21.000Zまたは1980-04-17T08:13:25.322Z。
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)読み込み時には、CSVファイルに対する次の依存関係に注意する必要があります。
+
+* [sample-csvs.zip](assets/sample-csvs.zip)
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+CSV ファイルを読み込むときに、以下の依存関係を認識する必要があります。
 
 * module_version.csv は module.csv に依存している
 * course_instance.csv は course.csv に依存している
@@ -536,6 +530,11 @@ FTP サーバーと Box サーバーにログインしてコンテンツをア�
 
 4-user_course_grades.xlsx - retrofit_user_course_grades.csvファイルに必要なメタデータの説明が含まれます。
 [csv-specifications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID（ユニバーサル一意のID）は、移行csvの列にも表示されます。
+
 
 ## 移行の問題に関するトラブルシューティング {#troubleshootingmigrationissues}
 
