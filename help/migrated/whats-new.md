@@ -3,9 +3,9 @@ description: Adobe版Learning Managerの2024年3月リリースの新機能と�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 ```
 
 ダウンロードを試みた場合 **ログインアクセス** 四半期が5つ以上のレポートには、エラー・メッセージが表示されます。 ダウンロードしようとすると、同様のエラーメッセージが表示されます **ユーザー監査** 6ヶ月を超えるレポート。
+
+### 非推奨のAPI
+
+表示 [Learning Manager AdobeのAPIの廃止](api-deprecations-list.md) 製品で廃止されたすべてのAPIの累積的なリストを示します。
 
 ## このアップデートで修正されたバグ {#bug-fixes}
 
