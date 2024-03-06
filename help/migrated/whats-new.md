@@ -3,9 +3,9 @@ description: Adobe版Learning Managerの2024年3月リリースの新機能と�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 ### アプリの評価
 
 学習者はAdobeのLearning Managerアプリに関するフィードバックを送信することで、アプリのエクスペリエンスをさらに向上させることができます。 学習者が4つ星以上を評価した場合は、PlayストアまたはApp Storeでアプリを評価するように学習者に求めるポップアップが表示されます。
+
+### Bluejeansは、2024年2月にサポート終了(EOL)になりました
+
+Bluejeansが2024年2月にサポート終了(EOL)になったことをお知らせします。 2024年2月以降、Bluejeansはアップデートやサポートを受けられなくなります。 CSAMとサポートチームは、この移行期間中に発生する可能性のある質問や懸念事項についてお客様を支援します。
+
+表示 [Learning Manager Adobeのコネクタ](integration-admin/feature-summary/connectors.md) コネクタの設定の詳細については、を参照してください。
 
 ## このリリースでの API の変更
 
