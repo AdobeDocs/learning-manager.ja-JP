@@ -3,10 +3,10 @@ jcr-language: en_us
 title: スキルドメインへのスキルのマッピング
 description: ユーザーの投稿を AI 対応のキュレーションエンジンで特定のスキルドメインに自動キュレーションするには、ユーザーが所属する企業で、カスタムのスキルが Learning Manager LMS でサポートされるスキルドメインにマッピングされている必要があります。
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 95%
+source-wordcount: '373'
+ht-degree: 90%
 
 ---
 
@@ -43,6 +43,11 @@ ht-degree: 95%
 * デザイン
 * 分析
 * セールス
+
+>[!NOTE]
+>
+>アルゴリズムによると、信頼スコアが50%未満の場合、コンテンツは手動キュレーションのマークが付けられます。
+
 
 スキルドメインを追加するには、次の手順に従います。
 
