@@ -3,7 +3,7 @@ description: Learning Manager でさまざまなコネクターを統合する�
 jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '15183'
 ht-degree: 64%
@@ -774,7 +774,7 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 
 >[!NOTE]
 >
->   Learning ManagerはWorkday APIのバージョン28.1を使用しています。
+>   Learning ManagerはWorkday APIのバージョン40.1を使用しています。
 
 
 ![](assets/configure-connector.png)
