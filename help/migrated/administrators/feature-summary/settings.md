@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '3980'
+source-wordcount: '3983'
 ht-degree: 65%
 
 ---
@@ -438,7 +438,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
 
 >[!NOTE]
 >
->スキルの読み込み設定を有効にすると、アカウントレイアウトをクラシックに切り替えることができなくなります。 例：スキルの読み込みを有効にすると、クラシックアカウントに切り替えることができなくなります。
+>スキルインポート設定を有効にすると、アカウントレイアウトをクラシックに切り替えることができなくなります。つまり、 **スキルのインポート** オプションが有効になっています。
 
 
 ## AI ベースの推奨
