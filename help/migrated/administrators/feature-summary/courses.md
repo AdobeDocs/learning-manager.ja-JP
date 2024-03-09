@@ -3,14 +3,13 @@ description: この文書には、「管理者」役割用のコースモジュ�
 jcr-language: en_us
 title: コースモジュール、インスタンスおよび学習プログラムの作成
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
-ht-degree: 65%
+source-wordcount: '4604'
+ht-degree: 64%
 
 ---
-
-
 
 # コースモジュール、インスタンスおよび学習プログラムの作成
 
@@ -23,6 +22,16 @@ ht-degree: 65%
 コースは作成者によって作成されます。学習者は、コースを受講することができます。管理者は、コースの受講状況に基づいて、学習者の成績を追跡することができます。管理者は、作成者が作成したコースを表示したり、ここで説明するいくつかのアクティビティを実行したりすることができます。また、学習者向けに事前定義された一連のコースを使用して、独自の学習プログラムを作成することができます。
 
 ## コースのインスタンスの作成 {#createinstanceofacourse}
+
+### インスタンスの管理
+
+このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
+
+### インスタンスの作成方法
 
 作成者がコースを作成した後、そのコースのインスタンスを作成することができます。 コースのインスタンスを作成すると、学習者に対して同じコースを異なる期間で提供できるようになります。 学習者は、任意のインスタンスを選択して登録することができます。 各インスタンスを構成し、独自のバッジやフィードバックなどを設定することができます。
 
@@ -105,6 +114,14 @@ ht-degree: 65%
 1. **[!UICONTROL 「保存」]**&#x200B;をクリックすると、アナウンスが作成されたことを示す確認メッセージが表示されます。 アナウンスを公開するには&#x200B;**[!UICONTROL 「今すぐ公開」]**&#x200B;をクリックします。
 
    ![通知が作成されました](assets/announcement-successful.png)
+
+### 学習者のコースへの登録
+
+このトレーニングでは、学習者の登録、登録解除、再登録の方法を学習します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ### 様々なインスタンスへの学習者の登録
 

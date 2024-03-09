@@ -3,14 +3,13 @@ jcr-language: en_us
 title: カタログ
 description: カタログには、コース、学習プログラム、資格認定など、学習のコレクションが含まれます。 学習者はカタログを使用して、カスタマイズされた学習オブジェクトのセットにアクセスすることができます。 新しいカタログを作成する際に、特定の学習オブジェクトをそのカタログに関連付けることができます。
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # カタログ
 
@@ -132,6 +131,14 @@ ht-degree: 76%
 管理者は、社内ユーザーとカタログを共有することも、社外ユーザーとカタログを共有することもできます。ただし、排他的な共有になります。つまり、社内で共有されているカタログを社外グループと共有したり、社外で共有されているカタログを社内グループと共有したりすることはできません。
 
 カタログを共有すると、そのカタログ内のコース、学習プログラム、作業計画書、資格認定を学習オブジェクトとして使用できるようになります。
+
+### カタログの共有
+
+このトレーニングでは、社内ユーザーグループや社外AdobeのLearning Managerアカウントとカタログを共有する方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## 社内でカタログを共有する {#int}
 
@@ -340,4 +347,3 @@ Learning Manager アカウントに関連付けられているサブドメイン
 デフォルトのカタログを無効にし、外部ユーザーに対するアクセス権を付与し作成されたカタログのみを有効にします。
 
 +++
-

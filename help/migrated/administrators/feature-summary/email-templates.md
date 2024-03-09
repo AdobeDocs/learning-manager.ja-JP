@@ -3,14 +3,13 @@ description: トレーニング活動内のイベントにより、学習者に�
 jcr-language: en_us
 title: 電子メールテンプレート
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # 電子メールテンプレート
 
@@ -219,6 +218,14 @@ Learning Manager の電子メールテンプレートに、自由に編集でき
 * 電子メールフッターを編集します。 フッター領域には、アカウントURL、署名、およびユーザーが追加する自由形式テキストの定義済み変数が含まれます。
 
 また、テンプレートでは、高度な編集機能もサポートされており、Microsoft Word との間でコンテンツのコピーおよび貼り付けが行われた場合でも書式設定が保持されます。
+
+### インスタンスの設定
+
+このトレーニングでは、インスタンスのデフォルト設定、新しいインスタンスの追加、インスタンスの廃止と再び開き直し、インスタンスの電子メールテンプレートの設定を行う方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 ## インライン招待状 {#inlineinvitations}
 
