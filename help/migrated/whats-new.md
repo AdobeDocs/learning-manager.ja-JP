@@ -3,14 +3,13 @@ description: Adobe版Learning Managerの2024年3月リリースの新機能と�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # 新機能の概要 {#new-features-summary}
 
@@ -376,6 +375,14 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 Bluejeansが2024年2月にサポート終了(EOL)になったことをお知らせします。 2024年2月以降、Bluejeansはアップデートやサポートを受けられなくなります。 CSAMとサポートチームは、この移行期間中に発生する可能性のある質問や懸念事項についてお客様を支援します。
 
 表示 [Learning Manager Adobeのコネクタ](integration-admin/feature-summary/connectors.md) コネクタの設定の詳細については、を参照してください。
+
+### ログインアクセスレポートの変更点
+
+ログインアクセスレポートは、過去5四半期でのみ使用できます。 統合管理者がオンデマンドで統合された書き出しのダウンロードを要求した場合 **ログインアクセス** オンにすると、AdobeのLearning Managerでエラーメッセージが表示されます。 ただし、他のレポートへの影響はありません。
+
+### ADFSの変更
+
+ADFSの「Employee Type」フィールドと「Employee ID」フィールドが、マッピングに基づいてAdobeのLearning Managerで使用できるようになりました。
 
 ## このリリースでの API の変更
 
