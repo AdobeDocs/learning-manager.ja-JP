@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
-ht-degree: 64%
+source-wordcount: '15334'
+ht-degree: 63%
 
 ---
 
@@ -745,6 +745,12 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 >[!NOTE]
 >
 >複数の Learning Manager アカウントからのスキルを、同じ Workday アカウントを使用して同時に書き出すことはできません。
+
+#### 注意事項
+
+* 従業員のUUID、電子メールアドレス、名前が、複数のWorkday統合で一意であることを確認します。 値が正しくないと、接続エラーが発生します。
+* Workdayを使用してに入力されたUUIDフィールドは、クライアント側のLMS Administratorでは削除できません。 この値を変更する場合は、AdobeのLearning Managerオンボーディングチームまたはサポートチームにご連絡ください。
+* ユーザー削除は1回の実行で50人のユーザーを削除することしかサポートしていないため、ユーザー削除オプションも機能しない場合があります。 UUIDを介してユーザーをアップロードする場合は、細心の注意を払ってください。
 
 ### スケジューリング {#Scheduling-1}
 
