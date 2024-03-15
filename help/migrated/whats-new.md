@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 1%
 
 ---
@@ -365,6 +365,23 @@ AdobeのLearning Managerの現在のリリースでは、学習者に **未出�
 AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサポートされるようになりました。つまり、お客様のブランディングの下でアプリをリリースできます。
 
 白いラベルを表示 [AdobeのLearning Managerモバイルアプリ](white-label.md) 」を参照してください。
+
+### 移行CSVの新しい列
+
+このリリースでは、次の移行CSVに新しい列（オプション）uniqueLoIdが追加されています。
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+uniqueLoId列は、作業計画書のCSVには適用できません。
+
+>[!IMPORTANT]
+>
+>列の値は、アカウント全体で一意である必要があります。 コースや資格認定で同じ値を使用することはできません。
+
+次からCSVをダウンロードします [移行マニュアル](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### アプリの評価
 
