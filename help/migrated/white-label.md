@@ -4,7 +4,7 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 AdobeのLearning Managerでは、モバイルアプリにホワイトラベルを適用することができます。これにより、アプリのブランドを変更し、自分のブランドの下でアプリを使用できるようになります。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
+source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -145,9 +145,7 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
   <td>
 
-  <p>アプリの登録時に、アカウントの統合管理者が詳細を提供します。 統合管理者は、以下を使用する必要があります。 *学習者：読み取り、学習者：ロールとして書き込み*リダイレクトURLとして内部アプリname://redirect
-
-  </p></td>
+  <p>アプリの登録時に、アカウントの統合管理者が詳細を提供します。 統合管理者は、以下を使用する必要があります。<ul><li>学習者：読み取り，学習者：ロールとして書き込み</li><li>リダイレクトURLとしての内部アプリname://redirect</li></ul></p></td>
 
   </tr>
 

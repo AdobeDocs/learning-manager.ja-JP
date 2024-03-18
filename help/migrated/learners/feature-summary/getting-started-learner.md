@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 学習者の基本
 description: 「はじめに」ページを使用して、AdobeのLearning Managerの主要な学習パスに移動します。
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 77%
 
 ---
-
-
 
 # 学習者の基本
 
@@ -26,7 +25,7 @@ Learning Manager web アプリケーションに学習者としてログイン�
 
 **学習状況**：学習目標をタイプまたは期日ごとに表示してクリックできます。「学習状況」ウィジェット内の円をクリックして学習目標タイプにすぐに移動することも、期日ごとに学習目標を表示することもできます。
 
-**スキル**：ページの右上隅でスキルマップを確認することもできます。参照  [スキルマップ](skills-levels.md)詳細については、を参照してください。
+**スキル**：ページの右上隅でスキルマップを確認することもできます。参照  [スキルマップ](skills-levels.md) 詳細については、を参照してください。
 
 **「学習目標」ウィジェット**：このウィジェットは「学習状況」の真下にあり、ユーザーの学習目標を表示します。「学習状況」の下に、以下のすべての  [コース](courses.md),  [学習プログラム](learning-programs.md) および  [資格認定](certifications.md) 自分が登録しているか、自分に割り当てられているアカウント 学習目標の使用をすぐに開始することも、このウィジェットから学習目標を再訪することもできます。
 
