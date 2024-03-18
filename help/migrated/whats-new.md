@@ -4,16 +4,16 @@ jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3666'
 ht-degree: 1%
 
 ---
 
 # 新機能の概要 {#new-features-summary}
 
-Adobe Learning Manager の新機能と機能強化の詳細
+Adobe版Learning Managerの2024年3月リリースの新機能と機能強化について説明します。
 
 ## このリリースの最新情報 {#whatsnewandchanged}
 
