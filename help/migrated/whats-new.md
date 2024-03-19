@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
+source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 1%
