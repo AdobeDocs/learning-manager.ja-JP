@@ -3,14 +3,13 @@ description: Adobe Learning Manager の新機能と機能強化について説�
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26225'
 ht-degree: 72%
 
 ---
-
-
 
 # 新機能の概要
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++アップデート95:2023年11月にリリースされたAdobeのLearning Manager
++++アップデート96:2024年3月にリリースされたAdobe Learning Manager
 
 **リリース日：** 2023年11月18日
 
 ## リリースの最新情報
 
 詳しくは、[Adobe Learning Manager の新機能](/help/migrated/whats-new.md)を参照してください。
++++
+
++++アップデート95:2023年11月にリリースされたAdobeのLearning Manager
+
+**リリース日：** 2023年11月18日
+
+## リリースの最新情報
+
+詳しくは、[Adobe Learning Manager の新機能](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023)を参照してください。
 +++
 
 +++アップデート94
