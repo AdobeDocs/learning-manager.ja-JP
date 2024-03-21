@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 36dbde96fc325056f6944c625f68b6699b83a05b
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15334'
+source-wordcount: '15326'
 ht-degree: 63%
 
 ---
@@ -1599,7 +1599,7 @@ ADFS 接続を確立するための前提条件：
 
    <!--![](assets/click-api-permission.png)-->
 
-   *APIの権限を含む左ペイン*
+<!-- *Left pane containing API Permissions*-->
 
 1. **「権限を付与」**&#x200B;を選択します。 また、**「管理者の同意を付与」**&#x200B;のオプションを有効にします。
 
@@ -1611,7 +1611,7 @@ ADFS 接続を確立するための前提条件：
 
    <!--![](assets/ms-graph.png)-->
 
-   *Microsoft Graphを選択*
+   <!--*Select Microsoft Graph*-->
 
 1. **アプリケーションのアクセス許可**&#x200B;を選択します。
 
@@ -1641,7 +1641,9 @@ ADFS 接続を確立するための前提条件：
 
    <!--![](assets/select-add-permission.png)-->
 
-   *「権限を追加」を選択します*
+<!-- *Select Add Permissions*-->
+
+### ADFS構成ページ
 
 1. Adobe Learning Manager の ADFS 構成ページで、先ほど取得したクライアント ID とクライアントシークレットを入力します。
 
