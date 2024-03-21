@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15326'
-ht-degree: 63%
+source-wordcount: '15302'
+ht-degree: 64%
 
 ---
 
@@ -1559,89 +1559,89 @@ ADFS 接続を確立するための前提条件：
 
 ## アプリケーションを登録する手順 {#stepstoregisteryourapplication}
 
-1. Azure Active Directory をクリックします。 クリック **[!UICONTROL 追加]** > **[!UICONTROL アプリの登録]**.
+* Azure Active Directory をクリックします。 クリック **[!UICONTROL 追加]** > **[!UICONTROL アプリの登録]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *アプリの登録を追加*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. アプリケーションの名前を入力します。
+* アプリケーションの名前を入力します。
 
-   <!--![](assets/register-app.png)-->
-   *アプリケーションの名前を入力*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   「**[!UICONTROL 登録]**」をクリックします。
+  「**[!UICONTROL 登録]**」をクリックします。
 
-1. 右側のペインで、**[!UICONTROL 証明書とシークレット]**&#x200B;を選択します。
+* 右側のペインで、**[!UICONTROL 証明書とシークレット]**&#x200B;を選択します。
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *証明書とシークレットの選択*
+  <!--*Select Certificates and Secrets*-->
 
-1. クライアントシークレットを追加します。
+* クライアントシークレットを追加します。
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *クライアントシークレットの追加*
+  <!--*Add a client secret*-->
 
-1. シークレットに説明を追加し、有効期限を 24 か月に設定します。
+* シークレットに説明を追加し、有効期限を 24 か月に設定します。
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*説明を追加*
+  <!--*Add description*-->
 
-1. 値とシークレットをメモ帳などにコピーします。
+* 値とシークレットをメモ帳などにコピーします。
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*値と秘密鍵をコピー*
+  <!--*Copy value and secret key*-->
 
-1. **「API の許可」**&#x200B;を選択します。
+* **「API の許可」**&#x200B;を選択します。
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. **「権限を付与」**&#x200B;を選択します。 また、**「管理者の同意を付与」**&#x200B;のオプションを有効にします。
+* **「権限を付与」**&#x200B;を選択します。 また、**「管理者の同意を付与」**&#x200B;のオプションを有効にします。
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *権限を追加*
+  *権限を追加*
 
-1. **Microsoft Graph**&#x200B;を選択します。
+* **Microsoft Graph**&#x200B;を選択します。
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. **アプリケーションのアクセス許可**&#x200B;を選択します。
+* **アプリケーションのアクセス許可**&#x200B;を選択します。
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *アプリケーションの権限を選択*
+  *アプリケーションの権限を選択*
 
-1. *directory* と入力して検索し、 **ディレクトリデータの読み取り**&#x200B;を選択します。
+* *directory* と入力して検索し、 **ディレクトリデータの読み取り**&#x200B;を選択します。
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *ディレクトリデータの読み取りを選択*
+  *ディレクトリデータの読み取りを選択*
 
-1. *user* を検索語として入力します。
+* *user* を検索語として入力します。
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *検索語を入力*
+  *検索語を入力*
 
-1. **全ユーザーの全プロファイルの読み取り**&#x200B;を選択します。
+* **全ユーザーの全プロファイルの読み取り**&#x200B;を選択します。
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *「すべてのユーザーの全プロファイルの読み取り」を選択します。*
+  *「すべてのユーザーの全プロファイルの読み取り」を選択します。*
 
-1. **「権限を付与」**&#x200B;を選択します。
+* **「権限を付与」**&#x200B;を選択します。
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### ADFS構成ページ
 
