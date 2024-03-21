@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 36dbde96fc325056f6944c625f68b6699b83a05b
 workflow-type: tm+mt
 source-wordcount: '15334'
 ht-degree: 63%
@@ -1561,43 +1561,43 @@ ADFS 接続を確立するための前提条件：
 
 1. Azure Active Directory をクリックします。 クリック **[!UICONTROL 追加]** > **[!UICONTROL アプリの登録]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *アプリの登録を追加*
 
 1. アプリケーションの名前を入力します。
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *アプリケーションの名前を入力*
 
    「**[!UICONTROL 登録]**」をクリックします。
 
 1. 右側のペインで、**[!UICONTROL 証明書とシークレット]**&#x200B;を選択します。
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *証明書とシークレットの選択*
 
 1. クライアントシークレットを追加します。
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *クライアントシークレットの追加*
 
 1. シークレットに説明を追加し、有効期限を 24 か月に設定します。
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *説明を追加*
+*説明を追加*
 
 1. 値とシークレットをメモ帳などにコピーします。
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *値と秘密鍵をコピー*
+*値と秘密鍵をコピー*
 
 1. **「API の許可」**&#x200B;を選択します。
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
    *APIの権限を含む左ペイン*
 
@@ -1609,7 +1609,7 @@ ADFS 接続を確立するための前提条件：
 
 1. **Microsoft Graph**&#x200B;を選択します。
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
    *Microsoft Graphを選択*
 
@@ -1639,7 +1639,7 @@ ADFS 接続を確立するための前提条件：
 
 1. **「権限を付与」**&#x200B;を選択します。
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
    *「権限を追加」を選択します*
 
