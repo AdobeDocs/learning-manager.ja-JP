@@ -1,12 +1,12 @@
 ---
-description: Adobe Learning Manager の新機能と機能強化について説明します
+description: Adobe版Learning Managerリリースノート
 jcr-language: en_us
-title: 新機能の概要
+title: Adobe版Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
+source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
 workflow-type: tm+mt
-source-wordcount: '26225'
+source-wordcount: '26221'
 ht-degree: 72%
 
 ---
