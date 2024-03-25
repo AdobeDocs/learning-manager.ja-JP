@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 AdobeのLearning Managerでは、モバイルアプリにホワイトラベルを適用することができます。これにより、アプリのブランドを変更し、自分のブランドの下でアプリを使用できるようになります。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
 </table>
 
+>[!NOTE]
+>
+>CSAMにデータを提供して、カスタマイズされたアプリバイナリに追加できるようにします。
 
-#### サイトの関連付けの更新
+
+#### カスタムディープリンクを処理するためのサイトの関連付けの更新
 
 カスタムドメインまたはlearningmanager\*.adobe.comをホストとして使用している場合は、何もする必要はありません。 ただし、URLにカスタムソリューションまたは特定のホスト名を使用する場合は、サイト関連付けファイルを追加します。
+
+>[!CAUTION]
+>
+>ファイルが存在しない場合、デプリンクは機能しません。 ファイルが存在することを確認します。
+
 
 詳細については、次のリンクを参照してください。
 
@@ -212,9 +221,16 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## プッシュ通知証明書の生成
+## プッシュ通知の生成
 
-### iOSでのプッシュ通知証明書
+AndroidアプリとiOSアプリにプッシュ通知を送信するには、2つの異なるメカニズムが必要です。
+
+* iOSの場合、プッシュ通知証明書を生成します。
+* Androidの場合は、Firebaseプロジェクトから生成されたサーバーキーを提供します。
+
+Firebaseでプロジェクトを設定するには、以下の手順に従います。
+
+### iOSでのプッシュ通知
 
 iOSアプリの開発では、プッシュ通知証明書はAppleが発行する暗号化資格情報で、これによりサーバーはAppleのプッシュ通知サービス(APN)を介してiOSデバイスにプッシュ通知を安全に送信できます。
 
@@ -241,19 +257,24 @@ Android版とiOS版はどちらも、デバイスにプッシュ通知を送信�
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 サーバーに接続できる場合は、作成した証明書が有効です。 myapnappkey.pemファイルから、証明書とプライベートキーの値をコピーします。
 
-1. CSMチームに問い合わせて、AWSのSNSサービスに追加されたファイルを取得します。 ユーザーは、プッシュ通知のためにSNSサービスに登録されたエントリを取得する必要があります。これにより、上記で生成された証明書を検証のために共有することが求められます。
+### Androidでのプッシュ通知
+
+Firebaseでプロジェクトを設定し、CSAMとサーバーキーを共有します。
+
+CSMチームに問い合わせて、AWSのSNSサービスに追加されたファイルを取得します。 ユーザーは、プッシュ通知のためにSNSサービスに登録されたエントリを取得する必要があります。これにより、上記で生成された証明書を検証のために共有することが求められます。
 
 >[!NOTE]
 >
 >Androidの場合、ユーザーはSNSサービスにエントリを追加するために、Android用に作成したFirebaseプロジェクトからサーバーキーを提供する必要があります。
 
 
-## プロジェクトをFirebaseに追加する
+## Firebaseでのプロジェクトの作成
 
 ### Android
+
+上記の手順で作成したのと同じプロジェクトをプッシュ通知に再利用します。
 
 [プロジェクトを追加](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) Firebaseで、 ***google-services.json*** ファイル。
 
@@ -261,19 +282,24 @@ Android版とiOS版はどちらも、デバイスにプッシュ通知を送信�
 
 [プロジェクトを追加](https://firebase.google.com/docs/ios/setup) をFirebaseに送信し、 ***GoogleService-Info.plist*** ファイル。
 
+>[!IMPORTANT]
+>
+>AdobeのLearning Manager CSAMチームにファイルを送り、アプリのバイナリファイルのビルドに含めます。
+
+
 ## 署名されたバイナリを生成する
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->署名されたバイナリをビルドするにはXCode 14.2以上が必要です。
+>署名されたバイナリをビルドするにはXCode 15.2以上が必要です。
 
 
 ## Android
