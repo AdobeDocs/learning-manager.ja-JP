@@ -4,7 +4,7 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 AdobeのLearning Managerでは、モバイルアプリにホワイトラベルを適用することができます。これにより、アプリのブランドを変更し、自分のブランドの下でアプリを使用できるようになります。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 
 詳細については、次のリンクを参照してください。
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## プッシュ通知の生成
 
@@ -257,6 +256,7 @@ Android版とiOS版はどちらも、デバイスにプッシュ通知を送信�
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 サーバーに接続できる場合は、作成した証明書が有効です。 myapnappkey.pemファイルから、証明書とプライベートキーの値をコピーします。
 
 ### Androidでのプッシュ通知
@@ -324,5 +324,5 @@ CSMチームがお客様とビルドを共有します。
 
 ## カスタマイズできない内容
 
-- パスワードの更新画面
-- アカウントの作成画面
+* パスワードの更新画面
+* アカウントの作成画面
