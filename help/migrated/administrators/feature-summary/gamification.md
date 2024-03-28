@@ -3,14 +3,13 @@ description: ゲーミフィケーションとは、ゲームとは無関係の�
 jcr-language: en_us
 title: ゲーミフィケーション
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 67%
 
 ---
-
-
 
 # ゲーミフィケーション
 
@@ -76,7 +75,7 @@ Learning Manager では、構造的なゲーミフィケーションレイヤー
 
 ## ゲーミフィケーションの無効化 {#disablegamification}
 
-クリック [!UICONTROL **ゲーミフィケーション**] > [!UICONTROL **ゲーミフィケーション機能**]. これにより、ゲーミフィケーション機能とリーダーボードを、学習者ごとに個別に有効にすることができます。 要件に応じて、「社内学習者に対して有効にする」または「社外学習者に対して有効にする」を選択し、「OK」をクリックします。 ゲーミフィケーションを再度有効にすると、すべてのポイントが保持されます。
+クリック [!UICONTROL **ゲーミフィケーション**] > **[!UICONTROL 設定]** > [!UICONTROL **ゲーミフィケーション機能**]. これにより、ゲーミフィケーション機能とリーダーボードを、学習者ごとに個別に有効にすることができます。 要件に応じて、「社内学習者に対して有効にする」または「社外学習者に対して有効にする」を選択し、「OK」をクリックします。 ゲーミフィケーションを再度有効にすると、すべてのポイントが保持されます。
 
 ![](assets/gamification-feature.png)
 

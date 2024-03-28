@@ -3,14 +3,13 @@ description: Learning Manager の請求の管理、クレジットカードを�
 jcr-language: en_us
 title: Learning Manager の注文および請求管理
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 69%
 
 ---
-
-
 
 # Learning Manager の注文および請求管理
 
@@ -199,7 +198,7 @@ Learning Managerアカウント。 その他のユーザーは、アカウント
 
 ![](assets/generate-report-request.png)
 
-*美しい使用状況レポートをダウンロード*
+*アクティブな使用状況レポートをダウンロード*
 
 ブラウザーウィンドウを閉じると、次回 Learning Manager にアクセスした際にダウンロードが開始されます。
 

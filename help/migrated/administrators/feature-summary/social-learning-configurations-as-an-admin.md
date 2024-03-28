@@ -3,14 +3,13 @@ description: 管理者は、ソーシャル学習で実行されるアクティ�
 jcr-language: en_us
 title: 管理者としてソーシャル学習のモニターとモデレートを行う
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # 管理者としてソーシャル学習のモニターとモデレートを行う
 
@@ -265,9 +264,9 @@ AdobeのLearning Managerデスクトップアプリケーションを使用し�
 * **[!UICONTROL 複製]:** このボタンをクリックすると、タイトルと字幕をすべての言語に複製できます。
 * **[!UICONTROL リセット]:** このボタンをクリックすると、タイトルと字幕が元の状態に戻ります。
 
-管理者が入力した情報が、ソーシャル学習ホームページのヘッダーに表示されるようになります。
+  管理者が入力した情報が、ソーシャル学習ホームページのヘッダーに表示されるようになります。
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## 傾向 {#trends}
 

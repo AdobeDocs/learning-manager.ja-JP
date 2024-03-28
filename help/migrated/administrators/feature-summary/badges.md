@@ -3,14 +3,13 @@ jcr-language: en_us
 title: バッジ
 description: バッジは、従業員がコースを完了したときに獲得できる達成度の指標です。 AdobeLearning Managerでは「バッジ」と呼ばれる最新のeラーニングコンセプトが導入されています。 世界中のプロフェッショナルは、特定のスキルや学習成果を達成した証としてこれらのバッジを使用しています。
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 41%
 
 ---
-
-
 
 # バッジ
 
@@ -26,7 +25,7 @@ ht-degree: 41%
    >
    >デフォルトでは、いくつかのサンプルバッジのリストが表示されます。
 
-1. クリック **[!UICONTROL バッジを追加]** をクリックします。 バッジを追加ダイアログが表示されます。
+1. クリック **[!UICONTROL 追加]** をクリックします。 バッジを追加ダイアログが表示されます。
 
    ![](assets/add-badge1.png)
 

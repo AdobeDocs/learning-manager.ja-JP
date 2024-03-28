@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 90%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 90%
    * [設定](administrators/feature-summary/settings.md)
    * [通知](administrators/feature-summary/user-notifications.md)
    * [iPad および Android タブレットのユーザー](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [管理者の基本](administrators/feature-summary/getting-started.md)
    * [ユーザーを消去](administrators/feature-summary/purge-users.md)
    * [タグ](administrators/feature-summary/tags.md)
    * [Learning Manager コンテンツカタログ](administrators/feature-summary/content-catalogs.md)

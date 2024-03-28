@@ -3,14 +3,13 @@ description: スキルとレベルの作成、割り当て、変更
 jcr-language: en_us
 title: スキルとレベルの作成および変更
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # スキルとレベルの作成および変更
 
@@ -32,7 +31,7 @@ Learning Manager LMS におけるスキルの基本目的は、ビジネス目�
 
 スキルを追加するには、次の手順に従います。
 
-1. 左ペインで、「**[!UICONTROL スキル]**」をクリックします。スキルに名前を付けて、説明を記入します。
+1. 左側のペインで、 **[!UICONTROL スキル]** > **[!UICONTROL 追加]** > **[!UICONTROL スキルを追加]**. スキルに名前を付けて、説明を記入します。
 
    ![](assets/add-skill-name-anddescription.png)
 

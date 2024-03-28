@@ -3,14 +3,13 @@ description: Learning Manager を使用して学習者のトランスクリプ�
 jcr-language: en_us
 title: 学習者のトランスクリプト
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # 学習者のトランスクリプト
 
@@ -22,7 +21,7 @@ Learning Manager を使用して学習者のトランスクリプトをダウン
 
 1. 学習者のトランスクリプトを生成するには、 **[!UICONTROL レポート]** をクリックします。
 
-   管理者は、**[!UICONTROL レポート]**&#x200B;ページ内の「Excel レポート」タブに移動します。
+   管理者は、 **[!UICONTROL カスタムレポート]** > **[!UICONTROL Excelレポート]** タブの内側 **[!UICONTROL レポート]** ページです。
 
 1. リンクをクリック **[!UICONTROL 学習者のトランスクリプト]**.
 

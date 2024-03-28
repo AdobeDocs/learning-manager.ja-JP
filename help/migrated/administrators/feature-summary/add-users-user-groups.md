@@ -3,14 +3,13 @@ description: Learning manager でユーザーまたはユーザーグループ�
 jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
 
 ---
-
-
 
 # ユーザーを追加してユーザーグループの作成
 
@@ -610,7 +609,7 @@ Learning Managerは学習者のアカウントを確認できるため、学習�
 
 +++カスタムユーザーグループを作成する方法
 
-クリック **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]** [ユーザーグループ]ページで、次をクリックします **[!UICONTROL 追加]**. ユーザーグループを追加ダイアログで、ユーザーを個人およびチームとして追加します。
+クリック **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]** [ユーザーグループ]ページで、次をクリックします **[!UICONTROL 追加]**. ユーザーグループを追加ダイアログで、ユーザーを個別に、またはグループとして追加します。
 
 ![](assets/custom-user-group.png)
 

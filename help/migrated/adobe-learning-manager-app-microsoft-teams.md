@@ -3,13 +3,13 @@ description: Microsoft Teams 向け Adobe Learning Manager アプリ
 jcr-language: en_us
 title: Microsoft Teams 向け Adobe Learning Manager アプリ
 contentowner: saghosh
-source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
+exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 41%
 
 ---
-
 
 # Microsoft Teams 向け Adobe Learning Manager アプリ
 

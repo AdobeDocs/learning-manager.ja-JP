@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ L1フィードバックページで、コースの登録数が多い場合、学
 ## 教室の作成の変更
 
 基準 [管理者設定](administrators/feature-summary/classroom.md#classroom-settings)作成者は次のことを実行できます [場所の作成、変更、削除](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >場所とカタログラベルを追加する際、作成者（コースの作成ページ）と管理者（インスタンスページ）には、場所とカタログラベルの自動入力リストがそれぞれ表示されます。

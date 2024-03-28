@@ -4,7 +4,7 @@ title: カタログ
 description: カタログには、コース、学習プログラム、資格認定など、学習のコレクションが含まれます。 学習者はカタログを使用して、カスタマイズされた学習オブジェクトのセットにアクセスすることができます。 新しいカタログを作成する際に、特定の学習オブジェクトをそのカタログに関連付けることができます。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -220,7 +220,7 @@ Learning Manager アカウントに関連付けられているサブドメイン
    <td>
     <p><strong>学習プログラム</strong></p></td>
    <td>
-    <p>badgeId、廃止を除く、LPオブジェクトの名前、説明、およびその他のフィールド</p></td>
+    <p>バッジID、廃止を除く、LPオブジェクトの名前、説明、およびその他のフィールド</p></td>
   </tr>
   <tr>
    <td>
@@ -244,7 +244,7 @@ Learning Manager アカウントに関連付けられているサブドメイン
    <td>
     <p><strong>作業計画書</strong></p></td>
    <td>
-    <p>jobAidオブジェクトのすべてのプロパティ</p></td>
+    <p>JobAidオブジェクトのすべてのプロパティ</p></td>
   </tr>
   <tr>
    <td>
