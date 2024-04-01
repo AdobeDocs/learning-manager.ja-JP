@@ -3,14 +3,13 @@ description: この記事では、Learning Manager でコース、認定資格�
 jcr-language: en_us
 title: コースの作成、変更、公開
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # コースの作成、変更、パブリッシュ
 
@@ -70,6 +69,7 @@ Adobe Learning Manager を使用すると、作成者は仮想トレーニング
    メモ：これは、Adobe Commerceコネクタが設定されている場合にのみ有効になります。
 
 1. 学習者が自分自身でコースの登録を解除できるようにするには、「**学習者は自分で登録解除できます**」チェックボックスを選択します。
+
 1. **インスタンス構成**
 
    このオプションを有効にすると、ステータスが「進行中」の学習者が他のインスタンスにアクセスして登録できるようになります。 これにより、学習者は前のインスタンスの進行状況を保持できます。
@@ -898,4 +898,3 @@ Learning Manager の以前のリリースでは、社外の資格認定の学習
 いいえ、Learning Managerにアップロードされたコンテンツは、パブリッシュされたzipファイルであり、ソースファイルではありません。 そのため、コンテンツをダウンロードしても、オーサリングツールでそのコンテンツを編集することはできません。 コンテンツを編集するには、ソースファイルが必要です。
 
 +++
-

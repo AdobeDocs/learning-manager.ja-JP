@@ -3,14 +3,13 @@ jcr-language: en_us
 title: アプリケーションデベロッパーマニュアル
 description: Learning Manager V1 API は非推奨になりました。 V1 API は、2021 年 2 月 28 日をもって終了します。今後はLearning Managerを操作する際に、V2 APIを使用することをお勧めします。
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3385'
 ht-degree: 62%
 
 ---
-
-
 
 # アプリケーションデベロッパーマニュアル
 

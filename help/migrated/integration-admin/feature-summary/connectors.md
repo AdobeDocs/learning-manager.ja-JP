@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '15302'
 ht-degree: 64%
@@ -897,7 +897,7 @@ miniOrangeコネクターを設定するには、Learning Manager CSMチーム�
 
    *接続を作成する*
 
-1. miniOrnageユーザーをLearning Manager社内ユーザーとして直接読み込む場合、 **[!UICONTROL 社内ユーザーのインポート]** オプションです。
+1. miniOrangeユーザーをLearning Manager社内ユーザーとして直接読み込む場合、 **[!UICONTROL 社内ユーザーのインポート]** オプションです。
 
    ![](assets/import-users.png)
 

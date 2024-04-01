@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager と AEM の統合
 description: Learning Managerは、学習コンテンツ管理システムが組み込まれた学習管理システムです。 ユーザーは、学習コンテンツを Learning Manager にアップロードして管理します。これにより Learning Manager で、バージョン管理、コースへの割り当て、学習者への表示の定義、使用状況の追跡、管理者への報告を行うことができます。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # Learning Manager と AEM の統合
 
@@ -136,7 +135,7 @@ Skylineの設定手順については、  [GitHubリポジトリ](https://github
 
 * **[!UICONTROL カタログID]:** 表示が必要なトレーニングを示す、コンマで区切られたカタログのID。
 * **[!UICONTROL 並べ替え]:** トレーニングの並べ替え順序。 名前、日付、作成日、登録日などのオプションがあります。
-* **[!UICONTROL 学習者の状態]:** enrolled（登録済み）、started（開始）、completed（完了）、notenrolled（未登録）というフィルターを使用するすべてのトレーニングを返します。 ソートオプションがdateEnrolled、dueDate、またはdateEnrolledの場合、検索結果は表示されません。
+* **[!UICONTROL 学習者の状態]:** enrolled（登録済み）、started（開始）、completed（完了）、not enrolled（未登録）というフィルターを使用している、すべてのトレーニングを返します。 ソートオプションがdateEnrolled、dueDate、またはdateEnrolledの場合、検索結果は表示されません。
 * **[!UICONTROL スキル名]:** トレーニングを正確にフィルタリングするのに使用するスキル。
 * **[!UICONTROL タグ名]:** 結果を正確にフィルタリングするのに使用するタグ。
 
