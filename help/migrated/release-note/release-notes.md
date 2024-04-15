@@ -1,7 +1,7 @@
 ---
-description: Adobe版Learning Managerリリースノート
+description: Adobe Learning Managerリリースノート
 jcr-language: en_us
-title: Adobe版Learning Managerリリースノート
+title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# Adobe版Learning Managerリリースノート
+# Adobe Learning Managerリリースノート
 
 <!--<table>
  <tbody>
@@ -32,7 +32,7 @@ ht-degree: 72%
 詳しくは、[Adobe Learning Manager の新機能](/help/migrated/whats-new.md)を参照してください。
 +++
 
-+++アップデート95:2023年11月にリリースされたAdobeのLearning Manager
++++アップデート95:2023年11月リリースのAdobe Learning Manager
 
 **リリース日：** 2023年11月18日
 
@@ -51,7 +51,7 @@ ht-degree: 72%
 * ソーシャルで表示するビデオの品質と速度を変更できます。
 +++
 
-+++アップデート93:2023年7月にリリースされたAdobe Learning Manager
++++アップデート93:Adobe Learning Managerの2023年7月リリース
 
 **リリース日：** 2023年7月10日
 
@@ -69,7 +69,7 @@ Adobe Learning Manager のこのリリースでは、学習者向けに複数登
 
 今回のAdobe Learning Manager のリリースには、AWS Transfer ファミリーの SFTP プロトコルを使用する新しいコネクタが含まれます。
 
-詳しくは、「 [2023年7月リリースのAdobe Learning Managerにおける新機能](/help/migrated/whats-new-2023-july.md).
+詳しくは、「 [Adobe Learning Managerの2023年7月リリースの新機能](/help/migrated/whats-new-2023-july.md).
 +++
 
 +++アップデート：92
@@ -145,7 +145,7 @@ SSOログインURLにentity_idが含まれている場合は、SAMLログイン�
 
 **「ハイブリッド」セッションのサポート**
 
-Adobe版Learning Managerでは、「ハイブリッド」インストラクターによるトレーニング(ILT)を実施できるようになりました。 仮想 ILT セッションを作成して場所情報をオプションで追加できるため、その場所にいる学習者は対面セッションにも参加できるようになりました。
+Adobe Learning Managerは、「ハイブリッド」インストラクターによるトレーニング(ILT)セッションを作成する機能をサポートするようになりました。 仮想 ILT セッションを作成して場所情報をオプションで追加できるため、その場所にいる学習者は対面セッションにも参加できるようになりました。
 
 **教室およびバーチャルILTの進捗追跡の改善**
 
@@ -217,7 +217,7 @@ iPhone 14 でアプリの「アクティビティ」タブで通知をクリッ�
 * MS Teams 向け Adobe Learning Manager アプリのインターフェイス言語を変更しても、変更が適用されない場合があります。
 * Iframe（「ホーム」タブと「カタログ」タブ）内にフォーカスされている場合、最初の通知を操作できません。
 
-**AdobeのLearning Managerモバイルアプリの制限**
+**Adobe Learning Managerモバイルアプリの制限**
 
 * オフラインコンテンツの表示。
 * カタログ / 学習状況ページのグリッド / リストビュー。
@@ -375,7 +375,7 @@ GET learningmanagerapi/v2/learningObjectsで言語をフィルタリングする
 
 **リリース日：** 2022年11月5日
 
-**注意：** このリリースのLearning Manager Adobeでは、非アクティブなアカウントを持つユーザーは、サブドメインを使用してアカウントにアクセスすることができなくなりました。 アカウントにアクセスするには、アカウントIDを使用するか、 acapindex.htmlページを使用して電子メールIDを入力します。
+**注意：** Adobe Learning Managerのこのリリースでは、非アクティブなアカウントを持つユーザーは、サブドメインを使用してアカウントにアクセスすることができなくなりました。 アカウントにアクセスするには、アカウントIDを使用するか、 acapindex.htmlページを使用して電子メールIDを入力します。
 
 ### このリリースの最新情報
 
@@ -468,7 +468,7 @@ GET learningmanagerapi/v2/learningObjectsで言語をフィルタリングする
 * HTML コードは、学習者が通知を確認したときに表示されます。この挙動は、エクスペリエンスに悪影響を及ぼします。
 * ダッシュボードで、学習時間がエラーにより 0 時間と表示されます。
 
-## 更新：AdobeのLearning Managerは、AdobeのLearning Managerに名称変更されます
+## 更新：Adobe Learning ManagerはAdobe Learning Managerに名称変更されます
 
 予定されている変更に関する最新情報をお伝えします。どうぞ今後の準備にお役立てください。
 
@@ -627,7 +627,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **公開**
 
-* Adobe CaptivateからAdobeのLearning Managerに直接公開されたLearning Managerコンテンツのヨーロッパインスタンスが、ドイツ語ロケールでデフォルトで公開されていました。 この問題は修正されました。
+* Adobe CaptivateからAdobe Learning Managerに直接公開されたLearning Managerコンテンツのヨーロッパインスタンスが、ドイツ語ロケールでデフォルトで公開されていました。 この問題は修正されました。
 
 **API**
 
@@ -1147,7 +1147,7 @@ BlueJeans イベントコネクターは、Learning Manager と BlueJeans シス
 * LinkedIn 学習機能の強化
 * その他
 
-詳しくは、「  [***2020年12月にリリースされたAdobe Learning Managerの新機能***](../whats-new.md).
+詳しくは、「  [***Adobe Learning Managerの2020年12月リリースの新機能***](../whats-new.md).
 
 ### モバイル没入型エクスペリエンスでサポートされていない機能 {#unsupportedfeaturesinmobileimmersiveexperience}
 
