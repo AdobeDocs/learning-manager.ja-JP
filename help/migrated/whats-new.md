@@ -1,19 +1,19 @@
 ---
-description: Adobe版Learning Managerの2024年3月リリースの新機能と機能強化について説明します
+description: Adobe Learning Managerの2024年3月のtneリリースに搭載された新機能と機能強化について説明します
 jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # 新機能の概要 {#new-features-summary}
 
-Adobe版Learning Managerの2024年3月リリースの新機能と機能強化について説明します。
+Adobe Learning Managerの2024年3月リリースの新機能と機能強化について説明します。
 
 ## このリリースの最新情報 {#whatsnewandchanged}
 
@@ -88,7 +88,7 @@ L1フィードバックページで、コースの登録数が多い場合、学
 
 現在のバージョンのLearning Manager Adobeでは、資格認定に登録されているユーザーの数が多い場合、 **ステータス** ドロップダウンが無効になっています。
 
-このリリースのLearning Manager Adobeでは、登録ユーザー数が多い場合、 **ステータス** ドロップダウンには2つのオプションのみが表示されます。 **登録済み** および **登録解除**. オプション **登録済み** はデフォルトで選択されています。 次を選択した場合 **登録解除**&#x200B;に登録されていない学習者のリストが表示されます。
+Adobe Learning Managerのこのリリースでは、登録済みユーザーの数が多い場合、 **ステータス** ドロップダウンには2つのオプションのみが表示されます。 **登録済み** および **登録解除**. オプション **登録済み** はデフォルトで選択されています。 次を選択した場合 **登録解除**&#x200B;に登録されていない学習者のリストが表示されます。
 
 #### ユーザーグループの変更
 
@@ -235,7 +235,7 @@ L1フィードバックページで、コースの登録数が多い場合、学
 * 検索バーの外観。
 * 学習アプリにフィルタータグを追加。
 
-検索機能を有効にするには、Learning Manager AdobeのCSAMチームまでお問い合わせください。
+検索機能を有効にするには、Adobe Learning ManagerのCSAMチームにお問い合わせください。
 
 ## ユーザーインターフェイスの変更 {#ui-changes}
 
@@ -287,7 +287,7 @@ L1フィードバックページで、コースの登録数が多い場合、学
 
 ## チェックリストの機能強化
 
-2024年3月にリリースされたAdobe Learning Managerでは、以下のチェックリストワークフローが強化されています。
+2024年3月リリースのAdobe Learning Managerでは、以下のチェックリストワークフローが機能強化されました。
 
 ### チェックリストの失敗に関する進行状況を禁止する
 
@@ -320,13 +320,13 @@ L1フィードバックページで、コースの登録数が多い場合、学
 
 ### セッション関連の電子メール通知
 
-以前のリリースのAdobeであるLearning Managerでは、学習者がセッション関連の電子メール、セッションの詳細の更新、セッションの招待、セッションのリマインダーで、次の状況を行っていませんでした。
+Adobe Learning Managerの以前のリリースでは、学習者がセッション関連の電子メール、セッションの詳細の更新、セッションの招待、セッションのリマインダーで、次の状況を行っていませんでした。
 
 * 学習者がコースを完了すると、
 * コースに新しいセッションが追加された場合、または
 * 既存のセッションに変更があります。
 
-2024年3月にリリースされたAdobe Learning Managerでは、以下の点が新しく変更されました。
+2024年3月リリースのAdobe Learning Managerでは、次の新しい変更が加えられました。
 
 * セッションの詳細が更新され、セッションが招待されました（学習者およびインストラクター用）
    * 今後のセッションでは、次のメール **セッションの詳細が更新されました**, **セッションへの招待** 登録済み学習者および現在のインストラクターは非推奨となります。 過去のセッションの場合：電子メール **セッションの詳細が更新されました** および **セッションへの招待** 登録済み学習者と現在のインストラクターは、そのままの状態が維持されます。
@@ -344,7 +344,7 @@ AEMの参照サイトで、学習者アクセストークンに管理者更新�
 
 ### インストラクターからの提出物を非表示
 
-学習者がファイル提出ワークフローを使用してファイルをアップロードした後、提出に対してインストラクターがアクション（承認または却下）を行わない場合、提出URLは事前に定義された日数が経過するとビューに表示されません。 日数を設定または変更するには、CSAM Adobe版Learning Managerにお問い合わせください。
+学習者がファイル提出ワークフローを使用してファイルをアップロードした後、提出に対してインストラクターがアクション（承認または却下）を行わない場合、提出URLは事前に定義された日数が経過するとビューに表示されません。 日数を設定または変更するには、Adobe Learning ManagerのCSAMチームにお問い合わせください。
 
 ### 製品用語の変更
 
@@ -370,15 +370,15 @@ Webアプリの場合と同様に、Salesforceアプリのチェックリスト�
 
 ### Connect VCの変更点
 
-AdobeのLearning Managerの現在のリリースでは、学習者に **未出席** connect VCセッションに登録されているが、完了条件を満たしていない場合。
+Adobe Learning Managerの現在のリリースでは、学習者には **未出席** connect VCセッションに登録されているが、完了条件を満たしていない場合。
 
 このリリースでは、ステータスがに変わります **まだマークされていません**.
 
-### AdobeのLearning Managerでのホワイトラベル
+### Adobe Learning Managerのホワイトラベル
 
-AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサポートされるようになりました。つまり、お客様のブランディングの下でアプリをリリースできます。
+Adobe Learning Managerモバイルアプリは、ホワイトラベルをサポートするようになりました。これにより、独自のブランディングでアプリをリリースできるようになりました。
 
-白いラベルを表示 [AdobeのLearning Managerモバイルアプリ](white-label.md) 」を参照してください。
+白いラベルを表示 [Adobe Learning Managerモバイルアプリ](white-label.md) 」を参照してください。
 
 ### 移行CSVの新しい列
 
@@ -388,7 +388,21 @@ AdobeのLearning Managerモバイルアプリで、ホワイトラベルがサ�
 * course.csv
 * learning_program.csv
 
-uniqueLoId列は、作業計画書のCSVには適用できません。
+>[!NOTE]
+>
+>この **uniqueLoId** columnはオプションです。
+
+
+既存のコース、学習プラン、または資格認定を更新するために移行を実行する場合、コース、学習プラン、または資格認定は **uniqueLOId**&#x200B;を作成者アプリに追加します。
+
+移行中に、 **uniqueLOId** オプションの列でも、コース、学習プラン、または資格認定のCSV内の値。
+
+もし **uniqueLoId** 既存のコース、学習プラン、または資格認定を更新する際に、移行を実行する前に列が追加されません。 **uniqueLOId** s、移行後 **uniqueLOId** 値はNULL値で上書きされます。
+
+>[!NOTE]
+>
+>uniqueLoId列は、作業計画書のCSVには適用できません。
+
 
 >[!IMPORTANT]
 >
@@ -399,21 +413,21 @@ uniqueLoId列は、作業計画書のCSVには適用できません。
 
 ### アプリの評価
 
-学習者はAdobeのLearning Managerアプリに関するフィードバックを送信することで、アプリのエクスペリエンスをさらに向上させることができます。 学習者が4つ星以上を評価した場合は、PlayストアまたはApp Storeでアプリを評価するように学習者に求めるポップアップが表示されます。
+学習者はAdobe Learning Managerアプリでフィードバックを提供することで、アプリの操作性をさらに向上させることができます。 学習者が4つ星以上を評価した場合は、PlayストアまたはApp Storeでアプリを評価するように学習者に求めるポップアップが表示されます。
 
 ### Bluejeansは、2024年2月にサポート終了(EOL)になりました
 
 Bluejeansが2024年2月にサポート終了(EOL)になったことをお知らせします。 2024年2月以降、Bluejeansはアップデートやサポートを受けられなくなります。 CSAMとサポートチームは、この移行期間中に発生する可能性のある質問や懸念事項についてお客様を支援します。
 
-表示 [Learning Manager Adobeのコネクタ](integration-admin/feature-summary/connectors.md) コネクタの設定の詳細については、を参照してください。
+表示 [Adobe Learning Managerのコネクタ](integration-admin/feature-summary/connectors.md) コネクタの設定の詳細については、を参照してください。
 
 ### ログインアクセスレポートの変更点
 
-ログインアクセスレポートは、過去5四半期でのみ使用できます。 統合管理者がオンデマンドで統合された書き出しのダウンロードを要求した場合 **ログインアクセス** オンにすると、AdobeのLearning Managerでエラーメッセージが表示されます。 ただし、他のレポートへの影響はありません。
+ログインアクセスレポートは、過去5四半期でのみ使用できます。 統合管理者がオンデマンドで統合された書き出しのダウンロードを要求した場合 **ログインアクセス** オンにすると、Adobe Learning Managerでエラーメッセージが表示されます。 ただし、他のレポートへの影響はありません。
 
 ### ADFSの変更
 
-ADFSの「Employee Type」フィールドと「Employee ID」フィールドが、マッピングに基づいてAdobeのLearning Managerで使用できるようになりました。
+ADFSのEmployee TypeフィールドとEmployee IDフィールドが、マッピングに基づいてAdobe Learning Managerで使用できるようになりました。
 
 ## このリリースでの API の変更
 
@@ -513,7 +527,7 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 
 ### 非推奨のAPI
 
-表示 [Learning Manager AdobeのAPIの廃止](api-deprecations-list.md) 製品で廃止されたすべてのAPIの累積的なリストを示します。
+表示 [Adobe Learning ManagerでのAPIの廃止](api-deprecations-list.md) 製品で廃止されたすべてのAPIの累積的なリストを示します。
 
 ## このアップデートで修正されたバグ {#bug-fixes}
 
@@ -543,7 +557,7 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 
 ## 必要システム構成
 
-表示 [AdobeのLearning Managerの必要システム構成](system-requirements.md).
+表示 [Adobe Learning Manager必要システム構成](system-requirements.md).
 
 ## Adobe Learning Manager の過去のリリース
 
