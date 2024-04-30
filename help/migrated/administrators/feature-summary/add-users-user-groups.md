@@ -4,7 +4,7 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
+source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -22,7 +22,7 @@ Learning manager でユーザーまたはユーザーグループを追加する
 
 >[!INFO]
 >
->このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br><br>
+>このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br/><br/>
 [![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
 
