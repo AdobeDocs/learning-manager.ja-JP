@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3992'
 ht-degree: 65%
 
 ---
@@ -17,11 +17,16 @@ ht-degree: 65%
 
 管理者のプロファイル設定を変更したり、管理者のアカウント設定を編集したりすることができます。プロフィール情報の表示、プロフィール写真の追加/変更、変更 **[!UICONTROL 自分について]** コンテンツ： また、会社情報の更新、ユーザーのログイン方法の設定、アカウント設定を使用した接続統合のセットアップを行うこともできます。
 
-## Learning Manager Adobeを設定する
+## Adobe Learning Managerの設定
 
 このトレーニングでは、アカウントレベルの設定に関する基本的な知識を習得します。
 
 [![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+>[!NOTE]
+>
+>これはサンプルボタンです <br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
+
 
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
