@@ -4,7 +4,7 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -15,15 +15,22 @@ ht-degree: 62%
 
 Learning manager でユーザーまたはユーザーグループを追加する方法について解説します。
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## ユーザーグループの管理
 
-このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。
+>[!INFO]
+>
+>このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br><br>
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
@@ -44,7 +51,7 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 
 ## 単一ユーザーの追加 {#addasingleuser}
 
-シングルユーザーオプションを使用して、社内学習者をLearning Manager Adobeに追加します。
+シングルユーザーオプションを使用して、社内学習者をAdobe Learning Managerに追加します。
 
 [![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
@@ -164,7 +171,7 @@ Adobe Learning Manager アカウントに学習者を追加した後で役割を
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
-AdobeのLearning Managerでは、ユーザー属性およびその値の大文字と小文字の区別が維持されます。 **例**&#x200B;大文字と小文字の区別が保持されたユーザー属性が「location」で、値が「PARIS」の場合、同様に保持されて表示されます。 問題が発生した場合、管理者は属性名と値を編集して、大文字と小文字の区別に関するエラーを修正できるようになりました。
+Adobe Learning Managerでは、ユーザー属性およびその値の大文字と小文字の区別が保持されます。 **例**&#x200B;大文字と小文字の区別が保持されたユーザー属性が「location」で、値が「PARIS」の場合、同様に保持されて表示されます。 問題が発生した場合、管理者は属性名と値を編集して、大文字と小文字の区別に関するエラーを修正できるようになりました。
 
 管理者は、次のサイトにアクセスして、この操作を実行できます **[!UICONTROL 管理者アプリ]** > **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]** グループ名をクリック
 
