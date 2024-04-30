@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
+source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
 workflow-type: tm+mt
-source-wordcount: '3978'
-ht-degree: 62%
+source-wordcount: '4016'
+ht-degree: 61%
 
 ---
 
@@ -20,12 +20,10 @@ Learning manager でユーザーまたはユーザーグループを追加する
 
 ## ユーザーグループの管理
 
-<!-- >[!INFO]
+>[!INFO]
 >
->In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+>このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
@@ -53,7 +51,10 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 
 シングルユーザーオプションを使用して、社内学習者をAdobe Learning Managerに追加します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
+>[!INFO]
+>
+>このトレーニングでは、Adobe Learning Managerに社内学習者を追加する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
@@ -165,9 +166,9 @@ Adobe Learning Manager アカウントに学習者を追加した後で役割を
 
 ### ユーザー属性の管理
 
-このトレーニングでは、アクティブフィールドを追加、カスタマイズ、設定する方法について説明します。
-
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+>[!INFO]
+>
+>このトレーニングでは、アクティブフィールドを追加、カスタマイズ、設定する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
