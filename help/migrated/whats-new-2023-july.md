@@ -2,9 +2,10 @@
 title: このリリースの新機能（2023年7月）
 description: Adobe Learning Manager の新機能と機能強化について説明します
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -59,7 +60,7 @@ argument_object=
 
 ## 教室およびバーチャルセッションのOutlookでのリマインダー
 
-学習者のOutlookカレンダーに追加されたLearning ManagerAdobeが作成する教室およびバーチャルクラスルームセッションで、Outlookからのリマインダーが一貫してサポートされるようになりました（Outlookの会議リマインダーと同様）。
+学習者のOutlookカレンダーに追加されたAdobe Learning Managerから作成された教室およびバーチャルクラスルームセッションで、Outlookからのリマインダーが一貫してサポートされるようになりました（Outlookの会議リマインダーと同様）。
 
 ## コースへのスキルの割り当ての機能強化
 
@@ -530,7 +531,11 @@ prl 推奨事項の表示に使用するすべてのストリップを取得し�
 
 このリリースでは、英語のロケール用の語幹検索が追加されました。これには、en_US、en_AU、en_GBのバリエーションが含まれています。
 
-stemmed 属性は、検索結果にステミングが必要かどうかを指定します。 デフォルトではFalseに設定されています
+stemmed 属性は、検索結果にステミングが必要かどうかを指定します。 デフォルトでは、Falseに設定されています。
+
+APIクエリパラメーター：
+
+matchType=phrase_and_match stemmed=true
 
 ### V1 エンドポイントの削除
 
