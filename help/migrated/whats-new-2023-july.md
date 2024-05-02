@@ -3,7 +3,7 @@ title: このリリースの新機能（2023年7月）
 description: Adobe Learning Manager の新機能と機能強化について説明します
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2059'
 ht-degree: 67%
@@ -535,7 +535,8 @@ stemmed 属性は、検索結果にステミングが必要かどうかを指定
 
 APIクエリパラメーター：
 
-matchType=phrase_and_match stemmed=true
+* matchType=phrase_and_match
+* stemmed=true
 
 ### V1 エンドポイントの削除
 
