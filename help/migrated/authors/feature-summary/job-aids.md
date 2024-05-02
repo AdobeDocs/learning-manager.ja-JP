@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 作業計画書
 description: 作業計画書とは、登録や完了条件なしに学習者がアクセスできるトレーニングコンテンツのリポジトリです。 学習者は作業計画書を参照することで、組織内の活動やタスクの実行に役立てることができます。
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # 作業計画書
 
@@ -35,6 +34,19 @@ ht-degree: 73%
 1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
    作業計画書が公開されました。
+
+## 様々な言語での作業計画書の追加 {#addcontentfordifferentlanguages}
+
+1. 様々な言語で作業計画書を追加するには、 **新しい言語を追加** タブをクリックして、必要な言語を選択します。 この方法を使用すると、コンテンツで複数の言語を使用できます。
+
+   ![](assets/add-new-languagetab.png)
+
+   *コンテンツの新しい言語の追加*
+
+1. 新しい言語に対して作業計画書のアップロードプロセスを繰り返します。
+1. 言語を削除する場合は、[新しい言語の追加]タブを選択し、選択を解除します。
+
+   変更を加えたら、「保存」を選択します。
 
 ## サポートされる作業計画書の種類 {#typesofsupportedjobaids}
 
