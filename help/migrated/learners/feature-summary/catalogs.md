@@ -3,14 +3,13 @@ description: 利用可能な学習オブジェクトについて、Learning Mana
 jcr-language: en_us
 title: カタログ
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # カタログ
 
@@ -22,7 +21,7 @@ ht-degree: 23%
 
 学習目標のリストは、学習目標のスキルとタイプ（セルフペース、ミックス済み、教室、バーチャルクラスルーム、アクティビティ）から絞り込むことができます。また、左ペインのオプション（学習目標、スキル、完了ステータス）を使用してフィルタリングすることもできます。
 
-ページの上部にある検索バーを使用して、使い慣れた学習目標の名前を入力します。
+ページの上部にある検索バーを使用して、使い慣れた学習目標の名前を入力します。 学習者は、これを選択することで、グリッドビューとリストビューを切り替えることができます ![](assets/icon-list.png) アイコンで表示されます。
 
 ![](assets/catalogs.png)
 *カタログの表示*
