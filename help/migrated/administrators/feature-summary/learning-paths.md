@@ -4,9 +4,9 @@ title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ Learning Managerの管理者アプリで、以下をクリックします。 **[
 ![](assets/add-skills.png)
 
 学習パスにバッジを割り当てます。 使用可能なバッジのリストからバッジを選択します。
+
+次から、製品、ロール、およびロールレベルを選択します **[!UICONTROL おすすめのプラン]** これらの製品や役割に興味を示したユーザーに、この学習パスを提案するセクション。
+
+![](assets/recommend-for.png)
 
 セクションとトレーニングのシーケンスタイプとして、「順序付け済み」または「順序付けなし」を選択します。
 

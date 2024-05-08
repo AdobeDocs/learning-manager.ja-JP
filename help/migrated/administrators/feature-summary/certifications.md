@@ -3,14 +3,13 @@ description: 資格認定の作成、学習者の登録、パブリッシュ済�
 jcr-language: en_us
 title: 資格認定
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # 資格認定
 
@@ -103,6 +102,10 @@ ht-degree: 70%
  </tbody>
 </table>
 
+次から、製品、ロール、およびロールレベルを選択します **[!UICONTROL おすすめのプラン]** これらの製品や役割に興味を示したユーザーに、この学習パスを提案するセクション。
+
+![](assets/recommend-for.png)
+
 資格認定に追加するコースを選択します。 **[!UICONTROL コース]** > **[!UICONTROL カタログ]** タブをクリックします。
 
 各コースタイルにマウスを合わせ、「+」をクリックして資格認定に追加します。 クリック **[!UICONTROL プレビュー]** をクリックして、コースを追加する前に学習者として表示します。
@@ -165,6 +168,8 @@ Learning Manager の以前のリリースでは、社外の資格認定の学習
 公開された資格認定を編集するには、資格認定カードをクリックして **[!UICONTROL 編集]** をクリックします。
 
 資格認定の特定のセクションの編集中にその編集ページから移動した場合、資格認定を再パブリッシュする必要があります。その際、資格認定の再パブリッシュを確認するためのダイアログが表示されます。
+
+![](assets/edit-a-certificate.png)
 
 ## サブスクリプション {#subscription}
 
