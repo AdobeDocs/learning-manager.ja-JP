@@ -4,9 +4,9 @@ title: カタログ
 description: カタログには、コース、学習プログラム、資格認定など、学習のコレクションが含まれます。 学習者はカタログを使用して、カスタマイズされた学習オブジェクトのセットにアクセスすることができます。 新しいカタログを作成する際に、特定の学習オブジェクトをそのカタログに関連付けることができます。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 75%
    *カタログの作成*
 
    複数のコースをカタログに追加することができます。
-
+1. コースをスキル、役割、言語別に絞り込むことができます。 選択したコースは、スキルや役割に興味のある学習者に推奨されます。
 1. 変更内容を保存します。 カタログリストに戻り、リスト内の新しいカタログをクリックします。
 1. 新しいカタログのページが表示されたら、左側のペインで「**[!UICONTROL コンテンツ]**」をクリックします。
 
@@ -134,7 +134,7 @@ ht-degree: 75%
 
 ### カタログの共有
 
-このトレーニングでは、社内ユーザーグループや社外AdobeのLearning Managerアカウントとカタログを共有する方法について説明します。
+このトレーニングでは、社内ユーザーグループや社外のAdobe Learning Managerアカウントとカタログを共有する方法について説明します。
 
 [![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 

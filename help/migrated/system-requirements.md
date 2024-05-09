@@ -1,61 +1,17 @@
 ---
 jcr-language: en_us
 title: 必要システム構成
-description: Learning Manager Adobeの必要システム構成
+description: Adobe Learning Managerの必要システム構成
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
-# Learning Manager Adobeの必要システム構成
-
-## Windows {#windows}
-
-Microsoft Windows 7、8、10（64 bit版のみ）
-
-## macOS {#macos}
-
-macOS X 10.12、10.13、10.14、10.15
-
-## RAM
-
-8 GB 以上の RAM
-
-## ディスプレイ
-
-サポートされる最小解像度 - 1024 x 720
-
-## ディスク容量
-
-5 GB 以上の空き容量のあるハードディスク
-
-## 録画
-
-* オーディオ録音に必要なマイク
-* ビデオ録画に必要な web カメラ
-
-## その他
-
-アクティブなインターネット接続と Adobe Learning Manager 学習者アカウント（アプリケーションの使用に必要）。
-
-## ブラウザーの仕様
-
-没入型レイアウトのホームページは、IE 11 ブラウザー非対応です。
-
-* Google Chrome バージョン 43 以降
-* 最新バージョンの Edge、Safari（バージョン 13 以降）および Firefox
-* Internet Explorerバージョン11以降
-
-## 推奨画像サイズ {#recommendedsizeofimages}
-
-* マストヘッド：1280 x 360 px
-* カタログカードの画像：280 x 100 px
-* トレーニングカードのサイズ：300 x 240 px
-* ソーシャルバナー：1600 x 240 px
+# Adobe Learning Managerの必要システム構成
 
 ## デスクトップ
 
@@ -114,6 +70,25 @@ Intel® CoreTM i5以上
 >[!NOTE]
 >
 >Learning Manager のモバイルアプリで対応するのは、学習者の役割のみです。
+
+## その他
+
+アクティブなインターネット接続と Adobe Learning Manager 学習者アカウント（アプリケーションの使用に必要）。
+
+## ブラウザーの仕様
+
+没入型レイアウトのホームページは、IE 11 ブラウザー非対応です。
+
+* Google Chrome バージョン 43 以降
+* 最新バージョンの Edge、Safari（バージョン 13 以降）および Firefox
+* Internet Explorerバージョン11以降
+
+## 推奨画像サイズ {#recommendedsizeofimages}
+
+* マストヘッド：1280 x 360 px
+* カタログカードの画像：280 x 100 px
+* トレーニングカードのサイズ：300 x 240 px
+* ソーシャルバナー：1600 x 240 px
 
 ## 最大コンテンツサイズ {#maximumcontentsize}
 
