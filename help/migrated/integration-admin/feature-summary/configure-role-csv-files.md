@@ -3,14 +3,13 @@ jcr-language: en_us
 title: CSV ファイルを使用したカスタムの役割の管理
 description: 統合管理者は CSV を使用して、複数のカスタムの役割を自分のアカウントにまとめて追加することも、複数のユーザーにカスタムの役割を割り当てることもできます。この方法はカスタムの役割を作成するプロセスを自動化します。
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # CSV ファイルを使用したカスタムの役割の管理
 
@@ -18,7 +17,7 @@ ht-degree: 86%
 
 役割の設定は Learning Manager FTP コネクターおよび Box コネクターを使用して行うことができます。
 
-Box または ExaVault ストレージアカウントにログインした後、統合管理者はアカウントに次の csv を追加できます。
+Boxストレージアカウントにログインした後、統合管理者は次のcsvをアカウントに追加できます。
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Box または ExaVault ストレージアカウントにログインした後、
 操作を開始するには、csv をダウンロードして、必要に応じて値を変更します。
 
 **role.csv**
-[サンプルファイル – role.csv](assets/role.csv) [サンプルファイル – user_role.csv](assets/user-role.csv)
+* サンプルファイル: [role.csv](assets/role.csv)
+* サンプルファイル: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ CSV にカタログ名やユーザーグループ名を指定すると、これ�
 * 学習プラン
 * 電子メールテンプレート
 
-## role-CSV のアカウントへの追加 {#addtherolecsvsintheaccount}
+## アカウントにロールのCSVを追加 {#addtherolecsvsintheaccount}
 
 Box アカウントを使用して、**Import > user > internal** を選択し、files- role.csv と user_role.csv をアップロードします。
 
