@@ -4,14 +4,13 @@ title: Adobe Learning Manager におけるアクセシビリティ
 description: このドキュメントでは、Learning Manager 学習管理システムが、障がいを持つ学習者向けに提供しているアクセシビリティサポートの概要を説明します。また、プラットフォームのナビゲーションオプションやアクセシビリティ機能についても説明しています。
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Adobe Learning Manager におけるアクセシビリティ
 
@@ -151,8 +150,8 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 
 詳細については次を参照してください。
 
-* [学習者のアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [すべての役割に対するアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [学習者のアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [すべての役割に対するアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Managerの最上位ワークフロー（学習者の役割） {#captivateprimetopworkflowslearnerrole}
 
@@ -168,7 +167,7 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 
 1. トレーニングが特定されたら、次のテストを行います。 `kbd ENTER`トレーニングページに移動します。
 
-## Adobe Learning Managerでのトレーニングの使用 {#consumeatraininginadobecaptivateprime}
+## Adobe Learning Managerでのトレーニングの利用 {#consumeatraininginadobecaptivateprime}
 
 1. トレーニングを特定したら、 `kbd Tab`または `kbd Shift + Tab` 「登録/開始」ボタンにナビゲートします。 ボタンのステータスは、そのトレーニングの登録ステータスによって異なります。
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: コースモジュール、インスタンスおよび学習プログラムの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ ht-degree: 65%
 
 ### インスタンスの管理
 
-このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。
+>[!INFO]
+>
+>このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Adobe Learning Manager の管理者は、QR コードを学習者と共有する
 
 **退職**  – 作成者は、公開されているコースを「撤回済み」の状態に移行することができます。この状態のコースは、学習者用のコースカタログには表示されません。 「撤回済み」状態のコースは、再パブリッシュすることも削除することもできます。
 
-**削除済み** - AdobeのLearning Managerアプリケーションからコースが完全に削除された段階です。 作成者がコースを削除できるのは、コースが草案段階にある場合に限られます。また、撤回済みの状態からコースを削除することもできます。
+**削除済み** - Adobe Learning Managerアプリケーションからコースが完全に削除された段階です。 作成者がコースを削除できるのは、コースが草案段階にある場合に限られます。また、撤回済みの状態からコースを削除することもできます。
 
 ![](assets/lifecycle-03.png)
 
