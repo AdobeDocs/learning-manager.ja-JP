@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: Learning Manager AdobeのAPIの廃止
-description: AdobeのLearning ManagerのAPIの進化に伴い、APIが定期的に再編成またはアップグレードされます。 APIが進化すると、古いAPIは廃止され、最終的に削除されます。 このページでは、非推奨のAPIバージョンから新しく安定したバージョンに移行する際に知っておく必要がある情報を記載しています。
+title: Adobe Learning ManagerでのAPIの廃止
+description: Adobe Learning ManagerのAPIの進化に伴い、APIは定期的に再編成またはアップグレードされます。 APIが進化すると、古いAPIは廃止され、最終的に削除されます。 このページでは、非推奨のAPIバージョンから新しく安定したバージョンに移行する際に知っておく必要がある情報を記載しています。
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
+# Adobe Learning ManagerでのAPIの廃止と変更
 
-# Learning Manager AdobeのAPIの廃止と変更
-
-## 2024年3月リリースのAdobe Learning ManagerにおけるAPIの廃止
+## Adobe Learning Managerの2024年3月リリースのAPIの廃止
 
 <!-- ### Changes in Rate Limits
 
@@ -105,7 +105,7 @@ The following table lists the rate and burst limits for the APIs.
 
 完了数と登録数を取得するプロセスは計算上コストがかかるため、リクエストに基づいて計算が実行されます。 キャッシュにデータが存在しない場合、データは再ロードされ、計算処理が集中します。 コースに多数のユーザーが登録されている場合、カウントは大きくなり、CPUのパフォーマンスに実質的な影響を与えます。
 
-AdobeのLearning Managerの次のリリースでは、LOインスタンスのサマリーエンドポイントに、completionCount、enrollmentCount、seatLimit、およびwaitlistCountがキャッシュされます。 キャッシュされた情報は、登録または登録解除に変更が加えられるまで保持されます。 登録数が1000を超えた場合は、見積もり数を想定し、既存および新規のすべてのアカウントの結果を無効にします。
+Adobe Learning Managerの次のリリースでは、LOインスタンスの概要エンドポイントに、completionCount、enrollmentCount、seatLimit、およびwaitlistCountがキャッシュされます。 キャッシュされた情報は、登録または登録解除に変更が加えられるまで保持されます。 登録数が1000を超えた場合は、見積もり数を想定し、既存および新規のすべてのアカウントの結果を無効にします。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ AdobeのLearning Managerの次のリリースでは、LOインスタンスのサ
 
 ### 名前で並べ替え
 
-Adobe版Learning Managerの次のリリースでは、次のAPIの並べ替えフィールドにnameと – nameが使用されなくなりました。
+Adobe Learning Managerの次のリリースでは、次のAPIの並べ替えフィールドでnameと – nameが非推奨になりました。
 
 * GET /userGroups/{userGroupId}/users
 * GET/ユーザー
@@ -123,11 +123,11 @@ Adobe版Learning Managerの次のリリースでは、次のAPIの並べ替え�
 >既存および新規のすべてのアカウントでは、名前で並べ替えおよび – nameは使用できなくなります。
 
 
-## 2023年11月リリースのAdobe Learning ManagerにおけるAPIの廃止
+## Adobe Learning Managerの2023年11月リリースのAPIの廃止
 
 ### 上書きフラグ
 
-2023年11月リリースのAdobe Learning Managerでは、APIからのオーバーライドフラグが廃止されました。 上書きフラグはパブリック API 仕様の一部ではなく、バックエンドテストでの使用を目的としています。 学習者 API のフラグは廃止されました。 ただし、このフラグは管理者用 API に対して引き続き有効です。
+Adobe Learning Managerの2023年11月リリースでは、APIからのオーバーライドフラグが廃止されました。 上書きフラグはパブリック API 仕様の一部ではなく、バックエンドテストでの使用を目的としています。 学習者 API のフラグは廃止されました。 ただし、このフラグは管理者用 API に対して引き続き有効です。
 
 学習者APIのフラグを廃止する理由は、オーバーライドフラグにより学習者APIを介して大量のデータが取得されていたためです。
 
@@ -145,6 +145,11 @@ Adobe Learning Manager では、お客様とパートナーのアカウントに
 
 ### 通知アナウンスレポートの変更点
 
-以前のリリースのAdobe Learning Managerでは、通知アナウンスレポートにフィルターがありませんでした。 Adobe Learning Manager ではアカウント内のすべての通知がダウンロードされていました。
+Adobe Learning Managerの以前のリリースでは、通知アナウンスレポートにフィルターがありませんでした。 Adobe Learning Manager ではアカウント内のすべての通知がダウンロードされていました。
 
 2023年11月のリリースでは、日付フィルターが追加され、指定した期間内の通知をダウンロードできるようになりました。  ただし、過去6か月間のレポートのみをダウンロードできます。
+
+### GET/usersエンドポイントの高いオフセット値の廃止
+
+システムのパフォーマンスを向上させ、リソース使用率をより効果的に管理するために、Adobeは両方のGET/usersエンドポイントの高オフセット値を廃止しました **管理者** および **学習者** スコープ： ここでは、 **ジョブAPI** オフセット値を持つレコードを取得します。
+
