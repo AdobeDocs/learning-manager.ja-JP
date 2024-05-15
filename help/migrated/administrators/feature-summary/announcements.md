@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: アナウンス
 description: アナウンスとは、管理者が特定のユーザーにブロードキャストできるマルチメディアメッセージ（テキスト、画像、ビデオ）です。
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # アナウンス
 
@@ -29,6 +28,11 @@ ht-degree: 70%
 1. 管理者ユーザーとして、左ペインで「お知らせ」をクリックします。
 1. ページの右上隅にある「追加」をクリックします。
 1. 「タイプ」ドロップダウンリストで、**「通知として」**&#x200B;オプションを選択します。
+
+![](assets/as-notofocation.png)
+
+*通知のカスタマイズ*
+
 1. 「メッセージ」フィールドで、アナウンス用のメッセージを追加します。 ここで、アナウンスの URL を追加することもできます。 ただし、URL は HTML フォームで追加する必要があります。
 
    例えば、  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

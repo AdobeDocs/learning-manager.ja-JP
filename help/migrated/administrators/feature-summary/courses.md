@@ -4,10 +4,10 @@ jcr-language: en_us
 title: コースモジュール、インスタンスおよび学習プログラムの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ ht-degree: 65%
    *インスタンスの復元*
 
 1. これで、インスタンスが元のアクティブな状態に戻ります。
+
+## インスタンスの削除
+
+管理者は、以下を使用してインスタンスを削除できます。 **このインスタンスを削除** オプションは作成後すぐに適用されます。 インスタンスにリンクされているセッションがある場合、またはインスタンスに登録されている学習者がいる場合、インスタンスを削除することはできません。
+
+![](assets/delete-this-instance.png)
+
+*インスタンスの削除*
+
+>[!NOTE]
+>
+>デフォルトのインスタンスは削除できません。
 
 ## 電子メールの送信（インスタンスレベル）
 

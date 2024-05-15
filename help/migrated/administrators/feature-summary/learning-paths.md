@@ -4,10 +4,10 @@ title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ Learning Managerの管理者アプリで、以下をクリックします。 **[
 
 *新しい学習パスを追加*
 
+を **登録タイプ** オプション、選択 **セルフ登録** または **管理者の登録**.
+
+>[!NOTE]
+>
+>次を選択した場合 **管理者の登録** オプションで、マネージャーによりノミネートまたはマネージャーにより承認されたコースのみが学習者に表示されます。 学習者は、推奨セクションに学習パスを表示できません。
+
 学習パスの作成後、新しく作成した学習パスを選択し、そのパスにコースを追加します。
 
 学習パスにスキルを追加し、バッジを割り当てることができます。 スキルを追加するには、必要なスキルを「 **[!UICONTROL スキルを選択]** ドロップダウンリスト。 さらにスキルのレベルを選択します。
 
 ![](assets/add-skills.png)
 
+*スキルを追加*
+
 学習パスにバッジを割り当てます。 使用可能なバッジのリストからバッジを選択します。
 
 次から、製品、ロール、およびロールレベルを選択します **[!UICONTROL おすすめのプラン]** これらの製品や役割に興味を示したユーザーに、この学習パスを提案するセクション。
 
 ![](assets/recommend-for.png)
+
+*推奨事項*
 
 セクションとトレーニングのシーケンスタイプとして、「順序付け済み」または「順序付けなし」を選択します。
 
@@ -141,6 +151,20 @@ Learning Managerの管理者アプリで、以下をクリックします。 **[
 
 通知リマインダーは、このオプションに基づいてトリガーされます。 デフォルトでは、 **[!UICONTROL すべてのレベルのコースと学習パス]** がインスタンスに対して有効になっています。
 
+## 購読
+
+個々の学習パスをサブスクライブして、クイズスコアや学習者のステータスなどの包括的なデータを受信トレイに直接送信できます。
+
+次の手順に従います。
+
+1. 任意の学習パス/サブスクリプションに移動します。
+1. 「さらに追加」を選択します。
+1. 詳細を選択して、レポートを受信するための電子メールIDを入力します。
+
+![](assets/subscriptions.png)
+
+*個々の学習パスを購入*
+
 ## 重要な注意
 
 学習プログラムの既存の機能は、リリース直後に「学習パス」に名前が変更されることに注意してください。 引き続き「学習プログラム」と呼びたい場合は、「用語」機能を使用して、必要な用語を適用することをお勧めします。 これにより「学習プログラム」という用語を使用できます。
@@ -151,76 +175,76 @@ Learning Managerの管理者アプリで、以下をクリックします。 **[
 
 この **[!UICONTROL 設定]** > **[!UICONTROL 一般]** ページには、学習パスを有効にする新しいオプションが追加されています。 このオプションを有効にすると、学習パスにコースと学習プログラムを追加できるようになります。 このオプションは、一度有効にすると変更できません。
 
-## その他の学習パス関連の詳細
+<!-- ## Other Learning Path-related details 
 
-### 管理者設定で学習パスオプションをオン/オフにする
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**ネイティブ Web アプリを使用するアカウント**
+**Accounts using Native Web apps**
 
-**学習者**
+**Learners**
 
-* デフォルトでは、「学習プログラム」から「学習パス」に用語が変更されています。 この変更は、インターフェイスをより直感的にするために行われました。 この変更が不要な場合は、以下の点を参照してください。
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* ただし、「カスタム用語」機能を使用して、用語「学習プログラム」をカスタムテキストに置き換えた場合、この変更はUIに反映されません。
-* カスタム用語機能をまだ使用していないが、用語「学習プログラム」を引き続き使用したい場合は、リリース後にカスタム用語機能を使用して、用語「学習プログラム」を使用できるように設定できます。
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* 以前の「学習プログラム」の外観は、全体的に視覚的に豊かな外観に更新されます。
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**作成者と管理者**
+**Authors and Admins**
 
-* 管理者/作成者アプリ内の用語は、学習者の用語と同じです。
-* 作成者と管理者が学習プログラムオブジェクトの作成、更新を行うUIは、新しいUIに更新されます。 操作を行うユーザーインターフェイスがより直感的になるだけで、機能性は失われません。 学習パスの拡張機能を有効にしていない場合でも、これらのUIの変更はお客様のアカウントに反映されます。機能は失われません。
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* 既存の学習プログラムオブジェクトは変更されないため、学習者に影響はありません（前述の用語以外）。 作成者/管理者は、既存のオブジェクト内に「セクション」と呼ばれるデフォルトのグループがあることに気付くかもしれません。これは、機能的には大きな影響はありません。 またスキル、作業計画書などの機能も追加されます。 まだ使用していないため、実際に使用を開始するまで、学習者側に影響はありません。
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**報告**
+**Reporting**
 
-* 「学習パス」オプションを有効にしなければ、学習者のトランスクリプトレポートの構造が学習パスによって変更されることはありません。 ただし、前の通知で示したように（前の通知で共有した表を参照）、リリース直後に、学習者トランスクリプトの右端に新しい列が1つ追加されます。
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**ヘッドレスLMSを使用するアカウント**
+**Accounts using Headless LMS**
 
-**学習者**
+**Learners**
 
-* ヘッドレスインターフェイスには、学習者に関する変更はありません。 レポートの生成に使用されるAPIも、直ちに変更されることはありません。
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**作成者と管理者**
+**Authors and Admins**
 
-* 上記の作成者/管理者と同じ変更。
+* Same changes as that of Authors/Admins stated above.
 
-**報告**
+**Reporting**
 
-* 上記の報告と同じ変更。
+* Same changes as that of Reporting stated above.
 
-### 管理者設定で学習パスオプションをオン/オフにする
+### Learning Paths option is enabled/checked in Admin Settings
 
-**ネイティブ Web アプリを使用するアカウント**
+**Accounts using Native Web apps**
 
-**学習者**
+**Learners**
 
-* このオプションが無効になっている場合は、学習者と同じ変更。
-* 学習パスの拡張機能を使い始めると、パスやセクションが埋め込まれた入念なパスや、パス完了時に獲得されるスキルとバッジ、パスレベルのリソースなどのメリットを享受できます。
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**作成者と管理者**
+**Authors and Admins**
 
-* このオプションが無効になっている場合は、作成者および管理者と同じ変更。
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* ユーザーは、高度な学習パスを作成する際に、より多くの機能を利用できます。 パスの完了時に学習者が自動的に達成するスキルレベルを定義できます（レベルの単位の計算に注力する必要はありません）。 リソースは学習パスレベルで追加できます（現在は追加できません）。 セクションは、X/Y オプションを持つ各セクションを使用して作成できます。 学習パスを別の学習パス内に埋め込むことができます（サポートされているのは 1 レベルの階層です）。
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**報告**
+**Reporting**
 
-* パス内にパスを埋め込む新しい機能を組み込むために、学習者のトランスクリプトとコンテンツレポートの構造に新しい列が追加されます。 これは、Learning Manager 外のカスタムデータウェアハウス/DB にこのデータを書き出すために作成した、統合コードに影響を与える可能性があります。この情報は、以前の通知で提供された表に示されています。
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**ヘッドレスLMSを使用するアカウント**
+**Accounts using Headless LMS**
 
-**学習者**
+**Learners**
 
-* ヘッドレスインターフェイスを構築した API は変更されないため、ヘッドレス LMS の実装を変更しない限り、学習者に関する変更はありません。
-* ただし、新しい学習パスを作成して学習パスの拡張機能を使い始める場合は、学習者アプリにその拡張機能を反映するために、ヘッドレス LMS の実装を変更する必要があります。 Learning Manager API を使用すると、この操作を実行できます。
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**作成者と管理者**
+**Authors and Admins**
 
-* 上記の作成者/管理者と同じ変更。
+* Same changes as that of Authors/Admins stated above.
 
-**報告**
+**Reporting**
 
-* 上記の報告と同じ変更。
+* Same changes as that of Reporting stated above. -->

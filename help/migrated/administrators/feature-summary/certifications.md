@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 資格認定
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 68%
+source-wordcount: '1024'
+ht-degree: 67%
 
 ---
 
@@ -106,6 +106,8 @@ ht-degree: 68%
 
 ![](assets/recommend-for.png)
 
+*推奨事項*
+
 資格認定に追加するコースを選択します。 **[!UICONTROL コース]** > **[!UICONTROL カタログ]** タブをクリックします。
 
 各コースタイルにマウスを合わせ、「+」をクリックして資格認定に追加します。 クリック **[!UICONTROL プレビュー]** をクリックして、コースを追加する前に学習者として表示します。
@@ -170,6 +172,8 @@ Learning Manager の以前のリリースでは、社外の資格認定の学習
 資格認定の特定のセクションの編集中にその編集ページから移動した場合、資格認定を再パブリッシュする必要があります。その際、資格認定の再パブリッシュを確認するためのダイアログが表示されます。
 
 ![](assets/edit-a-certificate.png)
+
+*証明書の編集*
 
 ## サブスクリプション {#subscription}
 

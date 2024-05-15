@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ゲーミフィケーション
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 55%
+source-wordcount: '1649'
+ht-degree: 54%
 
 ---
 
@@ -43,6 +43,8 @@ Adobe Learning Managerには、インタラクティブなゲーム要素を通�
 1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
 ![](assets/set-up-points.png)
+
+*ポイントを設定する*
 
 ## タスク {#tasks}
 
@@ -103,7 +105,7 @@ Adobe Learning Managerには、インタラクティブなゲーム要素を通�
 
 このタスクは、特定数のコンピテンシーを完了した学習者に適用されます。管理者はこのタスクを選択することで、できるだけ多くのコンピテンシーを達成するよう学習者に促すことができます。
 
-例えば、達成したコンピテンシー数に応じて以下を適用することができます。
+達成したコンピテンシー数に応じて以下のシナリオが考えられます。
 
 1. 学習者が1つのコンピテンシーを達成すると、100ポイントが付与されます。
 1. 学習者は2つのコンピテンシーを達成すると、300ポイントを獲得します。
