@@ -2,7 +2,7 @@
 title: Adobe FTP Manager からの移行
 description: Adobe Learning Managerは、AWS TransferファミリーのSFTPプロトコルを使用する新しいコネクターをサポートしています。 オープンソースの FTP クライアントを Adobe FTP Manager に置き換えることができます。
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 521b71f87545c513f844b6e216fa3ffc1fac95a0
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 68%
@@ -172,5 +172,3 @@ ExaVault の廃止後、進行中の既存の移行プロジェクトはすべ�
 
 * コース ID は、従来の外部システムから Adobe Learning Manager に移行されたコースに対する現在のプロジェクトでマッピングされます。 同じプロジェクトの同じコースを更新する場合にのみ、この操作を実行できます。 プロジェクトを閉じると、詳細は変更できなくなります。
 * API ベースの移行プロジェクトの場合は、プロジェクトを閉じないでください。
-
-<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
