@@ -1,8 +1,8 @@
 ---
 title: このリリースの最新情報
-description: Adobe版Learning Managerの2023年11月リリースの新機能と機能強化について説明します。
+description: Adobe Learning Managerの2023年11月リリースの新機能と強化機能について説明します。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## 刷新されたユーザーインターフェイス
 
-AdobeのLearning Managerユーザーインターフェイスが更新され、よりすっきりとした最新のエクスペリエンスになりました。 管理者と作成者の役割のランディングページが改善され、すべての役割に対して UI テーマが更新されました。 ただし、メニュー、ボタン、リンクの場所は変更されていません。以前に表示されていた場所に正確に移動できます。
+Adobe Learning Managerユーザーインターフェイスは、よりクリーンで現代的なエクスペリエンスを提供するためにいくつかの更新が行われました。 管理者と作成者の役割のランディングページが改善され、すべての役割に対して UI テーマが更新されました。 ただし、メニュー、ボタン、リンクの場所は変更されていません。以前に表示されていた場所に正確に移動できます。
 
 テーマの更新は、デフォルトのテーマを使用しているアカウントに自動的に適用されます。 UI テーマの更新は、カスタムテーマを使用するように変更が加えられたアカウントには影響しません。 このようなアカウントで新しいテーマの更新を取得するには、デフォルトのテーマに戻す必要があります。
 
@@ -66,7 +66,7 @@ Adobe Learning Manager のネイティブバージョンで、エクスペリエ
 
 ### 通知アナウンスレポートの変更点
 
-以前のリリースのAdobe Learning Managerでは、通知アナウンスレポートにフィルターがありませんでした。 Adobe Learning Manager ではアカウント内のすべての通知がダウンロードされていました。
+Adobe Learning Managerの以前のリリースでは、通知アナウンスレポートにフィルターがありませんでした。 Adobe Learning Manager ではアカウント内のすべての通知がダウンロードされていました。
 
 このリリースでは、日付フィルターが追加され、指定した期間内に通知をダウンロードできるようになりました。  ただし、過去6か月間のレポートのみをダウンロードできます。
 
@@ -84,7 +84,7 @@ Adobe Learning Manager のネイティブバージョンで、エクスペリエ
 
 管理者アプリのコースの出席ページと、インストラクターアプリのセッションの学習者ページにある出席レポートが同期的にダウンロードされていました。 このリリースでは、このレポートは通知を介して非同期的にダウンロードされます。
 
-レポートの詳細については、を参照してください [レポート](/help/migrated/administrators/feature-summary/reports.md) Adobe 」をクリックします。
+レポートの詳細については、を参照してください [レポート](/help/migrated/administrators/feature-summary/reports.md) Adobe Learning Managerで。
 
 ## コンテンツマーケットプレイスの廃止
 
@@ -230,7 +230,7 @@ Connectからセッショントランスクリプトを読み込み、トラン�
 
 ## 従来のダッシュボードレポート処理の制限
 
-管理者がダッシュボードレポートをプロットしようとしたときに、レポートのプロットに時間がかかり過ぎる（2.5分以上）場合、AdobeLearning Managerで次のメッセージが表示されます。
+管理者がダッシュボードレポートを印刷しようとしたときに、レポートの印刷に時間がかかり過ぎる（2.5分以上）場合、Adobe Learning Managerに次のメッセージが表示されます。
 
 ![従来のレポート画像](assets/error-message.png)
 *レポートに時間がかかりすぎる場合のエラーメッセージ*
@@ -273,7 +273,7 @@ Connectからセッショントランスクリプトを読み込み、トラン�
 
 ### 結果のハイライト
 
-今後リリースされるAdobeのLearning Managerでは、 /search APIなどで、highlightResultsのデフォルトをfalseに変更します。
+Adobe Learning Managerの今後のリリース（例：/search API）では、highlightResultsのデフォルトをfalseに変更します。
 
 さらに、snippetTypesのデフォルトをcourseNameに変更します。 highlightResultsがTrueの場合にのみ、検索でコース名が強調表示されます。
 

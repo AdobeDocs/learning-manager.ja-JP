@@ -3,14 +3,13 @@ description: Learning Manager のインストラクターに関するよくあ�
 jcr-language: en_us
 title: インストラクターのよくある質問（FAQ）
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # インストラクターのよくある質問（FAQ）
 
@@ -49,4 +48,3 @@ Learning Manager のインストラクターに関するよくある質問につ
 インストラクターは、自身が割り当てられているセッションの詳細のみを表示および編集できます。 他のセッションの詳細や出席者リストを変更することはできません。
 
 +++
-
