@@ -4,16 +4,16 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15572'
+source-wordcount: '15590'
 ht-degree: 63%
 
 ---
 
 # Learning Manager コネクタ
 
-企業には、Learning Manager と統合する必要がある他のアプリケーションやシステムがあります。コネクターは、外部システムからLearning Managerにデータを読み込むなど、データベースの統合を実行するのに役立つユーティリティです。  また、Learning Managerから外部システムへのデータの書き出しも実行します。
+企業には、Learning Manager と統合する必要がある他のアプリケーションやシステムがあります。コネクターは、外部システムからLearning Managerにデータを読み込むなど、データベースの統合を実行するのに役立つユーティリティです。  また、ラーニングマネージャーから外部システムへのデータのエクスポートも行います。
 
 Learning Manager は Salesforce および FTP コネクタを提供します。 Salesforce コネクターを使用すると、組織の統合管理者は Salesforce アプリケーションと Learning Manager を統合できます。統合者は、FTP コネクタを使用して、一連のユーザーをエンタープライズアプリケーションに自動読み込みすることもできます。
 
@@ -88,9 +88,9 @@ SalesforceとLearning Managerを統合するためのプロセスを学びまし
 
    >[!NOTE]
    >
-   >左側に表示されているLearning Managerの列データは、アクティブフィールドから取得されます。 この **支配人** フィールドは、電子メールアドレスタイプのフィールドにマッピングする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。
+   >左側に表示されているLearning Managerの列データは、アクティブフィールドから取得されます。 マネージャー&#x200B;**フィールドは**、電子メール アドレス型のフィールドにマップする必要があります。コネクタを使用する前に、すべての列をマッピングすることが必須です。
 
-1. クリック **[!UICONTROL 保存]** マッピングの完了後。
+1. マッピングが完了したら、「保存」]**をクリックします**[!UICONTROL 。
 1. これでコネクタは使用可能になりました。管理者アプリ内で設定され、データソースとして表示されるアカウント。管理者は読み込みのスケジュール、またはオンデマンド同期のスケジュールができます。
 
 ## Salesforce コネクターの使用 {#usingsalesforceconnector}
@@ -101,15 +101,15 @@ Salesforce コネクターは Salesforce.com に接続して、設定どおり�
 
 Learning Manager は、Salesforce コネクターを拡張して、連絡先と Salesforce ユーザーを取得し、その情報を Learning Manager に自動的にインポートします。
 
-Salesforceコネクタページで、SalesforceのURLを入力し、認証を完了します。 認証が完了したら、ユーザーまたは連絡先の読み込みに進みます。 「連絡先」オプションを選択した場合は、読み込む連絡先のサブセットを指定します。
+[Salesforce コネクタ] ページで、Salesforce URL を入力し、認証を完了します。 認証が完了したら、ユーザーまたは連絡先のインポートに進むことができます。 [連絡先] オプションを選択した場合は、インポートする連絡先のサブセットを指定します。
 
-Salesforceの列を選択し、対応するLearning Managerのグループ化可能属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。
+Salesforce 列を選択し、対応するラーニングマネージャーのグループ指定可能な属性にマッピングします。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。
 
-1. Salesforceにログインします。
-1. 接続ページで、をクリックします。 **[!UICONTROL 社内ユーザーのインポート]**.
+1. Salesforce にサインインします。
+1. 接続ページで、[内部ユーザーのインポート]]**をクリックします**[!UICONTROL 。
 
    ![](assets/image048.png)
-   *社内ユーザーのインポート*
+   *内部ユーザーのインポート*
 
 1. を **ユーザーの読み込み** ページには、新しいオプション、連絡先があります。 ラジオボタンをクリック **連絡先** 次のオプションが表示されます。
 
@@ -124,7 +124,7 @@ Salesforceの列を選択し、対応するLearning Managerのグループ化可
    ![](assets/image053.png)
    *値の指定*
 
-   * Salesforceの列をLearning Managerの列にマッピングします。
+   * Salesforce の列を Learning Manager の列にマッピングします。
    * 読み込みを開始するには、 **[!UICONTROL 保存]**.
 
 1. をクリックした場合 **[!UICONTROL いいえ。 すべての連絡先をインポート]**&#x200B;を選択している場合、連絡先をフィルタリングせずにフィールドを直接マップできます。 ここでは、Salesforceからすべての連絡先を読み込みます。
@@ -132,7 +132,7 @@ Salesforceの列を選択し、対応するLearning Managerのグループ化可
 
 ## 学習記録の書き出し
 
-Learning Managerでは、トランスクリプト、ユーザーレポート、スキルレポートなどの学習記録をSalesforceに書き出すことができます。 書き出したデータを、Salesforceの「ユーザー」テーブルまたは「連絡先」テーブルにリンクするかどうかを指定できます。
+ラーニングマネージャーは、トランスクリプト、ユーザレポート、スキルレポートなどの学習レコードをSalesforceにエクスポートする機能を提供します。 エクスポートしたデータを Salesforce の「ユーザ」テーブルまたは「取引先責任者」テーブルにリンクするかどうかを決定できます。
 
 ![](assets/export-events-new.png)
 *学習記録のエクスポート*
@@ -152,10 +152,14 @@ Learning Managerから学習記録を書き出すには、Salesforceでカスタ
 1. Salesforce のカスタムオブジェクト名を変更します。
 1. イベントを選択し、**[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
-**イベントのリンク先：** 書き出すセクション（「ユーザー」または「連絡先」）を選択します。 「連絡先」オブジェクトを選択すると、Learning Managerに存在するがSalesforceには存在しないユーザーがSalesforceで作成されます。
+>[!NOTE]
+>
+>パッケージのインストール後に追加されたすべてのアクティブなフィールドにシステム管理者アクセス権が付与されていることを確認してください。
+
+**イベントのリンク先:** エクスポートするセクション(ユーザーまたは連絡先)を選択します。 連絡先オブジェクトを選択した場合、ラーニングマネージャーには存在するが Salesforce には存在しないユーザが Salesforce に作成されます。
 
 ![](assets/link-events.png)
-*イベントのリンクオプション*
+*イベントのリンクオプション[いべんとをりん*
 
 >[!NOTE]
 >
@@ -180,14 +184,14 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 1. クリック **[!UICONTROL 承認]** また、アプリが正常に承認されている必要があります。
 1. クリック **[!UICONTROL 開発者向けリソース]** > **[!UICONTROL テストおよび開発用のアクセストークン]**.
 1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「admin:read,admin:write」に設定します。 クリック **[!UICONTROL 送信]**.
-1. 「更新トークンを取得」で、クライアント ID とクライアントシークレットを入力します。 クリック **[!UICONTROL 送信]** 更新トークンを確認します。
+1. 「更新トークンを取得」で、クライアント ID とクライアントシークレットを入力します。 [送信&#x200B;]**] をクリックし**[!UICONTROL 、更新トークンをメモします。
 
 ### Salesforce アプリでのアカウントの作成
 
-1. Salesforce のサインアップページでアカウントを作成します。 Salesforceアカウントは、開発者版またはエンタープライズ版で作成する必要があります。  [開発者サインアップURL](https://developer.salesforce.com/signup). Salesforceへのサインアップには、Learning Managerで使用した電子メールIDを使用する必要があります。
+1. Salesforce のサインアップページでアカウントを作成します。 開発者版またはエンタープライズ版で Salesforce アカウントを作成する必要があります。  [開発者サインアップ URL](https://developer.salesforce.com/signup)。 ラーニングマネージャーに使用した Salesforce にサインアップするには、メール ID を使用する必要があることを確認します。
 1. 確認用の電子メールからアカウントを確認します。
 1. パスワードを作成し、Salesforce にサインインします。
-1. ログイン後にSalesforceのURLに注意してください(例：site.lightning.force.com)
+1. ログイン後に Salesforce URL をメモします (site.lightning.force.com など)
 
 ### Learning Manager パッケージのインストール
 
@@ -195,15 +199,15 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 >[!NOTE]
 >
->AdobeのLearning Managerアプリは、Salesforce Lightningビューでのみサポートされています。
+>Adobe Learning Manager アプリケーションは、Salesforce Lightning ビューでのみサポートされています。
 
-1. を起動 [Learning ManagerパッケージURL](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
-1. を **ログイン** ページをクリック **[!UICONTROL カスタムドメインを使用]**.
+1. ラーニング マネージャ パッケージの URL](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ) を起動します[。
+1. [**ログイン]** ページで、[カスタム ドメイン&#x200B;]**の使用] をクリックします**[!UICONTROL 。
 1. パッケージURLを入力し、 **[!UICONTROL 続行]**. インストールページで「管理者のみにインストール」オプションを選択している必要があります。 このオプションは変更しないでください。
 1. クリック **[!UICONTROL インストール]**. パッケージがインストールされたら、 **[!UICONTROL 完了]**. インストール済みパッケージページが表示され、Adobe Learning Manager のインストール済みパッケージが表示されます。
 1. 設定の横にある App Launcher に移動して「Adobe Learning Manager」を検索します。
 1. アプリを設定するには、 **[!UICONTROL 設定]**.
-1. クリック **[!UICONTROL 新規]** 次の詳細を追加します。
+1. [新規&#x200B;]**] をクリックし**[!UICONTROL 、次の詳細を追加します。
 
    * **Config：**&#x200B;任意の名前を入力します。
    * **ClientID**：最初のセクションで取得した値を入力します。
@@ -214,8 +218,8 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 ### リモートサイトの設定の追加
 
 1. ページの右上隅にあるをクリックします。 **[!UICONTROL 設定]**.
-1. イン **[!UICONTROL クイック検索]**&#x200B;リモートサイトの設定を検索します。
-1. クリック **[!UICONTROL 新しいリモートサイト]**.
+1. クイック検索&#x200B;]**で**[!UICONTROL 、「リモートサイトの設定」を検索します。
+1. 「新規リモートサイト&#x200B;]**」をクリックします**[!UICONTROL 。
 1. 詳細を入力します：
 
    * **リモートサイト名：**&#x200B;任意の名前を入力します。
@@ -223,17 +227,17 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 1. Learning Manager を起動します。
 
-### Learning Managerアプリの通知を有効にする
+### ラーニングマネージャーアプリの通知を有効にする
 
-1. 右上隅のをクリックします。 **[!UICONTROL 設定]**.
+1. 右上隅にある [セットアップ&#x200B;]**] をクリックします**[!UICONTROL 。
 1. カスタム通知を検索します。
-1. クリック **[!UICONTROL 新規]**.
+1. [新規&#x200B;]**] をクリックします**[!UICONTROL 。
 1. 次の情報を入力します。
 
-   1. **カスタム通知名：** LearningManagerNotification
-   1. **API名：** LearningManagerNotification
+   1. **カスタム通知名:** ラーニングマネージャー通知
+   1. **API 名:** ラーニングマネージャー通知
 
-1. 両方を選択 **デスクトップ** および **モバイル** をサポート対象チャンネルに設定します。
+1. サポートされているチャネルとしてデスクトップ&#x200B;**と**&#x200B;モバイル&#x200B;**の両方**&#x200B;を選択します。
 
 1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
 1. モバイルデバイスのプッシュ通知を有効にするには、次の手順に従います：
@@ -245,7 +249,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 ### Salesforce からの Learning Manager のアンインストール
 
-1. Salesforceアプリで「インストール済みパッケージ」に移動します。
+1. Salesforce アプリケーションで、[インストール済みパッケージ] に移動します。
 1. クリック **[!UICONTROL アンインストール]**.
 
 ## Salesforce ユーザー用の学習マネージャーの設定
@@ -270,23 +274,23 @@ Salesforce 管理者は、ユーザーにプロファイルを割り当てるか
 
 >[!NOTE]
 >
->学習者がLearning Managerアプリを表示できるようにするために、すべての学習者に対してアプリを有効にする必要があります。
+>学習者がラーニングマネージャーアプリを表示するには、すべての学習者に対してアプリを有効にする必要があります。
 
 次に、Learning Manager アプリにアクセス権を付与します。
 
 ![](assets/permission-set.png)
 
-*Learning Managerアプリにアクセスするための権限を設定*
+*ラーニング マネージャー アプリにアクセスするためのアクセス許可を設定する*
 
 ユーザーを選択し、アクセス権を割り当てます。 これで、学習者が Learning Manager アプリにアクセスできるようになりました。
 
-次に、プロファイル（ユーザーの標準プロファイルなど）を選択し、そのプロファイルをクリックします。 クリック **[!UICONTROL 編集]** そして **カスタムアプリ設定** セクションで、チェックボックスをオンにする **Learning ManagerのAdobe**. これにより、ユーザーがアプリにアクセスできるようになりました。
+次に、プロファイル（ユーザーの標準プロファイルなど）を選択し、そのプロファイルをクリックします。 「編集&#x200B;]**」をクリックし**[!UICONTROL 、「カスタムアプリケーション設定&#x200B;**」**&#x200B;セクションで「Adobe Learning Manager **」チェックボックス**&#x200B;を有効にします。これにより、ユーザーがアプリにアクセスできるようになりました。
 
 **カスタムタブ設定**&#x200B;セクションの&#x200B;**「学習者ホーム」**&#x200B;ドロップダウンリストで、**「デフォルトでオン」**&#x200B;オプションを選択します。
 
 すべてのプロファイルに対して、アプリを表示可能にすることが必要です。
 
-クリック **[!UICONTROL 保存]** また、すべてのプロファイルに属する学習者がLearning Managerアプリにアクセスできます。
+[保存&#x200B;]**] をクリックすると**[!UICONTROL 、すべてのプロファイルに属する学習者がラーニング マネージャー アプリにアクセスできるようになります。
 
 ### 学習パス関連の変更点
 
@@ -298,7 +302,7 @@ Salesforce 管理者は、ユーザーにプロファイルを割り当てるか
 
 >[!NOTE]
 >
->このフラグを有効にして既存の接続を使用すると、いくつかのレコードが失われる可能性があります。
+>フラグが有効になっていて、既存の接続を使用すると、いくつかのレコードが失われる可能性があります。
 
 #### 新しい接続
 
@@ -316,9 +320,9 @@ Salesforce 管理者は、ユーザーにプロファイルを割り当てるか
 
 ## Learning Manager FTP コネクタ {#ftpconnector}
 
-FTP コネクターを使用すると、Learning Manager を任意の外部システムと統合して、データ同期を自動化できます。外部システムがデータを CSV 形式で書き出し、そのデータを Learning Manager FTP アカウントの適切なフォルダーに配置できることが期待されています。FTPコネクタの機能は次のとおりです。
+FTP コネクターを使用すると、Learning Manager を任意の外部システムと統合して、データ同期を自動化できます。外部システムがデータを CSV 形式で書き出し、そのデータを Learning Manager FTP アカウントの適切なフォルダーに配置できることが期待されています。FTP コネクタの機能は次のとおりです。
 
-Boxコネクターを使用して、データの移行、ユーザーの読み込み、データの書き出しをおこなうこともできます。 詳しくは、 Boxコネクタを参照してください。
+Box コネクタを使用して、データ移行、ユーザー インポート、およびデータ エクスポートを行うこともできます。 詳細については、「ボックス コネクタ」を参照してください。
 
 ### データの読み込み {#dataimport}
 
@@ -369,9 +373,9 @@ FTPコネクターとLearning Managerを統合するためのプロセスを学�
 
 ### 読み込み
 
-・+++内ユーザー
++++内部ユーザー
 
-社内ユーザーの読み込みオプションを使用すると、オンデマンドまたはスケジュールを設定したうえで、ユーザーをcsvからLearning Managerに読み込むことができます。
+[内部ユーザのインポート] オプションを使用すると、オンデマンドまたはスケジューリングで csv からラーニング マネージャにユーザをインポートできます。
 
 +++
 
@@ -379,14 +383,14 @@ FTPコネクターとLearning Managerを統合するためのプロセスを学�
 
 接続が正常に確立されたら、CSV ファイルの列をマッピングできます。その列は、Learning Manager の対応する属性の FTP フォルダーに配置されます。この手順は必須です。
 
-1. マップ属性ページの左側にはLearning Managerの予想される列が表示され、右側にはCSVの列名が表示されます。 最初は右側に空の選択ボックスがあります。任意のテンプレートCSVを読み込むには、次をクリックします **ファイルを選択**.
-1. 上記の手順で、右側の選択ドロップダウンリストにすべての CSV 列名が表示されます。Learning Managerの列名にマッピングする適切な列名を選択します。
+1. [属性のマップ] ページでは、左側にラーニング マネージャーの予想される列が表示され、右側には CSV 列名が表示されます。 最初は右側に空の選択ボックスがあります。[ファイル&#x200B;**の選択] をクリックして**、テンプレート CSV をインポートします。
+1. 上記の手順で、右側の選択ドロップダウンリストにすべての CSV 列名が表示されます。ラーニングマネージャの列名にマップされる適切な列名を選択します。
 
    >[!NOTE]
    >
    >マネージャーフィールドは、電子メールアドレスタイプのフィールドにマッピングする必要があります。コネクタを使用する前に、すべての列をマッピングすることが必須です。
 
-1. クリック **[!UICONTROL 保存]** マッピングの完了後。
+1. マッピングが完了したら、「保存」]**をクリックします**[!UICONTROL 。
 
    これでコネクタは使用可能になりました。設定したアカウントは、管理者が読み込みをスケジュールしたり、オンデマンド同期を実行したりするための管理者アプリ内のデータソースとして表示されます。
 
@@ -432,7 +436,7 @@ xAPI の読み込みオプションにより、サードパーティ製サービ
    * 「**[!UICONTROL 保存]**」をクリックして変更内容を保存します。
 
    ![](assets/configurations.png)
-   *設定*
+   *構成*
 
    **フィルター**
 
@@ -459,7 +463,7 @@ xAPI の読み込みオプションにより、サードパーティ製サービ
    xAPI ステートメントの読み込み開始日時を入力してから、読み込み頻度を日数で入力します。例えば、xAPI ステートメントの読み込みを 3 日ごとに実行する場合は、「3」を入力します。
 
    ![](assets/configure-schedule2x.png)
-   *xAPIステートメントの読み込み – スケジュールの設定*
+   *xAPI ステートメントのインポート - スケジュールの構成*
 
 1. 左ペインで、 **[!UICONTROL オンデマンド実行]**.
 
@@ -482,7 +486,7 @@ xAPI の読み込みオプションにより、サードパーティ製サービ
 **[!UICONTROL ユーザースキル – オンデマンド]**：開始日を指定し、オプションを使用してレポートを書き出すことができます。 レポートは現在までに入力された日付から抽出されます。
 
 ![](assets/export-on-demand2x.png)
-*オンデマンド書き出しオプション*
+*オンデマンドエクスポートオプション*
 
 **[!UICONTROL ユーザースキル - 設定]**：このオプションではレポートの抽出をスケジュールできます。「スケジュールを有効にする」チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。
 
@@ -494,30 +498,30 @@ xAPI の読み込みオプションにより、サードパーティ製サービ
 書き出されたファイルが保存されている書き出しフォルダーを開くには、次に示すように、ユーザースキルページで提供されているFTPフォルダーへのリンクを開きます。
 
 ![](assets/ftp-folder.png)
-*ファイルを表示するためのFTPフォルダー*
+*ファイルを表示するためのFTPフォルダ*
 
-自動書き出しされたファイルは、この場所にあります **Home/export/&#42;FTP_location&#42;**
+自動エクスポートされたファイルは、ホーム/エクスポート/&#42;FTP_locationの場所&#x200B;**にあります&#42;**
 
-自動書き出しされたファイルは、というタイトルの付いたファイルです。 **skill_achievements_&#42;開始日&#x200B;&#42;_から_&#42;終了日&#42;.csv**
+自動エクスポートされたファイルは、**タイトルが skill_achievements_&#42;date from &#42;__&#42;to date to&#42;.csv で利用できます。**
 
 ![](assets/exported-csvs.png)
-*書き出した.csvファイル*
+*書き出された .csv ファイル*
 
 +++学習者のトランスクリプト
 
 ![](assets/on-demand-report.png)
 
-**設定**：このオプションでは、レポートの抽出をスケジュールできます。 「スケジュールを有効にする」チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。
+**構成:** このオプションを使用すると、レポートの抽出をスケジュールできます。 「スケジュールを有効にする」チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。
 
 ![](assets/configure-report.png)
 
 +++
 
-書き出されたファイルが保存されているFTPの書き出しフォルダーを開くには、次に示すように、学習者のトランスクリプトページに表示されるFTPフォルダーへのリンクを開きます
+エクスポートされたファイルがFTPの場所に配置されているエクスポートフォルダーを開くには、以下に示すように、学習者のトランスクリプトページで提供されているFTPフォルダーへのリンクを開きます
 
-自動書き出しされたファイルは、この場所にあります **Home/export/&#42;FTP_location&#42;**
+自動エクスポートされたファイルは、ホーム/エクスポート/&#42;FTP_locationの場所&#x200B;**にあります&#42;**
 
-自動書き出しされたファイルは、というタイトルの付いたファイルです。 **learner_transcript_&#42;開始日&#x200B;&#42;_から_&#42;終了日&#42;.csv**
+自動エクスポートされたファイルは、 **タイトルが learner_transcript_&#42;date from &#42;_to_&#42;date to&#42;.csv で利用できます。**
 
 ![](assets/exported-file.png)
 
@@ -558,7 +562,7 @@ Lynda.com をご利用のエンタープライズのお客様は、Lynda コネ�
 
 1. 「保存」をクリックします。
 
-   設定が保存されされました。アカウントの Lynda 接続が追加されます。ホームページから「接続の管理」をクリックして、いつでも設定を編集できるようになりました。
+   設定が保存されされました。アカウントの Lynda 接続が追加されます。ホーム ページから [接続の管理] をクリックして、いつでも構成を編集できます。
 
 1. 接続が既に確立されている場合は、「接続を管理」をクリックしてすべての接続を表示します。
 
@@ -567,7 +571,7 @@ Lynda.com をご利用のエンタープライズのお客様は、Lynda コネ�
    >このコネクタを構成する前に、アカウントの移行機能を有効にする必要があります。
 
 1. 編集したい接続をクリックします。
-1. 左ペインで、 **[!UICONTROL 設定]**. 次のどちらかの操作を実行します。
+1. 左側のウィンドウで、[構成]]**をクリックします**[!UICONTROL 。次のどちらかの操作を実行します。
 
    * このウィンドウから、アカウントの詳細と同期スケジュールを表示または編集します。このアカウントを有効にする場合は、「接続を有効にする」チェックボックスをオンにします。
    * 「編集」をクリックして資格情報を編集します。このフィールドの更新を元に戻すには、「リセット」をクリックします。
@@ -577,7 +581,7 @@ Lynda.com をご利用のエンタープライズのお客様は、Lynda コネ�
 
    ![](assets/lynda.png)
 
-   *Learning Manager用Lyndaコネクターの設定*
+   *ラーニングマネージャーの Lynda コネクタを構成する*
 
 1. 左ペインで、「オンデマンド実行」をクリックします。このオプションを使用すると、Lynda からユーザーフィードやその他の関連データを読み込むことができます。オンデマンド実行の開始日を入力し、「実行」をクリックして同期を実行します。開始日から現在までのすべてのデータが読み込まれます。
 
@@ -632,9 +636,9 @@ getAbstract.com をご利用のエンタープライズのお客様は、getAbst
 
    ![](assets/getabstractschedulepage.png)
 
-   *Learning ManagerのgetAbstractコネクターを設定する*
+   *ラーニングマネージャーの getAbstract コネクタを構成する*
 
-1. 左ペインで、[Configure]をクリックします。 次のどちらかの操作を実行します。
+1. 左側のウィンドウで、[構成] をクリックします。 次のどちらかの操作を実行します。
 
    * このウィンドウから、アカウントの詳細と同期スケジュールを表示または編集します。このアカウントを有効にする場合は、「接続を有効にする」チェックボックスをオンにします。
    * 「編集」をクリックして資格情報を編集します。このフィールドの更新を元に戻すには、「リセット」をクリックします。
@@ -660,7 +664,7 @@ getAbstract.com をご利用のエンタープライズのお客様は、getAbst
    その種類を問わず、あらゆる同期が動作するために、同期に指定された日付の getAbstract FTP フォルダーにユーザーフィードがあることを確認します。
 
    次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。ファイル名は、**report_export_yyyy_MM_dd_HHmmss.xlsx** または **report_export_yyyy_MM_dd.xlsx** の形式に従う必要があります。
-   [getAbstractユーザーフィードサンプルExcelシート](assets/report-export-20170401175342.xlsx)
+   [getAbstract ユーザー フィードのサンプル Excel シート](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor コネクタ {#hmmconnector}
 
@@ -728,7 +732,7 @@ Workday コネクターを使用すると、Learning Manager を Workday のテ�
 
 #### マップ属性
 
-統合管理者はWorkdayの列を選択し、その列を対応するLearning Managerのグループ化可能属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むために別のマッピングを使用したい場合は、再設定できます。
+インテグレーション管理者は、Workday 列を選択し、対応するラーニングマネージャーのグループ可能な属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むために別のマッピングを使用したい場合は、再設定できます。
 
 #### 自動ユーザー読み込み
 
@@ -749,7 +753,7 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 #### 注意事項
 
 * 従業員のUUID、電子メールアドレス、名前が、複数のWorkday統合で一意であることを確認します。 値が正しくないと、接続エラーが発生します。
-* Workdayを使用してに入力されたUUIDフィールドは、クライアント側のLMS Administratorでは削除できません。 この値を変更する場合は、AdobeのLearning Managerオンボーディングチームまたはサポートチームにご連絡ください。
+* Workdayを使用してに入力されたUUIDフィールドは、クライアント側のLMS Administratorでは削除できません。 値を変更する場合は、Adobe Learning Managerのオンボーディングチームまたはサポートチームにお問い合わせください。
 * ユーザー削除は1回の実行で50人のユーザーを削除することしかサポートしていないため、ユーザー削除オプションも機能しない場合があります。 UUIDを介してユーザーをアップロードする場合は、細心の注意を払ってください。
 
 ### スケジューリング {#Scheduling-1}
@@ -798,7 +802,7 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 * ユーザースキルの書き出し - オンデマンド
 
 ![](assets/overview.png)
-*Workdayについて*
+*就業日の概要*
 
 ### 読み込み
 
@@ -817,9 +821,9 @@ Workday コネクターを使用すると、Learning Manager と Workday を統�
 ![](assets/workday.png)
 *マップ属性*
 
-を選択します **派遣社員を除外** このチェックボックスをオンにすると、マネージャーの下で使用可能な一時的なワーカーがインポートされなくなります。
+[ **派遣社員の除外]** チェックボックスをオンにして、マネージャーの下で使用可能な一時作業者がインポートされないようにします。
 
-Workday に 4 つの階層レベルがあるのに対し、Learning Manager には 2 つのレベルがあります。Workdayの4つのレベルは、スキルプロファイルカテゴリ、スキルプロファイル、スキルアイテムカテゴリ、およびスキルアイテムです。 Learning Managerのスキル名とレベルは、Workdayのスキルアイテムにマッピングされます。
+Workday に 4 つの階層レベルがあるのに対し、Learning Manager には 2 つのレベルがあります。Workdayの4つのレベルは、スキルプロファイルカテゴリ、スキルプロファイル、スキルアイテムカテゴリ、およびスキルアイテムです。 スキル名とラーニング マネージャーのレベルは、Workday のスキル アイテムの下にマッピングされます。
 
 >[!NOTE]
 >
@@ -827,14 +831,62 @@ Workday に 4 つの階層レベルがあるのに対し、Learning Manager に�
 
 +++サポートされているWorkday属性のリスト
 
-wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Preferred_Name_Data.wd .wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name .wd:Contact_Data.wd:Address_Data.0@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number wd:Personal_Data.wd:Primary_Nationity_Reference.wd:ID.1$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:wd:Position_Data :Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1$ wd:Employment_Data.wd:Worker_Status_Data.wd:Active wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date wd:Employment_Data.wd:Worker_Data.wd:Worker_Status.Data wd:Retirement_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Wd:Code:Organization_Data.wd:Worker_Organization_Data.0.wd:Wd organization_Data.wd:Organization_Name wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1$ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$ wd:Qualification_Data.wd:Education.0.wd:School_Name wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.0.wd:Manager.Employee IDプライマリ作業電子メールwd:Organization_Type_Reference_Cost_Center_ID wd:Organization_Type_Reference_Cost_Center_Name wd:Organization_Type_Reference_Company wd:Organization_Subtype_Reference_Department wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Integration_Field_Override_Data.3.wd:Value wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2$ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
+WD:User_ID
+WD:Worker_ID
+マネージャー
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data。@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data。@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code
+wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
+wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$
+wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$
+wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID
+wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID
+wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1。$
+wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data。@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1。$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:終了
+wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1。$ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$ wd:Qualification_Data.wd:Education.0.wd:School_Name wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.0.wd:Manager.Employee IDプライマリ作業電子メールwd:Organization_Type_Reference_Cost_Center_ID wd:Organization_Type_Reference_Cost_Center_Name wd:Organization_Type_Reference_Company wd:Organization_Subtype_Reference_Department wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Integration_Field_Override_Data.3.wd:Value wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2$ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
 ### 書き出し
 
 ユーザーが達成したすべてのスキルを Learning Manager から Workday に書き出すことができます。Learning Manager はすべてのアクティブなユーザースキルのみを書き出し、廃止スキルは書き出しません。複数のLearning Managerに接続することもできます\
-同じWorkdayコネクタにアカウントを関連付けます。 2つのLearning Managerアカウントのスキル名が同じ場合、Workdayの同じスキルにマッピングされます。 2つのLearning Managerアカウントが同じWorkdayアカウントを使用している場合、Workdayでスキルをアップデートする前に、すべてのLearning Managerアカウントでスキル名をアップデートすることをお勧めします。
+同じWorkdayコネクタにアカウントを関連付けます。 2つのLearning Managerアカウントのスキル名が同じ場合、Workdayの同じスキルにマッピングされます。 Workday でスキルを更新する前に、2 つのラーニング マネージャー アカウントが同じ Workday アカウントを使用している場合は、すべてのラーニング マネージャー アカウントのスキル名を更新することをお勧めします。
 
 +++ユーザースキル – 設定
 
@@ -854,7 +906,7 @@ wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_
 
 +++
 
-+++ユーザースキル – 実行ステータス
++++ユーザースキル - 実行ステータス
 
 ここでは、すべてのタスクの概要を表示し、それらのステータスレポートを取得できます。エラーレポートのリンクをクリックすると、エラーレポートをダウンロードできます。
 
@@ -944,21 +996,21 @@ Learning ManagerをZoomコネクターと統合し、クラスのホストとし
    >
    >コネクターを有効にしながら、ユーザーが学習者として Learning Manager アカウントで使用している電子メール ID で、Learning Manager にフィードバックを提出できるようにします。
 
-1. 接続が確立されたら、作成者は、会議システムとしてZoomを使用してVCコースを作成します。
+1. 接続が確立されたら、作成者として、Zoomを会議システムとして使用してVCコースを作成します。
 
    <!-- ![](assets/vc.jpg)
    
    *Create a VC course* -->
 
-1. 管理者、マネージャー、学習者は、作成されたコースに学習者を登録できます。 登録時に、学習者は電子メールを受け取ります。学習者は自分の Learning Manager アカウントにログインしてプログラムの詳細を表示し、コースを受講できます。
+1. 管理者、マネージャ、および学習者は、作成したコースに学習者を登録できます。 登録時に、学習者は電子メールを受け取ります。学習者は自分の Learning Manager アカウントにログインしてプログラムの詳細を表示し、コースを受講できます。
 1. コースを完了すると、完了レポートが Learning Manager に送信されます。管理者は、完了レポートを見て学習者の出席と得点を確認できます。
 
    ![](assets/attendence-and-scoringreport.png)
-   *出席とスコア付けのレポート*
+   *出席とスコアリングレポート*
 
-### ズームサーバー間OAuthアプリの作成
+### ズームサーバー間 OAuth アプリを作成する
 
-AdobeのLearning Managerで使用するZoomサーバー間OAuthアプリを作成する際、AdobeのLearning Managerが必要とするスコープを追加する必要があります。
+Adobe ラーニング マネージャーで使用する Zoom サーバー間 OAuth アプリを作成する場合は、接続の作成時に Adobe ラーニング マネージャーに必要なスコープを追加する必要があります。
 
 Adobe Learning Manager には以下のスコープが必要です。スコープは OAuth アプリで選択する必要があります。
 
@@ -1028,10 +1080,10 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 接続が正常に確立されたら、Boxフォルダー内に配置されているCSVファイルの列を、Learning Managerの対応する属性にマッピングできます。 この手順は必須です。
 
-1. マップ属性ページの左側にはLearning Managerの予想される列が表示され、右側にはCSVの列名が表示されます。 最初は右側に空の選択ボックスがあります。「ファイルを選択」をクリックして、任意のテンプレートCSVを読み込みます。
-1. 上記の手順で、右側の選択ドロップダウンリストにすべての CSV 列名が表示されます。Learning Managerの列名にマッピングする適切な列名を選択します。
+1. マップ属性ページの左側にはLearning Managerの予想される列が表示され、右側にはCSVの列名が表示されます。 最初は右側に空の選択ボックスがあります。[ファイルの選択] をクリックして、テンプレート CSV をインポートします。
+1. 上記の手順で、右側の選択ドロップダウンリストにすべての CSV 列名が表示されます。ラーニングマネージャの列名にマップされる適切な列名を選択します。
 
-   *マネージャーフィールドは、電子メールアドレスタイプのフィールドにマッピングする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。*
+   *Manager フィールドは、電子メール アドレス型のフィールドにマップする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。*
 
 1. マッピングが完了したら、「保存」をクリックします。
 
@@ -1039,19 +1091,19 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 +++
 
-+++xAPIアクティビティレポート
++++xAPI アクティビティレポート
 
 「xAPI アクティビティレポート」オプションにより、サードパーティ製サービスから xAPI ステートメントをファイルとして読み込むための構成を生成することができます。Learning Manager に読み込まれたファイルは .CSV ファイルとして保存され、その後 xAPI ステートメントに変換されます。
 
 +++
 
-+++xAPIの読み込みに必要な設定
++++xAPIをインポートするために必要な構成
 
-1. 設定ページで、設定リストにある既存の設定を選択し、xAPIステートメントをCSVから読み込みます。 「編集」または「A」をクリックします&#x200B;**新しい構成の追加** リンクをクリックして、xAPIステートメントの読み込み – 設定 – ソースファイルページに移動します。
+1. 構成ページから、CSV から xAPI ステートメントをインポートするために構成リストで使用可能な既存の構成を選択します。 「編集」または&#x200B;**「新しい構成** 」リンクをクリックして、「xAPI ステートメントのインポート - 構成ソース・ファイル」ページに移動します。
 
    ![](assets/artboard-11-2x.png)
 
-   *新しい設定の編集または追加*
+   *新しい構成を編集または追加する*
 
    **構成**
 
@@ -1095,7 +1147,7 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 1. 左側のペインで「**[!UICONTROL 実行ステータス]**」をクリックすると、該当するコネクタで実行されたすべての読み込み処理の概要情報が時系列で表示されます。この概要情報で、xAPI ステートメントの読み込み開始日と読み込みにかかった時間、読み込み処理のタイプ（オンデマンド読み込みなのかスケジュール設定された読み込みなのか）、読み込み処理のステータス（xAPI ステートメントの読み込み処理が実行中なのか、処理が完了したのか、処理が失敗したのか）を確認することができます。
 
    ![](assets/box-execution-status2x.png)
-   *xAPIステートメントの読み込み – 実行ステータス*
+   *xAPI ステートメントのインポート - 実行ステータス*
 
 +++
 
@@ -1135,7 +1187,7 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 自動書き出しされたファイルは、この場所にあります **Home/export/&#42;Box_location&#42;**
 
-自動書き出しされたファイルは、というタイトルの付いたファイルです。 **skill_achievements_&#42;開始日&#x200B;&#42;_から_&#42;終了日&#42;.csv**
+自動エクスポートされたファイルは、**タイトルが skill_achievements_&#42;date from &#42;__&#42;to date to&#42;.csv で利用できます。**
 
 >[!NOTE]
 >
@@ -1151,10 +1203,10 @@ Box を介してユーザーデータを読み込む際に、管理者は、シ�
 
 >[!NOTE]
 >
->マッピング中に **DontImportFromSource** がcsvアクティブフィールドに選択されている場合、このフィールドはシステムから削除されます。
+>マッピング中に、csvアクティブフィールドにDontImportFromSource **オプション**&#x200B;が選択されている場合、このフィールドはシステムから削除されます。
 
 ![](assets/box-connector-foractivefields.png)
-*アクティブなフィールドのボックスコネクタ*
+*アクティブフィールドのボックスコネクタ*
 
 >[!NOTE]
 >
@@ -1168,12 +1220,12 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 
 >[!NOTE]
 >
->LinkedIn Learning コースで費やされた学習時間は、LinkedIn コンテンツ / LinkedIn プラットフォームから、Learning Manager 学習プラットフォームに送信されます。LinkedIn の学習から学習時間が送信されない場合、学習プラットフォームではその時間を記録できません。 この場合、Learning Managerに表示される学習時間はゼロになります。
+>LinkedIn Learning コースで費やされた学習時間は、LinkedIn コンテンツ / LinkedIn プラットフォームから、Learning Manager 学習プラットフォームに送信されます。LinkedIn の学習から学習時間が送信されない場合、学習プラットフォームではその時間を記録できません。 このような場合、ラーニングマネージャによって表示される学習時間はゼロです。
 
 ### Linkedln Learning ポータルを構成する {#configuresettingsinlinkedlnlearningportal}
 
 1. 管理者として Linkedln Learning LMS にログインします。
-1. クリック **[!UICONTROL admin]** をクリックします。
+1. 上部のナビゲーション パネルで [admin ]**] をクリックします**[!UICONTROL 。
 1. 次のウィンドウで「**[!UICONTROL 設定]**」タブをクリックします。
 1. 選択 **[!UICONTROL 再生の統合]** 左側のナビゲーションパネルで、 **統合** タブをクリックします。
 1. クリック **[!UICONTROL LMSコンテンツの起動設定]** をクリックして、設定を展開します。
@@ -1182,7 +1234,7 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 
    ![](assets/linkedin-learning.png)
 
-   *LinkedIn Learning設定*
+   *LinkedIn ラーニングの構成*
 
 ### LinkedIn Learning コネクタを構成する {#configurelinkedinlearningconnector}
 
@@ -1202,7 +1254,7 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 
 1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
-   設定は保存されました。アカウントに LinkedIn Learning の接続が追加されます。これで、 **[!UICONTROL 接続の管理]** ホームページから、いつでも設定を編集できます。
+   設定は保存されました。アカウントに LinkedIn Learning の接続が追加されます。ホーム ページから [接続&#x200B;]**の管理] をクリックして**[!UICONTROL 、いつでも構成を編集できます。
 
 1. 既に接続が確立されている場合は、 **[!UICONTROL 接続の管理]** すべての接続を表示します。
 
@@ -1214,15 +1266,15 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 1. 左ペインで、[Configure]をクリックします。 次のどちらかの操作を実行します。
 
    * このウィンドウから、アカウントの詳細と同期スケジュールを表示または編集します。を選択します **[!UICONTROL 接続を有効にする]** このアカウントを有効にする場合は、このチェックボックスをオンにします。
-   * クリック **[!UICONTROL 編集]** 資格情報を編集します。 このフィールドの更新を元に戻すには、リセットをクリックします。
-   * クリック **[!UICONTROL スケジュールを有効にする]** をクリックして、同期をスケジュールします。 開始日時を入力してから、同期スケジュールの頻度を日数で入力できます。例えば、3 日ごとに同期を有効にします。
+   * [編集&#x200B;]**] をクリックして**[!UICONTROL 、資格情報を編集します。このフィールドの更新を元に戻すには、リセットをクリックします。
+   * 「スケジュールを有効にする」]**をクリックして**[!UICONTROL 、同期をスケジュールします。開始日時を入力してから、同期スケジュールの頻度を日数で入力できます。例えば、3 日ごとに同期を有効にします。
 
    「**[!UICONTROL 保存]**」をクリックして変更内容を保存します。
 
-1. 左ペインで、 **[!UICONTROL オンデマンド実行]**. このオプションを使用すると、LinkedIn からユーザーのフィードおよびその他の関連データを読み込むことができます。オンデマンド実行の開始日を入力し、「実行」をクリックして同期を実行します。 開始日から現在までのすべてのデータが読み込まれます。
+1. 左側のペインで、[オンデマンド実行&#x200B;]**] をクリックします**[!UICONTROL 。このオプションを使用すると、LinkedIn からユーザーのフィードおよびその他の関連データを読み込むことができます。オンデマンド実行の開始日を入力し、「実行」をクリックして同期を実行します。 開始日から現在までのすべてのデータが読み込まれます。
 
-   * 次をクリックできます **[!UICONTROL アクセスを無効にする]** 同期中にアプリケーションのダウンタイムが発生し、実行中にLearning Managerに転送する。
-   * をクリックした場合 **[!UICONTROL アクセスを有効にする]** 実行中のLearning Managerでは、同期中にサービスが中断されることはありません。
+   * [同期中にアプリケーションのダウンタイムが発生する実行中にラーニング マネージャーへのアクセス&#x200B;]**を無効にする] をクリック**[!UICONTROL &#x200B;できます。
+   * 実行中にラーニングマネージャへのアクセス&#x200B;]**を有効にするをクリックすると**[!UICONTROL 、同期中にサービスが中断することはありません。
 
    ![](assets/ondemandexecution.jpg)
 
@@ -1263,7 +1315,7 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 **トレーニングのインポート先**
 
 ![](assets/iport-training.png)
-*カタログへのトレーニングの読み込み*
+*トレーニングをカタログにインポートする*
 
 **タグの取り込み**
 
@@ -1273,7 +1325,7 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 
 *カスタムタグの追加*
 
-コンテンツは、移行後にのみ保存されます。 コンテンツはそれぞれのカタログに保存されます。
+コンテンツは移行後にのみ保存されます。 コンテンツはそれぞれのカタログに保存されます。
 
 ## Power BI コネクター {#powerbiconnector}
 
@@ -1281,11 +1333,11 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 >
 >Learning Manager は、Microsoft Power BI の商用ライセンスとの統合のみをサポートします。官公庁のクラウド上の Microsoft Power BI とは統合されません。
 
-このコネクタとの統合を使用して既存のPower BIアカウントを活用し、Learning Managerの学習Power BIをデータ内で視覚化および分析できます。 統合を行う管理者は、Power BI のワークスペースを設定する際に、学習者のトランスクリプトとユーザーのスキルレポートという 2 つのライブデータセットを増分的にワークスペースに取り込むように設定することができます。 その後、PowerBI のすべての機能を使用してカスタムダッシューボードを作成し、組織内に配布することができます。
+このコネクタとの統合を使用して、既存の Power BI アカウントを利用して、Power BI 内のラーニング マネージャーからの学習データを分析および視覚化できます。 統合を行う管理者は、Power BI のワークスペースを設定する際に、学習者のトランスクリプトとユーザーのスキルレポートという 2 つのライブデータセットを増分的にワークスペースに取り込むように設定することができます。 その後、PowerBI のすべての機能を使用してカスタムダッシューボードを作成し、組織内に配布することができます。
 
 ### コネクタの構成 {#configuringtheconnector}
 
-コネクタを設定するには、 **[!UICONTROL コネクタ]** ページ上にカーソルを移動 **[!UICONTROL Power BI]** 並べて表示してクリック **[!UICONTROL Connect]**. Power BI ページが開きます。接続を確立するには、アプリクライアント ID、アプリクライアントシークレット、テナント名およびワークスペース ID（オプション）を入力します。 これらの資格情報を取得するには、次の手順に従います。
+コネクタを構成するには、[コネクタ] **** ページで、Power **[!UICONTROL BI]** タイルにカーソルを合わせ、[接続&#x200B;]**] をクリックします**[!UICONTROL 。Power BI ページが開きます。接続を確立するには、アプリクライアント ID、アプリクライアントシークレット、テナント名およびワークスペース ID（オプション）を入力します。 これらの資格情報を取得するには、次の手順に従います。
 
 ![](assets/power-bi-configurepage.png)
 
@@ -1299,7 +1351,7 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 
    `https://learningmanager.adobe.com/ctr/app/azure/_callback` （環境に基づいてドメインを更新）
 
-1. 「ホームURL」フィールドに、次のURLを入力します。 `https://learningmanager.adobe.com/`
+1. [ホーム URL] フィールドに、次の URL を入力します。 `https://learningmanager.adobe.com/`
 1. 権限セクションで、 **すべてのデータセットの読み取り** および **すべてのデータセットの読み取りと書き込み**.
 
    テナントの取得：Power BI 管理者に連絡してテナント名を入力してください。
@@ -1316,26 +1368,26 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 
 「**[!UICONTROL ユーザースキル／学習者のトランスクリプトの書き出しを有効化する]**」チェックボックスをオンにして有効化します。 変更を保存します。
 
-**書き出し設定**：レポートの抽出をスケジュールしたい場合。 を選択します **[!UICONTROL スケジュールを有効にする]** チェックボックスをオンにし、開始日時を指定します。 レポートを生成して送信する間隔を指定することもできます。
+**書き出し設定**：レポートの抽出をスケジュールしたい場合。 [ **[!UICONTROL スケジュールを有効にする]]** チェック ボックスをオンにし、開始日時を指定します。 レポートを生成して送信する間隔を指定することもできます。
 
 ![](assets/power-bi-configureuserskillpage.png)
 
-*レポートのスケジュールを設定するエクスポート構成*
+*レポートをスケジュールするためのエクスポート構成*
 
-**オンデマンド書き出し：** 開始日を指定し、オプションを使用してレポートを書き出すことができます。 レポートは、入力された日付から抽出されます。
+**オンデマンド書き出し：** 開始日を指定し、オプションを使用してレポートを書き出すことができます。 レポートは、入力された日付から現在まで抽出されます。
 
 ![](assets/power-bi-userskillondemandpage.png)
 
-*オンデマンドで書き出し*
+*オンデマンドでエクスポート*
 
 書き出されたデータを見るには Power BI アカウントにログインします。 書き出されたデータは「データセット」オプションの下にリストされています。
 
 ### Learning Manager での xAPI アクティビティレポートの書き出し {#exportxapiactivityreportsincaptivateprime}
 
-PowerBI-xAPIの機能ページで、をクリックします。 **[!UICONTROL xAPIアクティビティレポートの書き出し]**.
+PowerBI-xAPI 機能ページで、「xAPI アクティビティー・レポートのエクスポート」]**をクリックします**[!UICONTROL 。
 
 ![](assets/powerbi-dashboard.png)
-*PowerBI - xAPIアクティビティレポートのエクスポート*
+*PowerBI - xAPI アクティビティレポートのエクスポート*
 
 左側のペインで「**構成**」を選択して、以下の手順を実行します。
 
@@ -1368,33 +1420,33 @@ LRS 内の xAPI ステートメントの一部に、書き出し用として設�
 
 **実行ステータス**
 
-「**実行ステータス**」を選択すると、すべてのタスクの概要情報が時系列で表示されます。警告記号が表示される場合は、タスクの実行中にエラーが発生したことを示しています。エラーレポートは次の方法でダウンロードできます **CSV** エラーレポートリンクをクリックして表示されます。
+「**実行ステータス**」を選択すると、すべてのタスクの概要情報が時系列で表示されます。警告記号が表示される場合は、タスクの実行中にエラーが発生したことを示しています。エラーレポートのリンクをクリックすると、エラーレポートをCSV **として**&#x200B;ダウンロードできます。
 
 ![](assets/execution-status.png)
-*xAPIエクスポート実行ステータス*
+*xAPI エクスポート実行ステータス*
 
 ### 統合レポート {#unified-reports}
 
-Learning Managerでは、ユーザーデータ、学習者トランスクリプト、ゲーミフィケーション、フィードバックレポートなどのレポートを組み合わせて、1つのPower BIデータセットとして書き出しを作成できます。
+ラーニング マネージャーは、ユーザー データ、学習者のトランスクリプト、ゲーミフィケーション、フィードバック レポートなどのレポートの組み合わせを使用して、Power BI への 1 つのデータセットとしてエクスポートを作成する方法を提供します。
 
 このようにすると、Power BI ユーザーは複数のレポートのデータを結合して、Power BI で有効性の高い分析と可視化を表示できます。
 
 ![](assets/unified-power-bireports.png)
-*統合Power BIレポート*
+*統合 Power BI レポート*
 
 **オンデマンド書き出し**
 
-開始日と終了日を指定し、オプションを使用してレポートを書き出します。 指定した日付範囲でレポートが抽出されます。
+開始日と終了日を指定し、オプションを使用してレポートをエクスポートします。 指定した日付範囲でレポートが抽出されます。
 
 ![](assets/on-demand-export.png)
-*オンデマンド書き出し*
+*オンデマンドエクスポート*
 
 **スケジュールされた書き出し**
 
 レポートの抽出をスケジュールしたい場合。**「スケジュールを有効にする」**&#x200B;チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。
 
 ![](assets/configure-schedule.png)
-*スケジュールの設定*
+*スケジュールの構成*
 
 トレーニングレポートを Power BI に書き出すことができます。
 
@@ -1423,16 +1475,16 @@ Power BI 接続の「統合レポート」セクションには、学習者オ�
 
 ### Power BI テンプレートのダウンロード {#template}
 
-Learning Managerでは、すぐに使えるPower BIテンプレートも用意されています。 これらのテンプレートを使用すると、Learning Managerのアカウント管理者がAdobeの分析を行う際に便利です。
+ラーニング マネージャーには、既製の Power BI テンプレートも用意されています。 これらのテンプレートは、Adobe Learning Manager のアカウント管理者にとって、より優れた分析機能を提供します。
 
-テンプレートをダウンロードしたり、関連するレポートを書き出したり、これらの使用可能なテンプレートを使用してレポートを印刷したりできます。
+これらの利用可能なテンプレートを使用して、テンプレートのダウンロード、関連するレポートのエクスポート、およびレポートの印刷を簡単に行うことができます。
 
 ![](assets/download-power-bi-template.png)
-*Power BIテンプレートのダウンロード*
+*Power BI テンプレートをダウンロードする*
 
-これにより、テンプレートをダウンロードしてPower BIアプリケーションで使用し、さらにカスタマイズすることで、レポートに説得力のあるストーリーを加えることができます。
+これにより、ユーザーはこれらのテンプレートをダウンロードして Power BI アプリケーションで使用し、これらをさらにカスタマイズして、レポートに説得力のあるストーリーを伝えることができます。
 
-[**テンプレートのダウンロード**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
+[**テンプレートをダウンロードする**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
 <!--<table> 
  <tbody>
@@ -1451,15 +1503,15 @@ Learning Managerでは、すぐに使えるPower BIテンプレートも用意�
 
 トレーニングレポートには、次の追加フィールドがあります。
 
-* コースに関するフィードバックを共有したユーザーの数
+* コースに関するフィードバックを共有したユーザ数
 * コースの平均星評価
 
 ![](assets/export-training-report.png)
-*トレーニングレポートの書き出し*
+*トレーニングレポートのエクスポート*
 
 ### 学習パス関連の変更点
 
-#### 管理者：学習トランスクリプトと統合レポート
+#### 管理者: 学習トランスクリプトと統合レポート
 
 **既存の接続**
 
@@ -1493,11 +1545,11 @@ Learning Managerでは、すぐに使えるPower BIテンプレートも用意�
 
 * **埋め込みパス：**&#x200B;埋め込み学習プログラムの名前が表示されます。
 * **埋め込みパスの ID：**&#x200B;埋め込み学習プログラムの ID が表示されます。
-* **埋め込みコースのID :** 学習パスに含まれるコースのIDが表示されます。
+* **埋め込みコースID :** ラーニングパス内にあるコースのIDを表示します。
 
 加えて、このレポートでは、学習パスに登録されているすべての学習者の「タイプ」列に「学習パス（上位レベル）」が含まれます。
 
-「タイプ」列では「学習プログラム」の名前が「学習パス」に変更されます。 既存の接続の場合は、変更はありません。 ただし、新しい接続の場合、変更は30日後に反映されます。
+「タイプ」列では「学習プログラム」の名前が「学習パス」に変更されます。 既存の接続の場合は、変更はありません。 ただし、新しい接続の場合、変更は 30 日後に反映されます。
 
 ## カスタム FTP {#custom-ftp}
 
@@ -1507,7 +1559,7 @@ Learning Managerでは、すぐに使えるPower BIテンプレートも用意�
 >
 >カスタム FTP を設定するには、CSM にお問い合わせください。 CSM は、FTP の設定に関して必要な詳細を提供します。
 >
->FTPの設定にはリードタイムが必要で、ITサポートにIPとポートのリストを許可し、FTPサーバーに特定の権限を持つ特定のフォルダーを作成する必要があります。
+>FTPのセットアップにはリードタイムが伴い、IPとポートのリストを許可し、FTPサーバー上に特定のアクセス許可を持つ特定のフォルダーを作成するためにITサポートが必要です。
 
 Learning Manager には、カスタム FTP のロケーションに接続する機能が用意されています。
 
@@ -1536,15 +1588,15 @@ FTP では次の機能がサポートされます。
 ![](assets/custom-ftp-authenticationoptions.png)
 *カスタムFTP認証オプション*
 
-* **基本：** 基本認証では、FTPドメインのURL、ユーザー名、パスワードのみを指定する必要があります。 詳細を入力したら、「接続」をクリックします。
-* **資格認定：** お客様のFTPが証明書認証をサポートしている場合は、このオプションを選択できます。 「 SSHキーを生成」をクリックすると、SSHキーがローカルマシンにダウンロードされます。 ファイルを開くと、キーは次のようになります。
+* **基本:** 基本認証では、FTP ドメインの URL、ユーザー名、およびパスワードを指定するだけで済みます。 詳細を入力したら、[接続] をクリックします。
+* **認定:** 顧客の FTP が証明書認証をサポートしている場合は、このオプションを選択できます。 [SSH キーの生成] をクリックすると、SSH キーがローカル コンピューターにダウンロードされます。 ファイルを開くと、キーは次のようになります。
 
 ![](assets/ssh-public-key.png)
-*SSH公開鍵*
+*SSH 公開キー*
 
-以下の詳細を追加する前に、この公開キーをFTPサーバーに配置する必要があります。 与えられたキーをFTPの公開キーとして設定したら、FTPドメインのURLとユーザー名を入力し、をクリックします。 **Connect** ボタンをクリックして接続を設定します。
+以下の詳細を追加する前に、この公開鍵をFTPサーバーに配置する必要があります。 与えられたキーをFTPの公開キーとして設定したら、FTPドメインのURLとユーザー名を入力し、をクリックします。 **Connect** ボタンをクリックして接続を設定します。
 
-接続の設定が完了すると、読み込みおよび書き出し用のフォルダーがftpの場所に自動的に作成されます。 その後、カスタムFTPで読み込み/書き出し機能が提供されます。
+接続設定が完了すると、ftp の場所にインポートおよびエクスポート用のフォルダーが自動的に作成されます。 その後、インポート/エクスポート機能はカスタム FTP によって提供されます。
 
 >[!NOTE]
 >
@@ -1554,12 +1606,12 @@ FTP では次の機能がサポートされます。
 
 ADFS 接続を確立するための前提条件：
 
-* 次のURLを使用してAzure Portalにログインします。  [https://portal.azure.com/](https://portal.azure.com/) アプリを登録する前に。
-* Azure Active Directoryを開きます。
+* アプリを登録する前に、次の https://portal.azure.com/](https://portal.azure.com/) URL [を使用して Azure ポータルにログインします。
+* Azure Active Directory を開きます。
 
 ## アプリケーションを登録する手順 {#stepstoregisteryourapplication}
 
-* Azure Active Directory をクリックします。 クリック **[!UICONTROL 追加]** > **[!UICONTROL アプリの登録]**.
+* Azure Active Directory をクリックします。 [アプリの登録&#x200B;]**>**[!UICONTROL &#x200B;追加&#x200B;]**] をクリックします**[!UICONTROL 。
 
   <!--![](assets/add-app-registration.png)-->
   <!-- *Add app registration*-->
@@ -1629,7 +1681,7 @@ ADFS 接続を確立するための前提条件：
 
   ![](assets/search-user.png)
 
-  *検索語を入力*
+  *検索語を入力します*
 
 * **全ユーザーの全プロファイルの読み取り**&#x200B;を選択します。
 
@@ -1649,17 +1701,17 @@ ADFS 接続を確立するための前提条件：
 
    **[!UICONTROL 「接続」]**&#x200B;をクリックします。
 
-1. にログイン **portal.azure.com**. 「テナントID」フィールドおよび「プライマリドメイン」フィールドに値が入力されます。
+1. portal.azure.com **にログインします**。値は、[テナント ID] フィールドと [プライマリ ドメイン] フィールドに入力されます。
 
 ### 読み込み
 
 #### マップ属性
 
-統合管理者はADFS属性を選択し、対応するLearning Managerのグループ化可能属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。 管理者がユーザーを読み込むために別のマッピングを使用する場合は、再設定できます。
+統合管理者は、ADFS 属性を選択し、対応するラーニング マネージャーのグループ可能な属性にマップできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。 管理者がユーザーをインポートするために別のマッピングを使用する場合は、再構成できます。
 
 #### 自動ユーザー読み込み
 
-ユーザー読み込みプロセスにより、Learning Manager管理者はADFSから従業員の詳細を取得し、その情報をLearning Managerに自動的に読み込ませることができます。
+ユーザー インポート プロセスにより、ラーニング マネージャー管理者は ADFS から従業員の詳細を取得し、ラーニング マネージャーに自動的にインポートできます。
 
 #### ユーザーのフィルタリング
 
@@ -1693,23 +1745,23 @@ ADFSコネクターを設定するには、Learning Manager CSMチームにお�
 
    *マップ属性*
 
-1. データ・ソースを表示および編集するには、管理者として、 **[!UICONTROL 設定]** > **[!UICONTROL データソース]**.
+1. データソースを表示および編集するには、管理者としてデータソース>****&#x200B;設定&#x200B;]**をクリックします**[!UICONTROL 。
 
-   確立されたADFSソースがリストされます。 フィルターを編集する必要がある場合は、 **[!UICONTROL 編集]**.
+   確立された ADFS ソースが一覧表示されます。 フィルターを編集する必要がある場合は、[編集]]**をクリックします**[!UICONTROL 。
 
    ![](assets/datasource.jpg)
    *データソース設定*
 
-1. 読み込みが完了すると通知を受信します。インポートログを表示または編集するには、 **[!UICONTROL ユーザー]** > **[!UICONTROL ログの読み込み]**.
+1. 読み込みが完了すると通知を受信します。インポート ログを表示または編集するには、[ユーザー&#x200B;]**] >**[!UICONTROL [インポート ログ&#x200B;]**] をクリックします**[!UICONTROL 。
 
-### 接続を削除する {#Deleteaconnection-1}
+### 接続の削除 {#Deleteaconnection-1}
 
 確立されたminiOrange接続を削除するには、次の手順に従います。
 
 ## Adobe Connect {#connect}
 
 1. Adobe Connect で、カードの 3 つの点をクリックし、「**接続**」を選択します。
-1. 「 **設定する** 「 Adobe Connectの設定」セクションのリンクです。
+1. 「Adobe Connect 設定」セクションの「 **今すぐ** 設定」リンクをクリックします。
 1. 会社の Adobe Connect ドメイン名とログイン資格情報を入力します。
 
    Adobe Connect URL の例：***mycompany.adobeconnect.com***
@@ -1720,9 +1772,9 @@ ADFSコネクターを設定するには、Learning Manager CSMチームにお�
    >
    >Learning Manager では、アドビがホストする Connect アカウントのみがサポートされます。例：&quot;.adobeconnect.com&quot;
 
-1. クリック **[!UICONTROL 統合]**.
+1. 「統合」]**をクリックします**[!UICONTROL 。
 
-   電子メールIDの認証後、Connectが正常に統合されたというメッセージがLearning Managerに表示されます。 自動的に Adobe Connect を使用してバーチャルクラスルームコースを表示できるようになります。
+   電子メールIDを認証すると、ラーニングマネージャーは「接続が正常に統合されました」というメッセージを表示します。 自動的に Adobe Connect を使用してバーチャルクラスルームコースを表示できるようになります。
 
    **Connect アカウント管理者が電子メール ID を認証すると、Adobe Connect のバックエンドチームがリクエストを承認する手順に進みます。統合が承認され、設定されるには通常 1、2 日かかります。**
 
@@ -1756,16 +1808,16 @@ Learning Manager では、学習者が認証機能を使用して、自分のバ
 Adobe Connect を使用して VC モジュールを作成する場合、常設会議室を選択できます。「**いいえ**」が選択されている場合は、動的な会議室が以前と同様に作成されます。
 
 ![](assets/persistent-room-selection.png)
-*ルームの選択を保持*
+*永続的なルームの選択*
 
 学習者が Adobe Connect を介してコースを受講し、修了してからしばらくすると、セッションの記録とパスコードが学習者アプリに表示されます。
 
 ![](assets/connect-recording.png)
-*録画を接続*
+*録音を接続する*
 
 ### Adobe Connect からのクイズスコアの読み込み {#quiz-adobe-connect}
 
-ConnectのクイズデータをLearning Managerに読み込み、既存のレポートワークフローと統合することで、Learning Managerのユーザーは、クイズを含むセルフペースモジュールと同様に、レポート内のAdobe Connectセッションからクイズデータ、ユーザーの反応、スコアを取得できます。
+Connect クイズデータを Learning Manager に読み込み、既存のレポートワークフローと統合することで、Learning Manager ユーザーは、クイズを含む自分のペースで進められるモジュールのように、レポート内で Adobe Connect セッションからクイズデータ、ユーザーの回答、スコアを取得できます。
 
 「接続」セクションでは、学習者がクイズのコースを受講するか、クイズ報告をサポートするインタラクションを使用すると、コース完了に加え、学習者によるすべてのインタラクションが追跡されます。コースは Connect VC トレーニングでなければなりません。
 
@@ -1802,9 +1854,9 @@ ConnectのクイズデータをLearning Managerに読み込み、既存のレポ
 **Learning Manager – 管理者**
 
 * セッションの期限が切れると、予定された期間後にクイズの読み込みワークフローがトリガーされます。
-* スケジュールがトリガーされ、処理が完了するまで待機します。 統合管理者側から処理ステータスを確認するには、Adobe Connect コネクタ内の&#x200B;**実行ステータス**&#x200B;を表示して、進捗状況を確認します。 実行が成功すると、ステータスはに変わります。 **完了**.
+* スケジュールがトリガーされ、処理が完了するまで待機します。 統合管理者側から処理ステータスを確認するには、Adobe Connect コネクタ内の&#x200B;**実行ステータス**&#x200B;を表示して、進捗状況を確認します。 実行が成功すると、状態が [完了]**に**&#x200B;変わります。
 
-* 管理者は、以前に作成したLearning Managerコースを選択します。 管理者には次の情報が表示されます。
+* 次に、管理者は以前に作成したラーニングマネージャーコースを選択します。 管理者には次の情報が表示されます。
 
    * **出席とスコア付け** - 最終的なクイズスコアと出席ステータスが表示されます。
    * **L2 クイズスコア**
@@ -1942,7 +1994,7 @@ Microsoft Teams コネクターで Learning Manager と Microsoft Teams のシ�
 
 コネクターを用いることで、Adobe Learning Manager のアカウントと Microsoft Teams のアカウントを統合することができます。 統合されると Learning Manager の作成者は、Learning Manager で作成されたバーチャル教室モジュールのテクノロジーサービスプロバイダーとして、Microsoft Teams を使用することができます。
 
-**Microsoft Teamsがバーチャルクラスルームに入るときに学習者を認証することを許可**
+**Microsoft Teams が仮想教室に入るときに学習者を認証できるようにする**
 
 ミーティング主催者はロビーを有効化することで、ミーティングへの入室を制限し、Microsoft Teams が提供する他のミーティングオプションを管理できます。
 
@@ -1950,19 +2002,19 @@ Microsoft Teams コネクターで Learning Manager と Microsoft Teams のシ�
 
 ユーザー完了の自動同期プロセスにより、Learning Manager の管理者は Teams ミーティングの完了記録および記録用 URL を自動で取得できます。
 
-詳しくは、「  [**Learning Manager AdobeにMicrosoft Teamsコネクタをインストールする**](install-microsoft-teams-connector.md).
+詳しくは、「  [**Adobe Learning ManagerでのMicrosoft Teamsコネクタのインストール**](install-microsoft-teams-connector.md).
 
 ## トレーニングデータアクセス
 
 
 >[!IMPORTANT]
 >
->この機能は、AdobeのLearning ManagerがAdobe Experience Managerのアドオンとして販売されている場合にのみ使用できます。 コースデータは24時間で古くなります。
+>この機能は、Adobe Learning ManagerがAdobe Experience Managerのアドオンとして販売されている場合にのみ使用できます。 コースデータは24時間で古くなります。
 
 
 >[!NOTE]
 >
->このセクションでは、インフラストラクチャの仕組みを説明していますが、ヘッドレスまたはAEMベースのログインなしのエクスペリエンスを構築する場合は、お問い合わせください。 お客様のご利用に適したアプローチの基礎を提案します。 この機能は現在、セルフサービスでは使用できません。
+>このセクションでは、インフラストラクチャの仕組みを説明していますが、ヘッドレスまたはAEMベースのログインなしのエクスペリエンスを構築する場合は、お問い合わせください。 お客様のご利用に適したアプローチの基礎を提案します。 この機能は現在、セルフサービスとしては使用できません。
 
 
 トレーニングデータアクセスコネクタにより、AEM Sitesベースのカスタムユーザーインターフェイスでトレーニング情報を取得して受講者に提示することができ、簡単かつ迅速に検索することができます。
@@ -2020,7 +2072,7 @@ Microsoft Teams コネクターで Learning Manager と Microsoft Teams のシ�
 
 >[!NOTE]
 >
->この機能は、AdobeのLearning ManagerがAdobe Experience Managerのアドオンとして販売されている場合にのみ使用できます。
+>この機能は、Adobe Learning ManagerがAdobe Experience Managerのアドオンとして販売されている場合にのみ使用できます。
 
 >[!NOTE]
 >
@@ -2038,8 +2090,8 @@ Adobe Commerceは、B2B と B2C の両方の顧客に向けたマルチチャネ
 
 **前提条件**
 
-1. 有効にする  [RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html) または他のメッセージングブローカーです。
-1. 有効にする  [CRON](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner).
+1. RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html) またはその他のメッセージングブローカーを有効にします[。
+1. CRON を有効にします[](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner)。
 1. 手順 1 と 2 では、次のファイルを編集します。
 
    1. .magento.app.yaml
@@ -2049,7 +2101,7 @@ Adobe Commerceは、B2B と B2C の両方の顧客に向けたマルチチャネ
 1. カスタムモジュールでオプション制限を上書きします。 これはオプションの手順ですが、大規模なデータセットの場合はこの手順を強くお勧めします。
 1. ページですべての非同期 API を有効にします。 大量のデータが存在する可能性があるため、書き出しは非同期で行われます。 Adobe CommerceのAPIは、リクエストペイロードが送信されるときに呼び出されます。 このリクエストはメッセージをキューにプッシュします。このキューにはコンシューマーがいます。コンシューマーはこれらのメッセージを処理し、コマース側で製品を作成します。 Adobe Commerceでは、この非同期処理はデフォルトでは提供されません。 そのため、このオプションを有効にする必要があります。
 1. 支払い成功ページに、ALM に戻るリンクを追加します。 この戻り URL はAdobe Commerceで設定する必要があります。 リンクに使用するURL。-  `https://learningmanager.adobe.com/app/learner#/postPayment`
-1. インデックスを「保存時」から「スケジュール」に変更します。  詳しくは、こちらを参照してください。  [KB](https://support.magento.com/hc/en-us/articles/360040227191).
+1. インデックス作成を「保存時」から「スケジュール済み」に変更します。  詳しくは、こちらを参照してください。  [KB](https://support.magento.com/hc/en-us/articles/360040227191).
 1. 次のパッチを適用します。 詳しくは、「  [パッチの適用](https://devdocs.magento.com/cloud/project/project-patch.html).
 1. Fastlyの設定。  Fastlyは、クラウドインフラストラクチャ上のAdobe Commerceに必要で、ステージング環境や本番環境で使用されます。 詳しくは、[「Fastly の設定」](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)を参照してください。
 
@@ -2060,7 +2112,7 @@ Adobe Commerceは、B2B と B2C の両方の顧客に向けたマルチチャネ
 設定ページで、次の詳細を入力します。これらの詳細（認証キー）は、Adobe Commerce で確認できます。Adobe Commerceで統合を作成すると、資格情報を使用できるようになります。
 
 ![](assets/adobe-commerce-configuration.png)
-*Adobe Commerceコネクタを設定*
+*Adobe Commerce Connector の設定*
 
 Adobe Commerceコネクタ接続が有効になると、作成者はコース、学習パス、または証明書の価格を設定できます。
 
@@ -2083,7 +2135,7 @@ Adobe Commerceでデータが同期されるまで、コースまたは学習パ
 
 >[!NOTE]
 >
->2024年3月リリースのAdobe Learning Managerでは、以下のサポートが導入されました [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+>Adobe Learning Managerの2024年3月リリースでは、 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. クリック **[!UICONTROL トレーニングメタデータの書き出し]** > **[!UICONTROL オンデマンド]**.
@@ -2104,7 +2156,7 @@ ALM Native または AEM からコース、資格認定、学習パスを購入�
 
 また、Adobe Commerceからの電子メールを有効または無効にすることもできます。
 
-### Adobe Commerceを使用したAEMサイト
+### Adobe Commerce を使用した AEM サイト
 
 「AEMサイトを使用してカスタム作成」オプションが有効になっている場合、学習者はカスタム作成のAEMサイトからコースを購入できます。
 
@@ -2118,7 +2170,7 @@ Native Learning Manager と同様に、ログインした後、コースをカ�
 
 #### 前提条件
 
-管理者はチェックボックスを有効にします。 **トレーニングの価格を有効にする**、インチ **設定/一般** 」をクリックします。 このオプションを有効にすると、作成者はトレーニングの価格を指定できます。 Adobe Commerce接続を追加すると、このチェックボックスが自動的にオンになり、強制されます。
+管理者は、管理者アプリの [設定] > [**一般] で**[トレーニング&#x200B;**の価格を有効にする] チェックボックス**&#x200B;を有効にします。このオプションが有効になっている場合、作成者はトレーニングの価格を指定できます。 Adobe Commerce接続を追加すると、このチェックボックスが自動的にオンになり、強制されます。
 
 Adobeラーニングマネージャーは、e コマースによるトレーニングの売買をサポートします。 ここで、ユーザーは自分の製品のアップセルとクロスセルを促進するためのトレーニングを販売することができます。
 
@@ -2126,7 +2178,7 @@ Adobe Commerceの統合により、Adobeラーニングマネージャーはト�
 
 この統合の主な目的は次のとおりです。
 
-* AdobeのLearning Managerまたはヘッドレス学習インターフェイスでコースを販売して収益を上げることができます。
+* ユーザーは、Adobe Learning Manager またはヘッドレスラーニングインターフェイスでコースを販売することで収益を上げることができます。
 * Adobe Commerceとプラットフォームの連携を有効にすると、Learning ManagerのネイティブアプリとAEMを使用してコースを販売できます。
 * Learning Managerの顧客が、有料コースの形式で公式学習を提供できるようにします。
 * 学習者は、トレーニングの購入を決定する前にコースをプレビューできます。
@@ -2146,7 +2198,7 @@ Adobe Commerceの統合により、Adobeラーニングマネージャーはト�
 
 このモードでは、学習者は、AEMベースのテンプレートとコンポーネントを使用して構築されたAEMベースのサイトからコースを受講します。
 
-AEMサイトでは、学習者はショッピングカート、「カートに追加」ボタン、ショッピングカートからのコースの削除などをサポートしています。
+AEM サイトでは、学習者はショッピングカート、カートに追加ボタン、ショッピングカートからのコースの削除などをサポートします。
 
 ログインしていなくても、コースカタログの検索やコースの詳細の表示は可能ですが、コースを購入することはできません。 学習者がコースを購入するには、ログインする必要があります。
 
