@@ -4,10 +4,10 @@ jcr-language: en_us
 title: コースモジュール、インスタンスおよび学習プログラムの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Excel ファイルには、各インスタンスのワークシートが含ま�
 ![](assets/escalation-notification.png)
 
 *エスカレーションレベルを設定*
+
+## キャンセル待ち
+
+キャンセル待ちセクションでは、登録順序に基づいて、席が制限されている教室コースに学習者をキャンセル待ちにできます。 管理者は、キャンセル待ちの学習者を選択し、最初の制限を超えて席を割り当てることで、この問題を管理できます。 管理者がシートを割り当てると、学習者は直ちにコースに登録されます。
+
+## 掲示板
+
+ディスカッションボード機能を使用すると、学習者はコースディスカッションを表示できます。 管理者は、必要に応じてコメントを削除することができます。 管理者は、コース設定でこのオプションを有効にできます。
 
 ## コースのモデレート {#coursemoderation}
 

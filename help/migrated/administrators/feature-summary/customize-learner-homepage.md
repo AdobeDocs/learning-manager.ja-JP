@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 学習者ホームページのカスタマイズ
 description: 管理者は、学習者に合わせた、コンテンツ重視の現代的なホームページになるよう、学習者ホームページをカスタマイズすることができます。
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 46%
 
 ---
-
-
 
 # 学習者ホームページのカスタマイズ
 
@@ -85,7 +84,7 @@ ht-degree: 46%
 
 ![](assets/option-immersive.png)
 
-*クラシックエクスペリエンスの選択*
+*学習者ホームページ設定*
 
 没入型レイアウトは、すべての新しいアカウントのデフォルトです。 レイアウトは、管理者が有効または無効にできるウィジェットによって制御されます。 ウィジェットの配置方法に基づいて、ウィジェットが学習者ホームページに反映されます。
 
@@ -244,7 +243,7 @@ ht-degree: 46%
    <td>
     <p>カスタマイズ</p></td>
    <td>
-    <p>AdobeのLearning Managerでは、アカウントをカスタマイズして、ユーザーエクスペリエンスを拡張することができます。<br></p></td>
+    <p>Adobe Learning Managerでは、アカウントをカスタマイズして、ユーザーエクスペリエンスを拡張できます。<br></p></td>
   </tr>
   <tr>
    <td>

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # 新機能の概要 {#new-features-summary}
 
 Adobe Learning Managerの2024年3月リリースの新機能と機能強化について説明します。
+
+次のようなAdobe Learning Managerの最新機能を利用できます。
+
+1. 外部ソースからのスキルの読み込み
+1. 複数のブランディングのサポート
+1. チェックリスト再評価アクティビティモジュール
+1. ホワイトラベルのモバイル学習アプリ
+
+>[!NOTE]
+>
+>こちらをご覧ください [ウェビナー](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) このリリースの新機能について詳しくは、こちらを参照してください。
+
 
 ## このリリースの最新情報 {#whatsnewandchanged}
 
@@ -86,7 +98,7 @@ L1フィードバックページで、コースの登録数が多い場合、学
 
 ### 管理者 – 資格認定ページ
 
-現在のバージョンのLearning Manager Adobeでは、資格認定に登録されているユーザーの数が多い場合、 **ステータス** ドロップダウンが無効になっています。
+現在のバージョンのAdobe Learning Managerで、資格認定に登録されているユーザーの数が多い場合、 **ステータス** ドロップダウンが無効になっています。
 
 Adobe Learning Managerのこのリリースでは、登録済みユーザーの数が多い場合、 **ステータス** ドロップダウンには2つのオプションのみが表示されます。 **登録済み** および **登録解除**. オプション **登録済み** はデフォルトで選択されています。 次を選択した場合 **登録解除**&#x200B;に登録されていない学習者のリストが表示されます。
 
