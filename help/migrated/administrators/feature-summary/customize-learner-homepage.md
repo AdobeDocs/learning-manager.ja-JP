@@ -4,9 +4,9 @@ title: 学習者ホームページのカスタマイズ
 description: 管理者は、学習者に合わせた、コンテンツ重視の現代的なホームページになるよう、学習者ホームページをカスタマイズすることができます。
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 46%
 
 ---
@@ -137,6 +137,12 @@ ht-degree: 46%
   </tr>
   <tr>
    <td>
+    <p>期限が表示されている登録</p></td>
+   <td>
+    <p>期限切れ、期限切れ予定、または進行中の登録を表示します。 </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>ゲーミフィケーション</p></td>
    <td>
     <p>学習アクティビティに基づいてリーダーボードを表示します。</p></td>
@@ -159,24 +165,24 @@ ht-degree: 46%
       <p>管理者は、推奨がすぐ開始されるか、指定した日付に開始されるかを決定することもできます。</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>関心領域に基づく推奨事項</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>学習者が選択した関心領域に基づいて、学習目標を表示します。 推奨は、機械学習アルゴリズムによって行われます。</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>カタログ別に参照<br></p></td>
    <td>
     <p>カタログをタイルとしてホームページに表示します。 </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>ピアアクティビティに基づく推奨事項<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>学習者のピアが受講している内容に基づいてトレーニングを表示します。 これは、機械学習アルゴリズムによって再度駆動されます。</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ ht-degree: 46%
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>新しいアカウントでは、学習者ホームページ、トレーニングの種類、推奨事項の範囲設定は表示されません。
+
