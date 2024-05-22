@@ -4,10 +4,10 @@ title: Adobe Learning ManagerでのAPIの廃止
 description: Adobe Learning ManagerのAPIの進化に伴い、APIは定期的に再編成またはアップグレードされます。 APIが進化すると、古いAPIは廃止され、最終的に削除されます。 このページでは、非推奨のAPIバージョンから新しく安定したバージョンに移行する際に知っておく必要がある情報を記載しています。
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
+source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 32%
 
 ---
 
@@ -59,15 +59,13 @@ The following table lists the rate and burst limits for the APIs.
 
 さらにレコードを取得する必要がある場合は、 **GETジョブ** API。
 
-オフセット制限の変更は、すべての新規顧客に適用されます。 既存のお客様には、90日間のルールが適用されます。
+<!--### Exclude paths 
 
-### パスを除外
+At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
-現在、Learning Manager APIはグラフデータ構造に従っているため、インクルードを介してAPIモデルを走査することでデータを取得できます。 最大7つのレベルのAPIをトラバースできますが、単一のAPI呼び出しを使用したデータの取得は計算上、高コストです。
+We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-既存および新規のお客様は、1回の大電話ではなく、何度も少額電話をかけることをお勧めします。 この方法では、不要なデータがコールにロードされるのを防ぐことができます。
-
-新しいアカウントではこれらの制限を適用し、既存のアカウントのホワイトリストを保持します。
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
 
 #### 非推奨のパス
 
@@ -99,17 +97,17 @@ The following table lists the rate and burst limits for the APIs.
    * 新しいパス：
       * instance.subLoInstances
 
-### インスタンスのサマリ数の変更
+<!--### Instance summary count changes 
 
-現在、LOサマリーエンドポイントでは、使用可能なすべてのインスタンスの数を取得します。 例えば、コースの場合、次の回答の登録数とキャンセル待ちの数を表示できます **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. 次に、応答のcompletionCountとenrollmentCountを表示できます。 コースがVCまたは教室の場合は、人数制限とキャンセル待ちの制限も表示できます。
+Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
-完了数と登録数を取得するプロセスは計算上コストがかかるため、リクエストに基づいて計算が実行されます。 キャッシュにデータが存在しない場合、データは再ロードされ、計算処理が集中します。 コースに多数のユーザーが登録されている場合、カウントは大きくなり、CPUのパフォーマンスに実質的な影響を与えます。
+The process of retrieving the completion and enrollment counts is computationally expensive, therefore the calculation is done on a request basis. If the data is not present in the cache, the data is reloaded, which is computationally intensive. If there are many users enrolling in a course, the counts will be large, and effectively impacts CPU performance. 
 
-Adobe Learning Managerの次のリリースでは、LOインスタンスの概要エンドポイントに、completionCount、enrollmentCount、seatLimit、およびwaitlistCountがキャッシュされます。 キャッシュされた情報は、登録または登録解除に変更が加えられるまで保持されます。 登録数が1000を超えた場合は、見積もり数を想定し、既存および新規のすべてのアカウントの結果を無効にします。
+In the next release of Adobe Learning Manager, in the LO Instance summary endpoint, the completionCount, enrollmentCount, seatLimit, and waitlistCount are cached. The cached information persists till there are changes in enrollments or unenrollments. For counts exceeding 1000 enrollments, we'll assume the estimated counts, and invalidate the results for all existing and new accounts.
 
 >[!NOTE]
 >
->completionCount、enrollmentCount、seatLimit、waitlistCount exceeding1000などのカウントの場合は、キャッシュから取得されるため、正確な数値ではなく推定値として解釈することをお勧めします。
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
 
 ### 名前で並べ替え
 
