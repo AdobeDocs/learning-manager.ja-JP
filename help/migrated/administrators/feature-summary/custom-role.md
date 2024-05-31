@@ -4,7 +4,7 @@ title: カスタム役割
 description: 学習パス機能を使用すると、カスタムの役割を定義し、特定の責任を一連のユーザーに割り当てることができます。 この機能を使用すると、個人の既存の役割の範囲外の責任を割り当てることができます。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 63%
@@ -224,7 +224,7 @@ ht-degree: 63%
 
 1. **ユーザー：** この役割を割り当てるユーザーを決定するには、このオプションを使用します。 検索ボックスを使用して、1人以上のユーザーを選択することができます。
 
-   **カスタム役割のCSVアップロードにユーザーを追加：** CSV更新によってユーザーを追加するには、管理者がユーザーを読み込むために使用した.csvファイルにCustomRole列を追加します。 カスタムの役割を割り当てるユーザーのCustomRole列にユーザーの役割を入力します。 CSVファイルをアップロードするには、  **[!UICONTROL 追加/CSVをアップロード]**.
+   **カスタム役割のCSVアップロードにユーザーを追加：** CSVアップロードでユーザーを追加するには、管理者がユーザーを読み込むために使用した.csvファイルにCustomRole列を追加します。 カスタムの役割を割り当てるユーザーのCustomRole列に、ユーザーの役割を入力します。 CSVファイルをアップロードするには、  **[!UICONTROL 追加/CSVをアップロード]**.
 
    CustomRole columnNote:
 
