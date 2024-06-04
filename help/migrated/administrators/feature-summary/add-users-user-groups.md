@@ -4,9 +4,9 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '4016'
+source-wordcount: '4050'
 ht-degree: 61%
 
 ---
@@ -78,6 +78,14 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 1. 新しいユーザーを Learning Manager で追加するには、**[!UICONTROL 「追加」]**&#x200B;をクリックします。ユーザーが追加されると、ユーザーは確認メールを受け取ります。続いて学習者はアカウントを有効化し、Learning Manager の使用を開始します。このワークフローは、限られた数の学習者をLearning Managerアカウントに追加する必要がある場合に便利です。 ただし、大規模な組織のすべての従業員を登録することを計画している場合は、1 回の試行で追加できます。詳細については、次のセクションを参照してください。
 
 ## ユーザーの一括追加 {#addusersinbulk}
+
+### ユーザーの管理
+
+このトレーニングでは、役割の割り当てと削除、ようこそ電子メールの送信、ユーザーの削除と消去を行う方法について説明します。
+
+[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
 
 通常、ほとんどの組織は人材管理システム（HRMS）を使用します。これにより、職位、勤務地、入社日、従業員の階層など、すべての従業員レコードが保持されます。このデータを CSV 形式で書き出しすることができます。CSV を読み込むには、以下の手順を実行します。
 
