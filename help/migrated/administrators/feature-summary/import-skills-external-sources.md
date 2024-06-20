@@ -4,9 +4,9 @@ title: 外部ソースからのスキルの読み込み
 description: それぞれのコネクタを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。  読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### デフォルトのコーススキルと単位
 
-スキルを読み込むと、スキルソースとして選択されたソースから読み込まれた学習リソースに追加されます。 例えば、スキルソースがLinkedIn Learningの場合、LinkedIn Learningから読み込まれたすべてのラーニングリソースに、ソースで提供されたスキルが適用されます。 各学習リソースに読み込むと、デフォルトの10クレジットが付与されます。 これを変更する場合は、CSMにお問い合わせください。
+スキルを読み込むと、スキルソースとして選択されたソースから読み込まれた学習リソースに追加されます。 例えば、スキルソースがLinkedIn Learningの場合、LinkedIn Learningから読み込まれたすべてのラーニングリソースに、ソースで提供されたスキルが適用されます。 各学習リソースに読み込むと、デフォルトの10クレジットが付与されます。
 
 #### 報告
 
