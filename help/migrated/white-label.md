@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -307,16 +307,31 @@ Android版とiOS版はどちらも、デバイスにプッシュ通知を送信�
 
 ### Androidでのプッシュ通知
 
-Firebaseでプロジェクトを設定し、CSAMとサーバーキーを共有します。
+Androidの場合、ユーザーはFirebaseプロジェクトからservices.jsonファイルを提供して、SNSサービスにエントリを追加する必要があります。
 
-CSMチームに問い合わせて、AWSのSNSサービスに追加されたファイルを取得します。 ユーザーは、プッシュ通知のためにSNSサービスに登録されたエントリを取得する必要があります。これにより、上記で生成された証明書を検証のために共有することが求められます。
+Firebaseでプロジェクトを作成し、 services.jsonファイルをCSMチームと共有します。 このファイルは、SNSのトークンベースのエントリに必要です。 サーバーキーはもう使用されていないことに注意してください。 詳しくはこちら [Firebaseでのプロジェクトの作成](#create-project-in-firebase).
 
->[!NOTE]
->
->Androidの場合、ユーザーはSNSサービスにエントリを追加するために、Android用に作成したFirebaseプロジェクトからサーバーキーを提供する必要があります。
+services.jsonファイルをダウンロードするには、次の手順に従います。
 
+1. にログイン **Firebase** コンソール。
+1. に移動 **プロジェクト設定** を選択します **クラウドメッセージ**.
+1. 検索 **Firebase Cloud Messaging API** を選択します **サービスアカウントの管理**.
+1. を **サービス回数** ページで、 **サービスアカウント** をクリックします。
+1. プロジェクトのエントリを検索し、 **詳細を管理** 「アクション」の下で
 
-## Firebaseでのプロジェクトの作成
+   >[!NOTE]
+   >
+   >   プロジェクトエントリの形式は、&lt;-accountname->@appspot.gserviceaccount.comになります。
+
+1. に移動 **キー** tabキーを押しながら選択 **キーを追加**.
+1. キーがない場合は、 **新しいキーを作成** を選択します **JSON** をキーのタイプとして使用します。 これにより、JSONファイルが生成およびダウンロードされます。
+1. 既にキーがある場合は、 **既存のキーをアップロード**&#x200B;キーを貼り付けてアップロードします。 これにより、JSONファイルが生成およびダウンロードされます。
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+AWSでSNSサービスにエントリを追加するためのJSONファイルを共有する方法については、CSMチームにお問い合わせください。 ユーザーは、プッシュ通知のためにSNSサービスに登録されたエントリを取得する必要があります。これにより、上記で生成された証明書を検証のために共有することが求められます。
+
+## Firebaseでのプロジェクトの作成 {#create-project-in-firebase}
 
 ### Android
 
