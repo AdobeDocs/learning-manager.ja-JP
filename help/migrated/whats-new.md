@@ -1,16 +1,16 @@
 ---
 description: Adobe Learning Manager の 2024 年 7 月リリースの新機能と機能強化について説明します。
 jcr-language: en_us
-title: このリリースの最新情報
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: 新機能の概要
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 3%
+source-wordcount: '2178'
+ht-degree: 2%
 
 ---
 
 
-# このリリースの最新情報 {#whatsnewandchanged}
+# 新機能の概要 {#new-features-summary}
 
 Adobe Learning Manager の 2024 年 7 月リリースの新機能と機能強化について説明します。
 
@@ -77,7 +77,7 @@ _新しいユーザー インターフェイス_
 
 ### このリリースの変更点
 
-お客様は、プレミアム プランを購入して、この高度にスケーラブルな非ログイン エクスペリエンスを構築できます。 [トレーニングデータアクセス](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)を利用したこのログに記録されないエクスペリエンスでは、Adobe Learning Manager API を使用して、シート制限、占有シート、キャンセル待ちリストの制限、キャンセル待ちリストの数に関するリアルタイムデータを提供します。お客様はこれらの API を使用して、ログインしていない学習者に検索およびフィルター機能と完全なコースの概要を提供できます。
+お客様は、プレミアム プランを購入して、この高度にスケーラブルな非ログイン エクスペリエンスを構築できます。 [トレーニングデータアクセス](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)を利用したこのログに記録されないエクスペリエンスでは、Adobe Learning Manager API を使用して、シート制限、占有シート、キャンセル待ちリストの制限、キャンセル待ちリストの数に関するリアルタイムデータを提供します。お客様はこれらの API を使用して、ログインしていない学習者に検索およびフィルター機能と完全なコースの概要を提供できます。 API について詳しくは、この記事 [非ログイン API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) を参照してください。
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 ## Adobe Learning Manager の過去のリリース
 
 * [2024 年 3 月リリース](/help/migrated/whats-new-march-2024.md)
-* [2024 年 11 月リリース](/help/migrated/whats-new-november-2023.md)
+* [2023 年 11 月リリース](/help/migrated/whats-new-november-2023.md)
