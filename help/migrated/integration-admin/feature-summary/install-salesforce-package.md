@@ -4,9 +4,9 @@ title: Salesforce パッケージのインストール
 description: ラーニングマネージャーは Salesforce アプリケーションパッケージを提供しています。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 ユーザーは、SFDCポータル内のアプリ内でマストヘッドの形式で管理者から送信されたお知らせも受け取ります。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 47%
 1. Salesforce コンソールで **[!UICONTROL 設定]** > **[!UICONTROL クイック検索]**&#x200B;に移動します。
 1. **[!UICONTROL 信頼できる URL]** を検索し、**[!UICONTROL 新しい信頼できる URL]** を選択します。
 1. [ **[!UICONTROL API 名]** フィールドに名前を入力します。
-1. URL を `{}.adobe.com{*}` として追加します。
+1. [URL] フィールドに `*.adobe.com` と入力します。
 1. [ **CSP ディレクティブ** のすべてのチェックボックスをオンにして、変更を保存します。
 1. Salesforce アプリケーションの更新トークンを編集して保存します。
 1. Salesforce アプリケーションを再起動します。
