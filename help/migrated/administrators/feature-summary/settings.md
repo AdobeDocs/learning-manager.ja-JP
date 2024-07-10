@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 65%
+source-wordcount: '3836'
+ht-degree: 66%
 
 ---
 
@@ -483,24 +483,6 @@ Testout\
 教室\
 バーチャルクラスルーム\
 アクティビティ
-
-これらの学習オブジェクトの名前を変更するには、以下の手順を実行します。
-
-1. 管理者として、次をクリックします。 **[!UICONTROL 設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 製品用語]**. 製品用語オプションが開きます。
-
-   ![](assets/product-terminology.png)
-
-   *製品用語の名前の変更*
-
-1. 変更を行うには、サンプルのCSVファイルをダウンロードして、変更した製品用語テンプレートをアップロードします。 サンプルのCSVファイルをダウンロードするには、 **[!UICONTROL こちらからダウンロード]** オプションです。
-1. ダウンロードしたCSVファイルには、列Aのオブジェクトの名前が含まれています。列Bで、各オブジェクトに割り当てる名前を選択します。 単数形と複数形を区別する必要がある言語の場合、単数形と複数形が「|」で区切られているため、両方の用語を変更してください。
-1. 1つまたは複数の行を変更できます。 また、いずれの行も変更せずに CSV ファイルをアップロードすることも、不要な行を削除してから CSV ファイルをアップロードすることもできます。
-1. 変更したCSVファイルをアップロードし、 **[!UICONTROL 保存]**. Learning Manager が更新され、変更内容が反映されます。
-1. 既定の用語にリセットするには、をクリックします **[!UICONTROL 製品用語のリセット]**.
-
-   ![](assets/with-reset-option.png)
-
-   *製品用語のリセット*
 
 ## プロファイル設定 {#profilesettings}
 

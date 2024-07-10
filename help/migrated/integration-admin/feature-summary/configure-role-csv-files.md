@@ -4,10 +4,10 @@ title: CSV ファイルを使用したカスタムの役割の管理
 description: 統合管理者は CSV を使用して、複数のカスタムの役割を自分のアカウントにまとめて追加することも、複数のユーザーにカスタムの役割を割り当てることもできます。この方法はカスタムの役割を作成するプロセスを自動化します。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 83%
 
 Boxストレージアカウントにログインした後、統合管理者は次のcsvをアカウントに追加できます。
 
+* user.csv
 * role.csv
 * user_role.csv
 
 操作を開始するには、csv をダウンロードして、必要に応じて値を変更します。
 
-**role.csv**
 * サンプルファイル: [role.csv](assets/role.csv)
 * サンプルファイル: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ CSV にカタログ名やユーザーグループ名を指定すると、これ�
 
 Box アカウントを使用して、**Import > user > internal** を選択し、files- role.csv と user_role.csv をアップロードします。
 
-* カスタム役割のCSVは、「import->user->internal->user_role」フォルダーにコピーする必要があります
-* ユーザーCSVは、「読み込み – >ユーザー – >内部」フォルダーにコピーする必要があります。
+* role.csvとuser_role.csvをフォルダーにコピーする必要があります **読み込み** > **user** > **内部** > **user_role**.
+* user.csvをフォルダーにコピーする必要があります **読み込み** > **user** > **内部**.
 
-どちらの CSV も Box または FTP のみを使用してアップロードする必要があります。UI を使用してアップロードすることはできません。
+両方のCSVはBox経由でのみアップロードする必要があり、UIを介してアップロードすることはできません。
 
 >[!NOTE]
 >
