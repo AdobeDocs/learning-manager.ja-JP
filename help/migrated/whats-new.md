@@ -1,144 +1,145 @@
 ---
-description: Adobe Learning Manager の 2024 年 7 月リリースの新機能と機能強化について説明します。
+description: Adobe Learning Managerの2024年7月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: 新機能の概要
-source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
+source-git-commit: b27bacab34c39dc99f72ff77819b89e16aca2d5f
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 2%
+source-wordcount: '2240'
+ht-degree: 3%
 
 ---
 
 
 # 新機能の概要 {#new-features-summary}
 
-Adobe Learning Manager の 2024 年 7 月リリースの新機能と機能強化について説明します。
+Adobe Learning Managerの2024年7月リリースの新機能と強化機能について説明します。
 
-## コンプライアンスダッシュボードの機能強化
+## 準拠ダッシュボードの機能強化
 
-### コンプライアンスダッシュボードとは何ですか? {#whatiscompliancedashboard}
+### 準拠ダッシュボードとは {#whatiscompliancedashboard}
 
-**Adobe Learning Manager**&#x200B;の&#x200B;**[!UICONTROL コンプライアンスダッシュボード]**&#x200B;を使用すると、マネージャーは学習者の学習目標に対する進捗状況を監視および監視できます。チームメンバーが締め切りを守り、学習プロセスに遅れずについていくかどうかを確認できるため、コンプライアンスを確保できます。 管理者はコンプライアンスダッシュボードを設定し、マネージャーと共有できます。
+**Adobe Learning Manager**&#x200B;の&#x200B;**[!UICONTROL 準拠ダッシュボード]**&#x200B;を使用すると、マネージャーは学習目標に対する学習者の進捗状況をモニターおよびモニターできます。 チームメンバーが期日を守り、学習プロセスを遅らせないかを確認できるため、コンプライアンスの確保に役立ちます。 管理者は、準拠ダッシュボードを設定し、マネージャーと共有できます。
 
-管理アプリのコンプライアンスダッシュボードにアクセスするには、 **[!UICONTROL レポート]** > **[!UICONTROL ラーニングの概要]** > **[!UICONTROL コンプライアンスダッシュボード]**&#x200B;を選択します。
+管理者アプリで準拠ダッシュボードにアクセスするには、**[!UICONTROL レポート]** > **[!UICONTROL 学習の概要]** > **[!UICONTROL 準拠ダッシュボード]**&#x200B;を選択します。
 
-### このリリースの変更点
+### リリースの変更点
 
-強化されたコンプライアンス ダッシュボードを使用すると、管理者とマネージャーは、特定のカテゴリ (営業、マーケティング、法務など) に関連するコンプライアンス タイプのコース、ラーニング パス、または認定を表示できます。 管理者は、カスタムコンプライアンスコースを特定のカテゴリに分類できます。 カスタムコンプライアンスカテゴリは、カタログラベルを利用しています。  管理者はコースダッシュボードを作成し、マネージャと共有できます。 マネージャーは、それぞれのインスタンスで同じダッシュボードを表示できます。 コンプライアンスダッシュボードのユーザーインターフェイスとコンプライアンス電子メール通知も強化されました。![](assets/compliance-dashboard-admin.png)
+拡張された準拠ダッシュボードでは、管理者とマネージャーは、特定のカテゴリ（販売、マーケティング、法務など）に関連する準拠タイプのコース、学習パス、または資格認定を表示できます。 管理者は、カスタムコンプライアンスコースを特定のカテゴリに分類できます。 カスタム準拠カテゴリは、カタログラベルを利用しています。  管理者は、コースダッシュボードを作成し、それをマネージャーと共有できます。 マネージャーは、それぞれのインスタンスで同じダッシュボードを表示できます。 準拠ダッシュボードのユーザーインターフェイスと準拠メール通知も強化されました。
+![](assets/compliance-dashboard-admin.png)
 
 #### ワークフロー
 
-拡張コンプライアンスダッシュボードを使用する手順は次のとおりです。
+強化された準拠ダッシュボードを使用する手順は次のとおりです。
 
 | 役割 | タスク | 追加情報 |
 |---|---|---|
-| 管理者 | カスタムコンプライアンスラベルの作成 | 詳細については、この記事 [カスタムコンプライアンスラベルの作成](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) を参照してください |
-| 作成者 | これらのラベルをコースに追加する | 詳細については、この記事 [コース/ラーニング パス/認定資格にコンプライアンス ラベルを追加する](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) を参照してください。 |
-| 管理者 | コンプライアンスコースを含むダッシュボードを作成し、マネージャーと共有する | 詳細については、この記事 [コンプライアンスダッシュボードの作成と共有](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) を参照してください。 |
-| マネージャー | コンプライアンスダッシュボードを表示する | 詳細については、この記事 [コンプライアンス状況](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) を参照してください |
+| 管理者 | カスタム準拠ラベルの作成 | 詳細については、この記事[カスタム準拠ラベルの作成](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard)を参照してください |
+| 作成者 | これらのラベルをコースに追加する | 詳細については、この記事[コース/学習パス/資格認定に準拠ラベルを追加](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)を参照してください。 |
+| 管理者 | 準拠コースのダッシュボードを作成し、マネージャーと共有する | 詳細については、この記事[準拠ダッシュボードの作成と共有](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard)を参照してください。 |
+| マネージャー | 準拠ダッシュボードを表示 | 詳細については、この記事[コンプライアンスステータス](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status)を参照してください |
 
-## 学習者のユーザーインターフェイスの刷新
+## 学習者ユーザーインターフェイスの改良
 
 >[!IMPORTANT]
 >
->新しい学習者 UI は段階的にリリースされます。
+>新しい学習者UIは、段階的にリリースされます。
 
-**学習者UI**&#x200B;は、よりエレガントでモダンなデザインに更新されました。**[!UICONTROL 学習者ホーム]**、**[!UICONTROL マイラーニング]**、**[!UICONTROL カタログ]**、および&#x200B;**[!UICONTROL コースの概要]**&#x200B;のランディングページは、新しくモダンな外観になっています。コースカードには、詳細を現代的な方法で表示するための新しいデザインもあります。 コースカードにカーソルを合わせると、コースの説明と公開日が表示されます。
+**学習者UI**&#x200B;が更新され、よりエレガントで現代的なデザインになりました。 **[!UICONTROL 学習者ホーム]**、**[!UICONTROL 学習状況]**、**[!UICONTROL カタログ]**、および&#x200B;**[!UICONTROL コースの概要]**&#x200B;のランディングページが新しくモダンな外観になりました。 コースカードには、ディテールをモダンな方法で表示する新しいデザインも用意されています。 コースカードの上にマウスを置くと、コースの説明と公開日が表示されます。
 
 >[!NOTE]
 >
->改良されたユーザーインターフェイスは、没入型レイアウトにのみ適用されます。 これらの変更は、モバイルウェブやアプリではまだサポートされておらず、今後のリリースで更新される予定です。
+>改善されたユーザーインターフェイスは、没入型レイアウトにのみ適用されます。 これらの変更はモバイルwebまたはアプリではまだサポートされていません。今後のリリースで更新される予定です。
 
 ![](assets/old-ui.png)
-_古いユーザー インターフェイス_
+_古いユーザーインターフェイス_
 
 ![](assets/new-ui.png)
-_新しいユーザー インターフェイス_
+_新しいユーザーインターフェイス_
 
 ### このリリースの変更点
 
-**ルックアンドフィールのモダナイゼーション**
+**ルック&amp;フィールの最新化**
 
-新しく更新されたビジュアル要素は、現代のデザイントレンドに合わせており、製品を直感的で魅力的に見せています。 これには、新しいマストヘッド、サイドパネル、およびモダンな外観のウィジェットが含まれます。
+新しく刷新された視覚要素は、最新のデザイントレンドに合わせて、直感的で魅力的な製品に見えます。 これには、新しいマストヘッド、サイドパネル、最新の外観のウィジェットが含まれます。
 
-**ユーザー操作の向上**
+**強化されたユーザーエクスペリエンス**
 
-学習者は、ホームページ、カタログ、マイラーニング、およびコースの概要ページで同様のカードビューを表示して、統一されたエクスペリエンスを提供します。
+学習者は、ホームページ、カタログ、学習状況、コース概要の各ページで同様のカード表示が表示されるようになり、統一されたエクスペリエンスを実現しています。
 
-詳細については [学習者のホームページ](/help/migrated/learners/feature-summary/learner-home-page.md) を参照してください。
+詳細については、[学習者のホームページ](/help/migrated/learners/feature-summary/learner-home-page.md)を参照してください。
 
-**コース公開日の変更**
+**コースの公開日の変更**
 
-この機能強化により、Adobe Learning Manager に読み込まれた LinkedIn および Go1 コースの公開日が、LinkedIn および Go1 での実際の公開日と同じになります。 LinkedInコースとGo1コースの実際の公開日もユーザーインターフェイスで確認できます。 詳細については [コースカード](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) を参照してください。
+この機能強化により、Adobe Learning Managerに読み込まれるLinkedInコースおよびGo1コースの公開日が、LinkedInとGo1の実際の公開日になります。 linkedInコースおよびGo1コースの実際の公開日をユーザーインターフェイスで確認することもできます。 詳細については、[コースカード](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards)を参照してください。
 
-## ログインしていないエクスペリエンスの更新
+## ログインなしのエクスペリエンスの更新
 
-ログインしていないエクスペリエンスを使用すると、ログインしていない顧客向けのリアルタイム エクスペリエンスを作成できます。 これは、マーケティングキャンペーンのランディングページとして機能し、サインアップを促すのに十分な情報を提供します。
+ログインなしのエクスペリエンスでは、ログインしていないお客様に対してリアルタイムのエクスペリエンスを作成できます。 これはマーケティングキャンペーンのランディングページとして機能し、サインアップを促すのに十分な情報を提供します。
 
 ### このリリースの変更点
 
-お客様は、プレミアム プランを購入して、この高度にスケーラブルな非ログイン エクスペリエンスを構築できます。 [トレーニングデータアクセス](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)を利用したこのログに記録されないエクスペリエンスでは、Adobe Learning Manager API を使用して、シート制限、占有シート、キャンセル待ちリストの制限、キャンセル待ちリストの数に関するリアルタイムデータを提供します。お客様はこれらの API を使用して、ログインしていない学習者に検索およびフィルター機能と完全なコースの概要を提供できます。 API について詳しくは、この記事 [非ログイン API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) を参照してください。
+お客様は、この拡張性の高いログインなしのエクスペリエンスを構築するために、プレミアムプランを購入できます。 [トレーニングデータアクセス](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)を活用したこのログインなしのエクスペリエンスでは、Adobe Learning Manager APIを使用して、人数制限、空席、キャンセル待ちの制限、キャンセル待ちの数に関するリアルタイムデータが提供されます。 お客様は、これらのAPIを使用して、ログインしていない学習者に検索機能とフィルター機能、およびコースの完全な概要を提供できます。 APIの詳細については、この記事[ログインしていないAPI](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md)を参照してください。
 
 >[!NOTE]
 >
->サポートチームまたはCSAMに連絡して、プレミアムプランを購入してください。
+>プレミアムプランを購入するには、サポートチームまたはCSAMにお問い合わせください。
 
-## 複数の在庫管理単位 (SKU) のサポート
+## 複数のStock Keeping Unit(SKU)のサポート
 
-学習者は、複数のコース、学習パス、または認定資格をカートに追加して、それらを一緒に購入できるようになりました。
+学習者は、複数のコース、学習パス、または資格認定をカートに追加し、一緒に購入できるようになりました。
+
+### リリースの変更点
+
+以前は、学習者が一度に購入できるコースは1つだけでした。 **Adobe Learning Manager**&#x200B;のこのリリースでは、カートを使用して、複数のコース、学習パス、資格認定を一度に購入できます。
+
+この機能は、学習者アプリ（既存のUI、新しい学習者UI、モバイル没入型アプリ）でのみ使用できます。
+
+[ALMの複数品目カート](/help/migrated/learners/feature-summary/multi-item-cart.md)を表示
+
+## FluidicプレーヤーでのHTML5コンテンツのサポート
+
+**Adobe Learning Manager**&#x200B;では、HTML 5コンテンツを.zipファイルとしてコンテンツライブラリにアップロードできるようになりました。 アップロードしたファイルは、コースにモジュールとして含めることができます。 また、作成者はセルフペースのHTML5モジュールの完了条件を定義し、学習者がマークした完了か、起動時に自動的に完了するようにできます。
 
 ### このリリースの変更点
 
-以前は、学習者は一度に1つのコースしか購入できませんでした。 このリリースの **Adobe Learning Manager**&#x200B;では、カートを使用して複数のコース、ラーニングパスまたは認定資格を一度に購入できます。
+Adobe Learning Managerでは、セルフペースコースでHTML 5がサポートするコンテンツがサポートされるようになりました。 作成者は、HTML 5コンテンツを.zipファイルとしてセルフペースコンテンツに追加できます。 学習者は、FluidicプレーヤーでHTML5コンテンツを表示できます。 この新機能により、学習者はセルフペースコース用にFluidicプレーヤーでコースを完了済みとして直接マークできるようになりました。 詳細については、[コンテンツライブラリのHTML5ファイル形式を追加](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library)を参照してください。
 
-この機能は、学習者アプリ (既存の UI、新しい学習者 UI、モバイル イマーシブ アプリ) でのみ使用できます。
-
-ALMで [マルチアイテムカートを表示](/help/migrated/learners/feature-summary/multi-item-cart.md)
-
-## Fluidic Player での HTML5 コンテンツのサポート
-
-**Adobe Learning Manager** では、HTML5 コンテンツの.zipファイルとしてのコンテンツライブラリへのアップロードがサポートされるようになりました。 アップロードすると、これらのファイルをモジュールとしてコースに含めることができます。 また、作成者は自分のペースで進められる HTML5 モジュールの完了基準を定義して、学習者がマークした完了または起動時に自動的に完了することができます。
-
-### このリリースの変更点
-
-Adobe Learning Manager では、自分のペースで進められるコースで、HTML5 でサポートされているコンテンツがサポートされるようになりました。 作成者は、HTML5 コンテンツを.zipファイルとして、自分のペースで進められるコンテンツに追加できます。 学習者は HTML5 コンテンツを Fluidic Player で表示できます。 新機能により、学習者は自分のペースで進められるコースのFluidic Playerで直接コースを完了としてマークできるようになりました。 詳しくは [コンテンツライブラリに HTML5 ファイルタイプを追加](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) を参照してください。
-
-新しい機能強化により、作成者が新しいオプション **[!UICONTROL コンテンツの起動時]**&#x200B;に完了基準を設定している場合、外部リンクを含むコースはURLにアクセスすると自動的に完了としてマークされます。 新しいオプション **[!UICONTROL 完了基準]** がアクティビティモジュールページに追加され、作成者は外部リンクの完了基準を設定できます。 詳細については、 [アクティビティ モジュールに HTML リンクを追加](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) を参照してください。
+新しい機能強化により、作成者が新しいオプション&#x200B;**[!UICONTROL コンテンツの起動時]**&#x200B;に完了条件を設定している限り、URLにアクセスしたときに、外部リンクを含むコースが自動的に完了としてマークされます。 作成者が外部リンクの完了条件を設定できるアクティビティモジュールページに、新しいオプション&#x200B;**[!UICONTROL 完了条件]**&#x200B;が追加されました。 詳細については、[アクティビティモジュールの[HTMLの追加]リンク](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module)を参照してください。
 
 ![](assets/completion-criteria-activity-module.png)
-_完了基準オプション-アクティビティモジュール_
+_完了条件オプション – アクティビティモジュール_
 
-## モバイルアプリでのコース期限切れプッシュ通知
+## モバイルアプリでコースの期限切れプッシュ通知を送信
 
-学習者は、コースの締め切りに間に合わないたびにプッシュ通知を受け取ります。 この新しい機能強化により、学習者はリマインダーを24時間スヌーズするか、期限切れのリマインダーを受け取るたびに来週リマインダーを受け取るかを選択できるようになりました。 これは、期限超過通知にのみ適用されます。 表示 [プッシュ通知のスケジュール設定](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+学習者は、コースの期日を過ぎると、プッシュ通知を受け取ります。 この新しい機能強化により、学習者はリマインダーを24時間スヌーズするか、期限切れになった各リマインダーについて来週リマインダーを受け取ることができます。 これは、期限が過ぎている通知にのみ適用されます。 表示[プッシュ通知のスケジュール](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## このリリースでの API の変更
 
-### 検索 API
+### 検索API
 
-検索 API には、次の変更が含まれています。
+検索APIには、次の変更が含まれています。
 
-学習者は、 ```GET /search``` API を使用してカタログフィルター内のタグを検索できます。 学習者は、パラメータの値として ```tag``` を選択することで、タグ ```filter.loTypes``` 検索できます。
+学習者は、```GET /search``` APIを使用してカタログフィルター内でタグを検索できます。 学習者は、```filter.loTypes```パラメーターの値として```tag```を選択することでタグを検索できます。
 
 **サンプルカール**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-新しいフィルター、利用可能な座席、利用可能な順番待ちリスト、および時間範囲フィルターが、 ```GET /search``` と `GET /learningObjects` API に追加されました。
+新しいフィルター、シートが利用可能、キャンセル待ちが利用可能、時間範囲フィルターが次のAPIに追加されました： ```GET /search```と`GET /learningObjects`。
 
-新しいフィルター `filter.session.includeEnrollmentDeadline` は、次の API ```GET /search```に追加されました。
+新しいフィルター`filter.session.includeEnrollmentDeadline`が次のAPI ```GET /search```に追加されました。
 
-### アカウント API
+### アカウントAPI
 
-ユーザーエンドポイントのアカウントデータを取得するために、```GET /account``` API に新しい列`custom_injections`、`showComplianceLabel`、`complianceLabelDefaultID`が追加されました。
+ユーザーエンドポイントのアカウントデータを取得するために、新しい列`custom_injections`、`showComplianceLabel`、および`complianceLabelDefaultID`が```GET /account``` APIに追加されました。
 
 ### 学習目標 API
 
-このアップデートでラーニングオブジェクト API に加えられた変更点は次のとおりです。
+今回のアップデートで学習目標APIに加えられた変更は次のとおりです。
 
-`GET /learningObjects` API の [`authorDetails`] の下に追加された新しい応答レガシ作成者 ID とその他の詳細。さらに、 `filter.authors`という新しいフィルタが追加され、レガシー作成者とそのコースをフィルタできるようになりました。
+新しい応答の従来の作成者IDとその他の詳細が`GET /learningObjects` APIの`authorDetails`に追加されました。 さらに、従来の作成者とそのコースをフィルターする新しいフィルター`filter.authors`が追加されました。
 
 `effectivenessIndex`という新しい属性は、コースの有効性データを取得するのに役立ちます。
 
@@ -147,33 +148,33 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+--header 'Authorization: oauth <oauth_token>'
 ```
 
-このコースを受講する必要があるユーザーの詳細を示す新しい応答 `whoShouldTake`が、 `POST /learningObjects/query`、 `GET /learningObjects/{id}`、および `GET /learningObjects` API に追加されました。
+このコースを受講する必要があるユーザーの詳細を示す新しい応答`whoShouldTake`が、次のAPIに追加されました： `POST /learningObjects/query`、`GET /learningObjects/{id}`、および`GET /learningObjects`。
 
 **サンプルカール**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
 ```
 
-待機リストの制限に関する詳細を提供する新しい応答 `waitlistLimit`が `GET /learningObjects` API に追加されました。
+キャンセル待ちの制限の詳細を示す新しい応答`waitlistLimit`が`GET /learningObjects` APIに追加されました。
 
-学習オブジェクトの合計数を示す新しい応答 `count` が、API `GET/ learningObjects` と `POST/ learningObjects/query`に追加されました。
+学習目標の合計数を示す新しい応答`count`がAPI `GET/ learningObjects`および`POST/ learningObjects/query`に追加されました。
 
-新しい応答、 `catalogFieldId` 、 `fieldValueId` が API の `catalogLabels` `GET/ learningObjects` に追加されました。
+新しい応答、`catalogFieldId`および`fieldValueId`が、`GET/ learningObjects` APIの`catalogLabels`に追加されました。
 
 学習者は、API `GET /preview/learningObjects`でカタログラベル値を取得できます。
 
-### マーケットプレイス数を取得するための新しい API
+### Marketplaceカウントを取得する新しいAPI
 
-このリリースでは、新しい API `GET /search/marketplace/count` が追加されています。 これは、コンテンツマーケットプレイスで利用可能な学習オブジェクトの数を取得するのに役立ちます。
+このリリースでは、新しいAPI `GET /search/marketplace/count`が追加されました。 これにより、コンテンツマーケットプレイスで利用可能な学習目標をカウントできます。
 
 **サンプルカール**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
 ```
 
 **サンプル応答**
@@ -184,11 +185,11 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 }
 ```
 
-### ラーニングオブジェクトインスタンス API
+### 学習オブジェクトインスタンスAPI
 
-このアップデートでラーニングオブジェクトインスタンス API に加えられた変更点は以下のとおりです。
+今回のアップデートで学習オブジェクトインスタンスAPIに加えられた変更は次のとおりです。
 
-このリリースでは、 `gamificationEnabled` という新しいキーがラーニングオブジェクトインスタンス API `GET /learningObjects/{loId}/instances/{loInstanceId}`に追加されました。
+このリリースでは、`gamificationEnabled`と呼ばれる新しいキーが学習オブジェクトインスタンスAPI `GET /learningObjects/{loId}/instances/{loInstanceId}`に追加されました。
 
 **サンプルカール**
 
@@ -196,7 +197,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-ゲーミフィケーション設定の詳細を取得するための上記のAPIへの新しい `gamificationSettings` 属性。 例: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`。
+ゲーミフィケーション設定の詳細を取得するために、上記のAPIに新しい`gamificationSettings`属性が追加されました。 例： `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`。
 
 **サンプルカール**
 
@@ -204,34 +205,43 @@ curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learning
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-ゲーミフィケーション設定の詳細を取得するための上記のAPIへの新しい `leaderboard` 属性。 例: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`。
+ゲーミフィケーション設定の詳細を取得するために、上記のAPIに新しい`leaderboard`属性が追加されました。 例： `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`。
 
 **サンプルカール**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+--header 'Authorization: oauth <oauth_token>'
 ```
+
+### 日付と – dateのソート動作の変更
+
+日付と – dateによる並べ替えをサポートしているAPIでは、学習パスを除くすべての学習オブジェクトについて、公開日に基づいて結果が表示されます。 学習パスは、**effectiveModified**&#x200B;の日付に基づいて引き続きリストされます。 この変更は、次のAPIで確認できます。
+
+* GET /learningObjects
+* GET /search
+* POST /learningObjects/query
+* POST/検索/クエリ
 
 ### オフセット制限の変更
 
-システムパフォーマンスを向上させ、リソース使用率をより効果的に管理するために、アドビでは、ADMIN スコープと LEARNER スコープの両方で GET /users エンドポイントの高いオフセット値を廃止しました。 ジョブ API を使用して、オフセット値を持つレコードを取得することをお勧めします。
+システムパフォーマンスを向上させ、リソース使用率をより効果的に管理するために、Adobeは、ADMINとLEARNERの両方のスコープのGET/usersエンドポイントの高オフセット値を廃止しました。 ジョブAPIを使用して、オフセット値を持つレコードを取得することをお勧めします。
 
-### 廃止された API
+### 非推奨のAPI
 
-製品 [Adobe Learning Manager での API の廃止](/help/migrated/api-deprecations-list.md) を参照して、製品で廃止されたすべての API の累積リストを確認してください。
+製品で廃止されたすべてのAPIの一覧については、[Adobe Learning ManagerのAPI廃止](/help/migrated/api-deprecations-list.md)を参照してください。
 
-## レポートの変更
+## レポートの変更点
 
 ### 準拠ダッシュボード
 
-このリリースでは、コンプライアンス ダッシュボード レポートに 2 つの新しい列があります。
+このリリースでは、準拠ダッシュボードレポートに2つの新しい列が追加されました。
 
 * ステータス
 * コンプライアンスタイプ
 
-これは、既存の列に追加されます。
+既存の列に加えて、次の操作が行われます。
 
 * ユーザー名
 * ユーザーの電子メール
@@ -244,97 +254,97 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 
 ### トレーニングレポート
 
-**管理者** > **レポート** > **カスタムレポート**&#x200B;および&#x200B;**ジョブAPI**&#x200B;のトレーニングレポートには、以前は&#x200B;**スキル**&#x200B;と&#x200B;**タグ**&#x200B;と呼ばれる列がありました。これらの列の名前が **スキル** と **タグ**&#x200B;に変更されました。
+**管理者** > **レポート** > **カスタムレポート**&#x200B;および&#x200B;**ジョブAPI**&#x200B;のトレーニングレポートには、**スキル**&#x200B;および&#x200B;**タグ**&#x200B;と呼ばれる列がありました。 これらの列の名前が&#x200B;**スキル**&#x200B;と&#x200B;**タグ**&#x200B;に変更されました。
 
 ### コンテンツ監査レポート
 
-このリリースでは、 **[!UICONTROL コンテンツ監査証跡]** レポートに「変更タイプ」列に次の新しい属性が含まれるようになりました。
+このリリースでは、**[!UICONTROL コンテンツ監査追跡]**&#x200B;レポートの[変更の種類]列に次の新しい属性が追加されました。
 
 * ユーザーグループ追加
 * ユーザーグループの削除
-* カスタムラベル 追加
-* カスタムラベル 削除
-* 共有カタログ 追加
-* 共有カタログ 削除
+* カスタムラベルを追加
+* カスタムラベルの削除
+* 共有カタログの追加
+* 共有カタログの削除
 * 共有カタログの更新
 
 ## このアップデートで修正されたバグ
 
-**アクティビティの提出**
+**アクティビティの送信**
 
-* アクティビティ送信モジュールにファイルを再アップロードしようとすると、ネットワーク呼び出しでエラー 500 で失敗します。
+* アクティビティ提出モジュールにファイルを再アップロードしようとすると、ネットワーク呼び出しでエラー500が発生して失敗します。
 
 **API**
 
-* 複数のインストラクターが同じメールアドレスを持っている場合、Connect VCミーティングの作成は失敗します。
-* ラーニング パスに登録すると、MS Teams VC の [概要] ページに誤った URL が表示されます。
-* ジョブ API 応答の一部として指定されたユーザーレポート署名付き URL は、6 時間後に期限切れになります。
-* コースの登録レポートの生成中に、[コース名]列に誤ったコース名が表示されます。
-* 移行ワーカーは、もちろん一括 API を呼び出すときに一意の lo id を送信できませんが、id は削除されます。
-* ユーザーがアクセスできる特定のカタログにコースが含まれている場合(デフォルトのカタログが無効になっている場合)、未登録の学習者がコースを表示できないように設定されていても、learningobject/idエンドポイントを介してコースのメタデータを取得できます。
-* スキル フィルターは、GET /learningObject API でスキル名の名前にコンマが含まれている場合、期待どおりに機能しません。
-* SFTP のデータ保持ワーカー内のファイルのタイムスタンプ メタデータに不整合があります。
-* いずれかのコネクタが削除されて再構成されると、プロジェクトの移行状態は閉じられたように見えます。
-* トレーニングレポートには、列ヘッダーとして「タグ」ではなく「タグ」があります。
-* カタログが無効になっていて、エクスポートされたコースのいずれかが無効になっているカタログの一部にすぎない場合、Commerce コネクタのエクスポートは失敗します。
+* 複数のインストラクターが同じメールアドレスを使用していると、Connect VCミーティングの作成に失敗します。
+* 学習パスに登録した後、MS Teams VCの概要ページに間違ったURLが表示される。
+* ジョブAPI応答の一部として提供されたユーザーレポートの事前署名URLは、6時間後に期限切れになります。
+* コースの登録レポートを生成中に、「コース名」列に間違ったコース名が表示される。
+* 移行ワーカーがコースの一括APIを呼び出す際に一意のlo IDを送信できませんでしたが、IDが削除されました。
+* ユーザーがアクセスできる特定のカタログにコースが含まれている場合（デフォルトのカタログは無効）、未登録の学習者はコースを表示できないように設定されていても、learningobject/idエンドポイントからコースのメタデータを取得できます。
+* GET /learningObject APIでskillnameの名前にカンマが含まれていると、スキルフィルターが正常に機能しません。
+* SFTPのデータ保持ワーカー内のファイルのタイムスタンプメタデータに矛盾があります。
+* コネクタを削除して再設定すると、プロジェクトの移行ステータスが閉じたように表示されます。
+* トレーニングレポートの列ヘッダーには、「タグ」ではなく「タグ」が表示されます。
+* カタログが無効で、書き出されたコースのいずれかが無効なカタログの一部に過ぎない場合、Commerceコネクタの書き出しは失敗します。
 
 **資格認定**
 
-* 定期的な認定へのユーザーの再登録が失敗する場合があります。
+* 繰り返し行われる資格認定にユーザーを再登録できないことがあります。
 
-**カスタムロール**
+**カスタムの役割**
 
-* 場合によっては、カスタム管理者が講師ロールに切り替えようとすると、エラー403禁止が表示されます。
+* カスタム管理者がインストラクターの役割に切り替えようとすると、エラー403が表示されないことがあります。
 
-**メールテンプレートと通知**
+**電子メールテンプレートと通知**
 
-* セッションがキャンセルされた後の電子メール通知は、インストラクターがセッションから削除されても、最後のインストラクターセットに送信されません。
-* 主催者は、仮想インストラクター主導のトレーニングを作成した後、MS Teamsの電子メール通知を受信しません。 コースが公開され、Eメールテンプレートが有効になって初めて、Eメールがトリガーされます。
-* 電子メールテンプレートに誤った日付形式と翻訳が含まれている場合があります。
+* セッションがキャンセルされた後、インストラクターがセッションから削除されても、電子メール通知はインストラクターの最終セットには送信されません。
+* バーチャルインストラクターによるトレーニングを作成した後、主催者はMS Teamsのメール通知を受け取れませんでした。 コースが公開され、電子メールテンプレートが有効になった後にのみ、電子メールがトリガーされます。
+* 電子メールテンプレートの日付の形式と翻訳が正しくない場合があります。
 
 **学習者**
 
-* 学習者がコースの複数のインスタンスに登録されている場合、出席レポートをダウンロードすると、レポートに誤った情報が含まれます。
-* ユーザーは、別のユーザーの非公開投稿が公開ストーリーに追加されると、その投稿を表示できます。
-* 場合によっては、認定資格から学習者の登録を解除できないことがあります。 登録を解除しようとすると、エラーメッセージが表示されます。
-* 認定資格は、管理者がコースを 1 つだけ選択した後に完了とマークした後でも、完了としてマークされます。
-* 管理者は、セッションの終了時刻が以前の日付に変更された場合、VC を完了としてマークできません。
-* セッション出席レポートは、順番待ちリストに登録されている学習者に対して「未出席」として表示されます。
+* 学習者がコースの複数のインスタンスに登録されている場合、出席レポートをダウンロードすると、レポートに間違った情報が含まれます。
+* ユーザーは、他のユーザーのプライベート投稿が公開ストーリーに追加されている場合、それらの投稿を表示できます。
+* 資格認定から学習者の登録を解除できない場合があります。 登録解除しようとすると、エラーメッセージが表示されます。
+* 管理者がコースを1つだけ選択した後に資格認定を完了とマークした場合でも、資格認定には完了とマークされます。
+* セッションの終了時刻が前の日付に変更されている場合、管理者はVCを完了としてマークできません。
+* キャンセル待ちリストに登録されている学習者には、セッションの出席レポートが「未出席」と表示されます。
 
 **学習者アプリ**
 
-* コースノートをPDFとしてダウンロードすると、ノートがランダムに表示されます。 彼らは命令に従わない。
+* コースノートをPDFとしてダウンロードすると、メモがランダムに表示されます。 彼らは秩序に従わない。
 
-**ラーニング パス**
+**学習パス**
 
-* ラーニング・パスでスキルを選択した後、テキスト・フィールドを選択してもドロップダウンが期待どおりに表示されません。
-* 場合によっては、ラーニング パスからスキルを削除できません。
+* 学習パスでスキルを選択した後にテキストフィールドを選択しても、ドロップダウンが正常に表示されません。
+* 学習パスからスキルを削除できない場合があります。
 
 **学習プログラム**
 
-* 柔軟な学習プログラムに多数のコースがある場合、管理者が完了とマークした後でも、学習計画は完了しません。
-* 登録レポートの列last_modified_byは、学習者がインスタンスを変更しても更新されません。
+* 柔軟な学習プログラムに多数のコースが含まれている場合、管理者が完了をマークしても学習プランが完了しません。
+* 学習者がインスタンスを変更しても、登録レポートのlast_modified_by列は更新されません。
 
 **レポート**
 
-* 場合によっては、管理者がトレーニング レポートをエクスポートできないことがあります。
-* SCORMコンテンツに32,767文字を超える質問または回答が含まれている場合、Excelでコースクイズレポートをダウンロードすることはできません。
-* [ゲーミフィケーションのリセット] を選択した後、[レベル達成日] はリセットされません。
+* 管理者がトレーニングレポートを書き出せない場合があります。
+* SCORMコンテンツに32,767文字を超える質問または回答が含まれている場合、Excelでコースクイズレポートをダウンロードできません。
+* 「ゲーミフィケーションをリセット」を選択しても、レベル達成日はリセットされません。
 
 **検索**
 
-* 現在、すべてのユーザーグループをエクスポートした後、削除されたユーザーグループも出力に含まれます。
-* 断続的な検索の問題により、認定資格を検索できません。
+* 現在、すべてのユーザーグループを書き出した後、削除されたユーザーグループも出力に表示されます。
+* 検索が断続的に行われるため、資格認定を検索することができません。
 
 ## このリリースの既知の問題
 
-モバイルオフラインプレーヤーでは、HTML5 コンテンツは読み込まれません。
+Mobile Offline PlayerはHTML5コンテンツを読み込みません。
 
 ## 必要システム構成
 
-[Adobe Learning Manager の必要システム構成](/help/migrated/system-requirements.md)を表示します。
+[Adobe Learning Managerの必要システム構成](/help/migrated/system-requirements.md)を確認してください。
 
 ## Adobe Learning Manager の過去のリリース
 
-* [2024 年 3 月リリース](/help/migrated/whats-new-march-2024.md)
-* [2023 年 11 月リリース](/help/migrated/whats-new-november-2023.md)
+* [2024年3月リリース](/help/migrated/whats-new-march-2024.md)
+* [2023年11月リリース](/help/migrated/whats-new-november-2023.md)
