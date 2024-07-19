@@ -3,14 +3,13 @@ description: 管理者は偽装セッションを開始することで、学習�
 jcr-language: en_us
 title: 学習者およびマネージャーの偽装
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # 学習者およびマネージャーの偽装 {#impersonation-of-learner-and-manager}
 
@@ -51,7 +50,7 @@ ht-degree: 71%
 
    「なりすましモード：ユーザー名（ユーザーの電子メール）としてログインしています。 ログアウト」がページのヘッダーに表示されます。
 
-**偽装されたセッションは60分間継続します。**
+**偽装されたセッションは60分間続きます。**
 
 学習者またはマネージャーの役割に変更すると、管理者 / カスタム管理者がユーザーの偽装モードであることを示すメッセージが表示されます。
 
@@ -77,7 +76,7 @@ ht-degree: 71%
 
 ## よくある質問
 
-+++偽装していても、AdobeのLearning Managerにログインできますか？
++++偽装していても、Adobe Learning Managerにログインできますか？
 
 はい。ユーザーのログインは偽装には依存しません。
 +++

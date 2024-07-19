@@ -2,7 +2,8 @@
 title: このリリースの新機能（2022年11月）
 description: Adobe Learning Manager の新機能と機能強化について説明します
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -229,8 +230,8 @@ VCミーティングを作成または更新する際、インストラクター
 コースのブックマークを作成するために、「トレーニング概要」ページに次の API が追加されました。
 
 * すべてのブックマークを取得： `primeapi/v2/bookmarks`
-* ブックマークを作成する： `primeapi/v2/learningObjects/{id}/bookmark`
-* ブックマークを削除する： `primeapi/v2/learningObjects/{id}/bookmark`
+* ブックマークの作成： `primeapi/v2/learningObjects/{id}/bookmark`
+* ブックマークの削除： `primeapi/v2/learningObjects/{id}/bookmark`
 
 ### 移行によるマルチロケールのメタデータとコンテンツのサポート
 
@@ -276,7 +277,7 @@ Cookie をクリアするために、新しいエンドポイントを導入し�
 **クエリパラメーター**
 
 * `cookie=true|false` - Cookieを取り消す必要があることを示します
-* `refresh_token=true|false`  – 更新を示します
+* `refresh_token=true|false` – 更新を示します
 
 **リクエストの本文**
 
@@ -315,7 +316,7 @@ Body required for revoking oauth cookie only
 
 ### Salesforce アプリ
 
-この **上位のLOを無視** すべてのコース、学習プログラム、資格認定を同時に表示できるように、Salesforceアプリでオプションを有効にする必要があります。
+すべてのコース、学習プログラム、資格認定を同時に表示できるように、Salesforceアプリで&#x200B;**上位のLOを無視**&#x200B;オプションを有効にする必要があります。
 
 ### プレーヤーのカスタマイズ用 API
 
@@ -339,23 +340,23 @@ LO API の GET/enrollments/{id}/waitlistPosition API により、指定された
 
 ### LO プレビューデータの取得
 
-GET /preview/learningObjects/{id} 学習目標に関するプレビュー情報を取得するためのAPIが追加されました。
+GET /preview/learningObjects/{id} APIが追加され、学習目標に関するプレビュー情報を取得できるようになりました。
 
 ### プロファイル内での社外ユーザーの移動
 
-この `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` 呼び出しは、新しいexternalProfile IDを指定することで、ユーザーを別の外部プロファイルに移動するのに役立ちます。
+`PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?`呼び出しは、新しいexternalProfile IDを指定することで、ユーザーを別の外部プロファイルに移動するのに役立ちます。
 
 ### 社外プロファイルにユーザーを追加
 
-この `POST /externalProfiles/{id}/users` 社外ユーザーを社外プロファイルに追加します。
+`POST /externalProfiles/{id}/users`は、外部ユーザーを外部プロファイルに追加します。
 
 ## リリースノート
 
-Learning Manager Webアプリとデバイスアプリの現在および以前のリリースについて詳しくは、 [リリースノート](/help/migrated/release-note/release-notes.md).
+Learning Manager Webアプリとデバイスアプリの現在および以前のリリースについて詳しくは、[リリースノート](/help/migrated/release-note/release-notes.md)を参照してください。
 
 ## バグの修正
 
-このアップデートで修正されたバグを確認するには、 [修正されたバグリスト](release-note/release-notes.md#bugs-fixed-in-this-release).
+このアップデートで修正されたバグを確認するには、[修正されたバグのリスト](release-note/release-notes.md#bugs-fixed-in-this-release)を参照してください。
 
 ## 必要システム構成
 

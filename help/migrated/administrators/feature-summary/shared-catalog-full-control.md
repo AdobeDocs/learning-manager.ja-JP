@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 共有カタログのフルコントロールの有効化
-description: AdobeのLearning Managerで共有カタログのフルコントロールを有効にする
+description: Adobe Learning Managerで共有カタログのフルコントロールを有効にする
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # 共有カタログのフルコントロールの有効化
 
@@ -40,7 +39,7 @@ ht-degree: 89%
 
    ![](assets/catalog-control.png)
 
-   *共有カタログのフルコントロールを許可*
+   *共有カタログのフルコントロールを許可する*
 
    カタログのフルコントロールを付与すると、社外組織の管理者はカタログの変更を求めるリクエストを承認できます。その後、社外組織の作成者はコースの編集やモジュールの追加を行えるようになります。
 
@@ -59,7 +58,7 @@ ht-degree: 89%
 
    ![](assets/catalog-details.png)
 
-   *カタログの詳細を表示*
+   *カタログの詳細の表示*
 
 1. カタログの説明と名前は変更できます。
 
@@ -73,7 +72,7 @@ ht-degree: 89%
 
 ## コースのリセット {#resetcourse}
 
-1. リンク切れのカタログカードで、 **[!UICONTROL コースをリセット]**.
+1. リンクが切れているカタログカードで、「**[!UICONTROL コースをリセット]**」をクリックします。
 
 <!-- ![](assets/reset-course.png)-->
 

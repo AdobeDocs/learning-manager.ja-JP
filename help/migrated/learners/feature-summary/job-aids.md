@@ -2,14 +2,13 @@
 description: Learning Manager で作業計画書を表示および使用する方法について説明します。
 jcr-language: en_us
 title: 作業計画書
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: e7861820-40bc-4914-86e3-245f348253cb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 77%
 
 ---
-
-
 
 # 作業計画書
 

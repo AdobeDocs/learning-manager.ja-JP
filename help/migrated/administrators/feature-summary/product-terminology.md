@@ -26,16 +26,16 @@ Adobe Learning Manager では、ユーザーインターフェイスで標準的
 
 用語を変更するには、以下の手順に従います。
 
-1. 管理者として、 **[!UICONTROL 設定]** > **[!UICONTROL 一般]**.
-1. を **[!UICONTROL 製品用語]**、選択 **[!UICONTROL 編集]**.
+1. 管理者として、**[!UICONTROL 設定]** > **[!UICONTROL 一般]**&#x200B;を選択します。
+1. **[!UICONTROL 製品用語]**&#x200B;で、**[!UICONTROL 編集]**&#x200B;を選択します。
 
    ![](assets/product-terminology-settings.png)
    _製品用語_
 
-1. 選択 **[!UICONTROL こちらからダウンロード]** 用語のテンプレートをダウンロードします。
+1. **[!UICONTROL こちらからダウンロード]**&#x200B;を選択し、用語のテンプレートをダウンロードしてください。
 
    ![](assets/download-here-pt.png)
-   _テンプレートのダウンロード_
+   _テンプレートをダウンロード_
 
 ## 用語の変更
 
@@ -48,7 +48,7 @@ Adobe Learning Manager では、ユーザーインターフェイスで標準的
 
 ## 更新した CSV のアップロード
 
-1. を **[!UICONTROL 製品用語]** セクションで、CSVをアップロードするためのリンクを選択します。
+1. **[!UICONTROL 製品用語]**&#x200B;セクションで、CSVをアップロードするためのリンクを選択します。
 
    ![](assets/update-the-csv.png)
    _CSVをアップロード_
@@ -79,6 +79,6 @@ _確認プロンプト_
 
 用語の変更は、以下の要素には適用されません。
 
-* 電子メールテンプレート(**[!UICONTROL 管理者]** > **[!UICONTROL 電子メールテンプレート]**)
-* レポート(**[!UICONTROL 管理者]** > **[!UICONTROL レポート]**)
+* 電子メールテンプレート（**[!UICONTROL 管理者]** > **[!UICONTROL 電子メールテンプレート]**）
+* レポート（**[!UICONTROL 管理者]** > **[!UICONTROL レポート]**）
 

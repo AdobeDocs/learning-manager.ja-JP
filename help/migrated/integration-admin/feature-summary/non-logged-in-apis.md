@@ -1,7 +1,7 @@
 ---
-description: ヘッドレスインターフェイスを開発するためのログインしていない API について説明します。
+description: ヘッドレスインターフェイスを開発するためのログインなしのAPIについて説明します。
 jcr-language: en_us
-title: 非ログイン API
+title: ログインしていないAPI
 source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
 workflow-type: tm+mt
 source-wordcount: '574'
@@ -9,19 +9,20 @@ ht-degree: 0%
 
 ---
 
-# 非ログイン API
+# ログインしていないAPI
 
-ヘッドレスエクスペリエンスまたは非ログインエクスペリエンスのデータを提供する Adobe Learning Manager API について詳しくは、この記事を参照してください。公開検索 API
+この記事では、ヘッドレスまたはログインなしのエクスペリエンスのデータを提供するAdobe Learning Manager APIについて説明します。
+パブリック検索API
 
-## 公開検索 API
+## パブリック検索API
 
-### パブリック ES を使用したデータのフィルター処理
+### パブリックESを使用したデータのフィルター処理
 
-パブリック検索 API を使用すると、基本的な検索 API でコースをフィルター処理するために使用できるフィルター データを取得できます。 この API には、検索 API で使用できるすべてのフィルターが用意されています。
+パブリック検索APIを使用すると、フィルターデータを取得できます。このデータを基本検索APIで使用すると、コースをフィルタリングできます。 このAPIは、検索APIで使用できるすべてのフィルターを提供します。
 
 **サンプルカール**
 
-GET メソッドを使用して、次の要求を行います。 &lt;Base_URL> 以下のcurlコマンドでベースURLに&lt;/Base_URL>置き換えます。トレーニング &lt;Base_URL> データ アクセス コネクタのページにあります。&lt;/Base_URL>
+次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -92,28 +93,28 @@ curl --location '<Base_URL>/filterableData'
 
 | オプション | 説明 |
 | --- | --- |
-| `loSkillLevels` | コースに登録するために必要な習熟度レベル。 |
+| `loSkillLevels` | コースへの登録に必要な熟達度。 |
 | `catalogNames` | 使用可能なカタログ名のリスト。 |
-| `loType` | 使用可能な学習オブジェクトのタイプ。 |
-| `availability` | 空席状況と空席待ち状況。 |
-| `loSkillNames` | ラーニングオブジェクトに追加されたスキル名。 |
-| `tags` | 学習オブジェクトに関連付けられているタグ。 |
-| `authors` | 学習オブジェクトの作成者の名前 |
-| `duration` | 学習オブジェクトの期間。 |
-| `dateCreated` | ラーニングオブジェクトが作成された日付。 |
+| `loType` | 使用可能な学習目標のタイプ |
+| `availability` | 空席状況とキャンセル待ちの状況。 |
+| `loSkillNames` | 学習目標に追加されたスキル名。 |
+| `tags` | 学習目標に関連付けられたタグ。 |
+| `authors` | 学習目標の作成者の名前 |
+| `duration` | 学習目標の期間。 |
+| `dateCreated` | 学習目標が作成された日付。 |
 | `sessionEndTime` | セッションが終了した時刻。 |
-| `averageRating` | 学習オブジェクトの平均星評価。 |
+| `averageRating` | 学習目標の平均星評価。 |
 | `sessionStartTime` | セッションが開始された時刻。 |
-| `publishDate` | ラーニングオブジェクトの公開日。 |
-| `ratingsCount` | 学習オブジェクトの評価カウントの数。 |
+| `publishDate` | 学習目標の公開日。 |
+| `ratingsCount` | 学習目標の評価カウント数。 |
 
-### 検索 API
+### 検索API
 
-パブリック検索 API を使用すると、提供されたデータを使用して基本的な検索データを取得できます。
+パブリック検索APIを使用すると、提供されたデータを使用して基本的な検索データを取得できます。
 
-**カールのサンプル**
+**サンプルカール**
 
-POST メソッドを使用して、次の要求を行います。 &lt;Base_URL> 以下のcurlコマンドでベースURLに&lt;/Base_URL>置き換えます。トレーニング &lt;Base_URL> データ アクセス コネクタのページにあります。&lt;/Base_URL>
+次のリクエストを行うには、POST方式を使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -165,7 +166,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }'
 ```
 
-**API 呼び出しのサンプル応答**
+**API呼び出しのサンプル応答**
 
 ```
 {
@@ -261,33 +262,33 @@ curl --location '<Base_URL>/search?size=1000' \
 }
 ```
 
-**検索 API の並べ替えオプション**
+**検索APIの並べ替えオプション**
 
 次の並べ替えオプションを選択して、結果に適用できます。
 
 | オプション | 説明 |
 | --- | --- |
-| `duration` | ラーニングオブジェクトの継続時間。 |
-| `publishDate` | ラーニングオブジェクトの公開日。 |
-| `dateCreated` | ラーニングオブジェクトが作成された日付。 |
-| `name_en` | 学習オブジェクトの名前。 |
+| `duration` | 学習目標の期間。 |
+| `publishDate` | 学習目標の公開日。 |
+| `dateCreated` | 学習目標が作成された日付。 |
+| `name_en` | 学習目標の名前。 |
 | `averageRating` | 学習者が提供する平均星評価。 |
-| `ratingsCount` | 学習オブジェクトの評価カウントの数。 |
-| `relevance(default)` | 関連データは検索キーワードに基づいています。 |
+| `ratingsCount` | 学習目標の評価カウント数。 |
+| `relevance(default)` | 関連データは検索キーワードに基づきます。 |
 
-### 公開検索APIを使用した学習オブジェクトデータの取得
+### パブリック検索APIを使用した学習目標データの取得
 
-パブリック ES ラーニングオブジェクト API を使用すると、ヘッドレスインターフェイスで使用できるラーニングオブジェクトのタイプと ID のリストを取得できます。
+パブリックES学習オブジェクトAPIを使用すると、ヘッドレスインターフェイスで使用可能な学習オブジェクトのタイプとIDのリストを取得できます。
 
 **サンプルカール**
 
-GET メソッドを使用して、次の要求を行います。 &lt;Base_URL> 以下のcurlコマンドでベースURLに&lt;/Base_URL>置き換えます。トレーニング &lt;Base_URL> データ アクセス コネクタのページにあります。&lt;/Base_URL>
+次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
 ```
 
-**API 呼び出しのサンプル応答**
+**API呼び出しのサンプル応答**
 
 ```
 {
@@ -301,17 +302,17 @@ curl --location '<Base_URL>/learningObjectIds'
 
 ## コース概要API
 
-コースサマリーAPIを使用すると、特定のコースに関する詳細情報を取得できます。
+コースの概要APIを使用すると、特定のコースに関する詳細情報を取得できます。
 
 **サンプルカール**
 
-GET メソッドを使用して、次の要求を行います。 &lt;Base_URL> 以下のcurlコマンドでベースURLに&lt;/Base_URL>置き換えます。トレーニング &lt;Base_URL> データ アクセス コネクタのページにあります。 &lt;/Base_URL>&lt;Course_ID> 特定のコースIDに置き換えます。&lt;/Course_ID>
+次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。 &lt;Course_ID>を特定のコースIDに置き換えます。
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 ```
 
-**API 呼び出しのサンプル応答**
+**API呼び出しのサンプル応答**
 
 ```
 {
@@ -334,21 +335,21 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 
 >[!NOTE]
 >
->コースに複数のインスタンスがある場合は、すべてのインスタンスの詳細が表示されます。
+>コースに複数のインスタンスが含まれている場合、すべてのインスタンスの詳細が表示されます。
 
-## コースの詳細に関する CDN JSON API
+## コースの詳細を表示するCDN JSON API
 
-CDN JSON API を使用すると、特定のコースに関する完全なコース情報を取得できます。
+CDN JSON APIを使用すると、特定のコースに関する完全なコース情報を取得できます。
 
-**コースのサンプルカール**
+**コースのカールのサンプル**
 
-GET メソッドを使用して、次の要求を行います。 &lt;CDN_path> 以下のcurlコマンドでベースURLに&lt;/CDN_path>置き換えます。トレーニング &lt;CDN_path> データ アクセス コネクタのページにあります。 &lt;/CDN_path>&lt;Course_ID> 特定のコースIDに置き換えます。&lt;/Course_ID>
+次のリクエストを行うには、GETメソッドを使用します。 &lt;CDN_path>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;CDN_path>はトレーニングデータアクセスコネクタページにあります。 &lt;Course_ID>を特定のコースIDに置き換えます。
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**学習パスと認定のためのサンプルカール**
+**学習パスと資格認定のサンプルカール**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
@@ -358,7 +359,7 @@ curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
 curl --location '<CDN_path_URL>/ certification /<Certification_ID>.json'
 ```
 
-**API 呼び出しのサンプル応答**
+**API呼び出しのサンプル応答**
 
 ```
 {

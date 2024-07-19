@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Learning Manager の xAPI
 description: Experience API(xAPI)は、あらゆるタイプの学習体験を記録して追跡する方法で学習コンテンツと学習システムを相互に連携させることを可能にするeラーニングソフトウェア仕様です。
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 49%
 
 ---
-
-
 
 # Learning Manager の xAPI
 
@@ -17,7 +16,7 @@ ht-degree: 49%
 
 Experience API （xAPI）は、あらゆるタイプの学習経験を記録し、追跡しつつ、学習コンテンツと学習システムを相互に連携させることを可能にする e ラーニングのソフトウェア仕様です。 学習経験は、学習記録ストア（LRS）に記録されます。 LRS は、従来の学習管理システム（LMS）内、またはそれ自体で存在します。
 
-xAPIについて詳しくは、以下を参照してください。  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+xAPIの詳細については、[https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec)を参照してください。
 
 ## Learning Manager は xAPI にどのように対応していますか？ {#howdoescaptivateprimesupportxapi}
 
@@ -31,7 +30,7 @@ Learning Manager には学習記録ストアが組み込まれています。こ
 
 ## アプリケーションを設定する {#setupyourapplication}
 
-1. 統合管理者としてログインします。選択 **[!UICONTROL アプリケーション]** > **[!UICONTROL 登録]**.
+1. 統合管理者としてログインします。**[!UICONTROL アプリケーション]** > **[!UICONTROL 登録]**&#x200B;を選択します。
 
    ![](assets/appregistration.png)
 
@@ -46,7 +45,7 @@ Learning Manager には学習記録ストアが組み込まれています。こ
 
 1. 変更を保存します。デベロッパーの ID とシークレットを取得します。
 
-**終点**:
+**エンドポイント**:
 
 下のリンクをクリックして、xAPI swagger ドキュメントを表示します。
 
@@ -66,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 これで作成者として、コースを作成する際に xAPI モジュールを選択し、Learning Manager の外でユーザーエクスペリエンスを監視できるようになりました。例えば、この機能を使用して、コースの受講に使用されるサードパーティーのプラットフォーム上のユーザーのアクティビティを評価できます。 
 
-1. の作成中 **[!UICONTROL アクティビティモジュール]****内の[!UICONTROL 種類]**オプションを選択する場合は、ポップアップメニューで  **[!UICONTROL xAPIベースモジュール。]**
+1. **[!UICONTROL アクティビティモジュール]**&#x200B;を作成するときに、[**[!UICONTROL 型]**オプションで、ポップアップメニューを使用して&#x200B;**[!UICONTROL xAPIベースのモジュール]**&#x200B;を選択します。
 
    ![](assets/xapimodulecreation.png)
 
@@ -84,7 +83,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 1. 自動生成された IRI をコピーするには、再度アクティビティモジュールページに移動します。
 1. モジュールをパブリッシュします。
 
-**注意事項：**
+**注意点：**
 
 * Learning Managerでは現在、識別子としてmboxのみをサポートしています。 mboz_sha1、openid、accountなどのその他の識別子はサポートされていません。
 
@@ -97,7 +96,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 ## レポートを生成する {#generatereports}
 
-xAPIレポートは、Excelレポートとして生成できます。 管理者として、以下を開きます。 **[!UICONTROL レポート]** > **[!UICONTROL Excelレポート]** > **[!UICONTROL xAPIアクティビティレポート]**.
+xAPIレポートは、Excelレポートとして生成できます。 管理者として、**[!UICONTROL レポート]** > **[!UICONTROL Excelレポート]** > **[!UICONTROL xAPIアクティビティレポート]**&#x200B;を開きます。
 
 ダウンロードされたレポートでは、学習者と管理者がステートメントに関して投稿したすべての情報が取得されます。
 

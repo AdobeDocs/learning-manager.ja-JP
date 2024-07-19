@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Learning Manager の EU ドメインにパブリッシュできない
-description: Adobe CaptivateからAdobeのLearning ManagerのEUドメインであるLearning Manager Adobeにパブリッシュできない。
+description: Adobe Learning Managerで、Adobe CaptivateからAdobe Learning ManagerのEUドメインに公開できない。
 contentowner: nluke
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: fb8ae1af-9902-4901-8263-fb3ebff98fbc
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 83%
 
 ---
-
-
 
 # Learning Manager の EU ドメインにパブリッシュできない {#unable-to-publish-to-learning-manager-eu-domain}
 
@@ -41,19 +40,19 @@ Adobe Captivate では、Adobe Learning Manager の US ドメインにコンテ�
 
 1. Adobe Captivate のインストールディレクトリに移動します。
 
-   例えば、  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64` (2019はCaptivate版です。 別バージョンの Adobe Captivate を使用していれば、この番号も異なります）
+   例： `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64` (2019はCaptivate版です。 別バージョンの Adobe Captivate を使用していれば、この番号も異なります）
 
 1. 設定ファイル **AdobeCaptivate.ini** をデスクトップにコピーします。
 
    ![](assets/cp-captivate.ini.png)
-   *設定ファイルの表示*
+   *構成ファイルの表示*
 
 1. デスクトップにコピーしたファイルをメモ帳で開きます。
-1. LearningManagerBaseUrlの値を変更= `https://learningmanager.adobe.com/inappstarter` をLearningManagerBaseUrlに= `https://learningmanagereu.adobe.com/inappstarter`
+1. LearningManagerBaseUrl = `https://learningmanager.adobe.com/inappstarter`の値をLearningManagerBaseUrl = `https://learningmanagereu.adobe.com/inappstarter`に変更
 
    ![](assets/cp-primebaseurl.png)
-   *PrimeBaseURLを表示*
+   *PrimeBaseURLの表示*
 
 1. 変更したメモ帳を上書き保存します。
-1. 編集した保存ファイルをコピーして、上記のファイルパスに貼り直します。 元のファイルを置き換える場所  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`
+1. 編集した保存ファイルをコピーして、上記のファイルパスに貼り直します。 `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`の元のファイルを置き換える
 1. 以上の手順が完了したら、Adobe Captivate を起動して、Adobe Learning Manager にパブリッシュします。

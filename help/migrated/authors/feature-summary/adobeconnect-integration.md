@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect の統合
 description: 作成者は、コースの作成プロセスで Adobe Connect を使用してバーチャルクラスルームコースを作成することができます。 Learning Manager アカウントで Adobe Connect を有効にするには、組織の管理者に連絡する必要があります。
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 94%
 
 ---
-
-
 
 # Adobe Connect の統合
 
@@ -18,7 +17,7 @@ ht-degree: 94%
 ## Adobe Connect を使用したバーチャルクラスルーム（VC）コースを作成 {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. マイコースページで「モジュールを追加」をクリックして「バーチャルクラスルーム」を選択します。 バーチャルクラスルームを作成ダイアログが表示されます。
-1. を **会議システム** または、「Adobe Connect」を選択します。
+1. **会議システム**&#x200B;オプションで、[Adobe Connect]を選択します。
 
    ![](assets/create-vc-author.png)
 
@@ -33,7 +32,7 @@ ht-degree: 94%
 
    ![](assets/instructors-list-author.png)
 
-   *リストからインストラクターを選択します*
+   *一覧からインストラクターを選択してください*
 
 1. VC コースの完了条件を指定します。完了条件とは、コース完了と見なされるために学習者が出席する必要のあるコースの合計時間の割合です。 例えば、コースの時間を 1 時間としましょう。 50％を完了条件として指定した場合、学習者が 30 分間でもコースに出席すると、学習者はコースを完了したと見なされます。
 1. **[!UICONTROL 「完了」]**&#x200B;をクリックします。

@@ -110,7 +110,7 @@ x-burst: 2
 
 これを簡単に説明するサンプルのJavaCriptコードを確認できます。 ここをクリック [バイオリン](https://jsfiddle.net/ACAPJS/9yv8zcmL/) を実行し、コードの動作を確認します。
 
-このアプリケーションでは、アカウントの学習者ロールのアプリケーショントークンを提供する必要があります。 を参照してください [アプリケーションデベロッパーマニュアル](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)APIトークンに関する情報を表示し、Learning Manager統合管理アプリケーションの「開発者リソース」セクションでトークンヘルパーを使用して、トークンを生成できます。
+このアプリケーションでは、アカウントの学習者ロールのアプリケーショントークンを提供する必要があります。 APIトークンの詳細については、[アプリケーションデベロッパーマニュアル](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)を参照してください。Learning Manager Integration Adminアプリケーションの「開発者向けリソース」セクションにあるトークンヘルパーを使用して、トークンを生成できます。
 
 このアプリケーションは、1回の操作でダミーAPIに10回の呼び出しを行っています。 ダミーAPIのレート制限は(5, 2)であるため、Learning Managerが受信した最初の5+2呼び出しが成功すると、レート制限に違反し、成功応答が表示されます。
 

@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: マネージャーのよくある質問（FAQ）
-description: AdobeのLearning Managerマネージャーのよくある質問(FAQ)
+description: Adobe Learning Managerマネージャーのよくある質問(FAQ)
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # マネージャーのよくある質問（FAQ）
 
@@ -71,7 +70,7 @@ ht-degree: 57%
 
 チームメンバー用のレポートを作成して、各メンバーが割り当て、達成したスキルのリストを表示できます。 左ペインで「レポート」をクリックし、「サンプルレポート」タブをクリックして、スキルとマネージャーのサンプルレポートを表示します。
 
-詳細については、を参照してください。 [レポート](feature-summary/reports.md) この機能は、Learning Managerヘルプで使用できます。
+詳細については、Learning Managerヘルプの[レポート](feature-summary/reports.md)機能を参照してください。
 
 +++
 
@@ -95,7 +94,7 @@ ht-degree: 57%
 
 レポートのサイズを変更するには、「サイズの変更」をクリックし、2 つのオプションのいずれかを選択します。1x1 は縮小、1x2 は拡大です。
 
-詳細については、を参照してください。  [レポート機能。](feature-summary/reports.md)
+詳細については、[レポート機能](feature-summary/reports.md)を参照してください。
 
 +++
 
@@ -117,7 +116,7 @@ ht-degree: 57%
 
 +++利用可能なすべてのコースを表示できますか？ また、そのためにはどうすればよいですか？
 
-学習者の役割に切り替え、すべての利用可能なコースを表示できます。詳しくは、「  [コース](../learners/feature-summary/courses.md) 詳細を表示する機能
+学習者の役割に切り替え、すべての利用可能なコースを表示できます。詳細については、[コース](../learners/feature-summary/courses.md)機能を参照してください
 
 +++
 

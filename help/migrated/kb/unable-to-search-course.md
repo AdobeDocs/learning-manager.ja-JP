@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager でコースを検索できない
 description: 学習者が Learning Manager でコースを検索できません。
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 55%
 
 ---
-
-
 
 # Learning Manager でコースを検索できない
 
@@ -20,7 +19,7 @@ ht-degree: 55%
 
 ## シナリオ1：登録が、上位の学習目標で行われています
 
-### 要約
+### 概要
 
 学習者があるコースを検索しても、そのコースが表示されない場合があります。 しかし、学習者が学習プログラム／資格認定に登録していると、学習者は学習目標内でコースを表示できます。
 
@@ -34,7 +33,7 @@ Learning Managerでは、学習者が学習プログラムや資格認定から�
 
 ## シナリオ2：学習者が、コースを含むカタログにアクセスできません。
 
-### 要約
+### 概要
 
 学習者が、カタログや学習ダッシュボードでコースを検索できません。
 
@@ -49,8 +48,8 @@ Learning Managerでは、学習者が学習プログラムや資格認定から�
 
 1. 管理者してログインします。
 
-1. クリック **[!UICONTROL カタログ]** コースを含むカタログを参照します。
-1. クリック **[!UICONTROL 社内で共有]** または **[!UICONTROL 内容]** （上記のシナリオによって異なります）。
+1. **[!UICONTROL カタログ]**&#x200B;をクリックし、コースを含むカタログを参照します。
+1. 「**[!UICONTROL 社内で共有]**」または「**[!UICONTROL コンテンツ]**」をクリックします（上記のシナリオに応じて）。
 
    ![](assets/cp-share-internally.png)
 
@@ -60,7 +59,7 @@ Learning Managerでは、学習者が学習プログラムや資格認定から�
 
    * 学習者がカタログに含まれていない
 
-     カタログを共有するには、 **[!UICONTROL 追加]**、ユーザーが所属するユーザーグループを追加します。 **[!UICONTROL 「保存」]**&#x200B;をクリックします。
+     カタログを共有するには、[**[!UICONTROL 追加]**]をクリックし、ユーザーが所属するユーザーグループを追加します。 **[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
      ![](assets/cp-add-user-group.png)
 
@@ -68,7 +67,7 @@ Learning Managerでは、学習者が学習プログラムや資格認定から�
 
    * カタログにコースが含まれていない
 
-     「コンテンツ」セクションで、をクリックします。 **[!UICONTROL コンテンツを追加]** カタログに追加する必要があるコースを選択します。
+     コンテンツセクションで「**[!UICONTROL コンテンツを追加]**」をクリックし、カタログに追加する必要のあるコースを選択します。
 
      ![](assets/cp-add-content.png)
 

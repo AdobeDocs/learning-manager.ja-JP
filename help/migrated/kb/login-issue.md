@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Learning Manager におけるログインの問題
-description: Learning Manager Adobeのログインに関する問題
+description: Adobe Learning Managerでのログインの問題
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 87%
 
 ---
-
-
 
 # Learning Manager におけるログインの問題
 
@@ -32,7 +31,7 @@ Adobe Learning Manager にログインしようとすると、以下のエラー
 
 場合によっては、古い SSO クッキーが原因で、ユーザーがシステムにアクセスできないことがあります。 認証するために、このような Cookie は Adobe Learning Manager に転送されます。ユーザーが長時間ブラウザーを閉じなかった場合や、ログアウトしていない場合、セッションは終了しません。
 
-AdobeのLearning Managerではこのような古いCookieが拒否されるため、エラーが発生します。
+Adobe Learning Managerはこれらの古いCookieを拒否するため、エラーが発生します。
 
 ## 解決策
 

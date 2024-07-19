@@ -27,11 +27,11 @@ ht-degree: 70%
 
 デフォルトのスタイルは万能ではありません。 指定された CSS を上書きすることで、カスタマイズできます。 すべてのスタイルは、改良版のセレクターとして「ql-editor」に囲まれます。 次のクラスが使用されます。
 
-* **インデント**: li.ql-indent-$number. $number には、1～9 が入ります。
+* **インデント**: li.ql-indent-$number。 $number には、1～9 が入ります。
 * **サイズ**: ql-size-small、ql-size-large、ql-size-huge
 * **整列**: ql-align-center、ql-align-justify、ql-align-right
-* **カラー**: ql-color-$color。 $color に入る色：white、red、orange、yellow、green、blue、purple
+* **color**: ql-color-$color。 $color に入る色：white、red、orange、yellow、green、blue、purple
 * **背景**: ql-bg-$color。 $color に入る色：black、red、orange、yellow、green、blue、purple
-* **htmlタグ**:p、ol、ul、pre、blockquote、h1、h2、h3、h4、h5、h6
+* **htmlタグ**: p、ol、ul、pre、blockquote、h1、h2、h3、h4、h5、h6
 
 [CSS ファイルをカスタマイズに使用できます。](assets/ql-headless.css)

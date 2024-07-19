@@ -23,15 +23,15 @@ SSO 認証を設定するには、次の手順を実行します。
    ![](assets/login-methods.png)
 
 1. 要件に応じて、「**[!UICONTROL 内部ユーザー]**」または「**[!UICONTROL 外部ユーザー]**」を選択します。
-1. の横にあるドロップダウンをクリックします。  **[!UICONTROL login]** optionキーを押しながら **[!UICONTROL シングルサインオン]**.
+1. [**[!UICONTROL ログイン]**]オプションの横のドロップダウンをクリックし、[**[!UICONTROL シングルサインオン]**]を選択します。
 
    ![](assets/single-sign-on.png)
 
-1. シングルサインオン(SSO)の設定を調整するには、  **[!UICONTROL 変更。]**
+1. シングルサインオン(SSO)の設定を調整するには、**[!UICONTROL [変更]]**&#x200B;をクリックしてください。
 
    ![](assets/change.png)
 
-1. Enter  **[!UICONTROL IDPによる認証URL]** サービスビューロから指定された場合は、 **[!UICONTROL IDPメタデータXMLファイル。]**
+1. サービスプロバイダーから提供された&#x200B;**[!UICONTROL IDPによる認証URL]**&#x200B;を入力し、**[!UICONTROL IDPメタデータXMLファイル]**&#x200B;をクリックしてXMLファイルをアップロードしてください。
 
    ![](assets/sso-configuration.png)
 

@@ -67,7 +67,7 @@ Adobe Learning Managerモバイルアプリは、ホワイトラベルをサポ�
 
    <td>
 
-    <p>必要に応じて、複数のアカウント（サブドメイン）を追加します。 サブドメインをスペースなしでコンマ区切りとして追加します。 たとえば、 acc01、acc02、acc03などです。<br> <b>注意：</b> サブドメインを指定する場合は、アカウントIDを追加する必要があります。</br> </p>
+    <p>必要に応じて、複数のアカウント（サブドメイン）を追加します。 サブドメインをスペースなしでコンマ区切りとして追加します。 たとえば、 acc01、acc02、acc03などです。<br> <b>注意：</b>サブドメインを指定するときは、アカウントIDを追加する必要があります。</br> </p>
 
    </td>
 
@@ -287,11 +287,11 @@ Android版とiOS版はどちらも、デバイスにプッシュ通知を送信�
 
 以下の手順に従います。
 
-1. 生成またはダウンロード **プッシュ通知証明書** および秘密鍵(.p12)を渡します。 詳しくは、 [Apple developer document](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. **プッシュ通知証明書**&#x200B;と秘密キー(.p12)を生成またはダウンロードします。 詳しくは、[Appleデベロッパーのドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns)を参照してください。
 
-1. ファイルのダウンロードが完了したら、p12ファイルをインストールします。 パスワードを使用して **キーチェーンアクセス**.
+1. ファイルのダウンロードが完了したら、p12ファイルをインストールします。 パスワードを使用して、**キーチェーンアクセス**&#x200B;にインストールします。
 
-1. 移動先 **自分の証明書** 証明書をエクスポートします。 MIMEタイプとして.cerが選択されていることを確認します。
+1. **証明書**&#x200B;に移動し、証明書をエクスポートします。 MIMEタイプとして.cerが選択されていることを確認します。
 
 1. p12ファイルとcerファイルが使用可能になったら、次のコマンドを実行します。
 
@@ -309,23 +309,23 @@ Android版とiOS版はどちらも、デバイスにプッシュ通知を送信�
 
 Androidの場合、ユーザーはFirebaseプロジェクトからservices.jsonファイルを提供して、SNSサービスにエントリを追加する必要があります。
 
-Firebaseでプロジェクトを作成し、 services.jsonファイルをCSMチームと共有します。 このファイルは、SNSのトークンベースのエントリに必要です。 サーバーキーはもう使用されていないことに注意してください。 詳しくはこちら [Firebaseでのプロジェクトの作成](#create-project-in-firebase).
+Firebaseでプロジェクトを作成し、 services.jsonファイルをCSMチームと共有します。 このファイルは、SNSのトークンベースのエントリに必要です。 サーバーキーはもう使用されていないことに注意してください。 [Firebaseでのプロジェクトの作成](#create-project-in-firebase)を参照してください。
 
 services.jsonファイルをダウンロードするには、次の手順に従います。
 
-1. にログイン **Firebase** コンソール。
-1. に移動 **プロジェクト設定** を選択します **クラウドメッセージ**.
-1. 検索 **Firebase Cloud Messaging API** を選択します **サービスアカウントの管理**.
-1. を **サービス回数** ページで、 **サービスアカウント** をクリックします。
-1. プロジェクトのエントリを検索し、 **詳細を管理** 「アクション」の下で
+1. **Firebase**&#x200B;コンソールにログインします。
+1. **プロジェクト設定**&#x200B;に移動し、**クラウドメッセージング**&#x200B;を選択します。
+1. **Firebase Cloud Messaging API**&#x200B;を検索し、**サービスアカウントの管理**&#x200B;を選択します。
+1. **サービスアカウント**&#x200B;ページの左側のパネルで、**サービスアカウント**&#x200B;を選択します。
+1. プロジェクトのエントリを探し、[アクション]で[**詳細の管理**]を選択します。
 
    >[!NOTE]
    >
    >   プロジェクトエントリの形式は、&lt;-accountname->@appspot.gserviceaccount.comになります。
 
-1. に移動 **キー** tabキーを押しながら選択 **キーを追加**.
-1. キーがない場合は、 **新しいキーを作成** を選択します **JSON** をキーのタイプとして使用します。 これにより、JSONファイルが生成およびダウンロードされます。
-1. 既にキーがある場合は、 **既存のキーをアップロード**&#x200B;キーを貼り付けてアップロードします。 これにより、JSONファイルが生成およびダウンロードされます。
+1. 「**キー**」タブに移動し、「**キーを追加**」を選択します。
+1. キーがない場合は、**新しいキーの作成**&#x200B;を選択し、キーの種類として&#x200B;**JSON**&#x200B;を選択します。 これにより、JSONファイルが生成およびダウンロードされます。
+1. 既にキーがある場合は、**既存のキーをアップロード**&#x200B;を選択し、キーを貼り付けてアップロードします。 これにより、JSONファイルが生成およびダウンロードされます。
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ AWSでSNSサービスにエントリを追加するためのJSONファイルを�
 
 上記の手順で作成したのと同じプロジェクトをプッシュ通知に再利用します。
 
-[プロジェクトを追加](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) Firebaseで、 ***google-services.json*** ファイル。
+[プロジェクト](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)をFirebaseに追加し、***google-services.json***&#x200B;ファイルを取得します。
 
 ### iOS
 
-[プロジェクトを追加](https://firebase.google.com/docs/ios/setup) をFirebaseに送信し、 ***GoogleService-Info.plist*** ファイル。
+[プロジェクト](https://firebase.google.com/docs/ios/setup)をFirebaseに追加し、***GoogleService-Info.plist***&#x200B;ファイルを取得します。
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >署名されたバイナリをビルドするには、Android sdk build-toolsが必要です。
 
-**次へ**
+**次のステップ**
 
 バイナリを生成したら、バイナリをPlayストアまたはApp Storeにプッシュします。
 
 ## 変更を適用する方法
 
-必要なアセットとファイルをCSMチームに送信します。 CSMチームが [様式](https://forms.office.com/r/bJRRaRBvSh) 必要な変更を加え、必要なアセットを添付します。 チームは、変更を確認し、エンジニアリングチームに通知します。 エンジニアリングチームがビルドを生成し、CSMチームと共有します。
+必要なアセットとファイルをCSMチームに送信します。 次に、CSMチームが[フォーム](https://forms.office.com/r/bJRRaRBvSh)に必要な変更を入力し、必要なアセットを添付します。 チームは、変更を確認し、エンジニアリングチームに通知します。 エンジニアリングチームがビルドを生成し、CSMチームと共有します。
 
 CSMチームがお客様とビルドを共有します。
 

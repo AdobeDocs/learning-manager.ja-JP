@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect の統合
 description: Adobe ConnectがLearning Managerアカウントと統合されている場合、Adobe Connectを使用してバーチャルクラスルームコースを受講できます。 Adobe Connectを使用できない場合は、会社の管理者に連絡してください。
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 54%
 
 ---
-
-
 
 # Adobe Connect の統合
 

@@ -3,24 +3,23 @@ jcr-language: en_us
 title: iPad および Android タブレットのユーザー
 description: iPadおよびAndroidタブレットユーザー向けの設定
 contentowner: manochan
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 57%
 
 ---
 
-
-
 # iPad および Android タブレットのユーザー
 
-iPadまたはGoogle Nexus 9 Androidタブレット向けのLearning Managerアプリに学習者としてログインすると、以下が表示されます **ホーム** 画面：
+iPadまたはGoogle Nexus 9 Androidタブレット向けのLearning Managerアプリに学習者としてログインすると、次の&#x200B;**ホーム**&#x200B;画面が表示されます。
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 *アプリのホーム画面*
 
-学習機能とカタログ機能に移動するには、 **メニュー** ドロップダウンで適切なオプションを選択します。
+学習機能とカタログ機能に移動するには、**メニュー**&#x200B;のドロップダウンをタップし、適切なオプションを選択します。
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -28,7 +27,7 @@ iPadまたはGoogle Nexus 9 Androidタブレット向けのLearning Managerア�
 
 iPadおよびGoogle Nexus 9 Androidタブレットから、Learning Managerアプリにオフラインでアクセスできます。 コースをダウンロードしてオフラインモードで受講し、ネットワークへの接続時にオンラインでアプリのコンテンツを同期します。
 
-1. タップ **メニュー** 上部のドロップダウンをタップ **ラーニング** オプションです。 利用可能なすべてのコースがタイルで一覧表示されます。
+1. 上部の&#x200B;**メニュー**&#x200B;ドロップダウンをタップし、**学習**&#x200B;オプションをタップします。 利用可能なすべてのコースがタイルで一覧表示されます。
 1. 学習コンテンツをダウンロードするには、各学習目標タイルの下部にあるダウンロードアイコンをタップします。
 
    <!--![](assets/download-ipad.png)-->

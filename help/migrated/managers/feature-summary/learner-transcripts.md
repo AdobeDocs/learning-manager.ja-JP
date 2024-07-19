@@ -2,14 +2,13 @@
 description: Learning Manager のユーザー、学習目標、スキルに基づいて、学習者のトランスクリプトをダウンロードする方法について説明します。
 jcr-language: en_us
 title: 学習者のトランスクリプト
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # 学習者のトランスクリプト
 
@@ -19,9 +18,9 @@ Learning Manager のユーザー、学習目標、スキルに基づいて、学
 
 ## 学習者のトランスクリプトの生成 {#generatelearnertranscripts}
 
-1. 学習者のトランスクリプトを生成するには、 **[!UICONTROL レポート]** をクリックします。
-1. クリック **[!UICONTROL マイレポート]** ページ上のタブ。
-1. クリック **[!UICONTROL 学習者のトランスクリプト]** リンク：
+1. 学習者のトランスクリプトを生成するには、マネージャーのログイン画面の左ペインで「**[!UICONTROL レポート]**」をクリックします。
+1. ページの[**[!UICONTROL マイレポート]**]タブをクリックします。
+1. **[!UICONTROL 「学習者のトランスクリプト」]**&#x200B;リンクをクリックします。
 
    ![](assets/learner-transcripts.png)
 
@@ -33,7 +32,7 @@ Learning Manager のユーザー、学習目標、スキルに基づいて、学
    >
    >デフォルトでは、「開始日：自」は学習者の登録日で、「終了日」は常に現在の日付です。 データが必要な場合は、「開始日」のみを変更できます。
 
-1. 「学習者を選択」フィールドから学習者名を選択して、 **[!UICONTROL 描画]**.
+1. 「学習者を選択」フィールドから学習者名を選択し、「**[!UICONTROL 生成]**」をクリックします。
 
 単一の学習者または学習者のグループを選択できます。複数の学習者を追加するには、「他の学習者を追加」をクリックします。
 
@@ -51,7 +50,7 @@ Learning Manager のユーザー、学習目標、スキルに基づいて、学
 
 ![](assets/image030.png)
 
-*一定期間の学習者のトランスクリプトのダウンロード*
+*一定期間の学習者のトランスクリプトをダウンロードする*
 
 ## 学習者のトランスクリプトファイルのコンテンツ {#learnertranscriptfilecontent}
 

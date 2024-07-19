@@ -3,14 +3,13 @@ description: Learning Manager に学習者としてログインします。
 jcr-language: en_us
 title: ログイン
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 58%
 
 ---
-
-
 
 # ログイン
 
@@ -26,7 +25,7 @@ Adobe Learning Manager を初めて使用する場合は、以下の手順でア
 
    ![](assets/adobeid-signin.png)
 
-   *ユーザー名とパスワードでログイン*
+   *ユーザー名とパスワードでサインインする*
 
 1. Adobe ID とパスワードを入力し、「サインイン」をクリックします。
 

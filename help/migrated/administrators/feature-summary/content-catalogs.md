@@ -3,14 +3,13 @@ description: Learning Manager にコンテンツカタログが導入
 jcr-language: en_us
 title: Learning Manager コンテンツカタログ
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 495f8b76-4496-422e-8b8d-9d3227a8a846
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 32%
 
 ---
-
-
 
 # Learning Manager コンテンツカタログ
 
@@ -18,8 +17,8 @@ ht-degree: 32%
 
 コンテンツカタログは、Learning ManagerのAzureインスタンスではサポートされていません。
 
-* **コース** AdobeのLearning Managerで作成され、お客様に提供される、固有のトピックに関するワークおよびeラーニングモジュールを1つにまとめたものです。
-* **コンテンツ投稿者** は、AdobeのLearning Manager上でコースを展示し、サブライセンスするAdobeを持つコースの所有権者です。
+* **コース**&#x200B;とは、Adobe Learning Managerで作成され、お客様に提供される、特定のトピックに関するワークおよびeラーニングモジュールを1つにまとめたものを意味します。
+* **コンテンツコントリビューター**&#x200B;は、コースの所有権者であり、Adobe Learning Managerで当該コースの実施と再実施を行うAdobeを付与しています。
 
 Learning Managerにコンテンツカタログが導入されました。これは、購入可能ですぐに使用できるコンテンツベースのセットです。 ビジネススキル、職場のコンプライアンス、AdobeのCreative Cloud、テクノロジーなどの既成コースを、キュレートされたコンテンツマーケットプレイスで購入できます。
 
@@ -33,13 +32,13 @@ Learning Managerにコンテンツカタログが導入されました。これ�
 
 コースの詳細を表示するには&#x200B;**[!UICONTROL 「アクセス」]**&#x200B;をクリックします。 チェックボックスを使用して、関心のあるコースを選択します。
 
-* を選択して、選択したコースをピアと共有できます。  **[!UICONTROL 共有]**.
-* Adobeに問い合わせるには、  **[!UICONTROL 連絡先Adobe]**.
+* 「**[!UICONTROL 共有]**」を選択すると、選択したコースをピアと共有できます。
+* 「**[!UICONTROL Adobeに問い合わせる]**」を選択すると、Adobeに問い合わせることができます。
 
 <!--![](assets/course-details.png)-->
 
 いずれのインスタンスでも、デフォルトで電子メールクライアントが開きます。 チェックボックスを使用して特定のコースを選択した場合、そのURLが自動的に電子メールの本文に追加されます。
 
-電子メールクライアントがデフォルトで開かない場合は、関心のある電子メールを次の宛先に送信できます。 `learningmanagercontentcontentadmin@adobe.com`.
+メールクライアントが既定で開かない場合は、関心のあるメールを`learningmanagercontentcontentadmin@adobe.com`に送信できます。
 
 コンテンツカタログにアクセスするには、Learning Manager へのログインが必要です。

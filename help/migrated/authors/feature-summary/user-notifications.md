@@ -3,14 +3,13 @@ jcr-language: en_us
 title: ユーザー通知
 description: 通知機能は、Adobe Learning Manager のすべてのユーザーにAdobeされます。 ただし、様々なシナリオでは、役割に基づいてユーザーごとに異なる種類の通知が届きます。 ユーザーへのアラートと通知は、すべて通知ポップアップダイアログ内に表示されます。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 85%
 
 ---
-
-
 
 # ユーザー通知
 
@@ -28,7 +27,7 @@ ht-degree: 85%
 
 通知アイコンの上にハイライト表示された番号で、最新の通知の数を把握できます。例えば、前回のログイン後に受信した通知が 5 件ある場合は、通知アイコンの上に「5」の数字が表示されます。これらの数字は、最新の通知をすべて読むと非表示になります。
 
-クリック **[!UICONTROL すべての通知を表示]** すべての通知を別のページに表示するには、通知ポップアップウィンドウの下部にあるリンクをクリックします。
+すべての通知を別のページに表示するには、通知ポップアップウィンドウの下部にある「**[!UICONTROL すべての通知を表示]**」リンクをクリックします。
 
 ![](assets/author-notifications-page.png)
 

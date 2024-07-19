@@ -13,7 +13,7 @@ ht-degree: 88%
 # Learning Managerガイド {#using}
 
 * [Learning Manager ユーザーガイド](user-guide.md)
-* はじめに {#introduction}
+* 概要{#introduction}
    * [新機能の概要](whats-new.md)
    * [新機能2024年3月](whats-new-march-2024.md)
    * [新機能2023年11月](whats-new-november-2023.md)
@@ -31,13 +31,13 @@ ht-degree: 88%
    * [Adobe FTP Manager からの移行](transition-from-ftp-manager.md)
    * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
    * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
-* 開始する {#get-started}
+* {#get-started}を開始する
    * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
    * [作成者の基本](authors/feature-summary/getting-started-author.md)
    * [学習者の基本](learners/feature-summary/getting-started-learner.md)
    * [マネージャーの基本](managers/feature-summary/getting-started-manager.md)
    * [Learning Manager インストラクターの基本](instructors/feature-summary/getting-started.md)
-* Administrator {#admin}
+* 管理者{#admin}
    * [ユーザーログイン](administrators/feature-summary/user-login.md)
    * [ユーザーを追加してユーザーグループの作成](administrators/feature-summary/add-users-user-groups.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
@@ -84,7 +84,7 @@ ht-degree: 88%
    * [ログインなしのエクスペリエンス（学習者向け）](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [学習プログラム](administrators/feature-summary/learning-programs.md)
    * [製品用語](administrators/feature-summary/product-terminology.md)
-* 統合管理者 {#integration}
+* 統合管理者{#integration}
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
    * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -95,7 +95,7 @@ ht-degree: 88%
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [CSV ファイルを使用したカスタムの役割の管理](integration-admin/feature-summary/configure-role-csv-files.md)
-* 作成者 {#authors}
+* 作成者{#authors}
    * [ユーザーログイン](authors/feature-summary/user-login.md)
    * [コンテンツライブラリ](authors/feature-summary/content-library.md)
    * [コースの作成、変更、パブリッシュ](authors/feature-summary/courses.md)
@@ -108,10 +108,10 @@ ht-degree: 88%
    * [コースモジュールの選択方法](authors/how-to-choose-modules.md)
    * [学習者としてプレビュー](authors/feature-summary/fluidic-player.md)
    * [設定](authors/feature-summary/settings.md)
-* 講師 {#instructor}
+* インストラクター{#instructor}
    * [モジュール](instructors/feature-summary/modules.md)
    * [セッションの学習者の管理](instructors/feature-summary/learners.md)
-* 学習者 {#learner}
+* 学習者{#learner}
    * [ログイン](learners/feature-summary/user-login.md)
    * [プロファイル設定](learners/feature-summary/settings.md)
    * [カタログ](learners/feature-summary/catalogs.md)
@@ -135,7 +135,7 @@ ht-degree: 88%
    * [学習者ホームページ](learners/feature-summary/learner-home-page.md)
    * [ソーシャル学習プラットフォームでの共有](learners/feature-summary/share-to-social.md)
    * [必要システム構成 | Adobe Learning Manager デスクトップアプリケーション](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* マネージャー {#manager}
+* マネージャー{#manager}
    * [ユーザーログイン](managers/feature-summary/user-login.md)
    * [マネージャーダッシュボード](managers/feature-summary/manager-dashboard.md)
    * [レポート](managers/feature-summary/reports.md)
@@ -144,12 +144,12 @@ ht-degree: 88%
    * [学習者のトランスクリプト](managers/feature-summary/learner-transcripts.md)
    * [設定](managers/feature-summary/settings.md)
    * [iPad および Android タブレットのユーザー](managers/feature-summary/ipad-android-tablet-users.md)
-* よくある質問 {#faq}
+* よくある質問{#faq}
    * [管理者のよくある質問（FAQ）](administrators/frequently-asked-questions-for-administrators.md)
    * [作成者のよくある質問（FAQ）](authors/frequently-asked-questions-for-authors.md)
    * [インストラクターのよくある質問（FAQ）](instructors/frequently-asked-questions-for-instructors.md)
    * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
-* ナレッジベース {#knowledge-base}
+* サポート情報{#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
    * [CSV をアップロードできない](kb/unable-to-upload-csv.md)

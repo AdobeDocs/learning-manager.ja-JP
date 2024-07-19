@@ -3,18 +3,17 @@ jcr-language: en_us
 title: Adobe Learning Manager と Okta Active Directory の連携
 description: Adobe Learning Manager と Okta Active Directory の連携
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 57%
 
 ---
 
-
-
 # Adobe Learning Manager と Okta Active Directory の連携 {#okta-active-directory-integration-with-adobe-learning-manager}
 
-この文書では、AdobeのLearning ManagerとOkta Active Directory(AD)を連携する方法について説明します。 AdobeのLearning ManagerとOkta ADを連携すると、次の操作が可能になります。
+このドキュメントでは、Adobe Learning ManagerとOkta Active Directory(AD)を連携する方法について説明します。 Adobe Learning ManagerとOkta ADを連携すると、次の操作が可能になります。
 
 * Okta AD で Learning Manager ユーザーのアクセスを確認および管理する。
 * ユーザーが Okta AD アカウントを使って、Adobe Learning Manager に自動的にサインインできるようにする。
@@ -29,35 +28,35 @@ Adobe Learning Manager は、SSO を起動する ID プロバイダー（IdP）�
 
    ![](assets/cp-application-store.png)
 
-   *Oktaでアプリケーションストアを表示*
+   *Oktaのアプリケーションストアを表示する*
 
-1. クリック **[!UICONTROL アプリ統合の作成]**.
+1. **[!UICONTROL [アプリ統合の作成]]**&#x200B;をクリックします。
 
    ![](assets/cp-app-integrations.png)
 
-   *「アプリ統合を作成」を選択*
+   *[アプリ統合の作成]を選択*
 
-1. 選択 **[!UICONTROL SAML 2.0]** 新しいアプリ統合ウィンドウから。
+1. 新しいアプリ統合ウィンドウから&#x200B;**[!UICONTROL SAML 2.0]**&#x200B;を選択します。
 
    ![](assets/cp-saml2.0.png)
 
    *SAML2.0オプションを選択*
 
-1. 選択 **[!UICONTROL SAML統合を作成]** > **[!UICONTROL 一般設定ページ]**. アプリケーション名を入力します。
+1. **[!UICONTROL SAML統合を作成]**/**[!UICONTROL 一般設定ページ]**&#x200B;を選択します。 アプリケーション名を入力します。
 
    任意の名前を付けて、アプリケーションを一意に識別できます。 設定完了後に&#x200B;**[!UICONTROL 「次へ」]**&#x200B;をクリックします。
 
    ![](assets/cp-saml-integration.png)
 
-   *アプリケーションの名前を入力*
+   *アプリケーション名を入力してください*
 
 1. SAML 設定の構成ページで、次の手順を実行します。
 
-   **IDP設定の場合：**
+   **IDPセットアップの場合：**
 
-   1. シングルサインオンURLフィールドに、次のURLを入力します。 [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. 対象URLフィールドに、次のURLを入力します。 [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. を **名前IDの形式** ドロップダウンボックスで、 **電子メールアドレス**.
+   1. シングルサインオンURLフィールドに、次のURLを入力します： [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. 対象URLフィールドに、次のURLを入力します： [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. **[名前IDの形式]**&#x200B;ドロップダウンボックスで、**電子メールアドレス**&#x200B;を選択します。
    1. **「アプリケーションユーザー名」**&#x200B;ドロップダウンで、Okta のユーザー名を選択します。
    1. オプション：追加の属性を渡す場合は、**属性ステートメント**&#x200B;の下に属性を追加します。
 
@@ -65,10 +64,10 @@ Adobe Learning Manager は、SSO を起動する ID プロバイダー（IdP）�
 
    *SAML属性の追加*
 
-   **SPのセットアップの場合：**
+   **SPのセットアップ：**
 
-   1. シングルサインオンURLフィールドに、次のURLを入力します。 [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. 対象URLフィールドに、次のURLを入力します。 [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. シングルサインオンURLフィールドに、次のURLを入力します： [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. 対象URLフィールドに、次のURLを入力します： [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. 「名前 ID の形式」ドロップダウンボックスで、**「電子メールアドレス」**&#x200B;を選択します。
    1. 「アプリケーションユーザー名」ドロップダウンで、Okta のユーザー名を選択します。
    1. **「詳細設定を表示」**&#x200B;をクリックします。
@@ -81,41 +80,41 @@ Adobe Learning Manager は、SSO を起動する ID プロバイダー（IdP）�
 
    ![](assets/cp-saml-integration-step2.png)
 
-   *追加の属性を追加*
+   *属性の追加*
 
    設定完了後に&#x200B;**[!UICONTROL 「次へ」]**&#x200B;をクリックします。
 
-1. この **フィードバック**  tabはオプションです。 オプションを選択してフィードバックを送信したら、 **[!UICONTROL 終了]**.
+1. **フィードバック**&#x200B;タブはオプションです。 オプションを選択してフィードバックを送信したら、[**[!UICONTROL 完了]**]をクリックします。
 
    ![](assets/cp-saml-integration-step3.png)
 
-   *SAMLの設定を完了*
+   *SAMLセットアップの完了*
 
 ## IdP から始まる URL とメタデータファイルを抽出する
 
 IdP/SPから始まるURLとメタデータファイルを表示するには、次の手順を実行します。
 
 1. 作成したアプリケーションを開きます。
-1. 下に **シングルサインオン** タブをクリック **[!UICONTROL 手順を表示]**.
+1. 「**シングルサインオン**」タブで、「**[!UICONTROL 手順を表示]**」をクリックします。
 
    ![](assets/cp-prime-sso.png)
 
-   *「SSO」タブを選択*
+   *[SSO]タブを選択する*
 
    **IDPの場合：**
 
    1. ID プロバイダーのシングルサインオン URL は、IdP から始まる URL です。
-   1. 下にあるすべてのテキストをコピー **オプション** フィールドに入力します。
+   1. **オプション**&#x200B;フィールドの下にあるすべてのテキストをコピーします。
    1. 新しいメモ帳ドキュメントを開き、コピーしたテキストを貼り付けます。
-   1. クリック **[!UICONTROL ファイル]** > **[!UICONTROL 別名で保存]** > &quot;filename.xml&quot;. これがメタデータのファイルになります。
+   1. **[!UICONTROL ファイル]** > **[!UICONTROL 別名で保存]** > &quot;filename.xml&quot;をクリックします。 これがメタデータのファイルになります。
 
    **SPの場合：**
 
    1. ID プロバイダーのシングルサインオン URL は、IdP から始まる URL です。
    1. ID プロバイダーの発行者はエンティティ ID です。
-   1. 下にあるすべてのテキストをコピー **オプション** フィールドに入力します。
+   1. **オプション**&#x200B;フィールドの下にあるすべてのテキストをコピーします。
    1. 新しいメモ帳ドキュメントを開き、コピーしたテキストを貼り付けます。
-   1. クリック **[!UICONTROL ファイル]** > **[!UICONTROL 別名で保存]** > **[!UICONTROL filename.xml]**. これがメタデータのファイルになります。
+   1. **[!UICONTROL ファイル]** > **[!UICONTROL 別名で保存]** > **[!UICONTROL ファイル名.xml]**&#x200B;をクリックします。 これがメタデータのファイルになります。
 
    ![](assets/cp-saml-integration-step4.png)
 

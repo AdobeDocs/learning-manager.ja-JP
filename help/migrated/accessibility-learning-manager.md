@@ -150,28 +150,28 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 
 詳細については次を参照してください。
 
-* [学習者のアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
-* [すべての役割に対するアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
+* [学習者のアクセシビリティ適合性レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [すべての役割のアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Managerの最上位ワークフロー（学習者の役割） {#captivateprimetopworkflowslearnerrole}
 
 ここでは、Learning Managerでアクセシビリティ機能を使用して、学習者が主要な機能を順を追って操作する方法について説明します。
 
-次を使用します `kbd Tab`キーを押すと、ページ上のエレメント間を移動できます。 次を使用します `kbd Shift + Tab` キーを押してナビゲーション方向を逆にします。 キーボードフォーカスは、要素の周りに表示される青い輪郭で示されます。 スクリーンリーダーは、フォーカスされている要素のテキストを読み上げます。
+`kbd Tab`キーを使用して、ページ上のエレメント間を移動します。 `kbd Shift + Tab`キーを使用して、ナビゲーションの方向を逆にします。 キーボードフォーカスは、要素の周りに表示される青い輪郭で示されます。 スクリーンリーダーは、フォーカスされている要素のテキストを読み上げます。
 
 ## Learning Managerでのトレーニングの検索 {#searchforatrainingincaptivateprime}
 
 1. これらの手がかりを使用して、ホームページの右上にある検索ボックスに移動してアクセスします。
 1. キーボードを使用してテキストを入力します。 検索結果が表示されます。
-1. キーボードの使用 `kbd Up/Down` 矢印をクリックして結果をナビゲートするか、 `kbd ENTER`すべての結果を表示します。
+1. キーボードの`kbd Up/Down`矢印を使用して結果をナビゲートするか、`kbd ENTER`を押してすべての結果を表示します。
 
-1. トレーニングが特定されたら、次のテストを行います。 `kbd ENTER`トレーニングページに移動します。
+1. トレーニングが特定されたら、`kbd ENTER`を押してトレーニングページに移動します。
 
 ## Adobe Learning Managerでのトレーニングの利用 {#consumeatraininginadobecaptivateprime}
 
-1. トレーニングを特定したら、 `kbd Tab`または `kbd Shift + Tab` 「登録/開始」ボタンにナビゲートします。 ボタンのステータスは、そのトレーニングの登録ステータスによって異なります。
+1. トレーニングを特定したら、`kbd Tab`または`kbd Shift + Tab`を使用して「登録/開始」ボタンに移動します。 ボタンのステータスは、そのトレーニングの登録ステータスによって異なります。
 
-1. ヒット `kbd ENTER`トレーニングを開始します。
+1. `kbd ENTER`を押してトレーニングを開始します。
 1. コンテンツの種類に関係なく表示されるコントロールを次に示します。
 
    * 目次
@@ -188,9 +188,9 @@ Learning Manager の学習者の役割では、次のようなその他のアク
    * 文書コンテンツ – ページ番号、上ページ、下ページ、ズームイン、ズームアウト
    * eラーニング – クローズドキャプションボタン。
 
-1. キーボードコントロールをヒット `kbd Tab`または `kbd Shift + Tab` コントロール間を移動してヒットするには `kbd ENTER`コントロールを有効または無効にします。
+1. キーボードコントロール`kbd Tab`または`kbd Shift + Tab`を押してコントロール間を移動し、`kbd ENTER`を押してコントロールを有効または無効にします。
 
-1. ドキュメントタイプには、次のような矢印コントロールを使用します `kbd UP/DOWN` をクリックして文書をスクロールします。
+1. ドキュメントタイプの場合は、`kbd UP/DOWN`などの矢印コントロールを使用してドキュメントをスクロールします。
 
 ## 特定のニーズに対するアクセシビリティサポート
 
@@ -200,7 +200,7 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 
 * Adobe Captivate オーサリングツールを使用して作成されたコンテンツで利用可能なクローズドキャプションを使用します。
 * ビデオの場合、作成者はクローズドキャプションテキストでビデオをエンコードできます。 このような動画にはクローズドキャプションが埋め込まれており、学習者が利用できます。
-* Learning Manager は、ビデオコンテンツ用のクローズドキャプション WebVTT ファイルをアップロードする機能をサポートしています。詳しくは、「  [*クローズドキャプションのWebVTTファイルのアップロード*](/help/migrated/authors/feature-summary/content-library.md).
+* Learning Manager は、ビデオコンテンツ用のクローズドキャプション WebVTT ファイルをアップロードする機能をサポートしています。詳細については、[*クローズドキャプションのWebVTTファイルのアップロード*](/help/migrated/authors/feature-summary/content-library.md)&#x200B;を参照してください。
 
 ### 目が不自由な方、または視力の弱い方
 

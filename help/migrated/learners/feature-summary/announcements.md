@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: アナウンス
 description: アナウンスとは、管理者が特定のユーザーにブロードキャストできるマルチメディアメッセージ（テキスト、画像、ビデオ）です。
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 61%
 
 ---
-
-
 
 # アナウンス
 
@@ -23,13 +22,13 @@ ht-degree: 61%
 
 ![](assets/pending-announcements.png)
 
-*公表の係属の通知*
+*保留中のお知らせの通知*
 
 「表示」をクリックすると、アナウンスの一覧が表示されます。以下はアナウンスリストの例です。
 
 ![](assets/learner-announcements-list.png)
 
-*すべてのアナウンスを表示*
+*すべてのアナウンスを表示する*
 
 ## アナウンスの例 {#asampleannouncement}
 
@@ -37,5 +36,4 @@ ht-degree: 61%
 
 ![](assets/announcement-details.png)
 
-*アナウンスの詳細を表示*
-
+*アナウンスの詳細を表示する*

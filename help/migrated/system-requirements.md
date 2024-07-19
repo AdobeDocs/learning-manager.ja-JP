@@ -65,7 +65,7 @@ Intel® CoreTM i5以上
 
 >[!NOTE]
 >
->モバイルブラウザーで対応するのは、学習者の役割のみです。 **没入型レイアウト**.
+>モバイルブラウザーは、**没入型レイアウト**&#x200B;の学習者の役割のみをサポートします。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Intel® CoreTM i5以上
 >
 >サイズが 100 MB を超えている *user.csv* ファイルを読み込むと、ブラウザで予期しない問題が発生する可能性があります。 この問題は、ブラウザのメモリが不足している場合に発生します。
 
-大きなサイズの読み込みをお勧めします *user.csv* 自動Box/Exavaultワークフローを使用するファイル。 詳細については、以下を参照してください [ファイルの移行](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+自動Box/Exavaultワークフローを使用して、大きなサイズの&#x200B;*user.csv*&#x200B;ファイルを読み込むことをお勧めします。 詳細については、[ファイルの移行](/help/migrated/integration-admin/feature-summary/migration-manual.md)を参照してください。
 
 
 ## サポート対象コンテンツの形式
@@ -309,7 +309,7 @@ Intel® CoreTM i5以上
   </tr>
   <tr>
    <td>GetAbstracts コネクタ</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Box コネクタ</td>

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: カスタムドメインのサポート
 description: カスタムドメインは、Learning Manager の Azure インスタンスではサポートされていません。
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # カスタムドメインのサポート
 
@@ -22,7 +21,7 @@ ht-degree: 67%
 
 これにより、お客様はログインとアクセスのエクスペリエンスにホワイトラベルを付けて、アドビや Adobe Learning Manager がユーザーに表示されないように設定できます。
 
-例えば、ユーザーがAdobeドメインにいる場合と同じエクスペリエンスを得られるように、ドメインをカスタマイズすることができます。 ABC社が顧客のトレーニングを希望する場合は、 `abc.com/mylearning`の代わりに `learningmanager.adobe.com/abc-inc/mylearning`.
+例えば、ユーザーがAdobeドメインにいる場合と同じエクスペリエンスを得られるように、ドメインをカスタマイズすることができます。 ABC社が顧客のトレーニングを希望している場合、`learningmanager.adobe.com/abc-inc/mylearning`ではなく`abc.com/mylearning`というドメインへの登録を希望しています。
 
 >[!NOTE]
 >
@@ -31,10 +30,10 @@ ht-degree: 67%
 
 カスタムドメイン機能は、追加料金で利用できます。 詳細については、カスタマーサクセスマネージャーにお問い合わせください。
 
-* 学習者の役割の場合、ドメインは次で始まります `https://cdn.<customer_custom_domain>/` 例えば、 `https://cdn.elearningstage1.cpdomaintest.in/`
-* その他の役割の場合、ドメインは `https://<customer_custom_domain>/`. 例：`https://elearningstage1.cpdomaintest.in/`
+* 学習者の役割の場合、ドメインは`https://cdn.<customer_custom_domain>/`で始まります（例： `https://cdn.elearningstage1.cpdomaintest.in/`）
+* その他の役割の場合、ドメインは`https://<customer_custom_domain>/`で始まります。 例：`https://elearningstage1.cpdomaintest.in/`
 
-`<customer_custom_domain>` カスタマイズ可能なパーツです。
+`<customer_custom_domain>`はカスタマイズ可能なパーツです。
 
 ## アカウントのカスタムドメインを設定する方法 {#howtosetupacustomdomainonanaccount}
 
@@ -48,7 +47,7 @@ ht-degree: 67%
 
    * **learning.acme.com:** Adobeが共有するLearning ManagerのALBパブリックエンドポイント
    * **lrs.learning.acme.com:** learning.acme.comが指すALBパブリックエンドポイント
-   * **cdn.learning.acme.com:** Adobeによって共有されているCDNエンドポイント
+   * **cdn.learning.acme.com:** CDNエンドポイントがAdobeによって共有されました
 
 1. お客様は、次のドメインの SSL 証明書を提供する必要があります。
 

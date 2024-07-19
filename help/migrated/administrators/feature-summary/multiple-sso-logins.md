@@ -1,14 +1,14 @@
 ---
-description: AdobeのLearning Managerでは、社内ユーザーと社外ユーザーの両方に対して複数のSSO設定で複数のログイン方式をサポートしています。
+description: Adobe Learning Managerでは、社内ユーザーと社外ユーザーの両方に対して複数のSSO構成で複数のログイン方式をサポートしています。
 title: 複数の SSO ログイン
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # 複数の SSO ログイン {#multiple-sso-logins}
 
@@ -24,7 +24,7 @@ ht-degree: 39%
 
 ## 複数の SSO を有効にする
 
-複数のSSOを有効にするには、 **設定** > **ログインメソッド**.
+複数のSSOを有効にするには、**設定** > **ログイン方式**&#x200B;を選択します。
 
 設定ページで、社内または社外ユーザーに対して「複数のシングルサインオン(SSO)を有効にする」チェックボックスをオンにします。
 
@@ -39,7 +39,7 @@ SSOを構成するには、次の手順に従います。
    * SSO の名前を入力します。
    * SSO のタイプ（IDP から開始、または SP から開始）を選択します。
 
-      * 「IDPから開始」を選択した場合は、IDP URLを入力します。 この URL は、アプリケーションで一意の ID で、IDP サービスプロバイダーから提供される情報です。 AdobeのLearning Managerユーザーは、ログイン後にこのURLにリダイレクトされます。
+      * 「IDPから開始」を選択した場合は、IDP URLを入力します。 この URL は、アプリケーションで一意の ID で、IDP サービスプロバイダーから提供される情報です。 すべてのAdobe Learning Managerユーザーは、ログイン後にこのURLにリダイレクトされます。
       * IDP プロバイダーから IDP メタデータ XML をアップロードします。 このファイルには、IDP に関する情報が含まれます。この情報を使用すると、Adobe Learning Manager で SAML アサーションを認証できます。
       * 「SPから開始」を選択した場合は、エンティティIDを入力します。 エンティティ ID は、サービスプロバイダー（SP）が提供する URL です。
       * SP のログイン URL を入力します。 ユーザーはこの URL を使用してアプリケーションにログインします。

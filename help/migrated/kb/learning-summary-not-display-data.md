@@ -1,22 +1,21 @@
 ---
 jcr-language: en_us
 title: 学習の概要に最新のデータが表示されない
-description: 学習の概要で、Learning Manager Adobeの現在のデータが表示されない
+description: 学習の概要にAdobe Learning Managerの現在のデータが表示されない
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 48%
 
 ---
 
-
-
 # 学習の概要に最新のデータが表示されない
 
 ## 問題
 
-AdobeのLearning Managerで、登録、完了、進行中に関する最新のデータが学習の概要に表示されません。
+Adobe Learning Managerで、登録、完了、進行中に関する現在のデータが学習の概要に表示されません。
 
 学習者がコースを完了しても、 管理者やマネージャーが学習の概要を確認したときに、最新のデータが表示されないことがあります。
 
@@ -29,9 +28,9 @@ AdobeのLearning Managerで、登録、完了、進行中に関する最新の�
 学習の概要のデータは、次のスケジュールに従って更新されます。
 
 1. **当月：**&#x200B;このデータは毎日更新されます。最後に更新された時刻が、ページの下部に表示されます。
-1. **過去3か月：** このデータは月に1回更新されます。
-1. **過去12か月：** このデータは月に1回更新されます。
+1. **過去3か月：**&#x200B;このデータは月に1回更新されます。
+1. **過去12か月：**&#x200B;このデータは月に1回更新されます。
 
 ![](assets/learning-summary.png)
 
-*ページの下部にデータ更新メッセージが表示されます*
+*ページ下部にデータ更新メッセージが表示されます*

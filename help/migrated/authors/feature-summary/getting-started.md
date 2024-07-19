@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: 作成者の基本
-description: 「はじめに」ページを使用して、AdobeのLearning Managerの主要なオーサリング機能に移動します。
+description: 「はじめに」ページを使用して、Adobe Learning Managerの主要なオーサリング機能に移動します。
 contentowner: manochan
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt

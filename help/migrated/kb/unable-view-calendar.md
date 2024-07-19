@@ -3,14 +3,13 @@ jcr-language: en_us
 title: カレンダーを表示できない
 description: 管理者が社外登録プロファイルの有効期限を編集する際に、カレンダーをクリックして有効期限を編集しようとすると、カレンダーが表示されません。
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 88%
 
 ---
-
-
 
 # カレンダーを表示できない
 
@@ -41,12 +40,12 @@ ht-degree: 88%
 
 ### ディスプレイ設定
 
-1. クリック **[!UICONTROL 開始]** > **[!UICONTROL 設定]** > **[!UICONTROL システム]**.
+1. **[!UICONTROL 開始]** > **[!UICONTROL 設定]** > **[!UICONTROL システム]**&#x200B;をクリックします。
 1. **[!UICONTROL 「ディスプレイ」]**&#x200B;をクリックします。
 1. **[!UICONTROL 「拡大縮小とレイアウト」]**&#x200B;セクションで、ドロップダウンリストを使用します。 設定を 100％に変更します。
 
    ![](assets/scale-layout.png)
 
-   *表示設定の変更*
+   *ディスプレイ設定の変更*
 
 1. コンピューターを再起動します。

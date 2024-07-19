@@ -1,18 +1,17 @@
 ---
 jcr-language: en_us
 title: 必要システム構成 | Learning ManagerAdobe版デスクトップアプリケーション
-description: Learning ManagerデスクトップアプリケーションをAdobeするための必要システム構成
+description: Adobe Learning Managerデスクトップアプリケーションの必要システム構成
 contentowner: kuppan
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 70%
 
 ---
 
-
-
-# Learning ManagerデスクトップアプリケーションをAdobeするための必要システム構成
+# Adobe Learning Managerデスクトップアプリケーションの必要システム構成
 
 ## Windows {#windows}
 

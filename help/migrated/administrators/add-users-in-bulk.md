@@ -3,14 +3,13 @@ jcr-language: en_us
 title: ユーザーの一括追加
 description: 一度に複数のユーザーを追加する方法を説明します。
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 24%
 
 ---
-
-
 
 # ユーザーの一括追加
 
@@ -18,21 +17,21 @@ ht-degree: 24%
 
 [![ボタン](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
 
-トレーニングを起動できない場合は、にメッセージを送信してください。 <almacademy@adobe.com>.
+トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
 ## 複数のユーザーを追加する方法
 
 次の手順に従って、一度に複数のユーザーを追加できます。
 
-1. クリック **[!UICONTROL ユーザー]** 管理者ログインの左側のペインで、次に「 **[!UICONTROL 追加]** > **[!UICONTROL CSVをアップロード]**. ポップアップダイアログが表示されます。
+1. 管理者ログインの左ペインで&#x200B;**[!UICONTROL ユーザー]**&#x200B;をクリックしてから、**[!UICONTROL 追加]** > **[!UICONTROL CSVをアップロード]**&#x200B;をクリックします。 ポップアップダイアログが表示されます。
 
-1. .CSV ファイルを使用して、複数のユーザーを追加できます。 クリック **[!UICONTROL 読み込み]** コンピューターで.csvファイルを選択して開きます。
+1. .CSV ファイルを使用して、複数のユーザーを追加できます。 「**[!UICONTROL 読み込み]**」をクリックし、コンピューターで.csvファイルを選択して開きます。
 
 1. ファイルを読み込んだ後、最初に.csv ファイルをアップロードするときに、.csv ファイルの内容をアプリケーションラベルにマッピングします。
 
-   それ以降のすべてのアップロードでは、以前のラベルの設定が考慮されます。 クリック **[!UICONTROL 保存]** データのマッピングが完了したら、「 **[!UICONTROL 追加]** マッピングされた.csvファイルをアップロードします。
+   それ以降のすべてのアップロードでは、以前のラベルの設定が考慮されます。 データのマッピングが完了したら「**[!UICONTROL 保存]**」をクリックし、「**[!UICONTROL 追加]**」をクリックして、マップされた.csvファイルをアップロードします。
 
-1. クリック **[!UICONTROL 保存]** データのマッピングが完了したら、「 **[!UICONTROL 追加]** マッピングされた.csvファイルをアップロードします。
+1. データのマッピングが完了したら「**[!UICONTROL 保存]**」をクリックし、「**[!UICONTROL 追加]**」をクリックして、マップされた.csvファイルをアップロードします。
 
 ## 必須フィールドを含む CSV アップロード {#csvuploadwithmandatoryfields}
 
@@ -58,6 +57,6 @@ Learning ManagerのサンプルCSVは、以下の必須フィールドで利用�
 **サンプルCSV**
 
 Learning ManagerのサンプルCSVには、以下のすべてのフィールドが含まれています。
-[learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
+[learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)。
 
-詳しくは、「  [CSVアップロードの使用](/help/migrated/administrators/feature-summary/add-users-user-groups.md) 詳細については、機能のヘルプコンテンツを参照してください。
+詳細については、[CSVアップロードの使用](/help/migrated/administrators/feature-summary/add-users-user-groups.md)機能のヘルプコンテンツを参照してください。

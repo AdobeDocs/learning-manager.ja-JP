@@ -3,14 +3,13 @@ description: Learning Manager のカタログには、Learning Manager アカウ
 jcr-language: en_us
 title: カタログ
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 78%
 
 ---
-
-
 
 # カタログ
 
@@ -24,13 +23,13 @@ Learning Manager で利用可能なすべてのコースは、「コース」セ
 
 作成者は、アカウント内のすべてのコースのコレクションであるコースカタログを表示できます。
 
-作成者としてログインし、 **コースカタログ** 左ペインに、Learning Managerで組織が利用できるすべてのコースが一覧表示されます。
+作成者としてログインし、**コースカタログ**&#x200B;を左ペインでクリックして、組織のLearning Managerで利用可能なすべてのコースのリストを表示します。
 
 以下のスナップショットに示すフィルターオプションを使用して、カタログ内でコースを見つけます。
 
 ![](assets/search-options.png)
 
-*カタログでのコースの検索*
+*カタログ内でコースを検索*
 
 ## Adobe Connect を使用したバーチャルクラスルーム（VC）コースを作成 {#createvirtualclassroomvccoursewithadobeconnect}
 
@@ -46,7 +45,7 @@ Learning Manager で利用可能なすべてのコースは、「コース」セ
 
    ![](assets/choose-instructor.png)
 
-   *リストからインストラクターを選択します*
+   *一覧からインストラクターを選択してください*
 
 1. VC コースの完了条件を指定します。完了条件とは、コース完了と見なされるために学習者が出席する必要のあるコースの合計時間の割合です。 例えば、コースの時間を 1 時間としましょう。 50％を完了条件として指定した場合、学習者が 30 分間でもコースに出席すると、学習者はコースを完了したと見なされます。
 

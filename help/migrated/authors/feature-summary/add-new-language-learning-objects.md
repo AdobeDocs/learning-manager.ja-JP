@@ -3,14 +3,13 @@ description: このトピックでは、様々な言語でコース、認定資�
 jcr-language: en_us
 title: 様々なロケールで学習目標を追加
 contentowner: shhivkum
-source-git-commit: 6ad199812dda35eee8cd78593db0709b94623309
+exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 96%
 
 ---
-
-
 
 # 様々なロケールで学習目標を追加
 
@@ -24,12 +23,12 @@ Learning Manager では、複数の言語で学習オブジェクトを作成で
 
 ![](assets/addnewlocale.png)
 
-*新しい言語を追加*
+*新しい言語の追加*
 
 ポップアップダイアログボックスが表示されたら、学習者用の追加の言語を 1 つ以上選択して「保存」をクリックします。
 
 ![](assets/selectlang.png)
 
-*言語を選択*
+*言語の選択*
 
 コースを再パブリッシュすると、変更内容が反映されます。

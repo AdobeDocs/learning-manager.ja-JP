@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: 学習者
-description: Learning Manager Adobeの学習者
+description: Adobe Learning Manager学習者
 contentowner: manochan
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f

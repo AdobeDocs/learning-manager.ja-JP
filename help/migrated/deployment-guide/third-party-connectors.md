@@ -62,7 +62,7 @@ Learning Manager を Salesforce と統合するプロセスについて説明し
 
    ![](assets/mouserover-salesforce.png)
 
-1. 組織の URL を入力するように促すダイアログが表示されます。 クリック **[!UICONTROL Connect]** urlの入力後
+1. 組織の URL を入力するように促すダイアログが表示されます。 URLを入力した後、**[!UICONTROL [接続]]**&#x200B;をクリックします。
 1. 接続が成功すると、概要ページが表示されます。
 
 ## マップ属性 {#mapattributes}
@@ -73,9 +73,9 @@ Learning Manager を Salesforce と統合するプロセスについて説明し
 
    ![](assets/sfdc-map-columns.png)
 
-   左側に表示されているLearning Managerの列データは、アクティブフィールドから取得されます。 この **支配人** フィールドは、必ず電子メールアドレスタイプのフィールドにマッピングする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。
+   左側に表示されているLearning Managerの列データは、アクティブフィールドから取得されます。 **manager**&#x200B;フィールドは、必ず電子メールアドレスの種類のフィールドにマップする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。
 
-1. クリック **[!UICONTROL 保存]** マッピングの完了後。
+1. マッピングが完了したら、**[!UICONTROL [保存]]**&#x200B;をクリックします。
 1. これでコネクタは使用可能になりました。設定したアカウントは、管理者が読み込みをスケジュールしたり、オンデマンド同期を実行したりするための管理者アプリ内のデータソースとして表示されます。
 
 ## Salesforce コネクターの使用 {#usingsalesforceconnector}
@@ -114,7 +114,7 @@ Learning Manager を FTP コネクターと統合するプロセスについて�
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. ダイアログが表示され、電子メール ID を入力するように求められます。 組織のLearning Manager FTPアカウントの管理責任者の電子メールIDを入力します。 クリック **[!UICONTROL Connect]** 電子メールidの入力後
+1. ダイアログが表示され、電子メール ID を入力するように求められます。 組織のLearning Manager FTPアカウントの管理責任者の電子メールIDを入力します。 電子メールIDを入力した後、**[!UICONTROL 接続]**&#x200B;をクリックします。
 1. Learning Manager は、FTP に初めてアクセスする前にユーザーにパスワードの再設定を促す電子メールを送信します。ユーザーはパスワードをリセットし、Learning Manager FTP アカウントへのアクセスにそのパスワードを使用する必要があります。
 
    特定の Learning Manager アカウントに作成できる Learning Manager FTP アカウントは 1 つだけです。
@@ -139,12 +139,12 @@ Learning Manager を FTP コネクターと統合するプロセスについて�
 
 接続が正常に確立されたら、FTP フォルダー内に配置される CSV ファイルの列を Learning Manager の対応する属性にマッピングできます。この手順は必須です。
 
-1. マップ属性ページの左側にはLearning Managerの予想される列が表示され、右側にはCSVの列名が表示されます。 最初は右側に空の選択ボックスがあります。任意のテンプレートCSVを読み込むには、次をクリックします **ファイルを選択**.
+1. マップ属性ページの左側にはLearning Managerの予想される列が表示され、右側にはCSVの列名が表示されます。 最初は右側に空の選択ボックスがあります。**「ファイルを選択」**&#x200B;をクリックして、任意のテンプレートCSVを読み込みます。
 1. 上記の手順で、右側の選択ドロップダウンリストにすべての CSV 列名が表示されます。Learning Managerの列名にマッピングする適切な列名を選択します。
 
-   *マネージャーフィールドは、必ず電子メールアドレスタイプのフィールドにマッピングする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。*
+   *マネージャーフィールドは、必ず電子メールアドレスの種類のフィールドにマップする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。*
 
-1. クリック **[!UICONTROL 保存]** マッピングの完了後。
+1. マッピングが完了したら、**[!UICONTROL [保存]]**&#x200B;をクリックします。
 
    これでコネクタは使用可能になりました。設定したアカウントは、管理者が読み込みをスケジュールしたり、オンデマンド同期を実行したりするための管理者アプリ内のデータソースとして表示されます。
 
@@ -166,7 +166,7 @@ Learning Manager を FTP コネクターと統合するプロセスについて�
 1. すべてのCSVには、マッピングで指定された列が含まれている必要があります。
 1. プロセスを開始する前に、必要なすべてのCSVがフォルダーに存在している必要があります。
 
-ユーザーを Learning Manager に読み込む際、管理者はユーザーが Learning Manager で管理されている方法も把握しておく必要があります。詳しくは、「 [ユーザー管理ヘルプ](../integration-admin/feature-summary/migration-manual.md#usermanagement) 詳細情報を参照してください。
+ユーザーを Learning Manager に読み込む際、管理者はユーザーが Learning Manager で管理されている方法も把握しておく必要があります。詳細については、[ユーザー管理のヘルプ](../integration-admin/feature-summary/migration-manual.md#usermanagement)を参照してください。
 
 +++
 
@@ -176,7 +176,7 @@ Learning Manager を FTP コネクターと統合するプロセスについて�
 
 ユーザーのスキルレポートを書き出すには、2つのオプションがあります。
 
-**[!UICONTROL ユーザースキル – オンデマンド]**：開始日を指定し、オプションを使用してレポートを書き出すことができます。レポートは、入力された日付から現在までの間に抽出されます。
+**[!UICONTROL ユーザースキル – オンデマンド]**：開始日を指定し、オプションを使用してレポートをエクスポートできます。レポートは、入力された日付から現在までの間に抽出されます。
 
 ![](assets/user-skills-on-demand.png)
 
@@ -190,9 +190,9 @@ Learning Manager を FTP コネクターと統合するプロセスについて�
 
 ![](assets/ftp-folder.png)
 
-自動書き出しされたファイルは、この場所に存在します **Home/export/&#42;FTP_location&#42;**
+自動書き出しされたファイルは、場所&#x200B;**Home/export/&#42;FTP_location&#42;**&#x200B;にあります
 
-自動書き出しされたファイルは、 **skill_achievements_&#42;開始日&#x200B;&#42;_から_&#42;終了日&#42;.csv**
+自動書き出しされたファイルは、**skill_achievements_&#42;のタイトルで利用できます。開始日は&#x200B;&#42;_から_&#42;まで&#42;.csv**&#x200B;です。
 
 ![](assets/exported-csvs.png)
 
@@ -301,7 +301,7 @@ getAbstract.com をご利用のエンタープライズのお客様の場合、g
 
    同期のタイプを問わず、同期が動作するために、同期に指定された日付の getAbstract FTP フォルダーにユーザーフィードがあることを確認します。
 
-   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。ファイル名は、** report_export_yyyy_MM_dd_HHmmss.xlsxの形式に従う必要があり**す。または、 **report_export_yyyy_MM_dd.xlsx**.
+   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。ファイル名は** report_export_yyyy_MM_dd_HHmmss.xlsx}または**0}report_export_yyyy_MM_dd.xlsx **の形式に従う必要があります。**
    [getAbstractユーザーフィードサンプルExcelシート](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor コネクター {#hmmconnector}
@@ -528,11 +528,11 @@ miniOrange コネクターを使用して、Learning Manager と miniOrange の�
 
 Learning Manager 管理者は、読み込む前にユーザーにフィルタリングを適用できます。例えば、Learning Manager 管理者は、階層内のすべてのユーザーを 1 人以上の特定のマネージャーの管理下に読み込めます。
 
-miniOrangeコネクターを設定するには、Learning Manager CSMチームにお問い合わせください。
+を設定するには   miniオレンジ   コネクタを接続するには、Learning Manager CSMチームに連絡してください。
 
 ## miniOrange コネクタを構成する {#configureminiorangeconnector}
 
-1. Learning Managerホームページで、miniOrangeカード/サムネールにカーソルを合わせます。 メニューが表示されます。 クリック  **[!UICONTROL Connect]** をクリックします。
+1. Learning Managerホームページで、miniOrangeカード/サムネールにカーソルを合わせます。 メニューが表示されます。 メニューの&#x200B;**[!UICONTROL 接続]**&#x200B;オプションをクリックします。
 
    ![](assets/miniorange-tile.png)
 
@@ -540,17 +540,17 @@ miniOrangeコネクターを設定するには、Learning Manager CSMチーム�
 
    ![](assets/establish-connection.png)
 
-1. miniOrnageユーザーをLearning Manager社内ユーザーとして直接読み込む場合、 **[!UICONTROL 社内ユーザーのインポート]** オプションです。
+1. miniOrnageユーザーをLearning Manager社内ユーザーとして直接読み込む場合、**[!UICONTROL 社内ユーザーの読み込み]**&#x200B;オプションを使用します。
 
    ![](assets/import-users.png)
 
-1. マッピングページの左側にはLearning Managerの列が表示され、右側にはminiOrnageの列が表示されます。 Learning Managerの列名にマッピングする適切な列名を選択します。
+1. 左側のマッピングページ内   画面の右側にLearning Managerの列が表示され、   側miniOrnage列が表示されます。 Learning Managerの列名にマッピングする適切な列名を選択します。
 
    ![](assets/map-attributes.png)
 
 1. データソースを表示して編集するには、管理者として&#x200B;**[!UICONTROL 設定／データソース]**&#x200B;をクリックします。
 
-   確立されたminiOrangeソースがリストされます。 フィルターを編集する必要がある場合は、 **[!UICONTROL 編集]**.
+   確立されたminiOrangeソースがリストされます。 フィルターを編集する必要がある場合は、[**[!UICONTROL 編集]**]をクリックします。
 
    ![](assets/data-source.png)
 
@@ -566,7 +566,7 @@ Learning ManagerをBlueJeansコネクターと統合し、BlueJeansを使用し�
 
 コネクターを設定して使用するには、次の手順に従います。
 
-1. Learning Managerホームページで、BlueJeansカード/サムネールにマウスを合わせます。 メニューが表示されます。 クリック  **[!UICONTROL Connect]** をクリックします。
+1. Learning Managerホームページで、BlueJeansカード/サムネールにマウスを合わせます。 メニューが表示されます。 メニューから&#x200B;**[!UICONTROL [接続]]**&#x200B;オプションをクリックします。
 
    ![](assets/miniorange.png)
 
@@ -639,11 +639,11 @@ Learning Manager を Box コネクターと統合するプロセスについて�
 
 接続が正常に確立されたら、Boxフォルダーに配置されるCSVファイルの列を、Learning Managerの対応する属性にマッピングできます。 この手順は必須です。
 
-1. マップ属性ページの左側にはLearning Managerの予想される列が表示され、右側にはCSVの列名が表示されます。 最初は右側に空の選択ボックスがあります。「ファイルを選択」をクリックして、任意のテンプレートCSVを読み込みます。
+1. マップ属性ページの左側   画面の右側にLearning Managerの予想される列が表示されます   横にはCSV列の名前が表示されます。 最初は右側に空の選択ボックスがあります。「ファイルを選択」をクリックして、任意のテンプレートCSVを読み込みます。
 
 1. 上記の手順で、右側の選択ドロップダウンリストにすべての CSV 列名が表示されます。Learning Managerの列名にマッピングする適切な列名を選択します。
 
-   *マネージャーフィールドは、必ず電子メールアドレスタイプのフィールドにマッピングする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。*
+   *マネージャーフィールドは、必ず電子メールアドレスの種類のフィールドにマップする必要があります。 コネクタを使用する前に、すべての列をマッピングすることが必須です。*
 
 1. マッピングが完了したら、「保存」をクリックします。
 
@@ -664,7 +664,7 @@ Learning Manager を Box コネクターと統合するプロセスについて�
 1. すべてのCSVには、マッピングで指定された列が含まれている必要があります。
 1. プロセスを開始する前に、必要なすべてのCSVがフォルダーに存在している必要があります。
 
-ユーザーを Learning Manager に読み込む際、管理者はユーザーが Learning Manager で管理されている方法も把握しておく必要があります。詳しくは、「 [ユーザー管理ヘルプ](../integration-admin/feature-summary/migration-manual.md#usermanagement) 詳細情報を参照してください。
+ユーザーを Learning Manager に読み込む際、管理者はユーザーが Learning Manager で管理されている方法も把握しておく必要があります。詳細については、[ユーザー管理のヘルプ](../integration-admin/feature-summary/migration-manual.md#usermanagement)を参照してください。
 
 +++
 
@@ -682,9 +682,9 @@ Learning Manager を Box コネクターと統合するプロセスについて�
 
 Boxの場所に書き出されたファイルが配置される書き出しフォルダーを開くには、以下のように、ユーザースキルページで提供されているBoxフォルダーへのリンクを開きます。
 
-自動書き出しされたファイルは、この場所に存在します **Home/export/&#42;Box_location&#42;**
+自動書き出しされたファイルは、場所&#x200B;**Home/export/&#42;Box_location&#42;**&#x200B;にあります
 
-自動書き出しされたファイルは、 **skill_achievements_&#42;開始日&#x200B;&#42;_から_&#42;終了日&#42;.csv**
+自動書き出しされたファイルは、**skill_achievements_&#42;のタイトルで利用できます。開始日は&#x200B;&#42;_から_&#42;まで&#42;.csv**&#x200B;です。
 
 Learning Managerチームが共有するBoxフォルダーのアクセス権限とコンテンツは、お客様が管理する必要があります。  また、フォルダー内のコンテンツはフランクフルト地域に物理的に保存されます。
 

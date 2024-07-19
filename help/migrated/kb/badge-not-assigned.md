@@ -3,14 +3,13 @@ jcr-language: en_us
 title: バッジを割り当てられない
 description: 学習者がコース／学習プログラム／資格認定を完了しても、学習者にバッジが付与されません。
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 74%
 
 ---
-
-
 
 # バッジを割り当てられない
 
@@ -40,15 +39,15 @@ ht-degree: 74%
 
 1. 関連する学習目標（コース／学習プログラム）を開きます。
 
-1. クリック **[!UICONTROL インスタンス]** > **[!UICONTROL バッジ]**.
+1. **[!UICONTROL インスタンス]** > **[!UICONTROL バッジ]**&#x200B;をクリックします。
 
    ![](assets/view-a-badge.png)
 
-1. 学習目標からバッジを削除して「 **[!UICONTROL 保存]**.
+1. 学習目標からバッジを削除して、[**[!UICONTROL 保存]**]をクリックします。
 
    ![](assets/remove-a-badge.png)
 
-1. バッジを学習目標に再割り当てして「 **[!UICONTROL 保存]**.
+1. バッジを学習目標に再割り当てして「**[!UICONTROL 保存]**」をクリックします。
 
    この手順により、学習目標に登録されたすべての学習者にバッジが割り当てられます。
 
@@ -56,9 +55,9 @@ ht-degree: 74%
 
 1. 管理者としてログインします。
 1. 資格認定を開きます。
-1. クリック **[!UICONTROL 概要]** > **[!UICONTROL バッジ]**.
+1. **[!UICONTROL 概要]** > **[!UICONTROL バッジ]**&#x200B;をクリックします。
 1. 資格認定からバッジを削除して&#x200B;**[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
    ![](assets/remove-a-badge-cert.png)
 
-1. 資格認定にバッジを再割り当てして「 **[!UICONTROL 保存]**.
+1. 資格認定にバッジを再割り当てして「**[!UICONTROL 保存]**」をクリックします。

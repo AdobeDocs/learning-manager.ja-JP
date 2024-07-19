@@ -25,8 +25,8 @@ Boxストレージアカウントにログインした後、統合管理者は�
 
 操作を開始するには、csv をダウンロードして、必要に応じて値を変更します。
 
-* サンプルファイル: [role.csv](assets/role.csv)
-* サンプルファイル: [user_role.csv](assets/user_role.csv)
+* サンプルファイル： [role.csv](assets/role.csv)
+* サンプルファイル： [user_role.csv](assets/user_role.csv)
 
 **role.csv**
 
@@ -98,8 +98,8 @@ Boxストレージアカウントにログインした後、統合管理者は�
 * リーフ属性および値（Department=HR など）
 * セルフ登録プロファイルグループ（self_registration=profilename）
 * 社外登録プロファイルグループ（ext_registration=profilename）
-* マネージャーの直属の部下のチーム(manager_direct=`<emailid>`)
-* マネージャーの組織全体(manager_org=`<emailid>`)
+* マネージャーの直属の報告者のチーム(manager_direct=`<emailid>`)
+* マネージャーの完全な組織(manager_org=`<emailid>`)
 
 **user_role.csv**
 
@@ -149,8 +149,8 @@ CSV にカタログ名やユーザーグループ名を指定すると、これ�
 
 Box アカウントを使用して、**Import > user > internal** を選択し、files- role.csv と user_role.csv をアップロードします。
 
-* role.csvとuser_role.csvをフォルダーにコピーする必要があります **読み込み** > **user** > **内部** > **user_role**.
-* user.csvをフォルダーにコピーする必要があります **読み込み** > **user** > **内部**.
+* role.csvおよびuser_role.csvは、フォルダー&#x200B;**Import** > **user** > **internal** > **user_role**&#x200B;にコピーする必要があります。
+* user.csvは、フォルダー&#x200B;**Import** > **user** > **internal**&#x200B;にコピーする必要があります。
 
 両方のCSVはBox経由でのみアップロードする必要があり、UIを介してアップロードすることはできません。
 
@@ -170,7 +170,7 @@ CSVで作成されたカスタムの役割は、CSV自体で完全に管理で�
 
 統合管理者が役割ベースの CSV をコネクタストレージにアップロードすると、管理者は CSV との同期を有効にできます。カスタムの役割が CSV でアップロード、追加、削除されるたび、管理者はファイル内の情報を同期して、役割のリストを最新の状態にすることができます。
 
-管理者パネルの「はじめに」ページで、をクリックします。 **[!UICONTROL 設定]** > **[!UICONTROL データソース]**.
+管理者パネルの[はじめに]ページで、**[!UICONTROL 設定]** > **[!UICONTROL データソース]**&#x200B;をクリックします。
 
 「同期設定」セクションで、「**[!UICONTROL 自動同期を有効にする]**」オプションを有効にします。
 

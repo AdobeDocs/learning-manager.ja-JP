@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 作成者の基本
-description: 「はじめに」ページを使用して、AdobeのLearning Managerの主要なオーサリング機能に移動します。
+description: 「はじめに」ページを使用して、Adobe Learning Managerの主要なオーサリング機能に移動します。
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 54%
 
 ---
-
-
 
 # 作成者の基本
 
@@ -36,4 +35,3 @@ ht-degree: 54%
 チュートリアルビデオやヘルプコンテンツを表示して Learning Manager アプリケーションの詳細を学習し、さまざまな役割についても学習できます。
 
 <!--![](assets/author-experienceprime.png)-->
-

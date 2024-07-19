@@ -3,22 +3,21 @@ jcr-language: en_us
 title: iPad および Android タブレットのユーザー
 description: iPadおよびAndroidタブレットユーザー
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 72%
 
 ---
 
-
-
 # iPad および Android タブレットのユーザー
 
-iPadやAndroidタブレット向けのLearning Managerアプリに学習者としてログインすると、以下が表示されます **ホーム** 画面：
+iPadやAndroidタブレット向けのLearning Managerアプリに学習者としてログインすると、次の&#x200B;**ホーム**&#x200B;画面が表示されます。
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-学習機能とカタログ機能に移動するには、 **メニュー** ドロップダウンで適切なオプションを選択します。
+学習機能とカタログ機能に移動するには、**メニュー**&#x200B;のドロップダウンをタップし、適切なオプションを選択します。
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ iPad や Android タブレットでは、Learning Manager アプリにオフラ�
 
 デバイスのストレージは定期的に監視できます。
 
-アプリの右上隅にあるプロフィールアイコンをタップしてをタップします。 **デバイスストレージ** メニューオプション。
+アプリの右上隅にあるプロフィールアイコンをタップし、**デバイスストレージ**&#x200B;のメニューオプションをタップします。
 
 ![](assets/app-device-storage.png)
 

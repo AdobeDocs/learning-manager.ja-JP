@@ -40,24 +40,24 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 ユーザーを消去するには、次の手順に従います。
 
 1. 管理者として、左側のペインから「**[!UICONTROL ユーザー]**」を選択します。 **[!UICONTROL 社内ユーザー]**&#x200B;ページが開きます。
-1. 消去したいユーザーを削除します。 チェックボックスを使用して、削除するユーザーを選択します。一度に複数のユーザーを選択することも可能です。 を開きます **[!UICONTROL 操作]** ドロップダウンで選択 **[!UICONTROL ユーザーの削除]**
+1. 消去したいユーザーを削除します。 チェックボックスを使用して、削除するユーザーを選択します。一度に複数のユーザーを選択することも可能です。 「**[!UICONTROL アクション]**」ドロップダウンを開き、「**[!UICONTROL ユーザーを削除]**」を選択します。
 1. 左側のペインで、「**[!UICONTROL ユーザークリーンアップ]**」を選択します。 **[!UICONTROL ユーザークリーンアップ]**&#x200B;ページが表示され、削除されたユーザーのリストが表示されます。 ラジオボタンを使用して、消去するユーザーを選択します。 一度に消去できるユーザーは 1 人だけです。
 
    ![](assets/purge-1.png)
 
-   *消去するユーザーを選択*
+   *消去するユーザーを選択してください*
 
-1. を開きます **[!UICONTROL アクション]** ドロップダウンメニューと選択 **[!UICONTROL ユーザーを消去]**.
+1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューを開き、「**[!UICONTROL ユーザーを消去]**」を選択します。
 
    ![](assets/purge-2.png)
 
-   *「ユーザーを消去」オプションを選択します*
+   *[ユーザーの消去]オプションを選択する*
 
-1. 確認のためのダイアログボックスが表示されます。 一度消去すると、選択したユーザーに関連付けられたすべてのユーザーデータと学習レコードは永久的に削除され、 操作を元に戻すことはできません。 確定するには、 **[!UICONTROL 消去]**.
+1. 確認のためのダイアログボックスが表示されます。 一度消去すると、選択したユーザーに関連付けられたすべてのユーザーデータと学習レコードは永久的に削除され、 操作を元に戻すことはできません。 確認するには、[**[!UICONTROL 消去]**]をクリックします。
 
    ![](assets/purge-3.png)
 
-   *ユーザーの削除後の確認メッセージ*
+   *ユーザーを削除した後の確認メッセージ*
 
 1. 確認して「消去」をクリックすると、消去リクエストが承認されます。 操作が完了すると、通知が届きます。 また、消去リクエスト ID が送られます。 この ID を CSM に提供すると、リクエストを追跡できます。
 
@@ -67,7 +67,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 ![](assets/bulk-purge-users.png)
 
-*ユーザーを一括で消去*
+*ユーザーを一括消去*
 
 +++ユーザーの消去アクションの結果について読む
 
@@ -138,7 +138,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    <td>可</td>
   </tr>
   <tr>
-   <td><strong>消去</strong> <strong>その他のユーザー – エンタープライズ以外（社内ユーザーまたは外部のLearning Managerユーザーでない場合）</strong></td>
+   <td><strong>消去</strong> <strong>その他のユーザー – Enterprise以外のユーザー（社内ユーザーまたは外部のLearning Managerユーザーでない場合）</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 +++
 
-Learning ManagerはGDPRに準拠しました。 GDPRの準拠に関する詳細については、「  [GDPRに対するLearning Managerのコンプライアンス](../../kb/prime-gdpr.md).
+Learning ManagerはGDPRに準拠しました。 GDPR準拠に関する詳細については、[Learning ManagerのGDPR準拠](../../kb/prime-gdpr.md)を参照してください。
 
 ## よくある質問 {#frequentlyaskedquestions}
 

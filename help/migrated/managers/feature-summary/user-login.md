@@ -3,14 +3,13 @@ description: Learning Manager のマネージャーとしてユーザーログ�
 jcr-language: en_us
 title: ユーザーログイン
 contentowner: manochan
-source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
+exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 59%
 
 ---
-
-
 
 # ユーザーログイン
 
@@ -26,7 +25,7 @@ Adobe Learning Manager を初めて使用する場合は、以下の手順でア
 
    ![](assets/adobeid-signin.png)
 
-   *AdobeのLearning Managerにサインイン*
+   *Adobe Learning Managerにログイン*
 
 1. Adobe ID とパスワードを入力し、「サインイン」をクリックします。
 
