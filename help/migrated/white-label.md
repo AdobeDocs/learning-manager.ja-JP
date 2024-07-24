@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
+source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Adobe Learning Managerモバイルアプリは、ホワイトラベルをサポ�
 
    <td>
 
-    <p>アプリアイコンをpngに変換します。 このアイコンはアプリに表示されます。 名前の形式はaccount-id_appIcon.pngです。 アプリアイコンのサイズは512 × 512ピクセルです。<div><b>注意：</b> Appleでは、アプリアイコンのAlphaチャンネルを使用できないことに注意してください。 そのため、必ずアセットからAlphaチャンネルを削除してから送信してください。</div></p>
+    <p>アプリアイコンをpngに変換します。 このアイコンはアプリに表示されます。 名前の形式はaccount-id_appIcon.pngです。 アプリアイコンのサイズは512 × 512ピクセルです。<div>Appleのアプリアイコンでは、Alphaチャンネルを使用できません。 そのため、必ずアセットからAlphaチャンネルを削除してから送信してください。</div></p>
 
    </td>
 
