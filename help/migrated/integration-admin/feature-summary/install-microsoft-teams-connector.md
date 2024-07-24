@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager で Microsoft Teams コネクターをインストール
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 24%
+source-wordcount: '1138'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ## 概要
 
-Microsoft® Teams® は、文書の共有、オンラインミーティング、その他ビジネスコミュニケーション機能全般をサポートする、チャットベースの持続的なコラボレーションプラットフォームです。
+Microsoft Teams®は、文書の共有、オンラインミーティング、その他ビジネスコミュニケーション機能全般をサポートする、チャットベースの持続的なコラボレーションプラットフォームです。
 
 Adobe Learning Managerでは、Microsoft TeamsミーティングをLearning Managerに統合するために、バーチャル教室コネクターを使用しています。
 
@@ -51,8 +51,7 @@ Microsoft Teams のコネクターにより、Learning Manager と Microsoft Tea
 
 Office 365 E3またはOffice 365 E5を使用している場合は、Microsoft Teamsコネクタにアクセスできます。 推奨されるオプションはOffice 365 E5です。
 
-* [Microsoftプランのページ](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)にアクセスします。 ウェブページで、E3またはE5アカウントを購入するか、「無料で試す」をクリックします。
-
+* [Microsoftプラン](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)をご覧ください。 ウェブページで、E3またはE5アカウントを購入するか、「無料で試す」をクリックします。
 * 必要な情報を入力し、アカウントを作成します。
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Office 365 E3またはOffice 365 E5を使用している場合は、Microsoft Te
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. [**[!UICONTROL Adobeに管理者アクセス権を付与]**]をクリックします。
 1. **[!UICONTROL アプリの役割]** > **[!UICONTROL アプリの役割の作成]**&#x200B;をクリックします。
@@ -154,17 +154,17 @@ PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリ�
 1. **[!UICONTROL [製品ライセンスの管理]]**&#x200B;をクリックします。
 1. 電話会議機能のないOffice 365 E5のライセンスを有効にします。
 
-## セッションの記録
+<!--## Record a session
 
-セッションの記録に用いられる API は保護されています。 API にアクセスするには Microsoft にアクセスを申請する必要があります。 詳細については、この[ドキュメント](https://docs.microsoft.com/en-us/graph/teams-protected-apis)を参照してください。
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-文書には以下の記載があります。
+In the document,
 
-*「これらの保護されたAPIへのアクセスを要求するには、次の[要求フォーム](https://aka.ms/teamsgraph/requestaccess)に入力してください。 アクセス申請は毎週水曜日に審査され、米国の主な休日を除き毎週金曜日に承認されます。休日期間中に提出された申請は、翌営業週に処理されます。 申請が承認されたかどうかを確認するには、翌営業週の月曜日にアプリケーションアクセスをテストしてください。&quot;*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-学習者には、VC コースの概要ページに記録用 URL が表示されます。
+For learners, the recording URL is displayed on the VC course overview page.
 
-学習者の出席はコース終了の 30 分後にマークされます。
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## よくある質問
 
