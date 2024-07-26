@@ -4,7 +4,7 @@ jcr-language: en_us
 title: ゲーミフィケーション
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ Learning Manager ではゲーミフィケーションの仕組みを使用して
 ## リーダーボード {#leaderboard}
 
 リーダーボードはゲーミフィケーション機能の一部で、競合相手のランキングを示すスコアボードとして機能します。学習者はリーダーボードを使用してゲーミフィケーションポイントを確認できます。
+
+![](assets/leaderboard.png)
 
 学習者のホームページで、左ペインから「**[!UICONTROL ゲーミフィケーション]**」をクリックします。 リーダーボードを表示するには、リーダーボードのリンクをクリックします。 この機能を使用することで、特定のチームメンバーとの対戦状況を把握することができます。 また、チーム内のメンバー間のランキングを把握することもできます。
 

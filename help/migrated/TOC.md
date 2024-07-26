@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '606'
 ht-degree: 87%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 87%
    * [ログイン](learners/feature-summary/user-login.md)
    * [プロファイル設定](learners/feature-summary/settings.md)
    * [カタログ](learners/feature-summary/catalogs.md)
-   * [コース](learners/feature-summary/courses.md)
+   * [学習状況](learners/feature-summary/courses.md)
    * [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
    * [学習プログラム](learners/feature-summary/learning-programs.md)
    * [資格認定](learners/feature-summary/certifications.md)
@@ -149,6 +149,7 @@ ht-degree: 87%
    * [作成者のよくある質問（FAQ）](authors/frequently-asked-questions-for-authors.md)
    * [インストラクターのよくある質問（FAQ）](instructors/frequently-asked-questions-for-instructors.md)
    * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
+   * [学習者のよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
 * サポート情報{#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)

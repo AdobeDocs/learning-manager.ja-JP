@@ -4,10 +4,10 @@ title: 学習者のよくある質問（FAQ）
 description: Adobe Learning Managerの学習者のよくある質問(FAQ)
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -351,6 +351,18 @@ Learning Manager では、コンテンツをブックマークして再利用で
 1. 「メモ」タブをクリックします。
 1. 登録した電子メール ID にメモを送信するには、「メモを電子メールで送信」オプションをクリックします。
 1. PDF としてメモをダウンロードするには、「メモのダウンロード」をクリックします。
+
++++
+
++++デスクトップ版のアプリはどこからダウンロードできますか？
+
+次の手順に従って、デスクトップバージョンをダウンロードします。
+
+1. 学習者としてログインします。
+2. **[!UICONTROL ソーシャル学習]**&#x200B;をクリックします。
+3. **[!UICONTROL 新しい投稿]**&#x200B;をクリックし、スクリーンショットに示すように、次のいずれかのアイコンをクリックします。
+
+アプリケーションのダウンロードが開始されます。
 
 +++
 

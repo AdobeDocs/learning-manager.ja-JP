@@ -4,10 +4,10 @@ jcr-language: en_us
 title: インストラクターのよくある質問（FAQ）
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Learning Manager のインストラクターに関するよくある質問につ
 +++インストラクターはセッションを変更できますか？
 
 インストラクターは、自身が割り当てられているセッションの詳細のみを表示および編集できます。 他のセッションの詳細や出席者リストを変更することはできません。
+
++++
+
++++外部ユーザーにインストラクターの役割を割り当てるには？
+
+* 既定では、**[!UICONTROL 外部ユーザー]**&#x200B;の&#x200B;**[!UICONTROL 割り当て]**&#x200B;セクションに、**[!UICONTROL マネージャーの作成]**&#x200B;または&#x200B;**[!UICONTROL 作成者の作成]**&#x200B;のみが表示されます。
+* **インストラクター**&#x200B;の役割をLMSの任意のユーザーに割り当てる場合、それらを&#x200B;**インストラクター**&#x200B;として&#x200B;**[!UICONTROL 教室]**&#x200B;または&#x200B;**[!UICONTROL 仮想教室]**&#x200B;モジュールに追加すると、**インストラクター**&#x200B;の役割がLMSのユーザーに自動的に提供されます。
 
 +++

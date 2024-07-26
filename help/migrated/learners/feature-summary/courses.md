@@ -1,17 +1,17 @@
 ---
 description: この記事では、Learning Manager でコースを表示および使用する方法について説明します。ディスカッションに参加して、フィードバックを提出します。
 jcr-language: en_us
-title: コース
+title: 学習状況
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# コース
+# 学習内容
 
 この記事では、Learning Manager でコースを表示および使用する方法について説明します。ディスカッションに参加して、フィードバックを提出します。
 
@@ -25,7 +25,7 @@ Adobe Learning Manager では、学習者がコース、学習プログラムお
 >
 >学習者は、Apple StoreからLearning Manager iPadアプリをインストールするか、Google PlayからLearning Manager Androidアプリをインストールすることで、モバイルデバイスからもコースにアクセスできます。 学習者の役割で使用できる機能はすべてアプリでも使用できます。コースはオフラインでも受講できます。オンラインに戻った後はコースにシームレスにアクセスできます。詳細については、[iPadおよびAndroidタブレットユーザー](ipad-android-tablet-users.md)機能を参照してください。
 
-## コースの表示 {#viewingcourses}
+## 学習目標の表示 {#viewingcourses}
 
 学習者が利用できるコースは、すべて一覧表示することができます。ホームページまたは左ペインで「学習状況」をクリックし、登録しているすべてのコースを表示します。
 

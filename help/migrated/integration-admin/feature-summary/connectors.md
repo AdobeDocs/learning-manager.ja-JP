@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '15924'
-ht-degree: 60%
+source-wordcount: '15848'
+ht-degree: 59%
 
 ---
 
@@ -326,19 +326,20 @@ Boxコネクターを使用して、データの移行、ユーザーの読み�
 
 ### データの読み込み {#dataimport}
 
-ユーザー読み込みプロセスにより、Learning Manager 管理者は Learning Manager FTP サービスから従業員の詳細を取得し、その情報を Learning Manager に自動的に読み込ませることができます。この機能を使用すると、それらのシステムによって生成された CSV を FTP アカウントの適切なフォルダーに配置することによって、複数のシステムを統合できます。Learning Manager は CSV ファイルを取得し、ファイルをマージして、設定したスケジュールに従ってデータを読み込みます。詳細については、「スケジューリング」機能を参照してください。
+ユーザー読み込みプロセスにより、Learning Manager管理者はLearning Manager FTPサービスから従業員の詳細を取得し、その情報をLearning Managerに自動的に読み込ませることができます。 この機能を使用すると、それらのシステムによって生成された CSV を FTP アカウントの適切なフォルダーに配置することによって、複数のシステムを統合できます。Learning ManagerはCSVファイルを取得し、ファイルを結合して、スケジュールに従ってデータを読み込みます。 詳細については、「スケジュール」機能を参照してください。
 
 **マップ属性**
 
-統合管理者は CSV の列を選択し、その情報を Learning Manager のグループ化が可能な属性にマッピングできます。このマッピングは一度だけの作業です。マッピングがされると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むための別のマッピングが必要な場合は、マッピングを再構成できます。
+統合管理者はCSVの列を選択し、その列をLearning Managerのグループ化可能属性にマッピングできます。 このマッピングには時間がかかります。 マッピングがされると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むための別のマッピングが必要な場合は、マッピングを再構成できます。
+
 
 #### データの書き出し {#exportdata}
 
 データの書き出しでは、あらゆるサードパーティー製のシステムに統合するためにユーザーがユーザースキル、学習者のトランスクリプトを FTP の場所に書き出すことができます。
 
-#### スケジューリング {#scheduling}
+#### スケジューリング
 
-管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Manager アプリケーション内のユーザーは、設定されたスケジュールに従って最新の情報に更新されます。同様に、統合管理者は、外部システムと統合されるのに都合のいい時間にスキルの書き出しをスケジュール設定することができます。Learning Manager アプリケーションで、同期が毎日実行されます。
+管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Managerアプリケーション内のユーザーは、スケジュールに従って最新の状態になります。 同様に、統合管理者は、外部システムと統合されるようにスキルの書き出しをスケジュールすることができます。 Learning Managerアプリケーションで同期を毎日実行できます。
 
 ### Learning Manager FTP コネクターを構成する {#configurecaptivateprimeftpconnector}
 
@@ -346,30 +347,80 @@ FTPコネクターとLearning Managerを統合するためのプロセスを学�
 
 #### 接続の作成 {#Createaconnection-1}
 
-1. Learning Manager ホームページで、FTP カード / サムネイルの上にカーソルを移動します。メニューが表示されます。 メニューの&#x200B;**[!UICONTROL 接続]**&#x200B;項目をクリックします。
+1. Learning Managerホームページで、FTPカード/サムネールの上にマウスを置きます。 メニューが表示されます。 メニューで「接続」項目を選択します。
 
    ![](assets/mouseover-ftpconnector.png)
 
    *接続オプション*
 
-1. ダイアログが表示され、電子メール ID を入力するように求められます。 組織のLearning Manager FTPアカウントの管理責任者の電子メールIDを入力します。 電子メールIDを入力した後、**[!UICONTROL 接続]**&#x200B;をクリックします。
-1. Learning Manager は、FTP に初めてアクセスする前にユーザーにパスワードの再設定を促す電子メールを送信します。ユーザーはパスワードをリセットし、Learning Manager FTP アカウントへのアクセスにそのパスワードを使用する必要があります。
+FTPクライアントを使用してFTPサーバーに接続するには、次の情報が必要です。
+
+* **FTPドメイン**：接続するFTPサーバーのアドレスです。 例えば、 ftp.example.comのように入力します。
+* **ポート**：既定のFTPポートは21ですが、セキュリティ上の理由から、サーバーによっては別のポートを使用する場合があります。 Adobe Learning Managerの場合 – ポート22
+* **FTPユーザー名**: FTPサーバーにアクセスするために必要なユーザー名です。
+* **FTPパスワード**:ユーザー名に関連付けられたパスワードです。
+
+**FileZilla (Windows、macOS、およびLinux)**
+
+**手順1: FileZillaをダウンロードしてインストールする**
+
+FileZillaをまだインストールしていない場合は、次の公式Webサイトからダウンロードしてください： [ダウンロード](https://filezilla-project.org/)。コンピューターにインストールします。
+
+**手順2: FileZillaを開く**
+
+インストールが完了したら、コンピューターでFileZillaを起動します。
+
+**手順3: FTPサーバー情報を収集する**
+
+**手順4: FileZillaにFTPサーバー情報を入力する**
+
+トップメニューで、**[!UICONTROL ファイル]**&#x200B;を選択し、**[!UICONTROL サイトマネージャー]**&#x200B;を選択します（または、ショートカットCtrl + Sを使用します）。
+
+**手順5：新しいFTPサイトを追加する**
+
+サイトマネージャーで、**新しいサイト**&#x200B;を選択し、名前（例： My FTP Server）を入力します。
+
+**手順6: FTPの詳細を入力する**
+
+次の情報を入力します。
+
+* **ホスト**: FTPサーバーのアドレスを入力してください。
+* **ポート**:サーバーが21を超えるポートを使用している場合は、正しいポート番号を入力してください。
+* **プロトコル**: **[!UICONTROL SFTP - SSHファイル転送プロトコル]**&#x200B;を選択します。
+* **ログオンの種類**: **[!UICONTROL 標準]**&#x200B;を選択します。
+* **ユーザー**: FTPユーザー名を入力してください。
+* **パスワード**: FTPパスワードを入力します。
+
+**手順7: FTPサーバーに接続する**
+
+サイトマネージャーで[**[!UICONTROL 接続]**]ボタンを選択します。 すべての情報が正しい場合、FileZillaはFTPサーバに接続します。
+
+**手順8:ファイルの移動と転送**
+
+接続すると、右側にリモートファイル、左側にローカルファイルが表示されます。 パネル間でファイルをドラッグ&amp;ドロップして、ディレクトリを移動したりファイルを転送したりできます。
+
+>[!CAUTION]
+>
+>ファイルを転送するときは、サーバー上の重要なファイルを変更しないでください。
+
+<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
    >
-   >特定の Learning Manager アカウントに作成できる Learning Manager FTP アカウントは 1 つだけです。
+   >Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   概要ページでは、統合の接続名を指定できます。 次のオプションから、実行するアクションを選択します。
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take  from  the following options:
 
-   * 社内ユーザーの読み込み
-   * xAPI の読み込み
-   * ユーザースキルの書き出し - スケジュールの設定
-   * ユーザースキルの書き出し - オンデマンド
-   * 学習者のトランスクリプトの書き出し – スケジュールの設定
-   * 学習者のトランスクリプトの書き出し – オンデマンド
+   * Import Internal Users  
+   * Import xAPI
+   * Export User Skills - Configure a Schedule  
+   * Export User Skills - OnDemand  
+   * Export Learner Transcripts - Configure a Schedule
+   * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *書き出しオプション*
+   *Export options*-->
 
 ### 読み込み
 
@@ -393,8 +444,6 @@ FTPコネクターとLearning Managerを統合するためのプロセスを学�
 1. マッピングが完了したら、**[!UICONTROL [保存]]**&#x200B;をクリックします。
 
    これでコネクタは使用可能になりました。設定したアカウントは、管理者が読み込みをスケジュールしたり、オンデマンド同期を実行したりするための管理者アプリ内のデータソースとして表示されます。
-
-
 
 +++
 
@@ -477,53 +526,51 @@ xAPI の読み込みオプションにより、サードパーティ製サービ
 
 +++
 
-### 書き出し
+<!--### Export
 
-+++スキル
++++Skills
 
-ユーザーのスキルレポートを書き出すには、2つのオプションがあります。
+There are two options to export User skill reports.
 
-**[!UICONTROL ユーザースキル – オンデマンド]**：開始日を指定し、オプションを使用してレポートをエクスポートできます。 レポートは現在までに入力された日付から抽出されます。
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
-*オンデマンド書き出しオプション*
+*On demand export option*
 
-**[!UICONTROL ユーザースキル - 設定]**：このオプションではレポートの抽出をスケジュールできます。「スケジュールを有効にする」チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
-*レポートのエクスポートを構成する*
+*Configure export of report*
 
 +++
 
-書き出されたファイルが保存されている書き出しフォルダーを開くには、次に示すように、ユーザースキルページで提供されているFTPフォルダーへのリンクを開きます。
+To open the Export folder where the exported files are placed, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
-*ファイルを表示するためのFTPフォルダー*
+*FTP folder to view files*
 
-自動書き出しされたファイルは、場所&#x200B;**Home/export/&#42;FTP_location&#42;**&#x200B;にあります
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-自動書き出しされたファイルは、タイトル&#x200B;**skill_achievements_&#42;の利用可能な日付（&#42;_から_&#42;まで&#42;.csv**）
+The auto-exported files are available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
-*.csvファイルをエクスポートしました*
+*Exported .csv file*
 
-+++学習者のトランスクリプト
++++Learner Transcript
 
 ![](assets/on-demand-report.png)
 
-**構成**：このオプションでは、レポートの抽出をスケジュールできます。 「スケジュールを有効にする」チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。
+**Configure**: This option  let's  you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/configure-report.png)
 
 +++
 
-書き出されたファイルが保存されているFTPの書き出しフォルダーを開くには、次に示すように、学習者のトランスクリプトページに表示されるFTPフォルダーへのリンクを開きます
+To open the Export folder where the exported files are placed in your FTP location, open the link to FTP Folder provided on the Learner Transcript page as shown below
 
-自動書き出しされたファイルは、場所&#x200B;**Home/export/&#42;FTP_location&#42;**&#x200B;にあります
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-自動書き出しされたファイルは、タイトル&#x200B;**learner_transcript_&#42;日付（&#42;_から_&#42;まで&#42;.csv**）で利用できます
-
-![](assets/exported-file.png)
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
 ### マニュアル csv フィールドのサポート {#supportformanualcsvfields}
 

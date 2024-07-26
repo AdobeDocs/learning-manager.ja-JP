@@ -4,10 +4,10 @@ title: 管理者のよくある質問（FAQ）
 description: Adobe Learning Manager管理者のよくある質問(FAQ)
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Learning Managerサポートチームにお問い合わせください。
 Learning Manager を開いているブラウザーで、アカウント ID を取得できます。
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++LMSのすべてのコースのリストが表示されるレポートはありますか？
+
+はい、LMSのすべてのコース、学習プログラム、資格認定を含む&#x200B;**[!UICONTROL トレーニングレポート]**&#x200B;を取得できます。 レポートをダウンロードするには、次の手順に従います。
+
+1. 管理者としてログインします。
+2. **[!UICONTROL レポート]** > **[!UICONTROL カスタムレポート]** > **[!UICONTROL Excelレポート]** > **[!UICONTROL トレーニングレポート]**&#x200B;をクリックします。
+3. ドロップダウンから「**[!UICONTROL すべてのトレーニング]**」を選択します。
+4. 「**[!UICONTROL ダウンロード]**」をクリックします。
+
++++
+
++++デスクトップ版のアプリはどこからダウンロードできますか？
+
+次の手順に従って、デスクトップバージョンをダウンロードします。
+
+1. 管理者としてログインします。
+2. **[!UICONTROL ソーシャル学習]** > **[!UICONTROL 設定]**&#x200B;をクリックします。
+3. **[!UICONTROL [構成のダウンロード]]**&#x200B;で、お使いのオペレーティングシステムに応じてハイパーリンクをクリックします。
 
 +++
