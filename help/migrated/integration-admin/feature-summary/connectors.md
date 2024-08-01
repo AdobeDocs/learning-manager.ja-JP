@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -762,14 +762,14 @@ Harvard ManageMentor をご利用のエンタープライズのお客様は、Ha
 
    同期を成功させるには、Harvard ManageMentor の FTP フォルダーに次のファイルの少なくとも 1 つが存在することを確認してください。
 
-   hmm12_metadata.xlsx：このファイルは、Harvard ManageMentor コネクタのコースメタデータを提供します。ファイルをアップロードするときは、必ず命名規則に従ってください。
+   hmm12_metadata.csv：このファイルは、Harvard ManageMentorコネクタのコースメタデータを提供します。 ファイルをアップロードするときは、必ず命名規則に従ってください。
 
-   client_hmm12_20150125.xlsx：これは、Harvard ManageMentor コネクタのユーザーフィードです。以下のファイル命名規則は、**client_hmm12_yyyyMMdd.xlsx** です。
+   client_hmm12_20150125.csv: Harvard ManageMentorコネクタのユーザーフィードです。 次のファイル命名規則は、**client_hmm12_yyyyMMdd.csvです。**
 
-   このコネクタについて、次の 2 つのサンプルユーザーフィードおよびコースフィードファイルを参照してください。
+   このコネクターについて、次の 2 つのサンプルユーザーフィードおよびコースフィードファイルを参照してください。
 
-   * [Harvard ManageMentorコネクタのコースメタデータファイル](assets/hmm12-metadata.xlsx)
-   * [Harvard ManageMentor コネクターのユーザーフィード](assets/client-hmm12-20170304.xlsx)
+   * [Harvard ManageMentorコネクタのコースメタデータファイル](assets/hmm12-metadata.csv)
+   * [Harvard ManageMentor コネクターのユーザーフィード](assets/client-hmm12-20170304.csv)
 
 ## Workday コネクタ {#workdayconnector}
 
