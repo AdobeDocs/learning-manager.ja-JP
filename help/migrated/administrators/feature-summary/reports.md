@@ -4,9 +4,9 @@ jcr-language: en_us
 title: レポート
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ _準拠ダッシュボード – 管理者ビュー_
 
 1. **[!UICONTROL レポート]** > **[!UICONTROL 学習の概要]**&#x200B;に移動します。
 1. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションで、**[!UICONTROL マネージャーと共有]**&#x200B;を選択します。
-1. **[!UICONTROL ダッシュボードの共有]**&#x200B;を選択し、**[!UICONTROL カスタムコンプライアンス]**&#x200B;のドロップダウンメニューから作成されたラベルを選択します。
+1. **[!UICONTROL ダッシュボードの共有]**&#x200B;を選択し、**[!UICONTROL 準拠ラベルの選択]**&#x200B;ドロップダウンメニューから作成されたラベルを選択します。
 
 
    ![](assets/compliance-type.png)

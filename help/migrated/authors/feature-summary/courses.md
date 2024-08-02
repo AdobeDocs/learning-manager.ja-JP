@@ -4,9 +4,9 @@ jcr-language: en_us
 title: コースの作成、変更、公開
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
+source-wordcount: '7145'
 ht-degree: 72%
 
 ---
@@ -120,6 +120,10 @@ Adobe Learning Manager を使用すると、作成者は仮想トレーニング
    >[!IMPORTANT]
    >
    >カスタムコンプライアンスを追加する場合は、コースの期限を必ず設定してください。
+
+   >[!NOTE]
+   >
+   >カスタムの準拠タイプのラベルでは、最大50のコース、学習パス、または資格認定に同じ値を設定できます。
 
 1. コース/学習パス/資格認定を保存して公開します。
 コース/学習パス/資格認定は、準拠タイプと見なされます。 管理者はこのコースを準拠ダッシュボードに追加し、マネージャーと共有して進捗状況を追跡できます
