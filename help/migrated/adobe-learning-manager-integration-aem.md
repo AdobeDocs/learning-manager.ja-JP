@@ -4,7 +4,7 @@ title: Adobe学習マネージャーリファレンスサイト（ALM リファ�
 description: Adobeラーニングマネージャー (ALM) はAdobe Experience Manager(AEM) サイトと統合します。 これにより、コーディングの労力を最小限に抑えながら、独自の Web サイトとレスポンシブなモバイルAdobeインターフェイスを作成して Learning Manager にアクセスできます。 この統合により、ユーザー向けにカスタマイズされた学習体験を作成できます。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
@@ -248,7 +248,7 @@ AEM参照サイトパッケージをインストールすると、Learning Manag
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   上記のコードは、ページの meta タグにマッピングされた設定を追加します。これは、学習コンポーネントがレンダリングするために必要です。 詳細については、[Adobe Learning Managerリファレンスサイト](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)を参照してください。
+   上記のコードは、ページの meta タグにマッピングされた設定を追加します。これは、学習コンポーネントがレンダリングするために必要です。 詳しくは、[Adobe Learning Managerリファレンスサイト](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)を参照してください。
 
 1. Webプロジェクトに構成がマッピングされていることを確認します。
 1. Learning Managerコンポーネントを読み込むAEM Sitesテンプレートを開きます。
