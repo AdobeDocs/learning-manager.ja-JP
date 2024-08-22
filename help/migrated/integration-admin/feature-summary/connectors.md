@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
+source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -40,19 +40,19 @@ Learning Manager では、Lynda、getAbstract、Harvard Management System 用の
 
 Salesforce コネクターは Learning Manager アカウントと Salesforce アカウントを接続して、データを自動的に同期します。Salesforceコネクターの機能は次のとおりです。
 
-### マップ属性
+### マップ属性 {#map-attributes}
 
 統合管理者は Salesforce の列を選択し、それらを対応する Learning Manager のグループ化可能属性にマッピングできます。マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むために別のマッピングを使用したい場合は、再設定できます。
 
-### 自動ユーザー読み込み
+### 自動ユーザー読み込み {#automated-user-import}
 
 ユーザー読み込みプロセスにより、Learning Manager 管理者は Salesforce から従業員の詳細を取得し、その情報を Learning Manager に自動的に読み込ませることができます。この自動化により、CSV の作成および Learning Manager へのアップロードに伴う手作業を省略できます。
 
-### 自動スケジュール
+### 自動スケジュール {#auto-schedule}
 
 自動ユーザー読み込み機能と同時に自動スケジュール設定機能を使用すると、相乗効果を期待できます。Learning Manager 管理者は、組織のニーズに応じてスケジュールを設定できます。Learning Managerアプリケーションのユーザーは、スケジュールに従って最新の状態にすることができます。 Learning Manager アプリケーションで、同期が毎日実行されます。
 
-### ユーザーのフィルタリング
+### ユーザーのフィルタリング {#filtering-user}
 
 Learning Manager 管理者は、読み込む前にユーザーにフィルタリングを適用できます。例えば、Learning Manager 管理者は、階層内のすべてのユーザーを 1 人以上の特定のマネージャーの管理下に読み込めます。
 
@@ -130,14 +130,14 @@ Salesforceの列を選択し、対応するLearning Managerのグループ化可
 1. [**[!UICONTROL いいえ]をクリックした場合 すべての連絡先]**&#x200B;をインポートすると、連絡先をフィルターせずにフィールドを直接マップできます。 ここでは、Salesforceからすべての連絡先を読み込みます。
 1. 読み込みを開始するには、[**[!UICONTROL 保存]**]をクリックします。
 
-## 学習記録の書き出し
+## 学習記録の書き出し {#export-learning-records}
 
 Learning Managerでは、トランスクリプト、ユーザーレポート、スキルレポートなどの学習記録をSalesforceに書き出すことができます。 書き出したデータを、Salesforceの「ユーザー」テーブルまたは「連絡先」テーブルにリンクするかどうかを指定できます。
 
 ![](assets/export-events-new.png)
 *学習記録の書き出し*
 
-### Salesforce のカスタムオブジェクト
+### Salesforce のカスタムオブジェクト {#custom-objects-in-salesforce}
 
 Learning Managerから学習記録を書き出すには、Salesforceでカスタムオブジェクトを作成する必要があります。 カスタムオブジェクトとは、会社や業界固有の情報を保存するために作成するオブジェクトです。 詳細については、「[Salesforce カスタムオブジェクト](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro)」を参照してください。
 
@@ -171,11 +171,11 @@ Learning Managerから学習記録を書き出すには、Salesforceでカスタ
 >
 >Salesforce の実行ステータスページでは、Salesforce から処理されたレコードの数のみ確認できます。 処理されたレコードのいずれかに、部分的な書き出しやエラーが発生した場合でも、Learning Managerではステータスが完了済みと表示されます。
 
-## Salesforce パッケージのインストール
+## Salesforce パッケージのインストール {#install-salesforce-package}
 
 Learning ManagerはSalesforceアプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDCポータル内のアプリにマストヘッド形式で表示できます。
 
-### Learning Manager アプリケーションで設定
+### Learning Manager アプリケーションで設定 {#setup-in-learning-manager-app}
 
 1. 自分の Learning Manager 管理者アカウントに、統合管理者としてログインします。
 1. **[!UICONTROL アプリケーション]** > **[!UICONTROL おすすめアプリ]**&#x200B;をクリックします。
@@ -186,14 +186,14 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「admin:read,admin:write」に設定します。 「**[!UICONTROL 送信]**」をクリックします。
 1. 「更新トークンを取得」で、クライアント ID とクライアントシークレットを入力します。 **[!UICONTROL [送信]]**&#x200B;をクリックして、更新トークンを確認します。
 
-### Salesforce アプリでのアカウントの作成
+### Salesforce アプリでのアカウントの作成 {#create-account-in-salesforce-app}
 
 1. Salesforce のサインアップページでアカウントを作成します。 Salesforceアカウントは、開発者版またはエンタープライズ版で作成する必要があります。  [開発者サインアップURL](https://developer.salesforce.com/signup)。 Salesforceへのサインアップには、Learning Managerで使用した電子メールIDを使用する必要があります。
 1. 確認用の電子メールからアカウントを確認します。
 1. パスワードを作成し、Salesforce にサインインします。
 1. ログイン後にSalesforceのURLに注意してください(例：site.lightning.force.com)
 
-### Learning Manager パッケージのインストール
+### Learning Manager パッケージのインストール {#install-learning-manager-package}
 
 パッケージをインストールする場合、まず Salesforce で既存のパッケージを削除する必要があります。 アンインストールする前に、次のように設定を有効にする必要があります。 パッケージのインストールには、これらの設定の適用が必須です。
 
@@ -215,7 +215,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
    * **RefreshToken:**&#x200B;最初のセクションで取得した値を入力します。
    * **LearningManagerBaseURL:** Learning ManagerがホストされているサイトのURLです。
 
-### リモートサイトの設定の追加
+### リモートサイトの設定の追加 {#add-remote-site-settings}
 
 1. ページの右上隅で、[**[!UICONTROL セットアップ]**]をクリックします。
 1. **[!UICONTROL クイック検索]**&#x200B;で、リモートサイトの設定を検索します。
@@ -227,7 +227,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 1. Learning Manager を起動します。
 
-### Learning Managerアプリの通知を有効にする
+### Learning Managerアプリの通知を有効にする {#enable-notifications-for-learning-manager-app}
 
 1. 右上隅の[**[!UICONTROL セットアップ]**]をクリックします。
 1. カスタム通知を検索します。
@@ -252,7 +252,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 1. Salesforceアプリで「インストール済みパッケージ」に移動します。
 1. 「**[!UICONTROL アンインストール]**」をクリックします。
 
-## Salesforce ユーザー用の学習マネージャーの設定
+## Salesforce ユーザー用の学習マネージャーの設定 {#configure-learning-manager-for-salesforce-users}
 
 Learning Manager アプリは、Salesforce アカウント内のユーザーも利用できます。Salesforce 管理者は、プロファイルに基づいてユーザーを追加できます。 Salesforce プロファイルは、Learning Manager のプロファイルと類似しています。たとえば、管理者、統合管理者、インストラクターなどです。 Salesforce 管理者は、カスタムのプロファイルも作成できます。
 
@@ -292,9 +292,9 @@ Salesforce 管理者は、ユーザーにプロファイルを割り当てるか
 
 **[!UICONTROL 「保存」]**&#x200B;をクリックすると、すべてのプロファイルに属する学習者がLearning Managerアプリにアクセスできます。
 
-### 学習パス関連の変更点
+### 学習パス関連の変更点 {#learning-path-changes}
 
-#### 既存の接続
+#### 既存の接続 {#existing-connections}
 
 管理者アカウントで「学習パス」オプションが無効になっている場合、レポートに行や列は追加されません。
 
@@ -304,7 +304,7 @@ Salesforce 管理者は、ユーザーにプロファイルを割り当てるか
 >
 >このフラグを有効にして既存の接続を使用すると、いくつかのレコードが失われる可能性があります。
 
-#### 新しい接続
+#### 新しい接続 {#new-connections}
 
 管理者アカウントで「学習パス」オプションが無効になっている場合、トレーニングレポートには以下の列が表示されますが、データは含まれません。
 
@@ -324,7 +324,7 @@ FTP コネクターを使用すると、Learning Manager を任意の外部シ�
 
 Boxコネクターを使用して、データの移行、ユーザーの読み込み、データの書き出しをおこなうこともできます。 詳しくは、 Boxコネクタを参照してください。
 
-### データの読み込み {#dataimport}
+### データの読み込み {#data-import}
 
 ユーザー読み込みプロセスにより、Learning Manager管理者はLearning Manager FTPサービスから従業員の詳細を取得し、その情報をLearning Managerに自動的に読み込ませることができます。 この機能を使用すると、それらのシステムによって生成された CSV を FTP アカウントの適切なフォルダーに配置することによって、複数のシステムを統合できます。Learning ManagerはCSVファイルを取得し、ファイルを結合して、スケジュールに従ってデータを読み込みます。 詳細については、「スケジュール」機能を参照してください。
 
@@ -333,19 +333,19 @@ Boxコネクターを使用して、データの移行、ユーザーの読み�
 統合管理者はCSVの列を選択し、その列をLearning Managerのグループ化可能属性にマッピングできます。 このマッピングには時間がかかります。 マッピングがされると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むための別のマッピングが必要な場合は、マッピングを再構成できます。
 
 
-#### データの書き出し {#exportdata}
+#### データの書き出し {#export-data}
 
 データの書き出しでは、あらゆるサードパーティー製のシステムに統合するためにユーザーがユーザースキル、学習者のトランスクリプトを FTP の場所に書き出すことができます。
 
-#### スケジューリング
+#### スケジューリング {#scheduling}
 
 管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Managerアプリケーション内のユーザーは、スケジュールに従って最新の状態になります。 同様に、統合管理者は、外部システムと統合されるようにスキルの書き出しをスケジュールすることができます。 Learning Managerアプリケーションで同期を毎日実行できます。
 
-### Learning Manager FTP コネクターを構成する {#configurecaptivateprimeftpconnector}
+### Learning Manager FTP コネクターを構成する {#configure-captivate-prime-ftp-connector}
 
 FTPコネクターとLearning Managerを統合するためのプロセスを学びましょう。
 
-#### 接続の作成 {#Createaconnection-1}
+#### 接続の作成 {#Create-a-connection-1}
 
 1. Learning Managerホームページで、FTPカード/サムネールの上にマウスを置きます。 メニューが表示されます。 メニューで「接続」項目を選択します。
 
@@ -422,7 +422,7 @@ FileZillaをまだインストールしていない場合は、次の公式Web�
    ![](assets/ftp-connector-dashboard.png)
    *Export options*-->
 
-### 読み込み
+### 読み込み {#import}
 
 ・+++内ユーザー
 
@@ -572,7 +572,7 @@ The auto-exported files are present in the location **Home/export/&#42;FTP_locat
 
 The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
-### マニュアル csv フィールドのサポート {#supportformanualcsvfields}
+### マニュアル csv フィールドのサポート {#support-for-manual-csv-fields}
 
 FTP を介してユーザーデータを読み込む際に、管理者は、システムに存在するすべてのアクティブなフィールドを csv の対応するフィールドにマッピングする必要があります。
 
@@ -587,11 +587,11 @@ FTP を介してユーザーデータを読み込む際に、管理者は、シ�
 ![](assets/ftp-conector-foractivefields.png)
 *アクティブなフィールド用のFTPコネクタ*
 
-## Lynda コネクタ {#lyndaconnector}
+## Lynda コネクタ {#lynda-connector}
 
 Lynda.com をご利用のエンタープライズのお客様は、Lynda コネクターを使用することにより、お客様の学習者が Learning Manager 内で Lynda コースを検索および使用できるようになります。API キーを使用して Lynda.com からコースを定期的に取得するようにコネクタを構成することができます。Learning Manager 内にコースが作成されると、ユーザーはコースを検索して使用できます。学習者の進行状況は Learning Manager 内で追跡できます。
 
-### Lynda コネクターを構成する {#configurethelyndaconnector}
+### Lynda コネクターを構成する {#configure-the-lynda-connector}
 
 1. 統合管理者のダッシュボードから、Lynda をクリックします。
 
@@ -655,7 +655,7 @@ Lynda.com をご利用のエンタープライズのお客様は、Lynda コネ�
 
 getAbstract.com をご利用のエンタープライズのお客様は、getAbstract コネクタを使用することにより、お客様の学習者が getAbstract の要約を検索、使用できるようになります。Learning Manager 内で作成された学習者の完了レコードに基づいて、使用データを定期的に取得するようにコネクターを構成できます。Learning Manager でこのコネクターを構成する方法については、以下の説明を参照してください。
 
-### getAbstract コネクタを構成する {#configurethegetabstractconnector}
+### getAbstract コネクタを構成する {#configure-the-get-abstract-connector}
 
 1. 統合管理者のダッシュボードから、getAbstract をクリックします。
 
@@ -717,7 +717,7 @@ getAbstract.com をご利用のエンタープライズのお客様は、getAbst
 
 Harvard ManageMentor をご利用のエンタープライズのお客様は、Harvard ManageMentor コネクタを使用することにより、お客様の学習者が Harvard ManageMentor のコースを検索、使用できるようになります。このコネクターは Learning Manager 内でコースを作成するのに役立つほか、学習者の進行状況データを定期的に取得するように設定できます。このコネクターを構成するには、次の手順を実行します。
 
-### Harvard ManagerMentor コネクターを構成する {#configuretheharvardmanagermentorconnector}
+### Harvard ManagerMentor コネクターを構成する {#configure-the-harvard-managermentor-connector}
 
 1. 統合管理者のダッシュボードから、Harvard ManageMentor をクリックします。
 
@@ -775,21 +775,21 @@ Harvard ManageMentor をご利用のエンタープライズのお客様は、Ha
 
 Workday コネクターを使用すると、Learning Manager を Workday のテナントと統合して、データを自動的に同期できます。
 
-### 読み込み
+### 読み込み {#import-1}
 
-#### マップ属性
+#### マップ属性 {#map-attributes-1}
 
 統合管理者はWorkdayの列を選択し、その列を対応するLearning Managerのグループ化可能属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むために別のマッピングを使用したい場合は、再設定できます。
 
-#### 自動ユーザー読み込み
+#### 自動ユーザー読み込み {#automated-user-import-1}
 
 ユーザー読み込みプロセスにより、Learning Manager 管理者は Workday から従業員の詳細を取得し、その情報を Learning Manager に自動的に読み込ませることができます。
 
-#### ユーザーのフィルタリング
+#### ユーザーのフィルタリング {#filtering-users}
 
 Learning Manager 管理者は、読み込む前にユーザーにフィルタリングを適用できます。例えば、Learning Manager 管理者は、階層内のすべてのユーザーを 1 人以上の特定のマネージャーの管理下に読み込めます。
 
-### 書き出し
+### 書き出し {#export}
 
 ユーザースキルの書き出しにより、ユーザーはユーザースキルを Workday に自動的に書き出すことができます。
 
@@ -797,7 +797,7 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 >
 >複数の Learning Manager アカウントからのスキルを、同じ Workday アカウントを使用して同時に書き出すことはできません。
 
-#### 注意事項
+#### 注意事項 {#points-to-note}
 
 * 従業員のUUID、電子メールアドレス、名前が、複数のWorkday統合で一意であることを確認します。 値が正しくないと、接続エラーが発生します。
 * Workdayを使用してに入力されたUUIDフィールドは、クライアント側のLMS Administratorでは削除できません。 値を変更する場合は、Adobe Learning Managerのオンボーディングチームまたはサポートチームにお問い合わせください。
@@ -807,7 +807,7 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 
 管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Manager アプリケーション内のユーザーは、設定されたスケジュールに従って最新の情報に更新されます。同様に、統合管理者は、外部システムと統合されるのに都合のいい時間にスキルの書き出しをスケジュール設定することができます。Learning Manager アプリケーションで、同期が毎日実行されます。
 
-### Workday コネクターを構成する {#configureworkdayconnector}
+### Workday コネクターを構成する {#configure-workday-connector}
 
 >[!PREREQUISITES]
 >
@@ -851,9 +851,9 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 ![](assets/overview.png)
 *Workdayの概要*
 
-### 読み込み
+### 読み込み {#import-5}
 
-#### マップ属性 {#MapAttributes-1}
+#### マップ属性 {#map-attributes-4}
 
 Workday コネクターを使用すると、Learning Manager と Workday を統合して、データを自動的に同期できます。すべてのアクティブユーザーを Workday から Learning Manager に読み込むことができます。ユーザーは FTP や Salesforce などの様々なデータソースから読み込むことができます。
 
@@ -948,7 +948,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
-### 書き出し
+### 書き出し {#export-1}
 
 ユーザーが達成したすべてのスキルを Learning Manager から Workday に書き出すことができます。Learning Manager はすべてのアクティブなユーザースキルのみを書き出し、廃止スキルは書き出しません。複数のLearning Managerに接続することもできます\
 同じWorkdayコネクタにアカウントを関連付けます。 2つのLearning Managerアカウントのスキル名が同じ場合、Workdayの同じスキルにマッピングされます。 2つのLearning Managerアカウントが同じWorkdayアカウントを使用している場合、Workdayでスキルをアップデートする前に、すべてのLearning Managerアカウントでスキル名をアップデートすることをお勧めします。
@@ -980,27 +980,27 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
-## miniOrange コネクタ {#miniorangeconnector}
+## miniOrange コネクタ {#mini-orange-connector}
 
 miniOrange コネクターを使用して、Learning Manager と miniOrange のテナントを統合し、データを自動的に同期できます。
 
-### 読み込み
+### 読み込み {#import-6}
 
-#### マップ属性
+#### マップ属性 {#map-attributes-5}
 
 統合管理者はminiOrange属性を選択し、対応するLearning Managerのグループ化可能属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むために別のマッピングを使用したい場合は、再設定できます。
 
-#### 自動ユーザー読み込み
+#### 自動ユーザー読み込み {#automated-user-import-3}
 
 ユーザー読み込みプロセスにより、Learning Manager管理者はminiOrangeから従業員の詳細を取得し、その情報をLearning Managerに自動的に読み込ませることができます。
 
-#### ユーザーのフィルタリング
+#### ユーザーのフィルタリング {#filtering-users-3}
 
 Learning Manager 管理者は、読み込む前にユーザーにフィルタリングを適用できます。例えば、Learning Manager 管理者は、階層内のすべてのユーザーを 1 人以上の特定のマネージャーの管理下に読み込めます。
 
 を設定するには   miniオレンジ   コネクタを接続するには、Learning Manager CSMチームに連絡します。
 
-### miniOrange コネクタを構成する {#configureminiorangeconnector}
+### miniOrange コネクタを構成する {#configure-mini-orange-connector}
 
 1. Learning Managerホームページで、miniOrangeカード/サムネールにカーソルを合わせます。 メニューが表示されます。 メニューの&#x200B;**[!UICONTROL 接続]**&#x200B;オプションをクリックします。
 
@@ -1073,7 +1073,7 @@ Learning ManagerをZoomコネクターと統合し、クラスのホストとし
    ![](assets/attendence-and-scoringreport.png)
    *出席とスコア付けのレポート*
 
-### ズームサーバー間OAuthアプリの作成
+### ズームサーバー間OAuthアプリの作成 {#create-a-zoom-server-to-server-oauth-app}
 
 Adobe Learning Managerで使用するZoomサーバー間OAuthアプリを作成する場合、Adobe Learning Managerで必要となるスコープを追加する必要があります。
 
@@ -1085,13 +1085,13 @@ Adobe Learning Manager には以下のスコープが必要です。スコープ
 * すべてのユーザー情報`/user:read:admin`を表示
 * ユーザー情報の表示とユーザー`/user:write:admin`の管理
 
-## Box コネクター {#boxconnector}
+## Box コネクター {#box_connector}
 
 Box コネクターを使用すると、Learning Manager を任意の外部システムと統合して、データを自動的に同期できます。外部システムがデータをCSV形式で書き出し、そのデータをLearning ManagerのBoxアカウントの適切なフォルダーに配置できることが期待されています。 ボックスコネクタの機能は次のとおりです。
 
 FTPコネクターを使用して、データの移行、ユーザーの読み込み、データの書き出しをおこなうこともできます。 詳しくは、 [Learning Manager FTP コネクタ。](connectors.md#main-pars_header_1427405935)
 
-### データの読み込み {#DataImport-1}
+### データの読み込み {#data-import-1}
 
 ユーザー読み込みプロセスにより、Learning Manager 管理者は Learning Manager Box サービスから従業員の詳細を取得し、その情報を Learning Manager に自動的に読み込ませることができます。この機能を使用すると、それらのシステムによって生成された CSV を Box アカウントの適切なフォルダーに配置することによって、複数のシステムを統合できます。Learning Manager は CSV ファイルを取得し、ファイルをマージして、設定したスケジュールに従ってデータを読み込みます。詳細については、「スケジューリング」機能を参照してください。
 
@@ -1099,15 +1099,15 @@ FTPコネクターを使用して、データの移行、ユーザーの読み�
 
 統合管理者は CSV の列を選択し、その情報を Learning Manager のグループ化が可能な属性にマッピングできます。このマッピングは1回限りの作業です。 マッピングがされると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むための別のマッピングが必要な場合は、マッピングを再構成できます。
 
-## データの書き出し {#dataexport}
+## データの書き出し {#data-export}
 
 データの書き出しでは、あらゆるサードパーティー製のシステムに統合するためにユーザーがユーザースキル、学習者のトランスクリプトを Box の場所に書き出すことができます。
 
-## レポートのスケジュール {#schedulereports}
+## レポートのスケジュール {#schedule-reports}
 
 管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Manager アプリケーション内のユーザーは、設定されたスケジュールに従って最新の情報に更新されます。同様に、統合管理者は、外部システムと統合されるのに都合のいい時間にスキルの書き出しをスケジュール設定することができます。Learning Manager アプリケーションで、同期が毎日実行されます。
 
-## Box コネクターを構成する {#configureboxconnector}
+## Box コネクターを構成する {#boxconnector}
 
 BoxコネクターとLearning Managerを統合するためのプロセスを学びましょう。
 
@@ -1133,7 +1133,7 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
    * 学習者トランスクリプトの書き出し – スケジュールの設定
    * 学習者のトランスクリプトの書き出し – オンデマンド
 
-## 読み込み
+## 読み込み {#import-7}
 
 ・+++内ユーザー
 
@@ -1236,7 +1236,7 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 +++
 
-## 書き出し
+## 書き出し {#export-2}
 
 +++スキル
 
@@ -1258,7 +1258,7 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 >
 >お客様がLearning Managerチームによって共有されたBoxフォルダーのアクセス権限とコンテンツを管理します。  また、フォルダー内のコンテンツはフランクフルト地域に物理的に保存されます。
 
-### マニュアル csv フィールドのサポート {#Supportformanualcsvfields-1}
+### マニュアル csv フィールドのサポート {#support-for-manual-csv-fields-1}
 
 Box を介してユーザーデータを読み込む際に、管理者は、システムに存在するすべてのアクティブなフィールドを csv の対応するフィールドにマップする必要があります。
 
@@ -1291,7 +1291,7 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 >
 >LinkedIn Learning コースで費やされた学習時間は、LinkedIn コンテンツ / LinkedIn プラットフォームから、Learning Manager 学習プラットフォームに送信されます。LinkedIn の学習から学習時間が送信されない場合、学習プラットフォームではその時間を記録できません。 この場合、Learning Managerに表示される学習時間はゼロになります。
 
-### Linkedln Learning ポータルを構成する {#configuresettingsinlinkedlnlearningportal}
+### Linkedln Learning ポータルを構成する {#configure-settings-in-linkedln-learning-portal}
 
 1. 管理者として Linkedln Learning LMS にログインします。
 1. 上部のナビゲーションパネルから&#x200B;**[!UICONTROL 管理者]**&#x200B;をクリックします。
@@ -1305,7 +1305,7 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 
    *LinkedIn学習の設定*
 
-### LinkedIn Learning コネクタを構成する {#configurelinkedinlearningconnector}
+### LinkedIn Learning コネクタを構成する {#configure-linkedin-learning-connector}
 
 1. 統合管理ダッシュボードから、[!UICONTROL LinkedInラーニング]をクリックします。 「はじめに」、「接続」、「接続の管理」の各オプションが表示されます。
 1. linkedIn Learningコネクタを初めて構成する場合は、[!UICONTROL [接続]]をクリックします。
@@ -1404,7 +1404,7 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 
 このコネクタとの統合を使用して既存のPower BIアカウントを活用し、Learning Managerの学習Power BIをデータ内で視覚化および分析できます。 統合を行う管理者は、Power BI のワークスペースを設定する際に、学習者のトランスクリプトとユーザーのスキルレポートという 2 つのライブデータセットを増分的にワークスペースに取り込むように設定することができます。 その後、PowerBI のすべての機能を使用してカスタムダッシューボードを作成し、組織内に配布することができます。
 
-### コネクタの構成 {#configuringtheconnector}
+### コネクタの構成 {#configuring-the-connector}
 
 コネクタを構成するには、**[!UICONTROL コネクタ]**&#x200B;ページで、**[!UICONTROL Power BI]**&#x200B;タイルにカーソルを合わせ、**[!UICONTROL 接続]**&#x200B;をクリックします。 Power BI ページが開きます。接続を確立するには、アプリクライアント ID、アプリクライアントシークレット、テナント名およびワークスペース ID（オプション）を入力します。 これらの資格情報を取得するには、次の手順に従います。
 
@@ -1451,7 +1451,7 @@ LinkedIn コネクタには、LinkedIn Learning ライブラリに基づいて�
 
 書き出されたデータを見るには Power BI アカウントにログインします。 書き出されたデータは「データセット」オプションの下にリストされています。
 
-### Learning Manager での xAPI アクティビティレポートの書き出し {#exportxapiactivityreportsincaptivateprime}
+### Learning Manager での xAPI アクティビティレポートの書き出し {#export-xapi-activity-reports-in-captivate-prime}
 
 PowerBI-xAPI機能ページで、[**[!UICONTROL xAPIアクティビティレポートのエクスポート]**]をクリックします。
 
@@ -1566,7 +1566,7 @@ Learning Managerでは、すぐに使えるPower BIテンプレートも用意�
 
 上のリンクから手動でテンプレートをダウンロードすることもできます。 テンプレートを使用し、それに応じてレポートをカスタマイズします。
 
-### トレーニングレポートの書き出し
+### トレーニングレポートの書き出し {#export-training-report}
 
 統合レポート機能の一環として、Power BI にトレーニングレポートを書き出すことができます。
 
@@ -1578,9 +1578,9 @@ Learning Managerでは、すぐに使えるPower BIテンプレートも用意�
 ![](assets/export-training-report.png)
 *トレーニングレポートの書き出し*
 
-### 学習パス関連の変更点
+### 学習パス関連の変更点 {#learning-path-related-changes}
 
-#### 管理者：学習トランスクリプトと統合レポート
+#### 管理者：学習トランスクリプトと統合レポート {#learning-transcripts-and-unified-reports}
 
 **既存の接続**
 
@@ -1600,7 +1600,7 @@ Learning Managerでは、すぐに使えるPower BIテンプレートも用意�
 
 「タイプ」列では「学習プログラム」の名前が「学習パス」に変更されます。 既存の接続の場合は、変更はありません。 ただし、新しい接続の場合、変更は30日後に反映されます。
 
-#### トレーニングレポート：統合レポート
+#### トレーニングレポート：統合レポート {#training-report}
 
 **既存の接続**
 
@@ -1634,7 +1634,7 @@ Learning Manager には、カスタム FTP のロケーションに接続する�
 
 FTP では次の機能がサポートされます。
 
-### データの読み込み
+### データの読み込み {#data-import-2}
 
 ユーザー読み込みプロセスにより、Learning Manager 管理者は Learning Manager FTP サービスから従業員の詳細を取得し、その情報を Learning Manager に自動的に読み込ませることができます。この機能を使用すると、それらのシステムによって生成された CSV を FTP アカウントの適切なフォルダーに配置することによって、複数のシステムを統合できます。Learning Manager は CSV ファイルを取得し、ファイルをマージして、設定したスケジュールに従ってデータを読み込みます。詳細については、「スケジューリング」機能を参照してください。
 
@@ -1642,11 +1642,11 @@ FTP では次の機能がサポートされます。
 
 統合管理者は CSV の列を選択し、その情報を Learning Manager のグループ化が可能な属性にマッピングできます。このマッピングは一度だけの作業です。マッピングがされると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。管理者がユーザーを読み込むための別のマッピングが必要な場合は、マッピングを再構成できます。
 
-### データの書き出し
+### データの書き出し {#data-export-3}
 
 データの書き出しでは、ユーザーがユーザースキルや学習者のトランスクリプトを FTP のロケーションに書き出して、任意のサードパーティー製のシステムに統合できます。
 
-### レポートのスケジュール
+### レポートのスケジュール {#schedule-reports-2}
 
 管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Manager アプリケーション内のユーザーは、設定されたスケジュールに従って最新の情報に更新されます。同様に、統合管理者は、外部システムと統合されるのに都合のいい時間にスキルの書き出しをスケジュール設定することができます。Learning Manager アプリケーションで、同期が毎日実行されます。
 
@@ -1678,7 +1678,7 @@ ADFS 接続を確立するための前提条件：
 * アプリを登録する前に、次のURLを使用してAzure Portalにログインしてください： [https://portal.azure.com/](https://portal.azure.com/)。
 * Azure Active Directoryを開きます。
 
-## アプリケーションを登録する手順 {#stepstoregisteryourapplication}
+## アプリケーションを登録する手順 {#steps-to-register-your-application}
 
 * Azure Active Directory をクリックします。 **[!UICONTROL 追加]** > **[!UICONTROL アプリの登録]**&#x200B;をクリックします。
 
@@ -1764,7 +1764,7 @@ ADFS 接続を確立するための前提条件：
 
   <!-- *Select Add Permissions*-->
 
-### ADFS構成ページ
+### ADFS構成ページ {#adfs-configuration-page}
 
 1. Adobe Learning Manager の ADFS 構成ページで、先ほど取得したクライアント ID とクライアントシークレットを入力します。
 
@@ -1772,23 +1772,23 @@ ADFS 接続を確立するための前提条件：
 
 1. **portal.azure.com**&#x200B;にログインします。 「テナントID」フィールドおよび「プライマリドメイン」フィールドに値が入力されます。
 
-### 読み込み
+### 読み込み {#import-8}
 
-#### マップ属性
+#### マップ属性 {#map-attributes-6}
 
 統合管理者はADFS属性を選択し、対応するLearning Managerのグループ化可能属性にマッピングできます。 マッピングが完了すると、それ以降のユーザーの読み込みでは同じマッピングが使用されます。 管理者がユーザーを読み込むために別のマッピングを使用する場合は、再設定できます。
 
-#### 自動ユーザー読み込み
+#### 自動ユーザー読み込み {#automated-user-import-4}
 
 ユーザー読み込みプロセスにより、Learning Manager管理者はADFSから従業員の詳細を取得し、その情報をLearning Managerに自動的に読み込ませることができます。
 
-#### ユーザーのフィルタリング
+#### ユーザーのフィルタリング {#filtering-users-4}
 
 Learning Manager管理者は、読み込む前にユーザーにフィルタリングを適用できます。 例えば、Learning Manager 管理者は、階層内のすべてのユーザーを 1 人以上の特定のマネージャーの管理下に読み込めます。
 
 ADFSコネクターを設定するには、Learning Manager CSMチームにお問い合わせください。
 
-## ADFS コネクタを構成する {#configureadfsconnector}
+## ADFS コネクタを構成する {#configure-adfs-connector}
 
 1. Learning Managerホームページで、ADFSカード/サムネールにカーソルを合わせます。 メニューが表示されます。 メニューの接続オプションをクリックします。
 
@@ -1823,7 +1823,7 @@ ADFSコネクターを設定するには、Learning Manager CSMチームにお�
 
 1. 読み込みが完了すると通知を受信します。インポートログを表示または編集するには、**[!UICONTROL ユーザー]** > **[!UICONTROL インポートログ]**&#x200B;をクリックします。
 
-### 接続を削除する {#Deleteaconnection-1}
+### 接続を削除する {#delete-a-connection-1}
 
 確立されたminiOrange接続を削除するには、次の手順に従います。
 
@@ -1851,7 +1851,7 @@ ADFSコネクターを設定するには、Learning Manager CSMチームにお�
    >
    >Adobe Connect アカウント管理者は、Adobe Connect の利用条件に同意する必要があります。これに同意していない場合、ログイン認証が失敗する可能性があります。Adobe Connect アカウントの作成後、アカウントに 1 回ログインします。初回ログイン時に、利用条件ページが表示されます。
 
-### バーチャルクラスルームセッション情報の追加 {#addvirtualclassroomsessioninformation}
+### バーチャルクラスルームセッション情報の追加 {#add-virtual-classroom-session-information}
 
 バーチャルクラスルームコースの作成者がセッション情報を提供していない場合、管理者はセッションの詳細を追加することができます。
 
@@ -1974,7 +1974,7 @@ Learning ManagerアプリのMarkeo Engage接続の&#x200B;**統合レポート**
 
 他のコネクタと同様に、必要に応じてデータをスケジュールして書き出すことができます。
 
-### Marketo Engage での列のマッピング {#columnmappinginmarketoengage}
+### Marketo Engage での列のマッピング {#column-mapping-in-marketo-engage}
 
 Marketo には、次の 2 種類のデータベースがあります。
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams コネクター
+## Microsoft Teams コネクター {#microsoft-teams-connector}
 
 Microsoft® Teams® は、文書の共有、オンラインミーティング、その他のビジネスコミュニケーション機能全般を全面的にサポートする、チャットベースの持続的なコラボレーションプラットフォームです。
 
@@ -2073,7 +2073,7 @@ Microsoft Teams コネクターで Learning Manager と Microsoft Teams のシ�
 
 詳細については、[**Adobe Learning ManagerのMicrosoft Teamsコネクタをインストール**](install-microsoft-teams-connector.md)&#x200B;を参照してください。
 
-## トレーニングデータアクセスコネクタ {#training-data-access-connector}
+## トレーニングデータアクセスコネクタ {#training-data-access}
 
 >[!IMPORTANT]
 >
@@ -2085,7 +2085,7 @@ Microsoft Teams コネクターで Learning Manager と Microsoft Teams のシ�
 
 **[!UICONTROL トレーニングデータアクセス]**&#x200B;コネクタを使用すると、ヘッドレスエクスペリエンスを作成できます。 このエクスペリエンスは、スタンドアロンにすることも、AEM Sitesベースのカスタムユーザーインターフェイスにすることもできます。 学習者に対するトレーニング情報の取得と表示に役立ち、検索とフィルタリングが可能です。 データコネクタを有効にすると、一連のパブリックAPIを使用してインターフェイスを構築できるようになります。このインターフェイスでは、コース/学習パスの情報が学習者に表示されます。
 
-### コネクターの構成
+### コネクターの構成 {#configure-training-data-connector}
 
 **[!UICONTROL トレーニングデータアクセス]**&#x200B;コネクタを使用して、Adobe Learning Managerアカウントをデータストレージや検索システムと連携します。 これにより、AEM Sitesベースのインターフェイスからトレーニングデータを取得し、Webページを表示して、学習者の検索オプションを向上させることができます。
 
@@ -2124,7 +2124,7 @@ APIを使用して、Adobe Learning Managerからデータ取得サービスお�
 1. オンデマンドレポートの場合は、**[!UICONTROL オンデマンド]**&#x200B;に移動し、**[!UICONTROL 開始日]**&#x200B;を選択して、**[!UICONTROL [実行]をクリック]**します。
 レポートの実行ステータスは、**[!UICONTROL 実行ステータス]**&#x200B;ページで確認できます。
 
-### AEM での Web サイトの作成
+### AEM での Web サイトの作成 {#create-website-in-aem}
 
 **前提条件：** AEMパッケージを&#x200B;[**GitHubリポジトリ**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)からインストールします。
 
@@ -2134,13 +2134,13 @@ APIを使用して、Adobe Learning Managerからデータ取得サービスお�
 
 詳細については、この&#x200B;[**ドキュメント**](../../adobe-learning-manager-integration-aem.md)&#x200B;を参照してください。
 
-### 学習者
+### 学習者 {#learners}
 
 公開された Web サイトには、ログインしていない学習者向けの検索サービスから取得された、移行されたすべてのコース、資格認定、学習パスが一覧表示されます。
 
 学習者がコース、資格認定、または学習パスをクリックすると、概要ページが表示されます。 このページでは、学習者が登録する場合、最初にログインし、それからコースを受講する必要があります。
 
-### ログインなしのエクスペリエンス
+### ログインなしのエクスペリエンス {#non-logged-in-experience}
 
 ログインなしのエクスペリエンスを使用すると、ログインしていないユーザーに対してリアルタイムのエクスペリエンスを作成できます。 例えば、ログインなしの体験は、マーケティングキャンペーンのランディングページとして機能し、新規登録を促します。
 
@@ -2165,7 +2165,7 @@ Adobe Learning Managerのログインなしのエクスペリエンスは、**[!
 
 ユーザーがプランを購入すると、CSMチームはユーザーのプレミアムプランを有効にします。 Training Data Accessコネクタを使用すると、前述の機能を使用して、ログインなしのエクスペリエンスを設定できます。
 
-## Adobe Commerce connector
+## Adobe Commerce connector {#adobe-commerce-connector}
 
 >[!NOTE]
 >
@@ -2202,7 +2202,7 @@ Adobe Commerceは、B2B と B2C の両方の顧客に向けたマルチチャネ
 1. 次のパッチを適用します。 詳細については、[修正プログラムの適用](https://devdocs.magento.com/cloud/project/project-patch.html)を参照してください。
 1. Fastlyの設定。  Fastlyは、クラウドインフラストラクチャ上のAdobe Commerceに必要で、ステージング環境や本番環境で使用されます。 詳しくは、[「Fastly の設定」](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)を参照してください。
 
-### コネクターの構成
+### コネクターの構成 {#configure-connector}
 
 統合管理者として、Adobe Commerceコネクタで「 **[!UICONTROL Connect]**&#x200B;を選択します。
 
@@ -2218,7 +2218,7 @@ Adobe Commerceコネクタ接続が有効になると、作成者はコース、
 * **Native Learning Manager：**&#x200B;学習者は、Learning Manager 内からコース、学習プラン、または資格認定を購入できます。 これは、作成者が価格を追加した場合にのみ適用されます。
 * **AEM Sites を使用したカスタムメイド：** 学習者は、AEMサイトからコースを購入できます。
 
-### ワークフロー
+### ワークフロー {#workflow}
 
 Adobe Commerce管理者は、Learning Manager を統合として設定します。
 
@@ -2226,7 +2226,7 @@ Adobe Commerce管理者は、Learning Manager を統合として設定します�
 
 Adobe Commerceでデータが同期されるまで、コースまたは学習パスは購入できません。
 
-### Adobe Commerceへのコースの書き出し
+### Adobe Commerceへのコースの書き出し {#export-commerce}
 
 作成者が様々なコース、学習パス、資格認定の価格を設定すると、統合管理者はコース、学習パス、資格認定をAdobe Commerceに書き出します。
 
@@ -2241,9 +2241,9 @@ Adobe Commerceでデータが同期されるまで、コースまたは学習パ
 
 1. **[!UICONTROL 「実行」]**&#x200B;をクリックします。正常に実行されると、価格設定されているすべてのコースまたは学習パスがAdobe Commerceに移動します。 その後、学習者はLearning Managerからコースを購入できます。
 
-### Native Learning ManagerとAdobe Commerce
+### Native Learning ManagerとAdobe Commerce {#learning-manager-with-commerce}
 
-#### 学習者
+#### 学習者 {#learner}
 
 学習者は、コース、資格認定、または学習パスを購入するためにログインする必要があります。
 
@@ -2253,7 +2253,7 @@ ALM Native または AEM からコース、資格認定、学習パスを購入�
 
 また、Adobe Commerceからの電子メールを有効または無効にすることもできます。
 
-### Adobe Commerceを使用したAEMサイト
+### Adobe Commerceを使用したAEMサイト {#aem-sites-with-adobe-commerce}
 
 「AEMサイトを使用してカスタム作成」オプションが有効になっている場合、学習者はカスタム作成のAEMサイトからコースを購入できます。
 
@@ -2263,9 +2263,9 @@ AEMサイトには、Adobe Commerceでの検索を有効にするための Learn
 
 Native Learning Manager と同様に、ログインした後、コースをカートに追加し、コースをプレビューまたは購入できます。
 
-### Adobe Commerceコネクタの設定
+### Adobe Commerceコネクタの設定 {#setup-commerce-connector}
 
-#### 前提条件
+#### 前提条件 {#pre-requisites}
 
 管理者は管理アプリの&#x200B;**設定/一般**&#x200B;で、チェックボックス「**トレーニングの価格を有効にする**」を有効にします。 このオプションを有効にすると、作成者はトレーニングの価格を指定できます。 Adobe Commerce接続を追加すると、このチェックボックスが自動的にオンになり、強制されます。
 
@@ -2280,7 +2280,7 @@ Adobe Commerceの統合により、Adobeラーニングマネージャーはト�
 * Learning Managerの顧客が、有料コースの形式で公式学習を提供できるようにします。
 * 学習者は、トレーニングの購入を決定する前にコースをプレビューできます。
 
-#### Adobe学習マネージャーのネイティブ
+#### Adobe学習マネージャーのネイティブ {#native-learning-manager}
 
 **統合管理者**
 
@@ -2291,7 +2291,7 @@ Adobe Commerceの統合により、Adobeラーニングマネージャーはト�
 >
 >AdobeのLearning managerとAdobe Commerceのログインが異なる。
 
-### AEM
+### AEM {#aem}
 
 このモードでは、学習者は、AEMベースのテンプレートとコンポーネントを使用して構築されたAEMベースのサイトからコースを受講します。
 
@@ -2301,7 +2301,7 @@ AEMサイトでは、学習者はショッピングカート、「カートに�
 
 学習者がコースを購入すると、「登録済み」状態のコース概要ページにリダイレクトされ、購入したトレーニングを受講できるようになります。
 
-#### ヘッドレス — ログインなし
+#### ヘッドレス — ログインなし {#headless-non-logged-in}
 
 学習者は次のことを実行できます。
 
@@ -2313,7 +2313,7 @@ AEMサイトでは、学習者はショッピングカート、「カートに�
 * 概要ページからコースを購入します。
 * 有料コンテンツのプレビュー
 
-#### ヘッドレス — ログイン
+#### ヘッドレス — ログイン {#headless-logged-in}
 
 学習者は次のことを実行できます。
 
@@ -2327,7 +2327,7 @@ AEMサイトでは、学習者はショッピングカート、「カートに�
 
 * コースの購入後に、請求書を電子メールの添付ファイルとして確認します。
 
-#### オンデマンド同期
+#### オンデマンド同期 {#on-demand-sync}
 
 Learning Manager と Adobe Commerce は、毎日 2 回同期されます。 管理者がeコマースのアカウントを有効にしてから、**この接続を使用してトレーニングメタデータの書き出しを有効にする**&#x200B;オプションを有効にすると、コース、学習パス、資格認定の画像がパブリックCDNに保存されます。
 
@@ -2337,7 +2337,7 @@ Native Learning Managerでeコマースが有効になっており、Learning Ma
 
 AEMには、「**カートに追加**」ボタンのみが表示されます。「今すぐ購入」ボタンは表示されません。 同期が実行されない場合も、このボタンは無効のままです。
 
-#### よくある質問
+#### よくある質問 {#faqs}
 
 +++購入できないコース
 
