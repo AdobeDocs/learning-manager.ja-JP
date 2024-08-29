@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 65%
+source-wordcount: '3669'
+ht-degree: 64%
 
 ---
 
@@ -165,7 +165,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
   </tr>
   <tr>
    <td>カタログラベルを表示</td>
-   <td>これを有効にすると、管理者と作成者がカタログラベルと値を設定して学習目標にリンクできるようになります。</td>
+   <td>これを有効にすると、管理者と作成者がカタログラベルと値を設定して学習目標にリンクできるようになります。 このオプションを選択すると、作成者はコース、学習パス、資格認定または作業計画書をカタログに追加することもできます。</td>
   </tr>
   <tr>
    <td>学習者が自分のスコアの表示</td>
