@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 学習内容
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Adobe Learning Manager では、目的のコースを素早く簡単に検索す
 **コースの終了**：コースを終了するには、プレーヤーの右上隅にある閉じる（x）アイコンをクリックします。
 
 *コースを終了した後、コースの説明ページにある「再訪」ボタンをクリックすると、コースを再訪できます。*
+
+## 複数の登録インスタンス
+
+コースに複数のインスタンスが含まれている場合、学習者は特定のインスタンスを選択して登録することができます。 必要に応じてインスタンスを切り替えることもできます。
 
 ## 星評価
 
