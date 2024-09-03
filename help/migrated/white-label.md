@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -374,8 +374,6 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >署名されたバイナリをビルドするには、Android sdk build-toolsが必要です。
 
 Playストアでは、公開するためにaab形式のAndroidバイナリが必要です。 したがって、署名されていない.aabファイルを提供します。
-
-以下に改訂版を示します。
 
 >[!NOTE]
 >
