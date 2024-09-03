@@ -4,9 +4,9 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4061'
 ht-degree: 61%
 
 ---
@@ -235,7 +235,7 @@ Adobe Learning manager では、アカウントへのアクセスが制限され
    <td>
     <p>ゲーミフィケーションが使用できます。</p></td>
    <td>
-    <p>ゲーミフィケーションは使用できません。</p></td>
+    <p>ゲーミフィケーションを利用できます。 管理者は、ゲーミフィケーション設定で社外学習者のゲーミフィケーションを有効にする必要があります。</p></td>
   </tr>
   <tr>
    <td>

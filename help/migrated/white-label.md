@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,52 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >署名されたバイナリをビルドするには、Android sdk build-toolsが必要です。
+
+Playストアでは、公開するためにaab形式のAndroidバイナリが必要です。 したがって、署名されていない.aabファイルを提供します。
+
+以下に改訂版を示します。
+
+>[!NOTE]
+>
+>キーストアファイルを作成する場合、キーストアパスワード、署名キーエイリアス、および署名キーエイリアスのパスワードを生成する必要があります。
+
+.aabファイルに署名するには、次の手順を実行します。
+
+次のコマンドを実行します。
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]**&#x200B;はJavaに含まれています。 Java 21を使用していることを確認します。
+
+プロンプトが表示されたら、次のパスワードを入力してください。
+
+* キーストアのパスワード
+* 署名キーエイリアスのパスワード
+
+付属のapkを使用できます。 ただし、aabファイルからapkを生成する必要がある場合は、次の手順に従います。
+
+>[!NOTE]
+>
+>APKを生成するには、**[!UICONTROL bundletool]**&#x200B;をインストールする必要があります。
+
+
+次のコマンドを実行して、apkファイルを作成します。
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+ファイルを解凍するには、次のコマンドを実行します。
+
+```
+unzip my_app.apks -d output_dir
+```
+
+**[!UICONTROL output_dir]**&#x200B;フォルダーからapkファイルを取得します。
 
 **次のステップ**
 
