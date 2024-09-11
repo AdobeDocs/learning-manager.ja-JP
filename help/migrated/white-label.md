@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ AWSでSNSサービスにエントリを追加するためのJSONファイルを�
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+ルートフォルダーには、**Runner.xcarchive.zip**&#x200B;ファイルが含まれています。 次のコマンドを実行して、署名されたバイナリを生成します。
+
+1. 次のコマンドを実行して、アーカイブを解凍します。
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. appディレクトリに移動します。
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. モバイルプロビジョニングファイルのコピー：
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. ルートディレクトリ（ Runner.xcarchive.zipがある場所）に戻ります。
+
+   ```
+   cd <root>
+   ```
+
+5. xcodebuildを使用してアーカイブをエクスポートします。
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. ipa_pathフォルダーで.ipaファイルを探します。
+7. .ipaファイルをDiawi webサイトにアップロードします。
+8. 完全にアップロードされたら、**[!UICONTROL [送信]]**&#x200B;ボタンを選択します。
+9. 完了すると、QRコードとリンクが届きます。
+10. SafariでQRコードまたはリンクを直接開きます。
+
+デバイスがプロビジョニングプロファイルに含まれている場合は、デバイス上でインストールが続行されます。
 
 >[!NOTE]
 >
 >署名されたバイナリをビルドするにはXCode 15.2以上が必要です。
 
 
-## Android
+### Android
+
+**APKファイルの場合**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**aabファイルの場合**
 
 >[!NOTE]
 >
