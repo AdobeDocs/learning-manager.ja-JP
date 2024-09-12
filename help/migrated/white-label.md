@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-ルートフォルダーには、**Runner.xcarchive.zip**&#x200B;ファイルが含まれています。 次のコマンドを実行して、署名されたバイナリを生成します。
+`<root>`フォルダーには、**Runner.xcarchive.zip**&#x200B;ファイルが含まれています。 次のコマンドを実行して、署名されたバイナリを生成します。
 
 1. 次のコマンドを実行して、アーカイブを解凍します。
 
@@ -378,7 +378,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. ルートディレクトリ（ Runner.xcarchive.zipがある場所）に戻ります。
+4. `<root>`フォルダー（ Runner.xcarchive.zipがある場所）に戻ります：
 
    ```
    cd <root>
