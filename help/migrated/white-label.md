@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    ```
 
 6. ipa_pathフォルダーで.ipaファイルを探します。
-7. .ipaファイルをDiawi webサイトにアップロードします。
+7. .ipaファイルを`Diawi` Webサイトにアップロードします。
 8. 完全にアップロードされたら、**[!UICONTROL [送信]]**&#x200B;ボタンを選択します。
 9. 完了すると、QRコードとリンクが届きます。
 10. SafariでQRコードまたはリンクを直接開きます。
