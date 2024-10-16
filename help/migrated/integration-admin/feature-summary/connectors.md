@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2103,7 +2103,7 @@ APIを使用して、Adobe Learning Managerからデータ取得サービスお�
 1. 次のオプションから&#x200B;**[!UICONTROL インターフェイスの種類]**&#x200B;を選択してください：
 
    * **[!UICONTROL Native Learning Manager]**：これは標準の機能で、ネイティブインターフェイスでのみ使用できます。
-***[!UICONTROL ヘッドレスインターフェイス]**：これは、ログインなしのエクスペリエンスを構築するためのAPIを公開するプレミアム製品です。
+   * **[!UICONTROL ヘッドレスインターフェイス]**：これは、ログインなしのエクスペリエンスを構築するためのAPIを公開するプレミアム製品です。
 
    ![](assets/types-of-interface.png)
 インターフェイスの種類
