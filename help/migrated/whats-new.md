@@ -2,9 +2,9 @@
 description: Adobe Learning Managerの2024年11月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: 新機能の概要
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 
 **[!UICONTROL 学習トランスクリプト]**&#x200B;レポートには、次の2つの新しい列が含まれます：
 
-* モジュール ID
-* コースインスタンス ID
+* **[!UICONTROL モジュールID]**：各モジュールの一意の識別子を表示します。 この新しい列は、既存の&#x200B;**[!UICONTROL モジュール]**&#x200B;列の後に追加されました。
+* **[!UICONTROL コースインスタンスID]**：各コースインスタンスの一意のIDを表示します。この新しい列は、既存の&#x200B;**[!UICONTROL インスタンス]**&#x200B;列の後に追加されました。
+* **[!UICONTROL 完了コメント]**：この列には、ユーザーの完了を記録するときに管理者が入力したコメントが記録されます。 この新しい列は、レポートの最後に追加されました。
+
 
 ### セッションの概要レポート
 
 **[!UICONTROL セッションの概要]**&#x200B;レポートには、次の3つの新しい列が含まれます。
 
-* モジュール ID
-* セッション ID
-* コースインスタンス ID
-* 完了数
+* **[!UICONTROL モジュールID]**&#x200B;列が&#x200B;**[!UICONTROL セッション名]**&#x200B;列の前に追加されました。
+* **[!UICONTROL セッションID]**&#x200B;列が&#x200B;**[!UICONTROL セッション名]**&#x200B;列の前に追加されました。
+* **[!UICONTROL コースインスタンスID]**&#x200B;列が&#x200B;**[!UICONTROL インスタンス名]**&#x200B;列の後に追加されました。
+* **[!UICONTROL 完了数]**&#x200B;列が&#x200B;**[!UICONTROL 登録数]**&#x200B;列の後に追加されました。
 
 ## このアップデートで修正されたバグ
 
