@@ -1,0 +1,4 @@
+id,courseName,description,courseCreationDate,state,sequential,author,tags,completionCriteria
+4001,Introduction to Java,Introduction to Java - standard edition,2024-10-23T10:12:11.110Z,Published,FALSE,Author1,Course1,SELECTEDMODULES
+4002,Java Basics,This is the cousre talks about the basics of Java,2024-10-23T10:12:11.110Z,Published,FALSE,Author2@xyz.com,Course2,2
+4003,Distributed systems,This course talks about distributed system,2024-10-23T10:12:11.110Z,Published,TRUE,Author3,Course3,ALL
