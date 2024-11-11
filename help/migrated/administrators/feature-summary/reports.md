@@ -4,10 +4,10 @@ jcr-language: en_us
 title: レポート
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 52%
 
 ---
 
@@ -289,63 +289,107 @@ _準拠ダッシュボード – 管理者ビュー_
 >
 >新しいダッシュボードを共有すると、選択したマネージャーアプリ内の既存のダッシュボードが上書きされます。 マネージャーは、管理者が新しく共有したダッシュボードを表示できるようになります。
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### 準拠ダッシュボードを管理者やカスタム管理者と共有する
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+管理者は、他の管理者やカスタム管理者とダッシュボードを共有して、すべての準拠ダッシュボードに即座にアクセスできます。
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+管理者およびカスタム管理者とダッシュボードを共有するには、次の手順に従います。
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. **[!UICONTROL 管理者]**&#x200B;としてログインします。
+2. **[!UICONTROL レポート]**/**[!UICONTROL 学習の概要]**&#x200B;に移動します。
+3. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションで&#x200B;**[!UICONTROL 管理者ビュー]**&#x200B;を選択します。
+4. **[!UICONTROL [ダッシュボードの共有]]**&#x200B;ボタンを選択します。
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _ダッシュボードの共有 – 管理者_
 
-You can also see the compliance status for each internal team.
+5. **[!UICONTROL [カスタムコンプライアンスの選択]]**&#x200B;ドロップダウンメニューからコンプライアンスラベルを選択します。 このオプションを選択すると、選択した準拠ラベルを持つすべてのコースが選択されます。
+6. 管理者と共有する追加のコース、学習パス、または資格認定を選択します。
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _準拠ダッシュボードの共有_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. ダッシュボードを共有するユーザーまたはユーザーグループを選択し、**[!UICONTROL 共有]**&#x200B;を選択します。
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### 準拠ダッシュボードの表示 – カスタム管理者とその他の管理者
 
-### Share training with managers
+すべてのカスタム管理者と、選択したユーザーグループの他の管理者は、アプリで準拠ダッシュボードを表示できます。
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+準拠ダッシュボードを表示するには、次の手順に従います。
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. **[!UICONTROL レポート]**/**[!UICONTROL 学習の概要]**/**[!UICONTROL 準拠ダッシュボード]**&#x200B;に移動します。
+2. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションで&#x200B;**[!UICONTROL 自分のビュー]**&#x200B;を選択します。
+3. **[!UICONTROL 準拠ダッシュボードに移動]**&#x200B;オプションを選択すると、管理者によって共有されている新しい準拠ダッシュボードが表示されます。
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _準拠ダッシュボードを表示 – カスタム管理者_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### ストアマネージャーと共有
 
-### Share training
+管理者は、準拠ダッシュボードをストアマネージャーと共有することで、学習者の準拠の進捗状況を監視できます。
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+次の手順に従って、ダッシュボードをストアマネージャーと共有します。
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. **[!UICONTROL 管理者]**&#x200B;としてログインします。
+2. **[!UICONTROL レポート]**/**[!UICONTROL 学習の概要]**/**[!UICONTROL 準拠ダッシュボード]**&#x200B;に移動します。
+3. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションの&#x200B;**[!UICONTROL マネージャービュー]**&#x200B;を選択します。
+4. **[!UICONTROL [ダッシュボードの共有]]**&#x200B;ボタンを選択します。
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _準拠ダッシュボードをマネージャーと共有する_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. **[!UICONTROL [カスタムコンプライアンスの選択]]**ドロップダウンメニューからコンプライアンスラベルを選択します。
+このオプションを選択すると、選択した準拠ラベルを持つすべてのコースが選択されます。
+6. 管理者と共有する追加のコース、学習パス、または資格認定を選択します。
+7. ダッシュボードを共有するユーザーまたはユーザーグループを選択し、**[!UICONTROL 共有]**&#x200B;を選択します。
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### 準拠ダッシュボードを表示 – マネージャー
 
-1. Click **[!UICONTROL Share]**.
+詳細については、この記事[コンプライアンスダッシュボードを表示](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard)を参照してください。
 
-The training is now shared with the specified manager.
+#### ダッシュボードの編集
 
-### View training
+準拠ダッシュボードを編集するには、次の手順に従います。
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. **[!UICONTROL 管理者]**&#x200B;としてログインします。
+2. **[!UICONTROL レポート]**/**[!UICONTROL 学習の概要]**/**[!UICONTROL 準拠ダッシュボード]**&#x200B;に移動します。
+3. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションで&#x200B;**[!UICONTROL 管理者ビュー]**&#x200B;または&#x200B;**[!UICONTROL マネージャー表示]**&#x200B;を選択します。 このセクションには、準拠ダッシュボードが表示されます。
+4. 準拠ダッシュボードで、編集する&#x200B;**[!UICONTROL 編集]**&#x200B;を選択します。
 
-### Withdraw training
+   ![](assets/edit.png)
+   _準拠ダッシュボードを編集する_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. 必要な詳細を変更し、**[!UICONTROL 共有]**&#x200B;を選択してください。
+6. 準拠ダッシュボードは、選択したマネージャーと共有されます。
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### ダッシュボードの削除 – 管理者
+
+準拠ダッシュボードを取り消すには、次の手順に従います。
+
+1. **[!UICONTROL 管理者]**&#x200B;としてログインします。
+2. **[!UICONTROL レポート]**/**[!UICONTROL 学習の概要]**/**[!UICONTROL 準拠ダッシュボード]**&#x200B;に移動します。
+3. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションで&#x200B;**[!UICONTROL 管理者ビュー]**&#x200B;または&#x200B;**[!UICONTROL マネージャー表示]**&#x200B;を選択します。 このセクションには、準拠ダッシュボードが表示されます。
+4. 削除する準拠ダッシュボードで「**[!UICONTROL 撤回]**」を選択し、「**[!UICONTROL 続行]**」を選択します。
+5. このアクションにより、マネージャーアプリから共有準拠ダッシュボードが削除されます。
+
+   ![](assets/manager-edit.png)
+   _準拠ダッシュボードを取り消す_
+
+#### 学習者のデフォルトの準拠ウィジェットの設定
+
+学習者のデフォルトの準拠ウィジェットを設定するには、次の手順に従います。
+
+1. **[!UICONTROL 管理者]**&#x200B;としてログインします。
+2. **[!UICONTROL レポート]**/**[!UICONTROL 学習の概要]**/**[!UICONTROL 準拠ダッシュボード]**&#x200B;に移動します。
+3. **[!UICONTROL 準拠ダッシュボード]**&#x200B;セクションで&#x200B;**[!UICONTROL 学習者ビュー]**&#x200B;を選択します。
+4. 「**[!UICONTROL 学習者ビュー]**」セクションで「**[!UICONTROL 変更]**」を選択します。
+
+   ![](assets/learner-widget.png)
+   _学習者の既定の準拠ウィジェットを設定する_
+5. **[!UICONTROL [カスタムコンプライアンス]]**&#x200B;ドロップダウンからコンプライアンスラベルを選択します。 このオプションを選択すると、選択した準拠ラベルを持つすべてのコースが選択されます。
+6. 既定の準拠ウィジェットを設定するには、**[!UICONTROL 続行]**&#x200B;を選択します。
+
+学習者は、ホームページの準拠ウィジェットで、選択したコースや学習パスを確認できます。 詳細については、[準拠ダッシュボードウィジェット](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget)を参照してください。
 
 ## カスタムレポート
 
@@ -846,6 +890,34 @@ Learning Managerではトレーニングレポートをサポートしていま�
 * 学習要素のリマインダー
 * カタログ範囲
 * ユーザーグループ範囲
+
+### カスタム役割の監査証跡
+
+管理者は、カスタムの役割の監査レポートをダウンロードして、カスタムの役割と関連する機能アクセスの作成、変更、削除など、カスタムの役割に加えられたすべての変更を追跡することができます。
+
+レポートをダウンロードするには、次の手順に従います。
+
+1. 管理者としてログインします。
+2. レポート/カスタムレポートを選択します。
+3. 「カスタム役割監査追跡」を選択し、日付範囲を選択します。
+4. 「生成」を選択してレポートをダウンロードします。
+
+カスタム役割監査追跡レポートには、次のフィールドが含まれます。
+
+* 役割 ID
+* 役割名
+* アクティビティタイプ
+* 修正タイプ
+* 説明
+* 参照先オブジェクトタイプ
+* 参照先オブジェクト ID
+* 参照先オブジェクト名
+* 参照先オブジェクト電子メール
+* ユーザー名を修正
+* 変更者ユーザーUUID
+* ユーザーの電子メールを修正
+* 変更日（UTCタイムゾーン）
+* ソース
 
 ## 電子メールのサブスクリプション {#emailsubscriptions}
 

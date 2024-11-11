@@ -4,9 +4,9 @@ title: アプリケーションデベロッパーマニュアル
 description: Learning Manager V1 API は非推奨になりました。 V1 API は、2021 年 2 月 28 日をもって終了します。今後はLearning Managerを操作する際に、V2 APIを使用することをお勧めします。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3377'
 ht-degree: 62%
 
 ---
@@ -134,7 +134,7 @@ API リクエストに失敗すると、エラー応答を取得します。 応
 
 API オブジェクトの属性や関係は、総称としてフィールドと呼ばれます。 詳しくは、[JSON API を参照してください。](http://jsonapi.org/format/#document-resource-object-fields)モデルから1つ以上の特定の属性を取得するAPI呼び出しを作成する際に、パラメーターとしてフィールドを使用できます。 フィールドパラメーターがない場合、API 呼び出しは、モデルから使用可能な属性をすべて取得します。 例えば、次のAPI呼び出しでは、 fields[skill]=nameはスキルモデルのname属性のみを取得します。
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **ページネーション**
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: セッションの学習者の管理
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ ht-degree: 91%
 
 ![](assets/unenroll-learners.png)
 *学習者の登録解除*
+
+### キャンセル待ちレポート
+
+Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレポート]**&#x200B;を使用すると、インストラクターは、コースのすべてのインスタンスについて、キャンセル待ちの学習者リストをダウンロードできます。 インストラクターは、**[!UICONTROL セッションの概要]**&#x200B;ページの&#x200B;**[!UICONTROL キャンセル待ち]**&#x200B;セクションからこのレポートにアクセスできます。
+
+キャンセル待ちレポートで使用できる列は次のとおりです。
+
+* コース名
+* インスタンス名
+* インスタンス ID
+* インスタンスのステータス
+* ユーザー名
+* 電子メール
+* ユーザーの一意の ID
+* 登録日 (UTC タイムゾーン)
+* ステータス
+* キャンセル待ち番号
+* キャンセル待ちの制限
+* 人数制限
+
+「インストラクター」セクションからレポートをダウンロードするには：
+
+1. **[!UICONTROL インストラクター]**&#x200B;としてログインします。
+2. ホームページから任意のセッションを選択します。
+3. **[!UICONTROL セッションの概要]**&#x200B;ページで&#x200B;**[!UICONTROL キャンセル待ち]**&#x200B;オプションを選択します。
+4. **[!UICONTROL アクション]** / **[!UICONTROL レポートの書き出し]**&#x200B;を選択して、**[!UICONTROL キャンセル待ち]**&#x200B;レポートをダウンロードします。
 
 ## セッション出席の記録 {#markattendanceforyoursession}
 

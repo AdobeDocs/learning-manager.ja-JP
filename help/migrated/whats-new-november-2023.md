@@ -2,9 +2,9 @@
 title: このリリースの最新情報
 description: Adobe Learning Managerの2023年11月リリースの新機能と強化機能について説明します。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2370'
 ht-degree: 70%
 
 ---
@@ -112,7 +112,7 @@ Adobe Learning Manager では、カスタム管理者が使用できるのは学
    <td>
     <p style="text-align: left;"><b>使用可能</b></p></td>
    <td>
-    <p style="text-align: left;"><b>スコープ</b></p></td>
+    <p style="text-align: left;"><b>対象範囲</b></p></td>
         </tr>
     <tr>
    <td>
@@ -177,7 +177,7 @@ Adobe Learning Manager では、カスタム管理者が使用できるのは学
    <td>
     <p style="text-align: left;"><b>使用可能</b></p></td>
    <td>
-    <p style="text-align: left;"><b>スコープ</b></p></td>
+    <p style="text-align: left;"><b>対象範囲</b></p></td>
         </tr>
     <tr>
    <td>
@@ -323,4 +323,3 @@ Learning Manager Webアプリとデバイスアプリの現在および以前の
 
 * [2023年7月リリース](whats-new-2023-july.md)
 * [2023年4月リリース](whats-new-2023-april.md)
-* [2022年11月リリース](whats-new-2022-november.md)

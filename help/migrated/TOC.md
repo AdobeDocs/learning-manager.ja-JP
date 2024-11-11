@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 87%
+source-wordcount: '618'
+ht-degree: 85%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 * [Learning Manager ユーザーガイド](user-guide.md)
 * 概要{#introduction}
    * [新機能の概要](whats-new.md)
+   * [新機能の概要2024年7月](whats-new-july-2024.md)
    * [新機能2024年3月](whats-new-march-2024.md)
    * [新機能2023年11月](whats-new-november-2023.md)
    * [新機能2023年7月](whats-new-2023-july.md)
    * [新機能2023年4月](whats-new-2023-april.md)
-   * [新機能2022年11月](whats-new-2022-november.md)
    * [リリースノート](release-note/release-notes.md)
    * [必要システム構成](system-requirements.md)
    * [AEM SitesのALM参照サイトパッケージ](adobe-learning-manager-integration-aem.md)
@@ -88,6 +88,9 @@ ht-degree: 87%
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
    * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhooks](integration-admin/feature-summary/webhooks.md)
+   * [信心深く](integration-admin/feature-summary/credly-integration.md)
+   * [学習ツールの相互運用性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
    * [Learning Manager に Salesforce パッケージをインストールする](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams コネクターのインストール](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -127,6 +130,7 @@ ht-degree: 87%
    * [ユーザー通知](learners/feature-summary/user-notifications.md)
    * [アナウンス](learners/feature-summary/announcements.md)
    * [キャンセル待ちと出席の管理](learners/feature-summary/waitlist-attendance-management.md)
+   * [Adobe Learning ManagerでのAIを活用した検索](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce 向け Learning Manager アプリ](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect の統合](learners/feature-summary/adobeconnect-integration.md)
    * [モバイルおよびタブレット向け学習者アプリ](learners/feature-summary/ipad-android-tablet-users.md)
