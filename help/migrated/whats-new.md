@@ -2,7 +2,7 @@
 description: Adobe Learning Managerの2024年11月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: 新機能の概要
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '3034'
 ht-degree: 2%
@@ -223,7 +223,7 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 3. `quizData`：
 
    * データ型は文字列値である必要があり、サポートされている値は`QUIZ_ATTEMPTED`、`QUIZ_PASSED`、および`QUIZPASSED_OR_LIMITREACHED`です。
-   * `completionCriteria`が`QUIZ`に設定されている場合は、この列に適切なクイズ値を入力するか、空白のままにします。
+   * `completionCriteria`が`QUIZ`に設定されている場合は、`quizData`列に適切なクイズ値を入力します。
 
 詳細については、[module_version csv spec](assets/4-module_version.xlsx)ファイルを参照してください。
 
@@ -239,7 +239,7 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 * `completionCriteria`を`SELECTEDMODULES`に設定した場合、[course_module.csv](assets/course_module.csv)ファイルで必須モジュールをマークする必要があります。
 * `optionalCriteria`列に、`TRUE`または`FALSE`を入力します。 値を`TRUE`に設定すると、モジュールは必須になります。
 
-詳細については、[コースcsvスペック](assets/3-course.xlsx)ファイルを参照してください。
+詳細については、[course csv spec](assets/3-course.xlsx)および[course_module csv spec](assets/6-course_module.xlsx)ファイルを参照してください。
 
 ## API の変更
 
