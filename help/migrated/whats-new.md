@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2024年11月リリースの新機能と強
 jcr-language: en_us
 title: 新機能の概要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 * キャンセル待ちの制限
 * 人数制限
 
-この記事（[キャンセル待ちレポート](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)と[キャンセル待ちレポート](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)）を参照して、管理者およびインストラクターのセクションからレポートをダウンロードしてください。
+この記事[キャンセル待ちレポート（管理者）](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)と[キャンセル待ちレポート（インストラクター）](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)を参照して、管理者およびインストラクターのセクションからレポートをダウンロードしてください。
 
 ## 学習者ホームページのアクセシビリティ
 
@@ -149,6 +149,10 @@ Adobe Learning Managerでは、すべてのマストヘッドの代替テキス�
 ## ヒンディー語のサポート
 
 Adobe Learning Managerは、プラットフォームのインターフェイス言語の1つとしてヒンディー語を導入し、インドでのプラットフォームの成長をサポートするようになりました。 ヒンディー語ネイティブスピーカーがサポートされているので、すべての機能、レポート、全体的なユーザーエクスペリエンスにユーザーが完全にアクセスできます。
+
+>[!NOTE]
+>
+>PDF形式でシステムによって生成されたバッジ証明書は、ヒンディー語をサポートしません。
 
 インターフェイス言語を変更するには、次の手順に従います。
 

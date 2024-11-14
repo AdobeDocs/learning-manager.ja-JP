@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 様々なロケールで学習目標を追加
 contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 28%
@@ -99,6 +99,4 @@ VCモジュールの新しい言語の追加
 
 ![](assets/course-overview.png)
 _インスタンスの詳細_
-
-
 
