@@ -3,7 +3,7 @@ description: Adobe Learning Managerの2024年11月リリースの新機能と強
 jcr-language: en_us
 title: 新機能の概要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
 workflow-type: tm+mt
 source-wordcount: '3149'
 ht-degree: 2%
@@ -53,9 +53,9 @@ Adobe Learning Managerは、LTIをサポートするようになり、Adobe Lear
 
 LTI(Learning Tools Interoperability)は、サードパーティのツールおよびコンテンツプロバイダーが学習管理システム(LMS)と接続できるようにする標準です。 ユーザーは、ログインしたり別のLMSに移動したりしなくても、LMS内で外部コンテンツプロバイダーの外部学習コンテンツに直接アクセスできます。
 
-ツールプロバイダーとしてのLTI：ツールプロバイダーとしてのLTIは、外部システムをLMSと統合することを可能にします。 Adobe Learning ManagerはLTIツールプロバイダーとして機能し、他のLMSプラットフォームが、自身のLMS内でAdobe Learning Managerから直接、コース、証明書、または学習パスにアクセスできるようにします。
+**ツールプロバイダーとしてのLTI**:ツールプロバイダーとしてのLTIにより、外部システムをLMSと統合できます。 Adobe Learning ManagerはLTIツールプロバイダーとして機能し、他のLMSプラットフォームが、自身のLMS内でAdobe Learning Managerから直接、コース、証明書、または学習パスにアクセスできるようにします。
 
-ツールコンシューマーとしてのLTI：ツールコンシューマーとしてのLTIを使用すると、LMSはLearning Tools Interoperability(LTI)を介して外部ツールを統合できます。 このシナリオでは、LMSは外部ツールによって提供されるサービスの消費者です。 Adobe Learning ManagerはLTI Tool Consumerの役割を果たし、サードパーティの学習ツールとの連携を可能にします。 これにより、Adobe Learning Managerの学習者は、Adobe Learning Manager内のサードパーティツールからコース、資格認定、または学習パスを利用できます。
+**ツールコンシューマーとしてのLTI**:ツールコンシューマーとしてのLTIを使用すると、LMSはLearning Tools Interoperability(LTI)を介して外部ツールを統合できます。 このシナリオでは、LMSは外部ツールによって提供されるサービスの消費者です。 Adobe Learning ManagerはLTI Tool Consumerの役割を果たし、サードパーティの学習ツールとの連携を可能にします。 これにより、Adobe Learning Managerの学習者は、Adobe Learning Manager内のサードパーティツールからコース、資格認定、または学習パスを利用できます。
 
 詳細については、この記事[学習ツールの相互運用性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)を参照してください。
 
