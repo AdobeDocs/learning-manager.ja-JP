@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 3fec5b53acc44a713d4523d28f0306323631ff40
+source-git-commit: a0dfb899a2afad002662f2f8708925a812e73e96
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '622'
 ht-degree: 85%
 
 ---
@@ -88,8 +88,9 @@ ht-degree: 85%
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
    * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
-   * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
-   * [Webhook使用ガイド](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+   * Webhook {#webhooks}
+      * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
+      * [Webhook使用ガイド](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [信心深く](integration-admin/feature-summary/credly-integration.md)
    * [学習ツールの相互運用性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
