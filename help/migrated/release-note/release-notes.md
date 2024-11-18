@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
 workflow-type: tm+mt
-source-wordcount: '26237'
+source-wordcount: '26265'
 ht-degree: 72%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++アップデート98:2024年11月リリースのAdobe Learning Manager
+
+**リリース日**: 2024年11月16日
+
+## リリースの最新情報
+
+詳しくは、[Adobe Learning Manager の新機能](/help/migrated/whats-new.md)を参照してください。
++++
 
 +++アップデート97:Adobe Learning Managerの2024年7月リリース
 
