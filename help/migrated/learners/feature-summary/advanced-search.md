@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning ManagerでのAIを活用した検索
 description: Adobe Learning ManagerでのAIを活用した検索について説明します
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Adobe Learning Managerの検索機能は、高度なテクノロジを独自に�
 >
 >1. ヘッドレス実装を使用しているお客様は、APIドキュメントに従って詳細検索を有効にする必要があります。
 >2. 現在、Salesforceアプリでは詳細検索を使用できません。
+>3. コンテンツと文字起こしを含むお客様データは、AIを活用した検索のために外部サービスと共有されることはありません。 すべてのコンテンツは、既存のストレージ・システム内に安全に保存されます。
