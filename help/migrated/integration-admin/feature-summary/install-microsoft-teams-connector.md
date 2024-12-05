@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager で Microsoft Teams コネクターをインストール
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: 6192559436074c3270644850b202589961e7b81b
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 17%
@@ -130,7 +130,7 @@ PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリ�
 
 ## Learning ManagerでのMicrosoft Teamsコネクタの設定
 
-1. 統合管理者としてLearning Managerにサインインします。
+1. Learning Managerに&#x200B;**統合管理者**&#x200B;としてサインインします。
 
 1. [コネクタ]ページで[Microsoft Teamsコネクタ]を選択し、[**[!UICONTROL 接続]**]をクリックします。
 
