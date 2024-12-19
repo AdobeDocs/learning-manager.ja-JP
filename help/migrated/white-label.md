@@ -4,9 +4,9 @@ title: AdobeのLearning Managerモバイルアプリでのホワイトラベル
 description: ホワイトラベルとは、アプリやサービスのブランド名を変更し、元のクリエイターのようにカスタマイズする行為です。 Adobe Learning Managerでは、モバイルアプリにホワイトラベルを適用して、アプリのブランドを変更したり、自分のブランドの下でアプリを使用したりすることができます。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. `<root>`フォルダー（ Runner.xcarchive.zipがある場所）に戻ります：
+4. 次のコマンドを実行して、署名情報をフレームワークライブラリに更新します。
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. `<root>`フォルダー（ Runner.xcarchive.zipがある場所）に戻ります：
 
    ```
    cd <root>
    ```
 
-5. xcodebuildを使用してアーカイブをエクスポートします。
+6. xcodebuildを使用してアーカイブをエクスポートします。
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. ipa_pathフォルダーで.ipaファイルを探します。
-7. .ipaファイルを`Diawi` Webサイトにアップロードします。
-8. 完全にアップロードされたら、**[!UICONTROL [送信]]**&#x200B;ボタンを選択します。
-9. 完了すると、QRコードとリンクが届きます。
-10. SafariでQRコードまたはリンクを直接開きます。
+7. ipa_pathフォルダーで.ipaファイルを探します。
+8. .ipaファイルを`Diawi` Webサイトにアップロードします。
+9. 完全にアップロードされたら、**[!UICONTROL [送信]]**&#x200B;ボタンを選択します。
+10. 完了すると、QRコードとリンクが届きます。
+11. SafariでQRコードまたはリンクを直接開きます。
 
 デバイスがプロビジョニングプロファイルに含まれている場合は、デバイス上でインストールが続行されます。
 
@@ -408,8 +414,12 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 **APKファイルの場合**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>`apksigner`ツールへのパスは通常、～/Library/Android/sdk/build-tools/30.0.3/apksignerのようになります。
 
 **aabファイルの場合**
 
@@ -464,6 +474,36 @@ unzip my_app.apks -d output_dir
 **次のステップ**
 
 バイナリを生成したら、バイナリをPlayストアまたはApp Storeにプッシュします。
+
+### レビューのためにアプリをストアにプッシュする
+
+最終的なバイナリを取得したら、それらを対応するアプリストア(iOSまたはAndroid)にアップロードしてレビューできます。 次の手順に従って、バイナリをアプリストアにアップロードします。
+
+**iOS**
+
+1. App Storeの資格情報を使用して、 Transporterアプリにログインします。
+2. 左側の上部にある「**+**」ボタンを選択し、本番証明書（.ipaファイル）をアップロードします。
+3. .ipaファイルが正しい場合は、App Storeにアプリケーションをアップロードするように求められます。
+4. アプリが配信されたら、App Storeにログインします。 数時間以内に、バイナリがTestFlightセクションに表示されます。 アプリのレビュー前にTestFlightで最終的なサニティーテストを有効にし、新しいリリース用にアプリを送信する際に、このIPAをバイナリとして使用できます。
+
+**Android**
+
+1. Google Play Storeコンソールを開きます。
+2. **[!UICONTROL ダッシュボード]** > **[!UICONTROL アプリのリリースを表示]** > **[!UICONTROL ダッシュボードをリリース]**&#x200B;に移動し、**[!UICONTROL 新しいリリースを作成]**&#x200B;を選択します。
+3. 生成された.aabファイルをアプリバンドルとしてアップロードし、バージョン番号や新機能などのリリース情報を入力します。
+4. 変更を保存し、アプリをレビュー用に送信します。
+5. アプリの配布は必ず100%に設定してください(Googleではデフォルトで20%に設定されています)。
+
+#### アプリ公開に役立つリンク
+
+**Android**
+
+[アプリを作成してセットアップする](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[レビュー用にアプリを準備](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[レビュー用に送信](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## 変更を適用する方法
 
