@@ -4,9 +4,9 @@ title: Salesforce パッケージのインストール
 description: Learning ManagerはSalesforceアプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDCポータル内のアプリにマストヘッド形式で表示できます。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1057'
 ht-degree: 47%
 
 ---
@@ -47,11 +47,10 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 >
 >Adobe Learning Managerアプリは、Salesforce Lightningビューでのみサポートされています。
 
-1. [Learning ManagerパッケージのURL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP)を起動します。
+1. [Learning ManagerパッケージのURL （M42パッチ2）](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG)を起動します。
 1. **ログイン**&#x200B;ページで、[**[!UICONTROL カスタムドメインを使用]**]をクリックします。
-
 1. パッケージのURLを入力し、**[!UICONTROL [続行]]**&#x200B;をクリックします。 インストールページで「管理者のみにインストール」オプションを選択している必要があります。 このオプションは変更しないでください。
-1. **InsTall**&#x200B;をクリックします。 パッケージがインストールされたら、[**[!UICONTROL 完了]**]をクリックします。 インストール済みパッケージページが表示され、Adobe Learning Manager のインストール済みパッケージが表示されます。
+1. [**[!UICONTROL インストール]**]をクリックします。 パッケージがインストールされたら、[**[!UICONTROL 完了]**]をクリックします。 インストール済みパッケージページが表示され、Adobe Learning Manager のインストール済みパッケージが表示されます。
 
 1. 設定の横にある App Launcher に移動して「Adobe Learning Manager」を検索します。
 1. アプリを構成するには、[**[!UICONTROL 構成]**]をクリックします。
