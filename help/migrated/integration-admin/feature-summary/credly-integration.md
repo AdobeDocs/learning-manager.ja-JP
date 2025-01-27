@@ -3,9 +3,10 @@ jcr-language: en_us
 title: 信心深く
 description: 様々なソーシャルメディアチャネルでプラットフォームから外部バッジを管理および共有するためのALMとのCredlyの統合について説明します
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Adobe Learning ManagerにCredlyコネクタを追加するには、次の手順�
 
 Adobe Learning Managerのbadge.csvを使用すると、既存のLMSまたは外部システムからバッジを移行できます。 badge.csvが2つの新しい列で更新されました。
 
-* 外部バッジID
-* 外部バッジプロバイダー。
+* externalBadgeId
+* externalBadgeProvider
 
 外部バッジIDは、CredlyプラットフォームのバッジテンプレートIDを参照し、外部バッジプロバイダーはCredlyです。 badge.csvにこれらの値を追加し、[移行マニュアル](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)に記載されている手順に従ってcsvを移行します。
 
@@ -55,4 +56,3 @@ Adobe Learning Managerのbadge.csvを使用すると、既存のLMSまたは外�
 作成者/管理者は、これらのCredlyで読み込まれたALMバッジを（スキルだけでなく）コース、学習パス、資格認定に割り当てることができます。これらの学習目標の使用時に、バッジが達成され、CredlyおよびALMアプリで表示できます。
 
 学習者はCredlyにログインし、Credlyプラットフォームでバッジを確認できます。 Credlyから、LinkedInやその他のソーシャルメディアなどの外部プラットフォームでバッジを共有できます。
-
