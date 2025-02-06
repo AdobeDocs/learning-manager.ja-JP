@@ -4,7 +4,7 @@ title: アプリケーションデベロッパーマニュアル
 description: Learning Manager V1 API は非推奨になりました。 V1 API は、2021 年 2 月 28 日をもって終了します。今後はLearning Managerを操作する際に、V2 APIを使用することをお勧めします。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3377'
 ht-degree: 62%
@@ -120,11 +120,11 @@ Learning Manager API でよく使用される用語の一部が、参考のた�
 
 **API リクエスト**
 
-API リクエストは、HTTP リクエストで実行できます。 エンドポイントやメソッドに応じて、デベロッパーは、GET、PUT、POST、DELETE、PATCH など、さまざまな HTTP 動詞を選択する場合があります。 リクエストの中には、クエリパラメーターを渡すことができるものもあります。 ユーザーは、特定のデータモデルをリクエストする場合に、JSON API 仕様に従って、関連するモデルをリクエストすることもできます。 一般的な API リクエストの構造は、[サンプルモデルの使用例](#main-pars_header_1415780624)で説明されています。
+API リクエストは、HTTP リクエストで実行できます。 エンドポイントやメソッドに応じて、デベロッパーは、GET、PUT、POST、DELETE、PATCH など、さまざまな HTTP 動詞を選択する場合があります。 リクエストの中には、クエリパラメーターを渡すことができるものもあります。 ユーザーは、特定のデータモデルをリクエストする場合に、JSON API 仕様に従って、関連するモデルをリクエストすることもできます。 一般的な API リクエストの構造は、[サンプルモデルの使用例](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration)で説明されています。
 
 **API 応答**
 
-クライアントにより API リクエストが実行されると、JSON API 仕様に従って SON ドキュメントの取得が行われます。 このレスポンスにはHTTPステータスコードも含まれています。開発者はこのコードを確認することで、アプリケーションロジックで適切な次のステップを実行することができます。 一般的なAPI応答の構造は、[モデルの使用例](#main-pars_header_1415780624)で説明されています。
+クライアントにより API リクエストが実行されると、JSON API 仕様に従って SON ドキュメントの取得が行われます。 このレスポンスにはHTTPステータスコードも含まれています。開発者はこのコードを確認することで、アプリケーションロジックで適切な次のステップを実行することができます。 一般的なAPI応答の構造は、[モデルの使用例](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration)で説明されています。
 
 **エラー**
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 84%
+source-wordcount: '634'
+ht-degree: 83%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 84%
    * [ユーザーの一括追加](administrators/add-users-in-bulk.md)
    * [学習者およびマネージャーに偽装する](administrators/feature-summary/impersonation-learner-manager.md)
    * [複数の SSO ログイン](administrators/feature-summary/multiple-sso-logins.md)
+   * [SAMLを使用したインターフェイス言語の設定](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [ピアアカウント](administrators/feature-summary/peer-account.md)
    * [スキルとレベルの作成および変更](administrators/feature-summary/skills-levels.md)
    * [AI ベースの推奨コース](ai-based-recommendations.md)

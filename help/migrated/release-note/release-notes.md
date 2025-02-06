@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26265'
-ht-degree: 72%
+source-wordcount: '26470'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,26 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++アップデート99:2025年2月リリースのAdobe Learning Manager
+
+## SAMLを使用したインターフェイス言語の設定
+
+Adobe Learning Manager(ALM)で、言語にSAML属性を使用できるようになりました。 この属性は、ユーザーのインターフェイスとコンテンツ言語の設定にマッピングされ、ユーザーが使用する言語でLMSとスムーズに対話できるようになります。 これらの言語設定の設定は、シングルサインオン(SSO)にSAMLを利用し、Identity and Access Management(IAM)プラットフォームで管理します。 これにより、サービスプロバイダー(SP)から開始されるログインとアイデンティティプロバイダー(IdP)から開始されるログインの両方がサポートされ、ユーザーは選択した言語でインターフェイスとコンテンツを表示できます。
+
+詳細については、この[記事](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)を参照してください。
+
+## 移行APIの機能強化
+
+以前は、API （`GET /bulkimport/cansync`および`POST /bulkimport/startrun`）を使用して移行された外部リンクを含むアクティビティモジュールで、リンクにアクセスした後に、学習者に&#x200B;**[!UICONTROL 完了としてマーク]**&#x200B;オプションが表示されませんでした。 この問題は解決済みです。 APIを介して移行された外部リンクを含むアクティビティモジュールで、学習者に対して&#x200B;**[!UICONTROL 「完了としてマーク」]**&#x200B;オプションが正しく表示されるようになりました。
+
+## 学習者アプリの並べ替え機能
+
+学習者アプリの並べ替え機能では、コンテンツとインターフェイス言語に基づき、パーソナライズされたコース推奨が提供されます。&#x200B; この機能強化により、学習者が希望する言語でコースを検索し、よりインテリジェントな並べ替えオプションを利用するプロセスが簡素化されます。
+
+詳細については、この[記事](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)を参照してください。
+
++++
 
 +++アップデート98:2024年11月リリースのAdobe Learning Manager
 
