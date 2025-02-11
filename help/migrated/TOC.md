@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '639'
 ht-degree: 83%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 83%
    * [Adobe Learning Managerでサポートされる言語](/help/migrated/languages-supported.md)
    * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
    * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
+   * [埋め込みプレーヤーインタラクション API に関するドキュメント](/help/migrated/embedded-player-interaction.md)
 * {#get-started}を開始する
    * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
    * [作成者の基本](authors/feature-summary/getting-started-author.md)
