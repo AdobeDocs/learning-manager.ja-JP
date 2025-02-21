@@ -4,9 +4,9 @@ title: 外部ソースからのスキルの読み込み
 description: それぞれのコネクタを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。  読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### デフォルトのスキルレベル
 
-デフォルトのスキルレベルは1で、スキルの移行後の単位は10です。 後で管理者がクレジットを変更できます。
+デフォルトのスキルレベルは1で、スキルの移行後の単位は10です。
 
 スキルの名前、説明を編集したり、外部スキルにレベルを追加したりすることはできません。 ただし、ドメイン、バッジの追加や、クレジットの編集は可能です。
 
