@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning ManagerでのAIを活用した検索
 description: Adobe Learning ManagerでのAIを活用した検索について説明します
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _意味検索_
 
 ### コンテンツ内検索
 
-Adobe Learning Managerの検索機能が強化され、実際のコンテンツを検索できるようになりました。 ビデオ、音声ファイル、PDFを自動文字起こしし、その文字起こしを検索結果に組み込みます。 さらに、Adobe Connectの会議録画を使用して、より包括的で関連性の高い結果を提供します。 この機能強化により、ビデオや会議ノートなどの豊富なコンテンツを含むコースが含まれるようになり、検索の精度と有効性が大幅に向上します。
+Adobe Learning Managerの検索機能が強化され、実際のコンテンツを検索できるようになりました。 ビデオ、音声ファイル、PDF、ドキュメント、ppt、xlsを自動文字起こしし、その文字起こしを検索結果に組み込みます。 さらに、Adobe Connectの会議録画を使用して、より包括的で関連性の高い結果を提供します。 この機能強化により、ビデオや会議ノートなどの豊富なコンテンツを含むコースが含まれるようになり、検索の精度と有効性が大幅に向上します。 コンテンツ内一致は、従来の語句一致や意味一致で見つかった結果をブーストすることで、検索結果のランキングを向上させるのに役立ちます。
 
 >[!NOTE]
 >
