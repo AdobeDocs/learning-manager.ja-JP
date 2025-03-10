@@ -1,8 +1,3 @@
-Name,Account Summary Report,Learning Plan,Announcement,Badge,Billing,Branding,Content Library,Gamification,Email Template,Setting,Skill,User,Catalog,Report,Tag,Course,Learning Program,Certification,Job Aid,Catalog Scope,User Group,Description
-Role 1,FULL,FULL,NONE,NONE,NONE,NONE,NONE,NONE,NONE,FULL,FULL,NONE,NONE,NONE,NONE,FULL,ENROLL,WRITE,REPORT,FULL,FULL,Permission Combinations
-Role 2,FULL,NONE,FULL,FULL,FULL,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,ENROLL|REPORT,NONE,NONE,NONE,FULL,Location=Noida,Profile based User Group Scope
-Role 3,FULL,NONE,NONE,FULL,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,FULL,FULL,NONE,WRITE|REPORT,NONE,NONE,Catalog A,manager_direct=user1@gmail.com,Manager's direct team
-Role 4,FULL,NONE,NONE,NONE,FULL,NONE,NONE,NONE,NONE,NONE,NONE,FULL,FULL,NONE,NONE,NONE,NONE,ENROLL|REPORT,NONE,FULL,All Learners,User Group Names
-Role 5,FULL,NONE,NONE,FULL,FULL,FULL,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,Catalog1|Catalog2,manager_org=user2@gmail.com,Manager's Org
-Role 6,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,FULL,self_registration=GroupA,Self Registration Profiles
-Role 7,FULL,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,FULL,FULL,FULL,FULL,FULL,ext_registration=GroupB,External Registration Profiles
+CustomRole,Source,Learning Plan,Account Summary Report,Announcement,Badge,Billing,Branding,Content Library,Gamification,Email Template,LTI Integration,Setting,Skill,Internal/External Users,User Groups,Advanced Users,Catalog,Report,Tag,Course,Learning Program,Certification,Job Aid,Catalog Scope,User Group Scope(Description),User Group Scope,Description
+Role I,CSV Upload,NONE,NONE,NONE,NONE,NONE,NONE,1|2|3|4|5|6,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,FULL,NONE,NONE,READ|EDIT,READ|DELETE,ENROLL|READ,REPORT|READ,FULL,FULL,FULL,
+Role II,CSV Upload,NONE,NONE,NONE,NONE,NONE,NONE,FULL,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,FULL,NONE,NONE,READ|EDIT,READ|DELETE,REPORT|READ,REPORT|READ,FULL,FULL,FULL,

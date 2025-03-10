@@ -1,4 +1,3 @@
-Id,CustomRole
-user1@gmail.com,Role 1
-user2@gmail.com,Role 2
-user3@gmail.com,Role 3
+Id,CustomRole,Source
+kmanmothe+01box1@adobetest.com,Role I,CSV Upload
+kmanmothe+01box2@adobetest.com,Role II,CSV Upload
