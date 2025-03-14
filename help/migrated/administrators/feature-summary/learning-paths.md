@@ -4,7 +4,7 @@ title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 37%
