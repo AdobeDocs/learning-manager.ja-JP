@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ピアアカウント
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Learning Manager ではピアアカウント機能を用いて、購入した席
    ![](assets/addpeer.png)
 
    *サブドメインの追加*
+
+>[!NOTE]
+>
+>別のアカウントのサブドメインを見つけるには、アカウントのURLを確認します。 サブドメインはメインドメインの前に表示され、特定のアカウントを識別するのに役立ちます。
+>
+>例：
+>
+>URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname)では、サブドメインは&#x200B;**accountname**&#x200B;です。
+>
+>URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com)では、サブドメインも&#x200B;**accountname**&#x200B;です。
+>
+>サブドメインはアカウントごとに一意で、各Learning Managerインスタンスにアクセスするために使用されます。
 
 1. ピアアカウント要求を承認または拒否する管理者の電子メール ID を入力します。
 1. ピアと共有する席の数を指定します。 ピアアカウントと席を共有すると、ピアアカウントは、受け取った席またはピア自身が購入した席でアクティブ状態になります。

@@ -4,10 +4,10 @@ title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ Learning Managerの管理者アプリで、左側のパネルの&#x200B;**[!UICO
 
 変更が完了したら、学習パスを公開するために「Publish」をクリックします。
 
-## ネストされた学習パス
+## ネストされた、または拡張された学習パス
 
-学習パスを学習パス内に含めることができます。ただしネストできる学習パスは 1 つです。
-
-コースの挿入と同様に学習パスを挿入します。
+ネストされた学習パスまたは拡張された学習パスには、複数の学習パスが含まれています。 学習パスを挿入するには、学習パス内にコースを追加するのと同じプロセスに従います。
 
 ![](assets/nested-learning-path.png)
 
-*学習パス内に学習パスを追加する*
+*ネストされた、または拡張された学習パス*
 
 ## 学習パスの設定
 

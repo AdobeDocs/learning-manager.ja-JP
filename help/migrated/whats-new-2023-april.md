@@ -3,10 +3,10 @@ title: このリリースの新機能（2023年4月）
 description: Adobe Learning Manager の新機能と機能強化について説明します
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ QRコードベースのワークフローの機能強化により、このリリ
 
 学習者が&#x200B;**「すべてのインスタンスを表示」**&#x200B;を選択すると、コースインスタンスがすべて表示されます。
 
-![すべてのインスタンスを表示](assets/view-all-instances-new.png)
+![代替テキスト](assets/view-all-instance.png)
 
-管理者は、学習者用のインスタンスを切り替えることができます。
+_学習者コンソールからすべてのインスタンスページを表示する_
 
-![インスタンスの切り替え](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_学習者ページからインスタンスを切り替える_
+
+管理者は、学習者のインスタンスを切り替えることができます。 Admin Consoleからコースを選択し、**[!UICONTROL 「学習者」]**&#x200B;セクションに移動します。次に、ユーザーを選択し、**[!UICONTROL 「アクション」]**&#x200B;ボタンを選択します。 次に、「**[!UICONTROL インスタンスを切り替え]**」を選択し、目的のインスタンスを選択します。
+
+![代替テキスト](assets/switch-instance-admin.png)
+_Admin Consoleからインスタンスを切り替える_
 
 ![インスタンスの選択を切り替え](assets/switch-instances-select.png)
+_インスタンスプロンプトの切り替え_
 
 学習者または管理者アプリからコースの任意のインスタンスが完了するまで、インスタンスを切り替えることはできません。
 

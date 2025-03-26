@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ログイン
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 Learning Manager に学習者としてログインします。
 
-Adobe Learning Manager を初めて使用する場合は、以下の手順でアカウントを作成する必要があります。
+Adobe Learning Managerを初めて使用する場合、学習者はアカウントを作成する必要があります。 これを行うには、次の2つの方法があります。
+
+* セルフ登録：ようこそメールに記載されているURLを使用してアカウントを作成します。
+* 管理者が作成したアカウント：管理者は、お客様に代わってアカウントを作成できます。
+
+## ようこそ電子メールURLを使用してアカウントを作成する
+
+次の手順に従って、ようこそ電子メールからURLを使用してアカウントを作成します。
 
 1. 管理者から送信されたようこそメールを開き、安全なリンクから Adobe Learning Manager を起動します。
 

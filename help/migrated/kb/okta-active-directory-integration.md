@@ -4,10 +4,10 @@ title: Adobe Learning Manager と Okta Active Directory の連携
 description: Adobe Learning Manager と Okta Active Directory の連携
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 57%
+source-wordcount: '561'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,12 @@ Adobe Learning Manager は、SSO を起動する ID プロバイダー（IdP）�
 
 ## Okta でアプリケーションを作成する
 
-1. Okta AD に管理者としてログインします。
+1. Okta ADにログインします。
+
+   >[!NOTE]
+   >
+   >アプリケーションを作成してIDPを設定するためにALM管理者アクセス権は必要ありません。
+
 1. **[!UICONTROL 「アプリケーション」]**&#x200B;をクリックします。 これで、Okta のアプリケーションストアが開きます。
 
    ![](assets/cp-application-store.png)

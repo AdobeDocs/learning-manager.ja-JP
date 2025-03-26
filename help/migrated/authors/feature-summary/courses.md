@@ -4,10 +4,10 @@ jcr-language: en_us
 title: コースの作成、変更、公開
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
-ht-degree: 72%
+source-wordcount: '7163'
+ht-degree: 71%
 
 ---
 
@@ -699,7 +699,7 @@ Adobe Learning Manager を使用すると、作成者は仮想トレーニング
 
 ## コースの廃止 {#retireacourse}
 
-コースを廃止すると、新しい学習者をコースに登録できなくなります。既に登録している学習者は、コースを受講できます。
+登録済みの場合や完了済みの場合でも、コースを廃止すると学習者に非表示になります。 コースを廃止すると、新しい学習者をコースに登録できなくなります。既に登録している学習者は、コースを受講できます。
 
 コースを廃止するには、コースカードでオプションにマウスを合わせ、「コースを廃止」をクリックします。
 

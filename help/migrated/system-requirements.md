@@ -4,10 +4,10 @@ title: 必要システム構成
 description: Adobe Learning Managerの必要システム構成
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 65%
+source-wordcount: '590'
+ht-degree: 62%
 
 ---
 
@@ -85,7 +85,10 @@ Intel® CoreTM i5以上
 
 ## 推奨画像サイズ {#recommendedsizeofimages}
 
-* マストヘッド：1280 x 360 px
+* マストヘッド：
+   * 大きな設定の場合： 1280 x 360 PX
+   * 中の設定の場合： 1280 x 273 PX
+   * 小さい設定の場合： 1280 x 187 PX
 * カタログカードの画像：280 x 100 px
 * トレーニングカードのサイズ：300 x 240 px
 * ソーシャルバナー：1600 x 240 px

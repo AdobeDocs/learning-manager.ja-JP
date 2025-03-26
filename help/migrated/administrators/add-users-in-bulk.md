@@ -4,10 +4,10 @@ title: ユーザーの一括追加
 description: 一度に複数のユーザーを追加する方法を説明します。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 24%
+source-wordcount: '341'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 24%
 CSVにユーザーのプロファイルとマネージャーの電子メールIDを追加する必要はありません。 ユーザー名とユーザーのemail-idのみが必須フィールドです。
 
 この場合、デフォルトでは、会社の管理者がユーザーのマネージャーとして扱われます。 デフォルトでは、従業員はユーザーのプロファイルと見なされます。
+
+>[!NOTE]
+>
+>新しいユーザーを追加するには、詳細情報を記載した新しいCSVファイルを作成してアップロードします。 既存のCSVファイルの更新と再アップロードはサポートされていません。
 
 **サンプルCSV**
 
