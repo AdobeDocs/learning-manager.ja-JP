@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 学習者およびマネージャーの偽装
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ ht-degree: 59%
 * すべての管理者には、この機能がデフォルトで表示されます。
 * アカウント内のアクティブなユーザーのみを偽装できます。
 * 管理者が自分自身を偽装することはできません。
-* 「ユーザー」ページにアクセスできるカスタム管理者は、ユーザーを偽装できます。
-* 管理者 / カスタム管理者が偽装できる時間は、60 分間です。
+* 管理者が偽装できる時間は、60分間です。
 * 読み取り専用アクセス権を持つカスタム管理者は、ユーザーを偽装できません。
 
 ## ユーザーを偽装する
