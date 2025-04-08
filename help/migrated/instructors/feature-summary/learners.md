@@ -4,10 +4,10 @@ jcr-language: en_us
 title: セッションの学習者の管理
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 
 * 特定の出席者に電子メールを送信するには、出席者を選択し、アクション／選択したユーザーに電子メールを送信をクリックします。
 * すべての出席者にコース資料や割り当てを送信するには、アクション／全員に電子メールを送信をクリックします。
+
+## 招待状の返信をキャプチャ
+
+「学習者」セクションに招待の回答が表示されます。 任意のセッションに移動し、**[!UICONTROL 学習者]**&#x200B;を選択して、ドロップダウンメニューから招待の回答を選択します。
+
+![](assets/invitation-status.png)
 
 ## 学習者リストの書き出し {#exportinglearnerslist}
 

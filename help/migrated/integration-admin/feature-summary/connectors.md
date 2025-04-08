@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
+source-wordcount: '15865'
 ht-degree: 59%
 
 ---
@@ -1084,6 +1084,10 @@ Adobe Learning Manager には以下のスコープが必要です。スコープ
 * レポートデータ`/report:read:admin`の表示
 * すべてのユーザー情報`/user:read:admin`を表示
 * ユーザー情報の表示とユーザー`/user:write:admin`の管理
+* 会議登録者`/meeting:write:registrant:admin`を追加
+* すべての会議登録者`/meeting:read:list_registrants:admin`を一覧表示する
+* サブアカウントのユーザー会議`/meeting:write:meeting:master`を表示および管理します
+* レポートデータ`/report:read:list_meeting_participants:admin`の表示
 
 ## Box コネクター {#box_connector}
 

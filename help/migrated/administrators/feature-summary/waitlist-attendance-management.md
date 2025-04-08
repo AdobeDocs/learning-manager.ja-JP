@@ -4,10 +4,10 @@ title: キャンセル待ちと出席の管理
 description: 学習者向けのコースでは、出席とキャンセル待ちを管理者が管理できます。
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 76%
 
 1. コース詳細ページの左ペインで&#x200B;**[!UICONTROL キャンセル待ち]**&#x200B;をクリックします。 キャンセル待ち学習者リストがページに表示されます。
 1. 学習者を選択し、**[!UICONTROL 席を割り当て]**&#x200B;をクリックして、コースに学習者を直接登録します。人数制限は一時中断されます。
+
+>[!NOTE]
+>
+>登録済みの学習者をキャンセル待ちリストに移動したり、他の学習者に席を割り当て直したりすることはできません。
 
 ## 出席管理 {#attendancemanagement}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 58%
+source-wordcount: '4290'
+ht-degree: 57%
 
 ---
 
@@ -172,6 +172,8 @@ Adobe Learning Manager アカウントに学習者を追加した後で役割を
 
 ## アクティブフィールド
 
+Adobe Learning Managerのアクティブフィールドはカスタマイズ可能なメタデータフィールドであり、ユーザー固有の情報を保存および管理するために使用されます。 これらのフィールドは、システム内の各ユーザーに関連付けられたキー属性または特性を定義するのに役立ちます。
+
 ### ユーザー属性の管理
 
 >[!INFO]
@@ -329,6 +331,10 @@ Adobe Learning manager では、アカウントへのアクセスが制限され
 ## 役割の削除 {#Removearole-1}
 
 ユーザーを選択し、右上隅から、**[!UICONTROL アクション]**/**[!UICONTROL ロールの削除]**/**`<role>`**&#x200B;をクリックします。 選択した役割が、ユーザーに割り当てられた役割のリストから削除されます。
+
+>[!NOTE]
+>
+>新しい役割を割り当てても、カスタムユーザーグループには影響しません。 ただし、すべての管理者、すべての作成者、および同様の役割ベースのグループなどの自動生成ユーザーグループに影響します。
 
 ## ユーザーグループの作成 {#createusergroups}
 
