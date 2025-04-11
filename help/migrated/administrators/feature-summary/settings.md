@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '3669'
 ht-degree: 64%
@@ -23,7 +23,7 @@ ht-degree: 64%
 
 このトレーニングでは、アカウントレベルの設定に関する基本的な知識を習得します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
@@ -134,7 +134,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
     <ul>
      <li>カタログ</li>
      <li>タイプ</li>
-     <li>形式</li>
+     <li>書式設定</li>
      <li>時間</li>
      <li>スキル</li>
      <li>スキルレベル</li>
@@ -269,7 +269,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
    <td height="19">タイプ</td>
   </tr>
   <tr>
-   <td height="19">形式</td>
+   <td height="19">書式設定</td>
   </tr>
   <tr>
    <td height="19">時間</td>

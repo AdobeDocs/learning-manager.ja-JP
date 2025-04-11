@@ -4,7 +4,7 @@ title: カタログ
 description: カタログには、コース、学習プログラム、資格認定など、学習のコレクションが含まれます。 学習者はカタログを使用して、カスタマイズされた学習オブジェクトのセットにアクセスすることができます。 新しいカタログを作成する際に、特定の学習オブジェクトをそのカタログに関連付けることができます。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 72%
@@ -21,7 +21,7 @@ ht-degree: 72%
 
 このトレーニングでは、カタログを作成および管理する方法について学習します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
@@ -145,7 +145,7 @@ ht-degree: 72%
 
 このトレーニングでは、社内ユーザーグループや社外のAdobe Learning Managerアカウントとカタログを共有する方法について説明します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 

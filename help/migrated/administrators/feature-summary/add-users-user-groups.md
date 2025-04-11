@@ -4,7 +4,7 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 57%
@@ -22,7 +22,7 @@ Learning manager でユーザーまたはユーザーグループを追加する
 
 >[!INFO]
 >
->このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
+>このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
@@ -53,7 +53,7 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 
 >[!INFO]
 >
->このトレーニングでは、Adobe Learning Managerに社内学習者を追加する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+>このトレーニングでは、Adobe Learning Managerに社内学習者を追加する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
@@ -83,7 +83,7 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 
 このトレーニングでは、役割の割り当てと削除、ようこそ電子メールの送信、ユーザーの削除と消去を行う方法について説明します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
@@ -178,7 +178,7 @@ Adobe Learning Managerのアクティブフィールドはカスタマイズ可�
 
 >[!INFO]
 >
->このトレーニングでは、アクティブフィールドを追加、カスタマイズ、設定する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
+>このトレーニングでは、アクティブフィールドを追加、カスタマイズ、設定する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 

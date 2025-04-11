@@ -4,7 +4,7 @@ jcr-language: en_us
 title: タグ
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
@@ -23,7 +23,7 @@ ht-degree: 63%
 
 このトレーニングでは、タグの追加、編集、置換、追加、削除の方法について説明します。 また、権限の設定を変更する方法や、タグフィルターを使用する方法についても説明します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 

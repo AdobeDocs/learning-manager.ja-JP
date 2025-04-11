@@ -4,7 +4,7 @@ jcr-language: en_us
 title: コースインスタンスと学習パスの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '5111'
 ht-degree: 58%
@@ -27,7 +27,7 @@ ht-degree: 58%
 
 >[!INFO]
 >
->このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
+>このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
@@ -137,7 +137,7 @@ ht-degree: 58%
 
 このトレーニングでは、学習者の登録、登録解除、再登録の方法を学習します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 

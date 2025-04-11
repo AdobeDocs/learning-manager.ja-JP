@@ -4,7 +4,7 @@ title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 35%
@@ -25,7 +25,7 @@ ht-degree: 35%
 
 このトレーニングでは、学習パスの作成、学習パスへのコースの追加、学習パスの公開と廃止、学習パス内のインスタンスの設定をおこなう方法を学習します。
 
-[![ボタン](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
