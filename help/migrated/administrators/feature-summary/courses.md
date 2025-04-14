@@ -4,9 +4,9 @@ jcr-language: en_us
 title: コースインスタンスと学習パスの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ ht-degree: 58%
 
 ## コースのインスタンスの作成 {#createinstanceofacourse}
 
-### インスタンスの管理
+### インスタンスの設定
 
->[!INFO]
->
->このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+このトレーニングでは、インスタンスのデフォルト設定、新しいインスタンスの追加、インスタンスの廃止と再び開き直し、インスタンスの電子メールテンプレートの設定を行う方法について説明します。
 
+[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
@@ -76,6 +75,14 @@ ht-degree: 58%
 >[!NOTE]
 >
 >管理者がインスタンス/セッションに移動し、「セッションのキャンセル」を選択してセッションをキャンセルします。
+
+### インスタンスの管理
+
+>[!INFO]
+>
+>このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
 ### インスタンスの廃止 {#retireaninstance}
 

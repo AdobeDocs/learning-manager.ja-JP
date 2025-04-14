@@ -2,10 +2,10 @@
 title: Adobe Learning Manager の複数登録
 description: アカウント管理者の主な役割は、異なるタイムゾーンにまたがって VILT セッションのインスタンスを個別に作成し、場合によっては特定のユーザーグループに対してセッションを作成することです。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,6 +16,14 @@ Adobe Learning Manager では、コースに異なるインスタンスを個別
 2023 年 7 月リリース以前は、管理者が学習者を登録する場合に登録できるインスタンスが 1 つのみでした。 学習者が別のインスタンスでコースを受講する場合、管理者はインスタンスごとにコースを 1 つずつ作成するため、たくさんのコースを作っていました。
 
 管理者が Adobe Learning Manager の複数登録機能を利用することで、このような状況を回避できます。
+
+## インスタンスの管理
+
+>[!INFO]
+>
+>このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
 ## 複数登録の仕組み
 
