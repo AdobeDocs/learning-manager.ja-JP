@@ -4,9 +4,9 @@ jcr-language: en_us
 title: ユーザーを追加してユーザーグループの作成
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 57%
 
 ---
@@ -110,7 +110,11 @@ Adobe Learning Manager では、以下の役割を割り当てることができ
 >
 >詳細については、FAQ 「[ユーザーの一括追加](../add-users-in-bulk.md)」を参照してください。
 
-ユーザーを選択したら、次の操作を実行できます。
+>[!INFO]
+>
+>このトレーニングでは、CSVを使用してユーザーを一括で追加する方法を説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
 ## ユーザーの登録 {#registerauser}
 
