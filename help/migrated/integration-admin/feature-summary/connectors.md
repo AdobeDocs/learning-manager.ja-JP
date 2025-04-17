@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
 workflow-type: tm+mt
-source-wordcount: '15865'
+source-wordcount: '15862'
 ht-degree: 59%
 
 ---
@@ -941,7 +941,6 @@ wd:Organization_Type_Reference_Company
 wd:Organization_Subtype_Reference_Department
 wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
-wd:Integration_Field_Override_Data.3.wd:Value
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2$
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
