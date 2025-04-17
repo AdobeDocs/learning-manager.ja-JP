@@ -4,7 +4,7 @@ title: ユーザーの一括追加
 description: 一度に複数のユーザーを追加する方法を説明します。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 22%
@@ -13,9 +13,9 @@ ht-degree: 22%
 
 # ユーザーの一括追加
 
-このトレーニングでは、CSVを使用してユーザーを一括で追加する方法を説明します。
-
-[![ボタン](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>このトレーニングでは、CSVを使用してユーザーを一括で追加する方法を説明します。<br><br>[![ボタン](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
@@ -56,7 +56,7 @@ Learning ManagerのサンプルCSVは、以下の必須フィールドで利用�
 
 *アップロード用のCSVテンプレート*
 
-また、組織の管理者は、自分自身を従業員として追加し、マネージャーの電子メールIDをルートとして指定できます。
+また、組織の管理者は、**自分自身**&#x200B;を従業員として追加し、マネージャーの電子メールIDをルートとして指定することができます。
 
 **サンプルCSV**
 
