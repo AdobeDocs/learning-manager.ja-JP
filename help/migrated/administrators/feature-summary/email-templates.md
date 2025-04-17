@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 電子メールテンプレート
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 60%

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 # Learning Managerガイド {#using}
 
 * [Learning Manager ユーザーガイド](user-guide.md)
-* 概要{#introduction}
+* 概要 {#introduction}
    * [新機能の概要](/help/migrated/whats-new.md)
    * [新機能の概要2024年7月](whats-new-july-2024.md)
    * [新機能2024年3月](whats-new-march-2024.md)
@@ -32,13 +32,13 @@ ht-degree: 83%
    * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
    * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
    * [埋め込みプレーヤーインタラクション API に関するドキュメント](/help/migrated/embedded-player-interaction.md)
-* {#get-started}を開始する
+* 利用開始 {#get-started}
    * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
    * [作成者の基本](authors/feature-summary/getting-started-author.md)
    * [学習者の基本](learners/feature-summary/getting-started-learner.md)
    * [マネージャーの基本](managers/feature-summary/getting-started-manager.md)
    * [Learning Manager インストラクターの基本](instructors/feature-summary/getting-started.md)
-* 管理者{#admin}
+* 管理者 {#admin}
    * [ユーザーログイン](administrators/feature-summary/user-login.md)
    * [ユーザーを追加してユーザーグループの作成](administrators/feature-summary/add-users-user-groups.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
@@ -87,11 +87,11 @@ ht-degree: 83%
    * [ログインなしのエクスペリエンス（学習者向け）](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [学習プログラム](administrators/feature-summary/learning-programs.md)
    * [製品用語](administrators/feature-summary/product-terminology.md)
-* 統合管理者{#integration}
+* 統合管理者 {#integration}
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
    * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
-   * Webhook {#webhooks}
+   * Webhooks {#webhooks}
       * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
       * [Webhook使用ガイド](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [信心深く](integration-admin/feature-summary/credly-integration.md)
@@ -103,7 +103,7 @@ ht-degree: 83%
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [CSV ファイルを使用したカスタムの役割の管理](integration-admin/feature-summary/configure-role-csv-files.md)
-* 作成者{#authors}
+* 作成者 {#authors}
    * [ユーザーログイン](authors/feature-summary/user-login.md)
    * [コンテンツライブラリ](authors/feature-summary/content-library.md)
    * [コースの作成、変更、パブリッシュ](authors/feature-summary/courses.md)
@@ -116,10 +116,10 @@ ht-degree: 83%
    * [コースモジュールの選択方法](authors/how-to-choose-modules.md)
    * [学習者としてプレビュー](authors/feature-summary/fluidic-player.md)
    * [設定](authors/feature-summary/settings.md)
-* インストラクター{#instructor}
+* 学習プログラム / 資格認定を {#instructor}
    * [モジュール](instructors/feature-summary/modules.md)
    * [セッションの学習者の管理](instructors/feature-summary/learners.md)
-* 学習者{#learner}
+* 学習者 {#learner}
    * [ログイン](learners/feature-summary/user-login.md)
    * [プロファイル設定](learners/feature-summary/settings.md)
    * [カタログ](learners/feature-summary/catalogs.md)
@@ -144,7 +144,7 @@ ht-degree: 83%
    * [学習者ホームページ](learners/feature-summary/learner-home-page.md)
    * [ソーシャル学習プラットフォームでの共有](learners/feature-summary/share-to-social.md)
    * [必要システム構成 | Adobe Learning Manager デスクトップアプリケーション](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* マネージャー{#manager}
+* マネージャー {#manager}
    * [ユーザーログイン](managers/feature-summary/user-login.md)
    * [マネージャーダッシュボード](managers/feature-summary/manager-dashboard.md)
    * [レポート](managers/feature-summary/reports.md)
@@ -153,14 +153,14 @@ ht-degree: 83%
    * [学習者のトランスクリプト](managers/feature-summary/learner-transcripts.md)
    * [設定](managers/feature-summary/settings.md)
    * [iPad および Android タブレットのユーザー](managers/feature-summary/ipad-android-tablet-users.md)
-* よくある質問{#faq}
+* よくある質問 {#faq}
    * [管理者のよくある質問（FAQ）](administrators/frequently-asked-questions-for-administrators.md)
    * [作成者のよくある質問（FAQ）](authors/frequently-asked-questions-for-authors.md)
    * [インストラクターのよくある質問（FAQ）](instructors/frequently-asked-questions-for-instructors.md)
    * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
    * [学習者のよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
    * [新しいexperience leagueの発表](/help/migrated/new-experience-league-announcement.md)
-* サポート情報{#knowledge-base}
+* ナレッジベース {#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
    * [CSV をアップロードできない](kb/unable-to-upload-csv.md)

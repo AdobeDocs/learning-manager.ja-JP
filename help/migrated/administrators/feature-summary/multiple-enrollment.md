@@ -2,7 +2,7 @@
 title: Adobe Learning Manager の複数登録
 description: アカウント管理者の主な役割は、異なるタイムゾーンにまたがって VILT セッションのインスタンスを個別に作成し、場合によっては特定のユーザーグループに対してセッションを作成することです。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 65%
