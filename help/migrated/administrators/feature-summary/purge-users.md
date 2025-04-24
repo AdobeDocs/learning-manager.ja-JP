@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ユーザーを消去
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    *ユーザーを削除した後の確認メッセージ*
 
 1. 確認して「消去」をクリックすると、消去リクエストが承認されます。 操作が完了すると、通知が届きます。 また、消去リクエスト ID が送られます。 この ID を CSM に提供すると、リクエストを追跡できます。
+
+>[!NOTE]
+>
+>削除されたユーザーがシステムに再度追加されると、以前の役割（管理者、マネージャー、作成者、インストラクターなど）は保持されません。これらの役割は学習者の役割とともに追加されます。
 
 ## ユーザーの一括消去
 

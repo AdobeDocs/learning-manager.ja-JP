@@ -4,10 +4,10 @@ jcr-language: en_us
 title: スキルとレベル
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ Adobe Learning Manager では「スキル」ウィジェットを使用するこ
 *各スキルを表示*
 
 管理者のみがスキルを作成して学習者に割り当てることができます。学習者には、登録済みのコースや学習プログラムに応じたスキルが自動的に割り当てられます。
+
+>[!NOTE]
+>
+>学習者は、ピアレベルのスキルをクラシック学習者アプリでのみ表示できます。
 
 ## スキルの達成 {#achieveskill}
 
