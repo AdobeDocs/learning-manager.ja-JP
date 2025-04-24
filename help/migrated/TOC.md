@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 85%
+source-wordcount: '652'
+ht-degree: 84%
 
 ---
 
@@ -160,6 +160,7 @@ ht-degree: 85%
    * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
    * [学習者のよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
    * [新しいexperience leagueの発表](/help/migrated/new-experience-league-announcement.md)
+   * [Experience League時にサポートチケットを提出する方法](/help/migrated/how-to-submit-support-ticket.md)
 * ナレッジベース {#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
