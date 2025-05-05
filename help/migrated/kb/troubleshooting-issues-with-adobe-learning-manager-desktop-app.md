@@ -87,7 +87,7 @@ ht-degree: 54%
 ### Mac OS X {#macosx}
 
 1. Finderを開きます。
-1. ****&#x200B;フォルダーに移動ダイアログを開くには、**Cmd + Shift + G**&#x200B;キーを押します。
+1. **&#x200B;**&#x200B;フォルダーに移動ダイアログを開くには、**Cmd + Shift + G**&#x200B;キーを押します。
 1. `**~/Library/Application Support/Adobe/Learning Manager 1.0**`と入力し、Enterキーを押します。
 1. **preferences.json** と **preferences.xml** を削除します。
 
@@ -105,15 +105,15 @@ ht-degree: 54%
 1. **フォルダーへ移動**&#x200B;ダイアログボックスを開くには、**Cmd + Shift + G**&#x200B;キーを押します。
 1. **/var/folders**&quot;と入力し、Enterキーを押します。
 1. 検索バーで「**elthor**」を検索し、フォルダーを開きます。
-1. **変更日**でフォルダーを並べ替え、最新のフォルダーを開きます。 このフォルダーには、最新のアプリケーションログが含まれています。
+1. **変更日**&#x200B;でフォルダーを並べ替え、最新のフォルダーを開きます。 このフォルダーには、最新のアプリケーションログが含まれています。
 
 ## 高度なログ記録を有効にする方法 {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. ファイル名を指定して実行ダイアログを開くには、**Windowsキー+ R**&#x200B;を押します。****
-1. 「**%APPDATA%\\」と入力します。\\Local\\Adobe\\Learning Manager 1.0**」と入力しEnterキーを押します****
-1. ファイル&#x200B;**preferences.json**&#x200B;のバックアップを作成し、テキストエディターで開きます。****
+1. ファイル名を指定して実行ダイアログを開くには、**Windowsキー+ R**&#x200B;を押します。**&#x200B;**
+1. 「**%APPDATA%\\」と入力します。\\Local\\Adobe\\Learning Manager 1.0**」と入力しEnterキーを押します&#x200B;**&#x200B;**
+1. ファイル&#x200B;**preferences.json**&#x200B;のバックアップを作成し、テキストエディターで開きます。**&#x200B;**
 1. キー&#x200B;**debugMode**&#x200B;を検索し、このキーのvalueプロパティを&quot;**true**&quot;に変更します（引用符は除きます）。
 
 ### Mac OS X {#MacOSX-2}

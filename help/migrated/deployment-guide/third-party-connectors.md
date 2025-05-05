@@ -129,7 +129,7 @@ Learning Manager を FTP コネクターと統合するプロセスについて�
 
 ## 読み込み
 
-・+++内ユーザー
++++・内ユーザー
 
 内部ユーザー読み込みオプションを使用すると、ユーザー読み込みレポートの生成を自動的にスケジュールすることができます。生成されたレポートは .CSV ファイルとして届きます。
 
@@ -301,7 +301,7 @@ getAbstract.com をご利用のエンタープライズのお客様の場合、g
 
    同期のタイプを問わず、同期が動作するために、同期に指定された日付の getAbstract FTP フォルダーにユーザーフィードがあることを確認します。
 
-   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。ファイル名は** report_export_yyyy_MM_dd_HHmmss.xlsx}または**0}report_export_yyyy_MM_dd.xlsx **の形式に従う必要があります。**
+   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。ファイル名は **&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx&rbrace;または**&#x200B;0&rbrace;report_export_yyyy_MM_dd.xlsx **の形式に従う必要があります。**
    [getAbstractユーザーフィードサンプルExcelシート](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor コネクター {#hmmconnector}
@@ -629,7 +629,7 @@ Learning Manager を Box コネクターと統合するプロセスについて�
 
 ## 読み込み
 
-・+++内ユーザー
++++・内ユーザー
 
 内部ユーザー読み込みオプションを使用すると、ユーザー読み込みレポートの生成を自動的にスケジュールすることができます。生成されたレポートは .CSV ファイルとして届きます。
 

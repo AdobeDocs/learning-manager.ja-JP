@@ -23,7 +23,7 @@ ht-degree: 43%
 
 ### 「更新」ボタンをクリックしてもジョブが反映されない {#jobsarenotreflectedevenafterclickingrefreshbutton}
 
-*  CSV ファイルが Exavault FTP の正しいフォルダーにアップロードされていることを確認します。パス構造は次のようになります。
+* CSV ファイルが Exavault FTP の正しいフォルダーにアップロードされていることを確認します。パス構造は次のようになります。
 
 `code Account>Project>Sprint location`
 

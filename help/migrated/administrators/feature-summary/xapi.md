@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 これで作成者として、コースを作成する際に xAPI モジュールを選択し、Learning Manager の外でユーザーエクスペリエンスを監視できるようになりました。例えば、この機能を使用して、コースの受講に使用されるサードパーティーのプラットフォーム上のユーザーのアクティビティを評価できます。 
 
-1. **[!UICONTROL アクティビティモジュール]**&#x200B;を作成するときに、[**[!UICONTROL 型]**オプションで、ポップアップメニューを使用して&#x200B;**[!UICONTROL xAPIベースのモジュール]**&#x200B;を選択します。
+1. **[!UICONTROL アクティビティモジュール]**&#x200B;を作成するときに、&lbrack;**[!UICONTROL 型]**&#x200B;オプションで、ポップアップメニューを使用して&#x200B;**[!UICONTROL xAPIベースのモジュール]**&#x200B;を選択します。
 
    ![](assets/xapimodulecreation.png)
 
