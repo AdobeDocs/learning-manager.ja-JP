@@ -16,7 +16,7 @@ Adobe Learning Managerサポートチケットを送信するプロセスが、E
 
 サポートチケットの送信は、許可されたサポート連絡先のみが利用できます。 サポートに関するお問い合わせについては、2025年5月11日までAdobe Learning Managerにサポートチケットを電子メールで送信してください。 この日以降、既存のメールチャネルに加えて、以下に記載のとおり、Experience Leagueサポートポータルを介してサポートチケットを送信できます。
 
-1. サポートポータルにアクセスするには、**[!UICONTROL Experience League]**&#x200B;のWebサイトにアクセスし、ページの上部にある&#x200B;**[!UICONTROL [サポート]]**&#x200B;タブをクリックします。 または、[直接リンク](https://experienceleague.adobe.com/home#support)にアクセスしてください。
+1. サポートポータルにアクセスするには、**[!UICONTROL Experience League]**&#x200B;のWebサイトにアクセスし、ページの上部にある&#x200B;**[!UICONTROL [サポート]]**&#x200B;タブをクリックします。 または、[直接リンク](https://experienceleague.adobe.com/home?lang=ja#support)にアクセスしてください。
 
    ![](assets/support.png)
    _サポートホームページ_
