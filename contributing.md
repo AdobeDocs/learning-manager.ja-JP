@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## コントリビューターガイドドキュメント
 
-参照： [コントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+参照： [コントリビューターガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja).
 
 ## 質問がある場合
 
@@ -44,4 +44,4 @@ submitting a pull request!
 
 ## セキュリティの問題
 
-セキュリティの問題は、この問題トラッカーで報告しないでください。 代わりに [セキュリティの専門家に問題を提出する](https://helpx.adobe.com/security/alertus.html)
+セキュリティの問題は、この問題トラッカーで報告しないでください。 代わりに [セキュリティの専門家に問題を提出する](https://helpx.adobe.com/jp/security/alertus.html)

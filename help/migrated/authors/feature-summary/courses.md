@@ -805,7 +805,7 @@ Connect コースの取得時、次の 2 種類の会議室を作成できます
 1. Adobe の資格情報を使用してログインします。Adobe ID を持っていない場合は、「**[!UICONTROL アカウントの作成]**」をクリックしてアカウントを作成してください。認証が完了すると、モジュールをパブリッシュするためのページが表示されます。
 1. モジュールに関するすべての基本情報を入力して「パブリッシュ」をクリックします。
 
-Learning Manager のモジュールページに、パブリッシュされたモジュールが表示されます。詳しくは、[Adobe Learning Manager へのプロジェクトのパブリッシュ](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)を参照してください。
+Learning Manager のモジュールページに、パブリッシュされたモジュールが表示されます。詳しくは、[Adobe Learning Manager へのプロジェクトのパブリッシュ](https://helpx.adobe.com/jp/captivate/classic/publish-project-to-captivate-prime.html)を参照してください。
 
 ## コースの有効性 {#courseeffectiveness}
 

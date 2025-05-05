@@ -72,7 +72,7 @@ Learning Manager アプリケーションでは、イベントに基づき複数
 1. 「**[!UICONTROL 設定]**」をクリックして設定ページを開きます。 これにより、電子メールテンプレートをカスタマイズできる状態になります。
 1. 学習者が電子メールを受信する際に使用する名前と電子メールIDをカスタマイズするには、**[!UICONTROL 送信者の名前とアドレス]を編集します。**
 
-   これらの詳細を構成または変更するには、[***Adobeサポート***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)にお問い合わせください。
+   これらの詳細を構成または変更するには、[***Adobeサポート***](https://helpx.adobe.com/jp/contact/enterprise-support.other.html#learning-manager)にお問い合わせください。
 
 1. **[!UICONTROL 電子メールバナー]**&#x200B;のオプションから電子メールバナーをカスタマイズします。 **[!UICONTROL バナーの背景]**&#x200B;を選択して、バナーの色を変更します。
 
@@ -160,7 +160,7 @@ DND リストに含まれている学習者には、ダイジェスト電子メ�
 
 ## 電子メールドメインのカスタマイズ {#customizeemaildomain}
 
-学習者が通知を受信する電子メールドメインと電子メールIDをカスタマイズする場合は、[***Learning Managerサポート***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)に連絡し、追加するドメインの詳細情報と新しい電子メールIDを伝えてください。
+学習者が通知を受信する電子メールドメインと電子メールIDをカスタマイズする場合は、[***Learning Managerサポート***](https://helpx.adobe.com/jp/contact/enterprise-support.other.html#learning-manager)に連絡し、追加するドメインの詳細情報と新しい電子メールIDを伝えてください。
 
 この依頼が処理されると、確認用のリンクが記載された電子メールが、指定した新しいメールアドレスに送信されます。 電子メール内の確認用リンクをクリックすると、確認プロセスが実行されます。
 
@@ -257,6 +257,6 @@ Learning Managerユーザーに、インラインのメール招待が送信さ�
 
 +++テンプレートで送信者の名前とアドレスを変更するにはどうすればよいですか？
 
-送信者の名前と電子メールアドレスを変更するには、[Adobe Learning Managerサポート](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)に連絡してください。
+送信者の名前と電子メールアドレスを変更するには、[Adobe Learning Managerサポート](https://helpx.adobe.com/jp/contact/enterprise-support.other.html#learning-manager)に連絡してください。
 
 +++
