@@ -4,9 +4,9 @@ jcr-language: en_us
 title: レポート
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7809'
 ht-degree: 52%
 
 ---
@@ -418,10 +418,6 @@ _準拠ダッシュボード – 管理者ビュー_
 * ログイン／アクセスレポート
 * ゲーミフィケーショントランスクリプトレポート
 * ゲーミフィケーション監査証跡
-
-### 学習者のトランスクリプト {#learnertranscripts}
-
-学習者のトランスクリプトの Excel レポートでは、必要な単位と獲得した単位の列に小数が表示されます。
 
 ### コースレポート {#coursereports}
 
