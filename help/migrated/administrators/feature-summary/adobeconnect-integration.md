@@ -70,7 +70,7 @@ Adobe Learning Manager とは別に、Adobe Connect を購入する必要があ�
 
 Adobe Learning Managerでは、Connectでバーチャルクラスルームセッションを設定する際に、Adobe Connectからセミナールームを選択できます。 以前は、管理者は会議室タイプのみを選択できました。 有効なセミナーライセンスを持つ管理者はこの機能を使用して、ALM内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できます。
 
-Seminar Roomの詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)を参照してください。
+Seminar Roomの詳細については、この[記事](https://helpx.adobe.com/jp/adobe-connect/using/creating-seminars.html)を参照してください。
 
 ### セッション分析へのアクセスのサポート
 
