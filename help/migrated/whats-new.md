@@ -2,7 +2,7 @@
 description: Adobe Learning Managerの2025年5月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: 新機能の概要
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Adobe Learning Managerは、コンテンツを取得するための新しい購�
 ## FTP、カスタムFTPおよびBoxでのログインアクセスレポート {#log-in-access-report}
 
 ログインアクセスレポートは、既存のジョブAPIに加えて、Box、FTP、およびカスタムFTPコネクタで使用できるようになりました。 このレポートでは、実行ステータス、圧縮設定、スケジューリングオプションなど、ユーザーのログインアクティビティに関する詳細情報が提供されます。 レポートはオンデマンドで生成することも、スケジュールを設定することもできます。また、データは指定されたコネクタに保存されるので、簡単にアクセスして分析できます。 この機能強化により、ユーザーのログインアクティビティを監視および監査する機能が強化され、セキュリティとコンプライアンスの追跡が向上しました。
+
 これで、カスタムFTP、FTP、Boxで、学習者の進行状況やコースの完了などの既存のレポートと共にレポートを使用できるようになりました。 この統合により、管理者は1つのソースから必要なすべてのレポートにアクセスできるため、より優れたデータ管理と分析が可能になります。
 
 レポートは、ログインおよびアクセスデータをFTPに書き出し、他のレポートと結合して包括的なダッシュボードを作成できるようにすることで、自動化に役立ちます。 この機能は、データの分析とレポート作成を自動プロセスに依存している組織で特に便利です。
@@ -108,7 +109,7 @@ Adobe Learning Managerネイティブプラットフォームのユーザーは�
 
 Adobe Learning Managerでは、ConnectでVCセッションを設定する際に、Adobe ConnectからSeminar Roomsを選択できるようになりました。 以前は、管理者は会議室タイプのみを選択できました。 この機能強化により、有効なSeminarライセンスを持つ管理者は、Adobe Learning Manager内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できるようになりました。
 
-セミナー室の詳細については、この[記事](https://helpx.adobe.com/jp/adobe-connect/using/creating-seminars.html)をご覧ください。
+セミナー室の詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)をご覧ください。
 
 ### セッション分析へのアクセスのサポート
 
