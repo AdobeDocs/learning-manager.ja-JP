@@ -2,15 +2,15 @@
 description: Adobe Learning Managerの2025年5月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: 新機能の概要
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
 
 
-# 新機能の概要
+# 新機能の概要2025年5月
 
 Adobe Learning Managerの今後のリリースでは、プラットフォームの合理化と機能の強化を目的としたさまざまな新機能と拡張機能が導入されています。
 
@@ -108,7 +108,7 @@ Adobe Learning Managerネイティブプラットフォームのユーザーは�
 
 Adobe Learning Managerでは、ConnectでVCセッションを設定する際に、Adobe ConnectからSeminar Roomsを選択できるようになりました。 以前は、管理者は会議室タイプのみを選択できました。 この機能強化により、有効なSeminarライセンスを持つ管理者は、Adobe Learning Manager内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できるようになりました。
 
-セミナー室の詳細については、この[記事](https://helpx.adobe.com/jp/adobe-connect/using/creating-seminars.html)をご覧ください。
+セミナー室の詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)をご覧ください。
 
 ### セッション分析へのアクセスのサポート
 
