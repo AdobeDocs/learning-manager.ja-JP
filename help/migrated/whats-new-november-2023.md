@@ -2,9 +2,9 @@
 title: このリリースの最新情報
 description: Adobe Learning Managerの2023年11月リリースの新機能と強化機能について説明します。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2356'
 ht-degree: 70%
 
 ---
@@ -318,8 +318,3 @@ Learning Manager Webアプリとデバイスアプリの現在および以前の
 ## 必要システム構成
 
 [Learning Manager の必要システム構成](system-requirements.md)
-
-## Adobe Learning Manager の過去のリリース
-
-* [2023年7月リリース](whats-new-2023-july.md)
-* [2023年4月リリース](whats-new-2023-april.md)

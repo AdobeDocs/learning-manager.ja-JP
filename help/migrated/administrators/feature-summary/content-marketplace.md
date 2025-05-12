@@ -4,104 +4,192 @@ title: コンテンツマーケットプレイス
 description: Learning Manager では、コンテンツマーケットプレイスでトレーニングを検索および購入できるようになりました。様々な形式で利用できる、幅広いトピックをカバーする 70,000 種類以上のコースを検索できます。 あらゆる役割に対応している、学習やスキルアップのニーズに合わせることが可能な、キュレートされたプレイリストから選択できます。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
 # コンテンツマーケットプレイス
 
-Learning Manager では、コンテンツマーケットプレイスでトレーニングを検索および購入できるようになりました。様々な形式で利用できる、幅広いトピックをカバーする 70,000 種類以上のコースを検索できます。 あらゆる役割に対応している、学習やスキルアップのニーズに合わせることが可能な、キュレートされたプレイリストから選択できます。
+学習管理者は、多くの場合、質の高いコンテンツのソーシングとアップロードに関する課題に直面します。 Adobe Learning Managerのコンテンツマーケットプレイスでは、信頼できるプロバイダーからのプレミアムコースのライセンスを取得して、より迅速でスケーラブルな学習配信を実現できます。 管理者は、コンテンツマーケットプレイスを使用して、プロバイダーからサードパーティコースを参照、プレビュー、ライセンス購入することができます。
 
-管理者アプリの左側のパネルに、新しいオプション&#x200B;**[!UICONTROL コンテンツマーケットプレイス]**&#x200B;があります。
+コンテンツマーケットプレイスは、コンテンツを取得するための以下のプランを提供しています。
 
-様々なトピックをカバーするキュレートされたプレイリストから購入したり、カタログ全体を購入したりできます。
+* **[!UICONTROL プレミアムの基本]**
+* **[!UICONTROL Premium Essentials Plus]**
 
-そのページには、エンタープライズ版トレーニングと Creative Cloud トレーニングの 2 つのタイルが表示されています。 最初のタイルから、学習者向けのコースを取得できるマーケットプレイスを開けます。 2 つ目のタイルからは、コンテンツカタログを開けます。
+| **[!UICONTROL プレミアムの基本]** | **[!UICONTROL Premium Essentials Plus]** |
+|---|---|
+| 90,000を超えるコースへのアクセス | 100,000種類を超えるコースを利用 |
+| 250を超えるプロバイダーのコンテンツ | すべてのプレミアムエッセンシャルコンテンツが含まれています |
+| 次のような信頼できるプロバイダーからの限定コンテンツ<li>EasyLlama</li><li>スキルシュブ</li><li>トムソン・ロイター</li><li>Emtrain</li><li>Harvard ManageMentor</li> | 次のようなトッププロバイダーによる限定コース： <li>Blinkist</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>Coursera</li> |
 
-管理者アプリのエンタープライズ版トレーニングページでは、ユーザーを招待して関心の度合いレポートをダウンロードし、カタログ全体またはキュレートされたプレイリストを購入することができます。
+<!--**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. 
 
-**ユーザーの招待**
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
-ユーザーをコンテンツマーケットプレイスに招待して、コンテンツを検索し、関心があることを伝えてもらいます。 管理者は、アカウントのすべての学習者を招待することも、選択した学習者のみを招待することもできます。 学習者にアクセス権を付与するには、学習者を招待する必要があります。
+**[!UICONTROL Premium Essentials Plus]**:
 
-学習者を「コンテンツマーケットプレイス」オプションから取り消すこともできます。 アクセス権を取り消すには、**[!UICONTROL アクセス権を取り消す]**&#x200B;リンクをクリックします。  ユーザーは、学習者アプリで「コンテンツマーケットプレイス」ページを表示できなくなります。
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-このオプションは、すべての新しいアカウントではデフォルトで選択されています。 既存のアカウントの場合、管理者は、マーケットプレイスを利用するユーザーを招待する必要があります。
+Select the plan that best meets your organization's learning goals and budget.-->
 
-## 購入
+## プロバイダーからのコンテンツの取得
 
-コースのライブラリ全体に無制限にアクセスできます。 **[!UICONTROL 購入]**&#x200B;ボタンをクリックして、購入リクエストフォームをダウンロードします。
+コンテンツプロバイダーからコンテンツを参照して取得するには、次の手順に従います。
+
+1. 管理者のホームページから&#x200B;**[!UICONTROL コンテンツマーケットプレイス]**&#x200B;を選択します。 **[!UICONTROL コンテンツマーケットプレイス]**&#x200B;ページが表示されます。
+
+   ![](assets/purchase-plans.png)
+   _コンテンツマーケットプレイスページで購入プランを表示する_
+
+2. 管理者は、**[!UICONTROL Premium Essentials]**&#x200B;と&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;プランの両方のコンテンツハブをプレビューして探索できます。
+
+コンテンツプロバイダーは、古いコンテンツの削除を管理し、事前に通知することなく学習教材が廃止されないようにします。
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+
+In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
+
+Users can purchase from curated playlists covering various topics or purchase the entire catalog. 
+
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
+
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+
+## 見積もりを依頼
+
+管理者は、プレミアムEssentialsまたはプレミアムEssentials Plusなどのプランを選択し、必要なシート数を指定して、ダウンロード可能な見積依頼フォームを生成できます。 入力が完了すると、フォームはAdobe Learning Managerセールスチームに送信され、処理が行われます。 見積依頼プロセスでは、Adobeのニーズに基づいてカスタマイズした価格を提供することもできます。
+
+RFQをダウンロードするには、次の手順に従います。
+
+1. 管理者ホームページから&#x200B;**[!UICONTROL コンテンツマーケットプレイス]**&#x200B;を選択します。
+
+2. ライセンスの種類を選択し、[**[!UICONTROL 見積もりを依頼]**]セクションに見積もりを生成するシート数を入力します。
+
+3. 「**[!UICONTROL RFQのダウンロード]**」を選択して、見積をダウンロードします。
+
+![](assets/purchase-plans-go1.png)
+_プランを選択した後にRFQをダウンロードする_
+
+見積書を[learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com)に送信して、ライセンスをアクティベートしてください。 Adobeのカスタマーサクセスマネージャーに連絡して、購入プロセスを開始することもできます。
+
+## コンテンツハブへの学習者の招待
+
+学習者をコンテンツマーケットプレイスに招待して、コンテンツを検索してもらい、興味があることを伝えてもらいます。 管理者は、アカウントのすべての学習者を招待することも、選択した学習者のみを招待することもできます。 学習者がコンテンツを検索するには、まず招待される必要があります。 コンテンツハブについて詳しくは、[記事](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub)をご覧ください。
+
+学習者を招待するには：
+
+1. 管理者ホームページから&#x200B;**[!UICONTROL コンテンツマーケットプレイス]**&#x200B;を選択します。
+2. **[!UICONTROL 学習者を招待]**&#x200B;を選択し、必要な学習者を選択します。
+3. **[!UICONTROL 学習者を招待]**&#x200B;を選択します。
+
+管理者は、**[!UICONTROL すべてのユーザーアクセスを削除]**&#x200B;リンクを選択して、**[!UICONTROL コンテンツハブ]**&#x200B;へのアクセス権を取り消すこともできます。 アクセスを取り消すと、学習者アプリの「コンテンツハブ」ページが学習者に表示されなくなります。
+
+![](assets/invite-users.png)
+_ユーザーをコンテンツハブへのアクセスに招待する_
+
+デフォルトでは、このオプションはすべての新しいアカウントに対して有効になっています。 既存のアカウントの場合、管理者はコンテンツマーケットプレイスにアクセスするよう学習者を手動で招待する必要があります。
+
+<!--## Purchase
+
+You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
 
-*購入する席数を入力してください*
+*Enter the number of seats to purchase*
 
-コースを購入する席数を指定します。 購入リクエストフォームをダウンロードし、Learning Manager のセールスチームにフォームを送信します。
+Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
-その後、チームが情報を検証し、キーを生成して提供します。 これは、コンテンツの提供に対するアクセス権をユーザーに付与するために使用するアクティベーションキーです。
+The team will then validate the information and then generate a key, which will be provided to you. This is the activation key using which you'll grant access to your users to the content offering.
 
-CSAM チームがキーを生成した後、管理者はこのキーを使用してコースを読み込み、既存のカタログや新しいカタログにコースを移行できます。
+After the key is generated by the CSAM team, the Administrator can use the key to import the courses, and migrate the courses into the existing catalog or the new catalog.
 
-コースの移行中、ステータスは&#x200B;**[!UICONTROL コースの読み込み中]**&#x200B;と表示されます。 移行の完了後、移行が正常に完了したことが、管理者に通知されます。
+During migration of courses, the status displays as **[!UICONTROL Importing Courses]**. Once the migration completes, the Administrator gets a notification that migration is complete and successful.
 
-**[!UICONTROL ライセンス]**&#x200B;セクションには、アカウントで取得されたすべてのライセンスが表示されます。
+The **[!UICONTROL Licenses]** section then displays all the licenses that are acquired for the account.
 
-管理者は「カタログの概要」ページで購入したカタログのリンクを確認できます。
+The Administrator can see the links of the purchased catalogs in the Catalog Overview page.
 
-コースがカタログに追加されたら、管理者は、トレーニングへのアクセス権を様々なユーザーまたはユーザーグループに付与できます。
+Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
 
-*ユーザーとユーザーグループにトレーニングへのアクセス権を付与*
+*Grant access to training to users and user groups*-->
 
-## 関心の度合いレポート
+<!--## Express interest report
 
-学習者が、学習者アプリで「カタログへの関心を表す」をクリックすると、関心の度合いレポートに記録されます。 管理者はレポートをダウンロードできます。 レポート（csv）には、次のフィールドが含まれています：
+When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
-* カタログ名
-* 関心を表しているユーザー数
-* 関心を表しているユーザーの電子メール
+* Name of the catalog
+* Number of users expressing interest
+* Email of the user expressing interest-->
+
+## コンテンツハブ
+
+コンテンツハブでは、管理者が学習者アプリから必要なプレイリストを絞り込むことができます。 学習者の役割を持つ管理者は常にコンテンツハブページを表示して、プレイリストを簡単に絞り込むことができます。 適切なプレイリストを絞り込みやすくするために、管理者は、アカウント内の特定の主題専門家がこのページを利用できるように設定できます。
+
+Adobe Learning Managerは、定期的にコンテンツハブと同期し、新しい追加や更新が自動的にプラットフォームに反映されるようにします。
+
+すべてのコンテンツがサポートされる言語にマッピングされるため、管理者は言語の環境設定に基づいてより効果的にコンテンツをフィルタリングおよび管理できます。
 
 ## 電子メールテンプレート
 
-このワークフローをサポートするために、次の 3 つの電子メールテンプレートを使用できます：
+Adobe Learning Managerには事前設定された電子メールテンプレートが用意されており、コンテンツの購入、システムのアップデート、学習アクティビティについて管理者や学習者に通知できます。
 
-1. **[!UICONTROL コンテンツのアクティベーションに成功しました]:**&#x200B;これは、キー名の付いたコンテンツの購入が成功したときに送信されます。 購入したすべてのトレーニングを利用できるようになりました。
-1. **[!UICONTROL 自動ユーザーアップロードエラー]:**&#x200B;これは、何らかの理由でアカウントのCSVの自動更新に失敗した場合に送信されます。
-1. **[!UICONTROL コンテンツを検索するようユーザーを招待]:**&#x200B;これは、管理者がコースを購入したときに学習者に送信される招待電子メールです。 管理者は、関心の度合いレポートを表示して、全体的な要件を理解し、購入を決定できます。
+次の3つの電子メールテンプレートを使用できます。
 
-1. 購入したコースは、繰り返し取得する証明書に追加できません。
-1. 購入したコースは、ピアアカウントと共有できません。
-1. 購入したコースは、アクセス権を持つすべてのユーザーが利用できます。 カタログの表示を設定して、購入したコースを限られたユーザーにのみ表示するように制限できます。
-1. アクティベーションキーの期限が切れると、購入したコースを利用できなくなります。 利用するためには、別のキーを購入／アクティブ化してください。
+1. **[!UICONTROL コンテンツのアクティベーションに成功しました]:**&#x200B;サードパーティのコンテンツの購入が成功した後に、管理者に送信されました。 この通知は、アクティベーションが完了し、購入したコンテンツが学習者の割り当て用にシステムで利用できるようになったことを確認します。
+2. **[!UICONTROL 自動ユーザーアップロードエラー]:** CSVを介した自動ユーザー読み込みに失敗するとトリガーされます。 このアラートを使用すると、管理者はスケジュールされたユーザーの更新の問題をすばやく特定して、修正措置を講じることができます。
+3. **[!UICONTROL コンテンツを検索するようユーザーを招待]:**&#x200B;管理者がマーケットプレイスからコンテンツを購入すると、学習者に招待メールが送信されます。 その後、ユーザーはすぐに学習を開始できます。
 
-## コンテンツマーケットプレイスのコンテンツハブ
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-コンテンツハブでは、管理者と主題専門家(SME)が、学習者アプリから必要なプレイリストを絞り込むことができます。 絞り込みが完了したら、管理者は購入リクエストフォームをダウンロードし、それをAdobe営業担当者と共有できます。
+<!--## Content Hub in Content Marketplace
 
-管理者は、SME が関心のあるコンテンツを絞り込めるように、SME をコンテンツハブに招待することができます。
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
+
+An Admin can invite SMEs to shortlist the playlist which they are interested in. 
 
 ![](assets/content-hub.png)
 
-*マーケットプレイスからコンテンツハブを起動する*
+*Launch Content Hub from the marketplace*
 
-コンテンツハブは、すべての管理者の学習者の役割で利用できます。 管理者は、購入を希望するプレイリストの絞り込みを SME に許可します。
+Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
-学習者の役割を持つ管理者は、常にコンテンツハブが表示されているため、プレイリストを簡単に絞り込むことができます。 適切なプレイリストを絞り込みやすくするために、管理者は、アカウント内の特定の主題専門家がこのページを利用できるように設定できます。 設定するには、管理者側のエンタープライズ版トレーニングページを開き、アクセス権を提供する手順を実行します。
+The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
-*コンテンツハブでリソースを表示する*
+*View resources in the Content hub*
 
-Learning Manager では、管理者は候補のプレイリストをダウンロードして、そのリストを Adobe セールスチームと共有することもできます。候補のプレイリストをダウンロードするには、まずコンテンツハブにアクセスし、ライブラリにプレイリストを追加して、プレイリストを絞り込みます。
+Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-次に管理者として、**[!UICONTROL コンテンツマーケットプレイス]** > **[!UICONTROL エンタープライズ版トレーニング]** > **[!UICONTROL 購入セクション]** > **[!UICONTROL キュレートされたプレイリスト]**&#x200B;をクリックします。 **[!UICONTROL 「購入」]**&#x200B;ボタンをクリックして、候補のプレイリストの詳細情報を含む購入リクエストフォームをダウンロードします。
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 
-*購入リクエストフォームをダウンロード*
+*Download the Purchase Request form*
 
-コンテンツハブに表示されるコースとプレイリストは、コンテンツマーケットプレイスに表示されるものと同じです。 コンテンツハブで利用できるのは、購入するプレイリストを管理者や特定の SME が簡単に絞り込める機能だけです。
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->

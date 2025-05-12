@@ -4,10 +4,10 @@ title: Adobe Connect の統合
 description: 作成者は、コースの作成プロセスで Adobe Connect を使用してバーチャルクラスルームコースを作成することができます。 Learning Manager アカウントで Adobe Connect を有効にするには、組織の管理者に連絡する必要があります。
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 70%
+source-wordcount: '595'
+ht-degree: 49%
 
 ---
 
@@ -65,3 +65,29 @@ Adobe Learning Manager とは別に、Adobe Connect を購入する必要があ�
 バーチャルクラスルームコースのホストがセッションに出席しない場合、セッションに出席した学習者の出席は自動的に登録されません。 このような場合、管理者は出席を手動で記録できます。
 
 バーチャルクラスルームコースをクリックし、次のページの左ペインで「出席」をクリックして出席を記録します。
+
+## 多くのオーディエンスを対象としたAdobe Connectセミナーのサポート
+
+Adobe Learning Managerでは、Connectでバーチャルクラスルームセッションを設定する際に、Adobe Connectからセミナールームを選択できます。 以前は、管理者は会議室タイプのみを選択できました。 有効なセミナーライセンスを持つ管理者はこの機能を使用して、ALM内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できます。
+
+Seminar Roomの詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)を参照してください。
+
+### セッション分析へのアクセスのサポート
+
+インストラクターは、セッションダッシュボードに表示された新しいリンクから、完了したAdobe ConnectセッションのSession Analyticsにアクセスできます。
+
+![](assets/adobe-connect-session-url.png)
+_セッションURLの選択_
+
+このリンクをクリックすると、Connectのセッション分析ダッシュボードが開き、セッションのエンゲージメントに関する詳細なインサイトが表示されます。
+この機能は、Adobe Connectを通じて行われたセッションでのみ使用できます。 セッション分析には、次のものが含まれます。
+
+* **[!UICONTROL 参加度]**:ライブセッションの全体的なパフォーマンスの概要
+* **[!UICONTROL インタラクション]**：異なるポッド間の参加者のアクティビティの詳細な内訳
+* **[!UICONTROL 出席者のアクティビティ]**：参加者のエンゲージメントの概要
+* **[!UICONTROL レポートのダウンロード]**:ポッド固有のエンゲージメントデータに関するレポートをダウンロードするオプションです
+
+![](assets/session-dashboard.png)
+_セッションダッシュボード_
+
+セッション分析の詳細については、この[記事](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)を参照してください。

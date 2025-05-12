@@ -2,10 +2,11 @@
 jcr-language: en_us
 title: Adobe Learning Managerでサポートされる言語
 description: Adobe Learning Manager(ALM)でサポートされているインターフェイスとコンテンツ言語について説明します
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 50%
+source-wordcount: '261'
+ht-degree: 49%
 
 ---
 
@@ -81,4 +82,10 @@ Adobe Learning Managerでは、次のインターフェイスとコンテンツ�
 | ブルガリア語 | - | bg |
 | オランダ語 (ベルギー) | - | nl-be |
 | ポルトガルポルトガル | - | pt-PT |
+| 中国語（繁体字、香港） | - | zh-HK |
+| ノルウェー語ブークモール | - | nb-NO |
+| タミル語 | - | タイン |
+| テルグ語 | - | te-in |
+| カンナダ語 | - | kn-IN |
+| マラヤーラム語 | - | ml-IN |
 

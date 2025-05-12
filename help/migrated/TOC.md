@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Learning Manager ユーザーガイド](user-guide.md)
 * 概要 {#introduction}
    * [新機能の概要](/help/migrated/whats-new.md)
+   * [新機能の概要2024年11月](/help/migrated/whats-new-nov-24.md)
    * [新機能の概要2024年7月](whats-new-july-2024.md)
    * [新機能2024年3月](whats-new-march-2024.md)
    * [新機能2023年11月](whats-new-november-2023.md)
    * [新機能2023年7月](whats-new-2023-july.md)
-   * [新機能2023年4月](whats-new-2023-april.md)
    * [リリースノート](release-note/release-notes.md)
    * [必要システム構成](system-requirements.md)
    * [AEM SitesのALM参照サイトパッケージ](adobe-learning-manager-integration-aem.md)
@@ -38,13 +38,15 @@ ht-degree: 84%
    * [学習者の基本](learners/feature-summary/getting-started-learner.md)
    * [マネージャーの基本](managers/feature-summary/getting-started-manager.md)
    * [Learning Manager インストラクターの基本](instructors/feature-summary/getting-started.md)
-* 管理者 {#admin}
+* は、 {#admin}
+   * [Adobe Learning Managerの管理者AIアシスタント（ベータ版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [ユーザーログイン](administrators/feature-summary/user-login.md)
    * [ユーザーを追加してユーザーグループの作成](administrators/feature-summary/add-users-user-groups.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
    * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
    * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
    * [レポート](administrators/feature-summary/reports.md)
+   * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学習パス](administrators/feature-summary/learning-paths.md)
    * [学習プラン](administrators/feature-summary/learning-plans.md)
    * [Learning Manager の注文および請求管理](administrators/feature-summary/billing-management.md)
