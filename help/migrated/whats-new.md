@@ -2,13 +2,13 @@
 description: Adobe Learning Managerの2025年5月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: 新機能の概要
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
-
 
 # 新機能の概要2025年5月
 
@@ -109,7 +109,7 @@ Adobe Learning Managerネイティブプラットフォームのユーザーは�
 
 Adobe Learning Managerでは、ConnectでVCセッションを設定する際に、Adobe ConnectからSeminar Roomsを選択できるようになりました。 以前は、管理者は会議室タイプのみを選択できました。 この機能強化により、有効なSeminarライセンスを持つ管理者は、Adobe Learning Manager内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できるようになりました。
 
-セミナー室の詳細については、この[記事](https://helpx.adobe.com/jp/adobe-connect/using/creating-seminars.html)をご覧ください。
+セミナー室の詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)をご覧ください。
 
 ### セッション分析へのアクセスのサポート
 
@@ -155,7 +155,7 @@ Webhookの変更。
 
 ### 移行を使用してコンテンツの一意のIDと有効期限を追加する
 
-移行中のコンテンツの一意のIDと有効期限がサポートされるようになりました。 この機能を有効にするために、2つの列（ expiryDateとuniqueContentId ）がmodule_version.csvファイルに追加されました。
+移行中のコンテンツの一意のIDと有効期限がサポートされるようになりました。 この機能を有効にするために、2つの列（ expiryDateとuniqueContentId ）がmodule_version.csvファイルに追加されました。 詳細については、この[サンプルCSV](assets/module_version_content.csv)および[CSV仕様ファイル](assets/4-module_version_content.xlsx)を参照してください。
 
 移行プロセスの詳細については、この[記事](/help/migrated/integration-admin/feature-summary/migration-manual.md)を参照してください。
 
