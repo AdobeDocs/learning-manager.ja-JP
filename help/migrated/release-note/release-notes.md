@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26470'
+source-wordcount: '26471'
 ht-degree: 71%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 71%
   </tr>
  </tbody>
 </table>-->
+
++++アップデート100:2024年11月リリースのAdobe Learning Manager
+
+**リリース日**: 2025年5月10日
+
+## リリースの最新情報
+
+詳しくは、[Adobe Learning Manager の新機能](/help/migrated/whats-new.md)を参照してください。
++++
 
 +++アップデート99:2025年2月リリースのAdobe Learning Manager
 
@@ -49,7 +58,7 @@ Adobe Learning Manager(ALM)で、言語にSAML属性を使用できるように�
 
 ## リリースの最新情報
 
-詳しくは、[Adobe Learning Manager の新機能](/help/migrated/whats-new.md)を参照してください。
+詳しくは、[Adobe Learning Manager の新機能](/help/migrated/whats-new-nov-24.md)を参照してください。
 +++
 
 +++アップデート97:Adobe Learning Managerの2024年7月リリース
@@ -1489,7 +1498,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -1526,7 +1535,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -1591,11 +1600,6 @@ Adobe Learning Manager でアカウントをカスタマイズして、ユーザ
 * 学習者のマネージャーへのエスカレーション電子メール
 * 直属の部下について
 * スキップレベルレポートについて
-
-Learning Manager の API について詳しくは、以下のリンクを参照してください。
-
-* [***APIリファレンス***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***API開発者ガイド***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### このリリースで修正された問題 {#Issuesfixedinthisrelease-1}
 
@@ -1952,9 +1956,9 @@ CSV 仕様が更新され、既存の LMS 移行データをマッピングす�
 
 * **QRコードをスキャンして登録する：** QRコード機能が強化されました。 QR コードを使用した出席のマーク付けに加え、QR コードを使用してコースの登録と完了も行えるようになりました。
 
-  コースを登録および完了するには、管理者が生成するQRコードをスキャンします。 Learning ManagerのwebバージョンでQRコードをスキャンする方法について詳しくは、[***QRコードのスキャン***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse)を参照してください。
+コースを登録および完了するには、管理者が生成するQRコードをスキャンします。 Learning ManagerのwebバージョンでQRコードをスキャンする方法について詳しくは、[***QRコードのスキャン***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse)を参照してください。
 
-* **コースを複数回にわたって試行可能：** Learning Managerアプリでは、学習者は複数回にわたってコースを試行できるようになりました。 複数回の試行の設定の詳細については、[***複数回の試行***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts)を参照してください。
+* **コースを複数回にわたって試行可能：** Learning Managerアプリでは、学習者は複数回にわたってコースを試行できるようになりました。 複数回の試行の設定の詳細については、[***複数回の試行***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts)を参照してください。
 
 +++
 
@@ -2456,7 +2460,7 @@ Learning Managerで複数の作成者が同じコンテンツグループを同�
 
 #### API レイヤー {#apilayer}
 
-AP/courses/{coursesid} を使用してモジュールのバージョン情報を取得しようとすると必ずエラーが発生する。この問題は修正されました。
+AP/courses/{coursesid}を使用してモジュールバージョン情報を取得しようとすると、エラーが発生します。 この問題は修正されました。
 
 +++
 
@@ -2496,7 +2500,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-この更新の一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -2728,8 +2732,8 @@ Learning Manager ユーザーインターフェイスの一部の機能で、メ
 1. DELETE Users
 1. GET userGroups
 1. GET userGroups /{id}
-1. DELETE userGroups /{id}/Users
-1. POST userGroups /{id}/Users
+1. DELETEユーザーグループ/{id}/Users
+1. POSTユーザーグループ/{id}/Users
 1. GET /users/userId/userGroups
 
 また、既存のユーザーモデルに次の追加を追加して拡張しました。
@@ -3006,7 +3010,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;**&#x200B;**&#x200B;は&#x200B;**&#x200B;**&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;****&#x200B;は&#x200B;****&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * **プロファイルが作成されました（自己登録）**&#x200B;と&#x200B;**プロファイルが作成されました（外部/パートナー）**&#x200B;の電子メールテンプレートを編集するたびに、管理者が受信する電子メールでURLをクリックすることはできません。 この問題は修正されました。
@@ -3064,7 +3068,7 @@ CSV に含まれているマネージャー名、学習目標名、および一�
 
 **スキルの作成**
 
-学習者のログインで、**スキルマップ**&#x200B;のスキル名ツールヒントが&#x200B;**&#x200B;**&#x200B;フルネームの&#x200B;**&#x200B;**&#x200B;を表示していませんでした。 この問題は修正されました。
+学習者のログインで、**スキルマップ**&#x200B;のスキル名ツールヒントに氏名が表示されていませんでした。 この問題は修正されました。
 
 **社外パートナーの追加**
 

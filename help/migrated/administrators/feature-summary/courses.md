@@ -4,7 +4,7 @@ jcr-language: en_us
 title: コースインスタンスと学習パスの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ CSV レポートには、次のフィールドが含まれています。
 2. **[!UICONTROL コース]**&#x200B;ページに移動し、コースを選択します。
 3. コースページで&#x200B;**[!UICONTROL 学習者]**&#x200B;を選択します。
 4. 個々の学習者を選択するか、複数の学習者を選択します。
-5. **[!UICONTROL アクション]**&#x200B;を選択し、&lbrace;2&#x200B;**完了のマーク**&#x200B;を選択します。
+5. **[!UICONTROL アクション]**&#x200B;を選択し、**[!UICONTROL 完了のマーク]**&#x200B;を選択します。
 6. ダイアログボックスに完了コメントを入力します。
 
    ![](assets/comments.png)
