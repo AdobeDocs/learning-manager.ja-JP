@@ -1498,7 +1498,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -1535,7 +1535,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -2500,7 +2500,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3010,7 +3010,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;****&#x200B;は&#x200B;****&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;**&#x200B;**&#x200B;は&#x200B;**&#x200B;**&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * **プロファイルが作成されました（自己登録）**&#x200B;と&#x200B;**プロファイルが作成されました（外部/パートナー）**&#x200B;の電子メールテンプレートを編集するたびに、管理者が受信する電子メールでURLをクリックすることはできません。 この問題は修正されました。
