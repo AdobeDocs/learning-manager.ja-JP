@@ -3,7 +3,7 @@ title: Adobe Learning Manager ユーザーガイドへようこそ
 description: Adobe Learning Manager(以前のAdobe Captivate Prime)の最新サービスについて説明します。 最初から開始することも、各セクションに個別にアクセスすることもできます。また、コミュニティに接続してプロジェクトに取り組むことも可能です。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 9d46d64aae76b85f50eed9878779f290291e9026
+source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # Adobe Learning Manager ユーザーガイドへようこそ
 
-Adobe Learning Manager (以前の&#x200B;**[!UICONTROL Adobe Captivate Prime]**)の最新サービスについてお読みください。 最初から開始することも、各セクションに個別にアクセスすることもできます。また、コミュニティに接続してプロジェクトに取り組むことも可能です。
+Adobe Learning Manager(以前のAdobe Captivate Prime)の最新サービスについてお読みください。 最初から開始することも、各セクションに個別にアクセスすることもできます。また、コミュニティに接続してプロジェクトに取り組むことも可能です。
 
 ## フォーラムに参加 {#jointheconversation}
 
