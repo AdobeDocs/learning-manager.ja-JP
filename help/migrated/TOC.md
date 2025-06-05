@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 82%
@@ -30,6 +30,7 @@ ht-degree: 82%
    * [Adobe FTP Manager からの移行](transition-from-ftp-manager.md)
    * [Adobe Learning Managerでサポートされる言語](/help/migrated/languages-supported.md)
    * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
+   * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
    * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
    * [埋め込みプレーヤーインタラクション API に関するドキュメント](/help/migrated/embedded-player-interaction.md)
 * 利用開始 {#get-started}
@@ -59,7 +60,6 @@ ht-degree: 82%
    * [SAMLを使用したインターフェイス言語の設定](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [ピアアカウント](administrators/feature-summary/peer-account.md)
    * [スキルとレベルの作成および変更](administrators/feature-summary/skills-levels.md)
-   * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
    * [AI ベースの推奨コース](ai-based-recommendations.md)
    * [スキルの読み込み](administrators/feature-summary/import-skills-external-sources.md)
    * [ゲーミフィケーション](administrators/feature-summary/gamification.md)
