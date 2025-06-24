@@ -1,692 +1,1024 @@
 ---
-description: Learning manager でユーザーまたはユーザーグループを追加する方法について解説します。
+description: ステップバイステップの手順に従って、Adobe Learning Managerに社内ユーザーと社外ユーザーを追加する方法について説明します。 手動入力、一括読み込み、自動ユーザー同期などの様々な方法を試して、ユーザー管理を簡素化し、学習プラットフォームを強化します。
 jcr-language: en_us
-title: ユーザーを追加してユーザーグループの作成
+title: Adobe Learning Managerでのユーザーの追加
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
+source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
 workflow-type: tm+mt
-source-wordcount: '4305'
-ht-degree: 57%
+source-wordcount: '2257'
+ht-degree: 1%
 
 ---
 
-# ユーザーを追加してユーザーグループの作成
 
-Learning manager でユーザーまたはユーザーグループを追加する方法について解説します。
+# Adobe Learning Managerでのユーザーの追加
+
+Adobe Learning Managerでは、ユーザーは学習やトレーニングにプラットフォームを使用するユーザーです。 ユーザーには、内部ユーザーと外部ユーザーの2種類があります。
+
+内部ユーザーとは、組織の従業員またはチームメンバーを指します。
+
+社外ユーザーとは、顧客、パートナー、ベンダー、クライアントなど、社外で学習コンテンツにアクセスできるユーザーを指します。
+
+Adobe Learning Manager(ALM)を使用すると、管理者は手動入力、CSVアップロード、セルフ登録、システム統合など、様々な方法で社内ユーザーと社外ユーザーの両方をオンボーディングおよび管理できます。
+
+## 社内ユーザー
+
+Adobe Learning Managerの社内ユーザーとは、組織内の従業員またはチームメンバーを指します。 手動で追加したり、一括でアップロードしたり、システム統合を介して読み込んだりすることができます。 追加したユーザーをグループに編成したり、コースを割り当てたり、学習の進行状況を監視したりできます。
+
+Adobe Learning Managerのユーザーは、割り当てられた役割に基づいて、様々な責任を負い、様々なタスクを管理できます。 管理者、作成者、インストラクター、統合管理者を含む各ロールは、プラットフォーム内でのユーザーの責任をサポートするためにカスタマイズされた、一連の特定の機能を提供します。
+
+Adobe Learning Managerでは、次のユーザーロールをサポートしています。
+
+* **管理者**:ユーザーとユーザーグループの管理、役割の割り当て、およびデータソース、許可されたドメイン、表示オプションなどのシステム全体の基本設定の構成を行います。 管理者は、学習コンテンツの作成と整理、学習者の進行状況の追跡、レポートの生成、外部システムとの統合の設定についても責任を負います。
+* **作成者**:モジュールやコースなど、コンテンツを作成および管理します。
+* **マネージャー**:チームの学習活動を監督し、チームメンバーにコースを推薦し、リクエストを承認して、フィードバックを提供します。
+* **統合管理者**: ALMと外部プラットフォーム間のシステム統合とデータ接続を管理します。
+* **カスタムの役割**：管理者は、ユーザーの責任に応じてユーザーに合わせたアクセス権を付与するカスタムの役割を作成できます。 カスタムの役割の詳細については、この記事を参照してください。
+
+### 社内ユーザーを追加する方法
+
+管理者は、次の方法を使用して内部ユーザーを追加できます。
+
+* **単一のユーザーを追加する**：一度に1人のユーザーを手動で追加します。
+* **セルフ登録プロファイル** ：管理者が作成した登録リンクを使用して、学習者がAdobe Learning Managerに学習者としてセルフ登録できるようにします。
+* **CSVで一括アップロード**: CSVファイルをアップロードして、複数のユーザーを一度に追加します。
+
+### 内部ユーザーを手動で追加する
+
+管理者は、名前、電子メールID、一意の識別子、マネージャーの名前を入力して、個々のユーザーを手動で追加できます。 Adobe Learning Managerの固有IDは、管理者がユーザーを作成するときに割り当てる必須のIDです。 これは、各ユーザーに対して一意であり、システム全体で一貫した参照として機能する必要があります。
+
+>[!INFO]
+>
+>Adobe Learning Managerでのシングルユーザーの追加について詳しくは、こちらのALMアカデミーのトレーニングをご覧ください。<br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+
+1人のユーザーをAdobe Learning Managerに追加するには、次の手順を実行します。
+
+1. 管理者としてログインします。
+2. **ユーザー**&#x200B;を選択し、**内部**&#x200B;を選択します。
+3. **追加**&#x200B;を選択し、**シングルユーザー**&#x200B;を選択します。
+
+   ![](assets/add-single-user.png)
+   _単一の内部ユーザーを手動で追加するオプションを示す管理者インターフェイス_
+4. **ユーザーの追加**&#x200B;プロンプトで、ユーザーの&#x200B;**名前**、**電子メール**&#x200B;および&#x200B;**プロファイル** （役職）を入力します。
+
+   ![](assets/add-a-user-prompt.png)
+   _新しいユーザーの名前、電子メール、一意の識別子、およびプロファイルを入力するためのフィールド_
+5. ユーザーのマネージャーを検索し、マネージャーリストから名前を選択します。
+6. 「**追加**」を選択します。
+ユーザーは、アクセス用のログインURLを含む案内メールを受け取ります。
+
+
+### 社内ユーザーのセルフ登録を許可
+
+セルフ登録は、ユーザーが登録URLにアクセスして詳細情報を入力し、プラットフォームに自動的に登録できるセルフサービスのオンボーディングプロセスです。 この方法では、提供されたURLを使用してユーザーが自分で登録できるようにすることで、管理作業を最小限に抑えます。
+
+ユーザーのセルフ登録URLを作成する手順は、次のとおりです。
+
+1. 管理者としてログインします。
+2. **ユーザー**&#x200B;を選択し、**内部**&#x200B;を選択します。
+3. 右上隅の&#x200B;**追加**&#x200B;を選択し、**セルフ登録**&#x200B;を選択します。
+
+
+   ![](assets/add-self-register-link.png)
+   _セルフ登録オプションを選択するためのドロップダウンメニュー_
+4. **セルフ登録プロファイルの追加**&#x200B;プロンプトで、**プロファイル名** （ユーザーの役職名）フィールドにプロファイルを入力します。
+5. [**マネージャーの名前**]フィールドでマネージャーを検索して、ユーザーのマネージャーを選択します。 セルフ登録プロファイルに割り当てられたマネージャーは、Adobe Learning Managerに登録されたユーザーである必要があります。
+
+
+   ![](assets/add-a-user-prompt.png)
+   _役職を設定し、自己登録プロファイルにマネージャーを割り当てるための入力フィールド_
+6. 「**画像を追加**」オプションを使用して画像を選択します。 この画像は、「プロファイル」セクションの学習者に表示されます。
+7. 「**保存**」を選択します。
+
+   Adobe Learning Managerはユーザープロファイルを作成してセルフ登録URLを生成します。ユーザーはこのURLを共有して登録を完了できます。
+
+
+   ![](assets/self-register-url.png)
+   _セルフ登録URLの作成に成功したことを示す確認メッセージ_
+8. セルフ登録を行うユーザーにURLを公開します。
+
+
+   URLは、登録のために複数のユーザーと共有することができます。 たとえば、**営業担当者**&#x200B;プロファイルのURLを生成し、営業担当者チームと共有して、営業担当者が自分で登録できるようにすることができます。
+
+![](assets/self-register-screem.png)
+_セルフ登録リンクでサインアップページを開く_
+
+### セルフ登録URLのリストの表示
+
+セルフ登録URLのリストを表示する手順は、次のとおりです。
+
+1. **ユーザー**&#x200B;を選択し、**内部**&#x200B;を選択します。
+2. **セルフ登録**&#x200B;を選択します。
+
+   管理者は、セルフ登録URLのリストを表示できます。
+
+![](assets/self-registration-profile.png)
+_社内ユーザーが利用できる既存のセルフ登録URLを示すリストビュー_
+
+### 内部ユーザーのバルクアップロード
+
+Adobe Learning Managerでは、名前、電子メールID、マネージャーの名前などのユーザー情報を含むCSVをアップロードすることで、管理者は一度に複数のユーザーを追加できます。 このバルクアップロード機能により、ユーザーを個別に追加する場合に比べて時間と労力を節約できます。
+
+>[!INFO]
+>
+>CSVを使用してユーザーを一括で追加する方法については、このALMアカデミーのトレーニングをご覧ください。 <br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br>
+
+複数のユーザーを追加するには：
+
+1. 管理者としてログインします。
+2. **ユーザー**&#x200B;を選択し、**内部**&#x200B;を選択します。
+3. 右上隅の&#x200B;**追加**&#x200B;を選択し、**CSVをアップロード**&#x200B;を選択します。
+
+   ![](assets/select-upload-acsv.png)
+   _ユーザーの一括読み込み用にCSVファイルをアップロードするオプション_
+
+4. 次のフィールドを含むCSVファイルを準備します。
+
+   * 従業員の氏名*
+   * 従業員のメールアドレス*
+   * 従業員のプロファイル/指名
+   * マネージャーのID/電子メール\
+     (*)必須フィールド。
+
+5. 従業員のマネージャーの電子メールIDを追加する前に、マネージャーが従業員としてCSVファイルに既に含まれていることを確認します。 例えば、以下のスナップショットのHoward Waltersという名前の従業員を参照してください。
+
+   ![](assets/csv-image.png)
+   _すべてのフィールドを含むサンプルCSVの画像_
+
+6. CSVファイルをアップロードし、それに応じてデータフィールドをマッピングします。
+
+   ![](assets/map-the-column.png)
+   _スプレッドシートの列をシステムフィールドに揃えるためのCSVマッピングインターフェイス_
+7. 「**保存**」を選択して、ユーザーを読み込みます。
+
+   アップロードが成功すると、確認メッセージが表示されます。
+
+   ![](assets/csv-save-success.png)
+   _画像は、CSVアップロードのステータスを正常に表示しています_
+
+>[!NOTE]
+>
+>すべての追加と削除に関するマスターCSVを保持します。 既存のCSVファイルの更新と再アップロードはサポートされていません。
+
+CSVファイルをアップロードしてユーザーを追加する場合、すべての関連情報を正しい順序で含めることが重要です。 マネージャーの電子メールIDを従業員に割り当てる場合、マネージャーの詳細がCSVファイルの前に表示されている必要があります。 これにより、システムはマネージャーをチームメンバーにリンクする前に既存のユーザーとして認識します。 例えば、Howard Waltersがマネージャーの場合は、自分に報告した従業員をリストする前に、ユーザーの詳細情報をCSVに含めます。
+
+### ユーザー登録の管理
+
+ユーザーを個別にまたは一括で追加した後、ユーザーを登録してアカウントをアクティベートする必要があります。 これにより、Adobe Learning Managerにアクセスしてプラットフォームの使用を開始できます。
+
+ユーザーを登録するには、次の手順に従います。
+
+1. 管理者ホームページで&#x200B;**ユーザー**&#x200B;を選択します。
+2. 登録するユーザーの名前の横にあるチェックボックスをオンにします。
+3. **アクション**&#x200B;を選択し、**登録**&#x200B;を選択します。
+
+   ![](assets/register-user.png)
+   _Adobe Learning Managerで選択したユーザーをアクティベートするための「登録」ボタン_
+
+4. 「**はい**」を選択して、ユーザーをアクティベートします。
+
+ユーザーに確認用メールが送信されます。 アカウントを有効にしてAdobe Learning Managerの使用を開始するには、電子メール内のリンクを選択する必要があります。
+
+## 社外ユーザー
+
+Adobe Learning Managerを使用すると、社外のユーザー（顧客、パートナー、ベンダー、クライアントなど）を追加して、学習コンテンツにアクセスできます。 追加された学生は、グループ化したり、コースを割り当てたり、学習の進捗状況を追跡したりできます。
+
+Adobe Learning Managerで外部ユーザーを追加するには、次の手順を実行します。
+
+* 社外登録プロファイルの作成
+* 登録プロファイルを有効にする
+* 登録リンクを外部ユーザーと共有する
+* 必要に応じてプロファイルを一時停止または再開する
+
+Adobe Learning Managerでは、社外登録プロファイルを使用したこれらのユーザーの登録をサポートしています。
+
+外部ユーザーを作成するには、次の手順に従います。
+
+1. 管理者としてログインします。
+2. **ユーザー**&#x200B;を選択し、**外部**&#x200B;を選択します。
+3. 右上隅の「**追加**」を選択して、社外ユーザーの登録を作成します。
+4. **社外登録プロファイルを追加**&#x200B;ダイアログで、以下を指定します。
+
+   * **プロファイル名：** Adobe Learning Managerにアクセスするパートナー組織の名前を入力します
+   * **マネージャーの電子メール：**&#x200B;ユーザーのマネージャーの電子メールアドレスを入力します。
+   * **人数制限：**&#x200B;許可される登録数の上限を設定します。
+   * **有効期限：**&#x200B;新しい登録の最後の日付を定義します。 有効期限が切れると、新規ユーザーの登録にリンクが使用できなくなります。
+
+   ![](assets/add-external-user-prompt.png)
+   _プロファイル名、マネージャーの電子メール、人数制限、および有効期限を入力するためのダイアログボックス_
+
+5. **[画像の追加]**&#x200B;オプションを使用して画像を選択します。 この画像は、「プロファイル」セクションの学習者に表示されます。
+6. 「**詳細設定**」セクションを選択して展開し、必要な詳細を入力します。
+   * **ログイン要件：**&#x200B;日数を入力します。 学習者がその期間中非アクティブのままの場合は、自動的に削除されます。
+   * **許可されたドメイン：**&#x200B;許可された電子メールドメインのコンマ区切りの一覧を入力します。 承認されたドメインのメールアドレスを持つユーザーのみが新規登録できます。
+   * **電子メールの確認が必要：**&#x200B;登録時に電子メールの確認を強制するには、これを選択します。
+
+   ![](assets/advanced-settings-add-external.png)
+   _ログイン要件、許可されているドメイン、および電子メール確認を設定するための詳細設定パネル_
+
+7. 「**保存**」を選択します。
+
+登録URLが生成されます。
+
+### 社外プロファイルを有効にする
+
+社外プロファイルを有効にするには：
+
+1. 新しく作成したプロファイルを社外プロファイルのリストで探します。
+
+2. 「**ステータス**」トグルボタンを選択して有効にします。
+
+管理者はこのURLを外部パートナーと共有し、新規登録してAdobe Learning Managerにログインできます。
+
+![](assets/enable-the-external-user.png)
+_切り替えを選択して外部プロファイルを有効にします_
+
+### 社外プロファイルの登録URLをコピーして共有する
+
+外部プロファイルの登録URLは、**外部ユーザー**&#x200B;セクションからコピーできます。
+
+![](assets/copy.png)
+_社外プロファイルの登録URLをコピーする_
+
+### 内部ユーザー登録と外部ユーザー登録の主な違い
+
+社内登録と社外登録にはいくつかの違いがあります。
+
+| 社内ユーザー | 社外ユーザー |
+|---|---|
+| Adobe IDまたはSSO資格情報を使用してログインできます。 | 任意の電子メールIDを使用してログインできます。 |
+| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
+
+### 外部登録プロファイルを一時停止
+
+Adobe Learning Managerでは、管理者はプロファイルを一時停止することで社外ユーザーの登録を管理できます。 これは、特定の社外ユーザープロファイルを使用した新規ユーザーの参加を一時的に停止する場合に便利です。 プロファイルを一時停止すると、招待を受け取ったが、登録がまだ完了していないユーザーは、サインアッププロセスを完了できなくなります。 このアクションは、既に登録を完了しているユーザーには影響しません。
+
+外部プロファイルを一時停止するには、次の手順を実行します。
+
+1. **外部ユーザー**&#x200B;ページの右上隅にある&#x200B;**アクション**&#x200B;を選択します。
+2. 外部ユーザープロファイルを一時停止するには、**一時停止**&#x200B;を選択します。
+
+これにより、招待をまだ受け入れていないユーザーの登録プロセスがブロックされます。 このアクションは、まだ登録を完了していないユーザーにのみ影響します。
+
+![](assets/pause-external-user.png)
+_アクションメニューから既存の社外ユーザープロファイルを一時停止するオプション_
+
+### 社外登録プロファイルを再開
+
+外部プロファイルが以前に一時停止されていた場合、管理者はそれを再開して、新しいユーザーが登録を完了できるようにすることができます。 招待されたがサインアップを完了していないユーザーの登録プロセスが再開されます。
+
+外部ユーザーを再開するには、次の手順に従います。
+
+1. ページの右上隅にある&#x200B;**アクション**&#x200B;を選択します。
+2. 一時停止したパートナーのアクセスを再開するには、**再開**&#x200B;を選択します。
+
+![](assets/resume-an-external-user.png)
+_一時停止していた外部ユーザープロファイルを再開するオプション_
+
+### 外部シートの使用状況の監視
+
+管理者は、Adobe学習で各社外プロファイルに追加されたユーザー数をトラックできます。
+
+使用席を確認する手順は、次のとおりです。
+
+1. 外部プロファイルのリストで&#x200B;**使用されている席**&#x200B;を選択します。
+
+パートナー組織に追加された学習者の数と、学習者がアクティブかどうかを表示できます。
+
+## ユーザーの管理
+
+管理者は、ユーザーの詳細の編集、ユーザーの削除、役割の割り当て、役割の削除を行うことができます。 これにより、各ユーザーが適切なアクセス権とタスクを持つことができるようになります。
+
+>[!INFO]
+>
+>役割の割り当てと削除、案内メールの送信、ユーザーの削除と消去の方法については、このALM Academyトレーニングをご覧ください。<br>[![ボタン]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+
+### ユーザーの編集
+
+名前、メールアドレス、一意のID、プロファイル、マネージャーの名前など、ユーザーのプロファイル情報を更新するには、Adobe Learning Managerの&#x200B;**ユーザーを編集**&#x200B;オプションを使用します。 管理者はこれらの変更を行って、ユーザーデータを正確かつ最新の状態に保つことができます。
+
+ユーザーを編集するには：
+
+1. 管理者ホームページで&#x200B;**ユーザー**&#x200B;を選択します。
+2. 編集するユーザーを&#x200B;**ユーザー**&#x200B;リストから選択します。
+3. **プロファイルの編集**&#x200B;を選択します。
+
+   ![](assets/edit-a-profile.png)
+   _プラットフォームからユーザーを削除するには、[アクション]メニューの[ユーザーの削除]オプションを使用します_
+
+4. **はい**&#x200B;を選択してユーザーを削除します。
+
+ユーザーが正常に削除されると、確認メッセージが表示されます。
+
+## ユーザーに役割を割り当てる
+
+Adobe Learning Managerのユーザーロールは、各ユーザーがシステム内で実行できるアクションを定義します。 各ロールには、ユーザーの責任に基づいた特定の権限が割り当てられます。
+
+役割をユーザーに割り当てるには：
+
+1. 管理者ホームページで&#x200B;**ユーザー**&#x200B;を選択します。
+2. ロールを割り当てるユーザーを選択します。
+3. 右上隅の&#x200B;**アクション**&#x200B;を選択します。
+4. **役割の割り当て**&#x200B;を選択します。
+5. 必要な役割を選択します。
+
+   ![](assets/assign-roles-users.png)
+   _[役割の割り当て]メニューのオプションには、選択したユーザーが使用できる役割が表示されます_
+
+6. 確認ダイアログで「**はい**」を選択します。
+
+## 役割の削除
+
+ユーザーロールを削除すると、そのロールによって付与された権限が取り消されます。
+
+ユーザーからロールを削除するには、次の手順に従います。
+
+1. 管理者ホームページで&#x200B;**ユーザー**&#x200B;を選択します。
+2. ロールを削除するユーザーを選択します。
+3. **アクション**&#x200B;を選択し、**ロールの削除**&#x200B;を選択します。
+
+   ![](assets/remove-a-role.png)
+   _[アクション]メニューのユーザーから割り当てられたロールを削除するオプション_
+
+4. 確認ダイアログで「**はい**」を選択します。
+<!--# Add users and create user groups
+
+
+Learn how to add users or user groups in Learning Manager application.
 
 <!--![](assets/user-mgmt-new.png)-->
 
-## 概要 {#overview}
+<!--## Overview {#overview}
 
-Adobe Learning Manager では、以下の役割を割り当てることができます。
+In Adobe Learning Manager, you can assume the following roles:
 
-* **管理者：**&#x200B;管理者は、組織のトレーニング戦略を定義します。管理者は、学習者の追加、学習者に必要なスキルの検索、コースの管理と割り当て、学習計画、認定、学習プログラムの作成、および組織全体のレポートの管理を行うことができます。
-* **作成者：**&#x200B;作成者は、インストラクションデザイナーでありコンテンツクリエイターです。また作成者は、Learning manager にモジュールおよびコースを追加することができます。
-* **マネージャー：**&#x200B;マネージャーは、チームの学習活動を管理します。マネージャーは、コースを受講するチームメンバーを指名し、チームメンバーからのリクエストを承認し、トレーニングの完了後にチームメンバーのパフォーマンスに関するフィードバックを提供できます。マネージャーは、チームのレポートを表示してパフォーマンスを追跡することもできます。
-* **学習者：**&#x200B;学習者は、自分に割り当てられたコース、学習プログラム、および認定資格にアクセスできます。学習者は、カタログを使用して利用可能なすべてのコースを参照し、コース、学習プログラム、または検定に登録することもできます。
+* **Administrator:** An Administrator defines the training strategy for the organization. An Administrator can add learners, search required skills for learners, manage and assign courses, create learning plans, certifications, and learning programs, and manage reports for the entire organization.
+* **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Learning Manager.
+* **Manager:** A Manager manages the learning activities of a team. A Manager can nominate team members to take a course, approve requests from team members, and provide feedback on performance of their team members post-completion of training. Managers can also view reports for their team to track their performance.
+* **Learner:** Learners can access courses, learning programs, and certifications assigned to them. Learners can also browse through all the available courses by using a catalog and enroll themselves for either courses, learning programs, or certifications.
 
-管理者として、次の 3 つの方法でユーザーを追加できます。
+As an Administrator, you can add users in three ways:
 
-* 社内
-* 社外
-* ユーザーグループ
+* Internal
+* External
+* User groups
 
-## 単一ユーザーの追加 {#addasingleuser}
+## Add a single user {#addasingleuser}
 
-シングルユーザーオプションを使用して、社内学習者をAdobe Learning Managerに追加します。
+Add internal learners to the Adobe Learning Manager using a single user option.
 
 >[!INFO]
 >
->このトレーニングでは、Adobe Learning Managerに社内学習者を追加する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+>In this training, you will learn how to add internal learners to the Adobe Learning Manager.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
-トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-ユーザーを追加するには、
+To add users,
 
-1. Adobe Learning Manager に管理者としてログインします。
-1. ホームページで、「**[!UICONTROL ユーザーを追加]**」をクリックします。このページでは、CSV を使用して一度に 1 人のユーザーまたは複数のユーザーを追加できます。社内従業員用のセルフ登録リンクを作成したり、社外学習者プロファイルを作成したりすることもできます。
-1. 1 人のユーザーを追加するには、右上隅の「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL シングルユーザー]**」オプションを選択します。
+1. Log into Adobe Learning Manager as an Administrator. 
+1. On the home page, click **[!UICONTROL Add Users]**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **[!UICONTROL Single User]**.
 
-1. 1 人のユーザーを追加するには、右上隅の「**[!UICONTROL 追加]**」をクリックし、「**シングルユーザー**」オプションを選択します。
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **Single User**.
 
 
    ![](assets/single-user.png)
-   *単一の内部ユーザーを追加する*
+   *Add a single internal user*
 
-1. **[!UICONTROL ユーザーを追加]**&#x200B;ダイアログで、学習者の詳細を入力します。「**[!UICONTROL マネージャーの名前]**」フィールドで、システム内の既存のユーザーの名前を選択します。
+1. On the **[!UICONTROL Add User]** dialog, enter the details of the learner. For the field **[!UICONTROL Manager's Name]**, pick the name of an existing user in the system.
 
    ![](assets/manager.png)
-   *[ユーザーの追加]ダイアログボックス*
+   *Add user dialog box*
 
-1. 新しいユーザーを Learning Manager で追加するには、**[!UICONTROL 「追加」]**&#x200B;をクリックします。ユーザーが追加されると、ユーザーは確認メールを受け取ります。続いて学習者はアカウントを有効化し、Learning Manager の使用を開始します。このワークフローは、限られた数の学習者をLearning Managerアカウントに追加する必要がある場合に便利です。 ただし、大規模な組織のすべての従業員を登録することを計画している場合は、1 回の試行で追加できます。詳細については、次のセクションを参照してください。
+1. To add the new user in Learning Manager, click **[!UICONTROL Add]**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Learning Manager Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
-## ユーザーの一括追加 {#addusersinbulk}
+## Add users in bulk {#addusersinbulk}
 
-通常、ほとんどの組織は人材管理システム（HRMS）を使用します。これにより、職位、勤務地、入社日、従業員の階層など、すべての従業員レコードが保持されます。このデータを CSV 形式で書き出しすることができます。CSV を読み込むには、以下の手順を実行します。
+Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
 
 
-1. 右上隅にある「**[!UICONTROL 追加]**」をクリックして「**[!UICONTROL CSV をアップロード]**」オプションを選択します。
+1. Click **[!UICONTROL Add]** on the upper-right corner, and choose the option **[!UICONTROL Upload a CSV]**.
 
    ![](assets/upload-a-csv.png)
-   *CSVをアップロードしてユーザーを一括で追加*
+   *Upload a CSV to add users in bulk*
 
-1. アップロードする CSV は、以下に示すようなフィールドで構成されます。
+1. The CSV that you upload consists of the fields, as shown below:
 
    ![](assets/csv.png)
-   *CSVの構造*
+   *Structure of the CSV*
 
-   マスターCSVを保持し、マスターCSVに対してすべての追加および削除を実行する必要があります。 マスター CSV には、次のフィールドが含まれます。
+   You must maintain a master CSV and perform perform all additions and deletions on the master CSV. The master CSV contains the following fields:
 
-   * 名前&#42;
-   * 電子メール&#42;
-   * profile（プロファイル）
-   * マネージャー
+   * name &#42;
+   * email &#42;
+   * profile
+   * manager
 
-   (&#42;)必須フィールド。
+   (&#42;) Required field.
 
-1. 「**[!UICONTROL CSV をアップロード]**」オプションをクリックすると、以下のダイアログが表示されます。
+1. After you click the option **[!UICONTROL Upload a CSV]**, the following dialog displays.
 
    ![](assets/upload-a-csv-dialog.png)
-   *CSVダイアログをアップロード*
+   *Upload a CSV dialog*
 
-1. CSV を選択するか、ファイルをドラッグ＆ドロップします。ファイルを選択したら、データフィールドをCSVファイルのデータフィールドにマッピングします。 必要なドロップダウンをクリックして、適切なフィールドを選択します。
+1. Choose the CSV or drag-and-drop the file. After you've chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
 
    ![](assets/map-data-fields.png)
-   *フィールドをCSVにマップする*
+   *Map fields in CSV*
 
-1. ユーザーの読み込みを開始するには、「**[!UICONTROL 保存]**」をクリックします。確認メッセージが表示されます。
+1. To start importing the users, click **[!UICONTROL Save]**. You can see a confirmation message.
 
    ![](assets/save-csv.png)
-   *CSVを正常にアップロードするための確認メッセージ*
+   *Confirmation message for successful upload of the CSV*
 
-1. Adobe Learning Manager のアカウントに新たなユーザーが追加されました。新しいユーザーを選択するには、名前の横にあるチェックボックスを選択して、全員が選択されるようにします。
+1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
-   *新しいユーザーが追加されました*
+   *New users added*
 
 >[!NOTE]
 >
->詳細については、FAQ 「[ユーザーの一括追加](../add-users-in-bulk.md)」を参照してください。
+>For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
 >[!INFO]
 >
->このトレーニングでは、CSVを使用してユーザーを一括で追加する方法を説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>In this training, you will learn how to add users in bulk through a CSV.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
-トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## ユーザーの登録 {#registerauser}
+## Register a user {#registerauser}
 
-ユーザーを選択した状態で、右上隅にある「**[!UICONTROL アクション]**」をクリックし、「**[!UICONTROL 登録]**」をクリックします。
+With the user selected, click **[!UICONTROL Actions]** on the upper-right corner and click **[!UICONTROL Register]**.
 
-選択したユーザーにようこそ電子メールが届きます。学習者が既存の Adobe ID を持っている場合、このリンクをクリックできます。既存のAdobe IDをお持ちでない場合は、ようこそリンクをクリックしてAdobe IDを作成し、それをLearning Managerアカウントにリンクすることができます。
+The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-### ユーザーの管理
+### Manage users
 
-このトレーニングでは、役割の割り当てと削除、ようこそ電子メールの送信、ユーザーの削除と消去を行う方法について説明します。
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
-トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## 役割の割り当て {#assignarole}
+## Assign a role {#assignarole}
 
-Adobe Learning Manager アカウントに学習者を追加した後で役割を変更する場合は、画面右上の「アクション」をクリックします。「**[!UICONTROL 役割を割り当て]**」オプションを選択します。ここでは、学習者に作成者アクセス権または管理者アクセス権を付与するかどうかを決定できます。役割を割り当てると、この学習者はアカウントに対する作成者のアクセス権を持ち、モジュールの追加とコースの作成を行うことができます。
+After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **[!UICONTROL Assign Role]**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
-*ユーザーにロールを割り当てる*
+*Assign a role to a user*
 
-## 役割の削除 {#removearole}
+## Remove a role {#removearole}
 
-ユーザーから、作成者アクセス権または管理者アクセス権を削除することもできます。1 人以上の学習者を選択し、「**[!UICONTROL アクション]**」をクリックして「**[!UICONTROL 役割を削除]**」を選択します。オプション（例： **[!UICONTROL 作成者を削除]**）を選択すると、この学習者の作成者アクセス権が取り消されます。
+You can also remove Author or Admin access for the users. Select one or more learners, click **[!UICONTROL Actions]**, and select **[!UICONTROL Remove Role]**. Choose an option, for example, **[!UICONTROL Remove Author]**, and the author access gets revoked for this learner. 
 
 >[!NOTE]
 >
->システム内の誰かにマネージャーの役割を手動で割り当てることはできません。1 人以上の従業員がマネージャーの下に追加されると、自動的にマネージャーダッシュボードにアクセスできるようになります。
+>You cannot manually assign a Manager role to someone in the system. They automatically get access to the Manager dashboard when one or more employees are added under them.
 
-## ユーザーの削除 {#deleteauser}
+## Delete a user {#deleteauser}
 
-ユーザーを削除するには、「**[!UICONTROL アクション]**」をクリックし、「**[!UICONTROL ユーザーを削除]**」を選択します。確認ダイアログで、「**[!UICONTROL はい]**」をクリックすると学習者が削除されます。
+To delete a user, click **[!UICONTROL Actions]**, and choose **[!UICONTROL Delete User]**. On the confirmation dialog, click **[!UICONTROL Yes]**, and the learner gets deleted.
 
 ![](assets/delete-a-role.png)
-*ユーザーを削除するための確認メッセージ*
+*Confirmation message to delete a user*
 
-## ユーザーの編集 {#editauser}
+## Edit a user {#editauser}
 
-ユーザーのリストで、「ユーザー」を選択して「ユーザー」をクリックします。ユーザーの詳細で、**[!UICONTROL 編集]** (![](assets/edit-pen.png))ボタンをクリックします。 **[!UICONTROL ユーザーを編集]**&#x200B;ダイアログで必要な編集を行い、「**[!UICONTROL 保存]**」をクリックして変更内容を保存します。
+On the list of users, choose a user, and click the user. On the user details, click the **[!UICONTROL Edit]** ( ![](assets/edit-pen.png)) button. On the **[!UICONTROL Edit User]** dialog, make the necessary edits and to save the changes, click **[!UICONTROL Save]**.
 
 ![](assets/edit-user.png)
-*ユーザーの編集ダイアログ*
+*Edit User dialog*
 
-## アクティブフィールド
+## Active fields
 
-Adobe Learning Managerのアクティブフィールドはカスタマイズ可能なメタデータフィールドであり、ユーザー固有の情報を保存および管理するために使用されます。 これらのフィールドは、システム内の各ユーザーに関連付けられたキー属性または特性を定義するのに役立ちます。
+Active Fields in Adobe Learning Manager are customizable metadata fields used to store and manage user-specific information. These fields help define key attributes or characteristics associated with each user in the system.
 
-### ユーザー属性の管理
+### Manage user attributes
 
 >[!INFO]
 >
->このトレーニングでは、アクティブフィールドを追加、カスタマイズ、設定する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
+>In this training, you will learn how to add, customize, and configure Active Fields.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
-トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Adobe Learning Managerでは、ユーザー属性およびその値の大文字と小文字の区別が保持されます。 **例**&#x200B;では、大文字と小文字の区別が&#39;location&#39;に設定され、値が&#39;PARIS&#39;の場合、同様に保持されて表示されます。 問題が発生した場合、管理者は属性名と値を編集して、大文字と小文字の区別に関するエラーを修正できるようになりました。
+Adobe Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
-管理者は、**[!UICONTROL 管理者アプリ]** > **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]**&#x200B;にアクセスし、グループ名をクリックするとこの操作を実行できます。
+The Administrator can do this by visiting **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** and clicking on the group name.  
 
-管理者は、UIを使用して学習者に許可された属性値を追加および更新できます。
+An Admin can add and update allowed attribute values for a learner through UI.
 
-アクティブなフィールドの種類は、次のとおりです。
+Types of active fields:
 
-* グループ化可能：学習者は、値に基づいてグループ化できます。
-* 報告可能：アクティブなフィールドに基づいて、ユーザーグループのレポートが作成されます。
-* 書き出し可能：フィールドはユーザーグループのレポートにエクスポートされ、表示可能となります。
+* Groupable: Learners would get grouped on the basis of the Values
+* Reportable: Reporting user groups would be created based on the active fields
+* Exportable: The fields will be seen in exported in user group report.
 
-## セルフ登録リンクの作成 {#createaselfregistrationlink}
+## Create a self-registration link {#createaselfregistrationlink}
 
-組織内の従業員が管理者のサポートを受けずに、Adobe Learning manager アカウントの学習者として自身を登録できるようにすることも可能です。管理者はセルフ登録リンクを作成してAdobeと共有し、従業員の資格情報を使用してLearning Managerに登録できます。
+You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Learning Manager using their Adobe credentials.
 
-ページの右上隅の[**[!UICONTROL 追加]**]をクリックし、[**[!UICONTROL セルフ登録]**]を選択します。
+On the upper-right corner of the page, click **[!UICONTROL Add]**, and select **[!UICONTROL Self-Registration]**.
 
 
 ![](assets/self-registration.png)
-*学習者としてセルフ登録するためのリンクを作成する*
+*Create link to self-register as learner*
 
-**[!UICONTROL セルフ登録プロファイルを追加]**&#x200B;ダイアログが表示されます。このプロファイルに名前を付けます。次に、マネージャーの名前を追加します。マネージャーはLearning Managerに登録された学習者である必要があります。
+The **[!UICONTROL Add Self-Registration Profile]** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered learner in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
-*セルフ登録用のプロファイルを追加する*
+*Add profile for self-registration*
 
-「**[!UICONTROL 保存]**」をクリックすると、学習者と共有できる URL が生成されます。学習者は URL をクリックしてセルフ登録を行うことができます。
+After you click **[!UICONTROL Save]**, a URL gets generated, which you can share with the learners, so that they can click the URL and self-register themselves.
 
-## 社外学習者の登録 {#enrollexternallearners}
+## Enroll external learners {#enrollexternallearners}
 
-Adobe Learning manager では、アカウントへのアクセスが制限されている社外パートナーまたは代理店向けの登録リンクを作成し、学習教材を提供することもできます。
+In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
-社内学習者の登録と社外学習者の登録にはいくつかの違いがあります。
+There are a few differences between internal and external registrations.
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>社内ユーザー</b></p></td>
+    <p><b>Internal users</b></p></td>
    <td>
-    <p><b>社外ユーザー</b></p></td>
+    <p><b>External users</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>Adobe ID または SSO 資格情報を使用してログインします。</p></td>
+    <p>Log in using Adobe ID or SSO credentials.</p></td>
    <td>
-    <p>任意の電子メール ID を使用してログインします。</p></td>
+    <p>Log in using any email ID.</p></td>
   </tr>
   <tr>
    <td>
-    <p>ゲーミフィケーションが使用できます。</p></td>
+    <p>Gamification is available.</p></td>
    <td>
-    <p>ゲーミフィケーションを利用できます。 管理者は、ゲーミフィケーション設定で社外学習者のゲーミフィケーションを有効にする必要があります。</p></td>
+    <p>Gamification is available. The admin must enable gamification for external learners in the Gamification settings.</p></td>
   </tr>
   <tr>
    <td>
-    <p>学習者の階層が使用できます。</p></td>
+    <p>Learner hierarchies are available.</p></td>
    <td>
-    <p>学習者の階層は使用できません。</p></td>
+    <p>Learner hierarchies are not available.</p></td>
   </tr>
  </tbody>
 </table>
 
-社外ユーザーを登録するには、以下の手順を実行します。
+To enroll external users, follow the steps below:
 
-1. 左側のナビゲーションペインで、「**[!UICONTROL 社外]**」をクリックします。
+1. In the left navigation pane, click **[!UICONTROL External]**.
 
    ![](assets/click-external.png)
+   
+   *Enroll external users*
 
-   *社外ユーザーの登録*
+1. On the upper-right corner of the page, click **[!UICONTROL Add]**.
 
-1. ページの右上隅にある「**[!UICONTROL 追加]**」をクリックします。
-
-1. **社外登録プロファイルの追加**&#x200B;ダイアログで、以下の詳細を追加します。
+1. On the **Add External Registration Profile** dialog, add the following details:
 
 
-   * パートナー組織のプロファイル名。
-   * パートナー組織のマネージャーの電子メールアドレス。
-   * このパートナーの社外登録の人数制限です。
-   * 有効期限：このグループへの新しい登録の許可を停止する期限を設定します。 有効期限後は、既存の登録ユーザーのみがこのトレーニングにアクセスできます。
+   * The profile name of the partner organization.
+   * The email address of the manager of the partner organization.
+   * Seat limit for external enrollment for this partner.
+   * Expiry date to set a deadline to stop allowing new registrations to this group. After the Expiry date, only the existing registered users can access this training.
 
    ![](assets/map-data-fields-2.png)
 
-   *社外登録プロファイルの追加ダイアログ*
+   *Add External Registration Profile dialog*
 
-   * **[!UICONTROL 詳細設定]**&#x200B;セクションで、次のように入力します。
+   * In the **[!UICONTROL Advanced Settings]** section, enter the following:
 
-      * **[!UICONTROL ログイン要件]:**&#x200B;日数で値を指定してください。 上記の期間ログインしなかった学習者は削除されます。
-      * **[!UICONTROL 許可されたドメイン]:**&#x200B;許可されたドメイン名をコンマで区切ったリストです。
-      * **[!UICONTROL 電子メールの確認が必要]:**&#x200B;学習者が電子メールの確認を必須にする場合は、このオプションを選択します。
+     * **[!UICONTROL Login Requirement]:** Specify a value in days. Learners get deleted if they do not login for the above duration.
+     * **[!UICONTROL Allowed Domains]:** A comma-separated list of whitelisted email domain names.
+     * **[!UICONTROL Email Verification Required]:** Select this option to make email verification mandatory for a learner.
 
    ![](assets/email-verificationrequired.png)
 
-   *[詳細設定]セクションに詳細を入力します*
+   *Enter the details in the Advanced Settings section* 
 
-1. 「**[!UICONTROL 保存]**」をクリックすると、次の確認メッセージが表示されます。社外パートナーと URL を共有する必要があります。
+1. After you click **[!UICONTROL Save]**, you can see the following confirmation message. You must share the URL with your external partner.
 
    ![](assets/save-and-share-urlwithexternalusers.png)
 
-## 社外プロファイルの有効化 {#enableanexternalprofile}
+## Enable an external profile {#enableanexternalprofile}
 
-社外プロファイルを作成したら、そのステータスを有効にする必要があります。社外プロファイルのリストから、必要なプロファイルを選択し、ステータスボタンを切り替えます。
+After an external profile has been created, you must enable its status. From the list of external profiles, choose the required profile, and toggle the status button.
 
 ![](assets/choose-required-profiles.png)
-*社外プロファイルを有効にする*
+*Enable an external profile*
 
-これにより、「社外登録」リンクが有効になります。ようこそ電子メールがパートナーに自動的に送信されます。「URL をコピー」アイコン（）をクリックし、リンクをコピーして共有したり、「メール」アイコン（）をクリックしてパートナー組織にようこそ電子メールを再送したりすることができます。
+This enables the External Enrollment link. A welcome email is automatically be sent to the partner. You can also copy the link and share with them by clicking the Copy URL icon (), or you can resend the welcome email to the partner organization by clicking the Mail icon ().
 
-パートナーマネージャーは、PrLearning Managerでトレーニングを受ける必要がある従業員とリンクを共有できます。 従業員がリンクをクリックして、Learning Manager でプロファイルを作成するための詳細を入力すると、セルフ登録を行うことができます。これらのユーザーは、社内従業員と一緒の「学習者」タブには表示されません。「**[!UICONTROL 社外学習者]**」タブの下に名前が表示されます。
+The partner manager can share the link with the employees who must take the training in PrLearning Managerime. When they click the link, they can self-enroll themselves after filling out some details to create their profile on Learning Manager. These users will not appear on the Learners tab along with the internal employees. You can see their names under the **[!UICONTROL External Learners]** tab.
 
-## 社外プロファイルの一時停止 {#pause}
+## Pause an external profile {#pause}
 
-社外ユーザーグループをLearning Managerに追加した後で、社外ユーザーの登録プロセスを一時停止することもできます。 一時停止すると、社外ユーザーの登録プロセスはブロックされます。 ただし、このプロセスは、ユーザーがまだ招待を受け入れて登録していない場合にのみ機能します。
+After adding an external user group to Learning Manager, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
 
-社外ユーザーグループを一時停止するには、一つ以上のグループを選択し、ページの右上隅にある「**[!UICONTROL アクション]**」をクリックして、「**[!UICONTROL 一時停止]**」クリックします。
+To pause the external user groups, choose a group or groups, click **[!UICONTROL Actions]** from the upper-right corner of the page, and click **[!UICONTROL Pause]**.
 
-## 社外プロファイルの再開 {#resumeanexternalprofile}
+## Resume an external profile {#resumeanexternalprofile}
 
-社外パートナーの一時停止状態をいつでも取り消して、通常のサービスを再開できます。ページの右上隅にある&#x200B;**[!UICONTROL アクション]**&#x200B;をクリックし、**[!UICONTROL 再開]**&#x200B;を選択します。
+At any time, you can always revoke the paused state of an external partner and resume normal services. Click **[!UICONTROL Actions]** at the upper-right corner of the page and select **[!UICONTROL Resume]**.
 
-社外ユーザーには次の状態が適用されます。
+The following states are applicable for external users:
 
-* **非アクティブ状態** – この状態では、外部ユーザーの登録が期限切れです。 管理者は、ユーザー追加のワークフローで社外ユーザーを追加するときに、社外ユーザーの有効期限を設定します。
-* **アクティブ状態** - この状態の場合は、社外ユーザーが Learning manager アプリケーションに登録し、アプリケーションにログインできます。
-* **一時停止状態** - この状態では、社外ユーザーの登録プロセスはブロックされます。ただし、既存のユーザーは引き続きログインできます。
+* **Inactive state** - In this state, the external users' registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
+* **Active state** - In this state, the external users can register to the Learning Manager application, and log in to the application.
+* **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to log in.
 
-## 使用されている座席数の確認 {#checkusedseats}
+## Check used seats {#checkusedseats}
 
-社外プロファイルのリストで、「**[!UICONTROL 使用されている席]**」をクリックします。追加されたパートナー組織の学習者の数を表示できます。
+On the list of external profiles, click **[!UICONTROL Seats Used]**. You can view the number of learners in the partner organization who have been added.
 
 ![](assets/seats-used.png)
-*使用席の確認*
+*Check used seats*
 
-## ユーザーの削除 {#Deleteauser-1}
+## Delete a user {#Deleteauser-1}
 
-ユーザーを選択し、右上隅から、**[!UICONTROL アクション]**/**[!UICONTROL ユーザーの削除]**&#x200B;をクリックします。
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Delete User]**.
 
-## プロファイルを変更 {#changeprofile}
+## Change profile {#changeprofile}
 
-ユーザーを別の社外プロファイルに移動するには、ユーザーを選択し、右上隅から、**[!UICONTROL アクション]**/**[!UICONTROL プロファイルの変更]**&#x200B;をクリックします。 プロファイルのリストからプロファイルを選択し、「**[!UICONTROL 変更]**」をクリックします。
+To move a user to another external profile, choose a user, from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**. From the list of profiles, choose a profile, and click **[!UICONTROL Change]**.
 
-## 役割の割り当て {#Assignarole-1}
+## Assign a role {#Assignarole-1}
 
-ユーザーを選択し、右上隅から、**[!UICONTROL アクション]**/**[!UICONTROL 役割の割り当て]**/**作成`<role>`**&#x200B;をクリックします。 ユーザーは新しい役割を取得します。
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **Make `<role>`**. The user gets a new role.
 
-## 役割の削除 {#Removearole-1}
+## Remove a role {#Removearole-1}
 
-ユーザーを選択し、右上隅から、**[!UICONTROL アクション]**/**[!UICONTROL ロールの削除]**/**`<role>`**&#x200B;をクリックします。 選択した役割が、ユーザーに割り当てられた役割のリストから削除されます。
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
 
 >[!NOTE]
 >
->新しい役割を割り当てても、カスタムユーザーグループには影響しません。 ただし、すべての管理者、すべての作成者、および同様の役割ベースのグループなどの自動生成ユーザーグループに影響します。
+>Assigning a new role will not affect custom user groups. However, it will impact auto-generated user groups such as All Admins, All Authors, and similar role-based groups.
 
-## ユーザーグループの作成 {#createusergroups}
+## Create user groups {#createusergroups}
 
-ユーザーグループとは、カテゴリに関連付けられたユーザーのセットです。ユーザーグループは、管理者が属性に基づいて組織内の学習者を選択し、学習コンテンツを割り当てるのに役立ちます。また、これらのユーザーグループを使用すると、管理者はカスタマイズされたロゴとカタログを学習者に割り当て、進捗状況に関するカスタマイズされたレポートを表示できます。
+A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
 
-ユーザーグループにアクセスするには、左側のナビゲーションペインで「**[!UICONTROL ユーザーグループ]**」をクリックします。
+To access User Groups, on the left navigation pane, click **[!UICONTROL User Groups]**.
 
 ![](assets/user-groups.png)
-*ユーザーグループの作成*
+*Create user groups*
 
-### ユーザーグループの管理
+### Manage user groups
 
 >[!INFO]
 >
->このトレーニングでは、名前、電子メールID、自動生成された複数のユーザーグループの結合方法を使用して、ユーザーグループを作成します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
-トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Adobe Learning Manager には、カスタムおよび自動生成の 2 種類のグループがあります。アカウントに学習者を追加すると、いくつかのグループが共通のプロパティに基づいて自動的に作成されます。
+There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
-自動的に作成されたグループを表示するには、「**[!UICONTROL 自動生成]**」タブをクリックします。
+To see the automatically created groups, click the tab **[!UICONTROL Auto-generated]**.
 
 ![](assets/auto-generated.png)
-*自動生成されたグループを表示する*
+*View Auto-generated groups*
 
-すべての社内ユーザー、すべてのマネージャー、コストセンター、部門、およびマネージャーのチームに基づくグループなど、様々なグループがあることがわかります。
+You can see that there are different groups, like All Internal Users, All Managers, groups based on the Cost Center, based on the department, and based on the teams of the managers.
 
-自動生成グループに加えて、カスタムグループを作成できます。新しいカスタムグループを追加するには、右上隅の[**[!UICONTROL 追加]**]をクリックします。
+In addition to Auto-generated groups, you can create Custom groups. To add a new Custom Group, on the upper-right corner, click **[!UICONTROL Add]**. 
 
-1. グループの名前と説明を入力します。
-1. 検索フィールドにユーザー名またはプロファイルを入力し、ドロップダウンリストから選択してユーザーを追加します。
+1. Enter the name, and description for the group.
+1. Enter user name or profile in search-as-you-type field and select from the drop-down list, to add users.
 
-1. 他の学習者を追加するには、**[!UICONTROL 「他のユーザーを追加」]**&#x200B;をクリックします。
+1. To add more learners, click **[!UICONTROL Add More Users]**.
 
-1. ユーザーグループを作成するには、「**[!UICONTROL 保存]**」をクリックします。
+1. To create the user group, click **[!UICONTROL Save]**.
 
-これで、このカスタムグループが作成され、プロファイルに追加されました。作成するユーザーグループは、本質的に動的です。同じ属性を持つ新しいユーザーが追加された場合、自動的にユーザーグループに追加されます。
+This Custom Group is now created and added to the profile. The User Groups that you create are dynamic in nature. If new users are added with similar attributes, they're automatically added to the User Group.
 
-ユーザーが属するグループのリストを表示するには、**[!UICONTROL ユーザー]**/**[!UICONTROL ユーザーグループ]**&#x200B;に移動し、ユーザー名を検索して選択します。 これにより、ユーザーが所属するすべてのグループが表示されます。
+To view the list of groups a user belongs to, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, search for the user's name, and select it. This will display all the groups the user is part of.
 
 ![](assets/list-of-group.png)
 
-### ユーザーグループ内のユーザーのリストのダウンロード
+### Download the list of users in a user group
 
-特定のユーザーグループのユーザーのリストをダウンロードするには、**[!UICONTROL ユーザー]**/**[!UICONTROL ユーザーグループ]**&#x200B;に移動し、グループの横にある&#x200B;**[!UICONTROL ダウンロードアイコン]**&#x200B;を選択します。 これにより、そのグループ内のユーザーのリストを含むCSVファイルが生成されます。
+To download the list of users in a specific user group, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, select the **[!UICONTROL Download icon]** next to the group. This will generate a CSV file containing the list of users in that group.
 
-![](assets/download-list-of-user.png)
+![](assets/download-list-of-user.png) 
 
-## ユーザーグループの除外
+## Exclusion of user groups
 
-大規模なユーザーグループから一部のユーザーを除外する場合があります。 これは、特定のユーザーグループを学習プランを介してトレーニングに登録したり、カタログを正しく表示したりするために必要です。 このリリースのLearning Managerでは、カスタムユーザーグループの作成時に学習者またはユーザーグループを除外できます。 ユーザーグループを追加ダイアログの「学習者を除外」セクションから行えます。
+At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
 ![](assets/exclude-user-groups.png)
-*ユーザーグループを除外する*
+*Exclude user groups*
 
-例えば、「場所＝カリフォルニアに属するユーザーのうち、ストア 5（カリフォルニア州に所在）を除く」すべてのユーザーが登録されるように、学習プランを設定する場合などです。
+For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. 
 
-## 詳細設定 {#advancedsettings}
+## Advanced settings {#advancedsettings}
 
-### データソース {#datasources}
+### Data Sources {#datasources}
 
-ユーザーや学習データを組織のデータベースからLearning Managerアプリケーションに読み込む/同期する場合に、この機能を使用できます。 この同期の頻度を設定することもできます。
+You can use this feature when you want to import/sync the users or learning data from your organization's database in to the Learning Manager application. You can also set up the frequency of this sync. 
 
 
-[**[!UICONTROL 詳細]**]セクションの下の左側のウィンドウで[**[!UICONTROL データソース]**]をクリックします。
+Click **[!UICONTROL Data Sources]** on the left pane under **[!UICONTROL Advanced]** section. 
 
 
 ![](assets/data-sources-add-users.png)
 
-*ユーザーをインポートまたは同期するデータソース*
+*Data sources to iport or sync users*
 
-[**[!UICONTROL ソース]**]ドロップダウンからデータソースの種類を選択し、更新の頻度を選択します。直ちに同期する必要がある場合は[**[!UICONTROL 今すぐ同期]**]をクリックするか、[**[!UICONTROL 保存]]をクリックします。**&#x200B;データソースの種類は、内部ユーザーのSFDC、FTPなどです。
+Choose the data source type from the **[!UICONTROL Source]** drop-down, select the update frequency, and click **[!UICONTROL Sync now]** if you need to sync immediately or click **[!UICONTROL Save].** Data source types are SFDC, FTP, and so on for internal users. 
 
-複数のデータソースを追加できます。
+You can add multiple data sources. 
 
-### アクティブフィールド {#activefields}
+### Active Fields {#activefields}
 
-この機能により、管理者は、ユーザー登録時に提供されたフィールドに加えて、さらにアクティブフィールドを追加できます。
+This feature enables administrators to add more active fields in addition to what has been provided during user registration. 
 
-ユーザーページ内で利用可能な&#x200B;**[!UICONTROL アクティブフィールド]**&#x200B;をクリックします。 学習者は、カスタム値で指定された値からのみ選択できます。
+Click **[!UICONTROL Active Fields]** available inside users page. Learners can only choose from the values given in custom values.
 
 ![](assets/active-fields.png)
-*アクティブなフィールド*
+*Active fields*
 
-### フィールドの設定 {#configurefields}
+### Configure Fields {#configurefields}
 
-**社内ユーザー**
+**Internal users**
 
-社内ユーザーのユーザーフィールドにカスタム値を追加できます。
+You can add custom value for user fields for internal users.
 
-カスタム値を追加するには、次の手順に従います。
+To add  custom values, follow these steps:
 
-1. 内部ユーザーの&#x200B;**[!UICONTROL 値の変更]**&#x200B;をクリックします。
+1. Click  **[!UICONTROL Modify Values]** for an Internal user. 
 
    ![](assets/modify-values.png)
-   *内部ユーザーの値を変更する*
+   *Modify values for internal users*
 
-1. [**ユーザー設定フィールドの値**]ダイアログボックスが表示されます。
+1. The **Values in Custom field** dialog box appears.
 
    ![](assets/values-in-customfields.png)
-   *[ユーザー設定フィールドの値]ダイアログボックス*
+   *Values in Custom Fields dialog box*
 
-1. 「**[!UICONTROL フィールドを選択]**」ドロップダウンメニューから追加する値を選択します。
-1. 「**[!UICONTROL 新しい値]**」フィールドに新しい値を入力します。
-1. **[!UICONTROL 「完了」]**&#x200B;をクリックします。
-1. 右上隅にある「**[!UICONTROL 保存]**&#x200B;をクリックして変更内容を保存します。
+1. Select the value to add from the **[!UICONTROL Select Field]** drop-down menu.
+1. Enter new values in the **[!UICONTROL New Value]** field.
+1. Click **[!UICONTROL Done]**. 
+1. Click Save on the top right corner to **[!UICONTROL Save]** changes.
 
-**社外ユーザー**
+**External users**
 
-社内ユーザーの場合と同様のカスタム値を追加します。
+Add custom values similar to that for internal users.
 
 ![](assets/modify-values-forexternalusers.png)
-*社外ユーザーの値を変更する*
+*Modify values for external users*
 
-### 設定 {#settings}
+### Settings {#settings}
 
-**ユーザーディスプレイ**
+**User Display**
 
-オプション&#x200B;**「学習者のログイン画面で未入力のフィールドのみを表示」**&#x200B;が有効になっている場合、ユーザーはログイン時に空白のフィールドのみが表示されます。
+If the option **Show only unfilled fields on Learner login** is enabled, a user only sees the blank fields upon login.
 
 ![](assets/settings-tab.png)
-*未入力のフィールドを表示する*
+*Show unfilled fields*
 
-このオプションを使用すると、管理者は、入力後のフィールドの表示または非表示を決定できます。
+Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
-## レポートのアクティブフィールドの制限 {#restrictactivefields}
+## Restrict Active Fields in reports {#restrictactivefields}
 
-Learning Manager 27.7では、アクティブフィールドに対して、**[!UICONTROL 報告可能]**&#x200B;と&#x200B;**[!UICONTROL 書き出し可能]**&#x200B;という2つの新しいオプションが導入されました。
+Learning Manager 27.7 introduces two new options- **[!UICONTROL Reportable]** and **[!UICONTROL Exportable]**, for Active Fields.
 
 ![](assets/options-in-activefields.png)
-*アクティブなフィールドのオプション*
+*Options in Active Fields*
 
-CSV フィールドと手動で追加されたフィールドの場合、「**[!UICONTROL 報告可能]**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
+For CSV fields and manually added fields, if an Active Field is marked as **[!UICONTROL Reportable]**, the Active Field becomes searchable in a filter inside a dashboard report.
 
 ![](assets/filters-in-a-dashboardreport.png)
-*ダッシュボードレポートのフィルター*
+*Filters in a dashboard report*
 
-「**[!UICONTROL 書き出し可能]**」としてマーキングされているアクティブフィールドの場合、Excel ファイルのダウンロード時にそのアクティブフィールドが Excel ファイル内に表示されます。
+If an Active Field is marked as **[!UICONTROL Exportable]**, then the Active Field appears in the Excel file upon downloading any Excel report.
 
-これらのオプションは、内部のアクティブフィールドと外部のアクティブフィールドの両方で表示されます。
+These options appear for both internal and external Active Fields.
 
-削除できるのは、カスタムのアクティブフィールドのみです。
+You can only delete a custom Active Field.
 
-## ユーザーディスプレイ
+## User Display
 
-学習者に対して、「プロファイルを完成させる」ページ全体を非表示にすることが可能です。 学習者がログインしても、ページは表示されません。
+You can hide the entire 'Complete your profile' page from the learners. The page will not pop up once the learner logs in.
 
-既存のデフォルトの動作は変更されません。 このオプション機能を管理者が使用できるようになりました。
+Note that the existing default behavior does not change. This is an optional capability now available to Administrators. 
 
-以下のオプションを有効にします。
+Enable the options below:
 
 ![](assets/user-display.png)
-*ユーザーディスプレイセクション*
+*User Display section*
 
-## FTPコネクタおよびBoxコネクタによる手動CSVフィールドのサポート {#import-connector}
+## Support for manual CSV fields by FTP and Box connectors {#import-connector}
 
-多くの場合、学習者がLearning Managerにログインしたときに、アクティブなフィールドを手動で入力します。 これは、現在のLearning Managerでは、ユーザーがCSVを手動で読み込む場合に可能です。
+Often, users want Active fields to be manually provided when a learner logs in to Learning Manager. This is possible in Learning Manager at present, when the user imports a CSV manually.
 
-CSVには、一部のアクティブフィールドを含めることはできません。 アップロードされたCSVで更新されていないすべてのアクティブフィールドについては、ユーザーがアクティブフィールドのデータを入力する必要があります。
+The CSV may not contain all the Active fields. For all the Active fields that are not updated in the uploaded CSV, the user needs to enter the data for such Active fields.
 
-現在、すべてのアクティブなフィールドは、ソースCSVからいくつかのフィールドにマッピングする必要があります。
+Presently, all Active fields must be mapped to some field from the source CSV.
 
-ユーザーが、CSVで指定されているフィールドにアクティブフィールドをマッピングしたくない場合があります。 このような場合、ユーザーはActiveフィールドを値&#x200B;**[!UICONTROL DontImportFromSource]**&#x200B;にマップできます。 FTPコネクタおよびBoxコネクタからユーザーを読み込む場合は、ドロップダウンリストからこの値を選択します。
+It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **[!UICONTROL DontImportFromSource]**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-## カスタム役割 {#customroles}
+## Custom Roles {#customroles}
 
-ユーザー情報の一部として任意のフィールドを追加し、[**[!UICONTROL 保存]**]をクリックします。 フィールドを追加した後、**[!UICONTROL ユーザーの編集]**&#x200B;ダイアログでフィールドの可用性をクロスチェックすることもできます。
+Add any field of your choice as part of your user information and click **[!UICONTROL Save]**. After adding the fields, you can also cross check the availabilities of the fields in the **[!UICONTROL Edit users]** dialog. 
 
 
-フィールドを追加すると、以下のスナップショットで説明されているように、チェックマークが付いたフィールドがデータソースまたは CSV から取得されていることがわかります。管理者は、フィールドを有効または無効にすることで、これらのソースフィールドを編集できます。
+After adding the fields, you can notice that the fields marked with tick mark are sourced from data source or CSV as mentioned in the below snapshot. Administrator can edit these sourced fields by enabling or disabling the fields. 
 
-**Learning Managerのアクティブフィールドの値**
+**Values for active fields in Learning Manager**
 
-アクティブフィールドの値は、次の方法で取得されます。
+The values for active fields are fetched in the following ways: 
 
-1. Learning manager アプリケーションでは、アカウントに関連付けられたデータソースからメタデータがインポートされます。
-1. メタデータは手動で読み込みされた CSV ファイルからキャプチャされます。
-1. 学習者はログイン時にメタデータを書き込みます。
-1. 管理者がユーザーのデータを入力します。
+1. Learning Manager application imports metadata from data sources associated with your account. 
+1. Metadata captured from the manually imported CSV file. 
+1. Learners fill up metadata when they log in
+1. Administrator enters data for the users. 
 
 >[!NOTE]
 >
->Learning manager アプリケーションでは、これらのメタデータからユーザーグループが自動で作成されます。
+>Learning Manager application creates user groups automatically, from these metadata. 
 
-**カスタム値の追加**
+**Add custom value**
 
-社内および社外ユーザーフィールドのユーザーフィールドにカスタム値を追加できます。
+You can add custom value for user fields in the Internal and External user fields.
 
-カスタム値を追加するには、次の手順に従います。
+To add  custom values, follow these steps:
 
-カスタムフィールドは追加および削除でき、すべてのユーザーに適用できます。CSV フィールドは有効または無効にすることができます。アクティブフィールドで変更を行った後に CSV をアップロードした場合にのみ有効になります。すべての社内アクティブフィールドは、すべてのタイプの社内ユーザーに適用することができます。社外フィールドは社外ユーザーにのみ適用することができます。カスタムフィールドが CSV に存在する場合、次のアップロードで自動的に CSV フィールドに変換され、有効になります。
+Custom fields can be added and deleted, they are applicable to all users. CSV fields can be enabled or disabled, they come into effect only when you upload CSV after making the modifications in Active fields. All internal active fields are applicable to all types of Internal users. External fields are applicable only to external users. If a custom field is present in CSV, on next upload it gets converted to a CSV field automatically and it is enabled. 
 
-## CSV フィールドの値 {#valuesforcsvfields}
+## Values for CSV fields {#valuesforcsvfields}
 
-「**[!UICONTROL 選択を制限]**」チェックボックスが有効になっている場合、ユーザーは CSV フィールドの定義済みフィールドからのみ選択できます。
+Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
 ![](assets/value-field-for-csv.png)
-*選択を制限するチェックボックス*
+*Restrict selection check-box*
 
-## ログの読み込み {#importlogs}
+## Import Logs {#importlogs}
 
-このスペースでは、一括読み込み機能を使用して管理者が追加したユーザーの CSV 読み込み履歴を表示できます。ページの右上隅にある&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックして、CSVアップロード機能を使用してユーザーを追加することもできます。
+In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **[!UICONTROL Add]** at the upper-right corner of the page to add users using CSV upload feature. 
 
-## 複数値のアクティブフィールド
+## Multi-valued Active Fields
 
-この機能を使用すると、アクティブなフィールドに複数のフィールドを設定できます。 アカウントには、最大 3 つの複数値アクティブフィールドを設定できます。 複数値を持つアクティブフィールドは、社外ユーザーと社内ユーザーの両方で使用できます。
+With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
 
-アクティブなフィールドを複数値としてマークすると、単一値に戻すことはできません。 これを逆にすることもできません。
+Once you mark an active field as multi-valued, you cannot convert it back to single valued. This is irreversible.
 
-既存の単一値フィールドを複数値フィールドとしてマークすることはできません。
+An existing single valued field cannot be marked as multi-valued field.
 
-複数値を持つアクティブフィールドを作成するには、次の手順に従います。
+To create a multi-valued active field, follow the steps below:
 
-1. アクティブフィールドを追加します。
+1. Add an active field.
 
-   ![アクティブなフィールドを追加する](assets/add-active-field.png)
-   *アクティブなフィールドを追加する*
+   ![Add an active field](assets/add-active-field.png)
+   *Add an active field*
 
-1. 「追加」をクリックします。
-1. 「設定」タブで、新しいフィールドを複数値としてマークします。
+1. Click Add.
+1. In the Settings tab, mark the new field as multi-valued.
 
-   ![複数値としてマーク](assets/mark-multi-valued.png)
-   *複数値としてマーク*
+   ![Mark as multi-valued](assets/mark-multi-valued.png)
+   *Mark as multi-valued*
 
-   別のチェックボックスが表示されています。**[!UICONTROL 設定可能な学習者]**&#x200B;これを無効にすると、学習者は「プロファイル」ページでフィールドを表示できなくなります。
+   There is another checkbox, **[!UICONTROL Learner Configurable]**, which when disabled, the learner will not be able to see the field on the Profile page.
 
-1. CSVを使用するか、「値の変更」をクリックして、値を追加します。
+1. Add the values using a CSV or by clicking Modify Values.
 
-   ![値の追加](assets/add-values.png)
-   *値の追加*
+   ![Add values](assets/add-values.png)
+   *Add values*
 
-1. [!UICONTROL **「完了」**]&#x200B;をクリックします。
+1. Click [!UICONTROL **Done**].
 
 >[!NOTE]
 >
->ユーザーグループが作成され、フィールドに値が入力されると、複数の値を単一の値に変換、またその逆に変換することもできません。
+>Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
 
-### CSV を通じて複数値のアクティブフィールドを追加
+### Add multi-valued active field via CSV
 
-以下の手順を実行します。
+Follow the steps below:
 
-1. 新しいアクティブフィールドを列（コンマ区切りまたは単一値）として含む CSV を作成します。
-1. CSV をインポートします。
-1. 「カスタムフィールドの値」ダイアログで、フィールドを複数値としてマークします。
-1. CSV を再度インポートします。
+1. Create a CSV with the new active fields as columns (comma-separated or single values).
+1. Import the CSV.
+1. Mark the fields as multi-valued in the Values in Custom Fields dialog.
+1. Import the CSV again.
 
-CSV には、複数値としてマークされたアクティブフィールドと同じ名前の列を含めなければなりません。
+The CSV must have a column with the same name as that of an active field that was marked as multi-valued.
 
-CSV には次のフィールドが含まれます。
+The CSV contains the fields:
 
-* **[!UICONTROL ユーザー]**:ロールとして作成されたユーザーグループ。
-* **[!UICONTROL ロール]**：値を持つ複数値のアクティブフィールドです。
+* **[!UICONTROL User]**: User groups created as roles.
+* **[!UICONTROL Roles]**: Multi-valued active field with values.
 
-CSV が新たな値または削除された値で再アップロードされると、アクティブフィールドおよびグループもそれに応じて更新されます。
+If the CSV is re-uploaded with new values or deleted values, the active fields and groups also get updated accordingly.
 
-### レポート
+### Reports
 
-すべてのレポートには、複数値のアクティブフィールドとその値が含まれます。
+All reports include the multi-valued active fields and their values.
 
-管理者は、自動生成されたアクティブフィールドを追加し、ユーザーアクティビティおよびトレーニングレポートを設定することができます。
+The Administrator can add auto-generated active fields, and configure user activity and training reports.
 
-学習者のトランスクリプトレポートには、すべてのアクティブフィールドとコンマ区切りの値が含まれます。 管理者はそれに応じてデータを適切にフィルタリングすることができます。
+The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
 
-## ユーザーグループレポート
+## User group report
 
-Adobe Learning Managerの新しいユーザーグループレポートを使用すると、管理者が離脱したときに管理されていないグループを確認できるため、ユーザーグループを管理しやすくなります。 管理者は、**[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]**&#x200B;セクションのレポートにアクセスできます。 各グループについて、次のような詳細情報が提供されます。
+Adobe Learning Manager's new User Group Report helps manage user groups by providing visibility into groups left unmanaged when admins left. Admins can access the reports under the **[!UICONTROL Users]** > **[!UICONTROL User Group]** section. It provides detailed information about each group, including:
 
-* ユーザーグループタイプ
-* グループ名
-* 説明
-* 作成者（名前）
-* 作成者（電子メール）
-* 作成日（UTCタイムゾーン）
-* ユーザー数
+* User group type
+* Group name
+* Description
+* Created by (Name)
+* Created by (Email)
+* Created on (UTC Timezone)
+* Number of Users
 
-レポートをダウンロードするには、次の手順に従います。
+To download the report, follow these steps:
 
-1. **[!UICONTROL 管理者]**&#x200B;としてログインします。
-2. **[!UICONTROL ユーザー]** > **[!UICONTROL ユーザーグループ]**&#x200B;を選択します。
-3. **[!UICONTROL アクション]**/**[!UICONTROL ユーザーグループレポートのダウンロード]**&#x200B;を選択します。
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
+3. Select **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
 
-![](assets/download-user-group-report.png)
-_ユーザーグループレポートのダウンロード_
+![](assets/download-user-group-report.png) 
+_Download the User Group report_
 
-## よくある質問 {#faq}
+## Frequently Asked Questions {#faq}
 
-+++Learning Managerでユーザーを登録する方法
++++How to register users in Learning Manager?
 
-ユーザーを追加し、そのユーザーに役割を割り当てた後、以下の手順を実行してユーザーを登録できます。
+After adding a user and assigning a role to the user, you can register the user by performing the steps below:
 
-1. ユーザーを選択した状態で、右上隅の&#x200B;**[!UICONTROL アクション]**&#x200B;をクリックし、**[!UICONTROL 登録]**&#x200B;をクリックします。
+1. With the user or users selected, click **[!UICONTROL Actions]** on the upper-right corner, and click **[!UICONTROL Register]**.
 
-1. ポップアップウィンドウで、「**[!UICONTROL はい]**」をクリックします。
+1. On the pop-up window, click **[!UICONTROL Yes]**.
 
-選択したユーザーに、ようこそ電子メールが届きます。 学習者が既存の Adobe ID を持っている場合、このリンクをクリックできます。既存のAdobe IDをお持ちでない場合は、ようこそリンクをクリックしてAdobe IDを作成し、それをLearning Managerアカウントにリンクすることができます。
+The selected user(s) receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-Learning Managerは学習者のアカウントを確認できるため、学習者は電子メールに記載されたこれらのリンクのいずれかをクリックする必要があります。
+Clicking one of these links in the email is mandatory for the learners as it helps Learning Manager to verify the learner's account.
 
 +++
 
-+++ユーザーデータを編集する方法
++++How to edit user data?
 
-ユーザーを編集するには、以下の手順を実行します。
+To edit a user, follow the steps below:
 
-1. ユーザーのリストで、編集対象のユーザーをクリックします。
-1. 下の図のように、鉛筆アイコンをクリックします。
+1. In the list of users, click the user for who you want to edit the data.
+1. Click the pencil icon, as shown below.
 
 ![](assets/edit-user-data.png)
 
-**ユーザーを編集**&#x200B;ダイアログで、対応するフィールドを更新します。 変更を保存するには、「**[!UICONTROL 保存]**」をクリックします。
+In the **Edit User** dialog, update the fields accordingly. To save the changes, click **[!UICONTROL Save]**.
 
 +++
 
-+++Learning Managerで社外ユーザーを一時停止および再開する方法
++++How to pause and resume an external user in Learning Manager?
 
-社外ユーザーのリストで、削除するユーザーを選択します。 右上隅で、**[!UICONTROL アクション]**/**[!UICONTROL 一時停止]**&#x200B;をクリックします。
+In the list of External Users, choose the user that you want to delete. On the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Pause]**.
 
-詳しくは、[「社外プロファイルの一時停止」](add-users-user-groups.md#pause)を参照してください。
+For more information, see [Pause an external profile](add-users-user-groups.md#pause).
 
-プロファイルを一時停止すると、社外プロファイルに&#x200B;***「一時停止」***&#x200B;と表示されます。
+After you pause a profile, the external profile displays the status as ***Paused***.
 
 +++
 
-+++新しく作成した社外プロファイルにようこそメールを送信する方法
++++How to send welcome email to newly created external profile?
 
-社外ユーザーを追加する際、**[!UICONTROL 社外登録プロファイルを追加]**&#x200B;ダイアログで、社外マネージャーの電子メールを入力します。 「保存」をクリックすると、指定した電子メールアドレスにようこそ電子メールも送信されます。 再度ようこそ電子メールを送信する場合は、次に示すようにエンベロープアイコンをクリックします：
+When adding an external user, in the **[!UICONTROL Add External Registration Profile]** dialog, enter the email of the external manager. When you click Save, a welcome email also gets sent to the email address that you had specified. If you want to send the welcome mail again, click the envelope icon, as shown below:
 
 ![](assets/send-welcome-mail.png)
 
 +++
 
-+++カスタムユーザーグループを作成する方法
++++How to create Custom User Groups?
 
-**[!UICONTROL ユーザー]**/**[!UICONTROL ユーザーグループ]**&#x200B;をクリックし、ユーザーグループページで「**[!UICONTROL 追加]**」をクリックします。 ユーザーグループを追加ダイアログで、ユーザーを個別に、またはグループとして追加します。
+Click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** and on the User Groups page, click **[!UICONTROL Add]**. In the Add User Group dialog, add the users both individually and as a team.
 
 ![](assets/custom-user-group.png)
 
 +++
 
-+++入力済みのアクティブフィールドを無効にする方法を教えてください。
++++How to disable already filled active fields?
 
-学習者が入力していないアクティブなフィールドのみを学習者に表示する場合は、次の手順を実行します。
+If you want learners to only see the active fields that are not filled by them, then follow the steps below:
 
-1. **[!UICONTROL ユーザー]** > **[!UICONTROL アクティブフィールド]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.  
 
-1. **[!UICONTROL 「設定」]**&#x200B;をクリックして、オプション&#x200B;**[!UICONTROL 「学習者のログイン画面で未入力のフィールドのみを表示」]**&#x200B;を有効にします。
+1. Click **[!UICONTROL Settings]** and enable the option **[!UICONTROL Show only unfilled fields on Learner login]**.
 
-1. **[!UICONTROL 「保存」]**&#x200B;をクリックします。
-
-+++
-
-+++アクティブなフィールドに学習者がランダムな値を入力できないようにする方法を教えてください。
-
-選択肢を制限することにより、事前に設定した値のみを学習者が選択できるようにして、値をランダムに入力できないようにすることが可能です。 以下の手順を実行します。
-
-1. **[!UICONTROL ユーザー]** > **[!UICONTROL アクティブフィールド]**&#x200B;をクリックします。
-1. **[!UICONTROL 「選択を制限」]**&#x200B;オプションを有効にします。
-1. 「**[!UICONTROL 完了]**」をクリックします。
+1. Click **[!UICONTROL Save]**.
 
 +++
 
-+++CSVのアクティブなフィールドとカスタムのアクティブなフィールドを見分けるにはどうすればよいですか？
++++How to prevent learners from entering random values in the active fields.?
 
-CSV のアクティブなフィールドの有効化および無効化は可能ですが、フィールドを削除することはできません。 ただし、カスタムのアクティブなフィールドを有効化または無効化することはできません。
+You can restrict the selection for learners so that they can only select the values that are pre-defined and not enter any random values. Follow the steps below:
+
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
+1. Enable the option **[!UICONTROL Restrict Selection]**.
+1. Click **[!UICONTROL Done]**.
 
 +++
+
++++How do I differentiate CSV active fields and Custom Active fields?
+
+You can only enable or disable CSV active fields, but cannot delete them. On the other hand, you cannot enable or disable custom active fields.
+
++++-->

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
+source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 82%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,10 @@ ht-degree: 82%
 * は、 {#admin}
    * [Adobe Learning Managerの管理者AIアシスタント（ベータ版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [ユーザーログイン](administrators/feature-summary/user-login.md)
-   * [ユーザーを追加してユーザーグループの作成](administrators/feature-summary/add-users-user-groups.md)
+   * User Management {#user-management}
+      * [Adobe Learning Managerでのユーザーの追加](administrators/feature-summary/add-users-user-groups.md)
+      * [Adobe Learning Managerのユーザーグループ](/help/migrated/administrators/feature-summary/user-group.md)
+      * [アクティブフィールド](/help/migrated/administrators/feature-summary/active-fields.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
    * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
    * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
