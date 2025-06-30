@@ -4,9 +4,9 @@ title: Learning Manager と AEM の統合
 description: Learning Managerは、学習コンテンツ管理システムが組み込まれた学習管理システムです。 ユーザーは、学習コンテンツを Learning Manager にアップロードして管理します。これにより Learning Manager で、バージョン管理、コースへの割り当て、学習者への表示の定義、使用状況の追跡、管理者への報告を行うことができます。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ AEM Package Manager を使用して、Learning Manager コンテンツパッケ�
 
 >[!NOTE]
 >
->パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja#how-to-work-with-packages)を参照してください。
+>パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)を参照してください。
 
 1. AEM 作成者として、AEM Package Manager を開きます。
 1. **[!UICONTROL 「パッケージのアップロード」]**&#x200B;ボタンをクリックします。
@@ -125,13 +125,15 @@ Skylineは、AEMのクラウド版です。 まず、パッケージマネージ
 
 Skylineの構成手順については、[GitHubリポジトリ](https://github.com/adobe/captivate-prime-aem-components)を参照してください。
 
-## カタログウィジェット
+## 学習用ウィジェット
 
-カタログウィジェットには、特定のカタログまたはカタログのセットに由来するトレーニングがユーザーに表示されます。 ページプロパティの「プロパティ」セクションで、オプションの一覧から「カタログ」を選択します。
+**[!UICONTROL 学習状況]**&#x200B;ウィジェットを使用すると、特定のカタログまたはカタログのセットからユーザーにトレーニングを表示できます。
+
+ページのプロパティの&#x200B;**[!UICONTROL プロパティ]**&#x200B;セクションで、一覧にあるオプションから&#x200B;**[!UICONTROL カタログ]**&#x200B;を選択します。
 
 <!--![](assets/catalog-widget.png)-->
 
-カタログウィジェットには、次のオプションが含まれます。
+カタログオプションには、次のオプションがあります。
 
 * **[!UICONTROL カタログID]:**&#x200B;トレーニングを表示する必要がある、コンマで区切られたカタログIDです。
 * **[!UICONTROL 並べ替え]:**&#x200B;トレーニングの並べ替え順序です。 名前、日付、作成日、登録日などのオプションがあります。
