@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 電子メールテンプレート
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1610'
+ht-degree: 55%
 
 ---
 
@@ -72,7 +72,7 @@ Learning Manager アプリケーションでは、イベントに基づき複数
 1. 「**[!UICONTROL 設定]**」をクリックして設定ページを開きます。 これにより、電子メールテンプレートをカスタマイズできる状態になります。
 1. 学習者が電子メールを受信する際に使用する名前と電子メールIDをカスタマイズするには、**[!UICONTROL 送信者の名前とアドレス]を編集します。**
 
-   これらの詳細を構成または変更するには、[***Adobeサポート***](https://helpx.adobe.com/jp/contact/enterprise-support.other.html#learning-manager)にお問い合わせください。
+   これらの詳細を構成または変更するには、[***Adobeサポート***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)にお問い合わせください。
 
 1. **[!UICONTROL 電子メールバナー]**&#x200B;のオプションから電子メールバナーをカスタマイズします。 **[!UICONTROL バナーの背景]**&#x200B;を選択して、バナーの色を変更します。
 
@@ -99,6 +99,24 @@ Learning Manager アプリケーションでは、イベントに基づき複数
    *アカウントURLのカスタマイズ*
 
 1. マネージャーが直属の部下に送信する電子メールも、**[!UICONTROL オプションのマネージャー電子メール]**&#x200B;オプションのチェックボックスを使用して受信する必要があるかどうかを構成します。
+
+## ロールレベルでの電子メールの有効化または無効化
+
+管理者は、学習者、マネージャー、インストラクターなど、受信者の役割に基づいて、電子メールテンプレートを有効または無効にできます。 これにより管理者は、どの通知を送信するかをより詳細に制御し、通信の種類と頻度を管理できます。
+
+電子メールテンプレートを有効または無効にするには：
+
+1. Adobe Learning Managerに管理者としてログインします。
+2. 左側のペインから&#x200B;**[!UICONTROL 電子メールテンプレート]**&#x200B;を選択します。
+3. 特定の役割の電子メールテンプレートを一括で有効または無効にするには、列見出しの省略記号(...)を選択し、**[!UICONTROL 電子メールの受信者]**&#x200B;で該当するすべての役割を有効にします。
+
+   ![](assets/email-template-role.png)
+   _ロールレベルのすべての電子メールテンプレートを送信する_
+
+4. ロールの特定の電子メールテンプレートを有効または無効にするには、そのテンプレートの省略記号(...)を選択し、ロールを選択または選択解除します。
+
+   ![](assets/email-template-role-1.png)
+   _ロールレベルの電子メールテンプレートを送信する_
 
 ## ダイジェスト電子メールの頻度設定 {#setfrequencyofdigestemails}
 
@@ -160,7 +178,7 @@ DND リストに含まれている学習者には、ダイジェスト電子メ�
 
 ## 電子メールドメインのカスタマイズ {#customizeemaildomain}
 
-学習者が通知を受信する電子メールドメインと電子メールIDをカスタマイズする場合は、[***Learning Managerサポート***](https://helpx.adobe.com/jp/contact/enterprise-support.other.html#learning-manager)に連絡し、追加するドメインの詳細情報と新しい電子メールIDを伝えてください。
+学習者が通知を受信する電子メールドメインと電子メールIDをカスタマイズする場合は、[***Learning Managerサポート***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)に連絡し、追加するドメインの詳細情報と新しい電子メールIDを伝えてください。
 
 この依頼が処理されると、確認用のリンクが記載された電子メールが、指定した新しいメールアドレスに送信されます。 電子メール内の確認用リンクをクリックすると、確認プロセスが実行されます。
 
@@ -257,6 +275,6 @@ Learning Managerユーザーに、インラインのメール招待が送信さ�
 
 +++テンプレートで送信者の名前とアドレスを変更するにはどうすればよいですか？
 
-送信者の名前と電子メールアドレスを変更するには、[Adobe Learning Managerサポート](https://helpx.adobe.com/jp/contact/enterprise-support.other.html#learning-manager)に連絡してください。
+送信者の名前と電子メールアドレスを変更するには、[Adobe Learning Managerサポート](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)に連絡してください。
 
 +++

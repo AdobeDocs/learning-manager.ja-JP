@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Learning Manager ユーザーガイド](user-guide.md)
 * 概要 {#introduction}
    * [新機能の概要2025年5月](/help/migrated/whats-new.md)
+   * [Adobe Learning Managerで予定されている変更](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [新機能の概要2024年11月](/help/migrated/whats-new-nov-24.md)
    * [新機能の概要2024年7月](whats-new-july-2024.md)
    * [新機能2024年3月](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 80%
    * [学習プログラム](administrators/feature-summary/learning-programs.md)
    * [製品用語](administrators/feature-summary/product-terminology.md)
 * 統合管理者 {#integration}
+   * [アプリケーションデベロッパーマニュアル](integration-admin/feature-summary/developer-manual.md)
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
    * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
    * [Learning Manager に Salesforce パッケージをインストールする](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams コネクターのインストール](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [アプリケーションデベロッパーマニュアル](integration-admin/feature-summary/developer-manual.md)
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [CSV ファイルを使用したカスタムの役割の管理](integration-admin/feature-summary/configure-role-csv-files.md)
