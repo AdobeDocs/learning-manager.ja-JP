@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 79%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 79%
    * [新機能2023年7月](whats-new-2023-july.md)
    * [リリースノート](release-note/release-notes.md)
    * [必要システム構成](system-requirements.md)
-   * [AEM SitesのALM参照サイトパッケージ](adobe-learning-manager-integration-aem.md)
    * [Microsoft Teams 向け Adobe Learning Manager アプリ](adobe-learning-manager-app-microsoft-teams.md)
    * [GDPR に対する Learning Manager のコンプライアンス](kb/prime-gdpr.md)
    * [Learning Manager のアクセシビリティ](accessibility-learning-manager.md)
@@ -103,7 +102,9 @@ ht-degree: 79%
       * [Webhook使用ガイド](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [信心深く](integration-admin/feature-summary/credly-integration.md)
    * [学習ツールの相互運用性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
-   * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
+   * AEM Sites {#aem-sites}
+      * [AEM SitesのALM参照サイトパッケージ](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
    * [Learning Manager に Salesforce パッケージをインストールする](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams コネクターのインストール](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)

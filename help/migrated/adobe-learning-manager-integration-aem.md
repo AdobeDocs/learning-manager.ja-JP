@@ -4,10 +4,10 @@ title: Adobe学習マネージャーリファレンスサイト（ALM リファ�
 description: Adobeラーニングマネージャー (ALM) はAdobe Experience Manager(AEM) サイトと統合します。 これにより、コーディングの労力を最小限に抑えながら、独自の Web サイトとレスポンシブなモバイルAdobeインターフェイスを作成して Learning Manager にアクセスできます。 この統合により、ユーザー向けにカスタマイズされた学習体験を作成できます。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 67%
+source-wordcount: '2207'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,13 @@ Adobeラーニングマネージャー (ALM) はAdobe Experience Manager(AEM) �
 
 ALM 参照サイトパッケージをインストールしたら、AEM SitesインスタンスでホストできるAdobeラーニングマネージャー用 Web サイトの構築を開始できます。 その後、ユーザーは Web サイトにコンポーネントをドラッグ&amp;ドロップできます。
 
-ALM 参照サイトパッケージのインストール
+>[!IMPORTANT]
+>
+>AEM Sites用のAdobe Learning Manager(ALM)パッケージには、実装のためのクイックスタートコードブロックが用意されています。 このパッケージはヘッドレスデプロイメント向けに設計されています。 提供されているコードベースを使用した後は、それをメンテナンスして開発することがユーザーの責任になります。Adobe Learning Managerをベースにしたヘッドレスアプリケーションでの標準的な作業も同様です。 基盤となるAPIは、Adobe Learning Managerで引き続きサポートされます。
 
-## 前提条件
+## ALM 参照サイトパッケージのインストール
+
+### 前提条件
 
 * AEM SitesとAdobe Commerceのライセンス
 * AEMオンプレミス6.5またはAdobe Experience Manager - Cloud Service

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Managerでのユーザーの追加
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Adobe Learning Managerでのユーザーの追加
 
-Adobe Learning Managerでは、ユーザーは学習やトレーニングにプラットフォームを使用するユーザーです。 ユーザーには、内部ユーザーと外部ユーザーの2種類があります。
+Adobe Learning Managerでは、ユーザーは学習またはトレーニング用のプラットフォームを使用する学習者です。 ユーザーには、内部ユーザーと外部ユーザーの2種類があります。
 
 内部ユーザーとは、組織の従業員またはチームメンバーを指します。
 
-社外ユーザーとは、顧客、パートナー、ベンダー、クライアントなど、社外で学習コンテンツにアクセスできるユーザーを指します。
+社外ユーザーとは、顧客、パートナー、ベンダー、クライアントなど、社外で学習コンテンツにアクセスできる学習者を指します。
 
 Adobe Learning Manager(ALM)を使用すると、管理者は手動入力、CSVアップロード、セルフ登録、システム統合など、様々な方法で社内ユーザーと社外ユーザーの両方をオンボーディングおよび管理できます。
 
@@ -248,7 +248,7 @@ _社外プロファイルの登録URLをコピーする_
 | 社内ユーザー | 社外ユーザー |
 |---|---|
 | Adobe IDまたはSSO資格情報を使用してログインできます。 | 任意の電子メールIDを使用してログインできます。 |
-| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
+| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
 
 ### 外部登録プロファイルを一時停止
 
