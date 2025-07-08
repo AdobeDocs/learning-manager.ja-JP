@@ -3,9 +3,9 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3619'
 ht-degree: 72%
 
 ---
@@ -546,7 +546,7 @@ FTP サーバーと Box サーバーにログインしてコンテンツをア�
 
 ## 移行の問題に関するトラブルシューティング {#troubleshootingmigrationissues}
 
-[こちらをクリック](../../kb/troubleshooting-migration.md)すると、データとコンテンツを既存の LMS から Learning Manager アプリケーションに移行する際、統合管理者が直面する問題に対する回避策や解決策を参照できます。
+この[記事](../../kb/troubleshooting-migration.md)を参照して、データとコンテンツを既存のLMSからLearning Managerアプリケーションに移行する際、統合管理者が直面する問題に対する回避策や解決策を確認してください。
 
 ## ユーザー管理のヒント {#usermanagement}
 
