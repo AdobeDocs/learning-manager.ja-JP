@@ -4,9 +4,9 @@ title: アプリケーションデベロッパーマニュアル
 description: RESTful APIを使用してアプリケーションを統合およびカスタマイズする方法について説明し、OAuth 2.0認証、APIの使用シナリオ、データモデルなどの重要なトピックを取り上げます。 コースの作成、学習者の進捗追跡、スキルマッピング、資格認定、ゲーミフィケーションなどの機能を使用して、エンタープライズアプリケーションを強化できます。 このガイドでは、開発者がシームレスで効率的なワークフローを作成するのに役立つステップバイステップの手順と実際の例を説明します。 学習者中心のアプリケーションを開発するためにAdobe Learning Managerの機能を活用したいと考えている開発者に最適です。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4520'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Adobe Learning Managerを外部アプリケーションと統合することで�
 
 ## アクセストークンの取得
 
-### リダイレクトからの認証コードの取得
+### 認証コードの取得
 
 クライアントIDとクライアントシークレットを取得したら、それらを使用して、API呼び出しの認証に使用されるアクセストークンを要求します。
 
@@ -264,7 +264,7 @@ APIを使用すると、開発者はユーザー、コース、スキル、資�
 ### include
 
 Adobe Learning Manager APIを使用すると、カスタムアプリケーションやヘッドレスLMSの構築中に、役立つ情報を取得できます。 APIエンドポイントを追加の「include」パラメーターと共に含めて、デフォルトで受信されたデータと関連する追加情報を取得することもできます。 これらの関連付けはデータモデルリレーションです。例えば、ユーザーの詳細を取得するために電話をかけると、ユーザー情報と、マネージャーIDとAdobe Learning ManagerアカウントIDの関連付けが表示されます。 includeパラメーターを使用すると、マネージャーの詳細やAdobe Learning Managerアカウントの詳細などのユーザーの詳細とともに、詳細な方法で追加の詳細を抽出できます。
-つまり、API呼び出しで&#x200B;**include**&#x200B;パラメーターを使用して、関連する（リンクされた）リソースとプライマリリソースを1つの応答で取得します。 この機能は、個別のAPI呼び出しを行わずに、コースのモジュールや学習者にマップされたスキルなど、ネストされたデータや依存データにアクセスする場合に便利です。
+つまり、API呼び出しで**include**&#x200B;パラメーターを使用して、関連する（リンクされた）リソースとプライマリリソースを1つの応答で取得します。 この機能は、個別のAPI呼び出しを行わずに、コースのモジュールや学習者にマップされたスキルなど、ネストされたデータや依存データにアクセスする場合に便利です。
 
 主なメリット：
 
@@ -524,7 +524,7 @@ Adobe Learning Manager APIを使用すると、開発者はLearning Managerオ�
 | account | Learning Managerのお客様の詳細情報をカプセル化します。 |
 | badge | バッジは、学習者がコースを進めていく中で、特定のマイルストーンに到達したときに獲得する達成の証しです。 |
 | catalog | カタログは、学習目標のコレクションです。 |
-| user | Learning Manager における主要なモデル。通常、学習目標を使用する、組織の内部学習者や外部学習者を指す。 ただし、学習者という役割に加えて、作成者や管理者など、他の役割を果たす場合もある。 インライン属性には、ユーザー ID、タイプ、電子メールなどがある |
+| user | Learning Manager における主要なモデル。通常、ユーザーは、学習目標を使用する組織の内部学習者または外部学習者です。 ただし、学習者という役割に加えて、作成者や管理者など、他の役割を果たす場合もある。 インライン属性には、ユーザー ID、タイプ、電子メールなどがある |
 | resource | これは、モジュール内の各コンテンツリソースを表します。 「loResource」にカプセル化されたすべてのリソースは、学習目標の観点では同等ですが、配信タイプやコンテンツのロケールの観点では互いに異なります。 |
 | userNotification | 学習者に関連した通知情報が含まれる |
 | userSkill | UserSkillは、1人のユーザーが1つのスキルレベルをどの程度達成しているかを示します。 |
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
