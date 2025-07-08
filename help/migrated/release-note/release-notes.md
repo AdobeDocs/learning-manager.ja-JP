@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '27129'
 ht-degree: 70%
@@ -1583,7 +1583,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -1620,7 +1620,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -2585,7 +2585,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3095,7 +3095,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;**&#x200B;**&#x200B;は&#x200B;**&#x200B;**&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;****&#x200B;は&#x200B;****&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * **プロファイルが作成されました（自己登録）**&#x200B;と&#x200B;**プロファイルが作成されました（外部/パートナー）**&#x200B;の電子メールテンプレートを編集するたびに、管理者が受信する電子メールでURLをクリックすることはできません。 この問題は修正されました。
@@ -3261,7 +3261,7 @@ Learning Manager の既存の機能が大幅に強化されました。強化さ
 
 ### CSV の読み込み
 
-ユーザーを削除した場合、単一ユーザーの追加機能を使用して同じユーザーをアプリケーションに戻すことはできません。ただし、CSV のアップロードプロセスを使用すると、削除したユーザーを追加して戻すことができます。CSV のアップロード機能では、必須フィールドの制限が大幅に変更されています。詳細については、[CSVに関するFAQ](../administrators/add-users-in-bulk.md)を参照してください。
+ユーザーを削除した場合、単一ユーザーの追加機能を使用して同じユーザーをアプリケーションに戻すことはできません。ただし、CSV のアップロードプロセスを使用すると、削除したユーザーを追加して戻すことができます。CSV のアップロード機能では、必須フィールドの制限が大幅に変更されています。詳細については、[CSVに関するFAQ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)を参照してください。
 
 ### コースリストの表示
 

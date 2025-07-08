@@ -3,7 +3,7 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -582,5 +582,5 @@ Learning Manager のいずれのユーザーに対しても、マネージャー
 
 このトピックの詳細については、次のヘルプコンテンツを参照してください。
 
-* [CSV アップロードに関する FAQ](/help/migrated/administrators/add-users-in-bulk.md)
+* [CSV アップロードに関する FAQ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [ユーザー追加機能のヘルプ](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

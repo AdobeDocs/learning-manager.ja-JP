@@ -4,7 +4,7 @@ title: 管理者のよくある質問（FAQ）
 description: Adobe Learning Manager管理者のよくある質問(FAQ)
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '2515'
 ht-degree: 52%
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++ユーザーを一括で追加できますか？ また、そのためにはどうすればよいですか？
 
-はい。CSV アップロード機能を使用すれば、ユーザーを一括で追加できます。 詳細については、[ここ](/help/migrated/administrators/add-users-in-bulk.md)をクリックしてください。
+はい。CSV アップロード機能を使用すれば、ユーザーを一括で追加できます。 詳細については、[ここ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)をクリックしてください。
 
 +++
 
@@ -257,7 +257,7 @@ Adobe Learning Manager 1.0リリースには、コースのカレンダーを設
 マネージャー、作成者、および学習者は、コースのアクティビティに基づく通知を表示できます。 管理者は、すべてのユーザーに対する通知を以下の手順で有効または無効にできます。
 
 1. 左ペインで「電子メールテンプレート」をクリックし、「一般」、「ユーザー登録」、「完了数」、および「フィードバック」タブを選択します。
-1. 以下にリストされたイベントから、「**each**&#x200B;event」の横にある「No/Yes」切り替えボタンをクリックし、「Yes」を選択して通知を有効にします。 「No」をクリックすると、特定のイベントに対する通知の送信が無効になります。
+1. 以下にリストされたイベントから、「**each**event」の横にある「No/Yes」切り替えボタンをクリックし、「Yes」を選択して通知を有効にします。 「No」をクリックすると、特定のイベントに対する通知の送信が無効になります。
 
 +++
 
