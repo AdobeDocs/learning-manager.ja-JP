@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Managerでのユーザーの追加
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 6997eed011b0d133842473028826113b98322e87
+source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ _社外プロファイルの登録URLをコピーする_
 | 社内ユーザー | 社外ユーザー |
 |---|---|
 | Adobe IDまたはSSO資格情報を使用してログインできます。 | 任意の電子メールIDを使用してログインできます。 |
-| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
+| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
 
 ### 外部登録プロファイルを一時停止
 
@@ -341,3 +341,4 @@ Adobe Learning Managerでは、次のユーザーロールをサポートして�
    _[アクション]メニューのユーザーから割り当てられたロールを削除するオプション_
 
 4. 確認ダイアログで「**はい**」を選択します。
+
