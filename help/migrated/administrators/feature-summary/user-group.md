@@ -3,7 +3,7 @@ description: Adobe Learning Managerでユーザーグループを作成および
 jcr-language: en_us
 title: Adobe Learning Managerでのユーザーグループの管理 | 学習者の整理と割り当て
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ ORロジックを使用する場合、Adobe Learning Managerはセールスチ�
 
 ![](assets/or-logic.png)
 _ORロジックを使用して組み合わせた複数のグループを示す例_
+
