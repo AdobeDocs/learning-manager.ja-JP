@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 6e26d7c8757eeebe9c34d60aa4cfeafbffb84da9
 workflow-type: tm+mt
-source-wordcount: '27129'
-ht-degree: 70%
+source-wordcount: '27298'
+ht-degree: 69%
 
 ---
 
@@ -101,6 +101,22 @@ Adobe Learning Managerには、コンテンツの更新を管理するための�
 _Content update options_-->
 
 コンテンツライブラリの詳細については、この[記事](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course)を参照してください。
+
+## Fluidicプレーヤーの機能強化
+
+このリリースでは、Adobe Learning Managerで更新されたFluidicプレーヤーが、現代的な外観とより直感的な学習体験を備えています。 最新のプレーヤーには、よりクリーンなインターフェイス、改善されたナビゲーションコントロール、およびデスクトップとモバイルデバイス間で一貫したデザインが含まれています。 学習者は、縦長、横長、フルスクリーン、標準ビューなど、あらゆるスクリーンモードでコンテンツに簡単にアクセスして操作できます。
+
+* **Fluidicプレーヤーのスキンの更新** : UI要素が更新され、現代的な外観になりました。
+* **ナビゲーションコントロールの改善** ：よりスムーズで直感的なナビゲーションを実現し、学習者のエクスペリエンスを向上させます。
+* **最適化されたデザイン** :デスクトップとモバイルデバイス間での外観と操作性が向上し、縦長、横長、全画面、標準画面の各モードがサポートされています。
+
+ネイティブまたはヘッドレスエクスペリエンスを使用しているかどうかに関係なく、Adobe Learning Managerを介してコンテンツにアクセスするすべての学習者に、これらの新しいUIとナビゲーションの改善が自動的に表示されます。 レイアウトとコントロールの更新により、学習者のプレーヤーとのインタラクションが若干変更されている場合があります。
+
+>[!NOTE]
+>
+>この機能強化は、静的コンテンツでのみ使用できます。
+
+Fluidicプレーヤーの詳細については、この[記事](/help/migrated/learners/feature-summary/fluidic-player.md)を参照してください。
 
 ## このリリースで修正されたバグ
 
@@ -1583,7 +1599,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -1620,7 +1636,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -2585,7 +2601,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3095,7 +3111,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;**&#x200B;**&#x200B;は&#x200B;**&#x200B;**&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;****&#x200B;は&#x200B;****&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * **プロファイルが作成されました（自己登録）**&#x200B;と&#x200B;**プロファイルが作成されました（外部/パートナー）**&#x200B;の電子メールテンプレートを編集するたびに、管理者が受信する電子メールでURLをクリックすることはできません。 この問題は修正されました。
