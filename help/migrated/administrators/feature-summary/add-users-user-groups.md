@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Managerでのユーザーの追加
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
+source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ _社外プロファイルの登録URLをコピーする_
 | 社内ユーザー | 社外ユーザー |
 |---|---|
 | Adobe IDまたはSSO資格情報を使用してログインできます。 | 任意の電子メールIDを使用してログインできます。 |
-| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
+| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
 
 ### 外部登録プロファイルを一時停止
 

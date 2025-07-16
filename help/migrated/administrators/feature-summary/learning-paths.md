@@ -4,10 +4,10 @@ title: 学習パス
 description: Learning Manager で管理者向け学習プランを作成します。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -138,6 +138,10 @@ Learning Managerの管理者アプリで、左側のパネルの&#x200B;**[!UICO
 ![](assets/default-instance.png)
 
 *学習パスインスタンス*
+
+柔軟なコースがあり、学習者がセッションを選択する必要がある場合でも、学習プランを通じて、または管理者がコースに登録できます。 このような場合、座席の上限に達しても学習者は登録できますが、座席が利用可能になるまでコースを開始できません。
+
+キャンセル待ち機能は、学習者がセルフ登録する場合にのみ適用されます。 セッションが人数制限に達すると、インストラクターはキャンセル待ちの学習者のリストを表示できます。 空席が増えた場合、インストラクターはキャンセル待ちの学習者を追加して、セッションの上限に戻ることができます。
 
 ## 通知
 
