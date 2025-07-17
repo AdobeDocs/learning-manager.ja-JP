@@ -2,9 +2,9 @@
 title: Adobe Learning Managerで予定されている変更
 description: Adobe Learning Managerに間もなく投入される新機能、改善点、重要なアップデートについて説明します。 変更点に関する情報の入手が可能になり、事前に計画して最新の機能強化を最大限に活用できます。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
+source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '667'
 ht-degree: 2%
 
 ---
@@ -109,3 +109,5 @@ Adobe Learning Managerでは、自動処理ワークフローで学習者の追�
 
 * レポートの形式は変更されません。 カスタム管理者がユーザーインターフェイスからダウンロードした場合、レポートの内容は管理者のスコープに従います。
 * このレポートが自動または下流のワークフローで使用されない場合、変更は不要です。
+
+Adobe Learning Managerの新機能と変更点の一覧については、[リリースノート](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)を参照してください。
