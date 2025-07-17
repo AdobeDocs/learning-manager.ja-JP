@@ -110,4 +110,4 @@ Adobe Learning Managerでは、自動処理ワークフローで学習者の追�
 * レポートの形式は変更されません。 カスタム管理者がユーザーインターフェイスからダウンロードした場合、レポートの内容は管理者のスコープに従います。
 * このレポートが自動または下流のワークフローで使用されない場合、変更は不要です。
 
-Adobe Learning Managerの新機能と変更点の一覧については、[リリースノート](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)を参照してください。
+Adobe Learning Managerの新機能と変更点の一覧については、[リリースノート](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/release-notes)を参照してください。

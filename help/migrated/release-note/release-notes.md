@@ -122,7 +122,7 @@ Fluidicプレーヤーの詳細については、この[記事](/help/migrated/l
 
 * コンテンツモジュールが新しいバージョンに更新された後、コースを完了した学習者がコースを再び参照すると白い画面が表示される問題を修正しました。
 
-さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
+さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
 
 +++
 
