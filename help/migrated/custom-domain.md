@@ -4,10 +4,10 @@ title: カスタムドメインのサポート
 description: カスタムドメインは、Learning Manager の Azure インスタンスではサポートされていません。
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 65%
+source-wordcount: '455'
+ht-degree: 66%
 
 ---
 
@@ -32,9 +32,11 @@ ht-degree: 65%
 
 * 学習者の役割の場合、ドメインは`https://cdn.<customer_custom_domain>/`で始まります（例： `https://cdn.elearningstage1.cpdomaintest.in/`）
 * その他の役割の場合、ドメインは`https://<customer_custom_domain>/`で始まります。 例：`https://elearningstage1.cpdomaintest.in/`
-* 実際のログインURLは`https://<customer_custom_domain>/acapindex`または`https://<customer_custom_domain>/login`です。 `<customer_custom_domain>`を組織の実際のドメインに置き換えます。
+* 実際のログインURLは`https://<customer_custom_domain>/acapindex`または`https://<customer_custom_domain>/login`です。
 
-`<customer_custom_domain>`はカスタマイズ可能なパーツです。
+>[!NOTE]
+>
+>`<customer_custom_domain>`を組織の実際のドメインに置き換えます。
 
 ## アカウントのカスタムドメインを設定する方法 {#howtosetupacustomdomainonanaccount}
 
