@@ -4,9 +4,9 @@ jcr-language: en_us
 title: コースインスタンスと学習パスの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5673'
 ht-degree: 52%
 
 ---
@@ -243,7 +243,7 @@ Excel ファイルには、各インスタンスのワークシートが含ま�
 
 Adobe Learning Managerの一括登録機能を使用すると、管理者はCSVファイルをアップロードして、多数の学習者グループをコース、資格認定、または学習プログラムに効率的に登録できます。 このプロセスにより、時間の節約、一貫性の確保、組織の拡張性のサポートが実現します。 さらに、管理者とインストラクターは、CSVアップロードを使用して学習者の情報、出席、完了状況を一括で更新できるため、手作業を最小限に抑え、データの正確性を確保することができます。
 
-登録、出席、完了に同じCSVファイル形式を使用できます。 「電子メール」列に学習者の電子メールIDを入力し、アクションに基づいた名前を付けてファイルを保存するだけです。例えば、bulk_enrollment.csv、bulk_attendance.csv、bulk_completion.csvなどです。 CSV形式のみがサポートされています。 UTF-8形式はサポートされていません。 サンプルCSVをダウンロードします[こちら](assets/Sample-Bulk-Action-CSV.csv)。
+登録、出席、完了に同じCSVファイル形式を使用できます。 「電子メール」列に学習者の電子メールIDを入力し、アクションに基づいた名前を付けてファイルを保存するだけです。例えば、bulk_enrollment.csv、bulk_attendance.csv、bulk_completion.csvなどです。 CSV形式のみがサポートされています。 UTF-8形式はサポートされていません。 [サンプルcsv](assets/Sample-Bulk-Action-CSV.csv)をダウンロードします。
 
 ### CSVを使用した学習者の一括登録
 

@@ -4,10 +4,10 @@ title: カスタムドメインのサポート
 description: カスタムドメインは、Learning Manager の Azure インスタンスではサポートされていません。
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 67%
 
 これにより、お客様はログインとアクセスのエクスペリエンスにホワイトラベルを付けて、アドビや Adobe Learning Manager がユーザーに表示されないように設定できます。
 
-例えば、ユーザーがAdobeドメインにいる場合と同じエクスペリエンスを得られるように、ドメインをカスタマイズすることができます。 ABC社が顧客のトレーニングを希望している場合、`learningmanager.adobe.com/abc-inc/mylearning`ではなく`abc.com/mylearning`というドメインへの登録を希望しています。
+例えば、ユーザーがAdobeドメインにいる場合と同じエクスペリエンスを得られるように、ドメインをカスタマイズすることができます。 ABC社が顧客のトレーニングを希望している場合、`abc.com/mylearning`ではなく`learningmanager.adobe.com/abc-inc/mylearning`というドメインへの登録を希望しています。
 
 >[!NOTE]
 >
@@ -32,6 +32,7 @@ ht-degree: 67%
 
 * 学習者の役割の場合、ドメインは`https://cdn.<customer_custom_domain>/`で始まります（例： `https://cdn.elearningstage1.cpdomaintest.in/`）
 * その他の役割の場合、ドメインは`https://<customer_custom_domain>/`で始まります。 例：`https://elearningstage1.cpdomaintest.in/`
+* 実際のログインURLは`https://<customer_custom_domain>/acapindex`または`https://<customer_custom_domain>/login`です。 `<customer_custom_domain>`を組織の実際のドメインに置き換えます。
 
 `<customer_custom_domain>`はカスタマイズ可能なパーツです。
 
