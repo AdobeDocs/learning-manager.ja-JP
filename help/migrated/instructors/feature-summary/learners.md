@@ -4,10 +4,10 @@ jcr-language: en_us
 title: セッションの学習者の管理
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 
    ![](assets/markattendance.png)
    *学習者の出席をマーク*
+
+## 学習者の成功のマーク
+
+インストラクターは、学習者ページから各学習者の成功ステータスを「合格」または「不合格」と直接マークできます。 この機能により、インストラクターは学習者のパフォーマンスに基づいて、教室またはバーチャルクラスルームセッションの結果を正確に記録できます。
+
+学習者の合格をマークする手順は、次のとおりです。
+
+1. インストラクターとしてAdobe Learning Managerにログインします。
+2. 左側のナビゲーションウィンドウで&#x200B;**[!UICONTROL 今後のセッション]**&#x200B;を選択します。
+3. **[!UICONTROL 学習者]**&#x200B;を選択します。
+4. 学習者を選択して、**[!UICONTROL アクション]**&#x200B;を選択します。
+5. 次のいずれかのオプションを選択して、選択した学習者の成功をマークします。
+
+   * **[!UICONTROL 出席および合格のマーク]**:パスとマークされた学習者が、モジュールを正常に完了しました。
+   * **[!UICONTROL 出席および不合格としてマーク]**:エラーとしてマークされた学習者は、モジュールを完了しましたが、合格しませんでした。
+
+   ![インストラクターが各学習者の成功ステータスを設定するための、「出席および合格とマーク」と「出席および不合格とマーク」オプションがハイライトされた「アクション」ドロップダウンメニュー](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _学習者の結果を記録するために、「出席と合格をマーク」オプションと「出席と不合格をマーク」オプションが強調表示されたアクションメニューが表示されている学習者ページ_
+
+6. 確認プロンプトで「**[!UICONTROL はい]**」を選択します。
 
 ## 学習者への電子メールの送信 {#sendemailstolearners}
 
