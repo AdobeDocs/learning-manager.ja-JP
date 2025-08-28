@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic プレーヤー
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 51%
+source-wordcount: '572'
+ht-degree: 48%
 
 ---
 
@@ -60,6 +60,8 @@ Fluidic プレーヤーは、ミックスされた学習コンテンツをシー
 
 コースを終了した後、コースの説明ページの&#x200B;**再訪** / **続行**&#x200B;ボタンをクリックすると、コースを再訪できます。
 
+**自動再生** : Adobe Learning ManagerのFluidicプレーヤーには、ビデオの自動再生を停止するオプションは組み込まれていません。 ビデオを自動再生するかどうかは、プレーヤー自体ではなく、ブラウザーの設定によって決まります。
+
 Learning Manager APIを使用して、外部のwebサイトやアプリケーションにFluidicプレーヤーを埋め込むこともできます。
 
 モバイルFluidicプレーヤーには、次の機能があります。
@@ -67,3 +69,4 @@ Learning Manager APIを使用して、外部のwebサイトやアプリケーシ
 * 画面に触れたりタップしたりしても、プレーヤーは一時停止しません。 代わりに、プレーヤーのナビゲーションバーが表示されます。
 * ナビゲーションバーが操作されていない場合は、3秒後に消えます。
 * ナビゲーションバーは、ナビゲーションメニュー項目（目次、メモ、設定）が閉じられるまでアクティブです。
+

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: カラーテーマ
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 45%
+source-wordcount: '1217'
+ht-degree: 44%
 
 ---
 
@@ -174,7 +174,7 @@ Adobe Learning Manager を使用すると、アカウントをカスタマイズ
    <td>
     <p>Fonts</p></td>
    <td>
-    <p>フォントを適用するには、CDN が必要です。 適用するフォントファミリーを共有することも必要になります。</p>
+    <p>管理者は、<a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a>にあるAdobe Learning Managerサポートチームに連絡して、フォントの変更を依頼できます。 フォントを適用するには、CDN が必要です。 適用するフォントファミリーを共有することも必要になります。</p>
     <p><b>注意：</b>フォントファミリーは、すべてのブラウザーに対応していることが必要です。</p></td>
   </tr>
   <tr>

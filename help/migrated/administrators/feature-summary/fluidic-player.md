@@ -4,10 +4,10 @@ title: Fluidic プレーヤー
 description: Fluidic プレーヤーは、ミックスされた学習コンテンツをシームレスに利用するための学習者向けプラットフォームです。サポートされているすべての形式が、このプレーヤーで一貫して再生されます。 作成者と管理者は、プレーヤーを使用してコンテンツをプレビューできます。
 contentowner: manochan
 exl-id: 4cd7197d-d4be-4755-b364-48f9e713c7e2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 55%
+source-wordcount: '225'
+ht-degree: 47%
 
 ---
 
@@ -26,3 +26,8 @@ Fluidic プレーヤーは、ミックスされた学習コンテンツをシー
 **ナビゲーションボタン**&#x200B;上/下矢印をクリックすると、pdf、docx、pptxコンテンツのスライド間を移動できます。 スライド上の矢印を使用すれば、コンテンツの種類に関わらず次のトピックに移動できます。
 
 **コースの終了**：コースを終了するには、プレーヤーの右上隅にある閉じる（x）アイコンをクリックします。
+
+>[!NOTE]
+>
+>Adobe Learning ManagerのFluidic Playerには、ビデオの自動再生を停止するオプションは組み込まれていません。 ビデオを自動再生するかどうかは、プレーヤー自体ではなく、ブラウザーの設定によって決まります。
+

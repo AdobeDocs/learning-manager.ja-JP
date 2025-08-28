@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ログイン
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ Adobe Learning Managerを初めて使用する場合、学習者はアカウン�
 
    ログイン画面が表示されます。
 
-1. 「ログイン」をクリックします。
+1. 「ログイン」を選択します。
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *ユーザー名とパスワードでサインインする*
 
-1. Adobe ID とパスワードを入力し、「サインイン」をクリックします。
+1. Adobe IDとパスワードを入力し、「ログイン」をクリックします。
 
    パスワードを忘れた場合は、「パスワードをお忘れですか？」をクリックします。 Adobe IDの作成に使用した電子メールidをリンクして入力します。
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. 「アクティブ」フィールドに情報を入力して、プロファイルを完成させます。
+
+   ![](assets/complete-the-profile.png)
+   _アクティブフィールドに情報を入力して、プロファイルの設定を完了します_
 
 1. または、 「Enterprise IDを使用してログイン」リンクをクリックし、Enterprise IDを使用することもできます。
 
