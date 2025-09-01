@@ -4,7 +4,7 @@ title: カスタム役割
 description: 学習パス機能を使用すると、カスタムの役割を定義し、特定の責任を一連のユーザーに割り当てることができます。 この機能を使用すると、個人の既存の役割の範囲外の責任を割り当てることができます。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 31%
@@ -300,7 +300,7 @@ Adobe Learning ManagerのAdmin Consoleを通じて複数のカスタムロール
 
 1. 管理者としてログインし、**[!UICONTROL ユーザー]**&#x200B;を選択します。
 2. 左側のパネルで「**[!UICONTROL カスタムの役割]**」を選択します。
-3. 新しいカスタム役割を作成し、アカウント権限、カタログ、学習目標、またはスコープを追加します。 [こちら](#create-a-custom-role)で説明した手順を参照してください。
+3. 新しいカスタム役割を作成し、アカウント権限、カタログ、学習目標、またはスコープを追加します。 [ここに記載されている手順](#create-a-custom-role)を参照してください。
 4. ユーザーをカスタムの役割に追加します。
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Adobe Learning ManagerでCSVファイルをアップロードすると、カス�
 
 次の2つのファイルをBoxにアップロードすることで、CSV読み込みを使用して複数のロールをユーザーに割り当てることができるようになりました。
 
-* role.csv
-* user_role.csvを使用します。
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 user_role.csvファイルには、「カスタム役割」フィールドと「ユーザーID」フィールドが含まれています。
 
