@@ -4,9 +4,9 @@ title: GDPR に対する Learning Manager のコンプライアンス
 description: GDPRに対するAdobe Learning Managerのコンプライアンス
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '678'
 ht-degree: 39%
 
 ---
@@ -17,19 +17,23 @@ ht-degree: 39%
 >
 >この文書の内容は法律上の助言ではなく、法律上の助言に代わるものではありません。 GDPR に関する助言については、それぞれの企業の法務部門にご相談ください。
 
+Adobe Learning ManagerはGDPRに準拠し、ユーザーデータを安全かつ透過的に管理します。 ユーザーを消去（すべての個人データを完全に削除）する機能や、管理者が学習者のトランスクリプトを作成して必要に応じてユーザーと情報を共有する機能など、GDPRの基本機能を提供します。
+
+すべてのユーザーデータは、SHA-256などの標準を使用して、転送および保存時に強力な暗号化で保護されます。 一部の統合では、学習者が認証を行い、データを共有する前に同意を得る必要があります。 これらのプライバシーとセキュリティのコントロールは、Adobe Learning Managerを使用する組織がGDPRに準拠し、学習者情報を保護するのに役立ちます。
+
 +++GDPRとは？
 
 GDPRは、2018年5月25日に発効する欧州連合(EU)の新しい規制です。 データ機密性の強力な管理を策定し、エンドユーザーによる個人情報データの保護管理を可能にします。
 
 +++
 
-+++Adobe Learning Managerのお客様の場合、どのような方法または理由で適用されますか？
++++どのような方法または理由で Adobe Learning Manager カスタマーとして適用されますか？
 
 GDPRはEUの規制ですが、EU加盟国に居住するユーザーの個人情報を収集する全世界の事業体に適用されます。  Learning Managerのお客様は、組織にGDPRを適用できるかどうかを評価できます。
 
 +++
 
-+++Learning Managerのベンダーとして、Adobeはどのような役割を果たしますか？
++++Learning Manager のベンダーとして、アドビはどのような役割を果たしますか？
 
 GDPRに従って、所属の事業体がEU加盟国の居住者に製品やサービスを提供し、そのデータの収集、追跡、モニターの方法と根拠を決定する場合は、[データ管理者](https://gdpr-info.eu/art-24-gdpr/)とみなされます。 Adobe Learning Manager カスタマーとしてこれらのアクティビティのいずれかを実行する場合は、データ管理者とみなされます。
 
@@ -37,7 +41,7 @@ GDPRに従って、所属の事業体がEU加盟国の居住者に製品やサ�
 
 +++
 
-+++Learning ManagerをGDPRに準拠させる方法を教えてください。
++++Learning Manager を GDPR に準拠させるにはどうすればよいですか？
 
 Learning Manager に組み込まれている以下のツールとプロセスは、GDPR に準拠するために役立ちます。製品を超えて規制に完全に準拠するプロセスをサポートするために、コンプライアンスチームへの評価が必要になる場合があります。
 

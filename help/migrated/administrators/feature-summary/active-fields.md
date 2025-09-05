@@ -3,9 +3,9 @@ description: Adobe Learning Managerのアクティブフィールドを使用し
 jcr-language: en_us
 title: Adobe Learning Managerでのアクティブフィールドの設定
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Adobe Learning Managerのアクティブフィールドは、管理者がユー�
 
 3. 「**保存**」を選択して変更を適用します。
 
+>[!NOTE]
+>
+>新しい役割を割り当てても、カスタムユーザーグループには影響しません。 ただし、すべての管理者、すべての作成者、および同様の役割ベースのグループなどの自動生成ユーザーグループに影響します。
+
 ## 複数値のアクティブフィールド
 
 複数値を持つアクティブフィールドを使用すると、場所、役職、プロジェクトチームなど、複数の値を1つのユーザー属性に割り当てることができます。 これにより、より詳細で柔軟なユーザー情報を取得できます。
@@ -118,8 +122,10 @@ _CSVアップロード時に値の制限を有効にするチェックボック�
 
 ## ユーザーのCSV読み込みで不足しているアクティブフィールドを管理
 
-場合によっては、管理者がAdobe Learning Managerにログインしたときに、学習者が特定のアクティブフィールドに手動で入力することを希望することがあります。 これは、CSVファイルを介して読み込まれたユーザーに対してサポートされます。 ユーザーを一括で追加する方法については、この[記事](/help/migrated/administrators/feature-summary/add-users-user-groups.md)を参照してください。
+場合によっては、管理者がAdobe Learning Managerにログインしたときに、学習者が特定のアクティブフィールドに手動で入力することを希望することがあります。 これは、CSVファイルを介して読み込まれたユーザーに対してサポートされます。 ユーザーを一括で追加する方法については、この[記事](/help/migrated/administrators/feature-summary/add-users-user-groups.md)を参照してください。 ユーザーは、Box FTPフィールドの値に基づいて、アクティブなフィールドまたはロールベースのグループに自動的に追加されます。 カスタムグループには追加できません。
 
 CSVファイルにすべてのアクティブフィールドが含まれていない場合、管理者はインポート後に欠落している値を手動で入力する必要があります。
 
-デフォルトでは、すべてのアクティブフィールドをソースCSVの対応するフィールドにマッピングする必要があります。 ただし、特定のアクティブフィールドをCSVの列にマッピングしない場合は、BoxとFTPの両方の読み込みプロセスで、ドロップダウンリストから値&#x200B;**DontImportFromSource**&#x200B;を選択できます。 このオプションは、FTPコネクタまたはBoxコネクタを介してユーザーを読み込む場合に使用できます。 コネクタの詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/connectors)を参照してください。
+デフォルトでは、すべてのアクティブフィールドをソースCSVの対応するフィールドにマッピングする必要があります。 ただし、特定のアクティブフィールドをCSVの列にマッピングしない場合は、BoxとFTPの両方の読み込みプロセスで、ドロップダウンリストから値&#x200B;**DontImportFromSource**&#x200B;を選択できます。 このオプションは、FTPコネクタまたはBoxコネクタを介してユーザーを読み込む場合に使用できます。 コネクタの詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)を参照してください。
+
+

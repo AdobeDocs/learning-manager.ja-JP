@@ -4,9 +4,9 @@ jcr-language: en_us
 title: カラーテーマ
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1261'
 ht-degree: 44%
 
 ---
@@ -186,6 +186,17 @@ Adobe Learning Manager を使用すると、アカウントをカスタマイズ
     <ul>
      <li><b>推奨される画像形式：</b>PNG、JPG、JPEG</li>
      <li><b>推奨サイズ：</b>1400 x 908 px</li>
+    </ul></td>
+  </tr>
+   <tr>
+   <td>
+    <p>ファビコン</p></td>
+   <td>
+    <p>管理者は、Adobe Learning Managerアカウントのファビコンを変更できません。 お気に入りアイコンを更新するには、サポートチーム(<a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a>)にお問い合わせください </p>
+    <p>学習者の背景に適用する画像が必要です。</p>
+    <ul>
+     <li><b>推奨される画像形式：</b>PNG</li>
+     <li><b>推奨サイズ： </b>32x32 px</li>
     </ul></td>
   </tr>
  </tbody>

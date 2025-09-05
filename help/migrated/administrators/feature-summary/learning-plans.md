@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 学習プラン
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 61%
+source-wordcount: '1629'
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,8 @@ Learning Manager で管理者向け学習プランを作成します。
 
    ![](assets/add-learning-plandialog.png)
 
-1. 「**[!UICONTROL 次の場合に発生]**」ドロップダウンリストで、必要なイベントを選択します。このオプションは、学習者がコースを受講するタイミングを決定します。 イベントのタイプを選択した後、適切なトレーニング、コース、学習プログラム、または資格認定を選択します。
+1. 「**[!UICONTROL 次の場合に発生]**」ドロップダウンリストで、必要なイベントを選択します。管理者は、一度に1つのイベントを追加できます。
+このオプションは、学習者がコースを受講するタイミングを決定します。 イベントのタイプを選択した後、適切なトレーニング、コース、学習プログラム、または資格認定を選択します。
 
 >[!NOTE]
 >
