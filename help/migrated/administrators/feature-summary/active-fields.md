@@ -126,6 +126,6 @@ _CSVアップロード時に値の制限を有効にするチェックボック�
 
 CSVファイルにすべてのアクティブフィールドが含まれていない場合、管理者はインポート後に欠落している値を手動で入力する必要があります。
 
-デフォルトでは、すべてのアクティブフィールドをソースCSVの対応するフィールドにマッピングする必要があります。 ただし、特定のアクティブフィールドをCSVの列にマッピングしない場合は、BoxとFTPの両方の読み込みプロセスで、ドロップダウンリストから値&#x200B;**DontImportFromSource**&#x200B;を選択できます。 このオプションは、FTPコネクタまたはBoxコネクタを介してユーザーを読み込む場合に使用できます。 コネクタの詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)を参照してください。
+デフォルトでは、すべてのアクティブフィールドをソースCSVの対応するフィールドにマッピングする必要があります。 ただし、特定のアクティブフィールドをCSVの列にマッピングしない場合は、BoxとFTPの両方の読み込みプロセスで、ドロップダウンリストから値&#x200B;**DontImportFromSource**&#x200B;を選択できます。 このオプションは、FTPコネクタまたはBoxコネクタを介してユーザーを読み込む場合に使用できます。 コネクタの詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/connectors)を参照してください。
 
 
