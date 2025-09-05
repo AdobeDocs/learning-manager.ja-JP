@@ -4,10 +4,10 @@ jcr-language: en_us
 title: ピアアカウント
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -54,6 +54,18 @@ Learning Manager ではピアアカウント機能を用いて、購入した席
 
    管理者がピアと席を共有する場合、そのピアは他のユーザーと席を共有することができません。 ただし、ピアが席を別途購入してそれを共有することはできます。
 
+## ピアアカウントによって共有されている席を表示
+
+管理者は、ピアアカウントによって共有されている席の数を管理者インターフェイスで確認できます。
+
+ピアアカウントによって共有されている席を表示するには：
+
+1. Adobe Learning Managerに管理者としてログインします。
+2. **[!UICONTROL ユーザー]**&#x200B;を選択し、**[!UICONTROL 内部]**&#x200B;を選択します。
+
+![](assets/peer-account-seats.png)
+_ピアアカウントによって共有されている席の数を示す「ユーザー」セクション_
+
 ## ピアアカウントに関連付けられたレポートの表示 {#viewreportsassociatedwithpeeraccounts}
 
 ピアアカウントを確立した後で、ピアアカウントのレポートを書き出すこともできます。 管理者は、ピアアカウント要求を開始すると、そのピアアカウントのレポートを表示できます。
@@ -90,7 +102,7 @@ Learning Manager ではピアアカウント機能を用いて、購入した席
 
 ## よくある質問 {#frequentlyaskedquestions}
 
-+++アカウント間で席を共有する方法
++++アカウント間で席を共有するにはどうすればよいですか？
 
 ピアアカウントを追加する場合、別のピアアカウントと共有できる席数を指定します。
 

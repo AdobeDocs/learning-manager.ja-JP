@@ -4,10 +4,10 @@ jcr-language: en_us
 title: セッションの学習者の管理
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 
 ## 招待状の返信をキャプチャ
 
-「学習者」セクションに招待の回答が表示されます。 任意のセッションに移動し、**[!UICONTROL 学習者]**&#x200B;を選択して、ドロップダウンメニューから招待の回答を選択します。
+インストラクターは、ACAP管理者によって&#x200B;**[!UICONTROL 「返信を招待」]**&#x200B;オプションが有効になっている場合にのみ、学習者の招待回答をキャプチャできます。 この機能を有効にするには、管理者はサポートチーム([learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com))に問い合わせる必要があります。
+
+完了すると、「**[!UICONTROL 学習者]**」セクションに招待状の回答が表示されます。 任意のセッションに移動し、**[!UICONTROL 学習者]**&#x200B;を選択して、ドロップダウンメニューから招待の回答を選択します。
 
 ![](assets/invitation-status.png)
 
