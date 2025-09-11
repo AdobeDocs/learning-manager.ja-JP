@@ -1,3 +1,7 @@
-Id,CustomRole
-andrew@example.com,Role I
-john@example.com,Role II
+﻿Id,CustomRole,Source,User Role State
+will.smith@example.com,Custom Role 1,CSV Upload,ACTIVE
+emma.jones@example.com,Custom Role 2,CSV Upload,ACTIVE
+michael.lee@example.com,Custom Role 3,CSV Upload,ACTIVE
+sophia.wilson@example.com,Custom Role 4,CSV Upload,ACTIVE
+david.smith@example.com,Custom Role 5,CSV Upload,ACTIVE
+david.smith@example.com,Custom Role 6,CSV Upload,ACTIVE
