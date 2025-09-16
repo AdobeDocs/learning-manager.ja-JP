@@ -4,10 +4,10 @@ title: Adobe Learning ManagerとAEMの連携
 description: Learning Managerは、学習コンテンツ管理システムが組み込まれた学習管理システムです。 ユーザーは、学習コンテンツを Learning Manager にアップロードして管理します。これにより Learning Manager で、バージョン管理、コースへの割り当て、学習者への表示の定義、使用状況の追跡、管理者への報告を行うことができます。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 55%
+source-wordcount: '3138'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ ALM 参照サイトパッケージをインストールしたら、AEM Sitesイ�
 
 AEM Sitesの環境を保護したら、ALM リファレンスサイトパッケージをインストールする必要があります。 このパッケージには、学習プラットフォームの構築に役立つAEM Web ページと Web サイトコンポーネントが含まれています。
 
-参照サイトパッケージは、[**GitHubリポジトリ**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)でホストされています。
+参照サイトパッケージは、[**GitHubリポジトリ**](https://github.com/adobe/adobe-learning-manager-reference-site/releases)でホストされています。
 
 詳しくは README をご覧ください。
 
@@ -52,7 +52,7 @@ AEM Package Manager を使用して、Learning Manager コンテンツパッケ�
 
 >[!NOTE]
 >
->パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja#how-to-work-with-packages)を参照してください。
+>パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)を参照してください。
 
 1. AEM 作成者として、AEM Package Manager を開きます。
 1. **[!UICONTROL 「パッケージのアップロード」]**&#x200B;ボタンをクリックします。
@@ -413,6 +413,7 @@ AEMサイトで「保存済みコース」ウィジェットを設定するに�
 
 ウィジェットは、学習者に対して保存されたコースを表示します。
 
+カタログ内で別のフィルターを適用すると、そのフィルターに一致する結果のみが表示されます。 ブックマークされた項目は、自動的には含まれません。
 
 ### 上位のLO登録を無視
 
