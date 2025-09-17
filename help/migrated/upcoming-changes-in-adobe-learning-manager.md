@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 10月リリースの新機能
 description: Adobe Learning Manager 2025年10月リリースの新機能、改善点、および重要な更新について説明します。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
 workflow-type: tm+mt
-source-wordcount: '8390'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ _学習者のトランスクリプトレポートに、各ユーザーの個々�
 * 統合機能によるダウンストリーム・ユーザー管理ワークフローをサポートします。
 * 組織のマッピングが改善され、レポート関係の理解が向上しました。
 * 組織の境界を維持し、偶発的な相互通信を防止します。
-
-**重要な考慮事項**
-
-* カスタム管理者のスコープが変更された場合、影響を受けるアナウンスには警告アイコンが表示され、個々のスコープをリセットする必要があります。
-* 範囲の変更が発生した場合、各アナウンスを個別に更新する必要があります。
-* 通知アナウンスレポートには、カスタム管理者が割り当てた範囲内の学習者のみが表示されます。
 
 ### 新しい列を含むユーザーレポート
 
@@ -924,7 +918,7 @@ Go1との連携が強化され、Adobe Learning Manager内で学習プログラ�
    ![代替テキスト](assets/select-go1-courses.png)
    _Go1コースをセールスエンジニアのスキル開発プレイリストに追加して、キュレートされたサードパーティコンテンツで学習オプションを拡張します_
 
-6. **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**&#x200B;を検索して選択し、次のいずれかを選択します：
+6. **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**を検索して選択し、次のいずれかを選択します：
 a. **[!UICONTROL AIを活用]**:AIを活用したプレイリストを作成します。
 b. **[!UICONTROL 自分で]**：再生リストにコースを手動で追加して、再生リストを作成します。
 
@@ -1732,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
