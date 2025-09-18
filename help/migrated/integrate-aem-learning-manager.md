@@ -4,9 +4,9 @@ title: Adobe Learning ManagerとAEMの連携
 description: Learning Managerは、学習コンテンツ管理システムが組み込まれた学習管理システムです。 ユーザーは、学習コンテンツを Learning Manager にアップロードして管理します。これにより Learning Manager で、バージョン管理、コースへの割り当て、学習者への表示の定義、使用状況の追跡、管理者への報告を行うことができます。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3163'
 ht-degree: 54%
 
 ---
@@ -52,7 +52,7 @@ AEM Package Manager を使用して、Learning Manager コンテンツパッケ�
 
 >[!NOTE]
 >
->パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja#how-to-work-with-packages)を参照してください。
+>パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)を参照してください。
 
 1. AEM 作成者として、AEM Package Manager を開きます。
 1. **[!UICONTROL 「パッケージのアップロード」]**&#x200B;ボタンをクリックします。
@@ -411,7 +411,7 @@ AEMサイトで「保存済みコース」ウィジェットを設定するに�
 5. **[!UICONTROL プロパティ]**&#x200B;のドロップダウンメニューから「**[!UICONTROL 保存済みのコース]**」を選択します。
 6. 「**[!UICONTROL 完了]**」を選択し、**[!UICONTROL プレビュー]**&#x200B;または&#x200B;**[!UICONTROL Publish]**&#x200B;でページを更新します。
 
-ウィジェットは、学習者に対して保存されたコースを表示します。
+学習者は、学習者のホームページの「**[!UICONTROL 自分が保存]**」ストリップで保存済みのコースを表示できます。「**[!UICONTROL 自分が保存]**」ストリップを選択すると、学習者がカタログページに移動し、ブックマークされたコースの正確な数が表示されます。
 
 カタログ内で別のフィルターを適用すると、そのフィルターに一致する結果のみが表示されます。 ブックマークされた項目は、自動的には含まれません。
 
