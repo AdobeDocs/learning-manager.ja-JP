@@ -4,10 +4,10 @@ title: Adobe Learning ManagerとAEMの連携
 description: Learning Managerは、学習コンテンツ管理システムが組み込まれた学習管理システムです。 ユーザーは、学習コンテンツを Learning Manager にアップロードして管理します。これにより Learning Manager で、バージョン管理、コースへの割り当て、学習者への表示の定義、使用状況の追跡、管理者への報告を行うことができます。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 54%
+source-wordcount: '3274'
+ht-degree: 52%
 
 ---
 
@@ -52,7 +52,7 @@ AEM Package Manager を使用して、Learning Manager コンテンツパッケ�
 
 >[!NOTE]
 >
->パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=ja#how-to-work-with-packages)を参照してください。
+>パッケージのインストールについては、[***パッケージの操作方法***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)を参照してください。
 
 1. AEM 作成者として、AEM Package Manager を開きます。
 1. **[!UICONTROL 「パッケージのアップロード」]**&#x200B;ボタンをクリックします。
@@ -360,7 +360,20 @@ Skylineの構成手順については、[GitHubリポジトリ](https://github.c
 カタログオプションには、次のオプションがあります。
 
 * **[!UICONTROL カタログID]:**&#x200B;トレーニングを表示する必要がある、コンマで区切られたカタログIDです。
-* **[!UICONTROL 並べ替え]:**&#x200B;トレーニングの並べ替え順序です。 名前、日付、作成日、登録日などのオプションがあります。
+* **[!UICONTROL 並べ替え]:**&#x200B;トレーニングの並べ替え順序です。 次の並べ替えオプションがあります。
+   * 名前：学習目標をアルファベット順(A ～ Z)にソートします。
+   * -name：学習オブジェクトをZからAのアルファベット順にソートします。
+   * date：日付で昇順に並べ替えます。
+   * -date：日付で降順（最新から順）に並べ替えます。
+   * dateCreated：学習目標の作成日の順にソートします（最も古い順）。
+   * -dateCreated：作成日（新しい順）で並べ替えます。
+   * dateEnrolled：学習者の登録日（最早の順）でソートします。
+   * -dateEnrolled：登録日（最新の最初の登録日）でソートします。
+   * 評価：学習者の評価で並べ替えます（低いものから高いものへ）。
+   * -rating：評価で並べ替えます（高いものから低いものへ）。
+   * 期日：コースの期日（最初に期限が早い順）で並べ替えます。
+   * 有効性：学習者のフィードバックに基づいて、有効性スコアで並べ替えます。
+   * 進捗状況：学習者の進捗状況（最も短い進捗状況）で並べ替えます。
 * **[!UICONTROL 学習者の状態]:**&#x200B;次の情報をフィルター（登録済み、開始、完了、未登録）として使用しているすべてのトレーニングを返します。 ソートオプションがdateEnrolled、dueDate、またはdateEnrolledの場合、検索結果は表示されません。
 * **[!UICONTROL スキル名]:**&#x200B;トレーニングを正確に絞り込むために使用するスキルです。
 * **[!UICONTROL タグ名]:**&#x200B;結果を正確にフィルタリングするために使用されるタグです。
