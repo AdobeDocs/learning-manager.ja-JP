@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 10月リリースの新機能
 description: Adobe Learning Manager 2025年10月リリースの新機能、改善点、および重要な更新について説明します。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
 workflow-type: tm+mt
-source-wordcount: '8361'
+source-wordcount: '8349'
 ht-degree: 0%
 
 ---
@@ -918,7 +918,7 @@ Go1との連携が強化され、Adobe Learning Manager内で学習プログラ�
    ![代替テキスト](assets/select-go1-courses.png)
    _Go1コースをセールスエンジニアのスキル開発プレイリストに追加して、キュレートされたサードパーティコンテンツで学習オプションを拡張します_
 
-6. **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**&#x200B;を検索して選択し、次のいずれかを選択します：
+6. **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**を検索して選択し、次のいずれかを選択します：
 a. **[!UICONTROL AIを活用]**:AIを活用したプレイリストを作成します。
 b. **[!UICONTROL 自分で]**：再生リストにコースを手動で追加して、再生リストを作成します。
 
@@ -1259,8 +1259,6 @@ Adobe Learning Managerでページを作成するには、次の手順を実行�
 10. 「**[!UICONTROL 保存]**」を選択します。
 
 ページが作成され、「カスタムページ」セクションに下書きとして保存されている。 管理者は、ウィジェットを使用してドラフトされたページを編集および設計できます。
-
-同じ手順で、Illustratorなどの他の製品用のページを作成します。
 
 #### エクスペリエンスビルダーのデザインページ
 
@@ -1728,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
