@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 78%
+source-wordcount: '760'
+ht-degree: 71%
 
 ---
 
@@ -14,13 +14,14 @@ ht-degree: 78%
 
 * [Learning Manager ユーザーガイド](user-guide.md)
 * 概要 {#introduction}
-   * [Adobe Learning Manager 2025年10月リリースの新機能](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [新機能の概要2025年5月](/help/migrated/whats-new.md)
+   * [新機能の概要2025年10月](/help/migrated/whats-new.md)
+   * [新機能の概要2025年5月](/help/migrated/whats-new-may-2025.md)
    * [新機能の概要2024年11月](/help/migrated/whats-new-nov-24.md)
    * [新機能の概要2024年7月](whats-new-july-2024.md)
    * [新機能2024年3月](whats-new-march-2024.md)
    * [新機能2023年11月](whats-new-november-2023.md)
    * [新機能2023年7月](whats-new-2023-july.md)
+   * [Adobe Learning Managerで予定されている変更](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [リリースノート](release-note/release-notes.md)
    * [必要システム構成](system-requirements.md)
    * [Microsoft Teams 向け Adobe Learning Manager アプリ](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 78%
       * [アクティブフィールド](/help/migrated/administrators/feature-summary/active-fields.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
    * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
-   * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
+   * Adobe Learning ManagerのExperience Builder {#experience-builder}
+      * [概要](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Experience Builderのコアコンポーネント](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * エクスペリエンスビルダーのページ {#pages-in-experience-builder}
+         * [概要](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Experience Builderでのカスタムページの作成](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Experience Builderのウィジェット {#widgets-in-experience-builder}
+         * [概要](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [ウィジェットの追加と設定](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Experience Builderのメニュー {#menu-in-experience-builder}
+         * [概要](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [メニューの作成](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Experience Builderでのカスタマイズ {#customization-in-experience-builder}
+         * [概要](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Experience Builderのカスタマイズ](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builderのガイドラインと制限事項](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * コンテンツマーケットプレイス {#content-marketplace}
+      * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
+      * [Go1コースを学習パスにキュレート](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [レポート](administrators/feature-summary/reports.md)
    * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学習パス](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 78%
    * [タグ](administrators/feature-summary/tags.md)
    * [Learning Manager コンテンツカタログ](administrators/feature-summary/content-catalogs.md)
    * [カスタム役割](administrators/feature-summary/custom-role.md)
+   * [アナウンス権限のカスタムの役割](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [カタログラベル](administrators/feature-summary/catalog-labels.md)
    * [Learning Manager の xAPI](authors/feature-summary/xapi.md)
    * [管理者としてソーシャル学習のモニターとモデレートを行う](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

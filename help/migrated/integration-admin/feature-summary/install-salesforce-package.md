@@ -4,9 +4,9 @@ title: Salesforce パッケージのインストール
 description: Learning ManagerはSalesforceアプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDCポータル内のアプリにマストヘッド形式で表示できます。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1053'
 ht-degree: 47%
 
 ---
@@ -25,7 +25,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 1. Salesforceアプリケーションページで、説明に記載されているアプリケーションID（クライアントIDとも呼ばれます）とクライアントシークレットを確認します。
 1. 「**[!UICONTROL 承認]**」をクリックすると、アプリが正常に承認されます。
 1. **[!UICONTROL 開発者向けリソース]** > **[!UICONTROL テストおよび開発用のアクセストークン]**&#x200B;をクリックします。
-1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「admin:read,admin:write」に設定します。 「**[!UICONTROL 送信]**」をクリックします。
+1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「管理者:read，管理者:write」に設定する必要があります。 「**[!UICONTROL 送信]**」をクリックします。
 1. 「更新トークンを取得」で、クライアント ID とクライアントシークレットを入力します。 **[!UICONTROL [送信]]**&#x200B;をクリックして、更新トークンを確認します。
 
 ### Salesforce アプリでのアカウントの作成
@@ -47,7 +47,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 >
 >Adobe Learning Managerアプリは、Salesforce Lightningビューでのみサポートされています。
 
-1. [Learning ManagerパッケージのURL （M42パッチ2）](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG)を起動します。
+1. [Learning ManagerパッケージのURL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2)を起動します。
 1. **ログイン**&#x200B;ページで、[**[!UICONTROL カスタムドメインを使用]**]をクリックします。
 1. パッケージのURLを入力し、**[!UICONTROL [続行]]**&#x200B;をクリックします。 インストールページで「管理者のみにインストール」オプションを選択している必要があります。 このオプションは変更しないでください。
 1. [**[!UICONTROL インストール]**]をクリックします。 パッケージがインストールされたら、[**[!UICONTROL 完了]**]をクリックします。 インストール済みパッケージページが表示され、Adobe Learning Manager のインストール済みパッケージが表示されます。

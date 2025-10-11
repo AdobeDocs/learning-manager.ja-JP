@@ -4,10 +4,10 @@ title: 学習者ホームページ
 description: 管理者が没入型レイアウトを有効にすると、学習者はアプリにログインした後、完全に改良されたユーザーインターフェイスで挨拶されます。
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ _準拠ダッシュボードウィジェット_
 * 月別トレーニング。 左右にスクロール可能
 * 登録可能な今後の教室または VC トレーニング
 * 登録済みの今後の教室または VC トレーニング
+* 完了した教室またはVCセッション
 * マネージャー承認済みの教室または VC トレーニング
+
+フィルター&#x200B;**[!UICONTROL 登録済みセッションのみを表示]**&#x200B;を適用すると、カレンダーに登録済みセッションのみが表示されます。
+
 
 ## ソーシャルフィード {#socialfeed}
 

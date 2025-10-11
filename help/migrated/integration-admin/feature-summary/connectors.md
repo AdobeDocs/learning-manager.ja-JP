@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ Learning Managerから学習記録を書き出すには、Salesforceでカスタ
 
 1. パッケージをダウンロードしてインストールし、カスタムオブジェクトを作成します。
 
-   * [パッケージ 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [パッケージ 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [パッケージ 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [パッケージ 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [パッケージ 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [パッケージ 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Salesforce のカスタムオブジェクト名を変更します。
 1. イベントを選択し、**[!UICONTROL 「保存」]**&#x200B;をクリックします。
@@ -183,7 +183,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 1. Salesforceアプリケーションページで、説明に記載されているアプリケーションID（クライアントIDとも呼ばれます）とクライアントシークレットを確認します。
 1. 「**[!UICONTROL 承認]**」をクリックすると、アプリが正常に承認されます。
 1. **[!UICONTROL 開発者向けリソース]** > **[!UICONTROL テストおよび開発用のアクセストークン]**&#x200B;をクリックします。
-1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「admin:read,admin:write」に設定します。 「**[!UICONTROL 送信]**」をクリックします。
+1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「管理者:read，管理者:write」に設定する必要があります。 「**[!UICONTROL 送信]**」をクリックします。
 1. 「更新トークンを取得」で、クライアント ID とクライアントシークレットを入力します。 **[!UICONTROL [送信]]**&#x200B;をクリックして、更新トークンを確認します。
 
 ### Salesforce アプリでのアカウントの作成 {#create-account-in-salesforce-app}
@@ -337,7 +337,7 @@ Boxコネクターを使用して、データの移行、ユーザーの読み�
 
 データの書き出しでは、あらゆるサードパーティー製のシステムに統合するためにユーザーがユーザースキル、学習者のトランスクリプトを FTP の場所に書き出すことができます。
 
-#### スケジューリング {#scheduling}
+#### スケジュール設定 {#scheduling}
 
 管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Managerアプリケーション内のユーザーは、スケジュールに従って最新の状態になります。 同様に、統合管理者は、外部システムと統合されるようにスキルの書き出しをスケジュールすることができます。 Learning Managerアプリケーションで同期を毎日実行できます。
 
@@ -424,7 +424,7 @@ FileZillaをまだインストールしていない場合は、次の公式Web�
 
 ### 読み込み {#import}
 
-+++・内ユーザー
++++社内ユーザー
 
 社内ユーザーの読み込みオプションを使用すると、オンデマンドまたはスケジュールを設定したうえで、ユーザーをcsvからLearning Managerに読み込むことができます。
 
@@ -447,7 +447,7 @@ FileZillaをまだインストールしていない場合は、次の公式Web�
 
 +++
 
-+++Learning Manager FTPコネクタの使用
++++Learning Manager FTP コネクタの使用
 
 1. 外部システムからのCSVファイルは次のパスに配置する必要があります。
 
@@ -469,13 +469,13 @@ FileZillaをまだインストールしていない場合は、次の公式Web�
 
 +++
 
-+++xAPIの読み込み
++++xAPI の読み込み
 
 xAPI の読み込みオプションにより、サードパーティ製サービスの xAPI ステートメントを Learning Manager に読み込むための処理のスケジュールを設定できます。
 
 +++
 
-+++xAPIの読み込みに必要な設定
++++xAPI を読み込むために必要な設定
 
 1. 設定ページで、設定リストにある既存の設定を選択し、xAPIステートメントをCSVから読み込みます。 [編集]または&#x200B;**新しい構成の追加**&#x200B;リンクをクリックして、インポートソースの構成ページに移動します。
 
@@ -803,7 +803,7 @@ Learning Manager 管理者は、読み込む前にユーザーにフィルタリ
 * Workdayを使用してに入力されたUUIDフィールドは、クライアント側のLMS Administratorでは削除できません。 値を変更する場合は、Adobe Learning Managerのオンボーディングチームまたはサポートチームにお問い合わせください。
 * ユーザー削除は1回の実行で50人のユーザーを削除することしかサポートしていないため、ユーザー削除オプションも機能しない場合があります。 UUIDを介してユーザーをアップロードする場合は、細心の注意を払ってください。
 
-### スケジューリング {#Scheduling-1}
+### スケジュール設定 {#Scheduling-1}
 
 管理者は、組織の要件に応じてタスクをスケジュール設定できます。Learning Manager アプリケーション内のユーザーは、設定されたスケジュールに従って最新の情報に更新されます。同様に、統合管理者は、外部システムと統合されるのに都合のいい時間にスキルの書き出しをスケジュール設定することができます。Learning Manager アプリケーションで、同期が毎日実行されます。
 
@@ -876,7 +876,7 @@ Workday に 4 つの階層レベルがあるのに対し、Learning Manager に�
 >
 >Workday 属性も追加できます。 属性を追加するには、CSAM に連絡してください。
 
-+++サポートされているWorkday属性のリスト
++++サポートされている Workday 属性のリスト
 
 wd:User_ID
 wd:Worker_ID
@@ -897,26 +897,26 @@ wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0@wd:Formatted_Phone
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
-wd:Personal_Data.wd:Primary_Nationity_Reference.wd:ID.1.$
+wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$
 wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$
 wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID
 wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID
 wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$
-wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1$
+wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data@wd:Formatted_Address
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0@wd:Formatted_Address
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
@@ -928,8 +928,8 @@ wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1$
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
 wd:Qualification_Data.wd:Education.0.wd:School_Name
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
@@ -942,8 +942,8 @@ wd:Organization_Subtype_Reference_Department
 wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 +++
 
@@ -952,7 +952,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 ユーザーが達成したすべてのスキルを Learning Manager から Workday に書き出すことができます。Learning Manager はすべてのアクティブなユーザースキルのみを書き出し、廃止スキルは書き出しません。複数のLearning Managerに接続することもできます\
 同じWorkdayコネクタにアカウントを関連付けます。 2つのLearning Managerアカウントのスキル名が同じ場合、Workdayの同じスキルにマッピングされます。 2つのLearning Managerアカウントが同じWorkdayアカウントを使用している場合、Workdayでスキルをアップデートする前に、すべてのLearning Managerアカウントでスキル名をアップデートすることをお勧めします。
 
-+++ユーザースキル – 設定
++++ユーザースキル - 設定
 
 このオプションではレポート抽出のスケジュール設定ができます。「この接続を使用してユーザースキル書き出しを有効にする」チェックボックスがオンになっていることを確認します。「スケジュールを有効にする」チェックボックスをオンにして、開始日時を指定します。レポートを生成して送信する間隔を指定することもできます。「スケジュールを有効にする」チェックボックスをオンにして、開始日、時間および「n」日後に繰り返すを入力します。完了したら、「保存」をクリックします。
 
@@ -961,7 +961,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
-+++ユーザースキル – オンデマンド
++++ユーザースキル - オンデマンド
 
 開始日を指定し、オプションを使用してレポートを書き出すことができます。レポートは現在までに入力された日付から抽出されます。レポートの生成を開始する日付を入力して「実行」をクリックします。
 
@@ -970,7 +970,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
-+++ユーザースキル – 実行ステータス
++++ユーザースキル - 実行ステータス
 
 ここでは、すべてのタスクの概要を表示し、それらのステータスレポートを取得できます。エラーレポートのリンクをクリックすると、エラーレポートをダウンロードできます。
 
@@ -1138,7 +1138,7 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 ## 読み込み {#import-7}
 
-+++・内ユーザー
++++社内ユーザー
 
 内部ユーザー読み込みオプションを使用すると、ユーザー読み込みレポートの生成を自動的にスケジュールすることができます。生成されたレポートは .CSV ファイルとして届きます。
 
@@ -1159,13 +1159,13 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 +++
 
-+++xAPIアクティビティレポート
++++xAPI アクティビティレポート
 
 「xAPI アクティビティレポート」オプションにより、サードパーティ製サービスから xAPI ステートメントをファイルとして読み込むための構成を生成することができます。Learning Manager に読み込まれたファイルは .CSV ファイルとして保存され、その後 xAPI ステートメントに変換されます。
 
 +++
 
-+++xAPIの読み込みに必要な設定
++++xAPI を読み込むために必要な設定
 
 1. 設定ページで、設定リストにある既存の設定を選択し、xAPIステートメントをCSVから読み込みます。 「編集」または「A **新しい構成を追加**」リンクをクリックして、xAPIステートメントのインポート – 構成ソースファイルページに移動します。
 
@@ -1239,9 +1239,9 @@ BoxコネクターとLearning Managerを統合するためのプロセスを学�
 
 +++
 
-## 書き出し {#export-2}
+## スキルの {#export-2}
 
-+++スキル
++++書き出し
 
 ユーザーのスキルレポートを書き出すには、2つのオプションがあります。
 
@@ -2111,7 +2111,7 @@ APIを使用して、Adobe Learning Managerからデータ取得サービスお�
    ![](assets/types-of-interface.png)
 インターフェイスの種類
 
-1. **[!UICONTROL Connect]**&#x200B;を選択します。 ベースURLとCDN URLが自動生成されます。
+1. **[!UICONTROL Connect]**を選択します。 ベースURLとCDN URLが自動生成されます。
 これらのURLを使用して、APIを使用してデータを取得できます。
 
    >[!NOTE]
@@ -2124,7 +2124,7 @@ APIを使用して、Adobe Learning Managerからデータ取得サービスお�
 1. 接続を有効にすると、すべてのコース、学習パス、資格認定の画像がCDNに移行されます。
 1. コース、学習パス、資格認定のメタデータを検索および取得サービスに書き出します。
 1. 「スケジュールを有効にする」オプションを選択して、メタデータの書き出しをスケジュールできます。 プレミアムプランの場合、スケジュールは3時間ごとに自動的に実行されます。
-1. オンデマンドレポートの場合は、**[!UICONTROL オンデマンド]**&#x200B;に移動し、**[!UICONTROL 開始日]**&#x200B;を選択して、**[!UICONTROL [実行]をクリック]**&#x200B;します。
+1. オンデマンドレポートの場合は、**[!UICONTROL オンデマンド]**&#x200B;に移動し、**[!UICONTROL 開始日]**&#x200B;を選択して、**[!UICONTROL [実行]をクリック]**します。
 レポートの実行ステータスは、**[!UICONTROL 実行ステータス]**&#x200B;ページで確認できます。
 
 ### AEM での Web サイトの作成 {#create-website-in-aem}
@@ -2235,7 +2235,7 @@ Adobe Commerceでデータが同期されるまで、コースまたは学習パ
 
 >[!NOTE]
 >
->2024年3月リリースのAdobe Learning Managerでは、[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=ja)のサポートが導入されました。
+>2024年3月リリースのAdobe Learning Managerでは、[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)のサポートが導入されました。
 
 
 1. **[!UICONTROL トレーニングメタデータの書き出し]**/**[!UICONTROL オンデマンド]**&#x200B;をクリックします。

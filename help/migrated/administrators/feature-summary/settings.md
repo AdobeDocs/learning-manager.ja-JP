@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 64%
+source-wordcount: '3697'
+ht-degree: 63%
 
 ---
 
@@ -30,34 +30,34 @@ ht-degree: 64%
 
 ## アカウント設定 {#accountsettings}
 
-To update your organization&#39;s account settings, click **[!UICONTROL Settings]** on the left pane.
+組織のアカウント設定を更新するには、左側のウィンドウで[**[!UICONTROL 設定]**]をクリックします。
 
-**Basic info (Company info)**
+**基本情報（会社情報）**
 
 ページの[**[!UICONTROL 変更]**]をクリックし、国、タイムゾーン、ロケール、会計年度に関する設定を編集します。
 
 **管理者への問い合わせの設定**
 
-組織のサポート管理者のメールアドレスを追加または変更する場合は、左側のペインで「**[!UICONTROL 一般]**」をクリックします。Click **[!UICONTROL Change]** adjacent to **[!UICONTROL Support Email ID]** and add the email ids. Email is sent to these administrators when learner clicks **[!UICONTROL Contact Admin]** at the footer of the page.
+組織のサポート管理者のメールアドレスを追加または変更する場合は、左側のペインで「**[!UICONTROL 一般]**」をクリックします。「**[!UICONTROL サポート電子メールID]**」の横にある「**[!UICONTROL 変更]**」をクリックして、電子メールIDを追加します。 学習者がページのフッターで「**[!UICONTROL 管理者に問い合わせる]**」をクリックすると、これらの管理者に電子メールが送信されます。
 
-Add additional email-ids with semi-colon as a separator.
+セミコロンを区切り文字として使用して、電子メールIDを追加します。
 
-**Login methods** - Administrators can choose the mode using which your internal or external users can access the account.
+**ログイン方法** – 管理者は、内部ユーザーと外部ユーザーがアカウントにアクセスする場合のログイン方法を選択できます。
 
-* **Internal users:** For internal users, you can set Adobe ID or Single Sign-on as a log in mode.
-* **外部ユーザー:** 外部ユーザー向けには、Adobe ID、シングルサインオン、ラーニングマネージャー ID を設定できます。
+* **社内ユーザー：**&#x200B;社内ユーザーの場合、Adobe IDまたはシングルサインオンをログインモードとして設定できます。
+* **社外ユーザー：**&#x200B;社外ユーザーの場合、Adobe ID、シングルサインオンまたはLearning Manager IDを設定できます。
 
-[ラーニング マネージャ ID] を選択した場合、外部ユーザはラーニング マネージャのユーザ名とパスワードを作成した後にこのアカウントにログインできます。
+Learning Manager IDを選択した場合、外部ユーザーは、Learning Managerのユーザー名とパスワードを作成した後で、このアカウントにログインできます。
 
 >[!NOTE]
 >
->複数の外部プロファイルが設定されている場合、すべてのプロファイルに 1 つのタイプのログインを設定できます。 例えば、ログイン方法として Adobe ID を選択した場合、すべてのプロファイルで Adobe ID のみを使用してログインする必要があります。各プロファイルで異なるログイン方法を設定することはできません。
+>複数の外部プロファイルが設定されている場合は、すべてのプロファイルに任意の1タイプのログインを設定できます。 例えば、ログイン方法として Adobe ID を選択した場合、すべてのプロファイルで Adobe ID のみを使用してログインする必要があります。各プロファイルで異なるログイン方法を設定することはできません。
 
 Adobe ID を使用して Learning Manager にアクセスすることも、シングルサインオン機能を使用してアクセスすることもできます。シングルサインオン（SSO）機能とは、ユーザー認証を 1 回実行するのみで、複数のアプリケーションに繰り返しアクセスできるようになるメカニズムのことです。この機能を組織全体で設定する必要はありません。組織内で SAML 2.0 ベースの SSO プロバイダーを使用している場合は、そのプロバイダーを使用して Learning Manager アプリケーションを設定することができます。この設定は、Learning Manager アプリケーションに対して組織レベルで行う必要があります。SSO 機能を使用する場合は、設定方法をアドビサポートに問い合わせてください。
 
 **フィードバック**
 
-コースを修了した学習者からフィードバックを受け取るためのアンケートを作成するには、左側のペインで「**[!UICONTROL フィードバック]**」をクリックします。L1およびL3フィードバックの作成については、 [コース機能のヘルプコンテンツ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) を参照してください。
+コースを修了した学習者からフィードバックを受け取るためのアンケートを作成するには、左側のペインで「**[!UICONTROL フィードバック]**」をクリックします。L1およびL3フィードバックの作成方法については、[コース機能のヘルプコンテンツ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback)を参照してください。
 
 「**複数回の試行**」オプション
 
@@ -83,7 +83,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
 
 **Adobe Connect**
 
-Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect account to host virtual classroom sessions. For more information, refer to  [Adobe Connect](adobeconnect-integration.md) feature help.
+左側のペインで&#x200B;**[!UICONTROL Adobe Connect]**&#x200B;をクリックして、バーチャルクラスルームセッションをホストするようにAdobe Connectアカウントを設定します。 詳細については、[Adobe Connect](adobeconnect-integration.md)の機能のヘルプを参照してください。
 
 ## 一般設定 {#general}
 
@@ -184,7 +184,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
      <li><b>「ダイジェスト電子メール」</b>オプションは無効になります。</li>
      <li>学習者は、ダイジェスト電子メールサブスクリプションのユーザー設定を確認できません。</li>
     </ul>
-    <p> この機能が有効になっている場合は、次のようにします。</p>
+    <p> この機能が有効になっている場合は、次のようになります。</p>
     <ul>
      <li>管理者は、「ダイジェスト電子メール」オプションを有効にして変更できます。</li>
      <li>学習者アプリの<b>「プロフィール設定」</b>で、学習者（DND リストに含まれない）は、ダイジェスト電子メールの購読／購読解除を選択できます。</li>
@@ -206,7 +206,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
     </ol>
     <p>さらに、以下を実行することも可能です。</p>
     <ul>
-     <li><b>リセット</b>アイコンをクリックして、<b>ヘルプ</b>および<b>管理者に連絡</b>フィールドのデフォルト値をリセットします。</li>
+     <li><b>リセット</b>アイコンをクリックして、<b>ヘルプ</b>および<b>管理者に問い合わせ</b>フィールドの既定値をリセットします。</li>
      <li>すべての言語のフッター上のリンクをカスタマイズします。「<b>言語</b>」ドロップダウンリストをクリックし、言語を選択して、指定されたフィールドに<b>名前</b>と <b>URL</b> を追加します。変更を保存すると、更新されたリンクがフッターに表示されます。<br></li>
     </ul></td>
   </tr>
@@ -287,7 +287,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
    <td height="19">学習者が学習アプリを起動すると、「学習状況」セクションと「カタログ」セクションの各パネルでフィルターを表示することができます。</td>
   </tr>
   <tr>
-   <td height="20">Note: The filters Format and Duration are switched off by default and do not appear to the learners immediately after the release. 管理者が有効にする必要があります。 </td>
+   <td height="20">注意：形式および時間フィルターはデフォルトでオフになっており、リリースされた状態では学習者に表示されません。 管理者が有効にする必要があります。 </td>
   </tr>
   <tr>
    <td height="20">カタログリストの表示</td>
@@ -322,16 +322,16 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
    <td>管理者は、学習者への電子メールの送信を有効または無効にできます。 管理者は、送信する電子メールの頻度を管理することもできます。</td>
   </tr>
   <tr>
-   <td height="19">アクティブなアカウントの場合、ダイジェストメールはデフォルトで無効になりますが、管理者は手動で有効にできます。</td>
+   <td height="19">アクティブなアカウントの場合、ダイジェスト電子メールはデフォルトで無効になっていますが、管理者は手動で有効にすることができます。</td>
   </tr>
   <tr>
-   <td height="19">トライアルアカウントの場合、ダイジェストメールのオプションは無効のままになり、管理者はオプションを有効にできません。</td>
+   <td height="19">体験版アカウントの場合、ダイジェスト電子メールのオプションは無効のままになり、管理者はこのオプションを有効にすることはできません。</td>
   </tr>
   <tr>
    <td height="19">この機能が無効な場合</td>
   </tr>
   <tr>
-   <td height="19">[ダイジェストメール]オプションは無効になります。</td>
+   <td height="19">「ダイジェスト電子メール」オプションは無効になります。</td>
   </tr>
   <tr>
    <td height="19">学習者は、ダイジェスト電子メールサブスクリプションのユーザー設定を確認できません。</td>
@@ -363,7 +363,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
    <td height="19">2.すべてのロケールに変更を適用するには、「複製」をクリックします。 これにより、すべての言語で名前と URL が取得されます。</td>
   </tr>
   <tr>
-   <td height="19">3. To save the changes, click Save. 変更を確認するポップアップメッセージが表示されます。「OK」をクリックすると、フッターに新しく追加されたリンクが表示されます。</td>
+   <td height="19">3.変更を保存するには、「保存」をクリックします。 変更を確認するポップアップメッセージが表示されます。「OK」をクリックすると、フッターに新しく追加されたリンクが表示されます。</td>
   </tr>
   <tr>
    <td height="19">さらに、以下を実行することも可能です。</td>
@@ -372,7 +372,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
    <td height="19">リセットアイコンをクリックして、「ヘルプ」および「管理者に問い合わせる」フィールドでデフォルト値をリセットします。</td>
   </tr>
   <tr>
-   <td height="20">すべての言語のフッター上にあるリンクをカスタマイズします。Click the Language drop-down list, select the language, and add the Name and URL in the specified fields. 変更を保存すると、更新されたリンクがフッターに表示されます。</td>
+   <td height="20">すべての言語のフッター上にあるリンクをカスタマイズします。言語ドロップダウンリストをクリックし、言語を選択して、指定されたフィールドに名前とURLを追加します。 変更を保存すると、更新されたリンクがフッターに表示されます。</td>
   </tr>
   <tr>
    <td rowspan="5" height="96">レポートのタイムゾーン</td>
@@ -388,7 +388,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
    <td height="19">ジョブAPIを使用して学習者のトランスクリプトがダウンロードされると、選択したタイムゾーンのデータもダウンロードされます。</td>
   </tr>
   <tr>
-   <td height="20">Note: There is no change expected in the Learner Transcript by default immediately after the release. 管理者は、「管理者/設定/一般/レポートのタイムゾーン」から設定を構成できます。</td>
+   <td height="20">注意：リリースされた状態のデフォルトでは、学習者トランスクリプトに変更はありません。 管理者は、「管理者/設定/一般/レポートのタイムゾーン」から設定を構成できます。</td>
   </tr>
   <tr>
    <td height="19">Badgr の統合</td>
@@ -402,14 +402,18 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
      <li><b>「コースの有効性」</b>オプションが有効な場合、学習者はコースの有効性の値のみを確認できます。</li>
      <li><b>「星評価」</b>オプションが有効な場合、学習者は星評価の平均とコースを評価した学習者の数のみを表示できます。<br></li>
     </ul>
-    <p>この機能は、コースでのみ使用できます。 星評価は、学習プログラムや資格認定や証明書ではサポートされていません。<br><br><b>Note: </b>This change affects the learner app only. </p>
+    <p>この機能は、コースでのみ使用できます。 星評価は、学習プログラムや資格認定や証明書ではサポートされていません。<br><br><b>注意： </b>この変更は学習者アプリにのみ影響します。 </p>
     <p>その他のすべてのアプリ（管理者、作成者、マネージャー、カスタム管理者、カスタム作成者）では、設定の変更（星評価／コースの有効性／評価を表示の無効化）は影響を受けません。 </p>
-    <p>For new accounts, the <b>Show Ratings</b> section will have the option <b>Star rating</b> enabled by default.</p>
-    <p>For existing accounts, if the account previously had the option <b>Course effectiveness</b> enabled, then the <b>Show Ratings</b> section will be enabled with the option Course effectiveness selected. If the option <b>Course effectivenes</b>s is disabled, then the <b>Show Ratings</b> section will also be disabled. When the <b>Show Ratings</b> section is enabled, the option <b>Star rating</b> will be enabled by default.</p></td>
+    <p>新しいアカウントの場合、<b>評価を表示</b>セクションのオプション<b>評価</b>は既定で有効になります。</p>
+    <p>既存のアカウントでは、アカウントで以前にオプション<b>コースの有効性</b>を有効にしていた場合、評価を表示<b>セクションが有効になり「コースの有効性」オプションが選択されます。 </b>オプション<b>コースの有効性</b>が無効な場合、<b>評価を表示</b>セクションも無効になります。 <b>評価を表示</b>セクションが有効な場合、オプション<b>星評価</b>は既定で有効になります。</p></td>
   </tr>
   <tr>
    <td height="19">廃止</td>
-   <td>Select the any of  the retire option from the following:<li>退役後、登録済みの学習者はアクションを表示および実行できますが、まだ登録されていない学習者はアクセスできなくなります。</li><li>引退すると、登録済みの学習者とまだ登録されていない学習者の両方がアクセスできなくなります。</li><div><b>注意: </b> コース、学習パス、または認定資格は、概要ページから廃止できます。</div> </td>
+   <td>次の中から、いずれかの「廃止」オプションを選択します。<li>撤回すると、登録済み学習者はアクションを表示および実行できますが、まだ登録されていない学習者はアクセスできなくなります。</li><li>撤回すると、登録済み学習者とまだ登録されていない学習者の両方がアクセスできなくなります。</li><div><b>注意：</b>コース、学習パス、または資格認定は、概要ページから廃止することができます。</div> </td>
+  </tr>
+  <tr>
+   <td height="19">検索結果にすべての登録済みコースを表示</td>
+   <td>有効にすると、登録された学習パスまたは資格認定に含まれている場合でも、学習者は検索結果でコースを確認できます。</td>
   </tr>
  </tbody>
 </table>
@@ -420,7 +424,7 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
    <td>
     <p>学習パス</p></td>
    <td>
-    <p><b>「学習パスの拡張機能を有効にする」</b>オプションを有効にしている場合、管理者は学習パス内に学習パスを含め、これらの学習パスをコースと組み合わせることができます。 このオプションは元に戻すことができません。<br></p></td>
+    <p><b>学習パスの拡張機能を有効にする</b>オプションを選択した場合、管理者は学習パス内に学習パスを含め、これらの学習パスをコースと組み合わせることができます。 このオプションは元に戻すことができません。<br></p></td>
   </tr>
   <tr>
    <td>
@@ -433,7 +437,8 @@ Click **[!UICONTROL Adobe Connect]** on the left pane to configure Adobe Connect
       <p>スキルのインポート</p>
     </td>
     <td>
-      <p>有効にすると、スキルをインポートする外部ソースを選択できます。 既存の学習リソースのスキルは、最初の実行時にスキルリポジトリに1回インポートされます。 学習リソースの後続のすべてのインポートでは、スキルは新しくインポートされたアイテムに対してのみスキルリポジトリにインポートされます。      このオプションを有効にすると、この操作は元に戻せません。 後で無効にしたり、別のソースに変更したりすることはできません。
+      <p>有効にすると、スキルを読み込む外部ソースを選択できます。 既存の学習リソースのスキルは、最初の実行時に1回、スキルリポジトリに読み込まれます。 それ以降に学習リソースを読み込んだ場合、スキルは新しく読み込まれた項目のスキルリポジトリにのみ読み込まれます。
+      このオプションを有効にすると、この操作は元に戻せません。 後で無効にしたり、別のソースに変更したりすることはできません。
       </p>
     </td>
   </tr>
@@ -491,14 +496,14 @@ Learning Managerはプライベートコンテンツフォルダーをサポー�
 
 ![](assets/manage-content-folders.png)
 
-*Change Content Folder settings*
+*コンテンツフォルダの設定を変更する*
 
 ### フォルダー
 
 フォルダーは、コンテンツのリポジトリです。フォルダーは、アカウントで使用可能なコンテンツライブラリ全体のサブセットで、次のプロパティがあります。
 
 * フォルダーを作成、編集、または削除できるのは管理者のみです。
-* An Admin can control access to folders as part of defining roles only for custom admins.
+* 管理者は、カスタム管理者のみに定義された役割の一部として、フォルダーへのアクセスを制御できます。
 * コンテンツは&#x200B;**常に少なくとも 1 つのフォルダーに関連付けられている必要があります**。 まず、すべてのコンテンツが公開フォルダーに関連付けられます。これは、後で変更できます。
 * コンテンツは、作成時に複数のフォルダーに関連付けることができます。これは、コピー操作でも行うことができます。
 * すべてのフォルダー名はアカウント内で一意である必要があります。そうでない場合、フォルダー名の指定中にエラーが発生します。
@@ -522,7 +527,7 @@ Learning Managerはプライベートコンテンツフォルダーをサポー�
 
 **フォルダーの追加**
 
-フォルダを追加するには、ウィンドウの右上隅にある **[!UICONTROL 追加]** をクリックします。
+フォルダーを追加するには、ウィンドウの右上隅にある「**[!UICONTROL 追加]**」をクリックします。
 
 **フォルダーの削除**
 
@@ -534,11 +539,11 @@ Learning Managerはプライベートコンテンツフォルダーをサポー�
 
 ## 教室の場所
 
-管理者はこの設定を使用して教室の場所のライブラリを作成し、ライブラリを構成できます。 作成者は事前設定された場所を選択して、教室イベントを設定できます。 ライブラリから場所を選択すると、場所情報、URL、および座席数制限が自動的に入力されます。
+管理者はこの設定を使用して教室の場所のライブラリを作成し、ライブラリを構成できます。 作成者は事前設定された場所を選択して、教室イベントを設定できます。 ライブラリから場所を選択すると、場所情報、URL、人数制限が自動的に入力されます。
 
 管理者は、次のいずれかの方法で場所を設定できます。
 
-### インポート場所 CSV
+### 場所のCSVの読み込み
 
 場所の CSV ファイルを読み込むことで、アカウントに場所を追加できます。 CSV ファイルには「都市」列が含まれていることが必要です。
 
@@ -548,8 +553,8 @@ Learning Managerはプライベートコンテンツフォルダーをサポー�
 
 1. 場所名：教室の名前を入力します。
 2. 場所情報：場所に関する情報を入力します。
-3. 地域: 入力した値は、学習者のトレーニング場所フィルターとして表示されます。
-4. 場所の URL: 場所の URL を入力します。
+3. 「事業所」リージョン：入力した値が、学習者用の「研修事業所」フィルタとして表示されます。
+4. 場所のURL：場所のURLを入力します。
 5. 人数制限：部屋の収容人数を入力します。
 
 ![教室の場所](assets/location-alm.gif)
@@ -568,7 +573,7 @@ CSV を使用して場所を追加することも可能です。 CSV には次�
 
 ### 設定 {#admin-classroom-settings}
 
-**編集**&#x200B;を選択して、以下を変更します。
+**編集**&#x200B;を選択して、次の項目を変更します：
 
 * **作成者に場所の作成を許可する**：有効にすると、作成者が作成したすべての場所が[すべての場所]タブに一覧表示されます。 学習者には、カタログおよびカレンダーのフィルターにも、これらの場所が表示されます。
 * **作成者に場所の変更と削除を許可する**:
@@ -576,7 +581,7 @@ CSV を使用して場所を追加することも可能です。 CSV には次�
 
 ## よくある質問 {#frequentlyaskedquestions}
 
-+++コンテンツライブラリ用に異なるフォルダーを作成する方法
++++コンテンツライブラリ用に異なるフォルダーを作成する方法を教えてください。
 
 **[!UICONTROL 設定]** > **[!UICONTROL コンテンツフォルダー]**&#x200B;をクリックします。 フォルダーを追加するには、右上隅の&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックし、ダイアログでフォルダーの名前と説明を入力します。
 
@@ -585,7 +590,7 @@ CSV を使用して場所を追加することも可能です。 CSV には次�
 詳細については、[コンテンツフォルダー](settings.md#content-folder)のセクションを参照してください。
 +++
 
-+++アカウントに会計年度を追加する方法
++++アカウントに会計年度を追加するにはどうすればよいですか？
 
-In **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**, click **[!UICONTROL Change]**. From the **[!UICONTROL Financial year starts from]** drop-down list, select the month.
+**[!UICONTROL 設定]** > **[!UICONTROL 基本情報]**&#x200B;で、**[!UICONTROL 変更]**&#x200B;をクリックします。 **[!UICONTROL 会計年度の開始月]**&#x200B;ドロップダウンリストから月を選択します。
 +++

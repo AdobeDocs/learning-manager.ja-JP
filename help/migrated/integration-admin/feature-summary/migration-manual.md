@@ -3,10 +3,10 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3619'
-ht-degree: 72%
+source-wordcount: '3850'
+ht-degree: 67%
 
 ---
 
@@ -523,6 +523,89 @@ FTP サーバーと Box サーバーにログインしてコンテンツをア�
 ## 移行の検証 {#registration}
 
 組織のレガシー LMS から学習データとコンテンツを移行した後は、多様な学習目標機能を使用して、読み込んだデータとコンテンツを検証できます。例えば、Learning Manager アプリケーションに管理者としてログインし、読み込んだモジュール、コースデータおよびコンテンツの利用状況を検証できます。
+
+### APIによる移行の検証
+
+新しい移行API `runStatus`を使用すると、統合管理者はAPIを介してトリガーされる移行実行の進行状況を追跡できます。
+
+`runStatus` APIには、完了した実行のエラーログをCSV形式でダウンロードするための直接リンクも用意されています。 ダウンロードリンクは7日間有効で、ログは1か月間保持されます。
+
+**サンプルカール**
+
+**エンドポイント**
+
+```
+GET /bulkimport/runStatus
+```
+
+**パラメーター**
+
+* **migrationProjectId**: （必須）。 移行プロジェクトの一意の識別子。 移行プロジェクトを使用して、既存のLearning Management System(LMS)からAdobe Learning Managerにデータとコンテンツを転送します。 各移行プロジェクトは、複数のスプリントで構成できます。複数のスプリントは、移行タスクのより小さな単位です。
+
+* **sprintId**: （必須）。 移行プロジェクト内のスプリントの一意の識別子。 スプリントは、既存のLMSからAdobe Learning Managerに移行する特定の学習項目（コース、モジュール、学習者レコードなど）を含む移行タスクのサブセットです。 各スプリントは個別に実行できるため、段階的な移行が可能です。
+
+* **sprintRunId**: （必須）。 移行プロジェクト内で特定のスプリントの実行を追跡するために使用される一意の識別子。 スプリントで定義された項目の実際の移行プロセスに関連付けられています。 sprintRunIdは、移行ジョブの監視、トラブルシューティング、および管理に役立ちます。
+
+**回答**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+さらに、`startRun` API応答には、新しい状態エンドポイントを照会するために必要な移行プロジェクトID、スプリントID、およびスプリントの実行IDが含まれるようになりました。
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+次の応答が生成されます。 応答には次の内容が含まれます。
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**回答**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
 
 ## 移行の導入 {#retrofittinginmigration}
 

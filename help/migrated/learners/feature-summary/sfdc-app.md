@@ -4,10 +4,10 @@ title: Salesforce 向け Learning Manager アプリ
 description: Salesforce&trade；は、営業およびマーケティングチームに最も人気のあるCRMソリューションです。 Salesforce で Adobe Learning Manager アプリを用いると、学習者は Salesforce のインターフェイス内からすべての学習コンテンツにアクセスすることができます。学習者は、コース、学習プログラム、ジョブエイドなどの割り当てられた学習コンテンツに Salesforce 内からアクセスできます。ユーザーは管理者から登録とアナウンスに関する通知を受信することもできます。
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
@@ -48,3 +48,14 @@ Adobe Learning Manager アプリの学習者ビューの代表的なスナップ
 上記のスナップショットが示すとおり、学習者ページ下の「切断」リンクをクリックし、Adobe Learning Manager アプリを&#x200B;**切断**&#x200B;することができます。接続を切断すると、Adobe Learning Managerアプリのウェルカムページにリダイレクトされます。
 
 何回でもアプリに接続または切断できます。
+
+## Salesforceアプリの推奨事項のリセット
+
+学習者は、Salesforceを離れたり、ネイティブのAdobe Learning Managerアプリケーションにログインしたりすることなく、役割と学習環境設定をリセットできます。 Adobe Learning Manager Salesforceアプリに、**[!UICONTROL 関心をリセット]**&#x200B;ボタンが追加されました。
+
+Salesforceアプリから興味や推奨事項をリセットするには、次の手順を実行します。
+
+1. 学習者としてSalesforce向けAdobe Learning Managerアプリにログインします。
+2. 下部の「**[!UICONTROL 関心をリセット]**」オプションを選択します。
+
+学習者の推奨事項や興味は、Adobe Learning Manager Salesforceアプリからリセットされます。

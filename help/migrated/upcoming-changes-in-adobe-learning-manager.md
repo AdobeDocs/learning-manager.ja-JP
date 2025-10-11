@@ -2,18 +2,18 @@
 title: Adobe Learning Manager 10月リリースの新機能
 description: Adobe Learning Manager 2025年10月リリースの新機能、改善点、および重要な更新について説明します。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '8349'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
 
-# Adobe Learning Manager 2025年10月リリースの新機能
+# Adobe Learning Managerで予定されている変更
 
 >[!IMPORTANT]
 >
->記載されている機能は暫定的であり、変更される場合があることに注意してください。 詳細と確認については、担当のカスタマーサクセスマネージャーにお問い合わせください。 問題が発生した場合は、カスタマーサポートチーム([learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com))にお問い合わせください。
+>Adobe Learning Manager 2025年10月リリースが公開されました。 最新の機能と機能強化の詳細については、[新機能](/help/migrated/whats-new.md)を参照してください。 このページは、次のリリースの新機能と機能強化で更新されます。 アップデートをお楽しみに。
 
 ## リリースの概要
 
@@ -918,7 +918,7 @@ Go1との連携が強化され、Adobe Learning Manager内で学習プログラ�
    ![代替テキスト](assets/select-go1-courses.png)
    _Go1コースをセールスエンジニアのスキル開発プレイリストに追加して、キュレートされたサードパーティコンテンツで学習オプションを拡張します_
 
-6. **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**&#x200B;を検索して選択し、次のいずれかを選択します：
+6. **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**を検索して選択し、次のいずれかを選択します：
 a. **[!UICONTROL AIを活用]**:AIを活用したプレイリストを作成します。
 b. **[!UICONTROL 自分で]**：再生リストにコースを手動で追加して、再生リストを作成します。
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
