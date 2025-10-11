@@ -270,7 +270,7 @@ _社外プロファイルの登録URLをコピーする_
 | 社内ユーザー | 社外ユーザー |
 |---|---|
 | Adobe IDまたはSSO資格情報を使用してログインできます。 | 任意の電子メールIDを使用してログインできます。 |
-| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
+| ゲーミフィケーションが使用できます。 | ゲーミフィケーションを利用できます。 管理者は、[ゲーミフィケーション設定](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/gamification)で社外学習者のゲーミフィケーションを有効にする必要があります。 |
 
 ### 外部登録プロファイルを一時停止
 

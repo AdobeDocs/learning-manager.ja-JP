@@ -2235,7 +2235,7 @@ Adobe Commerceでデータが同期されるまで、コースまたは学習パ
 
 >[!NOTE]
 >
->2024年3月リリースのAdobe Learning Managerでは、[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)のサポートが導入されました。
+>2024年3月リリースのAdobe Learning Managerでは、[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=ja)のサポートが導入されました。
 
 
 1. **[!UICONTROL トレーニングメタデータの書き出し]**/**[!UICONTROL オンデマンド]**&#x200B;をクリックします。
