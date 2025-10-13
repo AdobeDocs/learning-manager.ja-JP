@@ -2,7 +2,7 @@
 description: Adobe Learning Managerの2025年10月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月リリースの新機能
-source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
+source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -830,3 +830,5 @@ _作業計画書レポートにはダウンロードリンクが表示される�
 
 * [Adobe Learning Manager 2025年5月リリース](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager 2025年11月リリース](/help/migrated/whats-new-nov-24.md)
+
+
