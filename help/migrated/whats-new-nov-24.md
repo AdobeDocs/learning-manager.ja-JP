@@ -33,7 +33,7 @@ Adobe Learning Managerの2024年11月リリースの新機能と強化機能に�
 
 >[!NOTE]
 >
->このリリースの新機能について詳しくは、この[ウェビナー](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)をご覧ください。
+>このリリースの新機能について詳しくは、この[ウェビナー](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course)をご覧ください。
 
 ## Adobe Learning ManagerでのAIを活用した検索
 

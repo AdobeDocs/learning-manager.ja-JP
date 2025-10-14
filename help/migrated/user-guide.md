@@ -16,7 +16,7 @@ Adobe Learning Manager(以前のAdobe Captivate Prime)の最新サービスに�
 
 ## フォーラムに参加 {#jointheconversation}
 
-[Adobe Learning Managerユーザーコミュニティ](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)にアクセスして、インスピレーションを得たり、よくある質問の回答を確認したりできます。
+[Adobe Learning Managerユーザーコミュニティ](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all)にアクセスして、インスピレーションを得たり、よくある質問の回答を確認したりできます。
 
 ## 役立つトピック {#populartopics}
 

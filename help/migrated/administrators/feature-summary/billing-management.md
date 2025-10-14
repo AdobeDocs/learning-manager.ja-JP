@@ -17,7 +17,7 @@ ht-degree: 69%
 
 Learning Manager の請求の管理、クレジットカードを使用した注文、発注または月間アクティブユーザープランを使用したサブスクリプションの購入など。
 
-Adobe Learning Manager では、組織のニーズに応じて柔軟かつ手頃な最適価格モデルが提供されます。詳細については、[Learning Manager ](https://www.adobe.com/products/learningmanager.html) ページを参照してください。
+Adobe Learning Manager では、組織のニーズに応じて柔軟かつ手頃な最適価格モデルが提供されます。詳細については、[Learning Manager &#x200B;](https://www.adobe.com/products/learningmanager.html) ページを参照してください。
 
 請求を管理できるのは組織の管理者のみになります。
 

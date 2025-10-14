@@ -183,7 +183,7 @@ Learning Manager Fluidicプレーヤーで使用されているストリーミ�
 
    トークンは、統合管理者で埋め込み型Fluidicプレーヤーを設定することで取得できます。 アクセストークンとして使用できる認証トークンを取得できます。
 
-   作成されたURLの例； https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   作成されたURLの例； https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    ここで、 lo_idはコースのID、学習プログラム、資格認定および作業計画書になります。
 

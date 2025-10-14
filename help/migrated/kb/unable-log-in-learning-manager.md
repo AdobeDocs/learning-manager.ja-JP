@@ -31,7 +31,7 @@ Adobe Learning Manager にログインしようとすると、次のエラーが
 
 次のリンクは、キャッシュを削除するためのブラウザー別のガイドです。
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=ja)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=ja)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Adobe Learning Manager にログインしようとすると、次のエラーが
 
 ## シークレットモードの使用
 
-ブラウザーでシークレットモードを使用し、Adobe Learning Manager にサインインします。[説明](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=ja&amp;oco=0)を参照してください。
+ブラウザーでシークレットモードを使用し、Adobe Learning Manager にサインインします。[説明](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=ja&oco=0)を参照してください。
 
 ## 管理者に問い合わせる
 
