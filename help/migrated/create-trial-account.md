@@ -16,7 +16,7 @@ Adobe Learning Managerで30日間無料の体験版アカウントを簡単に�
 
 体験版アカウントを作成するには：
 
-1. [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html)に移動します。
+1. [Adobe Learning Manager](https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html)に移動します。
 2. **[!UICONTROL 30日間の無料体験]**&#x200B;を選択します。
 
    ![](assets/free-trial.png)
