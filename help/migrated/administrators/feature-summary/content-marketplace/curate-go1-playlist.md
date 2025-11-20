@@ -2,7 +2,7 @@
 description: Adobe Learning ManagerでGo1プレイリストを作成し、学習パスに追加する方法について説明します。 このガイドでは、プレイリストの統合に関する手順とベストプラクティスについて説明します。
 jcr-language: en_us
 title: Go1プレイリストをAdobe Learning Manager学習パスにキュレートします
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Go1コースを学習パスと資格認定に直接追加します。 Go1コー�
 
 Go1コースを含む学習パスを作成するには：
 
-1. Adobe Learning Managerに管理者としてログインします。
+1. **Adobe Learning Manager**&#x200B;に管理者としてログインします。
 2. 左側のナビゲーションパネルで&#x200B;**[!UICONTROL 学習パス]**&#x200B;を選択します。
 3. 「**[!UICONTROL 追加]**」を選択します。
 
