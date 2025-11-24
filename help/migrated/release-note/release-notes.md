@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '27340'
 ht-degree: 70%
@@ -18,7 +18,7 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -131,7 +131,7 @@ Fluidicプレーヤーの詳細については、この[記事](/help/migrated/l
 
 * コンテンツモジュールが新しいバージョンに更新された後、コースを完了した学習者がコースを再び参照すると白い画面が表示される問題を修正しました。
 
-さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
+さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
 
 +++
 
@@ -1610,7 +1610,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -1647,7 +1647,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -1892,7 +1892,7 @@ Adobe Connect では、Connect で作成された既存の会議室を使用し�
 
 **時間列の値の変更**
 
-学習者のトランスクリプトでは、時間列の分が最も近い分の数値に丸められ、秒の値が 00 に丸められます。詳細については、「[***時間列***](../administrators/feature-summary/learner-transcripts.md#datetime)」を参照してください。
+学習者のトランスクリプトでは、時間列の分が最も近い分の数値に丸められ、秒の値が 00 に丸められます。詳細については、「[***時間列***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)」を参照してください。
 
 ### このリリースで修正された問題 {#Issuesfixedinthisrelease-3}
 
@@ -2035,7 +2035,7 @@ CSV 仕様が更新され、既存の LMS 移行データをマッピングす�
 * スキルの単位値として小数がサポートされるようになりました。これにより、作成者は特定のコースに対して小数レベルのクレジット値を付与できます。 詳細については、[***Decimalサポート***](../administrators/feature-summary/skills-levels.md#decimal)&#x200B;を参照してください。
 * カスタムの役割の作成が自動化されました。詳細については、「[***csv ファイルを使用した役割の設定***](../integration-admin/feature-summary/configure-role-csv-files.md)」を参照してください。
 * 社外の資格認定およびアクティビティモジュールで必須だったファイルの提出がオプションになりました。これにより、マネージャーやインストラクターは提出しなくても評価を実行できます。 詳細については、[***オプションの送信***](../managers/feature-summary/learning-objects.md#optional)&#x200B;を参照してください。
-* 削除されたユーザーの学習者のトランスクリプトをダウンロードできます。詳細については、「[***学習者のトランスクリプト***](../administrators/feature-summary/learner-transcripts.md)」を参照してください。
+* 削除されたユーザーの学習者のトランスクリプトをダウンロードできます。詳細については、「[***学習者のトランスクリプト***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)」を参照してください。
 * 以下の言語がサポートされるようになりました。
 
    * 韓国語
@@ -2612,7 +2612,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -2969,7 +2969,7 @@ Learning Manager のデフォルトのユーザーグループページにユー
 
 **学習者のトランスクリプト**
 
-Learning Manager には、組織の Learning Manager 学習者のトランスクリプトを生成する機能が用意されています。 詳細については、「[学習者のトランスクリプト機能](../administrators/feature-summary/learner-transcripts.md)」を参照してください。
+Learning Manager には、組織の Learning Manager 学習者のトランスクリプトを生成する機能が用意されています。 詳細については、「[学習者のトランスクリプト機能](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)」を参照してください。
 
 **バッジの PDF 形式での書き出し**
 
@@ -3122,7 +3122,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;**&#x200B;**&#x200B;は&#x200B;**&#x200B;**&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;****&#x200B;は&#x200B;****&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * **プロファイルが作成されました（自己登録）**&#x200B;と&#x200B;**プロファイルが作成されました（外部/パートナー）**&#x200B;の電子メールテンプレートを編集するたびに、管理者が受信する電子メールでURLをクリックすることはできません。 この問題は修正されました。

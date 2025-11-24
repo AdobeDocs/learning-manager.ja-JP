@@ -4,7 +4,7 @@ title: 管理者
 description: Learning Manager の機能と、管理者ロールに関するよくある質問について解説します。
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [カラーテーマとブランディング](administrators/feature-summary/themes.md)
 * [Adobe Connect の統合](administrators/feature-summary/adobeconnect-integration.md)
-* [学習者のトランスクリプト](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [学習者のトランスクリプト](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [ゲーミフィケーション](administrators/feature-summary/gamification.md)
 * [ユーザー／ユーザーグループの追加](administrators/feature-summary/add-users-user-groups.md)
 * [バッジ](administrators/feature-summary/badges.md)

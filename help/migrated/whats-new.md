@@ -2,7 +2,7 @@
 description: Adobe Learning Managerの2025年10月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月リリースの新機能
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -731,7 +731,7 @@ linkedInの学習との連携について詳しくは、[LinkedInラーニング
 ![学習者のトランスクリプトレポート。Adobeの学習におけるコースの完了トラッキングのマークされた完了日（黄色でハイライト表示）が表示されます。](/help/migrated/assets/mark-completion-column.png)
 _学習者のトランスクリプトレポートに、各ユーザーの個々の完了日をハイライトする新しい列が黄色で表示されます_
 
-学習者のトランスクリプトレポートについて詳しくは、[学習者のトランスクリプト](/help/migrated/administrators/feature-summary/learner-transcripts.md)を参照してください。
+学習者のトランスクリプトレポートについて詳しくは、[学習者のトランスクリプト](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)を参照してください。
 
 ### 拡張データフィールドを使用した拡張ユーザーレポート
 
@@ -774,7 +774,7 @@ FTP、カスタムFTP、およびBoxコネクタの詳細については、[コ�
 >
 >このフラグは既存のアカウントではデフォルトで無効になっており、新しいアカウントに対して明示的に要求する必要があります。
 
-詳細情報については、[学習者のトランスクリプト](/help/migrated/administrators/feature-summary/learner-transcripts.md)の記事を参照してください。
+詳細情報については、[学習者のトランスクリプト](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)の記事を参照してください。
 
 ### 直接アクセスリンクを含む作業計画書レポート
 

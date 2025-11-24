@@ -4,7 +4,7 @@ title: 学習者のトランスクリプト CSV の解釈
 description: 学習者のトランスクリプト CSV の解釈
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ ht-degree: 88%
 
 ## ユーザーインターフェイスによる、学習者のトランスクリプトの取得 {#fetchlearnertranscriptfromtheuserinterface}
 
-プロフィール設定から、学習者は自分のトランスクリプトをダウンロードできます。 詳細については、「[学習者のトランスクリプト&#x200B;***ダウンロード](../../administrators/feature-summary/learner-transcripts.md)***」を参照してください。
+プロフィール設定から、学習者は自分のトランスクリプトをダウンロードできます。 詳細については、「***[学習者のトランスクリプトのダウンロード](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***」を参照してください。
 
-管理者は、組織全体、特定のユーザーのセット、特定の学習オブジェクトのセット、またはユーザーと学習目標の特定のセットについて、学習者のトランスクリプトを生成できます。 また、一定期間内のすべての学習記録を取得し、モジュールレベル情報が必要かどうかを示すこともできます（デフォルトでは、モジュールレベル情報は省略されます）。 詳細については、[***学習者のトランスクリプト***](../../administrators/feature-summary/learner-transcripts.md)&#x200B;を参照してください。
+管理者は、組織全体、特定のユーザーのセット、特定の学習オブジェクトのセット、またはユーザーと学習目標の特定のセットについて、学習者のトランスクリプトを生成できます。 また、一定期間内のすべての学習記録を取得し、モジュールレベル情報が必要かどうかを示すこともできます（デフォルトでは、モジュールレベル情報は省略されます）。 詳細については、[***学習者のトランスクリプト***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)&#x200B;を参照してください。
 
 <!--Update above link?-->
 
