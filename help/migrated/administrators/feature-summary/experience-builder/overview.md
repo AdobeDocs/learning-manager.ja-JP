@@ -2,23 +2,15 @@
 description: Adobe Learning Managerのコードなし/ローコードのツールであるExperience Builderについて詳しくは、こちらを参照してください。管理者は、技術的な専門知識がなくても、ブランド化された使いやすいページをデザインして公開できます。
 jcr-language: en_us
 title: Adobe Learning ManagerのExperience Builder
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 
 # 概要
-
->[!IMPORTANT]
->
->カスタマイズ可能な学習ポータルを作成する革新的なツールであるExperience Builderが、2025年10月リリースのAdobe Learning Manager以降にリリースされることを発表しました。
->
->リリース日が近づくにつれて、さらに多くのアップデートをお楽しみに。 Experience Builderを使用して、学習ポータルを一変させる方法をご紹介します。
->
->質問がある場合、または追加情報がある場合は、カスタマーサクセスマネージャーにお問い合わせください。
 
 Experience Builderは、カスタマイズされた学習ポータルの作成に役立つ、Adobe Learning Managerのコードなし/ローコードのツールです。 これにより、技術的なスキルや広範なコーディング知識を必要とせずに、ブランド化された使いやすい学習ポータルをデザインできます。
 

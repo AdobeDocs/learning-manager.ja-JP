@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: 093092c826b014c2d582c6cc32da08464403a1bf
 workflow-type: tm+mt
-source-wordcount: '27340'
-ht-degree: 70%
+source-wordcount: '27782'
+ht-degree: 69%
 
 ---
 
@@ -18,10 +18,62 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
+
++++アップデート103:Adobe Learning Manager 2025年11月リリース
+
+リリース日：2025年11月25日
+
+## このリリースの最新情報
+
+### Experience Builder
+
+すべてのAdobe Learning ManagerアカウントでExperience Builderが使用できるようになりました。これにより、低コードのコンポーネントと柔軟なレイアウトを使用して、完全なブランドの学習体験を作成できます。 Experience Builderを使用すると、管理者は完全にモバイル対応のカスタム学習ポータルとページを作成できます。
+
+既存のアカウントの場合、Experience Builderの更新が自動的に実行されます。 古いUIやクラシックUIを引き続き使用するアカウントでは、Experience Builder機能は使用できません。
+
+詳細については、[エクスペリエンスビルダー](/help/migrated/administrators/feature-summary/experience-builder/overview.md)をご覧ください。
+
+### Adobe Learning Managerモバイルwebインターフェイス
+
+モバイルwebインターフェイスは最新のコードベースで再構築され、読み込み時間の短縮、応答性の向上を実現し、デバイス間でより直感的な学習者エクスペリエンスを実現しています。
+
+更新されたモバイルwebエクスペリエンスは、デフォルトですべての新しいアカウントで有効になっています。 また、ソーシャル学習が有効になっている場合を除き、既存のアカウントでも自動的にアップグレードを受け取ります。 その場合、ソーシャル学習が新しい互換性のあるフレームワークに移行されるまで、以前のモバイルエクスペリエンスが引き続きアクティブになります。
+
+>[!NOTE]
+>
+>ソーシャル学習は、新しいAdobe Learning Managerモバイルwebインターフェイスではサポートされていません。
+
+### Fluidicプレーヤーの機能強化
+
+以前は、Fluidicプレーヤーの「次へ」ボタンに今後のモジュールのタイトルが表示されないため、学習者は学習ジャーニーの次のステップを予測することが困難でした。
+
+この機能強化により、「次へ」ボタンに次のモジュールのタイトルが含まれるようになり、学習者は次のことを実行できるようになりました。
+
+* 続行する前に、どのようなコンテンツが予定されているかを理解します。
+* モジュール間のナビゲーションをより明確かつ自信を持って行うことができます。
+* コースフロー全体でコンテキストを改善します。
+
+![](assets/fluidic-player-next.png)
+_Fluidicプレーヤーに、今後のモジュールのタイトルを含む「次へ」ボタンが表示されます_
+
+### L1フィードバックフォーム
+
+L1フィードバックは個々の学習目標内でのみ設定できたため、柔軟性が制限され、管理者はカタログ全体で様々なフォームを使用できませんでした。 管理者は、複数のL1フィードバックフォームを作成して使用し、各フィードバックフォームを特定のコース、学習パス、資格認定に割り当てることができるようになりました。 このフォームでは、コースの有効性、NPS、リッカート尺度、フリーテキスト質問など、複数の質問タイプがサポートされるようになりました。
+
+フィードバックフォームは、すべてのロケールで同じ質問の構造を維持しながら、別の言語に翻訳できます。 レポートには、各応答をキャプチャしたフォームを識別するのに役立つフィードバックフォーム名とフィードバックフォームバージョンが含まれるようになりました。
+
+**ユースケース**
+
+* カスタマイズしたフィードバックフォームを様々なトレーニングプログラムに割り当てることができます。 例えば、セールスコースではNPSに焦点を当てた質問を使用し、コンプライアンスコースではコースの有効性とリーカット規模の質問を使用して、明瞭度とポリシーの理解を評価することができます。
+* 学習モジュールに基づいて個別のフィードバックフォームを使用する。 例えば、ミックス済みモジュール、セルフペースモジュール、教室モジュールの3つの異なる形式があります。
+
+詳細については、[L1フィードバックフォーム](/help/migrated/administrators/feature-summary/l1-feedback-form.md)をご覧ください。
+
++++
 
 +++アップデート102:Adobe Learning Manager 2025年10月リリース
 
@@ -131,7 +183,7 @@ Fluidicプレーヤーの詳細については、この[記事](/help/migrated/l
 
 * コンテンツモジュールが新しいバージョンに更新された後、コースを完了した学習者がコースを再び参照すると白い画面が表示される問題を修正しました。
 
-さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
+さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
 
 +++
 
@@ -1610,7 +1662,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -1647,7 +1699,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -2612,7 +2664,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+このアップデートの一部として、Learning Managerではエンドポイント[PATCH/ユーザー/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id)を使用して、アプリケーションのユーザーを更新します。 この API エンドポイントには管理者の役割でアクセスできます。こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3122,7 +3174,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;**&#x200B;**&#x200B;は&#x200B;**&#x200B;**&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 外部グループを表すために使用された&#x200B;**パートナー**&#x200B;という単語&#x200B;****&#x200B;は&#x200B;****&#x200B;が電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * **プロファイルが作成されました（自己登録）**&#x200B;と&#x200B;**プロファイルが作成されました（外部/パートナー）**&#x200B;の電子メールテンプレートを編集するたびに、管理者が受信する電子メールでURLをクリックすることはできません。 この問題は修正されました。

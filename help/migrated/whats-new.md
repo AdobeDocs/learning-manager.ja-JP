@@ -2,9 +2,9 @@
 description: Adobe Learning Managerの2025年10月リリースの新機能と強化機能について説明します
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月リリースの新機能
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '5638'
+source-wordcount: '5573'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,6 @@ Adobe Learning Managerの2025年10月のリリースでは、レポートの正�
 * 分析と移行用の拡張API：新たに改善されたAPIにより、クイズのパフォーマンス追跡、移行ステータスの監視、ソーシャル学習でのユーザータグのサポートが向上しました。
 
 ## Experience Builder
-
->[!IMPORTANT]
->
->カスタマイズ可能な学習ポータルを作成する革新的なツールであるExperience Builderが、2025年10月リリースのAdobe Learning Manager以降にリリースされることを発表しました。
->
->リリース日が近づくにつれて、さらに多くのアップデートをお楽しみに。 Experience Builderを使用して、学習ポータルを一変させる方法をご紹介します。
->
->質問がある場合、または追加情報がある場合は、カスタマーサクセスマネージャーにお問い合わせください。
 
 Experience Builderは、カスタマイズされた学習ポータルの作成に役立つ、Adobe Learning Managerのコードなし/ローコードのツールです。 これにより、技術的なスキルや広範なコーディング知識を必要とせずに、ブランド化された使いやすい学習ポータルをデザインできます。
 Experience Builderを使用すると、管理者はページ、メニュー、ウィジェットを簡単に作成して、対象者に合わせてカスタマイズされた学習体験を提供できます。

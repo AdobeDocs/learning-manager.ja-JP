@@ -4,9 +4,9 @@ jcr-language: en_us
 title: コースインスタンスと学習パスの作成
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ PDF 上では、インストラクタと同じ学習者のセットを表示す�
 PDF をダウンロードすると、コース作成時に使用されたタイムゾーン（UTC）が表示されます。
 
 ## L1 フィードバックと L3 フィードバックの追加 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>アカウントにこのフィードバックオプションが表示されない場合、アカウントは既に新しいL1フィードバックフォームにアップグレードされています。 詳細については、[L1フィードバックフォーム](/help/migrated/administrators/feature-summary/l1-feedback-form.md)をご覧ください。
+
 
 コースを作成する際に、L1 と L3 のフィードバックオプションを追加することができます。
 
