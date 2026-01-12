@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 71%
+source-wordcount: '776'
+ht-degree: 70%
 
 ---
 
@@ -198,6 +198,7 @@ ht-degree: 71%
    * [L1 フィードバックの自動ポップアップが表示されない](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [資格認定の作成中に、カタログに含まれる特定のコースを表示できない](kb/unable-to-view-certain-courses.md)
    * [学習プログラムの作成中に、カタログに含まれる特定のコースを表示できない](kb/unable-view-course-catalog.md)
+   * [Adobe Learning ManagerとのSalesforce (SFDC)統合に関する問題のトラブルシューティング] (kb/troubleshoot-sfdc-integration-issues.md)
    * [学習プログラムの廃止に関する問題](kb/issues-retiring-learning-program.md)
    * [バッジを割り当てられない](kb/badge-not-assigned.md)
    * [Learning Manager でセッションの有効期限が切れる](kb/login-issue.md)
