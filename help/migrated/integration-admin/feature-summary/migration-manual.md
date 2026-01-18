@@ -3,10 +3,10 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 59%
+source-wordcount: '4483'
+ht-degree: 58%
 
 ---
 
@@ -27,6 +27,10 @@ Learning Manager では、組織の統合管理者が移行タスクを設定お
 ## 移行プロセス {#apidescription}
 
 移行の前提条件、移行プロセスで必要な主な手順、移行スプリント、仕様、データおよびコンテンツの移行手順について、このセクションで次に説明します。
+
+### 移行に関する重要なアドバイス
+
+移行タイムラインは、データの品質とサイズに大きく依存することに注意する必要があります。 オンボーディング中に移行が必要な場合は、このアクティビティを事前に十分に計画し、Adobe Learning Managerオンボーディングチームと緊密に連携して遅延を避けてください。
 
 ### 前提条件 {#prerequisites}
 
