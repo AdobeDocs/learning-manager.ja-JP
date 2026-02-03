@@ -3,10 +3,10 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4483'
-ht-degree: 58%
+source-wordcount: '4600'
+ht-degree: 57%
 
 ---
 
@@ -412,6 +412,14 @@ CSV ファイルを読み込むときに、以下の依存関係を認識する�
 * certification_course.csvはcertification.csvおよびcourse.csvに依存している
 * certification_commit.csvはcertification.csvおよびcertification_course.csvに依存している
 * certification_enrollment.csv は certification.csv、certification_course.csv および certification_enrollment.csv に依存している
+
+### 移行CSVでの学習プログラムコースの順序
+
+移行仕様の以前のバージョンでは、learning_program_course.csvファイルに順序の列が含まれており、移行中に学習プログラム内のコースの順序を制御できることを示唆していました。
+
+Adobe Learning Managerでは、この列は使用されなくなりました。 移行CSVで学習プログラムのコースの順序を制御することはできません。**orderEnforced**&#x200B;をtrueに設定しても、システムは注文列に入力された値を無視します。
+
+混乱を避けるために、注文列は公式のCSV仕様から削除されました。 この列を生成する既存のスクリプトまたはツールがある場合は、安全に削除できます。学習プログラムの作成または表示の方法に影響はありません。
 
 ## 移行手順 {#migrationprocedure}
 
