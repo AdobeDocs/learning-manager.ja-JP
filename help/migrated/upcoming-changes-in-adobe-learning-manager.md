@@ -2,9 +2,9 @@
 title: Adobe Learning Managerの2026年4月リリースの新機能
 description: Adobe Learning Managerの2026年4月リリースの新機能、改善点、重要なアップデートについて説明します。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 48a20033896a9d9f370c2e53bce353a886b05e35
+source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
 workflow-type: tm+mt
-source-wordcount: '7400'
+source-wordcount: '7425'
 ht-degree: 1%
 
 ---
@@ -433,7 +433,7 @@ Fluidicプレーヤーが更新され、学習者が作業計画書を開くと�
 
 * マーケティングと有効化チームは、すべてのロケールでトピックごとに1つの作業計画書を管理できます。
 
-## モジュールをいつ開始できるかを制限します
+## モジュールの開始時間に制限を設定
 
 ### 概要
 
@@ -680,6 +680,11 @@ LTIコンシューマーとして機能する外部プラットフォームが�
 
 ### 概要
 
+>[!IMPORTANT]
+>
+>この機能は、アカウントで有効にした後でのみ使用できます。 ALMサポートまたはカスタマーサクセスマネージャーにお問い合わせください。
+
+
 現在、ALMは複数クイズ試行(MQA)機能を使用した、LMSレベルでの複数の試行をサポートしています。
 
 * 作成者は、コースレベル（コース内のすべてのクイズ対応モジュールに適用）またはモジュールレベル（クイズモジュールごと）で試行を設定できます。
@@ -880,7 +885,7 @@ L2クイズレポートが更新され、コンテンツレベルの各試行が
 
    * PDFは想定どおりに生成されます。
 
-## 学習者のトランスクリプトの変更
+## 学習トランスクリプトでの学習時間の短縮
 
 ### 概要
 
@@ -2700,4 +2705,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
