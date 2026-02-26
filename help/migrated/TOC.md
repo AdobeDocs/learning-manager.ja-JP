@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '778'
 ht-degree: 71%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 71%
    * [ユーザー通知](learners/feature-summary/user-notifications.md)
    * [アナウンス](learners/feature-summary/announcements.md)
    * [キャンセル待ちと出席の管理](learners/feature-summary/waitlist-attendance-management.md)
-   * [学習者 AI アシスタント](learners/feature-summary/ai-buddy.md)
+   * [学習者向けの AI アシスタント](learners/feature-summary/ai-buddy.md)
    * [Adobe Learning ManagerでのAIを活用した検索](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce 向け Learning Manager アプリ](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect の統合](learners/feature-summary/adobeconnect-integration.md)
