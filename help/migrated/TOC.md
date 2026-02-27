@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 71%
+source-wordcount: '784'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 71%
    * [リリースノート](release-note/release-notes.md)
    * [必要システム構成](system-requirements.md)
    * [Microsoft Teams 向け Adobe Learning Manager アプリ](adobe-learning-manager-app-microsoft-teams.md)
-   * [GDPR に対する Learning Manager のコンプライアンス](kb/prime-gdpr.md)
+   * [GDPRに対するAdobe Learning Managerのコンプライアンス](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Learning Manager のアクセシビリティ](accessibility-learning-manager.md)
    * [カスタムドメインのサポート](custom-domain.md)
    * [Adobe FTP Manager からの移行](transition-from-ftp-manager.md)
@@ -163,7 +164,7 @@ ht-degree: 71%
    * [ユーザー通知](learners/feature-summary/user-notifications.md)
    * [アナウンス](learners/feature-summary/announcements.md)
    * [キャンセル待ちと出席の管理](learners/feature-summary/waitlist-attendance-management.md)
-   * [学習者向けの AI アシスタント](learners/feature-summary/ai-buddy.md)
+   * [学習者向けの AI アシスタント](learners/feature-summary/learner-ai-assistant.md)
    * [Adobe Learning ManagerでのAIを活用した検索](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce 向け Learning Manager アプリ](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect の統合](learners/feature-summary/adobeconnect-integration.md)
