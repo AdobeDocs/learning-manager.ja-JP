@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 0e2e87e886e5817546353ade460d1482fab1709a
+source-git-commit: 13b21a8058ccf428f9c6c59cd88ad99a329b7b31
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 70%
+source-wordcount: '796'
+ht-degree: 69%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 70%
    * [必要システム構成](system-requirements.md)
    * [Microsoft Teams 向け Adobe Learning Manager アプリ](adobe-learning-manager-app-microsoft-teams.md)
    * [GDPRに対するAdobe Learning Managerのコンプライアンス](kb/prime-gdpr.md)
+   * [Adobe Learning Manager管理アカウントのライフサイクル](/help/migrated/alm-administrative-lifecycle.md)
+   * [Adobe Learning Managerのセキュリティで保護された管理ガイド](/help/migrated/alm-secure-administration-guide.md)
    * [Learning Manager のアクセシビリティ](accessibility-learning-manager.md)
    * [カスタムドメインのサポート](custom-domain.md)
    * [Adobe FTP Manager からの移行](transition-from-ftp-manager.md)
