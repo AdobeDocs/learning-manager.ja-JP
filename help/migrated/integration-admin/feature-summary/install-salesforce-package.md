@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Salesforce パッケージのインストール
-description: Learning ManagerはSalesforceアプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDCポータル内のアプリにマストヘッド形式で表示できます。
+description: Learning Manager は Salesforce アプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDC ポータル内のアプリにマストヘッド形式で表示できます。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 47%
+source-wordcount: '1065'
+ht-degree: 64%
 
 ---
 
@@ -15,25 +15,25 @@ ht-degree: 47%
 
 ## 概要
 
-Learning ManagerはSalesforceアプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDCポータル内のアプリにマストヘッド形式で表示できます。
+Learning Manager は Salesforce アプリケーションパッケージを提供します。 SFDC にインストールして設定すると、セールス社員は SFDC ポータル内でトレーニングアクティビティを実行できるようになります。 このアプリから、SFDC ユーザーは新しいトレーニングを調べ、推奨事項を表示し、SFDC ポータル内ですぐに実行できます。 また、管理者からのアナウンスを、SFDC ポータル内のアプリにマストヘッド形式で表示できます。
 
 ### Learning Manager アプリケーションで設定
 
 1. 自分の Learning Manager 管理者アカウントに、統合管理者としてログインします。
 1. **[!UICONTROL アプリケーション]** > **[!UICONTROL おすすめアプリ]**&#x200B;をクリックします。
-1. **[!UICONTROL Salesforce]**&#x200B;をクリックします。
-1. Salesforceアプリケーションページで、説明に記載されているアプリケーションID（クライアントIDとも呼ばれます）とクライアントシークレットを確認します。
+1. **[!UICONTROL Salesforce]** をクリックします。
+1. Salesforce アプリページで、説明に記載されているアプリケーション ID（クライアント ID とも呼ばれる）とクライアントシークレットを確認します。
 1. 「**[!UICONTROL 承認]**」をクリックすると、アプリが正常に承認されます。
 1. **[!UICONTROL 開発者向けリソース]** > **[!UICONTROL テストおよび開発用のアクセストークン]**&#x200B;をクリックします。
-1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「管理者:read，管理者:write」に設定する必要があります。 「**[!UICONTROL 送信]**」をクリックします。
+1. 「OAuthコードを取得」セクションで、クライアントIDとスコープを「管理者:read，管理者:write」に設定する必要があります。 **[!UICONTROL 「送信」]**&#x200B;をクリックします。
 1. 「更新トークンを取得」で、クライアント ID とクライアントシークレットを入力します。 **[!UICONTROL [送信]]**&#x200B;をクリックして、更新トークンを確認します。
 
 ### Salesforce アプリでのアカウントの作成
 
-1. Salesforce のサインアップページでアカウントを作成します。 Salesforceアカウントは、開発者版またはエンタープライズ版で作成する必要があります。  [開発者サインアップURL](https://developer.salesforce.com/signup)。 Salesforceへのサインアップには、Learning Managerで使用した電子メールIDを使用する必要があります。
+1. Salesforce のサインアップページでアカウントを作成します。 Salesforce アカウントは、開発者版またはエンタープライズ版で作成する必要があります。  [開発者サインアップ URL](https://developer.salesforce.com/signup)。 Salesforceへのサインアップには、Learning Managerで使用した電子メールIDを使用する必要があります。
 1. 確認用の電子メールからアカウントを確認します。
 1. パスワードを作成し、Salesforce にサインインします。
-1. ログイン後にSalesforceのURLに注意してください(例：site.lightning.force.com)
+1. ログイン後、Salesforce の URL を確認します（例：site.lightning.force.com）。
 
 ### Learning Manager パッケージのインストール
 
@@ -47,13 +47,13 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 >
 >Adobe Learning Managerアプリは、Salesforce Lightningビューでのみサポートされています。
 
-1. [Learning ManagerパッケージのURL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2)を起動します。
+1. [Learning ManagerパッケージのURL](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)を起動します。
 1. **ログイン**&#x200B;ページで、[**[!UICONTROL カスタムドメインを使用]**]をクリックします。
-1. パッケージのURLを入力し、**[!UICONTROL [続行]]**&#x200B;をクリックします。 インストールページで「管理者のみにインストール」オプションを選択している必要があります。 このオプションは変更しないでください。
-1. [**[!UICONTROL インストール]**]をクリックします。 パッケージがインストールされたら、[**[!UICONTROL 完了]**]をクリックします。 インストール済みパッケージページが表示され、Adobe Learning Manager のインストール済みパッケージが表示されます。
+1. パッケージ URL を入力して&#x200B;**[!UICONTROL 「続行」]**&#x200B;をクリックします。 インストールページで「管理者のみにインストール」オプションを選択している必要があります。 このオプションは変更しないでください。
+1. **[!UICONTROL 「インストール」]**&#x200B;をクリックします。 パッケージがインストールされたら&#x200B;**[!UICONTROL 「完了」]**&#x200B;をクリックします。 インストール済みパッケージページが表示され、Adobe Learning Manager のインストール済みパッケージが表示されます。
 
 1. 設定の横にある App Launcher に移動して「Adobe Learning Manager」を検索します。
-1. アプリを構成するには、[**[!UICONTROL 構成]**]をクリックします。
+1. アプリを設定するには&#x200B;**[!UICONTROL 「設定」]**&#x200B;をクリックします。
 1. **[!UICONTROL 新規]**&#x200B;をクリックして、次の詳細を追加します：
 
    * **Config：**&#x200B;任意の名前を入力します。
@@ -71,7 +71,7 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 1. ページの右上隅で、[**[!UICONTROL セットアップ]**]をクリックします。
 1. **クイック検索**&#x200B;で、リモートサイトの設定を検索します。
-1. **[!UICONTROL 新しいリモートサイト]**&#x200B;をクリックします。
+1. **[!UICONTROL 「新規リモートサイト」]**&#x200B;をクリックします。
 1. 詳細を入力します：
 
    1. **リモートサイト名：**&#x200B;任意の名前を入力します。
@@ -93,9 +93,9 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 ### Learning Manager アプリケーションの通知を有効にする
 
-1. 右上隅の[**セットアップ**]をクリックします。
+1. 右上隅で&#x200B;**「設定」**&#x200B;をクリックします。
 1. カスタム通知を検索します。
-1. [**[!UICONTROL 新規]**]をクリックします。
+1. **[!UICONTROL 「新規」]**&#x200B;をクリックします。
 1. 次の情報を入力します。
 
    1. **カスタム通知名：** LearningManagerNotification
@@ -113,12 +113,12 @@ Learning ManagerはSalesforceアプリケーションパッケージを提供し
 
 ### Salesforce からの Learning Manager のアンインストール
 
-1. Salesforceアプリで「インストール済みパッケージ」に移動します。
-1. 「**[!UICONTROL アンインストール]**」をクリックします。
+1. Salesforce アプリで「インストール済みパッケージ」に移動します。
+1. **[!UICONTROL 「アンインストール」]**&#x200B;をクリックします。
 
 ## Salesforce ユーザー用の学習マネージャーの設定
 
-Learning Manager アプリは、Salesforce アカウント内のユーザーも利用できます。Salesforce 管理者は、プロファイルに基づいてユーザーを追加できます。 Salesforce プロファイルは、Learning Manager のプロファイルと類似しています。たとえば、管理者、統合管理者、インストラクターなどです。 Salesforce 管理者は、カスタムのプロファイルも作成できます。
+Learning Manager アプリは、Salesforce アカウント内のユーザーも利用できます。 Salesforce 管理者は、プロファイルに基づいてユーザーを追加できます。 Salesforce プロファイルは、Learning Manager のプロファイルと類似しています。 たとえば、管理者、統合管理者、インストラクターなどです。 Salesforce 管理者は、カスタムのプロファイルも作成できます。
 
 ### プロファイル
 
@@ -142,7 +142,7 @@ Salesforce 管理者は、ユーザーにプロファイルを割り当てるか
 
 *Learning Managerアプリにアクセスするための権限を追加*
 
-パッケージをインストールすると、新しいアクセス許可セット&#x200B;**Adobe Learning Managerユーザー**&#x200B;が作成されます。 権限セットに移動し、ユーザーを追加します。
+パッケージをインストールすると、**Adobe Learning Manager ユーザー**&#x200B;という新しい権限セットが作成されます。 権限セットに移動し、ユーザーを追加します。
 
 ユーザーを選択し、アクセス権を割り当てます。 これで、学習者が Learning Manager アプリにアクセスできるようになりました。
 
