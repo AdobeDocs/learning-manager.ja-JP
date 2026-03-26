@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 68%
@@ -36,8 +36,7 @@ ht-degree: 68%
    * [Adobe Learning Managerでサポートされる言語](/help/migrated/languages-supported.md)
    * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
    * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
-   * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
-   * [埋め込みプレーヤーインタラクション API に関するドキュメント](/help/migrated/embedded-player-interaction.md)
+   * [Adobe Learning Managerでのホワイトラベルの設定](white-label.md)
 * 利用開始 {#get-started}
    * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
    * [作成者の基本](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 68%
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [CSV ファイルを使用したカスタムの役割の管理](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [埋め込みプレーヤーインタラクション API に関するドキュメント](/help/migrated/embedded-player-interaction.md)
 * 作成者 {#authors}
    * [ユーザーログイン](authors/feature-summary/user-login.md)
    * [コンテンツライブラリ](authors/feature-summary/content-library.md)
