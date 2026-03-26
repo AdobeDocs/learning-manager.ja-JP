@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: 埋め込みプレーヤーインタラクション API に関するドキュメント
-description: 埋め込みプレーヤーでイベントをリッスンし、アクションをトリガーする様々なAPIについて説明します
+description: Adobe Learning Managerの組み込みプレーヤーでイベントをリッスンし、アクションをトリガーする様々なAPIについて説明します
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 69%
+source-wordcount: '849'
+ht-degree: 70%
 
 ---
 
