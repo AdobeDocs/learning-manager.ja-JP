@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 68%
+source-wordcount: '850'
+ht-degree: 65%
 
 ---
 
@@ -130,17 +130,24 @@ ht-degree: 68%
       * [AEM SitesのALM参照サイトパッケージ](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
    * [Learning Manager に Salesforce パッケージをインストールする](integration-admin/feature-summary/install-salesforce-package.md)
+   * [導入ガイド](#deployment-guide)
+      * [概要](/help/migrated/deployment-guide/introduction.md)
+      * [サードパーティコネクタ](/help/migrated/deployment-guide/third-party-connectors.md)
+      * [ユーザーの移行](/help/migrated/deployment-guide/user-migration.md)
+      * [ユーザー設定](/help/migrated/deployment-guide/user-setup.md)
    * [Microsoft Teams コネクターのインストール](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [CSV ファイルを使用したカスタムの役割の管理](integration-admin/feature-summary/configure-role-csv-files.md)
    * [埋め込みプレーヤーインタラクション API に関するドキュメント](/help/migrated/embedded-player-interaction.md)
+   * [Fluidic プレーヤー](/help/migrated/integration-admin/feature-summary/fluidic-player.md)
 * 作成者 {#authors}
    * [ユーザーログイン](authors/feature-summary/user-login.md)
    * [コンテンツライブラリ](authors/feature-summary/content-library.md)
    * [コースの作成、変更、パブリッシュ](authors/feature-summary/courses.md)
    * [カタログ](authors/feature-summary/catalogs.md)
    * [作業計画書](authors/feature-summary/job-aids.md)
+   * [iPad および Android タブレットのユーザー](authors/feature-summary/ipad-android-tablet-users.md)
    * [Adobe Connect の統合](authors/feature-summary/adobeconnect-integration.md)
    * [様々なロケールで学習目標を追加](authors/feature-summary/add-new-language-learning-objects.md)
    * [ユーザー通知](authors/feature-summary/user-notifications.md)
@@ -201,7 +208,12 @@ ht-degree: 68%
    * [CSV をアップロードできない](kb/unable-to-upload-csv.md)
    * [HAR ファイルを生成する](kb/generate-har-file.md)
    * [L1 フィードバックの自動ポップアップが表示されない](kb/l1-feedback-auto-popup-does-not-appear.md)
+   * [Outlookとの統合](kb/integration-to-outlook.md)
    * [資格認定の作成中に、カタログに含まれる特定のコースを表示できない](kb/unable-to-view-certain-courses.md)
+   * [Adobe Learning ManagerでのSSO認証](kb/sso-authentication-for-learning-manager.md)
+   * [変更されたテンプレートリンクエラー](kb/modified-template-link-error.md)
+   * [インストラクターの役割のデフォルト割り当て](kb/default-allocation-instructor-roles.md)
+   * [Adobe Learning Managerを使用したAEMのテーマのカスタマイズ](kb/customize-theme-aem.md)
    * [学習プログラムの作成中に、カタログに含まれる特定のコースを表示できない](kb/unable-view-course-catalog.md)
    * [Adobe Learning ManagerとのSalesforce(SFDC)統合に関する問題のトラブルシューティング](kb/troubleshoot-sfdc-integration-issues.md)
    * [学習プログラムの廃止に関する問題](kb/issues-retiring-learning-program.md)
