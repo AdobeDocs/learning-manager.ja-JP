@@ -4,10 +4,10 @@ jcr-language: en_us
 title: マネージャーダッシュボード
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 46%
 
 ## 学習の概要 {#learningsummary}
 
-マネージャーは、特定の期間を選択し、その期間におけるチームメンバーの学習活動の概要情報を表示することができます。ドロップダウンメニューで、月、四半期、年のいずれかを選択することができます。
+マネージャーは、特定の期間を選択し、その期間におけるチームメンバーの学習活動の概要情報を表示することができます。 ドロップダウンメニューで、月、四半期、年のいずれかを選択することができます。
 
 「月」と「年」は暦年がベースになっていいますが、「四半期」については、アカウント設定で管理者が定義した会計年度がベースになっています。
 
@@ -43,13 +43,13 @@ ht-degree: 46%
 
 *チームビューには、チーム、メンバー、および各登録が表示されます*
 
-チーム名（Venkateshのチームなど）をクリックすると、学習目標の登録、進行および完了の合計数とともに、Venkateshのチームのメンバーを表示できます。
+例えば、Venkatesh のチーム名をクリックすると、Venkatesh チームのメンバーが表示され、各メンバーごとに、登録されている学習オブジェクトの合計数、進行中の学習オブジェクトの合計数、完了した学習オブジェクトの合計数が表示されます。
 
 ![](assets/ls-click-team-names.png)
 
 *チームメンバーを選択*
 
-各チームメンバーの学習状況の概要を表示するには、目的のメンバーのいずれかの列（「登録数」列、「進行中の数」列、「完了数」列）に表示されている数字をクリックします。学習オブジェクトの一覧と、各学習オブジェクトの登録日、期日、進行状況に関する情報が表示されます。
+各チームメンバーの学習状況の概要を表示するには、目的のメンバーのいずれかの列（「登録数」列、「進行中の数」列、「完了数」列）に表示されている数字をクリックします。 学習オブジェクトの一覧と、各学習オブジェクトの登録日、期日、進行状況に関する情報が表示されます。
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
@@ -133,13 +133,14 @@ _学習者にメールを送信_
 レポートをダウンロードするには、次の手順に従います。
 
 1. マネージャーアプリで、**[!UICONTROL コンプライアンスダッシュボード]**/**[!UICONTROL チームビュー]**&#x200B;に移動します。
-1. **[!UICONTROL [レポートのダウンロード]]**&#x200B;を選択して、ダッシュボードをレポートとして保存します。
+1. **[!UICONTROL [レポートのダウンロード]]**を選択して、ダッシュボードをレポートとして保存します。
 これにより、チーム全体の学習の進捗状況を追跡できます。
 
 ![](assets/download-report.png)
 _レポートのダウンロード_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,11 +198,12 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## チームスキル {#teamskills}
 
-マネージャーは、スキル完了グラフを表示したり、様々なレベルでスキル完了予測を設定したりすることができます。スキルドロップダウンリストには5つのスキルが表示されます。 マネージャーは、チームメンバーが得た専門知識を知り、特定のスキルで強い人材を特定します。
+マネージャーは、スキル完了グラフを表示したり、様々なレベルでスキル完了予測を設定したりすることができます。 スキルドロップダウンリストには5つのスキルが表示されます。 マネージャーは、チームメンバーが得た専門知識を知り、特定のスキルで強い人材を特定します。
 
 また、目標を設定し、タイムライン内でチームの特定の割合のスキルを達成するのにかかる時間を予測することで、マネージャーはチームで特定のスキルを促進できます。
 
@@ -213,10 +215,10 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 チームのスキルステータスを表示するには、次の手順に従います。
 
-1. 「自分のチームビュー」セクションの下の左ペインで「**[!UICONTROL チームスキル]**」をクリックします。
+1. 「マイチーム表示」セクションの左側のペインで「**[!UICONTROL チームスキル]**」をクリックします。
 1. 表示するスキルを絞り込むには、スキルフィルタをクリックし、ドロップダウンリスト内のいずれかのスキルを選択します。
 1. レベル（レベル 1、レベル 2、レベル 3）を選択するには、レベルのドロップダウンメニューをクリックします。
-1. 選択したスキルとレベルに基づいて、グラフにスキルのステータスが表示されます。グラフ上にマウスポインタを置くと、「**進行中**」と「**獲得済み**」という 2 つのスキルステータスのパーセンテージが表示されます。
+1. 選択したスキルとレベルに基づいて、グラフにスキルのステータスが表示されます。 グラフ上にマウスポインタを置くと、「**進行中**」と「**獲得済み**」という 2 つのスキルステータスのパーセンテージが表示されます。
 
    ![](assets/first-graph.png)
 
@@ -232,13 +234,13 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *ハイパーリンクの構成を選択してください*
 
-1. スキルの設定ポップアップダイアログが表示されたら、「**目標完了%**」フィールドにパーセント値を入力し、「**目標日**」フィールドに、目標とするパーセンテージを達成する日付を入力します。**&#x200B;**
+1. スキルの設定ポップアップダイアログが表示されたら、「**目標完了%**」フィールドにパーセント値を入力し、「**目標日**」フィールドに、目標とするパーセンテージを達成する日付を入力します。****
 
    ![](assets/configure-tracker.png)
 
    *ターゲットの完了率を入力してください*
 
-1. 「**予測**」ボタンをクリックして、予測の出力情報を表示します。出力は次のスクリーンショットのようになります。
+1. 「**予測**」ボタンをクリックして、予測の出力情報を表示します。 以下のような出力情報が表示されます。
 
    ![](assets/skill-tracker-output.png)
 
@@ -290,7 +292,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 *スキルトラッカーに入力された目標日に達成されたチームの達成率を表示する*
 
-グラフの下に、チームビューと、登録済みのスキル数、完了したスキル数、進行中のスキル数が表示されます。完了日が設定されている学習オブジェクトの場合、予測完了日も表示されます。
+グラフの下に、チームビューと、登録済みのスキル数、完了したスキル数、進行中のスキル数が表示されます。 完了日が設定されている学習オブジェクトの場合、予測完了日も表示されます。
 
 ![](assets/ts-details.png)
 
@@ -308,7 +310,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 *メンバーのスキルを表示*
 
-チームの一覧画面の「登録済み」列、「獲得済み」列、「進行中」列に表示されている数字をクリックすると、スキルに登録しているメンバーの数が表示されます。また、スキルの登録日、スキルのステータス、スキルの完了日（スキルを完了しているユーザーの場合）も表示されます。
+チームの一覧画面の「登録済み」列、「獲得済み」列、「進行中」列に表示されている数字をクリックすると、スキルに登録しているメンバーの数が表示されます。 また、スキルの登録日、スキルのステータス、スキルの完了日（スキルを完了しているユーザーの場合）も表示されます。
 
 <!--![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png)-->
 
