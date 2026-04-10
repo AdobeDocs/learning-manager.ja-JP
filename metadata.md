@@ -4,11 +4,11 @@ solution: Learning Manager
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/learning-manager.ja-JP
+git-repo: https://github.com/AdobeDocs/learning-manager.en
 index: true
-source-git-commit: aab110a7f8dfed1fdabb1beb978164e6d051a394
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 metadata.mdファイルには、リポジトリ内のユーザーガイドのTOC.mdファイルを通過するレポジレベルのメタデータが含まれています。 任意のユーザーガイドのmetadata.mdコンテンツを変更する場合は、任意のTOC.mdファイルで変更します。
 
-詳しくはこちら [メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) 有効な値のリスト **解決策**, **product**、および **type**.
+**ソリューション**、**製品**、および&#x200B;**種類**&#x200B;の有効な値の一覧については、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)を参照してください。

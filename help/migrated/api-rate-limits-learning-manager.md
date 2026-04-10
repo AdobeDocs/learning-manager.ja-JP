@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Learning ManagerのAPIレート制限
+description: AdobeのLearning Managerでは、REST APIの豊富なスイートが提供されます。このスイートを使用して、Learning Managerと連携するアプリケーションを構築できます。また、業務に役立つワークフローを使用して、カスタムユーザーエクスペリエンスや拡張機能を構築することもできます。
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1801'
+ht-degree: 80%
 
 ---
 
@@ -110,7 +111,7 @@ x-burst: 2
 
 これを簡単に説明するサンプルのJavaCriptコードを確認できます。 ここをクリック [バイオリン](https://jsfiddle.net/ACAPJS/9yv8zcmL/) を実行し、コードの動作を確認します。
 
-このアプリケーションでは、アカウントの学習者ロールのアプリケーショントークンを提供する必要があります。 APIトークンの詳細については、[アプリケーションデベロッパーマニュアル](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)を参照してください。Learning Manager Integration Adminアプリケーションの「開発者向けリソース」セクションにあるトークンヘルパーを使用して、トークンを生成できます。
+このアプリケーションでは、アカウントの学習者ロールのアプリケーショントークンを提供する必要があります。 APIトークンの詳細については、[アプリケーションデベロッパーマニュアル]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)を参照してください。Learning Manager Integration Adminアプリケーションの「開発者向けリソース」セクションにあるトークンヘルパーを使用して、トークンを生成できます。
 
 このアプリケーションは、1回の操作でダミーAPIに10回の呼び出しを行っています。 ダミーAPIのレート制限は(5, 2)であるため、Learning Managerが受信した最初の5+2呼び出しが成功すると、レート制限に違反し、成功応答が表示されます。
 
@@ -147,28 +148,28 @@ Learning ManagerはJSONAPI仕様を実装しているため、一部のデータ
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
-   <td><p>(25、10) <br></p></td> 
-   <td><p>(20、10)<br></p></td> 
+   <td><p>(25, 10) <br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PATCH</p></td> 
    <td><p>(60, 20)</p></td> 
-   <td><p>(15、5) <br></p></td> 
+   <td><p>(15, 5) <br></p></td> 
   </tr> 
   <tr> 
    <td><p>POST</p></td> 
-   <td><p>(30、10)<br></p></td> 
-   <td><p>(30、10)<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PUT</p></td> 
-   <td><p>(20、10)<br></p></td> 
-   <td><p>(20、10)<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>GET</p></td> 
-   <td><p>(100、100)<br></p></td> 
-   <td><p>(100、30)<br></p></td> 
+   <td><p>(100, 100)<br></p></td> 
+   <td><p>(100, 30)<br></p></td> 
   </tr> 
  </tbody>
 </table>

@@ -1,11 +1,11 @@
 ---
 title: Adobe FTP Manager からの移行
-description: Adobe Learning Managerは、AWS TransferファミリーのSFTPプロトコルを使用する新しいコネクターをサポートしています。 オープンソースの FTP クライアントを Adobe FTP Manager に置き換えることができます。
+description: Adobe Learning Manager は、AWS Transfer ファミリーの SFTP プロトコルを使用する新しいコネクターをサポートしています。 オープンソースの FTP クライアントを Adobe FTP Manager に置き換えることができます。
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 67%
+source-wordcount: '1053'
+ht-degree: 69%
 
 ---
 
@@ -26,12 +26,12 @@ AWS推奨のFTPクライアントの一部は、[ここに表示](https://docs.a
 
 統合管理者で、新しいAWSベースのFTPコネクタを設定する必要があります。
 
-![コネクタイメージ](assets/alm-ftp.png)
+![コネクタ画像](assets/alm-ftp.png)
 *FTPオプションを選択する*
 
 接続すると、「接続の詳細」ページが表示されます。
 
-![接続の詳細ページ](assets/connection-name.png)
+![接続詳細ページ](assets/connection-name.png)
 *接続の詳細ページを表示する*
 
 認証オプションには、次の3つがあります。
@@ -48,12 +48,12 @@ FTP接続を作成しました。
 
 既にSSHキーがある場合は、**[!UICONTROL FTP公開キー]**&#x200B;フィールドに公開キーを貼り付け、[接続]をクリックします。
 
-![SSH鍵](assets/ssh-keys.png)
+![SSHキー](assets/ssh-keys.png)
 *キーを貼り付ける*
 
 ### パスワードを使用する基本的な認証
 
-基本的な認証メカニズムは、パスワードを使用することです。 最初のオプション、**[!UICONTROL パスワードを使用した基本認証の作成]**&#x200B;を選択します。 パスワードを入力し、[**[!UICONTROL 接続]**]をクリックします。
+基本的な認証メカニズムは、パスワードを使用することです。 最初のオプション、**[!UICONTROL パスワードを使用した基本認証の作成]**&#x200B;を選択します。 パスワードを入力し、**[!UICONTROL 「接続」]**&#x200B;をクリックします。
 
 これで接続されます。
 
