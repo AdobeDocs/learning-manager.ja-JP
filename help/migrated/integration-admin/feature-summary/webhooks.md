@@ -286,7 +286,7 @@ eventId、タイムスタンプ、eventInfoを、学習者および学習パスI
 少なくとも、webhookハンドラーは次のことを行う必要があります。
 
 ペイロードを検証し、イベントを解析します[]。
-eventNameを使用して、変更が**learnerinitiated**&#x200B;か&#x200B;**admin/batchinitiated**&#x200B;かを特定します。
+eventNameを使用して、変更が&#x200B;**learnerinitiated**&#x200B;か&#x200B;**admin/batchinitiated**&#x200B;かを特定します。
 
 userId、loId、およびloInstanceIdを使用して、システム内の対応するレコードを検索し、更新します。
 同じイベントが複数回配信される場合に、重複した処理を防ぐには、eventIdを使用します。
