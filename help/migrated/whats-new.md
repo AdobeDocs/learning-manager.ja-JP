@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **レポートと分析：** SCORMコンテンツは、L2レポートで複数のクイズの試行をレポートできるようになりました。 学習者のトランスクリプトで、学習時間の計算を改善しました。 管理者向けの学習トランスクリプトレポートが更新されました。 高度な検索の機能強化が利用できます。
 
-**ログイン方式：**学習者、作成者、管理者向けのAdobe Learning ManagerでのOpenID Connectのログインの仕組みについて説明します。 OpenID Connect(OIDC)は、web標準で構築された一般的なログイン方法です。 多くの組織が
+**ログイン方式：**&#x200B;学習者、作成者、管理者向けのAdobe Learning ManagerでのOpenID Connectのログインの仕組みについて説明します。 OpenID Connect(OIDC)は、web標準で構築された一般的なログイン方法です。 多くの組織が
 従業員およびパートナー向けのIDプロバイダー（Okta、Google Workspace、Microsoft Entra IDなど）。
 
 詳細については、[OIDCでログイン](/help/migrated/oidc.md)してください。
