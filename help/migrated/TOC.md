@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 65%
+source-wordcount: '900'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 65%
 
 * [Learning Manager ユーザーガイド](user-guide.md)
 * 概要 {#introduction}
-   * [新機能の概要2025年10月](/help/migrated/whats-new.md)
+   * [新機能の概要2026年4月](/help/migrated/whats-new.md)
+   * [新機能の概要2025年10月](/help/migrated/whats-new-october-2025.md)
    * [新機能の概要2025年5月](/help/migrated/whats-new-may-2025.md)
    * [新機能の概要2024年11月](/help/migrated/whats-new-nov-24.md)
    * [新機能の概要2024年7月](whats-new-july-2024.md)
@@ -38,6 +39,7 @@ ht-degree: 65%
    * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
    * [Adobe Learning Managerでのホワイトラベルの設定](white-label.md)
 * 利用開始 {#get-started}
+   * [OpenID ConnectでAdobe Learning Managerにログイン](/help/migrated/oidc.md)
    * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
    * [作成者の基本](authors/feature-summary/getting-started-author.md)
    * [学習者の基本](learners/feature-summary/getting-started-learner.md)
@@ -52,6 +54,7 @@ ht-degree: 65%
       * [アクティブフィールド](/help/migrated/administrators/feature-summary/active-fields.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
    * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
+   * [モジュールのアクセス時間制御](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * Adobe Learning ManagerのExperience Builder {#experience-builder}
       * [概要](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Experience Builderのコアコンポーネント](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -68,6 +71,12 @@ ht-degree: 65%
          * [概要](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Experience Builderのカスタマイズ](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builderのガイドラインと制限事項](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+      * [Experience Builderでのログインなしのエクスペリエンス](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+   * 設定 {#settings}
+      * [概要](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+      * [基本設定](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+      * [統合設定](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+      * [詳細設定](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
    * コンテンツマーケットプレイス {#content-marketplace}
       * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
       * [Go1コースを学習パスにキュレート](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
@@ -75,10 +84,12 @@ ht-degree: 65%
    * [レポート](administrators/feature-summary/reports.md)
    * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学習パス](administrators/feature-summary/learning-paths.md)
+   * [代替文字と等価](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [学習プラン](administrators/feature-summary/learning-plans.md)
    * [Learning Manager の注文および請求管理](administrators/feature-summary/billing-management.md)
    * [作業計画書](administrators/feature-summary/job-aids.md)
    * [資格認定](administrators/feature-summary/certifications.md)
+   * [証明書の作成とカスタマイズ](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [カタログ](administrators/feature-summary/catalogs.md)
    * [学習者およびマネージャーに偽装する](administrators/feature-summary/impersonation-learner-manager.md)
    * [複数の SSO ログイン](administrators/feature-summary/multiple-sso-logins.md)
@@ -92,6 +103,7 @@ ht-degree: 65%
    * [バッジ](administrators/feature-summary/badges.md)
    * [カラーテーマ](administrators/feature-summary/themes.md)
    * [学習者のトランスクリプト](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [学習者のトランスクリプトの変更](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
    * [フィードバックレポート](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [キャンセル待ちと出席の管理](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic プレーヤー](administrators/feature-summary/fluidic-player.md)
@@ -132,7 +144,6 @@ ht-degree: 65%
    * [Learning Manager に Salesforce パッケージをインストールする](integration-admin/feature-summary/install-salesforce-package.md)
    * 導入ガイド {#deployment-guide}
       * [概要](/help/migrated/deployment-guide/introduction.md)
-      * [サードパーティコネクタ](/help/migrated/deployment-guide/third-party-connectors.md)
       * [ユーザーの移行](/help/migrated/deployment-guide/user-migration.md)
       * [ユーザー設定](/help/migrated/deployment-guide/user-setup.md)
    * [Microsoft Teams コネクターのインストール](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -202,6 +213,8 @@ ht-degree: 65%
    * [新しいexperience leagueの発表](/help/migrated/new-experience-league-announcement.md)
    * [Experience League時にサポートチケットを提出する方法](/help/migrated/how-to-submit-support-ticket.md)
    * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)
+* APIの変更 {#api-changes}
+   * [4月リリースのAPIの変更](/help/migrated/api-changes-alm.md)
 * ナレッジベース {#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
