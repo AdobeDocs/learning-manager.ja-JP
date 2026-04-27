@@ -3,7 +3,7 @@ description: 学習者のトランスクリプトの詳細
 jcr-language: en_us
 title: 学習者のトランスクリプトの変更
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 1f0d3af950429042b21606648b53b7a7dfaaa851
+source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
