@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 62%
@@ -21,7 +21,7 @@ ht-degree: 62%
    * [新機能の概要2024年7月](whats-new-july-2024.md)
    * [新機能2024年3月](whats-new-march-2024.md)
    * [新機能2023年11月](whats-new-november-2023.md)
-   * [新機能2023年7月](whats-new-2023-july.md)
+   * {hide-from-toc}[新機能2023年7月](whats-new-2023-july.md)
    * [Adobe Learning Managerで予定されている変更](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [リリースノート](release-note/release-notes.md)
    * [必要システム構成](system-requirements.md)
