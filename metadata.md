@@ -6,7 +6,7 @@ product_v2:
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/learning-manager.en
+git-repo: https://github.com/AdobeDocs/learning-manager.ja-JP
 index: true
 source-git-commit: cc651621159e7a3e9bd0697494629582afa2439f
 workflow-type: tm+mt
