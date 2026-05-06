@@ -2,14 +2,16 @@
 title: Adobe Learning Manager の推奨機能
 description: 推奨エンジンの中核となるのは、Learning Managerの新しいコースランキングアルゴリズムです。 このアルゴリズムでは、数百万人のユーザーを対象に、5,000万のデータポイントと5年間の学習データの集計を使用し、登録の可能性に基づいてコースをランク付けします。 このランキングにより、登録の可能性が高いコースが学習者に対して表示されるようになります。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 58%
+source-wordcount: '1514'
+ht-degree: 56%
 
 ---
 
 # Adobe Learning Manager の推奨機能
+
+## 概要
 
 Adobe Learning Manager では、新しく改良されたコース推奨システムが導入されました。 このレコメンデーション機能では、AIアルゴリズムと、製品、役割、レベルなどのユーザーの関心事を使用して、パーソナライズされたコンテンツのレコメンデーションを提供します。 管理者は、製品、役割、レベルに基づいてアカウントを設定できます。
 
@@ -17,14 +19,9 @@ Adobe Learning Manager では、新しく改良されたコース推奨システ
 
 この機能を使用するには、管理者用アプリで機能を有効にする必要があります。
 
-## 推奨事項の有効化と設定
-
-1. コースとユーザーデータをアップロードします（オプション）。
-1. 変更を反映させます。
-1. おすすめを有効にして設定したら、Adobe Learning Managerにデータをアップロードして、おすすめのコンテンツを開始します。 このデータは、次の要素で構成されます。
-
-   * コースデータ
-   * ユーザーデータ（オプション）
+>[!NOTE]
+>
+>この機能は、FedRAMP認定の環境では使用できません。 詳細については、[FedRAMP環境での機能の可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)を参照してください。
 
 ## コースランキングアルゴリズム
 
@@ -152,8 +149,13 @@ csv のレコードの例は以下のとおりです。
 
 両方のCSVがアップロードされたら、「 Go live 」をクリックします。 これにより、新しい推奨システムが学習者に表示されるようになります。
 
+PRL Recommendationをアクティブにすると、以前の状態に戻すことはできません。 ライセンス認証を行うと、Adobe Learning Managerに変更が恒久的に適用されたことを知らせる確認プロンプトが表示されます。 推奨事項が有効になるまで、変更を取り消したり変更したりできます。
+
 ![公開](assets/computerdescription-automatically.png)
 *おすすめを有効にする*
+
+![公開](assets/recommendations-irreversible.png)
+*推奨事項に関する警告*
 
 これで、学習者が推奨システムを使用できるようになりました。
 

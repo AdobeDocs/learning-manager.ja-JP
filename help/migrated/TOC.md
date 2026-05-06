@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
+source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 62%
+source-wordcount: '906'
+ht-degree: 61%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 62%
       * [Adobe Learning Manager管理アカウントのライフサイクル](/help/migrated/alm-administrative-lifecycle.md)
       * [Adobe Learning Manager secure administration guide](/help/migrated/alm-secure-administration-guide.md)
       * [Adobe Learning Manager管理セキュリティ設定および構成管理](/help/migrated/alm-security-settings-config-management.md)
+      * [FedRAMP承認環境での機能の可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [Learning Manager のアクセシビリティ](accessibility-learning-manager.md)
    * [カスタムドメインのサポート](custom-domain.md)
    * [Adobe FTP Manager からの移行](transition-from-ftp-manager.md)

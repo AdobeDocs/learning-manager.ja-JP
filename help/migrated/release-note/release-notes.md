@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
 workflow-type: tm+mt
-source-wordcount: '29372'
+source-wordcount: '29433'
 ht-degree: 76%
 
 ---
@@ -24,6 +24,18 @@ ht-degree: 76%
  </tbody>
 </table>
 -->
+
++++アップデート106:Adobe Learning Managerの2026年4月リリース
+
+リリース日：2026年4月30日
+
+## バグ修正
+
+**文字制限によりVTT上書きがブロックされました：**&#x200B;レビュー/編集モードの文字制限により、ユーザーがALMによって自動生成されたVTTファイルを上書きできない問題を修正しました。 VTT編集モードで文字制限が100万に拡大されました。
+
+
++++
+
 
 +++アップデート105:Adobe Learning Managerの2026年4月リリース
 

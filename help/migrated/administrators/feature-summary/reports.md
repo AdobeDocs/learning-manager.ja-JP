@@ -4,9 +4,9 @@ jcr-language: en_us
 title: レポート
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7660'
+source-wordcount: '7677'
 ht-degree: 63%
 
 ---
@@ -132,7 +132,7 @@ Learning Manager では、毎週システムに登録されたユーザー数が
    <td>
     <p><b>指標</b></p></td>
    <td>
-    <p><b>説明</b></p></td>
+    <p><b>概要</b></p></td>
   </tr>
   <tr>
    <td>
@@ -708,6 +708,10 @@ _準拠ダッシュボード – 管理者ビュー_
 
 このレポートには、ルールごとに獲得した学習者のゲーミフィケーションポイントの履歴と理由が含まれます。
 
+>[!NOTE]
+>
+>この機能は、FedRAMP認定の環境では使用できません。 詳細については、[FedRAMP環境での機能の可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)を参照してください。
+
 ### レポートのダウンロード
 
 1. ゲーミフィケーション監査追跡URLを選択します。
@@ -892,7 +896,7 @@ Learning Manager ではトレーニングレポートをサポートしていま
 * 役割名
 * アクティビティタイプ
 * 修正タイプ
-* 説明
+* 概要
 * 参照先オブジェクトタイプ
 * 参照先オブジェクト ID
 * 参照先オブジェクト名

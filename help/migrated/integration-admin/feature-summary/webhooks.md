@@ -4,16 +4,22 @@ title: Webhooks
 description: コースの登録、コースの作成などの情報をリアルタイムで特定のURLに送信するためのWebhookについて説明します
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Webhooks
 
+## 概要
+
 Webhookを使用すると、特定のイベントが発生したときに、1つのエンティティから別のエンティティにリアルタイムのデータまたは通知を自動的に送信できます。 これにより、アプリケーションは常に情報を要求することなく、他のアプリケーションに情報を提供することができます。 例えば、ユーザーが学習管理システム(LMS)コースを完了すると、webhookはその情報をCRMやレポートツールなどの別のプラットフォームに自動的に送信できます。 Webhookは、プロセスを自動化し、システム間の手動アップデートの必要性を減らすために、統合でよく使用されます。 データの送信先となるコールバックURLを指定して、webhookを設定します。
+
+>[!NOTE]
+>
+>この機能は、FedRAMP認定の環境では使用できません。 詳細については、[FedRAMP環境での機能の可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)を参照してください。
 
 ## WebhookとAPIの比較
 

@@ -3,18 +3,24 @@ jcr-language: en_us
 title: Adobe Learning ManagerでのAIを活用した検索
 description: Adobe Learning ManagerでのAIを活用した検索について説明します
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Managerでの高度なAI検索
 
+## 概要
+
 Adobe Learning Managerの検索機能は、関連するコンテンツを効率的に検索し、適切なコンテンツの利用を支援することで、ユーザーエクスペリエンスを向上させます。
 
 Adobe Learning Managerは、AIを活用した検索機能を導入しており、語彙検索と意味検索を組み合わせることができます。 この機能強化により、学習者は関連するコンテンツを効率的に検索できます。 AIを利用した高度な検索では、クエリの意味が理解され、関連する結果が提供されます。
+
+>[!NOTE]
+>
+>この機能は、FedRAMP認定の環境では使用できません。 詳細については、[FedRAMP環境での機能の可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)を参照してください。
 
 ## 主な利点
 
@@ -74,7 +80,7 @@ _クエリを展開しています_
 
 ### コースメタデータの検索
 
-Adobe Learning Managerのメタデータ検索は、ネイティブコースと読み込まれたコース(LinkedIn LearningやGo1など)のメタデータの両方を対象としています。 この機能を使用すると、コースタイトル、説明、タグ、パーソナライズされたメモ、その他のメタデータを検索できます。 これにより、多くの異なるメタデータを使用して結果を検索できるため、結果の品質と精度が向上します。
+Adobe Learning Managerのメタデータ検索は、ネイティブコースと読み込まれたコース（LinkedIn LearningやGo1など）のメタデータの両方を対象としています。 この機能を使用すると、コースタイトル、説明、タグ、パーソナライズされたメモ、その他のメタデータを検索できます。 これにより、多くの異なるメタデータを使用して結果を検索できるため、結果の品質と精度が向上します。
 注意：お客様のデータ（コンテンツと文字起こしを含む）は、AIを活用した検索のために外部サービスと共有されることはありません。 すべてのコンテンツは現在のストレージ・システム内に保存されます。
 
 #### コンテンツ内検索
