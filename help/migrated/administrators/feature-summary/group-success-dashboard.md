@@ -3,18 +3,22 @@ jcr-language: en_us
 title: グループの成功ダッシュボード
 description: Adobe Learning Managerのグループサクセスダッシュボードの詳細情報
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # グループの成功ダッシュボード
 
-## グループ成功ダッシュボードの概要
+## 概要
 
 Adobe Learning ManagerのGSD(Group Success Dashboard)を使用すると、管理者やマネージャーは、すべての部署またはユーザーグループで学習者の進捗状況をほぼリアルタイム（登録、進捗状況、完了からダッシュボードに反映されるまでの60分程度の遅延）で確認できます。 コースの完了、登録、保留中のアクションをプロアクティブに追跡し、チームの学習管理を容易にします。 ユーザーグループについて詳しくは、この[記事](/help/migrated/administrators/feature-summary/add-users-user-groups.md)をご覧ください。
+
+>[!NOTE]
+>
+>この機能は、FedRAMP認定の環境では使用できません。 詳細については、[FedRAMP環境での機能の可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)を参照してください。
 
 ## 主な使用例
 
@@ -37,7 +41,7 @@ Adobe Learning ManagerのGSD(Group Success Dashboard)を使用すると、管理
 管理者は、アカウントのグループ成功ダッシュボードを有効にする必要があります。 グループの成功ダッシュボードを有効にするには、次の手順に従います。
 
 1. 管理者としてログインします。
-2. **[!UICONTROL 設定]**&#x200B;を選択し、**[!UICONTROL レポート]**&#x200B;を選択します。
+2. **[!UICONTROL 設定]**を選択し、**[!UICONTROL レポート]**&#x200B;を選択します。
 3. **[!UICONTROL ダッシュボードの表示/非表示]**&#x200B;の切り替えを選択します。
 4. ダッシュボード名を入力してください（例： **[!UICONTROL ストアマネージャーダッシュボード]**）。
    ![](assets/enable-gsd.png)
@@ -92,14 +96,14 @@ Adobe Learning ManagerのGSD(Group Success Dashboard)を使用すると、管理
 
 7. **[!UICONTROL [ダッシュボードの作成]]**&#x200B;を選択します。
 
-大規模なチームの場合は、「**学習者のトランスクリプト**」タブで「**デフォルトのカタログ**」と「**[!UICONTROL すべての学習者]**」ユーザーグループを選択して、ダッシュボードを作成します。 これには、**[!UICONTROL 学習者のトランスクリプト]**&#x200B;ビューのすべてのコースと学習者が含まれ、各学習者の進行状況を検索および追跡するのが容易になります。
+大規模なチームの場合は、「**[!UICONTROL 学習者のトランスクリプト]**」タブで「**デフォルトのカタログ**」と「**すべての学習者**」ユーザーグループを選択して、ダッシュボードを作成します。 これには、**[!UICONTROL 学習者のトランスクリプト]**&#x200B;ビューのすべてのコースと学習者が含まれ、各学習者の進行状況を検索および追跡するのが容易になります。
 
 ### グループの成功ダッシュボードを表示
 
 ダッシュボードを作成した後、管理者は次の手順に従ってダッシュボードを表示できます。
 
 1. 管理者としてログインします。
-2. **[!UICONTROL レポート]**&#x200B;を選択し、**[!UICONTROL グループの成功ダッシュボード]**&#x200B;を選択します。
+2. **[!UICONTROL レポート]**&#x200B;を選択し、**[!UICONTROL グループの成功ダッシュボード]**を選択します。
 ダッシュボードの名前はStore Manager Dashboardです。
 3. **[!UICONTROL 自分のダッシュボード]**&#x200B;セクションで、[**[!UICONTROL ダッシュボードの選択]**]ドロップダウンから作成されたダッシュボードを選択します。
 4. ダッシュボードは次のように分類されます。
