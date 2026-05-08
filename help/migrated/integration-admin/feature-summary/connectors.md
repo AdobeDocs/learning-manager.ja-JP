@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -1068,29 +1068,29 @@ Learning ManagerをZoomコネクターと統合し、クラスのホストとし
 1. Learning Managerホームページで、ズームサムネールの上にマウスを置きます。 メニューが表示されます。 メニューから&#x200B;**[!UICONTROL [接続]]**&#x200B;オプションをクリックします。
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*コネクタタイルのズーム*
--->
+   *Zoom connector tile* 
+   -->
 
 1. 「コネクタをズーム」ページが開きます。 アカウントの詳細をそれぞれのフィールドに入力して、ユーザーフィードを統合および同期します。 コネクタアカウントの管理者から詳細を取得できます。
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*BlueJeans/ズームに接続*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->コネクターを有効にしながら、ユーザーが学習者として Learning Manager アカウントで使用している電子メール ID で、Learning Manager にフィードバックを提出できるようにします。
+   >[!NOTE]
+   >
+   >コネクターを有効にしながら、ユーザーが学習者として Learning Manager アカウントで使用している電子メール ID で、Learning Manager にフィードバックを提出できるようにします。
 
 1. 接続が確立されたら、作成者は、会議システムとしてZoomを使用してVCコースを作成します。
 
    <!--
-![](assets/vc.jpg)
-
-*VCコースの作成*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. 管理者、マネージャー、学習者は、作成されたコースに学習者を登録できます。 登録時に、学習者は電子メールを受け取ります。 学習者は自分の Learning Manager アカウントにログインしてプログラムの詳細を表示し、コースを受講できます。
 1. コースを完了すると、完了レポートが Learning Manager に送信されます。 管理者は、完了レポートを見て学習者の出席と得点を確認できます。
@@ -1340,11 +1340,11 @@ LinkedIn.com をご利用のエンタープライズのお客様は、LinkedIn L
 1. linkedIn Learningコネクタを初めて構成する場合は、[!UICONTROL [接続]]をクリックします。
 
    <!--
-このコネクタを構成する前に、Exavault FTP アカウントを設定してください。
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*接続の構成*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. 接続ページから、コネクターの名前を指定します。 接続に使用する Appkey と秘密キーを入力してください。
 
