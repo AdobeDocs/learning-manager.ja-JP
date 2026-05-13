@@ -178,7 +178,7 @@ FTPをFileZillaに接続するには、次の手順を実行します。
 3. **マップの属性**&#x200B;ページで、次の操作を行います。
    - **左側**&#x200B;は、Adobe Learning Managerの必須フィールドを示しています。
    - **右側**&#x200B;には、CSV列の名前が表示されます。 最初は、この側には空のドロップダウンが含まれています。
-   - 「**CSVを選択**」を選択して、サンプルCSVファイルをアップロードします。 これにより、右側のドロップダウンにCSVからの列名が入力されます。 [この記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)を参照してください。
+   - 「**CSVを選択**」を選択して、サンプルCSVファイルをアップロードします。 これにより、右側のドロップダウンにCSVからの列名が入力されます。 [この記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/migration-manual#csv)を参照してください。
    - 各Adobe Learning Managerフィールドを対応するCSV列にマッピングします。
 
    ![](assets/ftp-connector6.png)

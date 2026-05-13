@@ -27,8 +27,8 @@ Adobe Learning Managerは、拡張性と拡張性に優れたeコマースソリ
 
 Adobe Commerceコネクタを設定する前に、次のことを確認してください。
 
-- [RabbitMQ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview)またはその他のメッセージングブローカーを有効にします。
-- [CRON](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview#cron_consumers_runner)ジョブを有効にします。
+- [RabbitMQ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/start/overview)またはその他のメッセージングブローカーを有効にします。
+- [CRON](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/start/overview#cron_consumers_runner)ジョブを有効にします。
 
 これらを有効にするには、次のファイルを編集します。
 
@@ -42,8 +42,8 @@ Adobe Commerceコネクタを設定する前に、次のことを確認してく
 - すべての&#x200B;**非同期API**&#x200B;を有効にします。 大きなトレーニングデータセットは、非同期で書き出されます。 Learning ManagerがAdobe Commerce APIを呼び出すと、コマース側で製品を作成するコンシューマーがリクエストをキューに入れて処理します。 非同期処理は、Adobe Commerceのデフォルトでは使用できないため、有効にする必要があります。
 - Adobe Commerceの支払い処理ページで、Learning Managerに&#x200B;**return link**&#x200B;を追加します。
    - 次の[戻り値URL](https://learningmanager.adobe.com/app/learner#/postPayment)を使用する：
-- **インデックス**&#x200B;を保存時の&#x200B;**から**&#x200B;スケジュール済み&#x200B;**に変更します。**&#x200B;詳細については、[サポート技術情報](https://experienceleague.adobe.com/en/support?support-tab=home#home)を参照してください。
-- 必要な&#x200B;**パッチ**&#x200B;を適用します。 手順については、[修正プログラムのドキュメントを適用する](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview)を参照してください。
+- **インデックス**&#x200B;を保存時の&#x200B;**から**&#x200B;スケジュール済み&#x200B;**に変更します。**&#x200B;詳細については、[サポート技術情報](https://experienceleague.adobe.com/ja/support?support-tab=home#home)を参照してください。
+- 必要な&#x200B;**パッチ**&#x200B;を適用します。 手順については、[修正プログラムのドキュメントを適用する](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/start/overview)を参照してください。
 - クラウドインフラストラクチャ（ステージングおよび実稼働環境）でAdobe Commerce用に&#x200B;**Fastly**&#x200B;を構成します。 詳細については、[Fastlyのセットアップ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)を参照してください。
 
 ## コネクターの構成

@@ -165,4 +165,4 @@ getAbstractコネクターを設定するには：
    - report_export_yyyy_MM_dd_HHmmss.xlsxまたは、
    - report_export_yyyy_MM_dd.xlsx
 
-[getAbstractユーザーフィードのサンプルファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en)をダウンロードして、形式を確認してください。
+[getAbstractユーザーフィードのサンプルファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=ja)をダウンロードして、形式を確認してください。
