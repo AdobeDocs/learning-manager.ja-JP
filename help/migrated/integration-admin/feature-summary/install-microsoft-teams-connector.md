@@ -1,17 +1,17 @@
 ---
 description: Adobe Learning Manager で Microsoft Teams コネクターをインストール
 jcr-language: en_us
-title: Adobe Learning Manager で Microsoft Teams コネクターをインストール
+title: Microsoft Teams コネクター
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 52%
+source-wordcount: '1206'
+ht-degree: 51%
 
 ---
 
-# Adobe Learning Manager で Microsoft Teams コネクターをインストール
+# Adobe Learning ManagerのMicrosoft Teamsコネクタ
 
 ## 概要
 

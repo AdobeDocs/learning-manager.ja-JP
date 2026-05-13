@@ -4,10 +4,10 @@ title: Learning Manager でユーザーが自動的に削除される
 description: 管理者が操作していないのに、Learning Manager からユーザーが削除されてしまいます。
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 61%
+source-wordcount: '235'
+ht-degree: 69%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Learning Manager には、一定期間システムにログインしてい
 
 1. **[!UICONTROL [保存]]**&#x200B;をクリックして、設定を保持します。
 
-### 社外学習者の場合
+### 社外学習者の場合：
 
 1. **管理者**&#x200B;としてログインします。
 1. **管理**&#x200B;で、**[!UICONTROL ユーザー]** > **[!UICONTROL 外部]**&#x200B;をクリックします。
@@ -55,5 +55,5 @@ Adobe Learning Manager には、一定期間システムにログインしてい
 
    *[詳細設定]オプションを選択します*
 
-1. **ログイン要件**&#x200B;フィールドに、学習者がシステムにアクセスしなかった場合に自動削除されるまでの日数を入力します。
+1. **「ログイン要件」**&#x200B;フィールドに、学習者がシステムにアクセスしなかった場合に自動削除されるまでの日数を入力します。
 1. **[!UICONTROL [保存]]**&#x200B;をクリックして、設定を保持します。
