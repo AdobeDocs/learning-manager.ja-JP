@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
+source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 61%
+source-wordcount: '946'
+ht-degree: 62%
 
 ---
 
@@ -132,7 +132,24 @@ ht-degree: 61%
 * 統合管理者 {#integration}
    * [アプリケーションデベロッパーマニュアル](integration-admin/feature-summary/developer-manual.md)
    * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
-   * [Learning Manager コネクター](integration-admin/feature-summary/connectors.md)
+   * Learning Manager コネクター {#connectors}
+      * [コネクタの概要](integration-admin/feature-summary/connectors.md)
+      * [ADFSコネクタ](integration-admin/feature-summary/adfs-connector.md)
+      * [Adobe Commerce connector](integration-admin/feature-summary/adobe-commerce-connector.md)
+      * [Adobe Connectコネクタ](integration-admin/feature-summary/adobe-connect-connector.md)
+      * [Box コネクター](integration-admin/feature-summary/box-connector.md)
+      * [カスタムFTPコネクタ](integration-admin/feature-summary/custom-ftp-connector.md)
+      * [FTPコネクタ](integration-admin/feature-summary/ftp-connector.md)
+      * [getAbstract コネクタ](integration-admin/feature-summary/getabstract-connector.md)
+      * [Harvard ManageMentor コネクタ](integration-admin/feature-summary/harvard-managementor-connector.md)
+      * [LinkedIn Learning コネクタ](integration-admin/feature-summary/linkedin-learning-connector.md)
+      * [Adobe Marketo Engage コネクター](integration-admin/feature-summary/marketo-engage-connector.md)
+      * [Microsoft Teams コネクター](integration-admin/feature-summary/install-microsoft-teams-connector.md)
+      * [Power BI コネクター](integration-admin/feature-summary/power-bi-connector.md)
+      * [Salesforce コネクタ](integration-admin/feature-summary/salesforce-connector.md)
+      * [Training Data Access コネクタ](integration-admin/feature-summary/training-data-access-connector.md)
+      * [Workday コネクタ](integration-admin/feature-summary/workday-connector.md)
+      * [Zoomコネクタ](integration-admin/feature-summary/zoom-connector.md)
    * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
    * Webhooks {#webhooks}
       * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -147,7 +164,6 @@ ht-degree: 61%
       * [概要](/help/migrated/deployment-guide/introduction.md)
       * [ユーザーの移行](/help/migrated/deployment-guide/user-migration.md)
       * [ユーザー設定](/help/migrated/deployment-guide/user-setup.md)
-   * [Microsoft Teams コネクターのインストール](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce 向け Learning Manager アプリ](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [CSV ファイルを使用したカスタムの役割の管理](integration-admin/feature-summary/configure-role-csv-files.md)
