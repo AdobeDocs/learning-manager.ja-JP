@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: a6d8564888f232bc642cfcac7b17db52be1ef024
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 62%
+source-wordcount: '953'
+ht-degree: 61%
 
 ---
 
@@ -232,6 +232,7 @@ ht-degree: 62%
    * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)
 * APIの変更 {#api-changes}
    * [4月リリースのAPIの変更](/help/migrated/api-changes-alm.md)
+   * [5月パッチリリースのAPIの変更](/help/migrated/api-changes-alm-may.md)
 * ナレッジベース {#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)

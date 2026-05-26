@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '29433'
-ht-degree: 76%
+source-wordcount: '29658'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,48 @@ ht-degree: 76%
 </table>
 -->
 
-+++アップデート106:Adobe Learning Managerの2026年4月リリース
++++アップデート107:Adobe Learning Managerの2026年5月のパッチリリース
+
+リリース日：2026年5月26日
+
+## 機能強化（インスタンスとセッションの招待メール）
+
+**インスタンスの開始日：**&#x200B;管理者または作成者は、インスタンスを作成または編集するときにインスタンスの開始日を含めることができるようになりました。
+
+**開始日より前の電子メールのリマインダー：**&#x200B;これは、インスタンスに新しく導入された&#x200B;**開始日**&#x200B;フィールドに関連しています。 管理者または作成者は、様々なタイプの再発を含むインスタンスの開始日の前の異なる時点で、2つの電子メールリマインダーを設定できるようになりました。
+
+詳細については、管理者用の[インスタンスの作成](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse)および作成者用の[インスタンスの作成](/help/migrated/authors/feature-summary/courses.md#createaninstance)を参照してください。
+
+**セッションの招待電子メール:**&#x200B;ユーザーがCR/VCRタイプのセッションのインストラクターとして追加されると、インストラクターには自動通知メールが送信されます。 このメールのルックアンドフィールは美的に強化されています。 詳細については、[カレンダーの招待](/help/migrated/instructors/feature-summary/learners.md#calendarinvites)を参照してください
+
+## API の変更
+
+### getLO APIで可用性を開始
+
+**GET/learningObjects APIの機能強化**
+
+インスタンスリレーションシップを含める場合、GET /learningObjects APIにlearningObjectInstanceリソースに新しいstartDate属性が含まれるようになりました。
+
+**エンドポイント**
+
+GET /learningObjects/{id}?include=instances
+
+**変更**
+
+新しいフィールドstartDateが次の下に追加されました。
+included[].attributes.startDate
+
+**説明**
+
+startDateは、学習目標インスタンスのスケジュールされた開始日時を表します。
+
+詳しくは、[5月リリースのAPIの変更](/help/migrated/api-changes-alm-may.md)を参照してください。
+
+
++++
+
+
++++アップデート106:Adobe Learning Managerの2026年4月のパッチリリース
 
 リリース日：2026年4月30日
 
