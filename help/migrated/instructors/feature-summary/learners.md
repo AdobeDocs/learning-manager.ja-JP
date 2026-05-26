@@ -4,7 +4,7 @@ jcr-language: en_us
 title: セッションの学習者の管理
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -107,7 +107,7 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 3. 関連する&#x200B;**コースインスタンス**&#x200B;を開きます。
 4. 「**セッション**」タブを選択します。
 5. 自分に割り当てられたセッションを選択します。
-6. **セッションQRコード**&#x200B;を選択してください。
+6. **セッションQRコード**を選択してください。
    ![](assets/instructor-QR-code.png)
 
 次のQRコードをダウンロードできます。
@@ -146,9 +146,12 @@ QRコードはPDFとしてダウンロードされ、デジタルでの共有や
 
 * 学習者またはインストラクターが教室またはバーチャルクラスルームセッションに登録されると、Learning Managerからカレンダーの招待状（ICSファイル）が送信されます。
 * 招待状には以下が含まれます。
+
    * セッションの日時
    * セッションの詳細
    * 予定表の説明の&#x200B;**直接セッション参加リンク**
+
+  ![](assets/calendar-invite-session.png)
 
 参加者はカレンダーイベントを開き、カレンダーから直接セッションに参加できます。
 
