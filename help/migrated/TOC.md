@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 61%
+source-wordcount: '1070'
+ht-degree: 54%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 61%
    * User Management {#user-management}
       * [Adobe Learning Managerでのユーザーの追加](administrators/feature-summary/add-users-user-groups.md)
       * [Adobe Learning Managerのユーザーグループ](/help/migrated/administrators/feature-summary/user-group.md)
-      * [アクティブフィールド](/help/migrated/administrators/feature-summary/active-fields.md)
+      * [アクティブなフィールド](/help/migrated/administrators/feature-summary/active-fields.md)
    * [教室の場所を追加](administrators/feature-summary/classroom.md)
    * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
    * [モジュールのアクセス時間制御](/help/migrated/administrators/feature-summary/module-access-time-control.md)
@@ -82,8 +82,26 @@ ht-degree: 61%
       * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
       * [Go1コースを学習パスにキュレート](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1フィードバックフォーム](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+   * レポートビルダー {#report-builder}
+      * [Adobe Learning ManagerのReport Builder](administrators/feature-summary/alm-report-builder.md)
+      * [Report Builder：コンセプトと用語](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
+      * [Report Builderで使用可能なデータセット](administrators/feature-summary/alm-report-builder-datasets.md)
+      * [Report Builderテンプレートの概要](administrators/feature-summary/alm-create-report.md)
+      * [複製したReport Builderテンプレートのカスタマイズ](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
+      * [Report Builderでのカスタムレポートの作成](administrators/feature-summary/alm-report-builder-custom-report.md)
+      * [Report Builderのグループ化と集計を適用する](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
+      * [レポートへのフィルターの追加と結合](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
+      * [レポートの列をReport Builderで並べ替え](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
+      * [インストラクターのパフォーマンスとReport Builderの確認](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
+      * [Report Builder内のユーザーグループ別のエンゲージメントの追跡](administrators/feature-summary/alm-report-builder-track-engagement.md)
+      * [Report Builderの傾向レポートを作成する](administrators/feature-summary/alm-report-builder-build-trend-report.md)
+      * [レポートのダウンロード、共有、および購読](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
+      * [Report Builderでレポートを複製して再利用する](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
+      * [Adobe Learning ManagerのReport Builderの制限](administrators/feature-summary/alm-report-builder-limitations.md)
+      * [よくある質問](administrators/feature-summary/alm-report-builder-faq.md)
    * [レポート](administrators/feature-summary/reports.md)
    * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [Adobeのlearning Managerでワンクリック登録を設定する](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [学習パス](administrators/feature-summary/learning-paths.md)
    * [代替文字と等価](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [学習プラン](administrators/feature-summary/learning-plans.md)
@@ -190,6 +208,7 @@ ht-degree: 61%
    * [ログイン](learners/feature-summary/user-login.md)
    * [プロファイル設定](learners/feature-summary/settings.md)
    * [カタログ](learners/feature-summary/catalogs.md)
+   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
    * [学習状況](learners/feature-summary/courses.md)
    * [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
    * [学習プログラム](learners/feature-summary/learning-programs.md)
@@ -232,7 +251,7 @@ ht-degree: 61%
    * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)
 * APIの変更 {#api-changes}
    * [4月リリースのAPIの変更](/help/migrated/api-changes-alm.md)
-   * [5月パッチリリースのAPIの変更](/help/migrated/api-changes-alm-may.md)
+   * [5月リリースのAPIの変更](/help/migrated/api-changes-alm-may.md)
 * ナレッジベース {#knowledge-base}
    * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
    * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
