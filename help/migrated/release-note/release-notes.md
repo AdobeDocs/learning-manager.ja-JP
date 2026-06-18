@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '30634'
-ht-degree: 72%
+source-wordcount: '30524'
+ht-degree: 73%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 72%
 リリース日：2026年6月17日
 
 ## このリリースの最新情報
-
-Adobe Learning Managerの&#x200B;**Report Builder:** Report Builderはセルフサービスのレポート作成ツールです。必要な列のみを選択し、柔軟なフィルターを適用し、一貫したデータにアクセスすることで、管理者はカスタマイズされたレポートを1つのインターフェイスから作成およびダウンロードできます。 レポートの構成、保存、再利用を容易に実行できるため、事前作成済みの固定レポートや外部ツールでの手作業による後処理に頼る必要がなくなります。 Report Builderは、厳格なカラム構造、フィルタリング・オプションの制限、一貫性のないデータ・ソースなどの制限に対処することで、事前に定義された用途に対する既存の標準レポートを補完しながら、レポート作成ワークフローを合理化し、正確な情報を確認し、時間を節約します。 詳細については、[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)を参照してください。
 
 **ワンクリック登録：**&#x200B;ワンクリック登録を使用すると、学習者は管理者が共有するモジュールへのディープリンクを開いて、即座にコンテンツへのアクセスを開始できます。最初に登録してからコースを個別に起動する必要はありません。 これにより、アクセスが合理化され、時間が節約され、全体的な学習体験が向上します。 詳細については、「[ワンクリック登録](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)」を参照してください。
 
