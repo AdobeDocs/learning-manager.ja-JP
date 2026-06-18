@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 54%
+source-wordcount: '964'
+ht-degree: 59%
 
 ---
 
@@ -82,23 +82,6 @@ ht-degree: 54%
       * [コンテンツマーケットプレイス](administrators/feature-summary/content-marketplace.md)
       * [Go1コースを学習パスにキュレート](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1フィードバックフォーム](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
-   * レポートビルダー {#report-builder}
-      * [Adobe Learning ManagerのReport Builder](administrators/feature-summary/alm-report-builder.md)
-      * [Report Builder：コンセプトと用語](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
-      * [Report Builderで使用可能なデータセット](administrators/feature-summary/alm-report-builder-datasets.md)
-      * [Report Builderテンプレートの概要](administrators/feature-summary/alm-create-report.md)
-      * [複製したReport Builderテンプレートのカスタマイズ](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
-      * [Report Builderでのカスタムレポートの作成](administrators/feature-summary/alm-report-builder-custom-report.md)
-      * [Report Builderのグループ化と集計を適用する](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
-      * [レポートへのフィルターの追加と結合](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
-      * [レポートの列をReport Builderで並べ替え](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
-      * [インストラクターのパフォーマンスとReport Builderの確認](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
-      * [Report Builder内のユーザーグループ別のエンゲージメントの追跡](administrators/feature-summary/alm-report-builder-track-engagement.md)
-      * [Report Builderの傾向レポートを作成する](administrators/feature-summary/alm-report-builder-build-trend-report.md)
-      * [レポートのダウンロード、共有、および購読](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
-      * [Report Builderでレポートを複製して再利用する](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
-      * [Adobe Learning ManagerのReport Builderの制限](administrators/feature-summary/alm-report-builder-limitations.md)
-      * [よくある質問](administrators/feature-summary/alm-report-builder-faq.md)
    * [レポート](administrators/feature-summary/reports.md)
    * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Adobeのlearning Managerでワンクリック登録を設定する](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
