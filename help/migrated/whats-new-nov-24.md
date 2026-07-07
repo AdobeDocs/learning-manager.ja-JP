@@ -5,7 +5,7 @@ title: 新機能の概要2024年11月
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -120,7 +120,7 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL ユーザーグループ
 
 * ユーザーグループタイプ
 * グループ名
-* 説明
+* 概要
 * 作成者（名前）
 * 作成者（電子メール）
 * 作成日（UTCタイムゾーン）
@@ -151,8 +151,7 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 
 ## 学習者ホームページのアクセシビリティ
 
-Adobe Learning Managerでは、すべてのマストヘッドの代替テキストをサポートするようになり、学習者が利用しやすくなりました。 これにより、スクリーンリーダーを使用して代替テキストを読み、画像を理解する必要のある特別な学習者が学習できます。 複数の言語を選択し、各言語の代替テキストを指定できます。 それぞれの言語で代替テキストを追加してください。 アカウント内の会社のロゴに、会社名の付いた代替テキストも含まれていることを確認します。
-詳細については、この記事[発表](/help/migrated/administrators/feature-summary/announcements.md#masthead)を参照してください。
+Adobe Learning Managerでは、すべてのマストヘッドの代替テキストをサポートするようになり、学習者が利用しやすくなりました。 これにより、スクリーンリーダーを使用して代替テキストを読み、画像を理解する必要のある特別な学習者が学習できます。 複数の言語を選択し、各言語の代替テキストを指定できます。 それぞれの言語で代替テキストを追加してください。 アカウント内の会社のロゴに、会社名の付いた代替テキストも含まれていることを確認します。詳細については、この記事[発表](/help/migrated/administrators/feature-summary/announcements.md#masthead)を参照してください。
 
 ## ヒンディー語のサポート
 
@@ -236,7 +235,7 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 
 新しい列の条件は次のとおりです。
 
-1. `completionCriteria`：
+1. `completionCriteria`:
 
    * データ型は文字列値である必要があり、サポートされている値は次のとおりです。
       * `LAUNCH_CONTENT`
@@ -248,12 +247,12 @@ folder列は文字列データ型を使用し、オプションの列です。 f
    * インタラクティブコンテンツでサポートされている値は、`LAUNCH_CONTENT`、`VIEW_PERCENT`、および`QUIZ`です。
    * HTML5コンテンツでサポートされている値は`LAUNCH_CONTENT`および`MARK_COMPLETE`です。
 
-2. `viewPercent`：
+2. `viewPercent`:
 
    * この列のデータ型は整数にする必要があり、値は0 ～ 100の範囲にする必要があります。
    * completionCriteriaが`VIEW_PERCENT`に設定されている場合、この列に必要なビューの割合を入力するか、空白のままにします。
 
-3. `quizData`：
+3. `quizData`:
 
    * データ型は文字列値である必要があり、サポートされている値は`QUIZ_ATTEMPTED`、`QUIZ_PASSED`、および`QUIZPASSED_OR_LIMITREACHED`です。
    * `completionCriteria`が`QUIZ`に設定されている場合は、`quizData`列に適切なクイズ値を入力します。
@@ -528,7 +527,7 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 **[!UICONTROL 学習トランスクリプト]**&#x200B;レポートには、次の2つの新しい列が含まれます：
 
 * **[!UICONTROL モジュールID]**：各モジュールの一意の識別子を表示します。 この新しい列は、既存の&#x200B;**[!UICONTROL モジュール]**&#x200B;列の後に追加されました。
-* **[!UICONTROL コースインスタンスID]**：各コースインスタンスの一意のIDを表示します。この新しい列は、既存の&#x200B;**[!UICONTROL インスタンス]**&#x200B;列の後に追加されました。
+* **[!UICONTROL コースインスタンスID]**：各コースインスタンスの一意のIDを表示します。この新しい列は、既存の&#x200B;**[!UICONTROL Instance]**&#x200B;列の後に追加されました。
 * **[!UICONTROL 完了コメント]**：この列には、ユーザーの完了を記録するときに管理者が入力したコメントが記録されます。 この新しい列は、レポートの最後に追加されました。
 
 
