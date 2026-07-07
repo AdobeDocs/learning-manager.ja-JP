@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Learning Manager の xAPI
-description: Experience API(xAPI)は、あらゆるタイプの学習体験を記録して追跡する方法で学習コンテンツと学習システムを相互に連携させることを可能にするeラーニングソフトウェア仕様です。
+description: Experience API （xAPI）は、あらゆるタイプの学習経験を記録し、追跡しつつ、学習コンテンツと学習システムを相互に連携させることを可能にする e ラーニングのソフトウェア仕様です。
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 49%
+source-wordcount: '779'
+ht-degree: 77%
 
 ---
 
@@ -20,17 +20,17 @@ xAPIの詳細については、[https://github.com/adlnet/xAPI-Spec](https://git
 
 ## Learning Manager は xAPI にどのように対応していますか？ {#howdoescaptivateprimesupportxapi}
 
-Learning Manager には学習記録ストアが組み込まれています。この LRS には、Learning Manager でホストされるコンテンツから xAPI ステートメントを受け入れる包括的な機能があります。サードパーティによって生成される xAPI ステートメントも受け入れます。 これらのxAPIステートメントはLearning Manager内に保存されます。ステートメントはその後、Learning Manager外に書き出して、サードパーティのデータウェアハウスシステムで視覚化することができます。
+Learning Manager には学習記録ストアが組み込まれています。 この LRS には、Learning Manager でホストされるコンテンツから xAPI ステートメントを受け入れる包括的な機能があります。 サードパーティによって生成される xAPI ステートメントも受け入れます。 これらの xAPI ステートメントは Learning Manager 内に保存されます。ステートメントはその後、Learning Manager 外に書き出して、サードパーティのデータウェアハウスシステムで視覚化することができます。
 
 ## xAPI を使用するタイミング {#whendoyouusexapi}
 
-複数のシステムにまたがるエンドユーザーの学習体験をキャプチャする必要が高まっています。  また、学習者がトレーニングコンテンツに対して抱くエンゲージメントを正確に追跡する必要もあります。 開始時だけでなく、進行中も、完了時もそうする必要があります（これらは SCORM によってキャプチャされる唯一の属性です）。
+複数のシステムにまたがるエンドユーザーの学習経験をキャプチャする必要は大きくなっています。  トレーニングコンテンツに対する学習者のエンゲージメントを正確に追跡する必要もあります。 開始時だけでなく、進行中も、完了時もそうする必要があります（これらは SCORM によってキャプチャされる唯一の属性です）。
 
 ## Learning ManagerでのxAPIの使用 {#usingxapiinprime}
 
 ## アプリケーションを設定する {#setupyourapplication}
 
-1. 統合管理者としてログインします。**[!UICONTROL アプリケーション]** > **[!UICONTROL 登録]**&#x200B;を選択します。
+1. 統合管理者としてログインします。 **[!UICONTROL アプリケーション]** > **[!UICONTROL 登録]**&#x200B;を選択します。
 
    ![](assets/appregistration.png)
 
@@ -43,7 +43,7 @@ Learning Manager には学習記録ストアが組み込まれています。こ
    * **[!UICONTROL 「管理者役割 xAPI 読み取りおよび書き込みアクセス」]**&#x200B;を有効にすると、管理者は xAPI のステートメントとドキュメントの投稿と取得ができます。
    * **[!UICONTROL 「学習者役割 xAPI 読み取りおよび書き込みアクセス」]**&#x200B;を有効にすると、管理者は xAPI のステートメントとドキュメントの投稿と取得ができます。
 
-1. 変更を保存します。デベロッパーの ID とシークレットを取得します。
+1. 変更を保存します。 デベロッパーの ID とシークレットを取得します。
 
 **エンドポイント**:
 
@@ -51,25 +51,25 @@ Learning Manager には学習記録ストアが組み込まれています。こ
 
 [https://learningmanagereu.adobe.com/docs/primeapi/xapi/](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
-注意： Learning ManagerでサポートされているxAPIのバージョンは1.0.3です。
+注意： Learning Manager でサポートされている xAPI のバージョンは 1.0.3 です。
 
 ## API 認証 {#apiauthentication}
 
-Learning Manager xAPIでは、OAuth 2.0フレームワークを使用して、クライアントアプリケーションを認証および承認します。 アプリケーションを登録すると、clientIdとclientSecretを取得できます。 Get URLは、SSOやAdobe IDなどの事前設定されたアカウントを使用して、ブラウザーでLearning Managerユーザーを認証する際に使用されます。
+Learning Manager xAPI では、OAuth 2.0 フレームワークを使用して、クライアントアプリケーションを認証および承認します。 アプリケーションが登録されると、clientId と clientSecret を取得できます。 Get URLは、SSOやAdobe IDなどの事前設定されたアカウントを使用して、ブラウザーでLearning Managerユーザーを認証する際に使用されます。
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
 ```
 
-## Learning Manager LOとしてのxAPIステートメントのトラッキング {#trackingxapistatementsasprimelo}
+## Learning Manager LO として xAPI ステートメントを追跡する {#trackingxapistatementsasprimelo}
 
-これで作成者として、コースを作成する際に xAPI モジュールを選択し、Learning Manager の外でユーザーエクスペリエンスを監視できるようになりました。例えば、この機能を使用して、コースの受講に使用されるサードパーティーのプラットフォーム上のユーザーのアクティビティを評価できます。 
+これで作成者として、コースを作成する際に xAPI モジュールを選択し、Learning Manager の外でユーザーエクスペリエンスを監視できるようになりました。 例えば、この機能を使用して、コースの受講に使用されるサードパーティーのプラットフォーム上のユーザーのアクティビティを評価できます。
 
 1. **[!UICONTROL アクティビティモジュール]**&#x200B;を作成するときに、&lbrack;**[!UICONTROL 型]**&#x200B;オプションで、ポップアップメニューを使用して&#x200B;**[!UICONTROL xAPIベースのモジュール]**&#x200B;を選択します。
 
    ![](assets/xapimodulecreation.png)
 
-1. IRI を指定するように要求されます。 指定しなかった場合、Learning Managerは自動的に生成します。
+1. IRI を指定するように要求されます。 指定しなかった場合は、Learning Manager 側で自動的に生成されます。
 
    アクティビティの IRI は、アカウント全体で一意です。 つまり、Learning Managerの2つのモジュールで同じIRIを使用することはできません。 新しい IRI は、次の場合に生成されます。
 
@@ -78,19 +78,19 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 
 
-   指定のIRIを含むxAPIステートメントは上記のモジュールで追跡され、Learning Managerレポートに反映されます。
+   対象となる IRI のある xAPI ステートメントは上のモジュールで追跡され、Learning Manager のレポートに反映されます。
 
 1. 自動生成された IRI をコピーするには、再度アクティビティモジュールページに移動します。
 1. モジュールをパブリッシュします。
 
 **注意点：**
 
-* Learning Managerでは現在、識別子としてmboxのみをサポートしています。 mboz_sha1、openid、accountなどのその他の識別子はサポートされていません。
+* Learning Manager は現在、識別子として mbox のみをサポートしています。 mboz_sha1、openid、accountなどのその他の識別子はサポートされていません。
 
-* stateIdとprofileIdは、Learning Managerで使用される際はUUIDになります。
+* stateId と profileId は、Learning Manager で使用する際は UUID になります。
 * xAPIの担当者/プロファイル、アクティビティ/プロファイル、アクティビティ/ステートの文書は、PUTリクエストによって上書きされません
 * アクターでは、不明なグループはサポートされていません。
-* パラメーター「related_activities」は、GETステートメントではサポートされていません。
+* パラメーター「related_activities」は、GET ステートメントでサポートされていません。
 * パラメーター「format=ids」と「format=canonical」は、GET ステートメントでサポートされていません。
 * xAPIステートメントを無効にしても、ステートメントの投稿時にLearning Managerで発生したアクションは取り消されません。
 
@@ -98,7 +98,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 xAPIレポートは、Excelレポートとして生成できます。 管理者として、**[!UICONTROL レポート]** > **[!UICONTROL Excelレポート]** > **[!UICONTROL xAPIアクティビティレポート]**&#x200B;を開きます。
 
-ダウンロードされたレポートでは、学習者と管理者がステートメントに関して投稿したすべての情報が取得されます。
+ダウンロードされたレポートでは、学習者と管理者がステートメントで投稿したすべての情報が取得されます。
 
 同じレポートを、任意のサードパーティ統合用にFTPおよびBoxコネクタを使用して生成/スケジュールできます。 その場合、以下の手順を実行します。
 
