@@ -1,18 +1,18 @@
 ---
 title: Adobe Learning Manager ユーザーガイドへようこそ
-description: Adobe Learning Manager(以前のAdobe Captivate Prime)の最新サービスについて説明します。 最初から開始することも、各セクションに個別にアクセスすることもできます。また、コミュニティに接続してプロジェクトに取り組むことも可能です。
+description: Adobe Learning Manager（以前のAdobe Captivate Prime）の最新サービスについて説明します。 始めのセクションから読み進めたり、各セクションに個別にアクセスしたり、コミュニティに接続したりしてプロジェクトの作業を進めていきましょう。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
+source-git-commit: 3376f0d23e3c964360b782ce1678b533eee4e65d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 19%
+source-wordcount: '142'
+ht-degree: 45%
 
 ---
 
 # Adobe Learning Manager ユーザーガイドへようこそ
 
-Adobe Learning Manager(以前のAdobe Captivate Prime)の最新サービスについてお読みください。 最初から開始することも、各セクションに個別にアクセスすることもできます。また、コミュニティに接続してプロジェクトに取り組むことも可能です。
+Adobe Learning Manager（以前のAdobe Captivate Prime）の最新サービスについてお読みください。 始めのセクションから読み進めたり、各セクションに個別にアクセスしたり、コミュニティに接続したりしてプロジェクトの作業を進めていきましょう。
 
 ## フォーラムに参加 {#jointheconversation}
 
@@ -35,7 +35,7 @@ Adobe Learning Manager(以前のAdobe Captivate Prime)の最新サービスに�
     <a href="system-requirements.md">
     <img alt="必要システム構成" src="assets/prime-reqs.jpeg">
     </a>
-    <a href="whats-new.md"><strong>必要システム構成</strong></a>
+    <a href="system-requirements.md"><strong>必要システム構成</strong></a>
     </p>
    </td>
    <td>
