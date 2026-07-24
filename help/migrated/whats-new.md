@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2026年4月リリースの新機能と機�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 
 主なハイライト：
 
-&#x200B;- Adobe Learning Managerのネイティブなエクスペリエンスにより、ライブラーニングが向上し、教育の質が向上し、学習者の成果が向上します。
-&#x200B;- インストラクターにAIを活用した共同ファシリテーターを提供し、インテリジェントな世論調査、Q&amp;Aサポート、ブレイクアウトルームのインサイトを通じてエンゲージメントを促進します。
-&#x200B;- トピックで検索できるAIが生成した概要とセッション記録により、学習者がセッションからより多くの情報を得られるようにします。
-&#x200B;- 実際の学習参加を明らかにするために、参加度を超えるエンゲージメント分析で重要な要素を測定します。
-&#x200B;- 作成者がAIを活用したインストラクターファインダーを使用して、スキル、利用可能な状況、希望する時間、タイムゾーン、現在の使用状況に応じて、適切なインストラクターと一致するように支援します。
+* Adobe Learning Managerのネイティブなエクスペリエンスにより、ライブラーニングが向上し、教育の質が向上し、学習者の成果が向上します。
+* インストラクターにAIを活用した共同ファシリテーターを提供し、インテリジェントな世論調査、Q&amp;Aサポート、ブレイクアウトルームのインサイトを通じてエンゲージメントを促進します。
+* トピックで検索できるAIが生成した概要とセッション記録により、学習者がセッションからより多くの情報を得られるようにします。
+* 実際の学習参加を明らかにするために、参加度を超えるエンゲージメント分析で重要な要素を測定します。
+* 作成者がAIを活用したインストラクターファインダーを使用して、スキル、利用可能な状況、希望する時間、タイムゾーン、現在の使用状況に応じて、適切なインストラクターと一致するように支援します。
 
 ## コンポーネントベースの電子メールテンプレートビルダー
 
@@ -128,6 +128,8 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * 管理者は、カスタムフィールドを含む必須フィールドを設定できます
 * 管理者および学習者のトランスクリプトの新しい列：外部学習名、完了コメント、カスタムフィールド列
 * APIサポート：サブミッションを作成、取得、および更新するための、学習者をスコープとする5つの新しいエンドポイント
+
+管理者レベルの詳細については、[外部学習サポート](/help/migrated/administrators/feature-summary/settings/basic-settings.md)を参照してください。 マネージャーレベルの詳細については、[外部学習サポート](/help/migrated/managers/feature-summary/review-external-learning-requests.md)を参照してください。 学習者レベルの詳細については、[社外学習サポート](/help/migrated/learners/feature-summary/submit-external-learning.md)を参照してください。
 
 ## AI機能
 
@@ -209,7 +211,7 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 詳細については、[教室の場所](/help/migrated/administrators/feature-summary/classroom.md)を参照してください
 
-## Adobe Learning Manager Content Composer
+## 近日公開： Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composerは、すぐに公開できるコースを作成できる、Adobe Learning Managerの今後のAIコースオーサリングツールです。
 
@@ -219,7 +221,7 @@ Adobe Learning Manager Content Composerは、すぐに公開できるコース�
 
 ## リリースでのAPIの変更
 
-Adobe Learning Managerの2026年8月リリース[&#128279;](/help/migrated/api-changes-august-2026.md)のAPIの変更点について説明します。
+Adobe Learning Managerの2026年8月リリース](/help/migrated/api-changes-august-2026.md)の[APIの変更点について説明します。
 
 ## このリリースのその他の機能強化
 
