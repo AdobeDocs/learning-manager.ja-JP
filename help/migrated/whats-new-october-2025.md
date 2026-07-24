@@ -3,12 +3,13 @@ description: Adobe Learning Managerの2025年10月リリースの新機能と強
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月リリースの新機能
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Learning Manager 2025年10月リリースの新機能
 
@@ -23,7 +24,7 @@ Adobe Learning Managerの2025年10月のリリースでは、レポートの正�
 
 ## Experience Builder
 
-Experience Builderは、カスタマイズされた学習ポータルの作成に役立つ、Adobe Learning Managerのコードなし/ローコードのツールです。 これにより、技術的なスキルや広範なコーディング知識を必要とせずに、ブランド化された使いやすい学習ポータルをデザインできます。
+Experience Builderは、カスタマイズされた学習ポータルの作成に役立つ、Adobe Learning Managerのコードなし/ローコードのツールです。これにより、技術的なスキルや広範なコーディング知識を必要とせずに、ブランド化された使いやすい学習ポータルをデザインできます。
 Experience Builderを使用すると、管理者はページ、メニュー、ウィジェットを簡単に作成して、対象者に合わせてカスタマイズされた学習体験を提供できます。
 
 Experience Builderが登場する前は、組織はいくつかの課題に直面していました。
@@ -641,7 +642,7 @@ API応答に2つの追加フィールドが追加されました。
 }
 ```
 
-応答として、**course:15067_30122_41715_1_3400468**&#x200B;は、情報を要求している学習目標リソースのグレードのIDです。 `learningObjectResourceGrad`e IDは`GET /enrollments/{id}` APIから取得できます。
+応答で、**course:15067_30122_41715_1_3400468**&#x200B;は、情報が要求されている学習目標リソースのグレードのIDです。 `learningObjectResourceGrad`e IDは`GET /enrollments/{id}` APIから取得できます。
 
 ### API応答による作成者名の大文字と小文字の区別のサポート
 
