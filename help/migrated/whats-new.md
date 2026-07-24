@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2026年4月リリースの新機能と機�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
+source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,11 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * トピックで検索できるAIが生成した概要とセッション記録により、学習者がセッションからより多くの情報を得られるようにします。
 * 実際の学習参加を明らかにするために、参加度を超えるエンゲージメント分析で重要な要素を測定します。
 * 作成者がAIを活用したインストラクターファインダーを使用して、スキル、利用可能な状況、希望する時間、タイムゾーン、現在の使用状況に応じて、適切なインストラクターと一致するように支援します。
+
+>[!NOTE]
+>
+>ライブハブは現在ベータ版で、今後の8月リリースのAdobe Learning Managerで利用可能になる予定です。 Live Hubのドキュメントは、機能がリリースされると利用可能になります。
+
 
 ## コンポーネントベースの電子メールテンプレートビルダー
 
@@ -215,13 +220,15 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 Adobe Learning Manager Content Composerは、すぐに公開できるコースを作成できる、Adobe Learning Managerの今後のAIコースオーサリングツールです。
 
+会話型AIアシスタントが、プロセス全体（プロンプト、概要、アウトライン、コース）をガイドします。これにより、進む前に、すべてのステップ、レビュー、調整を制御することができます。 独自のソース文書に含まれるコンテンツを調整したり、コースに瞬時にテーマを設定したり、完成したコースをSCORM経由またはAdobe Learning Managerに直接公開して共有または書き出したりすることができます。
+
 ## リリースの変更のレポート
 
 [Adobe Learning Managerの2026年8月リリースの変更報告](/help/migrated/reporting-changes-august-2026.md)の詳細をご覧ください。
 
 ## リリースでのAPIの変更
 
-Adobe Learning Managerの2026年8月リリース[&#128279;](/help/migrated/api-changes-august-2026.md)のAPIの変更点について説明します。
+Adobe Learning Managerの2026年8月リリース](/help/migrated/api-changes-august-2026.md)の[APIの変更点について説明します。
 
 ## このリリースのその他の機能強化
 
