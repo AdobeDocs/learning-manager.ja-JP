@@ -177,13 +177,13 @@ AI Assistantを設定する前に、管理者の資格情報があり、カタ�
 
 1.Adobe Learning Managerに管理者としてログインします。
 
-2.ホームページから&#x200B;**設定**を選択します。
+2.ホームページから&#x200B;**設定**&#x200B;を選択します。
 ![管理者コンソールの左側のウィンドウに[設定]オプションがある](assets/settings-menu.png)
 
-3.**設定**&#x200B;メニューから&#x200B;**学習者AIアシスタント（ベータ版）**を選択します。
+3.**設定**&#x200B;メニューから&#x200B;**学習者AIアシスタント（ベータ版）**&#x200B;を選択します。
 ![管理者コンソールの左側のペインに[学習者AIアシスタント]オプションが表示されています](assets/learner-assistant-ai-beta.png)
 
-4.切り替えスイッチを選択して、**学習者AIアシスタント（ベータ版）**を有効にします。
+4.切り替えスイッチを選択して、**学習者AIアシスタント（ベータ版）**&#x200B;を有効にします。
 <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
 <!--5. Select one or more user groups from the **Eligible user groups** option.-->
 <!--5. Select **Save** to apply the user group settings.-->
@@ -202,10 +202,10 @@ AIアシスタントを起動するには：
 
 1. Adobe Learning Managerに学習者としてログインします。
 
-2. ホームページで&#x200B;**[AIアシスタントの確認]**を選択します。
+2. ホームページで&#x200B;**[AIアシスタントの確認]**&#x200B;を選択します。
    ![学習者ホームページに「AIアシスタントに依頼」と表示され、学習者AIアシスタントパネルを選択して開くことができます](assets/ask-ai-assistant.png)
 
-3. **学習者AIアシスタント**&#x200B;の画面が表示されたら、**開始**を選択します。
+3. **学習者AIアシスタント**&#x200B;の画面が表示されたら、**開始**&#x200B;を選択します。
    ![「使用を開始」を選択して学習者アシスタントを起動します](assets/get-started-learner-assistant.png)
 
 >[!NOTE]
