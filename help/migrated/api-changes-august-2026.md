@@ -18,7 +18,7 @@ ht-degree: 3%
 
 これらのエンドポイントは、カスタムユーザーグループでのみ動作します。 All Usersグループや自動生成ユーザーグループなどのシステム管理グループは、API応答でreadOnly: trueが返され、これらのエンドポイントを介して変更または削除することはできません。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### ユーザーグループAPIエンドポイント
 
@@ -205,7 +205,7 @@ APIを介した外部学習ワークフローは、学習者アプリのワー�
 
 5つのエンドポイントはすべて、学習者をスコープに設定します。 学習者は自分の提出物にのみアクセスできます。学習者が別の学習者のデータにアクセスしようとすると、APIはエラーを返します。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### External Learning APIエンドポイント
 
