@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2026年4月リリースの新機能と機�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * 学習者ホームページに最大10個のパーソナライズされた学習パスが表示されます
 * 完了したパスは、同僚と共有できます
 
-詳細については、[学習者向けAIアシスタント](/help/migrated/learners/feature-summary/learning-path-agent.md)を参照してください。
+詳細については、[学習パスエージェント](/help/migrated/learners/feature-summary/learning-path-agent.md)を参照してください。
 
 ### インサイトエージェント
 
@@ -228,7 +228,7 @@ Adobe Learning Manager Content Composerは、すぐに公開できるコース�
 
 ## リリースでのAPIの変更
 
-Adobe Learning Managerの2026年8月リリース[&#128279;](/help/migrated/api-changes-august-2026.md)のAPIの変更点について説明します。
+Adobe Learning Managerの2026年8月リリース](/help/migrated/api-changes-august-2026.md)の[APIの変更点について説明します。
 
 ## このリリースのその他の機能強化
 
