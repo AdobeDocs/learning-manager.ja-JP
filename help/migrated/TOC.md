@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1153'
 ht-degree: 50%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 50%
   * [学習者ホームページのカスタマイズ](administrators/feature-summary/customize-learner-homepage.md)
   * [バッジ](administrators/feature-summary/badges.md)
   * [カラーテーマ](administrators/feature-summary/themes.md)
+  * [管理者の成績表](administrators/feature-summary/alm-admin-gradebook.md)
   * [学習者のトランスクリプト](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
   * [学習者のトランスクリプトの変更](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
   * [フィードバックレポート](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
