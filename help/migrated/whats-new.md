@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2026年4月リリースの新機能と機�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Gradebookでは、次の2つの完了モデルをサポートしています。
 * コースオーサリングでモジュールを選択する際のフォルダーの参照エクスペリエンス
 
 管理者レベルの機能の詳細については、[階層コンテンツフォルダー](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)を参照してください。 作成者レベルの機能の詳細については、[階層コンテンツフォルダー](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)を参照してください。
+
+別のプラットフォームからAdobe Learning Managerに学習コンテンツを移行するときに、既存のフォルダー構成を保持するには、CSVファイルを使用して階層構造のフォルダー構造を作成し、コンテンツファイルを適切なフォルダーに関連付けます。 [コンテンツフォルダー階層の移行](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)での移行に関する詳細情報
 
 ## ライブハブ
 
