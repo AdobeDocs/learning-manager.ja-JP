@@ -2,9 +2,9 @@
 description: 成績表を有効にして、作成者や学習者が閲覧できるようにすること
 jcr-language: en_us
 title: 管理者の成績表
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 **設定** > **一般**&#x200B;の&#x200B;**成績表の表示**&#x200B;設定によって、作成者が成績表をコースレベルの学習者に公開することが許可されるかどうかが決まります。
 
+詳細については、[Gradebookの表示](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)を参照してください。
+
 | ステートの設定 | 効果 |
 | --- | --- |
 | 有効化済み | 作成者は、コースエディターで&#x200B;**「学習者にグラデーブックを表示」**&#x200B;オプションを使用して、コースごとにグラデーブックの表示を制御できます。 学習者には、作成者が有効にしたコースで&#x200B;**成績表**&#x200B;タブが表示されます。 |
 | 無効 | 学習者は、コースの成績表を表示できません。 無効にすると、コース設定には学習者に成績表を表示するための設定がなくなります。 |
-
 
 つまり、アカウントレベルの設定とコースレベルの設定が連携して機能します。 学習者が成績表を表示するには、両方を有効にする必要があります。
 
