@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 62%
 
 ### オペレーティングシステム
 
-Windows 10および11、macOS X 10.12、10.13、10.14、10.15
+Windows 10 および 11、macOS X 10.12、10.13、10.14、10.15
 
 ### プロセッサー
 
-Intel® CoreTM i5以上
+Intel® CoreTM i5 以上
 
 ### RAM
 
@@ -44,7 +44,7 @@ Intel® CoreTM i5以上
 ### デバイス
 
 * iOS: 最新から 2 つのメジャーバージョン。
-* Android：最新から2つのメジャーバージョン。
+* Android：最新の 2 つのメジャーバージョン。
 
 ### ブラウザー
 
@@ -65,7 +65,7 @@ Intel® CoreTM i5以上
 
 >[!NOTE]
 >
->モバイルブラウザーは、**没入型レイアウト**&#x200B;の学習者の役割のみをサポートします。
+>モバイルブラウザーの&#x200B;**没入型レイアウト**&#x200B;で対応するのは、学習者の役割のみです。
 
 >[!NOTE]
 >
@@ -81,14 +81,14 @@ Intel® CoreTM i5以上
 
 * Google Chrome バージョン 43 以降
 * 最新バージョンの Edge、Safari（バージョン 13 以降）および Firefox
-* Internet Explorerバージョン11以降
+* Internet Explorer バージョン 11 以降
 
 ## 推奨画像サイズ {#recommendedsizeofimages}
 
 * マストヘッド：
-   * 大きな設定の場合： 1280 x 360 PX
-   * 中の設定の場合： 1280 x 273 PX
-   * 小さい設定の場合： 1280 x 187 PX
+  * 大きな設定の場合： 1280 x 360 PX
+  * 中の設定の場合： 1280 x 273 PX
+  * 小さい設定の場合： 1280 x 187 PX
 * カタログカードの画像：280 x 100 px
 * トレーニングカードのサイズ：300 x 240 px
 * ソーシャルバナー：1600 x 240 px
@@ -101,7 +101,7 @@ Intel® CoreTM i5以上
 >
 >サイズが 100 MB を超えている *user.csv* ファイルを読み込むと、ブラウザで予期しない問題が発生する可能性があります。 この問題は、ブラウザのメモリが不足している場合に発生します。
 
-自動Box/Exavaultワークフローを使用して、大きなサイズの&#x200B;*user.csv*&#x200B;ファイルを読み込むことをお勧めします。 詳細については、[ファイルの移行](/help/migrated/integration-admin/feature-summary/migration-manual.md)を参照してください。
+サイズの大きな *user.csv* ファイルを読み込む場合は、自動化された Box/Exavault ワークフローを使用することをお勧めします。 詳しくは、「[ファイルの移行](/help/migrated/integration-admin/feature-summary/migration-manual.md)」を参照してください。
 
 
 ## サポート対象コンテンツの形式
@@ -222,44 +222,44 @@ Intel® CoreTM i5以上
    <td>
     <p>学習者のアプリケーションの拡大されたバッジ</p></td>
    <td>
-    <p>90 x 90ピクセル</p></td>
+    <p>90x90 ピクセル</p></td>
   </tr>
   <tr>
    <td>
     <p>学習者の達成のユーザープロファイル画像</p></td>
    <td>
-    <p>100 x 100ピクセル</p></td>
+    <p>100x100 ピクセル</p></td>
   </tr>
   <tr>
    <td>
     <p>「ログアウト」ドロップダウンのユーザープロファイル画像</p></td>
    <td>
-    <p>42 x 42ピクセル</p></td>
+    <p>42x42 ピクセル</p></td>
   </tr>
   <tr>
    <td>
     <p>ヘッダーの会社ロゴ</p></td>
    <td>
-    <p>高さ45ピクセル、幅はそれに応じて計算されます。</p></td>
+    <p>高さ 45 ピクセル。幅はそれに従って計算されます。</p></td>
   </tr>
   <tr>
    <td>
     <p>Learning Manager ホームページの会社ロゴ</p></td>
    <td>
-    <p>高さが100ピクセルの場合、幅はそれに応じて計算されます。</p></td>
+    <p>高さ 100 ピクセル。幅はそれに従って計算されます。</p></td>
   </tr>
  </tbody>
 </table>
 
 ## アクセシビリティ
 
-### サポートされるブラウザーとスクリーンリーダー
+### サポートされるブラウザとスクリーンリーダー
 
 サポートされる組み合わせは次のとおりです。
 
 * Chrome と NVDA
 * Edge と ナレーター
-* Mac Safari + VoiceOver
+* Mac 版 Safari と VoiceOver
 
 ### サポートされる没入型モバイル
 
@@ -331,7 +331,7 @@ Intel® CoreTM i5以上
    <td>Blue Jeans</td>
   </tr>
   <tr>
-   <td>MicrosoftPower BI</td>
+   <td>Power BI</td>
    <td>Power BIの商用ライセンスのみサポート。</td>
   </tr>
  </tbody>
