@@ -47,7 +47,7 @@ ht-degree: 50%
   * [学習者の基本](learners/feature-summary/getting-started-learner.md)
   * [マネージャーの基本](managers/feature-summary/getting-started-manager.md)
   * [Learning Manager インストラクターの基本](instructors/feature-summary/getting-started.md)
-* は、 {#admin}
+* 管理者 {#admin}
   * [Adobe Learning Managerの管理者AIアシスタント（ベータ版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning ManagerのInsights Agent（ベータ版）](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [ユーザーログイン](administrators/feature-summary/user-login.md)
