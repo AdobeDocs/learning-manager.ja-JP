@@ -3,9 +3,9 @@ description: Adobe Learning ManagerのAIアシスタントを使用すると、�
 jcr-language: en_us
 title: Adobe Learning Managerの学習者向けAIアシスタント
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ AI Assistantを設定する前に、管理者の資格情報があり、カタ�
 
 学習者AIアシスタントを有効にするには：
 
-1.Adobe Learning Managerに管理者としてログインします。
+1. Adobe Learning Managerに管理者としてログインします。
 
-2.ホームページから&#x200B;**設定**&#x200B;を選択します。
-![管理者コンソールの左側のウィンドウに[設定]オプションがある](assets/settings-menu.png)
+1. ホームページから&#x200B;**設定**&#x200B;を選択します。
 
-3.**設定**&#x200B;メニューから&#x200B;**学習者AIアシスタント（ベータ版）**&#x200B;を選択します。
-![管理者コンソールの左側のペインに[学習者AIアシスタント]オプションが表示されています](assets/learner-assistant-ai-beta.png)
+   ![管理者コンソールの左側のウィンドウに[設定]オプションがある](assets/settings-menu.png)
 
-4.切り替えスイッチを選択して、**学習者AIアシスタント（ベータ版）**&#x200B;を有効にします。
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. **設定**&#x200B;メニューから&#x200B;**学習者AIアシスタント（ベータ版）**&#x200B;を選択します。
 
-&#x200B;5. **対象のカタログ**&#x200B;オプションから1つ以上のカタログを選択します。
+   ![管理者コンソールの左側のウィンドウに[学習者AIアシスタント]オプションが表示されます](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. 「**保存**」を選択して、カタログ設定を適用します。
+1. 切り替えスイッチを選択して、**学習者AIアシスタント（ベータ版）**&#x200B;を有効にします。
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. **対象のカタログ**&#x200B;オプションから1つ以上のカタログを選択してください。
+
+1. **[保存]**&#x200B;を選択して、カタログの設定を適用します。
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ AIアシスタントを起動するには：
 
 1. Adobe Learning Managerに学習者としてログインします。
 
-2. ホームページで&#x200B;**[AIアシスタントの確認]**&#x200B;を選択します。
+1. ホームページで&#x200B;**[AIアシスタントの確認]**&#x200B;を選択します。
+
    ![学習者ホームページに「AIアシスタントに依頼」と表示され、学習者AIアシスタントパネルを選択して開くことができます](assets/ask-ai-assistant.png)
 
-3. **学習者AIアシスタント**&#x200B;の画面が表示されたら、**開始**&#x200B;を選択します。
+1. **学習者AIアシスタント**&#x200B;の画面が表示されたら、**開始**&#x200B;を選択します。
+
    ![「使用を開始」を選択して学習者アシスタントを起動します](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->AIアシスタントを初めて起動する場合は、使用する前に同意する必要があります。 同意ダイアログは、この初回起動時にのみ表示されます。 それ以降のすべての起動では、AIアシスタントに直接移動して、プロンプトを入力します。
+   >[!NOTE]
+   >
+   >AIアシスタントを初めて起動する場合は、使用する前に同意する必要があります。 同意ダイアログは、この初回起動時にのみ表示されます。 それ以降のすべての起動では、AIアシスタントに直接移動して、プロンプトを入力します。
 
-4.テキストフィールドにプロンプトを入力します。
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. テキストフィールドにプロンプトを入力します。
 
-&#x200B;5. **Enter**&#x200B;を押して応答を受信します。 回答、ソース、推奨事項を確認します。
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. **Enter**&#x200B;を押して応答を受信します。 回答、ソース、推奨事項を確認します。
 
 次のことができます。
 
