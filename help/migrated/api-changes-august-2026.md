@@ -2,9 +2,9 @@
 description: ALMでのAPIの変更
 jcr-language: en_us
 title: Adobe Learning Managerの2026年8月リリースのAPIの変更
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 これらのエンドポイントは、カスタムユーザーグループでのみ動作します。 All Usersグループや自動生成ユーザーグループなどのシステム管理グループは、API応答でreadOnly: trueが返され、これらのエンドポイントを介して変更または削除することはできません。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### ユーザーグループAPIエンドポイント
 
@@ -131,9 +131,8 @@ PUT /primeapi/v2/userGroups/{id}
 
 | **パラメーター** | **必須** | **タイプ** | **説明** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| 名前 | 不可 | string | 新しい表示名です。 指定する場合は空白にしないでください。 変更しない場合は省略します。 |
+| 名前 | 可 | string | 新しい表示名です。 指定する場合は空白にしないでください。 変更しない場合は省略します。 |
 | 説明 | 不可 | string | 新しい説明。 クリアするにはnullを渡してください。 変更しない場合は省略します。 |
-| データ | — | null | nullまたは指定しないでください。 NULL以外の値を指定すると、400エラーが返されます。 |
 
 #### **応答200 OK**
 
@@ -205,7 +204,7 @@ APIを介した外部学習ワークフローは、学習者アプリのワー�
 
 5つのエンドポイントはすべて、学習者をスコープに設定します。 学習者は自分の提出物にのみアクセスできます。学習者が別の学習者のデータにアクセスしようとすると、APIはエラーを返します。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### External Learning APIエンドポイント
 
@@ -232,7 +231,7 @@ Content-Type: application/vnd.api+json (POST and PUT only)
 
 ### 提出ステータスのライフサイクル
 
-| **ステータス** | **&#x200B;**&#x200B;が設定 | **意味** | **学習者は更新できますか？** |
+| **ステータス** | ****&#x200B;が設定 | **意味** | **学習者は更新できますか？** |
 |------------|------------------|-----------------------------------------|-----------------------------|
 | 保留中 | システム作成時 | マネージャーのレビュー待ち | はい – PUT経由 |
 | APPROVED | マネージャー | 承認済み：学習者のトランスクリプトに表示されます | No- PUTは409を返します。 |
