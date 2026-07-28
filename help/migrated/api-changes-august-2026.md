@@ -2,9 +2,9 @@
 description: ALMでのAPIの変更
 jcr-language: en_us
 title: Adobe Learning Managerの2026年8月リリースのAPIの変更
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -131,9 +131,8 @@ PUT /primeapi/v2/userGroups/{id}
 
 | **パラメーター** | **必須** | **タイプ** | **説明** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| 名前 | 不可 | string | 新しい表示名です。 指定する場合は空白にしないでください。 変更しない場合は省略します。 |
+| 名前 | 可 | string | 新しい表示名です。 指定する場合は空白にしないでください。 変更しない場合は省略します。 |
 | 説明 | 不可 | string | 新しい説明。 クリアするにはnullを渡してください。 変更しない場合は省略します。 |
-| データ | — | null | nullまたは指定しないでください。 NULL以外の値を指定すると、400エラーが返されます。 |
 
 #### **応答200 OK**
 
