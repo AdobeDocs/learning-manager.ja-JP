@@ -2,9 +2,9 @@
 description: ALMでのAPIの変更
 jcr-language: en_us
 title: Adobe Learning Managerの2026年8月リリースのAPIの変更
-source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 これらのエンドポイントは、カスタムユーザーグループでのみ動作します。 All Usersグループや自動生成ユーザーグループなどのシステム管理グループは、API応答でreadOnly: trueが返され、これらのエンドポイントを介して変更または削除することはできません。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### ユーザーグループAPIエンドポイント
 
@@ -204,7 +204,7 @@ APIを介した外部学習ワークフローは、学習者アプリのワー�
 
 5つのエンドポイントはすべて、学習者をスコープに設定します。 学習者は自分の提出物にのみアクセスできます。学習者が別の学習者のデータにアクセスしようとすると、APIはエラーを返します。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### External Learning APIエンドポイント
 
@@ -231,7 +231,7 @@ Content-Type: application/vnd.api+json (POST and PUT only)
 
 ### 提出ステータスのライフサイクル
 
-| **ステータス** | **&#x200B;**&#x200B;が設定 | **意味** | **学習者は更新できますか？** |
+| **ステータス** | ****&#x200B;が設定 | **意味** | **学習者は更新できますか？** |
 |------------|------------------|-----------------------------------------|-----------------------------|
 | 保留中 | システム作成時 | マネージャーのレビュー待ち | はい – PUT経由 |
 | APPROVED | マネージャー | 承認済み：学習者のトランスクリプトに表示されます | No- PUTは409を返します。 |
@@ -510,7 +510,9 @@ PUT /primeapi/v2/externalLearnings/{id}
 
 これは、同じルート資格認定IDを同時に問い合わせる2人の学習者が、各学習者の個々の登録履歴に応じて異なる結果を受け取る可能性があることを意味します。
 
-**注意**：新しいバージョンが作成され、登録が移行されている間、繰り返しの実行中に短い期間が発生する場合があります。この期間には、APIが、新しく作成されたバージョンではなく、置き換えられるバージョンを返す場合があります。
+>[!NOTE]
+>
+>新しいバージョンが作成され、登録が移行されている間、繰り返し実行中に短いウィンドウが表示される場合があります。この場合、APIは、新しく作成されたバージョンではなく、置き換えられるバージョンを返します。
 
 **例**
 
