@@ -234,7 +234,7 @@ Adobe Learning Manager Content Composerは、すぐに公開できるコース�
 
 ## リリースでのAPIの変更
 
-Adobe Learning Managerの2026年8月リリース](/help/migrated/api-changes-august-2026.md)の[APIの変更点について説明します。
+Adobe Learning Managerの2026年8月リリース[&#128279;](/help/migrated/api-changes-august-2026.md)のAPIの変更点について説明します。
 
 ## このリリースのその他の機能強化
 
