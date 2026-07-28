@@ -3,7 +3,7 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -1166,7 +1166,7 @@ LTIモジュールバージョンを作成する場合：
 
 移行システムでは、LTI固有のフィールドに加えて、標準の移行処理ワークフローが適用されます。
 
-## アダプティブコースの移行
+## アダプティブコースの移行 {#migrateadaptivecourses}
 
 社外システムからAdobe Learning Managerにコースを移行する場合、それらをユーザーグループごとにモジュールレベルの表示と完了規則を持つアダプティブコースとして設定するには、2つのCSVファイルを使用してコースとそのアダプティブルールの両方を定義できます。
 
@@ -1174,7 +1174,7 @@ LTIモジュールバージョンを作成する場合：
 
 アダプティブコースを移行するには、標準の移行CSVパッケージに次の2つの変更を加える必要があります。
 
-* **&#x200B;**&#x200B;_course.csv_&#x200B;の更新：コースをアダプティブとしてマークする新しい列です
+* **** _course.csv_&#x200B;の更新：コースをアダプティブとしてマークする新しい列です
 * **新しいファイル** _course_ module_user_group.csv_:モジュール間グループのルールごとに1行
 
 両方のファイルを同じ移行プロジェクトに含める必要があります。
