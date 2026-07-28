@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
 title: Adobe Learning ManagerのReport Builder
-description: Report Builder入門
+description: 任意のツールを使用した後処理なしで、選択した列、フィルター、データを含むカスタムレポートを作成、プレビュー、ダウンロードできます。
 contentowner: mmanuel
-source-git-commit: cb488d06aa4996ba4ede49c16def1c82c5eec150
+source-git-commit: a5afd09f5a8ed617383e2aee465cf035c004081d
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Adobe Learning ManagerのReport Builder
 
 ## 概要
-
-任意のツールを使用した後処理なしで、選択した列、フィルター、データを含むカスタムレポートを作成、プレビュー、ダウンロードできます。
 
 Adobe Learning ManagerのReport Builderにより、管理者はセルフサービスでレポートを作成できるキャンバスを利用して、必要なレポートを正確に作成できます。 固定されたレポートをダウンロードしてスプレッドシートツールでリシェイプする代わりに、必要な列を選択し、フィルタを適用して、クリーンな出力をダウンロードするという作業をすべて1か所から行うことができます。
 
