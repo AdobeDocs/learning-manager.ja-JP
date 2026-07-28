@@ -3,9 +3,9 @@ description: 既存のLMSをAdobe Learning Manager LMSに移行する統合管�
 jcr-language: en_us
 title: 移行マニュアル
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -1174,10 +1174,21 @@ LTIモジュールバージョンを作成する場合：
 
 アダプティブコースを移行するには、標準の移行CSVパッケージに次の2つの変更を加える必要があります。
 
-* **&#x200B;**&#x200B;_course.csv_&#x200B;の更新：コースをアダプティブとしてマークする新しい列です
+* **** _course.csv_&#x200B;の更新：コースをアダプティブとしてマークする新しい列です
 * **新しいファイル** _course_ module_user_group.csv_:モジュール間グループのルールごとに1行
 
 両方のファイルを同じ移行プロジェクトに含める必要があります。
+
+### アダプティブコースの移行に使用するCSVファイル名の更新
+
+アダプティブコースとアダプティブラーニングパスのマイグレーションで使用されるCSVファイル名が、Adobe Learning Managerの他のすべてのマイグレーションファイルで使用されるフルネームの規則に従うようになりました。 例えば、lo_section.csvではなく、learning_object_section.csvと入力します。 以前のショートフォーム名を参照する既存の移行スクリプトまたはテンプレートがある場合は、次に移行を実行する前にそれらを新しい名前に更新します。
+
+| 旧名称 | 新しい名前 |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### course.csvの更新
 
