@@ -2,9 +2,9 @@
 description: ALMでのAPIの変更
 jcr-language: en_us
 title: Adobe Learning Managerの2026年8月リリースのAPIの変更
-source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -510,7 +510,9 @@ PUT /primeapi/v2/externalLearnings/{id}
 
 これは、同じルート資格認定IDを同時に問い合わせる2人の学習者が、各学習者の個々の登録履歴に応じて異なる結果を受け取る可能性があることを意味します。
 
-**注意**：新しいバージョンが作成され、登録が移行されている間、繰り返しの実行中に短い期間が発生する場合があります。この期間には、APIが、新しく作成されたバージョンではなく、置き換えられるバージョンを返す場合があります。
+>[!NOTE]
+>
+>新しいバージョンが作成され、登録が移行されている間、繰り返し実行中に短いウィンドウが表示される場合があります。この場合、APIは、新しく作成されたバージョンではなく、置き換えられるバージョンを返します。
 
 **例**
 
