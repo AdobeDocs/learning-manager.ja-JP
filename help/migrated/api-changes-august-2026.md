@@ -2,9 +2,9 @@
 description: ALMでのAPIの変更
 jcr-language: en_us
 title: Adobe Learning Managerの2026年8月リリースのAPIの変更
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -300,8 +300,8 @@ GET /primeapi/v2/externalLearningSettings
 | title | TEXT | 可 | トレーニング名。 常に存在する。 管理者が無効にすることはできません。 |
 | description_notes | TEXT | 不可 | 自由形式の説明またはメモ。 |
 | 日付 | タイムスタンプ | 不可 | 日付範囲 Value shape: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;, &quot;end_date&quot;: &quot;<ISO-Z>&quot; }. どちらの値もnullにすることができます。 |
-| スコア | 数値 | 可 | 値のシェイプ: { &quot;achieved_score&quot;: <number>, &quot;max_score&quot;: <number> }. 両方の値は数値である必要があります。 |
-| duration | TEXT | 不可 | 「40時間」などのフリーフォーム文字列。 |
+| スコア | 数値 | 可 | 値のシェイプ: { &quot;achieved_score&quot;: <number>, &quot;max_score&quot;: <number> }. 両方の値は数値である必要があります。  max_scoreに負の値を指定することはできません。 |
+| duration | オブジェクト | 不可 | 例えば、{ &quot;timeSpan&quot;: 8, &quot;period&quot;: &quot;HOURS&quot; }のように入力します。 |
 | 添付資料 | FILE_UPLOAD | 可 | 完了証明書。 フィールド[]内に&#x200B;**Not**&#x200B;が渡されました。代わりに、トップレベルのsubmissionUrl属性を使用してください。 |
 
 ユーザー設定フィールドは管理者によって定義され、customFields[]に返されます。 ID、タイプ、必須フラグ、ラベル、ドロップダウンオプションは、アカウント設定によって異なります。

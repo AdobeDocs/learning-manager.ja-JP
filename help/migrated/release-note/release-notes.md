@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '33111'
+source-wordcount: '33074'
 ht-degree: 67%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 67%
 
 ## リリースハイライト
 
-Adobe Learning Managerの2026年8月リリースは、パーソナライズされたラーニング、AI、レポート、統合に大きな進歩をもたらします。 適応コースでは、ユーザーグループ主導型のモジュール可視性と完了ルールが導入されるため、1つのコースで、役割、地域、またはプロファイルに基づいて様々な学習者に異なるコンテンツを提示できます。そのため、コースのバージョンを別々に維持する必要がありません。
+Adobe Learning Managerの2026年8月リリースは、パーソナライズされたラーニング、AI、レポート、統合に大きな進歩をもたらします。
 
 フル機能を備えた成績表では、コースに加重スコアと合否集計が追加されるため、組織は、単純な完了トラッキングだけでなく、学習者のパフォーマンスを正確に設定可能な尺度で把握できます。
 

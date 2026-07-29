@@ -3,7 +3,7 @@ description: 基本設定を使用して、組織の構造や学習者のエク�
 jcr-language: en_us
 title: 基本設定
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '5921'
 ht-degree: 4%
@@ -202,7 +202,7 @@ Adobe Learning Managerの「掲示板」オプションを使用すると、学�
 
 次に、学習者は自分に表示されるスキルとタグを検索し、選択したスキルを登録します。
 
-### 一意の学習目標 ID
+### 一意の学習目標ID
 
 このオプションを使用すると、各学習目標（コース、学習パス、資格認定、作業計画書など）に一意のIDを割り当てることができます。 これにより、すべての学習目標に個別のIDが割り当てられます。このIDは、トラッキング、レポート、および外部システムとの統合に役立ちます。
 
