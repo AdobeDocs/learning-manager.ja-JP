@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -113,7 +113,7 @@ ht-degree: 50%
   * [資格認定](administrators/feature-summary/certifications.md)
   * [証明書の作成とカスタマイズ](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [カタログ](administrators/feature-summary/catalogs.md)
-  * [アダプティブコース](administrators/feature-summary/adaptive-course-admin.md)
+  * {hide-from-toc}[アダプティブコース](administrators/feature-summary/adaptive-course-admin.md)
   * [学習者およびマネージャーに偽装する](administrators/feature-summary/impersonation-learner-manager.md)
   * [複数の SSO ログイン](administrators/feature-summary/multiple-sso-logins.md)
   * [SAMLを使用したインターフェイス言語の設定](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
@@ -199,7 +199,7 @@ ht-degree: 50%
   * [コンテンツライブラリ](authors/feature-summary/content-library.md)
   * [コースの作成、変更、パブリッシュ](authors/feature-summary/courses.md)
   * [カタログ](authors/feature-summary/catalogs.md)
-  * [適応コース](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[アダプティブコース](authors/feature-summary/adaptive-course-author.md)
   * [作業計画書](authors/feature-summary/job-aids.md)
   * [成績表](authors/feature-summary/alm-author-gradebook.md)
   * [iPad および Android タブレットのユーザー](authors/feature-summary/ipad-android-tablet-users.md)
@@ -219,7 +219,7 @@ ht-degree: 50%
   * [カタログ](learners/feature-summary/catalogs.md)
   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
   * [学習状況](learners/feature-summary/courses.md)
-  * [アダプティブコース](learners/feature-summary/adaptive-course-learner.md)
+  * {hide-from-toc}[アダプティブコース](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
   * [学習プログラム](learners/feature-summary/learning-programs.md)
   * [資格認定](learners/feature-summary/certifications.md)

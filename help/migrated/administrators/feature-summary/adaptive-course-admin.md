@@ -3,7 +3,8 @@ description: 各学習者に表示されるモジュールと必要なモジュ�
 jcr-language: en_us
 title: Adobe Learning Managerのアダプティブコース
 contentowner: mmanuel
-source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
+hide: true
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Adobe Learning Managerのアダプティブコースでは、各学習者に表�
 
 | ステート | 決定方法 | 完了にカウントしますか？ |
 |---|---|---|
-| 必須 | 学習者が、**&#x200B;**&#x200B;に必須として一覧表示されているユーザーグループに属している | はい – 完了する必要があります |
+| 必須 | 学習者が、****&#x200B;に必須として一覧表示されているユーザーグループに属している | はい – 完了する必要があります |
 | オプション | 学習者は、**表示対象**&#x200B;のグループに属していますが、**必須**&#x200B;のグループではありません | なし – 表示およびアクセス可能ですが、必須ではありません。 |
 | 非表示 | 学習者がどちらの設定のグループにも属していない | 学習者には表示されません |
 
