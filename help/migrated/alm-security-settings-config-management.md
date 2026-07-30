@@ -35,9 +35,9 @@ Adobe Learning Managerの2つの特権アカウントタイプ – カスタム�
 
 **参照**:
 
-* [カスタムの役割 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
-* [CSVを使用したカスタムの役割の管理 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
-* [アプリケーションデベロッパーマニュアル\| Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [カスタムの役割 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
+* [CSVを使用したカスタムの役割の管理 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/configure-role-csv-files)
+* [アプリケーションデベロッパーマニュアル\| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
 * [Adobe Learning Managerコネクタ](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
@@ -69,9 +69,9 @@ Adobe Learning Managerに、Administratorロールと特権アカウントタイ
 
 **参照**:
 
-* [設定 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
-* [安全なユーザー認証とパスワード | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
-* [カスタムの役割 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [設定 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
+* [安全なユーザー認証とパスワード | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html)
+* [カスタムの役割 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Managerには、推奨される安全なデフォルトと一緒�
 
 **参照**
 
-* [アプリケーションデベロッパーマニュアル | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [アプリケーションデベロッパーマニュアル | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Managerは、いくつかのメカニズムを使用して、セ�
 
 **参照**
 
-* [アプリケーションデベロッパーマニュアル | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [アプリケーションデベロッパーマニュアル | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +156,7 @@ Adobe Learning Managerは現在、セキュリティで保護された設定ガ�
 
 Adobe Learning Managerで推奨される安全なデフォルトをエンコードする、公開されているOSCALコンポーネント定義、YAMLベースライン、またはJSONポリシーファイルはありません。
 
-推奨ベースラインに対する現在の設定の自動比較が必要なお客様は、[ALM REST API](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)を使用して、現在の構成データをJSON形式で取得する必要があります。
+推奨ベースラインに対する現在の設定の自動比較が必要なお客様は、[ALM REST API](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)を使用して、現在の構成データをJSON形式で取得する必要があります。
 
 +++
 
@@ -189,8 +189,8 @@ Adobe Learning Managerでは、すべての製品アップデートについて�
 
 **参照**:
 
-* [Adobe Learning Managerリリースノート](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
-* [Adobe Learning Managerの新機能](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [Adobe Learning ManagerでのAPIの廃止](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Adobe Learning Managerリリースノート](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/release-notes)
+* [Adobe Learning Managerの新機能](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [Adobe Learning ManagerでのAPIの廃止](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++
