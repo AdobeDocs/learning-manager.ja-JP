@@ -3,9 +3,9 @@ title: Adobe Learning Manager – セキュリティ設定と構成管理
 description: この文書では、Adobe Learning Managerの管理アカウントタイプ、セキュリティ関連の設定、推奨されるセキュリティのデフォルト設定、API機能、書き出し機能、設定比較方法、公開方法、およびバージョン履歴について説明します。 また、特権アカウントの動作方法、セキュリティへの影響、およびプラットフォーム全体で構成管理がどのようにサポートされているかについて、詳細なガイダンスを提供します。
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Adobe Learning Managerの2つの特権アカウントタイプ – カスタム�
 
 **参照**:
 
-* [カスタムの役割| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
-* [CSVを使用したカスタムロールの管理| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/configure-role-csv-files)
+* [カスタムの役割 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
+* [CSVを使用したカスタムの役割の管理 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/configure-role-csv-files)
 * [アプリケーションデベロッパーマニュアル\| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
-* [Adobe Learning Managerコネクタ](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/connectors)
+* [Adobe Learning Managerコネクタ](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -69,9 +69,9 @@ Adobe Learning Managerに、Administratorロールと特権アカウントタイ
 
 **参照**:
 
-* [設定| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
-* [安全なユーザー認証とパスワード| Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html)
-* [カスタムの役割| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
+* [設定 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
+* [安全なユーザー認証とパスワード | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html)
+* [カスタムの役割 | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Managerには、推奨される安全なデフォルトと一緒�
 
 **参照**
 
-* [アプリケーションデベロッパーマニュアル| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
+* [アプリケーションデベロッパーマニュアル | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Managerは、いくつかのメカニズムを使用して、セ�
 
 **参照**
 
-* [アプリケーションデベロッパーマニュアル| Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
+* [アプリケーションデベロッパーマニュアル | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)
 
 +++
 

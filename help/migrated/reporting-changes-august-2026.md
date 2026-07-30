@@ -2,9 +2,9 @@
 description: この文書は、Adobe Learning Managerでの2026年8月のレポートの変更点をまとめたものです。 学習者のトランスクリプト、トレーニング、登録、キャンセル待ち、出席、コンテンツ監査、ユーザーレポートに関する新しい列と更新された列について説明します。 また、適応コースの動作、成績表のスコア付け、外部学習記録、Gen AIクレジットレポート、ルート認定の追跡、タイムスタンプの標準化、API作成者のアップデートについても説明します。
 jcr-language: en_us
 title: Adobe Learning Managerの2026年8月リリースの変更点の報告
-source-git-commit: 2d60f665d2e00c95edfc96360ee65fdae013c0cd
+source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Adobe Learning Managerの2026年8月リリースの変更点の報告
 
-Adobe Learning Managerの2026年8月リリースには、アダプティブコース、成績表、外部学習、Gen AIクレジットの使用など、レポート機能の強化が導入されています。 この記事では、このリリースの管理者が使用できる新しい列、レポート、および動作の変更についてまとめています。
+Adobe Learning Managerの2026年8月リリースには、成績表、外部学習、Gen AIクレジットの使用などにわたるレポートの機能強化が導入されています。 この記事では、このリリースの管理者が使用できる新しい列、レポート、および動作の変更についてまとめています。
 
 ## これまでの変更点について
 
-レポートの更新は、適応型コースの動作、適応型ウェイトリスト、成績表のスコア付け、外部学習、増分ユーザーの書き出し、Gen AIクレジットの使用状況、ルート認定のトラッキング、webhookタイムスタンプの調整という8つの機能領域に及びます。 この変更は、次のレポートに最も大きく影響します。
+レポートの更新は、成績表のスコア付け、外部学習、増分ユーザーの書き出し、Gen AIクレジットの使用状況、ルート証明書の追跡、webhookタイムスタンプの調整という8つの機能領域に及びます。 この変更は、次のレポートに最も大きく影響します。
 
 - 学習者のトランスクリプト(LT)
 - トレーニングレポート
@@ -26,66 +26,70 @@ Adobe Learning Managerの2026年8月リリースには、アダプティブコ�
 
 ほとんどのアップデートでは、新しい列が導入されています。 新しいレポートタイプも導入されました。 一部のユーザーは、既存のデータのモデル化やフォーマットの方法を変更しました。
 
-## 適応型コースのレポートの変更
+<!--
+## Adaptive course reporting changes
 
-### トレーニングレポート
+### Training report
 
-トレーニングレポートの3つの新しい列で、アダプティブコースの動作がサポートされます。
+Three new columns in the Training report support adaptive course behavior.
 
-| **列** | **説明** | **サポートされている値** |
+| **Column**               | **Description**                                          | **Supported Values**                                                   |
 |--------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
-| アダプティブ学習目標 | コースがアダプティブかどうかを識別します | true （アダプティブ）、false （非アダプティブ） |
-| 表示ユーザーグループ | 各モジュールを表示できるユーザーグループを一覧表示します | 1つ以上のユーザーグループ名（例：すべての学習者、UG-Australia） |
-| 必須 | モジュールがユーザーグループに必須かどうかを示します | モジュールが必須のユーザーグループ名。空白=オプション |
+| Adaptive Learning Object | Identifies whether a course is adaptive                  | true (adaptive), false (non-adaptive)                                  |
+| Visibility User Groups   | Lists user groups that can view each module              | One or more user group names (for example, All Learners, UG-Australia) |
+| Mandatory                | Indicates whether a module is mandatory for a user group | User group names for which the module is mandatory; blank = optional   |
 
-**表示ユーザーグループ**&#x200B;と&#x200B;**必須**&#x200B;を組み合わせて、適応完了規則をレポートで直接解釈できます。 例えば、モジュールが&#x200B;**すべての学習者**&#x200B;に表示され、**管理者グループ**&#x200B;にのみ必須である場合があります。
+You can combine **Visibility User Groups** and **Mandatory** to interpret adaptive completion rules directly in the report. For example, a module may be visible to **All Learners** but mandatory only for the **Administrator group**.
 
-### 学習者トランスクリプト
 
-新しい&#x200B;**以前の完了**&#x200B;列は、アダプティブロジックによって再完了がトリガーされたときに、過去の完了データをキャプチャします。
+### Learner Transcript
 
-| **サブフィールド** | **説明** |
+A new **Previous Completions** column captures historical completion data when adaptive logic triggers recompletion.
+
+| **Sub-field**         | **Description**                         |
 |-----------------------|-----------------------------------------|
-| completionRefreshDate | 完了がリセットされたタイムスタンプ |
-| 完了日 | 前の完了タイムスタンプ |
-| progressAtRefresh | リセット前の学習者の進行状況 |
-| gradeAtRefresh | リセット時の学習者スコア |
+| completionRefreshDate | Timestamp when the completion was reset |
+| completedDate         | Previous completion timestamp           |
+| progressAtRefresh     | Learner progress before reset           |
+| gradeAtRefresh        | Learner score at the time of reset      |
 
-学習者のトランスクリプトで、複数の完了サイクルがサポートされるようになりました。 コースの更新や新しい必須モジュールなどによって再完了イベントが発生すると、以前の完了が&#x200B;**以前の完了**&#x200B;列に移動します。 現在の完了は、標準の文字起こしフィールドに残ります。
+The Learner Transcript now supports multiple completion cycles. When a recompletion event occurs, for example, due to course updates or new mandatory modules, the previous completion moves to the **Previous Completions** column. The current completion remains in the standard transcript fields.
 
-### 登録レポート
+### Enrollment report
 
-新しい&#x200B;**キャンセル待ち**&#x200B;列は、学習者がコース内のどのモジュールにもキャンセル待ちされているかどうかを示します。
+A new **Waitlisted** column indicates whether a learner is waitlisted in any module within a course.
 
-| **値** | **意味** |
+| **Value** | **Meaning**                                             |
 |-----------|---------------------------------------------------------|
-| true | 学習者が1つ以上のモジュールにキャンセル待ちである場合 |
-| false | 学習者は、すべての表示モジュールへの登録を確認しました |
+| true      | The learner is waitlisted in one or more modules        |
+| false     | Learner has confirmed enrollment in all visible modules |
 
-### キャンセル待ちレポート
+### Waitlist report
 
-2つの新しい列と拡張ステータス詳細サポートモジュールにより、モジュールレベルでキャンセル待ちの追跡が可能になります。
+Two new columns and an enhanced status-detail support module enable waitlist tracking at the module level.
 
-| **列** | **説明** |
+| **Column**      | **Description**                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **モジュール** | 学習者がキャンセル待ちになっているモジュール（教室またはバーチャルクラスルームセッション）の名前。 「インスタンスステータス」列の後に表示されます。 |
-| **モジュールID** | 学習者がキャンセル待ちになっているモジュールの識別子。 「モジュール」列の後に表示されます。 |
-| **埋め込み先** | このコースを含む学習パスの名前とID。 学習パスにコースが含まれていない場合は空白になります。 |
+| **Module**      | Name of the module (classroom or virtual classroom session) where the learner is waitlisted. Appears after the Instance Status column. |
+| **Module ID**   | Identifier of the module where the learner is waitlisted. Appears after the Module column.                                             |
+| **Embedded In** | The learning path name and ID of any learning path that contains this course. Blank if the course is not part of a learning path.      |
 
-キャンセル待ちレポートが、コースレベルのモデルからモジュールセッションレベルのモデルに移行しました。 学習者が一部のモジュールに登録され、他のモジュールにキャンセル待ちを設定できるようになりました。 このレポートは、モジュールレベルで人数制限が適用されるFlexラーニングパス内でのキャンセル待ちのトラッキングにも対応しています。
+The Waitlist report has shifted from a course-level model to a module session–level model. A learner can now be enrolled in some modules and waitlisted in others. The report also supports waitlist tracking within Flex learning paths, where seat limits are enforced at the module level.
 
-### LP登録レポート
+### LP Enrollment report
 
-学習パス登録レポートには、新しい&#x200B;**注釈**&#x200B;列も追加されます。 学習パスを構成するコース内の教室またはバーチャルクラスルームセッションで学習者がキャンセル待ちの状態にある場合、「備考」列に&#x200B;**キャンセル待ち**&#x200B;と表示されます。 すべてのセッションが確認されると、列は空白になります。
+The Learning Path Enrollment report also receives a new **Remarks** column. When a learner is in a waitlisted state on any classroom or virtual classroom session within the courses that make up the learning path, the Remarks column shows **Waitlisted**. When all sessions are confirmed, the column is blank.
 
-### 出席レポート
+### Attendance report
 
-**学習者のステータス**&#x200B;列で、確認済みの学習者とキャンセル待ちの学習者を区別できるようになりました。
+The **Learner status** column now distinguishes between confirmed and waitlisted learners.
 
-| **値** | **意味** |
+| **Value**  | **Meaning**                            |
 |------------|----------------------------------------|
-| 確定 | 学習者には割り当てられた席があります |
-| キャンセル待ち | 学習者はシート割り当てを保留中です |
+| Confirmed  | The learner has an allocated seat      |
+| Waitlisted | The learner is pending seat allocation |
+
+-->
 
 ## Gradebookレポートの変更
 
