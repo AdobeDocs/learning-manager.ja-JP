@@ -6,7 +6,7 @@ contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Oktaでアプリケーションを作成するには、次の手順に従いま�
 4. アプリケーションの名前を入力し、「次へ」を選択します。
 5. 次のフィールドを設定します。
 
-   * **[!UICONTROL シングルサインオンURL]**:アプリケーションをリンクする特定のドメインURLを入力してください(例： [https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO))。 必要に応じて、環境URLを変更します。
+   * **[!UICONTROL シングルサインオンURL]**:アプリケーションをリンクする特定のドメインURLを入力してください（例： [https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO)）。 必要に応じて、環境URLを変更します。
    * **[!UICONTROL 対象ユーザーURI （SPエンティティID）]**：上記と同じ環境URLを使用してください。
    * **[!UICONTROL 名前IDの形式]**：電子メールアドレスを選択します。
    * **[!UICONTROL アプリケーションユーザー名]**: Oktaユーザー名を選択します。
@@ -75,9 +75,9 @@ ALMでSSOを設定するには、次の手順に従います。
    * 「**[!UICONTROL シングルサインオン(SSO)設定]**」ドロップダウンから「**[!UICONTROL IDPによる開始]**」を選択します。
    * **[!UICONTROL IDPによる認証URL]**&#x200B;の場合：
 
-      * ダウンロードしたメタデータXMLファイルを開きます。
-      * 場所値を検索してコピーします。
-      * この値をIDPによる認証URLフィールドに貼り付けます。
+     * ダウンロードしたメタデータXMLファイルを開きます。
+     * 場所値を検索してコピーします。
+     * この値をIDPによる認証URLフィールドに貼り付けます。
 
    * **[!UICONTROL メタデータXMLファイル]**&#x200B;の場合：以前にダウンロードした.xmlファイルをアップロードします。
 
