@@ -109,7 +109,7 @@ Adobe Learning Managerネイティブプラットフォームのユーザーは�
 
 Adobe Learning Managerでは、ConnectでVCセッションを設定する際に、Adobe ConnectからSeminar Roomsを選択できるようになりました。 以前は、管理者は会議室タイプのみを選択できました。 この機能強化により、有効なSeminarライセンスを持つ管理者は、Adobe Learning Manager内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できるようになりました。
 
-セミナー室の詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)をご覧ください。
+セミナー室の詳細については、この[記事](https://helpx.adobe.com/jp/adobe-connect/using/creating-seminars.html)をご覧ください。
 
 ### セッション分析へのアクセスのサポート
 
