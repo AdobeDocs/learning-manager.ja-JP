@@ -35,7 +35,7 @@ ht-degree: 1%
    - 「**許可**」を選択してログインし、コースをALMアカウントに接続します。
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
-   - 承認されたら、**切断**&#x200B;から&#x200B;**接続済み**&#x200B;までの&#x200B;**ステータス**フィールドの更新を確認します。
+   - 承認されたら、**切断**&#x200B;から&#x200B;**接続済み**&#x200B;までの&#x200B;**ステータス**&#x200B;フィールドの更新を確認します。
      ![](../assets/33_alm_connection_connected_status_updated.png)
 
 ## Adobe Learning Manager公開の詳細

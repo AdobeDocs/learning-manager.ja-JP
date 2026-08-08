@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ## ゼロからテーマを作成
 
-1. ツールバーから&#x200B;**作成**&#x200B;を選択し、**コーステーマ**パネルを開きます。
+1. ツールバーから&#x200B;**作成**&#x200B;を選択し、**コーステーマ**&#x200B;パネルを開きます。
    ![](../assets/44_course_themes_create_button_updated.png)
 
 2. テーマのカラーパレット、フォント、およびその他のプロパティを必要に応じて設定します。
    ![](../assets/45_create_theme_panel_name_palette_fonts_updated.png)
 
-3. **新規として保存**&#x200B;を選択して、テーマを&#x200B;**カスタム**のテーマリストに追加します。
+3. **新規として保存**&#x200B;を選択して、テーマを&#x200B;**カスタム**&#x200B;のテーマリストに追加します。
    ![](../assets/46_custom_themes_list_new_theme_added_updated.png)
 
 ## JSONを読み込んでテーマを作成
