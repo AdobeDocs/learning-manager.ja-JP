@@ -4,10 +4,10 @@ title: 必要システム構成
 description: Adobe Learning Managerの必要システム構成
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 81%
+source-wordcount: '660'
+ht-degree: 75%
 
 ---
 
@@ -344,3 +344,9 @@ Intel® CoreTM i5 以上
 ## ALMセキュリティホワイトペーパー
 
 [ALMホワイトペーパー](assets/alm-security-whitepaper-2024.pdf)
+
+## Live Hubの必要システム構成
+
+ライブハブセッションに参加したり、ライブハブセッションをホストしたりする前に、デバイス、ブラウザー、ネットワーク、オーディオ、およびビデオの設定が、最適なエクスペリエンスを得るための最小必要システム構成を満たしていることを確認してください。
+
+Live Hubには、独自のサポートされているブラウザー、オペレーティングシステム、ネットワーク要件、推奨ハードウェアのセットがあります。 詳細については、[Live Hubの必要システム構成](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md)を参照してください。

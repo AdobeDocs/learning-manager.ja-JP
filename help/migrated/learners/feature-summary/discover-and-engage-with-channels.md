@@ -1,17 +1,17 @@
 ---
 title: チャネルの発見と活用
 description: Adobe Learning Managerのチャンネルを通じて利用可能なビデオコンテンツに関するディスカッションを検索、購読、視聴、いいね！する方法、参加する方法について説明します。
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# チャネルの発見と活用
+# チャネル（ベータ版）の検索と活用
 
-チャンネルは、Adobe Learning Manager内のwebページおよびCloud Confluenceページでキュレートされたビデオベースの非公式の学習コンテンツを見つけてアクセスするのに役立ちます。 管理者は、記録されたナレッジ共有セッションおよびナレッジ転送セッションをホストするエンタープライズWebページまたはCloud Confluenceページにチャネルを接続してチャネルを作成します。
+チャンネルは、Adobe Learning Manager内のwebページおよびCloud Confluenceページでキュレートされたビデオベースの非公式の学習コンテンツを検索してアクセスするのに役立ちます。 管理者は、記録されたナレッジ共有セッションおよびナレッジ転送セッションをホストするエンタープライズWebページまたはCloud Confluenceページにチャネルを接続してチャネルを作成します。
 
 複数の社内サイトを検索する代わりに、Learning Managerでチャネルコンテンツを直接参照できます。 チャネルを利用すると、一元的な場所で関連するビデオを見つけたり、新しいコンテンツに関する情報を受け取ったり、組織の自己管理型の学習リソースに参加したりすることができます。
 

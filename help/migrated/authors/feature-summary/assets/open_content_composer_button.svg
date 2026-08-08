@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="351" height="60" viewBox="0 0 351 60">
+  <g id="Button" transform="translate(135 41)">
+    <rect id="Placement_Area" data-name="Placement Area" width="135" height="60" transform="translate(0 -41)" fill="red" opacity="0"/>
+    <g id="Group_2578" data-name="Group 2578" transform="translate(-135 -41.5)">
+      <rect id="Background" width="351" height="60" rx="30" transform="translate(0 0.5)" fill="#066ce7"/>
+    </g>
+    <text id="Text" transform="translate(-68 -5)" fill="#fff" font-size="22" font-family="AdobeClean-Bold, Adobe Clean" font-weight="700"><tspan x="0" y="0">Open Content Composer</tspan></text>
+  </g>
+</svg>
