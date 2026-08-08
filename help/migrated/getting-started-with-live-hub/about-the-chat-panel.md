@@ -1,9 +1,9 @@
 ---
 title: ライブハブのチャットパネルについて
 description: ライブハブセッション中に、チャットパネルを使用して、インストラクターと学習者の間でリアルタイムの構造化されたコミュニケーションが可能になる方法について説明します。
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 | [チャットパネルへのアクセス](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#access-the-chat-panel) | [チャットパネルへのアクセス](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#access-the-chat-panel) |
 | [チャットパネルの設定](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#chat-panel-settings) | [チャットメッセージの管理](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
 | [チャットメッセージに返信](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#reply-to-chat-messages) | [チャットパネルのカスタマイズ](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#customize-the-chat-panel) |
-| [メッセージに反応する](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [チャットパネルのカスタマイズ](#overview) |
-| [チャットメッセージを編集する](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) | [チャットメッセージの管理](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
-| [チャットメッセージで参加者にメンションする](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | [プライベートメッセージの送信](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [メッセージに反応する](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [プライベートメッセージの送信](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [チャットメッセージを編集する](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) |  |
+| [チャットメッセージで参加者にメンションする](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | |
 | [プライベートチャットの開始](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#start-a-private-chat) | |
 | [AIを使用した参加者の質問へのドラフトの返信](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) | |
 | [メッセージの削除](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#delete-messages) | |
