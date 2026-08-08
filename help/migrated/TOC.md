@@ -1,18 +1,18 @@
 ---
 user-guide-title: Adobe Learning Manager ガイド
-breadcrumb-title: Learning Manager
+breadcrumb-title: Adobe Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+source-git-commit: e556087b8e9308e65d6bce68f7587501a9c75026
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 50%
+source-wordcount: '1660'
+ht-degree: 37%
 
 ---
 
 
-# Learning Managerガイド {#using}
+# Adobe Learning Manager ガイド {#using}
 
-* [Learning Manager ユーザーガイド](user-guide.md)
+* [Adobe学習マネージャーユーザーガイド](user-guide.md)
 * 概要 {#introduction}
   * [新機能の概要2026年8月](/help/migrated/whats-new.md)
   * [新機能の概要2026年4月](/help/migrated/whats-new-april-2026.md)
@@ -47,7 +47,10 @@ ht-degree: 50%
   * [学習者の基本](learners/feature-summary/getting-started-learner.md)
   * [マネージャーの基本](managers/feature-summary/getting-started-manager.md)
   * [Learning Manager インストラクターの基本](instructors/feature-summary/getting-started.md)
+  * [Live Hub （ベータ版）の概要](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 管理者 {#admin}
+  * 学習（ベータ版）のAI {#ai-in-learning}
+    * [ライブハブを有効にする](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Managerの管理者AIアシスタント（ベータ版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning ManagerのInsights Agent（ベータ版）](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [ユーザーログイン](administrators/feature-summary/user-login.md)
@@ -58,6 +61,7 @@ ht-degree: 50%
   * [教室の場所を追加](administrators/feature-summary/classroom.md)
   * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
   * [モジュールのアクセス時間制御](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+  * [休暇の管理](./getting-started-with-live-hub/manage-holidays.md)
   * Adobe Learning ManagerのExperience Builder {#experience-builder}
     * [概要](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Experience Builderのコアコンポーネント](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -85,7 +89,7 @@ ht-degree: 50%
     * [Go1コースを学習パスにキュレート](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
   * [L1フィードバックフォーム](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
   * [レポート](administrators/feature-summary/reports.md)
-  * [Report Builder] {#reportbuilder}
+  * レポートビルダー {#reportbuilder}
     * [Adobe Learning ManagerのReport Builder](administrators/feature-summary/alm-report-builder.md)
     * [Report Builder：コンセプトと用語](administrators/feature-summary/report-builder-concepts-terminology.md)
     * [Report Builderで使用可能なデータセット](administrators/feature-summary/report-builder-available-datasets.md)
@@ -101,7 +105,7 @@ ht-degree: 50%
     * [レポートのダウンロード、共有、および購読](administrators/feature-summary/download-share-subscribe-report.md)
     * [Report Builderでレポートを複製して再利用する](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
     * [よくある質問](administrators/feature-summary/faq-report-builder.md)
-    * [Adobe Learning ManagerのReport Builderの制限](administrators/feature-summary/limitations-report-builder.md)
+    * [Report Builder制限](administrators/feature-summary/limitations-report-builder.md)
   * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
   * [Adobeのlearning Managerでワンクリック登録を設定する](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
   * [学習パス](administrators/feature-summary/learning-paths.md)
@@ -109,7 +113,7 @@ ht-degree: 50%
   * [学習プラン](administrators/feature-summary/learning-plans.md)
   * [Learning Manager の注文および請求管理](administrators/feature-summary/billing-management.md)
   * [作業計画書](administrators/feature-summary/job-aids.md)
-  * [チャンネルの作成](administrators/feature-summary/create-channels.md)
+  * [チャンネルの作成（ベータ版）](administrators/feature-summary/create-channels.md)
   * [資格認定](administrators/feature-summary/certifications.md)
   * [証明書の作成とカスタマイズ](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [カタログ](administrators/feature-summary/catalogs.md)
@@ -209,6 +213,57 @@ ht-degree: 50%
   * [電子メールテンプレート](authors/feature-summary/email-templates-author.md)
   * [コースモジュールの選択方法](authors/how-to-choose-modules.md)
   * [学習者としてプレビュー](authors/feature-summary/fluidic-player.md)
+  * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
+    * [Adobe Learning Manager Content Composer (Beta)ヘルプ](authors/feature-summary/content-composer/content-composer-help.md)
+    * 基本を学ぶ {#get-started}
+      * [コンテンツコンポーザーとは](authors/feature-summary/content-composer/what-is-content-composer.md)
+      * [コンテンツコンポーザーの仕組み](authors/feature-summary/content-composer/how-content-composer-works.md)
+      * [コンテンツコンポーザーの対象](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [始める前に必要なもの](authors/feature-summary/content-composer/before-you-start.md)
+      * [自分のドキュメントでコースを固定する](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [コンテンツコンポーザーが実行しないコンテンツ](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * コースの作成 {#create-course}
+      * [プロンプトを書く](authors/feature-summary/content-composer/write-a-prompt.md)
+      * [コースの概要を完了する](authors/feature-summary/content-composer/complete-course-brief.md)
+      * [ソースファイルの管理](authors/feature-summary/content-composer/manage-source-files.md)
+      * [コースの概要を編集する](authors/feature-summary/content-composer/edit-course-outline.md)
+      * [生成されたコースを確認します](authors/feature-summary/content-composer/review-generated-course.md)
+      * [クイズの確認と編集](authors/feature-summary/content-composer/review-edit-quiz.md)
+      * [コーステキストの編集](authors/feature-summary/content-composer/edit-course-text.md)
+      * [画像の編集または追加](authors/feature-summary/content-composer/edit-add-image.md)
+      * [コンテンツコンポーネントの追加](authors/feature-summary/content-composer/add-content-component.md)
+      * [コースのプレビュー](authors/feature-summary/content-composer/preview-course.md)
+    * 効果的なプロンプトを書く {#write-effective-prompt}
+      * [コンテンツコンポーザーで効果的なプロンプトを記述する](authors/feature-summary/content-composer/write-effective-prompts.md)
+    * 共有と共同作業 {#share}
+      * [コンテンツコンポーザーコースの共有と共同作業](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[レビュー用のコースを共有](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[学習者とのコースの共有](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[共有コースのレビュー](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[コースの表示とコメントの追加](authors/feature-summary/content-composer/view-add-comments-course.md)
+    * コース設定の構成 {#settings}
+      * [一般的なコース設定](authors/feature-summary/content-composer/general-course-settings.md)
+      * [完了条件と成功条件の設定](authors/feature-summary/content-composer/set-completion-success-criteria.md)
+      * [クイズ設定の構成](authors/feature-summary/content-composer/configure-quiz-settings.md)
+      * [Adobe Learning Managerに接続して公開する](authors/feature-summary/content-composer/configure-alm-publish-settings.md)
+    * コーステーマの管理 {#themes}
+      * [テーマの適用](authors/feature-summary/content-composer/apply-theme.md)
+      * [フォントを変更](authors/feature-summary/content-composer/change-fonts.md)
+      * [ヘッダーとフッターの追加](authors/feature-summary/content-composer/add-header-footer.md)
+      * [ライトモードまたはダークモードの設定](authors/feature-summary/content-composer/set-light-dark-mode.md)
+      * [高度なテーマのカスタマイズ](authors/feature-summary/content-composer/advanced-theme-customization.md)
+      * [テーマの作成](authors/feature-summary/content-composer/create-theme.md)
+      * [テーマの書き出し](authors/feature-summary/content-composer/export-theme.md)
+      * [テーマを読み込む](authors/feature-summary/content-composer/import-theme.md)
+    * Adobe Learning Manager に公開 {#publishalm}
+      * [Adobe Learning ManagerコンテンツコンポーザーとAdobe Learning Managerの連携](authors/feature-summary/content-composer/alm-coco-work-together.md)
+      * [ALMのモジュールバージョン管理](authors/feature-summary/content-composer/module-version-alm.md)
+      * [ベストプラクティス](authors/feature-summary/content-composer/best-practices-publishing.md)
+      * [Adobe Learning Manager に公開](authors/feature-summary/content-composer/publish-to-alm.md)
+    * 参照 {#reference}
+      * [Adobe Learning Manager Content Composerベータ版の制限](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
+      * [Adobe Learning Manager Content Composerに関するFAQ](authors/feature-summary/content-composer/content-composer-faq.md)
+      * [Theme JSONプロパティリファレンス](authors/feature-summary/content-composer/theme-json-reference.md)
   * [設定](authors/feature-summary/settings.md)
 * 学習プログラム / 資格認定を {#instructor}
   * [モジュール](instructors/feature-summary/modules.md)
@@ -224,7 +279,7 @@ ht-degree: 50%
   * [学習プログラム](learners/feature-summary/learning-programs.md)
   * [資格認定](learners/feature-summary/certifications.md)
   * [作業計画書](learners/feature-summary/job-aids.md)
-  * [チャネルの発見と活用](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [チャネル（ベータ版）の検索と活用](learners/feature-summary/discover-and-engage-with-channels.md)
   * [ALMの複数品目カート](learners/feature-summary/multi-item-cart.md)
   * [学習者向け成績表](learners/feature-summary/alm-learner-gradebook.md)
   * [外部学習を提出](learners/feature-summary/submit-external-learning.md)
@@ -255,14 +310,75 @@ ht-degree: 50%
   * [学習者のトランスクリプト](managers/feature-summary/learner-transcripts.md)
   * [設定](managers/feature-summary/settings.md)
   * [iPad および Android タブレットのユーザー](managers/feature-summary/ipad-android-tablet-users.md)
-* Live Hubの概要{#getting-started-with-live-hub}
-  * [ライブハブについて](../migrated/getting-started-with-live-hub/about-live-hub.md)
+* ライブハブ（ベータ版）の操作 {#work-with-live-hub}
+  * [必要システム構成](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
+  * ライブハブでの役割 {#roles-in-live-hub}
+    * [管理者](../migrated/getting-started-with-live-hub/administrator.md)
+    * [作成者](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
+    * [インストラクタ](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
+    * [学習者](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
+  * [インストラクターの追加と管理](../migrated/getting-started-with-live-hub/instructor-management.md)
+  * [ライブハブセッションの作成](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
+  * ライブハブセッションに参加 {#join-a-live-hub-session}
+    * [参加前画面の設定](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
+    * [インストラクターとしてライブハブセッションに参加](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
+    * [学習者としてライブハブセッションに参加する](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
+  * [ライブハブレイアウトについて](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
+  * 契約ツール {#engagement-tools}
+    * [インストラクターとして会議室の設定を管理](../migrated/getting-started-with-live-hub/manage-settings.md)
+    * 出席者パネル {#attendees-panel}
+      * [出席者パネルについて](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
+      * [出席者パネルの管理](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
+      * [出席者パネルの学習者としての使用](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
+    * チャットパネル{#chat-panel}
+      * [チャットパネルについて](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
+      * [インストラクターとしてチャットパネルを使用する](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
+      * [学習者としてチャットパネルを使用する](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
+    * 手を上げてリアクションを使う {#raise-your-hand-and-use-reactions}
+      * [挙手とリアクションについて](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
+      * [参加者の挙手と反応の管理](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
+      * [手を上げてリアクションを送る](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
+    * セッションでの画面共有 {#screen-sharing-in-sessions}
+      * [スクリーン共有について](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
+      * [インストラクターとして画面を共有](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
+      * [画面を学習者として共有](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
+    * ホワイトボードの共有{#share-a-whiteboard}
+      * [ホワイトボードについて](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
+      * [ホワイトボードの共有](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
+      * [学習者としてホワイトボードを使用する](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
+    * 世論調査を実施する {#conduct-polls}
+      * [投票について](../migrated/getting-started-with-live-hub/about-the-polls.md)
+      * [投票を作成して開始する](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
+      * [世論調査に回答する](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
+    * クイズを作成{#create-a-quiz}
+      * [クイズについて](../migrated/getting-started-with-live-hub/about-the-quiz.md)
+      * [クイズの作成と管理](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
+      * [クイズを試す](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
+    * [参加者のエンゲージメントを追跡](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
+    * 部分断面図 {#breakouts}
+      * [ブレークアウトについて](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
+      * [ブレイクアウトセッションの作成と管理](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
+      * [ブレイクアウトセッションに参加する](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
+    * クローズドキャプション {#closed-captions}
+      * [クローズドキャプションについて](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
+      * [インストラクターとしてクローズドキャプションを管理する](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [学習者としてクローズドキャプションを管理](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+    * 録音と文字起こし{#recordings-and-transcripts}
+      * [録音と文字起こしについて](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
+      * [セッションの記録](../migrated/getting-started-with-live-hub/record-a-session.md)
+      * [学習者として記録を表示する](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+    * セッションダッシュボード {#session-dashboard}
+      * [セッションダッシュボードを表示](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
+      * [セッションダッシュボードのコンポーネント](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
+  * [ベストプラクティス](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+  * [学習者としてモバイルでライブハブを使用する](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * よくある質問 {#faq}
   * [管理者のよくある質問（FAQ）](administrators/frequently-asked-questions-for-administrators.md)
   * [作成者のよくある質問（FAQ）](authors/frequently-asked-questions-for-authors.md)
   * [インストラクターのよくある質問（FAQ）](instructors/frequently-asked-questions-for-instructors.md)
   * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
   * [学習者のよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
+  * [ライブハブセッションのよくある質問(FAQ)](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新しいexperience leagueの発表](/help/migrated/new-experience-league-announcement.md)
   * [Experience League時にサポートチケットを提出する方法](/help/migrated/how-to-submit-support-ticket.md)
   * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)
@@ -274,6 +390,7 @@ ht-degree: 50%
 * 変更の報告 {#reporting-changes}
   * [2026年8月リリースのレポートの変更](/help/migrated/reporting-changes-august-2026.md)
 * ナレッジベース {#knowledge-base}
+  * [Live Hubのトラブルシューティングガイド](./kb/troubleshooting-guide-for-live-hub.md)
   * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
   * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
   * [CSV をアップロードできない](kb/unable-to-upload-csv.md)
