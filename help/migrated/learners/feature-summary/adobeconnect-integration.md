@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
 title: Adobe Connect の統合
-description: Adobe ConnectがLearning Managerアカウントと統合されている場合、Adobe Connectを使用してバーチャルクラスルームコースを受講できます。 Adobe Connectを使用できない場合は、会社の管理者に連絡してください。
+description: Adobe Connect が Learning Manager アカウントに統合されている場合は、Adobe Connect を用いてバーチャルクラスルームコースを受講することができます。 Adobe Connect を使用できない場合は、社内の管理者に連絡してください。
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '342'
+ht-degree: 78%
 
 ---
 
 # Adobe Connect の統合
 
-Adobe ConnectがLearning Managerアカウントと統合されている場合、Adobe Connectを使用してバーチャルクラスルームコースを受講できます。 Adobe Connectを使用できない場合は、会社の管理者に連絡してください。
+Adobe Connect が Learning Manager アカウントに統合されている場合は、Adobe Connect を用いてバーチャルクラスルームコースを受講することができます。 Adobe Connect を使用できない場合は、社内の管理者に連絡してください。
 
 ## Adobe Connect バーチャルクラスルームコースの使用 {#consumeadobeconnectvirtualclassroomcourses}
 
-学習者としてLearning Managerにログインし、「学習状況」ウィジェットからバーチャルクラスルームのコースカードをクリックします。 または、左ペインで「カタログ」を選択し、コースを絞り込んで、必要なバーチャルクラスルームコースをクリックすることもできます。
+学習者として Learning Manager にログインし、「学習状況」ウィジェットからバーチャルクラスルームのコースカードをクリックします。 または、左ペインで「カタログ」を選択し、コースを絞り込んで、必要なバーチャルクラスルームコースをクリックすることもできます。
 
 Adobe Connect のバーチャルクラスルームセッションに登録している場合は、セッションの開始前にアカウント URL の通知が届きます。
 
@@ -31,8 +31,12 @@ Adobe Connect のバーチャルクラスルームセッションに登録して
 
 ## バーチャルクラスルームの録音セッションを見る {#viewrecordedvirtualclassroomsessions}
 
-バーチャルクラスルームの録音セッションを聞く場合は、バーチャルクラスルームコースをクリックします。録音セッションの URL は一覧表示することができます。ただし、セッションのホストが録音していた場合にのみ利用できます。
+バーチャルクラスルームの録音セッションを聞く場合は、バーチャルクラスルームコースをクリックします。 録音セッションの URL は一覧表示することができます。 ただし、セッションのホストが録音していた場合にのみ利用できます。
 
 >[!NOTE]
 >
->通常、記録されたセッションURLは、セッション完了から2時間後にLearning Managerアプリケーションに反映されます。
+>録音セッションの URL は通常、セッション完了から 2 時間後に Learning Manager アプリケーションに反映されます。
+
+## ライブハブセッションの使用
+
+会社でLearning Managerアカウントに対してLive Hubが有効になっている場合、学習者はLive Hubを使用してバーチャルクラスルームコースを利用できます。 Live Hubを使用できない場合は、会社の管理者にお問い合わせください。 セッションに参加および参加する手順については、[学習者としてセッションに参加](../../getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)を参照してください。

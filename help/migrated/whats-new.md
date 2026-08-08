@@ -3,18 +3,14 @@ description: Adobe Learning Managerの2026年8月リリースの新機能と機�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2748'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Managerの2026年8月リリースの新機能
-
->[!IMPORTANT]
->
->この記事で説明する機能は、ベータ版リリースの一部として利用できます。 Adobe Learning Manager beta版の機能は評価目的で提供され、一般公開リリース前に変更、制限、または削除されることがあります。 機能名、動作、および設定オプションは、予告なく変更される場合があります。
 
 ## 成績表
 
@@ -54,7 +50,7 @@ Gradebookでは、次の2つの完了モデルをサポートしています。
 
 採点不可能なモジュールタイプ、PDFファイル、ビデオファイル、オーディオファイル、PowerPointプレゼンテーション、Word文書、Excelファイル、およびHTMLコンテンツは、加重比率を割り当てることができず、集計スコアに含まれません。 コースの完了には、これらのモジュールが引き続き必要になる場合があります。 「最終成績に寄与しないモジュールを含める」オプションが有効な場合、それらのモジュールは加重値なしで成績表に表示されます。
 
-詳細については、[著者のための成績表](/help/migrated/authors/feature-summary/alm-author-gradebook.md)を参照してください
+詳細については、[作成者用の成績表](/help/migrated/authors/feature-summary/alm-author-gradebook.md)を参照してください。
 
 ## 階層コンテンツフォルダー
 
@@ -74,7 +70,7 @@ Gradebookでは、次の2つの完了モデルをサポートしています。
 
 別のプラットフォームからAdobe Learning Managerに学習コンテンツを移行するときに、既存のフォルダー構成を保持するには、CSVファイルを使用して階層構造のフォルダー構造を作成し、コンテンツファイルを適切なフォルダーに関連付けます。 [コンテンツフォルダー階層の移行](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)での移行に関する詳細情報
 
-## ライブハブ
+## ライブハブ（ベータ版）
 
 Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレーニングエクスペリエンスで、魅力的でインパクトのあるライブラーニングを提供できます。 Live Hubには、AIを活用した投票、ブレイクアウトルームのオーケストレーション、永続的な学習スペース、AIを活用した支援などのインテリジェントな機能が搭載されており、セッション配信の複雑さを軽減しながら、インストラクターの生産性を強化します。
 
@@ -86,9 +82,23 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * 実際の学習参加を明らかにするために、参加度を超えるエンゲージメント分析で重要な要素を測定します。
 * 作成者がAIを活用したインストラクターファインダーを使用して、スキル、利用可能な状況、希望する時間、タイムゾーン、現在の使用状況に応じて、適切なインストラクターと一致するように支援します。
 
->[!NOTE]
->
->ライブハブは現在ベータ版で、今後の8月リリースのAdobe Learning Managerで利用可能になる予定です。 Live Hubのドキュメントは、機能がリリースされると利用可能になります。
+詳細については、[Live Hubの概要](./getting-started-with-live-hub/getting-started-live-hub.md)を参照してください。
+
+## Adobe Learning Manager Content Composer (Beta)
+
+Adobe Learning Managerにコンテンツコンポーザーが追加されました。コンテンツコンポーザーは、一般的な言語で表示されるプロンプトから、数分で公開できる構造化されたコースに至る、AIネイティブコースオーサリングツールです。
+
+主な機能：
+
+* 会話型AIは、トレーニング目標、ソース資料、学習目標を通じて作成者をガイドし、完全なコース概要を生成します。
+* ドキュメントに基づく生成では、アップロードされたファイルへのAI出力が制限されます。これは、コンプライアンス、規制、および手順ベースのトレーニングに不可欠です。
+* レッスン、トピック、テキスト、画像、ナレッジチェック、採点クイズなど、1回のパスでコースを完全に生成できます。
+* ライトモードとダークモード、フォントコントロール、ヘッダーとフッターのサポート、高度なカスタマイズのためのJSON書き出しを備えた視覚的テーマシステム。
+* パブリッシュ前に完了条件、成功条件、クイズ設定、SCORMバージョンを設定できます。
+* その他
+
+詳細については、[Adobe Learning Managerコンテンツコンポーザー](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)をご覧ください。
+
 
 ## コンポーネントベースの電子メールテンプレートビルダー
 
@@ -103,7 +113,7 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * 公開前のプレビューとテスト送信
 * 下位互換性：既存の電子メールテンプレートは引き続き機能します。
 
-詳細については、[コンポーネントベースの電子メールビルダー](/help/migrated/administrators/feature-summary/email-builder.md)を参照してください
+詳細については、[コンポーネントベースの電子メールビルダー](/help/migrated/administrators/feature-summary/email-builder.md)をご覧ください。
 
 ## 社外学習のサポート
 
@@ -118,7 +128,7 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * 管理者および学習者のトランスクリプトの新しい列：外部学習名、完了コメント、カスタムフィールド列
 * APIサポート：サブミッションを作成、取得、および更新するための、学習者をスコープとする5つの新しいエンドポイント
 
-管理者レベルの詳細については、[外部学習サポート](/help/migrated/administrators/feature-summary/settings/basic-settings.md)を参照してください。 マネージャーレベルの詳細については、[外部学習サポート](/help/migrated/managers/feature-summary/review-external-learning-requests.md)を参照してください。 学習者レベルの詳細については、[社外学習サポート](/help/migrated/learners/feature-summary/submit-external-learning.md)を参照してください。
+管理者レベルの詳細については、[社外学習サポート](/help/migrated/administrators/feature-summary/settings/basic-settings.md)をご覧ください。 マネージャーレベルの詳細については、[外部学習サポート](/help/migrated/managers/feature-summary/review-external-learning-requests.md)をご覧ください。 学習者レベルの詳細については、[社外学習サポート](/help/migrated/learners/feature-summary/submit-external-learning.md)を参照してください。
 
 ## AI機能
 
@@ -151,19 +161,19 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 
 Insights Agentは、管理者が自然言語クエリを使用して学習データを分析するのに役立ちます。 登録トレンド、完了率、学習者のエンゲージメント、スキルギャップに関する質問を行います。 エージェントは、応答としてレポートとビジュアライゼーションを生成します。
 
-詳細については、[インサイトエージェント](/help/migrated/administrators/feature-summary/insights-agent.md)を参照してください
+詳細については、[インサイトエージェント](/help/migrated/administrators/feature-summary/insights-agent.md)をご覧ください。
 
 ### Gen AIクレジット
 
 Adobe Learning Managerは、Agent Orchestratorライセンスにリンクされたクレジットベースのシステムを介して管理される、AIを活用した機能を統合します。 このシステムでは、管理者は「請求」ページで機能を有効にし、クレジット制限を設定し、使用状況を監視する必要があります。 Gen AI機能を有効にするには、アクティブなAgent Orchestratorライセンスを持つAdobe Admin Console組織にAdobe Learning Managerアカウントをリンクすることが不可欠です。
 
-詳しくは、[Gen AIクレジット](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)を参照してください。
+詳しくは、[Gen AIクレジット](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)をご覧ください。
 
-## チャネル
+## チャンネル（ベータ版）
 
 チャンネルを使用すると、WebページやConfluenceページのビデオコンテンツを一元的に整理、公開、検索できます。 管理者は、サポートされているWebページやConfluenceページに接続してチャンネルを作成および管理したり、チャンネル設定を構成したり、可視性を制御したり、ソースからコンテンツを同期したりできます。 学習者は、利用可能なチャンネルを参照したり、関心のあるチャンネルをサブスクライブしたり、キュレートされたビデオコンテンツを1つの場所から見たりすることができます。
 
-詳細については、[チャネルの作成](/help/migrated/administrators/feature-summary/create-channels.md)を参照してください
+詳細については、[チャネルの作成](/help/migrated/administrators/feature-summary/create-channels.md)を参照してください。
 
 ## レポートビルダー
 
@@ -171,7 +181,7 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 レポートは1回作成され、繰り返し使用できるように保存されます。 ダウンロードのたびに、フィルタの再構築、グループ化の再適用、データセットの再結合を行う必要はありません。 保存したレポートは、オンデマンドでダウンロードしたり、他の管理者と共有したり、受信者が定期的に更新されたレポートを自動的に受信できるようにサブスクリプションを設定したりできます。
 
-詳細については、[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)を参照してください。
+詳細については、[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)をご覧ください。
 
 ## カスタムの役割の変更
 
@@ -188,7 +198,7 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 **手動で作成されたロールのみ**：拡張されたカスタムロール管理機能は、Adobe Learning Manager管理者インターフェイスを通じて作成されたロールにのみ適用されます。 CSVアップロードで読み込まれたロールはサポートされていません。
 
-カスタム役割の変更の詳細をご覧ください。 詳細については、[ユーザーの高度なアクセス許可によってロックが解除される機能](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)を参照してください
+カスタム役割の変更の詳細をご覧ください。 詳細については、[ユーザーの高度なアクセス許可でロック解除される内容](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)を参照してください
 
 ## LTIディープリンク
 
@@ -196,33 +206,27 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 有効にすると、作成者には外部LMSアクティビティ構成に「**コンテンツの選択**」ボタンが表示されます。 承認済みのカタログを参照したり、コースを選択したり、選択内容を確認したりすることができます。また、すべてのフィールドが自動的に入力されます。
 
-詳細については、[LTIディープリンク](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)を参照してください。
+詳細については、[LTIのディープリンク](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)を参照してください。
 
 ## 教室の場所
 
-教室の場所では、構造化された&#x200B;**4つのフィールドの場所形式**&#x200B;がサポートされるようになりました。これには、国、州/州/地域、市区町村、場所名が含まれ、リージョン間のトレーニング場所を簡単に管理および整理できます。 このアップデートには、従来の単一フィールド形式からの1回限りの移行が含まれ、**場所名**&#x200B;フィールドと&#x200B;**部屋情報**&#x200B;フィールドに対する多言語サポートが追加され、学習者が教室をローカライズして詳細を確認できるようになります。
+教室の場所では、構造化された&#x200B;**4つのフィールドの場所形式**&#x200B;がサポートされるようになりました。これには、国、州/州/地域、市区町村、場所名が含まれ、リージョン間のトレーニング場所を簡単に管理および整理できます。 このアップデートには、従来の単一フィールド形式からの1回限りの移行が含まれ、**場所名**&#x200B;と&#x200B;**場所情報**&#x200B;のフィールドに対する多言語サポートが追加され、学習者に対してローカライズされた教室の詳細が可能になります。
 
-詳細については、[教室の場所](/help/migrated/administrators/feature-summary/classroom.md)を参照してください
-
-## 近日公開： Adobe Learning Manager Content Composer
-
-Adobe Learning Manager Content Composerは、すぐに公開できるコースを作成できる、Adobe Learning Managerの今後のAIコースオーサリングツールです。
-
-会話型AIアシスタントが、プロセス全体（プロンプト、概要、アウトライン、コース）をガイドします。これにより、進む前に、すべてのステップ、レビュー、調整を制御することができます。 独自のソース文書に含まれるコンテンツを調整したり、コースに瞬時にテーマを設定したり、完成したコースをSCORM経由またはAdobe Learning Managerに直接公開して共有または書き出したりすることができます。
+詳細については、[教室の場所](/help/migrated/administrators/feature-summary/classroom.md)を参照してください。
 
 ## リリースの変更のレポート
 
-[Adobe Learning Managerの2026年8月リリースの変更報告](/help/migrated/reporting-changes-august-2026.md)の詳細をご覧ください。
+詳細については、[Adobe Learning Managerの2026年8月リリースの変更報告](/help/migrated/reporting-changes-august-2026.md)を参照してください。
 
 ## リリースでのAPIの変更
 
-Adobe Learning Managerの2026年8月リリース[&#128279;](/help/migrated/api-changes-august-2026.md)のAPIの変更点について説明します。
+詳しくは、[Adobe Learning Managerの2026年8月リリースのAPIの変更](/help/migrated/api-changes-august-2026.md)を参照してください。
 
 ## このリリースのその他の機能強化
 
 | 機能強化 | 概要 |
 |---|---|
-| **MQA：最新スコアと最高スコア** | 試行が複数あるモジュールの場合、作成者は、最新または最高試行スコアを学習者トランスクリプトに記録し、成績表の計算に使用するかどうかを選択できるようになりました。 「最新バージョン」は既存のデフォルトであり、設定が構成されていない場合はそのままです。 詳細については、[著者のための成績表](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)を参照してください。 |
+| **MQA：最新スコアと最高スコア** | 試行が複数あるモジュールの場合、作成者は、最新または最高試行スコアを学習者トランスクリプトに記録し、成績表の計算に使用するかどうかを選択できるようになりました。 「最新バージョン」は既存のデフォルトであり、設定が構成されていない場合はそのままです。 詳細については、[作成者向けGradebook](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)を参照してください。 |
 | **コンテンツライブラリのコンテンツプレビュー** | 作成者は、アップロードしたコンテンツファイルを、コースに追加する前に、コンテンツライブラリで直接プレビューできるようになりました。 詳細については、[コンテンツライブラリのプレビュー](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)を参照してください。 |
 | **増分ユーザーレポート** | 新しいAPIベースのユーザーレポートでは、前回のリクエスト以降に作成または変更されたユーザーのみが返され、自動ユーザー同期ワークフローを使用して、大きなアカウントのデータ転送が削減されます。 詳細については、[増分ユーザーレポート](/help/migrated/incremental-user-report.md)を参照してください。 |
 | **Fluidicプレーヤーの11の新しい言語** | Fluidicプレーヤーは、右から左に表記される(RTL)スクリプトのサポートを含め、11の追加言語をサポートするようになりました。 詳細については、[Fluidicプレーヤー](/help/migrated/learners/feature-summary/fluidic-player.md)を参照してください。 |
@@ -244,7 +248,7 @@ Adobe Learning Managerの2026年8月リリース[&#128279;](/help/migrated/api-c
 
 ## 必要システム構成
 
-[Adobe Learning Managerの必要システム構成](/help/migrated/system-requirements.md)を確認してください。
+詳しくは、[Adobe Learning Managerの必要システム構成](/help/migrated/system-requirements.md)を参照してください。
 
 ## リリースノート
 
