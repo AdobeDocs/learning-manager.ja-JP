@@ -16,7 +16,7 @@ Adobe Learning Manager Content Composerを起動する前に、以下を確認�
 
 >[!IMPORTANT]
 >
->有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+>有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/jp/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
 
 ## オプションの要件
 
