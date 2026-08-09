@@ -3,7 +3,7 @@ description: Adobe Learning Managerの2025年5月リリースの新機能と強�
 jcr-language: en_us
 title: 新機能の概要
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -90,7 +90,8 @@ Adobe Learning Managerは多言語プラットフォームです。学習者の�
 
 Adobe Learning Managerネイティブプラットフォームのユーザーは、この機能強化によってジャストインタイムのユーザープロビジョニングのニーズに対応できます。 ユーザーがアカウントを作成して初めてログインする場合、この機能によって、ユーザーの言語設定が正確にキャプチャおよび適用されます。
 
-この機能により、ユーザーがSAMLでログインするときに、ユーザーの言語設定が自動的に更新されるようになります。 これにより、ユーザーが希望する言語でインターフェイスを表示して、パーソナライズされたエクスペリエンスを提供できます。ユーザーがSAMLを介してログインすると、ログインプロセス中に指定された情報に基づいて、言語設定（インターフェイスおよびコンテンツ言語）が確認され、更新されます。
+この機能により、ユーザーがSAMLでログインするときに、ユーザーの言語設定が自動的に更新されるようになります。 これにより、ユーザーが希望する言語でインターフェイスを表示して、パーソナライズされたエクスペリエンスを提供できます。
+ユーザーがSAMLを介してログインすると、ログインプロセス中に指定された情報に基づいて、言語設定（インターフェイスおよびコンテンツ言語）が確認され、更新されます。
 
 この機能はSAMLログインプロセスと統合され、ユーザーの言語設定をシームレスにキャプチャおよび更新します。
 
@@ -126,9 +127,11 @@ Connectセッション分析の詳細については、この[記事](https://he
 
 ### 移行を使用したコンテンツの成功基準
 
-モジュールを読み込むAdobe Learning Managerの移行プロセスで、正常な条件を定義するためのパラメーターを追加する機能がサポートされるようになりました。module_version.csvに3つの新しいオプション列を追加することで、この機能がサポートされるようになりました。 3つの新しいオプション列： `successCriteria`、`successQuizData`、および`successViewPercent`。
+モジュールを読み込むAdobe Learning Managerの移行プロセスで、正常な条件を定義するためのパラメーターを追加する機能がサポートされるようになりました。
+module_version.csvに3つの新しいオプション列を追加することで、この機能がサポートされるようになりました。 3つの新しいオプション列： `successCriteria`、`successQuizData`、および`successViewPercent`。
 
-これらのフィールドには特定の値のみを入力できます。無効な値が入力されると、コネクタはファイルの処理に失敗します。クイズモジュールでは、3種類の合格条件を使用できます。 学習者がコンテンツを起動する際にスコアのパーセンテージ値（`successViewPercent`で定義：以下）に応じて合格点をマークするか、クイズモジュールの結果（`successQuizData`で定義：以下）に基づいて合格点をマークすることができます。 この値は、次の手順に従って入力します。 successCriteriaパラメーターを使用して、これを判断します。
+これらのフィールドには特定の値のみを入力できます。無効な値が入力されると、コネクタはファイルの処理に失敗します。
+クイズモジュールでは、3種類の合格条件を使用できます。 学習者がコンテンツを起動する際にスコアのパーセンテージ値（`successViewPercent`で定義：以下）に応じて合格点をマークするか、クイズモジュールの結果（`successQuizData`で定義：以下）に基づいて合格点をマークすることができます。 この値は、次の手順に従って入力します。 successCriteriaパラメーターを使用して、これを判断します。
 
 `successCriteria`: `LAUNCH_CONTENT`、`VIEW_PERCENT`、`QUIZ`、または`VIEWPERCENT_OR_QUIZ`を受け入れます。
 
@@ -152,13 +155,14 @@ Webhookの変更。
 
 ### 移行を使用してコンテンツの一意のIDと有効期限を追加する
 
-移行中のコンテンツの一意のIDと有効期限がサポートされるようになりました。 この機能を有効にするために、2つの列（ expiryDateとuniqueContentId ）がmodule_version.csvファイルに追加されました。 詳細については、この[サンプルCSV](assets/module_version_content.csv)および[CSV仕様ファイル](assets/4-module_version_content.xlsx)を参照してください。
+移行中のコンテンツの一意のIDと有効期限がサポートされるようになりました。 この機能を有効にするために、2つの列（ expiryDateとuniqueContentId ）がmodule_version.csvファイルに追加されました。 詳細については、この[サンプルCSV](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip)および[CSV仕様ファイル](/help/migrated/integration-admin/feature-summary/assets/module-version.zip)を参照してください。
 
 移行プロセスの詳細については、この[記事](/help/migrated/integration-admin/feature-summary/migration-manual.md)を参照してください。
 
 ## Webhookの機能強化
 
-Webhookでは、登録、登録解除、または完了時に、学習パス(LP)内のコースと資格認定のイベントがサポートされるようになりました。これには、親LOイベントに加えて、LPまたは資格認定の各コースのサポートイベントが含まれます。
+Webhookでは、登録、登録解除、または完了時に、学習パス(LP)内のコースと資格認定のイベントがサポートされるようになりました。
+これには、親LOイベントに加えて、LPまたは資格認定の各コースのサポートイベントが含まれます。
 
 Webhookについて詳しくは、この[記事](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)を参照してください。
 

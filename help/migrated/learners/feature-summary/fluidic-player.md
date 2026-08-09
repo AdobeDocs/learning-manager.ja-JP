@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic プレーヤー
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 52%
+source-wordcount: '649'
+ht-degree: 53%
 
 ---
 
@@ -72,7 +72,7 @@ Learning Manager API を使用して、外部の Web サイトやアプリケー
 
 **11言語のサポート**: Fluidicプレーヤーは11言語をサポートしています。 以下の 2 つです。
 
-| 言語 | 地域 | IBM ID |
+| 言語 | 地域 | ID |
 |---|---|---|
 | アラビア語 | サウジアラビア | ar-SA |
 | 中国語 – 繁体字 | 中国香港特別行政区 | zh-Hant-HK |

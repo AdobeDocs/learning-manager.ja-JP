@@ -4,9 +4,9 @@ title: 学習者としてプレビュー
 description: Fluidic プレーヤーは、ミックスされた学習コンテンツをシームレスに利用するための学習者向けプラットフォームです。 サポート対象となっているすべての形式は、このプレーヤーで正しく再生されます。 作成者と管理者は、プレーヤーを使用してコンテンツをプレビューできます。
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ Fluidic プレーヤーは、ミックスされた学習コンテンツをシー
 
 Fluidicプレーヤーは11の言語をサポートしています。 以下の 2 つです。
 
-| 言語 | 地域 | IBM ID |
+| 言語 | 地域 | ID |
 |---|---|---|
 | アラビア語 | サウジアラビア | ar-SA |
 | 中国語 – 繁体字 | 中国香港特別行政区 | zh-Hant-HK |
