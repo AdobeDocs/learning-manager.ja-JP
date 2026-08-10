@@ -3,7 +3,7 @@ description: Adobe Learning Managerの2024年11月リリースの新機能と強
 jcr-language: en_us
 title: 新機能の概要2024年11月
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Adobe Learning Managerの新しい&#x200B;**[!UICONTROL キャンセル待ちレ
 
 ## 学習者ホームページのアクセシビリティ
 
-Adobe Learning Managerでは、すべてのマストヘッドの代替テキストをサポートするようになり、学習者が利用しやすくなりました。 これにより、スクリーンリーダーを使用して代替テキストを読み、画像を理解する必要のある特別な学習者が学習できます。 複数の言語を選択し、各言語の代替テキストを指定できます。 それぞれの言語で代替テキストを追加してください。 アカウント内の会社のロゴに、会社名の付いた代替テキストも含まれていることを確認します。詳細については、この記事[発表](/help/migrated/administrators/feature-summary/announcements.md#masthead)を参照してください。
+Adobe Learning Managerでは、すべてのマストヘッドの代替テキストをサポートするようになり、学習者が利用しやすくなりました。 これにより、スクリーンリーダーを使用して代替テキストを読み、画像を理解する必要のある特別な学習者が学習できます。 複数の言語を選択し、各言語の代替テキストを指定できます。 それぞれの言語で代替テキストを追加してください。 アカウント内の会社のロゴに、会社名の付いた代替テキストも含まれていることを確認します。
+詳細については、この記事[発表](/help/migrated/administrators/feature-summary/announcements.md#masthead)を参照してください。
 
 ## ヒンディー語のサポート
 
@@ -227,7 +228,7 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 * 別のフォルダーに既に存在するモジュールに対して新しいフォルダー名を追加しても、割り当てられたフォルダーが新しい値で上書きされたり、置き換えられたりすることはありません。 モジュールは新しいフォルダーに追加され、既存のフォルダーでも使用できます。
 * 値が空白の場合、フォルダーは既定で&#x200B;**[!UICONTROL Public]**&#x200B;になります。
 
-詳細については、[module_version csv spec](assets/4-module_version.xlsx)ファイルを参照してください。
+詳細については、[module_version csv spec](assets/module_version.csv)ファイルを参照してください。
 
 ### モジュールの移行の変更 – 完了条件
 
@@ -238,10 +239,10 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 1. `completionCriteria`:
 
    * データ型は文字列値である必要があり、サポートされている値は次のとおりです。
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * セルフペースモジュールタイプの場合にのみ、モジュールレベルで完了条件を追加します。
    * 静的コンテンツでサポートされている値は`LAUNCH_CONTENT`および`VIEW_PERCENT`です。
    * インタラクティブコンテンツでサポートされている値は、`LAUNCH_CONTENT`、`VIEW_PERCENT`、および`QUIZ`です。
@@ -257,7 +258,7 @@ folder列は文字列データ型を使用し、オプションの列です。 f
    * データ型は文字列値である必要があり、サポートされている値は`QUIZ_ATTEMPTED`、`QUIZ_PASSED`、および`QUIZPASSED_OR_LIMITREACHED`です。
    * `completionCriteria`が`QUIZ`に設定されている場合は、`quizData`列に適切なクイズ値を入力します。
 
-詳細については、[module_version csv spec](assets/4-module_version.xlsx)ファイルを参照してください。
+詳細については、[module_version csv spec](assets/module_version.csv)ファイルを参照してください。
 
 ### コース移行の変更点 – 完了条件
 
@@ -271,27 +272,27 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 * `completionCriteria`を`SELECTEDMODULES`に設定した場合、[course_module.csv](assets/course_module.csv)ファイルで必須モジュールをマークする必要があります。
 * `optionalCriteria`列に、`TRUE`または`FALSE`を入力します。 値を`TRUE`に設定すると、モジュールは必須になります。
 
-詳細については、[course csv spec](assets/3-course.xlsx)および[course_module csv spec](assets/6-course_module.xlsx)ファイルを参照してください。
+詳細については、[course csv spec](assets/course.csv)および[course_module csv spec](assets/course_module.csv)ファイルを参照してください。
 
 ## API の変更
 
 APIの変更点は次のとおりです。
 
 * **APIの検索**:
-   * classicSearchとadvanceSearchのオプションを持つ新しいモードフィルター。
-   * snippetTypesの新しいloMetadataオプション。
+  * classicSearchとadvanceSearchのオプションを持つ新しいモードフィルター。
+  * snippetTypesの新しいloMetadataオプション。
 * **アナウンスAPI**:
-   * マストヘッドの説明にaltText属性が含まれます。
+  * マストヘッドの説明にaltText属性が含まれます。
 * **インスタンスAPI**:
-   * ロケールの詳細を取得するための新しいlocale属性。
+  * ロケールの詳細を取得するための新しいlocale属性。
 * **冒涜的なチェック**:
-   * APIを更新し、ソーシャル投稿へのコメントや返信で禁止されている単語を確認できるようになりました。
+  * APIを更新し、ソーシャル投稿へのコメントや返信で禁止されている単語を確認できるようになりました。
 * **RPMおよびバーストの制限**:
-   * すべてのAPIのRPM(Requests Per Minute)とバースト制限を追加しました。
+  * すべてのAPIのRPM(Requests Per Minute)とバースト制限を追加しました。
 * **バッジAPI**:
-   * 外部バッジに関する情報を取得する新しい属性externalProvider。
+  * 外部バッジに関する情報を取得する新しい属性externalProvider。
 * **ジョブAPI**:
-   * ジョブAPIを使用してユーザーグループレポートとカスタム役割監査レポートをダウンロードします。
+  * ジョブAPIを使用してユーザーグループレポートとカスタム役割監査レポートをダウンロードします。
 
 ### 検索APIの変更点
 

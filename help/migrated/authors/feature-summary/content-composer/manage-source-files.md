@@ -2,9 +2,9 @@
 description: 既存のドキュメント、ポリシー、またはデッキをアップロードして、組織のコンテンツにAIを活用します。 生成をこれらのファイルのみに制限するか、AIに一般的な知識を補足させるかを選択します。
 jcr-language: en_us
 title: ソースファイルの管理
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ ht-degree: 0%
 
 ### ファイルのアップロードを確認
 
-    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 ファイルが添付されると、ツールバーのファイルアイコンにバッジ数が表示されます。 アシスタントがアップロードを確認し、**アウトラインの生成**&#x200B;のショートカットを提供します。 選択するか、上部のツールバーの&#x200B;**[アウトラインの生成]**&#x200B;を選択します。

@@ -2,9 +2,9 @@
 description: コースの完全生成を確定する前に、AIが生成したレッスンとトピックの構造を確認してください。 チャットパネルで変更を依頼します。 レッスンとトピックの名前変更、追加、削除、分割、結合を対話的に行うことができます。
 jcr-language: en_us
 title: コースの概要を編集する
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # コースの概要を編集する
 
-    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composerでは、briefファイルとsourceファイルからレッスンとトピック構造を生成します。 すべてのレッスンとそのトピックを示すアウトラインがキャンバスに表示されます。
 

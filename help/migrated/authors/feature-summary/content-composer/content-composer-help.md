@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta)ヘルプ
 description: 平易な言葉のプロンプトからパブリッシュ済みのコースまで、Adobe Learning Manager Content Composerがインストラクションデザインを処理するので、影響力の大きいインストラクションコンテンツを作成して、学習者のニーズに集中できます。
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ Content Composerは、トレーニングの目標、ソース資料、学習目�
 - **Adobe Learning Managerへの直接公開** ：完成したコースは、Adobe Learning Managerに直接公開されます。個別のオーサリングツールや手動のSCORM書き出しはありません。
 - **単一システムのワークフロー**:コースの作成、学習者の管理、レポート作成は1つのプラットフォームで行われるため、複数のオーサリングツールや配信ツールを管理するオーバーヘッドが解消されます。
 
+## ログインする前に
+
+>[!IMPORTANT]
+>
+>有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/jp/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+
+
 ## コンテンツコンポーザーを試す {#trycontent-composer}
 
 最初のコースを作成する準備はできましたか？ コンテンツコンポーザーを開き、プレーンランゲージのプロンプトからパブリッシュ対応コースにすばやく移行できます。
 
-[**コンテンツコンポーザーを試す**](https://contentcomposer-dev.adobe.io/)
+[**コンテンツコンポーザーを試す**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Content Composerは、トレーニングの目標、ソース資料、学習目�
 
 必要なものがすべて揃っています。 コンテンツコンポーザーを開き、最初のコースを作成します。
 
-[**コンテンツコンポーザーを試す**](https://contentcomposer-dev.adobe.io/)
+[**コンテンツコンポーザーを試す**](https://contentcomposer.adobe.io/)

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager の注文および請求管理
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 37%
+source-wordcount: '2471'
+ht-degree: 52%
 
 ---
 
@@ -72,7 +72,7 @@ Agent Orchestratorライセンスがリンクされている場合、統計行�
 
 | 列 | 説明 |
 |---|---|
-| **購入済み** | 契約期間中に購入されたGen AIクレジットの合計。 |
+| **購入済み** | 契約期間中に購入したクレジットの合計。 |
 | **使用済み** | このライセンスを使用するすべてのサービスで消費されるクレジット。 |
 | **ALMが使用** | Adobe Learning Managerが別途消費するクレジット |
 | 残り&#x200B;**&#x200B;** | クレジットは引き続き利用できます。 |
@@ -291,90 +291,92 @@ Gen AI機能を有効にするには、Adobe Learning ManagerアカウントがA
 
 アクティブなサブスクリプションをキャンセルするには、Learning Manager サポートチームまでお問い合わせください。
 
-## Gen AIクレジット {#genaicredits}
+<!--
+## Gen AI credits {#genaicredits}
 
-### Gen AIクレジットの仕組み
+### How Gen AI credits work
 
-Gen AIクレジットは、学習者がAIを活用した機能を操作するたびに消費されます。例えば、AI Assistantを通じて質問をしたり、パーソナライズされた学習レコメンデーションを生成したりします。 各インタラクションが開始される前に、Adobe Learning Managerはクレジットが利用可能であることを確認します。 クレジットが使用可能な場合、インタラクションは進行します。 残高を使い切った場合、学習者には、この機能が一時的に利用できないことを知らせるメッセージが表示されます。
+Gen AI credits are consumed each time a learner interacts with an AI-powered feature — for example, when asking a question through the AI Assistant or generating a personalized learning recommendation. Before each interaction begins, Adobe Learning Manager checks that credits are available. If credits are available, the interaction proceeds. If the balance has been exhausted, the learner sees a message that the feature is temporarily unavailable.
 
-クレジットは、Adobe Experience Platform Agent Orchestratorライセンスの一部として購入されます。 そのライセンスはAdobe Admin Consoleで管理され、Adobe Learning Managerが自動的に接続して利用可能なクレジットを検出します。
+Credits are purchased as part of an Adobe Experience Platform Agent Orchestrator license. That license is managed in your Adobe Admin Console, and Adobe Learning Manager connects to it automatically to detect available credits.
 
-**クレジットの優先度のルール：** Adobe Learning ManagerプランにGen AIクレジットのバンドルが含まれていて、Agent Orchestratorライセンスも所有している場合、バンドルされたクレジットが最初に消費されます。 Agent Orchestratorのクレジットは、バンドルされたクレジットが使い切られた後にのみ使用されます。
+**Credit priority rule:** If your Adobe Learning Manager plan includes bundled Gen AI credits and you also have an Agent Orchestrator license, the bundled credits are consumed first. Agent Orchestrator credits are used only after the bundled credits are exhausted.
 
-**共有クレジットプール：**&#x200B;お客様の組織に複数のAdobe Learning Managerアカウントがあり、すべて同じAdobe Admin Console組織にリンクされている場合、すべてのアカウントは1つの共有クレジットプールから取得します。
+**Shared credit pools:** If your organization has multiple Adobe Learning Manager accounts all linked to the same Adobe Admin Console organization, all accounts draw from a single shared credit pool.
 
 >[!IMPORTANT]
 >
->デフォルトでは、すべてのGen AI機能はオフになっています。 各機能を有効にして、学習者がクレジット使用制限にアクセスできるようにするには、その前にクレジット使用制限を設定する必要があります。
+>All Gen AI features are turned off by default. You must enable each feature and set a credit usage limit before learners can access it.
 
-### 「Gen AIクレジット」タブにアクセス
+### Access the Gen AI Credits tab
 
-1. **[!UICONTROL 管理者]** > **[!UICONTROL 請求]**&#x200B;を選択します。
-2. 「**[!UICONTROL クレジット]**」タブを選択します。
+1. Select **[!UICONTROL Admin]** > **[!UICONTROL Billing]**.
+2. Select the **[!UICONTROL Credits]** tab.
 
-「**クレジット**」タブは、Gen AIクレジットが購入されているか、アカウントで過去に有効であった場合にのみ表示されます。 タブが表示されていない場合は、アカウントが、アクティブなAgent Orchestratorライセンスを持つAdobe Admin Console組織にリンクされていることを確認してください。
+The **Credits** tab is visible only when Gen AI credits have been purchased or were historically active on the account. If the tab is not visible, verify that your account is linked to an Adobe Admin Console organization that has an active Agent Orchestrator license.
 
-### 世代AI機能テーブル
+### Gen AI Features table
 
-**Gen AI機能**&#x200B;の表には、アカウントで使用可能なすべてのAI機能が一覧表示されます。
+The **Gen AI Features** table lists every AI feature available on the account.
 
-| 列 | 説明 |
+| Column | Description |
 |---|---|
-| **機能名** | AI機能の名前。 名前を選択して、機能の設定ページに移動します。 |
-| **ステータス** | 機能がオンかオフかを示します。 機能を設定ページから切り替えます。 |
-| **最大クレジット使用数の制限** | 契約期間中に消費できる最大クレジット数。 この機能を有効にする前に設定する必要があります。 学習者向けの機能にのみ適用されます。 |
-| **使用済みクレジット** | 契約開始日以降にこの機能で消費されたクレジットの合計。リアルタイムで更新されます。 |
+| **Feature Name** | Name of the AI feature. Select the name to go to that feature's settings page. |
+| **Status** | Whether the feature is on or off. Toggle the feature from its settings page. |
+| **Max Credits Usage Limit** | Maximum credits this feature can consume during the contract period. Must be set before the feature can be enabled. Applies to learner-facing features only. |
+| **Credits Used** | Total credits consumed by this feature since the contract start date, updated in real time. |
 
-### Gen AI機能を有効にする
+### Enable a Gen AI feature
 
-1. **[!UICONTROL [クレジット]]**&#x200B;タブで、**AI機能の生成**&#x200B;テーブルで機能を見つけます。
-2. 「**クレジットの最大使用数**」列に、契約期間中にこの機能で消費できるクレジットの最大数を入力します。
-3. 機能名を選択して、**機能設定**&#x200B;ページに移動します。
-4. **機能設定**&#x200B;ページで、機能をオンに切り替えます。
-5. 学習者やカタログのAIアシスタントへの割り当てなど、追加の設定を完了します。
+1. On the **[!UICONTROL Credits]** tab, locate the feature in the **Gen AI Features** table.
+2. In the **Max Credits Usage Limit** column, enter the maximum number of credits this feature can consume during the contract period.
+3. Select the feature name to go to its **Feature Settings** page.
+4. On the **Feature Settings** page, toggle the feature on.
+5. Complete any additional configuration, such as assigning learners and catalogs to the AI Assistant.
 
-### クレジットがなくなった場合
+### What happens when credits run out
 
-- 機能が&#x200B;**クレジットの最大使用数**&#x200B;に達すると、その機能が一時的に利用できなくなるというメッセージが学習者に表示されます。 [クレジット]&#x200B;**タブから上限をいつでも上げることができます。**
-- アカウントの全体的なクレジット数が上限を超えた場合、追加のクレジットを購入するまで、すべてのGen AI機能が学習者に対して機能しなくなります。 使用状況レポートとクレジットメトリックは、管理者が引き続きアクセスできます。
-- 学習者がクレジットを使い果たしたときにインタラクションの途中だった場合、そのインタラクションは完了します。 それ以降のすべてのインタラクションはブロックされます。
-- 管理者は、購入したクレジット数よりも多いクレジット制限を設定できます。 過剰な割り当てが許可され、更新時に調整が行われる可能性があります。
+- If a feature reaches its **Max Credits Usage Limit**, learners see a message that the feature is temporarily unavailable. Raise the limit at any time from the **Credits** tab.
+- If overall account credits are exhausted, all Gen AI features stop working for learners until additional credits are purchased. Usage reports and credit metrics remain accessible to admins.
+- If a learner is mid-interaction when credits are exhausted, that interaction completes. All subsequent interactions are blocked.
+- Admins can set a credit limit higher than the number of purchased credits. Over-allocation is permitted, and a true-up can happen at renewal.
 
-### 月間クレジットの使用状況チャート
+### Monthly Credits Usage chart
 
-ジェネレーションAI機能の表の下にある&#x200B;**月間クレジット使用量**&#x200B;のグラフは、1機能あたり月単位の使用クレジット数を示します。 デフォルトでは、チャートにはAgent Orchestratorの契約開始日に基づいて現在の契約年度の期間が表示されます。 選択した期間の月次レポートをエクスポートするには、**[!UICONTROL ダウンロード]**&#x200B;を選択します。 レポートの生成は非同期です。ファイルの準備が整うと、アプリ内通知とメールが届きます。
+Below the Gen AI Features table, a **Monthly Credits Usage** chart shows credits consumed per feature per month. By default, the chart shows the current contract year period based on the Agent Orchestrator contract start date. Select **[!UICONTROL Download]** to export the monthly report for the selected period. Report generation is asynchronous — you receive an in-app notification and email when the file is ready.
 
-### Gen AI使用状況レポート
+### Gen AI usage reports
 
-Adobe Learning Managerは、**[!UICONTROL レポート]** > **[!UICONTROL AIレポート]**&#x200B;で2つのGen AI使用状況レポートを提供します。
+Adobe Learning Manager provides two Gen AI usage reports under **[!UICONTROL Reports]** > **[!UICONTROL AI Reports]**.
 
-**毎月のクレジット使用状況レポート**
+**Monthly credits usage report**
 
-1か月の機能単位の使用クレジット数を表示します。 予算計画および契約更新に便利です。
+Shows credits consumed per feature per month. Useful for budget planning and contract renewal.
 
-- **列：**&#x200B;か月 |機能 |クレジット使用済み
-- **フィルター：** 1つ以上の契約期間にまたがる日付範囲を選択します
-- **ダウンロード：**&#x200B;非同期 – ファイルの準備ができたら、アプリ内通知と電子メールが届きます
+- **Columns:** Month | Feature | Credits Used
+- **Filter:** Select a date range spanning one or more contract periods
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-**学習者Gen AIクレジット使用状況レポート**
+**Learner Gen AI credits usage report**
 
-どの学習者がどの機能を使用し、各インタラクションが消費したクレジット数を示す監査追跡。
+An audit trail showing which learners used which features and how many credits each interaction consumed.
 
-- **列：**&#x200B;日付 |学習者名 |学習者のメールアドレス |機能 |クレジット使用済み
-- **フィルター：**&#x200B;監査する日付範囲を選択します
-- **ダウンロード：**&#x200B;非同期 – ファイルの準備ができたら、アプリ内通知と電子メールが届きます
+- **Columns:** Date | Learner Name | Learner Email | Feature | Credits Used
+- **Filter:** Select the date range you want to audit
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-### クレジット使用状況のアラート
+### Credit usage alerts
 
-クレジット使用量がキーしきい値を超えると、Adobe Learning Managerは自動的に通知します。 通知は、アプリ内とメールの両方で配信されます。
+Adobe Learning Manager automatically notifies you when credit consumption crosses key thresholds. Notifications are delivered both in-app and by email.
 
-| トリガー | 通知 |
+| Trigger | Notification |
 |---|---|
-| アカウントクレジットが購入合計の90%に達する | 警告 – アカウントレベルでクレジットがほとんど使い果たされています。 |
-| アカウントクレジットが購入合計の100%に達する | 警告 – すべてのクレジットが消費され、学習者のGen AI機能は停止します。 |
-| 機能が個々の最大クレジット使用制限に達した場合 | 警告 – 特定の機能に名前を付けます。その機能は学習者に対して停止します。 |
+| Account credits reach 90% of total purchased | Warning — credits are nearly exhausted at the account level |
+| Account credits reach 100% of total purchased | Alert — all credits are consumed and Gen AI features stop for learners |
+| A feature reaches its individual Max Credits Usage Limit | Alert — names the specific feature; that feature stops for learners |
 
-90%の警告が表示された場合は、100%のしきい値に達する前に、Adobeアカウントチームに連絡して、追加のクレジットを購入してください。
+When you receive a 90% warning, contact your Adobe account team to purchase additional credits before the 100% threshold is reached.
+-->
 
 ## よくある質問 {#frequentlyaskedquestions}
 
@@ -421,15 +423,17 @@ Adobe Learning Managerは、**[!UICONTROL レポート]** > **[!UICONTROL AIレ�
 - `orders@fastspring.com`にFastSpringに請求書を要求する電子メールを送信します。
 
 
-## Gen AIクレジットに関する問題のトラブルシューティング
+<!--
+## Troubleshoot Gen AI credit issues
 
-| 問題 | 解決策 |
+| Issue | Solution |
 |---|---|
-| **[クレジット]タブが表示されていません** | Gen AIクレジットは購入されていないか、このアカウントに適用されていません。 Adobe Admin ConsoleでAgent Orchestratorのライセンスを確認し、組織が&#x200B;**[!UICONTROL 請求]** > **[!UICONTROL サブスクリプション]** > **アカウントの詳細**&#x200B;にリンクされていることを確認してください。 |
-| **IMS組織IDフィールドが空白です** | アカウントはまだリンクされていません。 **アカウントの詳細**&#x200B;カードで&#x200B;**[!UICONTROL IMS組織のリンク]**&#x200B;を選択し、上記のリンク手順に従います。 |
-| **リンクがエラーで失敗しました** | リンクしようとしているAdobe Learning ManagerとAdobe Admin Consoleの両方にAdministratorロールがあることを確認します。 リンクを確立するには、両方のチェックに合格する必要があります。 |
-| **アクティベーションキーを適用した後、[IMS組織ID]フィールドが空白です** | 自動リンクは、Adobeの標準注文フローを通じてアクティブ化されたアカウントに対してのみ行われます。 独立して設定されたアカウントの場合は、キーをアクティブにした後、上記の手動リンク手順を完了します。 |
-| **リンク解除後、Gen AI機能を使用できません** | リンクを解除すると、すべてのGen AI機能へのアクセスが削除され、「クレジット」タブが非表示になります。 アクティブなAgent Orchestratorライセンスを持つAdobe Admin Console組織にアカウントを再リンクして、アクセスを復元します。 |
+| **Credits tab is not visible** | Gen AI credits have not been purchased or applied to this account. Verify your Agent Orchestrator license in your Adobe Admin Console, then confirm an organization is linked under **[!UICONTROL Billing]** > **[!UICONTROL Subscription]** > **Account details**. |
+| **IMS Org ID field is blank** | Your account is not yet linked. Select **[!UICONTROL Link IMS Org]** in the **Account details** card and follow the linking steps above. |
+| **Linking fails with an error** | Confirm that you have the Administrator role in both Adobe Learning Manager and the Adobe Admin Console organization you are trying to link. Both checks must pass for the link to be established. |
+| **IMS Org ID field is blank after applying an activation key** | Automatic linking occurs only for accounts activated through Adobe's standard ordering flow. For independently set-up accounts, complete the manual linking steps above after activating the key. |
+| **After unlinking, Gen AI features are unavailable** | Unlinking removes access to all Gen AI features and hides the Credits tab. Re-link your account to an Adobe Admin Console organization with an active Agent Orchestrator license to restore access. |
+-->
 
 <!-- 
 # Manage Learning Manager orders and billing

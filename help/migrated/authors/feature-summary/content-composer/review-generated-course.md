@@ -2,9 +2,9 @@
 description: 生成後、コースエディタが自動的に開きます。 共有または公開する前に、すべてのコンテンツ、テキスト、画像、ナレッジチェック、クイズを確認してください。 AI出力は様々であり、作成者の確認が必要です。
 jcr-language: en_us
 title: 生成されたコースを確認します
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 生成されたコースを確認します
 
-    ![](../assets/11_course_view_generated_topic_content_updated.png)
+![](../assets/11_course_view_generated_topic_content_updated.png)
 
 Adobe Learning Manager Content Composerは、テキスト、画像、ナレッジチェック、クイズを含むフルコースを1回のパスで作成します。 生成が完了すると、**コース**&#x200B;エディターが自動的に開きます。
 

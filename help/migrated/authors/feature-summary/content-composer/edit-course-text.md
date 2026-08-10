@@ -2,9 +2,9 @@
 description: インライン書式設定ツールバーをアクティブにするには、任意のテキストエレメントを選択します。 本文、見出し、ラベルをカンバス上で直接編集できます。 見出しを選択するのではなく、アシスタントを使用してレッスンとトピックの名前を変更します。
 jcr-language: en_us
 title: コーステキストの編集
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # コーステキストの編集
 
-    ![](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
+![](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
 
 任意のテキストエレメントを選択して、カーソルをテキストエレメント内に配置します。 カンバスの下部に、太字、斜体、下線、取り消し線、リンク、整列、リストコントロールと共に書式ツールバーが表示されます。
 
