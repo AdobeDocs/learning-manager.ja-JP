@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager の注文および請求管理
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
+source-git-commit: b3212ae430cb5804a66c19a2e213dc9538e8cf5f
 workflow-type: tm+mt
-source-wordcount: '2660'
-ht-degree: 48%
+source-wordcount: '2473'
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 
 Learning Manager の請求の管理、クレジットカードを使用した注文、発注または月間アクティブユーザープランを使用したサブスクリプションの購入など。
 
-Adobe Learning Manager では、組織のニーズに応じて柔軟かつ手頃な最適価格モデルが提供されます。 詳細については、[Learning Manager &#x200B;](https://www.adobe.com/products/learningmanager.html) ページを参照してください。
+Adobe Learning Manager では、組織のニーズに応じて柔軟かつ手頃な最適価格モデルが提供されます。 詳細については、[Learning Manager ](https://www.adobe.com/products/learningmanager.html) ページを参照してください。
 
 請求を管理できるのは組織の管理者のみになります。
 
@@ -75,7 +75,7 @@ Agent Orchestratorライセンスがリンクされている場合、統計行�
 | **購入済み** | 契約期間中に購入されたGen AIクレジットの合計。 |
 | **使用済み** | このライセンスを使用するすべてのサービスで消費されるクレジット。 |
 | **ALMが使用** | Adobe Learning Managerが別途消費するクレジット |
-| 残り&#x200B;**&#x200B;** | クレジットは引き続き利用できます。 |
+| 残り&#x200B;**** | クレジットは引き続き利用できます。 |
 
 組織で親アカウントと子アカウントを使用している場合、親アカウントの&#x200B;**ライセンス**&#x200B;セクションには、**ピアアカウントによる使用済み**&#x200B;列が表示され、リンクされたすべての子アカウントのクレジットの使用状況が反映されます。 子アカウントの割り当ては、購入済みではなく&#x200B;**制裁済みのシート**&#x200B;として表示されます。
 
@@ -423,15 +423,17 @@ When you receive a 90% warning, contact your Adobe account team to purchase addi
 - `orders@fastspring.com`にFastSpringに請求書を要求する電子メールを送信します。
 
 
-## Gen AIクレジットに関する問題のトラブルシューティング
+<!--
+## Troubleshoot Gen AI credit issues
 
-| 問題 | 解決策 |
+| Issue | Solution |
 |---|---|
-| **[クレジット]タブが表示されていません** | Gen AIクレジットは購入されていないか、このアカウントに適用されていません。 Adobe Admin ConsoleでAgent Orchestratorのライセンスを確認し、組織が&#x200B;**[!UICONTROL 請求]** > **[!UICONTROL サブスクリプション]** > **アカウントの詳細**&#x200B;にリンクされていることを確認してください。 |
-| **IMS組織IDフィールドが空白です** | アカウントはまだリンクされていません。 **アカウントの詳細**&#x200B;カードで&#x200B;**[!UICONTROL IMS組織のリンク]**&#x200B;を選択し、上記のリンク手順に従います。 |
-| **リンクがエラーで失敗しました** | リンクしようとしているAdobe Learning ManagerとAdobe Admin Consoleの両方にAdministratorロールがあることを確認します。 リンクを確立するには、両方のチェックに合格する必要があります。 |
-| **アクティベーションキーを適用した後、[IMS組織ID]フィールドが空白です** | 自動リンクは、Adobeの標準注文フローを通じてアクティブ化されたアカウントに対してのみ行われます。 独立して設定されたアカウントの場合は、キーをアクティブにした後、上記の手動リンク手順を完了します。 |
-| **リンク解除後、Gen AI機能を使用できません** | リンクを解除すると、すべてのGen AI機能へのアクセスが削除され、「クレジット」タブが非表示になります。 アクティブなAgent Orchestratorライセンスを持つAdobe Admin Console組織にアカウントを再リンクして、アクセスを復元します。 |
+| **Credits tab is not visible** | Gen AI credits have not been purchased or applied to this account. Verify your Agent Orchestrator license in your Adobe Admin Console, then confirm an organization is linked under **[!UICONTROL Billing]** > **[!UICONTROL Subscription]** > **Account details**. |
+| **IMS Org ID field is blank** | Your account is not yet linked. Select **[!UICONTROL Link IMS Org]** in the **Account details** card and follow the linking steps above. |
+| **Linking fails with an error** | Confirm that you have the Administrator role in both Adobe Learning Manager and the Adobe Admin Console organization you are trying to link. Both checks must pass for the link to be established. |
+| **IMS Org ID field is blank after applying an activation key** | Automatic linking occurs only for accounts activated through Adobe's standard ordering flow. For independently set-up accounts, complete the manual linking steps above after activating the key. |
+| **After unlinking, Gen AI features are unavailable** | Unlinking removes access to all Gen AI features and hides the Credits tab. Re-link your account to an Adobe Admin Console organization with an active Agent Orchestrator license to restore access. |
+-->
 
 <!-- 
 # Manage Learning Manager orders and billing
