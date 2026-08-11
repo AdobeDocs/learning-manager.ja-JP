@@ -1,15 +1,15 @@
 ---
-title: Adobe Learning Managerでライブハブを有効にする
+title: Adobe Learning Managerでライブハブ（ベータ版）を有効にする
 description: 管理者がアカウントでライブハブを有効にし、デフォルトのバーチャルクラスルームプロバイダーとして設定し、AIを利用したライブハブアシスタントを有効にする方法について説明します。
-source-git-commit: 4f68cdabcfdd5980239652f1e8f7c63a12cb4509
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Learning Managerでライブハブを有効にする
+# Adobe Learning Managerでライブハブ（ベータ版）を有効にする
 
 管理者は、Adobe Learning ManagerアカウントでLive Hubを有効にし、ライブセッション中にAIを使用したアシスタントがインストラクターをサポートするように設定できます。 ライブハブを有効にすると、作成者は、ライブハブのバーチャルトレーニングツールを使用して、コース用のバーチャルクラスルームモジュールを作成および管理できます。
 

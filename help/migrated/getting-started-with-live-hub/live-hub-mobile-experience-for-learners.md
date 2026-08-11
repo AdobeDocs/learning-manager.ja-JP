@@ -1,15 +1,15 @@
 ---
-title: 学習者としてモバイルでライブハブを使用する
+title: 学習者としてモバイルでライブハブ（ベータ版）を使用する
 description: Adobe Learning Managerモバイルアプリの学習者が、セッションへの参加から退出までライブハブで利用できる機能について説明します。
-source-git-commit: 8d8b9e4c87f2d1ac476572929c9c66d0f709bd0d
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
 
 
-# 学習者としてモバイルでライブハブを使用する
+# 学習者としてモバイルでライブハブ（ベータ版）を使用する
 
 Adobe Learning Managerモバイルアプリを使用すると、iOSまたはAndroidデバイスからライブハブセッションに参加および参加できます。 セッション中、インストラクターや参加者との対話、投票やクイズへの応答、ブレイクアウトルームでの共同作業、モバイルデバイスからの共有コンテンツへの直接アクセスを行うことができます。
 

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 36%
   * [Live Hub （ベータ版）の概要](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 管理者 {#admin}
   * 学習（ベータ版）のAI {#ai-in-learning}
-    * [ライブハブを有効にする](./administrators/feature-summary/enable-live-hub.md)
+    * [ライブハブ（ベータ版）を有効にする](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Managerの管理者AIアシスタント（ベータ版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning ManagerのInsights Agent（ベータ版）](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [ユーザーログイン](administrators/feature-summary/user-login.md)
@@ -369,14 +369,14 @@ ht-degree: 36%
       * [セッションダッシュボードを表示](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [セッションダッシュボードのコンポーネント](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [ベストプラクティス](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [学習者としてモバイルでライブハブを使用する](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [学習者としてモバイルでライブハブ（ベータ版）を使用する](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * よくある質問 {#faq}
   * [管理者のよくある質問（FAQ）](administrators/frequently-asked-questions-for-administrators.md)
   * [作成者のよくある質問（FAQ）](authors/frequently-asked-questions-for-authors.md)
   * [インストラクターのよくある質問（FAQ）](instructors/frequently-asked-questions-for-instructors.md)
   * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
   * [学習者のよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
-  * [ライブハブセッションのよくある質問(FAQ)](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [ライブハブ（ベータ版）セッションのよくある質問](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新しいexperience leagueの発表](/help/migrated/new-experience-league-announcement.md)
   * [Experience League時にサポートチケットを提出する方法](/help/migrated/how-to-submit-support-ticket.md)
   * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)

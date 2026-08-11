@@ -1,9 +1,9 @@
 ---
 title: ライブハブレイアウトについて
 description: コントロールパネル、出席者パネル、チャットパネル、ブレイクアウトパネルなど、ライブハブセッションルームを構成するパネルとコントロールについて説明します。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
