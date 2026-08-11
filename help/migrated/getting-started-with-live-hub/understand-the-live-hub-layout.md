@@ -1,15 +1,15 @@
 ---
-title: ライブハブレイアウトについて
+title: ライブハブ（ベータ版）のレイアウトについて
 description: コントロールパネル、出席者パネル、チャットパネル、ブレイクアウトパネルなど、ライブハブセッションルームを構成するパネルとコントロールについて説明します。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# ライブハブレイアウトについて
+# ライブハブ（ベータ版）のレイアウトについて
 
 Adobe Learning Manager Live Hubのセッションルームは、ライブセッション中にインストラクターと学習者が効率的に共同作業できるように設計されています。 レイアウトには複数のパネルとコントロールが含まれており、オーディオ、ビデオ、参加者、インタラクションをリアルタイムで管理できます。
 

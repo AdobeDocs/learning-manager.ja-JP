@@ -1,9 +1,9 @@
 ---
-title: ライブハブでの参加前画面の設定
+title: ライブハブ（ベータ版）での参加前画面の設定
 description: Live Hubの事前参加画面の仕組み、ブラウザーのアクセス許可の許可方法、セッションに参加する前にオーディオとカメラのコントロールを設定する方法について説明します。
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---

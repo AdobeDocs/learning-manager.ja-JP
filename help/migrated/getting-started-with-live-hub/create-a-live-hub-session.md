@@ -1,15 +1,15 @@
 ---
-title: ライブハブセッションの作成
+title: ライブハブ（ベータ版）セッションの作成
 description: Live Hubコースの作成方法、コースインスタンスの追加方法、インストラクターファインダーを使用したインストラクターの割り当て方法、学習者の登録方法、ルームのブランディングのカスタマイズ方法について説明します。
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# ライブハブセッションの作成
+# ライブハブ（ベータ版）セッションの作成
 
 ライブハブを使用して、Adobe Learning Managerコース内でインストラクターによるライブトレーニングを実施します。 ライブハブセッションとセルフペースコンテンツを組み合わせて、ブレンドされた学習体験を作成できます。
 
@@ -138,9 +138,9 @@ ht-degree: 0%
 
 学習者は、次の2つの方法でライブハブコースに登録できます。
 
-1. **管理者**&#x200B;は、組織の要件に基づいて、学習者をコースに登録します。 詳細については、[コースインスタンスと学習パスの作成](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/courses)を参照してください。
+1. **管理者**&#x200B;は、組織の要件に基づいて、学習者をコースに登録します。 詳細については、[コースインスタンスと学習パスの作成](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses)を参照してください。
 
-1. 学習者は、**カタログ**&#x200B;ページからコースに直接登録できます。 コースがセルフ登録用に設定されている場合、学習者はすぐに登録され、**学習状況**&#x200B;からコースにアクセスできます。 詳細については、[学習状況](https://experienceleague.adobe.com/ja/docs/learning-manager/using/learner/courses)を参照してください。
+1. 学習者は、**カタログ**&#x200B;ページからコースに直接登録できます。 コースがセルフ登録用に設定されている場合、学習者はすぐに登録され、**学習状況**&#x200B;からコースにアクセスできます。 詳細については、[学習状況](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)を参照してください。
 
 登録後、学習者はコースに追加され、Adobe Learning Managerアカウントに通知を受け取ります。 アカウントの電子メール通知の設定によっては、学習者が電子メールでコースへの参加の招待を受け取る場合もあります。
 

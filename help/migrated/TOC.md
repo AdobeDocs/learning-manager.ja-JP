@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1653'
 ht-degree: 36%
 
 ---
@@ -388,7 +388,7 @@ ht-degree: 36%
 * 変更の報告 {#reporting-changes}
   * [2026年8月リリースのレポートの変更](/help/migrated/reporting-changes-august-2026.md)
 * ナレッジベース {#knowledge-base}
-  * [Live Hubのトラブルシューティングガイド](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Live Hub（ベータ版）のトラブルシューティングガイド](./kb/troubleshooting-guide-for-live-hub.md)
   * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
   * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
   * [CSV をアップロードできない](kb/unable-to-upload-csv.md)
