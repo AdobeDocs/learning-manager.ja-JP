@@ -138,9 +138,9 @@ ht-degree: 0%
 
 学習者は、次の2つの方法でライブハブコースに登録できます。
 
-1. **管理者**&#x200B;は、組織の要件に基づいて、学習者をコースに登録します。 詳細については、[コースインスタンスと学習パスの作成](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses)を参照してください。
+1. **管理者**&#x200B;は、組織の要件に基づいて、学習者をコースに登録します。 詳細については、[コースインスタンスと学習パスの作成](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/courses)を参照してください。
 
-1. 学習者は、**カタログ**&#x200B;ページからコースに直接登録できます。 コースがセルフ登録用に設定されている場合、学習者はすぐに登録され、**学習状況**&#x200B;からコースにアクセスできます。 詳細については、[学習状況](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)を参照してください。
+1. 学習者は、**カタログ**&#x200B;ページからコースに直接登録できます。 コースがセルフ登録用に設定されている場合、学習者はすぐに登録され、**学習状況**&#x200B;からコースにアクセスできます。 詳細については、[学習状況](https://experienceleague.adobe.com/ja/docs/learning-manager/using/learner/courses)を参照してください。
 
 登録後、学習者はコースに追加され、Adobe Learning Managerアカウントに通知を受け取ります。 アカウントの電子メール通知の設定によっては、学習者が電子メールでコースへの参加の招待を受け取る場合もあります。
 
