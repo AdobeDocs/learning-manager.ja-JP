@@ -1,15 +1,15 @@
 ---
-title: ライブハブに関するよくある質問
+title: ライブハブ（ベータ版）のよくある質問
 description: Adobe Learning Managerのライブハブに関するよくある質問です。管理者、作成者、インストラクター、学習者の役割別にまとめられています。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# Live Hubのよくある質問
+# Live Hub（ベータ版）のよくある質問
 
 <table>
  <tbody>

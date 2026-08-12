@@ -1,15 +1,15 @@
 ---
-title: ライブハブセッションの作成
+title: ライブハブ（ベータ版）セッションの作成
 description: Live Hubコースの作成方法、コースインスタンスの追加方法、インストラクターファインダーを使用したインストラクターの割り当て方法、学習者の登録方法、ルームのブランディングのカスタマイズ方法について説明します。
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# ライブハブセッションの作成
+# ライブハブ（ベータ版）セッションの作成
 
 ライブハブを使用して、Adobe Learning Managerコース内でインストラクターによるライブトレーニングを実施します。 ライブハブセッションとセルフペースコンテンツを組み合わせて、ブレンドされた学習体験を作成できます。
 
