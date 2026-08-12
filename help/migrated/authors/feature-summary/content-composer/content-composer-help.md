@@ -2,7 +2,7 @@
 title: Adobe Learning Manager Content Composer (Beta)ヘルプ
 description: 平易な言葉のプロンプトからパブリッシュ済みのコースまで、Adobe Learning Manager Content Composerがインストラクションデザインを処理するので、影響力の大きいインストラクションコンテンツを作成して、学習者のニーズに集中できます。
 contentowner: saghosh
-source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
+source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >ベータ版の機能には不具合が含まれている場合があり、いかなる種類の保証も付けずに「現状のまま」提供されます。 Adobeは、ベータ版機能の一般提供の有無について独自の判断を行います。 Adobeは、（Adobeサポートサービスまたはその他の方法による）ベータ版機能を維持、修正、更新、変更、またはその他の方法でサポートする義務を負いません。 ベータ版の機能が一般に公開された場合は、適用される料金を含め、追加の利用条件が適用される場合があります。 ベータ版の機能は、提供の終了を含め、予告なく変更される場合があります。 お客様には、ベータ版機能の中断またはエラーのない機能やパフォーマンスに注意して使用し、いかなる方法でも信頼しないことを推奨します。 したがって、ベータ版機能の使用は、完全にお客様自身の責任で行うものとします。 製品機能および関連ドキュメントは、機能の進化に伴って変更される場合があります。 このドキュメントは、現在のベータ版のエクスペリエンスを反映しているため、最終的な製品ドキュメントまたは完全な製品ドキュメントと見なすことはできません。
 
-**数分でコンセプトからコースへ**
+## 数分でコンセプトからコースへ
 
 Adobe Learning Manager Content Composerは、わかりやすい言語のプロンプトを、構造化された公開可能なコース（レッスン、評価、メディアを含む）に変換するAIコースオーサリングツールです。インストラクションデザインの経験は必要ありません。
 
@@ -34,14 +34,13 @@ Content Composerは、トレーニングの目標、ソース資料、学習目�
 
 >[!IMPORTANT]
 >
->有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/jp/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+>有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
 
-
-## コンテンツコンポーザーを試す {#trycontent-composer}
+## コンテンツコンポーザーを試す
 
 最初のコースを作成する準備はできましたか？ コンテンツコンポーザーを開き、プレーンランゲージのプロンプトからパブリッシュ対応コースにすばやく移行できます。
 
-[**コンテンツコンポーザーを試す**](https://contentcomposer.adobe.io/)
+**[コンテンツコンポーザーを試す→](https://contentcomposer.adobe.io/)**
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
