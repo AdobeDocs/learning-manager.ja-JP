@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta)ヘルプ
 description: 平易な言葉のプロンプトからパブリッシュ済みのコースまで、Adobe Learning Manager Content Composerがインストラクションデザインを処理するので、影響力の大きいインストラクションコンテンツを作成して、学習者のニーズに集中できます。
 contentowner: saghosh
-source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
+source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Content Composerは、トレーニングの目標、ソース資料、学習目�
 
 >[!IMPORTANT]
 >
->有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/jp/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+>有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+
+>[!NOTE]
+>
+>コンテンツコンポーザーで最適なエクスペリエンスを実現するために、Google Chromeの使用をお勧めします。 FirefoxとSafariでは、機能や動作が異なる場合があります。
 
 ## コンテンツコンポーザーを試す
 
