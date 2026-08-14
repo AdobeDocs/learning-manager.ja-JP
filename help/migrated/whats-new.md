@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2026年8月リリースの新機能と強�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
+source-git-commit: f5a988186fdc44d64389ad850af57bde10b728e9
 workflow-type: tm+mt
-source-wordcount: '2673'
+source-wordcount: '2647'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Gradebookでは、次の2つの完了モデルをサポートしています。
 
 採点不可能なモジュールタイプ、PDFファイル、ビデオファイル、オーディオファイル、PowerPointプレゼンテーション、Word文書、Excelファイル、およびHTMLコンテンツは、加重比率を割り当てることができず、集計スコアに含まれません。 コースの完了には、これらのモジュールが引き続き必要になる場合があります。 「最終成績に寄与しないモジュールを含める」オプションが有効な場合、それらのモジュールは加重値なしで成績表に表示されます。
 
-詳細については、[作成者用の成績表](/help/migrated/authors/feature-summary/alm-author-gradebook.md)を参照してください。
+[作成者用の成績表](/help/migrated/authors/feature-summary/alm-author-gradebook.md)の詳細をご覧ください。
 
 ## 階層コンテンツフォルダー
 
@@ -66,9 +66,9 @@ Gradebookでは、次の2つの完了モデルをサポートしています。
 * パブリックフォルダーとプライベートフォルダーの構造を同時に使用することはできません
 * コースオーサリングでモジュールを選択する際のフォルダーの参照エクスペリエンス
 
-管理者レベルの機能の詳細については、[階層コンテンツフォルダー](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)を参照してください。 作成者レベルの機能の詳細については、[階層コンテンツフォルダー](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)を参照してください。
+[階層コンテンツフォルダー – 管理者レベルの機能](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)の詳細をご覧ください。 [階層構造コンテンツフォルダー – 作成者レベルの機能](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)の詳細をご覧ください。
 
-別のプラットフォームからAdobe Learning Managerに学習コンテンツを移行するときに、既存のフォルダー構成を保持するには、CSVファイルを使用して階層構造のフォルダー構造を作成し、コンテンツファイルを適切なフォルダーに関連付けます。 [コンテンツフォルダー階層の移行](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)での移行に関する詳細情報
+別のプラットフォームからAdobe Learning Managerに学習コンテンツを移行するときに、既存のフォルダー構成を保持するには、CSVファイルを使用して階層構造のフォルダー構造を作成し、コンテンツファイルを適切なフォルダーに関連付けます。 [コンテンツフォルダー階層の移行](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)での移行に関する詳細をご覧ください。
 
 ## ライブハブ（ベータ版）
 
@@ -82,7 +82,7 @@ Live Hubは、Adobe Learning Manager内のAIを活用したバーチャルトレ
 * 実際の学習参加を明らかにするために、参加度を超えるエンゲージメント分析で重要な要素を測定します。
 * 作成者がAIを活用したインストラクターファインダーを使用して、スキル、利用可能な状況、希望する時間、タイムゾーン、現在の使用状況に応じて、適切なインストラクターと一致するように支援します。
 
-詳細については、[Live Hubの概要](./getting-started-with-live-hub/getting-started-live-hub.md)を参照してください。
+[Live Hubの概要](./getting-started-with-live-hub/getting-started-live-hub.md)に関する詳細情報をご覧ください。
 
 ## Adobe Learning Manager Content Composer (Beta)
 
@@ -97,7 +97,7 @@ Adobe Learning Managerにコンテンツコンポーザーが追加されまし�
 * パブリッシュ前に完了条件、成功条件、クイズ設定、SCORMバージョンを設定できます。
 * その他
 
-詳細については、[Adobe Learning Managerコンテンツコンポーザー](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)をご覧ください。
+[Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)の詳細情報。
 
 
 ## コンポーネントベースの電子メールテンプレートビルダー
@@ -113,7 +113,7 @@ Adobe Learning Managerにコンテンツコンポーザーが追加されまし�
 * 公開前のプレビューとテスト送信
 * 下位互換性：既存の電子メールテンプレートは引き続き機能します。
 
-詳細については、[コンポーネントベースの電子メールビルダー](/help/migrated/administrators/feature-summary/email-builder.md)をご覧ください。
+[コンポーネントベースの電子メールビルダー](/help/migrated/administrators/feature-summary/email-builder.md)の詳細情報。
 
 ## 社外学習のサポート
 
@@ -128,7 +128,7 @@ Adobe Learning Managerにコンテンツコンポーザーが追加されまし�
 * 管理者および学習者のトランスクリプトの新しい列：外部学習名、完了コメント、カスタムフィールド列
 * APIサポート：サブミッションを作成、取得、および更新するための、学習者をスコープとする5つの新しいエンドポイント
 
-管理者レベルの詳細については、[社外学習サポート](/help/migrated/administrators/feature-summary/settings/basic-settings.md)をご覧ください。 マネージャーレベルの詳細については、[外部学習サポート](/help/migrated/managers/feature-summary/review-external-learning-requests.md)をご覧ください。 学習者レベルの詳細については、[社外学習サポート](/help/migrated/learners/feature-summary/submit-external-learning.md)を参照してください。
+[社外学習サポート – 管理者レベルの機能](/help/migrated/administrators/feature-summary/settings/basic-settings.md)について詳しく説明します。 [社外学習サポート – マネージャーレベルの機能](/help/migrated/managers/feature-summary/review-external-learning-requests.md)について詳しく説明します。 [社外学習サポート – 学習者レベルの機能](/help/migrated/learners/feature-summary/submit-external-learning.md)について詳しく説明します。
 
 ## AI機能
 
@@ -141,7 +141,7 @@ Adobe Learning Managerにコンテンツコンポーザーが追加されまし�
 * **Adobe Experience Leagueの回答** :アシスタントは、Adobe Learning Managerヘルプドキュメントから使い方に関する質問に対する回答を得られるようになりました
 * **サードパーティのコンテンツクエリ**: Go1およびLinkedIn Learningカタログのコンテンツをクエリできます（メタデータのみ、英語のみ、取り込みはカタログ追加後1 ～ 2時間かかります）
 
-詳細については、[学習者向けAIアシスタント](/help/migrated/learners/feature-summary/learner-ai-assistant.md)を参照してください。
+[学習者向けAIアシスタント](/help/migrated/learners/feature-summary/learner-ai-assistant.md)の詳細をご覧ください。
 
 ### 学習パスエージェント
 
@@ -155,13 +155,13 @@ Adobe Learning Managerにコンテンツコンポーザーが追加されまし�
 * 学習者ホームページに最大10個のパーソナライズされた学習パスが表示されます
 * 完了したパスは、同僚と共有できます
 
-詳細については、[学習パスエージェント](/help/migrated/learners/feature-summary/learning-path-agent.md)を参照してください。
+[学習パスエージェント](/help/migrated/learners/feature-summary/learning-path-agent.md)の詳細をご覧ください。
 
 ### インサイトエージェント
 
 Insights Agentは、管理者が自然言語クエリを使用して学習データを分析するのに役立ちます。 登録トレンド、完了率、学習者のエンゲージメント、スキルギャップに関する質問を行います。 エージェントは、応答としてレポートとビジュアライゼーションを生成します。
 
-詳細については、[インサイトエージェント](/help/migrated/administrators/feature-summary/insights-agent.md)をご覧ください。
+詳細については、[インサイトエージェント](/help/migrated/administrators/feature-summary/insights-agent.md)の詳細情報をご覧ください。
 
 <!--
 ### Gen AI credits
@@ -175,7 +175,7 @@ View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-mana
 
 チャンネルを使用すると、WebページやConfluenceページのビデオコンテンツを一元的に整理、公開、検索できます。 管理者は、サポートされているWebページやConfluenceページに接続してチャンネルを作成および管理したり、チャンネル設定を構成したり、可視性を制御したり、ソースからコンテンツを同期したりできます。 学習者は、利用可能なチャンネルを参照したり、関心のあるチャンネルをサブスクライブしたり、キュレートされたビデオコンテンツを1つの場所から見たりすることができます。
 
-詳細については、[チャネルの作成](/help/migrated/administrators/feature-summary/create-channels.md)を参照してください。
+[チャネルの作成](/help/migrated/administrators/feature-summary/create-channels.md)に関する詳細をご覧ください。
 
 ## レポートビルダー
 
@@ -183,7 +183,7 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 レポートは1回作成され、繰り返し使用できるように保存されます。 ダウンロードのたびに、フィルタの再構築、グループ化の再適用、データセットの再結合を行う必要はありません。 保存したレポートは、オンデマンドでダウンロードしたり、他の管理者と共有したり、受信者が定期的に更新されたレポートを自動的に受信できるようにサブスクリプションを設定したりできます。
 
-詳細については、[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)をご覧ください。
+[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)の詳細をご覧ください。
 
 ## カスタムの役割の変更
 
@@ -200,7 +200,7 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 **手動で作成されたロールのみ**：拡張されたカスタムロール管理機能は、Adobe Learning Manager管理者インターフェイスを通じて作成されたロールにのみ適用されます。 CSVアップロードで読み込まれたロールはサポートされていません。
 
-カスタム役割の変更の詳細をご覧ください。 詳細については、[ユーザーの高度なアクセス許可でロック解除される内容](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)を参照してください
+カスタムの役割の変更の詳細については、[ユーザーの高度なアクセス許可でロックを解除できるもの](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)を参照してください。
 
 ## LTIディープリンク
 
@@ -208,33 +208,33 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 有効にすると、作成者には外部LMSアクティビティ構成に「**コンテンツの選択**」ボタンが表示されます。 承認済みのカタログを参照したり、コースを選択したり、選択内容を確認したりすることができます。また、すべてのフィールドが自動的に入力されます。
 
-詳細については、[LTIのディープリンク](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)を参照してください。
+[LTIディープリンク](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)の詳細をご覧ください。
 
 ## 教室の場所
 
 教室の場所では、構造化された&#x200B;**4つのフィールドの場所形式**&#x200B;がサポートされるようになりました。これには、国、州/州/地域、市区町村、場所名が含まれ、リージョン間のトレーニング場所を簡単に管理および整理できます。 このアップデートには、従来の単一フィールド形式からの1回限りの移行が含まれ、**場所名**&#x200B;と&#x200B;**場所情報**&#x200B;のフィールドに対する多言語サポートが追加され、学習者に対してローカライズされた教室の詳細が可能になります。
 
-詳細については、[教室の場所](/help/migrated/administrators/feature-summary/classroom.md)を参照してください。
+[教室の場所](/help/migrated/administrators/feature-summary/classroom.md)に関する詳細情報。
 
 ## リリースの変更のレポート
 
-詳細については、[Adobe Learning Managerの2026年8月リリースの変更報告](/help/migrated/reporting-changes-august-2026.md)を参照してください。
+[Adobe Learning Managerの2026年8月リリースの変更報告](/help/migrated/reporting-changes-august-2026.md)について説明します。
 
 ## リリースでのAPIの変更
 
-詳しくは、[Adobe Learning Managerの2026年8月リリースのAPIの変更](/help/migrated/api-changes-august-2026.md)を参照してください。
+[Adobe Learning Managerの2026年8月リリースのAPIの変更点](/help/migrated/api-changes-august-2026.md)について説明します。
 
 ## このリリースのその他の機能強化
 
 | 機能強化 | 概要 |
 |---|---|
-| **MQA：最新スコアと最高スコア** | 試行が複数あるモジュールの場合、作成者は、最新または最高試行スコアを学習者トランスクリプトに記録し、成績表の計算に使用するかどうかを選択できるようになりました。 「最新バージョン」は既存のデフォルトであり、設定が構成されていない場合はそのままです。 詳細については、[作成者向けGradebook](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)を参照してください。 |
-| **コンテンツライブラリのコンテンツプレビュー** | 作成者は、アップロードしたコンテンツファイルを、コースに追加する前に、コンテンツライブラリで直接プレビューできるようになりました。 詳細については、[コンテンツライブラリのプレビュー](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)を参照してください。 |
-| **増分ユーザーレポート** | 新しいAPIベースのユーザーレポートでは、前回のリクエスト以降に作成または変更されたユーザーのみが返され、自動ユーザー同期ワークフローを使用して、大きなアカウントのデータ転送が削減されます。 詳細については、[増分ユーザーレポート](/help/migrated/incremental-user-report.md)を参照してください。 |
-| **Fluidicプレーヤーの11の新しい言語** | Fluidicプレーヤーは、右から左に表記される(RTL)スクリプトのサポートを含め、11の追加言語をサポートするようになりました。 詳細については、[Fluidicプレーヤー](/help/migrated/learners/feature-summary/fluidic-player.md)を参照してください。 |
-| **LTIモジュールの移行** | 移行ツールを使用して、既存のLTI 1.1モジュールをLTI 1.3に移行できるようになりました。 詳細については、[モジュールのLTI移行](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)を参照してください。 |
-| **電子メールビルダー：リッチテキストエディターのサポート** | Adobe Learning Managerの電子メールテンプレートが、リッチテキスト書式設定、添付ファイル、およびカスタム自動化をサポートするようになりました。 詳細については、[Email Builder](/help/migrated/administrators/feature-summary/email-builder.md)を参照してください。 |
-| **Email Builder:プレビュー機能** | 「プレビュー」オプションを使用すると、作成した電子メールをチェックして、受信者の最後がどのように表示されるかを確認できます。 詳細については、[Email Builder](/help/migrated/administrators/feature-summary/email-builder.md)を参照してください。 |
+| **MQA：最新スコアと最高スコア** | 試行が複数あるモジュールの場合、作成者は、最新または最高試行スコアを学習者トランスクリプトに記録し、成績表の計算に使用するかどうかを選択できるようになりました。 「最新バージョン」は既存のデフォルトであり、設定が構成されていない場合はそのままです。 詳細については、[著者のための成績表](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)の詳細をご覧ください。 |
+| **コンテンツライブラリのコンテンツプレビュー** | 作成者は、アップロードしたコンテンツファイルを、コースに追加する前に、コンテンツライブラリで直接プレビューできるようになりました。 [コンテンツライブラリのプレビュー](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)に関する詳細をご覧ください。 |
+| **増分ユーザーレポート** | 新しいAPIベースのユーザーレポートでは、前回のリクエスト以降に作成または変更されたユーザーのみが返され、自動ユーザー同期ワークフローを使用して、大きなアカウントのデータ転送が削減されます。 [増分ユーザーレポート](/help/migrated/incremental-user-report.md)の詳細をご覧ください。 |
+| **Fluidicプレーヤーの11の新しい言語** | Fluidicプレーヤーは、右から左に表記される(RTL)スクリプトのサポートを含め、11の追加言語をサポートするようになりました。 [Fluidicプレーヤー](/help/migrated/learners/feature-summary/fluidic-player.md)の詳細をご覧ください。 |
+| **LTIモジュールの移行** | 移行ツールを使用して、既存のLTI 1.1モジュールをLTI 1.3に移行できるようになりました。 [モジュールのLTI移行](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)の詳細をご覧ください。 |
+| **電子メールビルダー：リッチテキストエディターのサポート** | Adobe Learning Managerの電子メールテンプレートが、リッチテキスト書式設定、添付ファイル、およびカスタム自動化をサポートするようになりました。 [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md)の詳細情報。 |
+| **Email Builder:プレビュー機能** | 「プレビュー」オプションを使用すると、作成した電子メールをチェックして、受信者の最後がどのように表示されるかを確認できます。 [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md)の詳細情報。 |
 | **Webhookタイムスタンプの標準化** | Webhookペイロードの`data`オブジェクト内のすべての日時フィールドで、`00`に設定された秒が、学習者のトランスクリプトレポートと一致する、分レベルの精度を提供するようになりました。 |
 | **Connectの機能強化** | Azure Data Lake Storage (ADLS)コネクタの更新、定期的なバーチャルクラスルームセッションの永続的なルーム名のサポート、記録ビューベースの出席追跡。 |
 | **プレーヤーのパフォーマンスの向上** | Fluidicコースプレーヤーは、ロード時間を短縮し、モジュール間の移行をスムーズにするために最適化されました。 |
@@ -250,7 +250,7 @@ Report Builderは、Adobe Learning Managerの他の地域で利用可能な固�
 
 ## 必要システム構成
 
-詳しくは、[Adobe Learning Managerの必要システム構成](/help/migrated/system-requirements.md)を参照してください。
+[Adobe Learning Managerの必要システム構成](/help/migrated/system-requirements.md)の詳細をご覧ください。
 
 ## リリースノート
 
