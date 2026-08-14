@@ -1,9 +1,9 @@
 ---
 title: ライブハブ（ベータ版）のよくある質問
 description: Adobe Learning Managerのライブハブに関するよくある質問です。管理者、作成者、インストラクター、学習者の役割別にまとめられています。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-Live Hubには、管理者、作成者、インストラクター、学習者の役割が含まれ、それぞれがトレーニングワークフローの異なる部分を担当します。 このドキュメントでは、元のLive Hub FAQコンテンツを役割ごとに再編成しているため、各対象者は最も関連性の高い質問をすばやく見つけることができます。
+Live Hubには、管理者、作成者、インストラクター、学習者の役割が含まれ、それぞれがトレーニングワークフローの異なる部分を担当します。 このドキュメントでは、Live Hubに関するFAQが役割ごとに整理されているため、各対象者が最も関連性の高い質問をすばやく見つけることができます。
 
 ## 管理者
 
