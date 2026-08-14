@@ -1,7 +1,7 @@
 ---
 title: 学習者としてモバイルでライブハブ（ベータ版）を使用する
 description: Adobe Learning Managerモバイルアプリの学習者が、セッションへの参加から退出までライブハブで利用できる機能について説明します。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
