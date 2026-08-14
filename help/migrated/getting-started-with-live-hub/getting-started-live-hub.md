@@ -1,9 +1,9 @@
 ---
 title: Live Hub （ベータ版）の概要
 description: Adobe Learning Managerのライブハブを使用して、インストラクターによるライブトレーニングセッションをプラットフォーム内で直接提供する方法について説明します。
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Live Hubでは、コースの提供、共同作業、エンゲージメント、
 
 | **ステージ** | **主なアクティビティ** |
 |---|---|
-| **プレセッション** | 管理者は、[必要システム構成](./system-requirements-for-live-hub.md)を満たしていることを確認し、アカウントに対して[Live Hub](../administrators/feature-summary/enable-live-hub.md)を有効にします。 また、学習者をコースに登録することもできます。 作成者[がLive Hubコース](create-a-live-hub-session.md)を作成し、インストラクターが次のセッションの[レイアウト](./understand-the-live-hub-layout.md)、コンテンツ、およびインタラクティブなアクティビティを設定して、会議室を準備します。 |
+| **プレセッション** | 管理者は、[必要システム構成](./system-requirements-for-live-hub.md)を満たしていることを確認し、アカウントに対して[Live Hub](../administrators/feature-summary/enable-live-hub.md)を有効にします。 作成者[がLive Hubコースを作成](create-a-live-hub-session.md)します。学習者はコースにセルフ登録することも、管理者が登録することもできます。 インストラクターは、次のセッションに向けて[レイアウト](./understand-the-live-hub-layout.md)、コンテンツ、インタラクティブなアクティビティを設定して、会議室を準備します。 |
 | **セッション中** | インストラクターはライブセッションを実施し、[チャット](about-the-chat-panel.md)、[ポーリング](./about-the-polls.md)、[クイズ](./about-the-quiz.md)、[ホワイトボード](./about-the-whiteboard.md)、[スクリーン共有](./about-the-screen-sharing.md)、[ブレイクアウトルーム](./about-the-breakouts.md)などの機能を使用して学習者を引き付けます。 学習者はセッションを通じてこれらのアクティビティに参加します。 インストラクターは、[セッションの記録](./record-a-session.md)を行って、学習者が後で表示できるようにすることができます。 |
 | **セッション後** | インストラクターは、セッションの録画、出席レポート、および[エンゲージメント分析](./view-the-session-dashboard.md)をレビューして、学習者の参加を評価し、セッションの有効性を評価します。 学習者は、[トピックベースの記録](./view-recordings-as-a-learner.md)ビューを通じてセッションに再度アクセスできます。このビューでは、記録内容をナビゲート可能なトピックに分割し、各トピックにタイトル、概要、メモを表示するので、学習者は視聴する代わりに任意のトピックにジャンプしたり、読んだりできます。 |
 
