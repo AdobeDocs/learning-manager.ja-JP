@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -359,12 +359,12 @@ ht-degree: 36%
       * [ブレイクアウトセッションに参加する](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
     * クローズドキャプション {#closed-captions}
       * [クローズドキャプションについて](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-      * [インストラクターとしてクローズドキャプションを管理する](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [インストラクターとしてクローズドキャプションを管理](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
       * [学習者としてクローズドキャプションを管理](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
     * 録音と文字起こし{#recordings-and-transcripts}
       * [録音と文字起こしについて](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [セッションの記録](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [学習者として記録を表示する](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [学習者としてのセッション記録の表示](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * セッションダッシュボード {#session-dashboard}
       * [セッションダッシュボードを表示](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [セッションダッシュボードのコンポーネント](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
