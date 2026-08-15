@@ -1,10 +1,10 @@
 ---
-description: プレビューでは、適用されたテーマ、インタラクティブなコンポーネントがアクティブ、クイズが解答モードで、学習者の実際のコースを正確に表示できます。 これを使用して、公開前にコンテンツとインタラクションを確認します。
+description: 適用されたテーマ、コンポーネント、クイズがアクティブな状態で、学習者に対してコンテンツコンポーザーのコースを正確にプレビューする方法を説明します。
 jcr-language: en_us
 title: コースのプレビュー
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

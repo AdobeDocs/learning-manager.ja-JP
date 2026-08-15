@@ -1,10 +1,10 @@
 ---
-description: コンテンツコンポーザー、コースで取り上げる内容の一般的な概念、およびオプションで組織固有のコンテンツでAIを活用するソースドキュメントを試すには、Creative Cloudサブスクリプションを通じてアクセスする必要があります。
+description: Content Composerを始める前に必要な情報（Creative Cloudアカウント、Google Chrome、AIをガイドするオプションのソース文書）について説明します。
 jcr-language: en_us
 title: 始める前に必要なもの
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Adobe Learning Manager Content Composerを起動する前に、以下を確認�
 
 >[!IMPORTANT]
 >
->有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/jp/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+>有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
 
 コンテンツコンポーザーを快適にご利用いただくために、**Google Chromeブラウザーをおすすめします**。 FirefoxとSafariで機能や動作に違いが見られる場合があります。
 

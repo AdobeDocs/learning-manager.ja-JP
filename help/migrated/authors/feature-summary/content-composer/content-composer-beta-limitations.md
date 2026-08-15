@@ -1,10 +1,10 @@
 ---
-description: アウトラインの編集、評価の種類、テーマのカスタマイズ、共同作業に関する制限など、Content Composerのベータ版に関する現在の制限事項と、それぞれに利用可能な回避策およびロードマップのステータスを確認します。
+description: Content Composerのベータ版の制限事項（会話のみの編集、MCQ/True-Falseのみのクイズ、固定されたアウトライン）と、それぞれの回避策を確認してください。
 jcr-language: en_us
 title: Content Composerベータ版の制限
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

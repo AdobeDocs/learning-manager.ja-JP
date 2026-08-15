@@ -1,10 +1,10 @@
 ---
-description: 生成後、コースエディタが自動的に開きます。 共有または公開する前に、すべてのコンテンツ、テキスト、画像、ナレッジチェック、クイズを確認してください。 AI出力は様々であり、作成者の確認が必要です。
+description: AI出力はコンテンツコンポーザーのコースエディターで異なる場合があるため、AIが生成したコースコンテンツを共有または公開する前にレビューする方法について説明します。
 jcr-language: en_us
 title: 生成されたコースを確認します
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

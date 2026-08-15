@@ -1,10 +1,10 @@
 ---
-description: 完了条件を設定するタイミング、検出可能なモジュールの名前の付け方、コースの更新間のバージョン管理の方法など、Content ComposerをAdobe Learning Managerに接続するためのベストプラクティスを確認します。
+description: Content Composerでコースを生成するためのベストプラクティス – 学習目標の記述、アウトラインの確認、AI出力の制限、コンポーネントの使用など。
 jcr-language: en_us
 title: Content ComposerからALMへのパブリッシュに関するベストプラクティス
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

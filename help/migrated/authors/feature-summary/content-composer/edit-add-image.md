@@ -1,10 +1,10 @@
 ---
-description: 任意の画像を選択して、サイズ、明るさ、彩度、透明度を調整します。 アップロードしたファイル、Adobe Stockアセット、またはAIで生成した画像をプレーンテキストで説明したファイルに置き換えます。
+description: サイズ、明るさ、彩度を調整したり、アップロード、Adobe Stock、AIで置き換えたりするなど、コンテンツコンポーザーで画像を編集する方法について説明します。
 jcr-language: en_us
 title: 画像の編集または追加
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: コンポーネントピッカーを使用して、既存の要素、段落、画像、ビデオ、フリップカード、アコーディオン、タイムライン、タブ、カルーセル、MCQ、およびTrue/Falseの間にインタラクティブブロックおよびメディアブロックを挿入します。
+description: 段落、画像、ビデオ、フリップカード、アコーディオン、タイムライン、タブ、カルーセル、MCQ & True/Falseのコンテンツコンポーザーにコンテンツブロックを追加する方法について説明します。
 jcr-language: en_us
 title: コンテンツコンポーネントの追加
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

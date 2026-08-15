@@ -1,10 +1,10 @@
 ---
-description: Content ComposerをAdobe Learning Managerに接続し、パブリッシュの詳細を設定し、完成したコースをモジュールとして直接ALMコンテンツライブラリにデプロイする方法を説明します。この際、SCORMを手動で書き出す必要はありません。
+description: Content ComposerをAdobe Learning Managerに接続する方法、パブリッシュの詳細を設定する方法、ALMコンテンツライブラリにコースをデプロイする方法について説明します。
 jcr-language: en_us
 title: Adobe Learning Managerに接続して公開する
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    - 「**許可**」を選択してログインし、コースをALMアカウントに接続します。
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
-   - 承認されたら、**切断**&#x200B;から&#x200B;**接続済み**&#x200B;までの&#x200B;**ステータス**&#x200B;フィールドの更新を確認します。
+   - 承認されたら、**切断**&#x200B;から&#x200B;**接続済み**&#x200B;までの&#x200B;**ステータス**フィールドの更新を確認します。
      ![](../assets/33_alm_connection_connected_status_updated.png)
 
 ## Adobe Learning Manager公開の詳細

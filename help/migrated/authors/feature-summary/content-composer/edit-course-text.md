@@ -1,10 +1,10 @@
 ---
-description: インライン書式設定ツールバーをアクティブにするには、任意のテキストエレメントを選択します。 本文、見出し、ラベルをカンバス上で直接編集できます。 見出しを選択するのではなく、アシスタントを使用してレッスンとトピックの名前を変更します。
+description: インライン書式設定ツールバーを使用してコンテンツコンポーザーでコーステキストを編集する方法、およびアシスタントを使用してレッスンやトピックの名前を変更する方法について説明します。
 jcr-language: en_us
 title: コーステキストの編集
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
