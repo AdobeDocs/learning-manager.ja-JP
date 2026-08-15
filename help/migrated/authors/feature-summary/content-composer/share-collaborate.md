@@ -2,9 +2,9 @@
 description: Content Composerコースを共有して同僚とレビューを行う方法、または学習者と直接レビューを行う方法について説明します。 2つの共有フロー、アクセス制御、および追跡の影響の違いを理解します。
 jcr-language: en_us
 title: コンテンツコンポーザーコースの共有と共同作業
-source-git-commit: 778047d380c87347918a05175c55315c11861751
+source-git-commit: c2e76c6c3e343b571c257c6287eaa1c6b6342e84
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -12,22 +12,30 @@ ht-degree: 0%
 
 # コンテンツコンポーザーコースの共有と共同作業
 
-Content Composerを使用すると、コースをレビュー担当者や学習者に配布し、オーサリングプロセス全体を通じてチームと共同作業を行うことができます。これらはすべて、アプリを終了せずに行うことができます。
+>[!AVAILABILITY]
+>
+>間もなくサービス開始
 
 パブリッシュする前に、コースをレビュー担当者に送信してフィードバックを求めることができます。 レビュー担当者は、ブラウザーで共有リンクを開き、任意のコースコンポーネントにコメントを追加し、クイズを試行して学習者のエクスペリエンス全体をプレビューします。 作成者は、レビュー用URLを変更することなく、アクセスの制御、フィードバックの収集、コースの更新を行うことができます。 必要に応じて、フィードバックへの対応、コースの更新、追加のレビューサイクルの開始を行うことができます。
 
-コースの準備が整ったら、学習者がコースを直接使用できるようにしたり、登録、トラッキング、レポート用にコースをAdobe Learning Managerに公開したりできます。
+<!--
+Content Composer lets you distribute your course to reviewers and learners, and collaborate with your team throughout the authoring process, all without leaving the app.  
 
-プロセス全体を通して、コメントとメンションは全員の整列を保つのに役立ちます。 共同作業者は、@mentionsを使用して、チームメイトにタグを付けたり、質問したり、コースの特定の部分について話し合ったりすることで、フィードバックが状況に応じて、表示され、実用的なままであることを確認できます。
+Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
 
-Adobe Learning Manager Content Composerには2つの共有モードがあり、上部のツールバーの「**共有**」ボタンからアクセスできます。
+Once the course is ready, you can make it available to learners directly or publish it to Adobe Learning Manager for enrollment, tracking, and reporting.  
 
-コンテンツコンポーザーで、ツールバーの&#x200B;**共有**&#x200B;を選択します。 **プロジェクトの共有**&#x200B;パネルが開き、次の2つのタブが表示されます。
+Throughout the process, comments and mentions help keep everyone aligned. Collaborators can use @mentions to tag teammates, ask questions, and discuss specific parts of the course, ensuring that feedback remains contextual, visible, and actionable.
 
-* **レビュー用**：招待メールでプロジェクトを送信するか、リンクを共有します。
+Adobe Learning Manager Content Composer has two sharing modes, accessed from the **Share** button in the top toolbar.
 
-* **学習者の場合**:プロジェクトへのリンクを提供します。LMS接続は必要ありません。
+In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
 
-これらのオプションはどちらも、コースを共有する際の制御と柔軟性を提供します。
+* **For review**: Send the project by email invite or share a link.
+
+* **For learners**: Provide them with a link to the project -- no need of LMS connection.
+
+Both these options give you control and flexibility in sharing your courses.
 
 ![](../assets/52_share_project_for_review_add_names_emails.png)
+-->

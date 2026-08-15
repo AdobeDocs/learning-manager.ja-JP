@@ -1,8 +1,9 @@
 ---
 description: コースのナビゲーション、コメントの追加、他のレビュー担当者への返信、他のレビュー担当者へのタグ付けの方法など、フィードバック用に共有されたContent Composerコースを開いてレビューする方法について説明します。
 jcr-language: en_us
-title: 共有コースをレビュー
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: 共有プロジェクトのレビュー
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%

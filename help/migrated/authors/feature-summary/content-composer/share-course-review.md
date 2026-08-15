@@ -2,7 +2,8 @@
 description: Content Composerプロジェクトをレビュー用に共有する方法（レビュー担当者の招待、コメントの収集、アクセスの管理、削除時のアクセスのリクエスト）について説明します。
 jcr-language: en_us
 title: プロジェクトをレビュー用に共有
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 98f84cf0fd338b0a7e4d51df43f2b03387ace19c
+source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 36%
@@ -237,10 +237,10 @@ ht-degree: 36%
       * [コンテンツコンポーザーで効果的なプロンプトを記述する](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 共有と共同作業 {#share}
       * [Content Composerプロジェクトの共有と共同作業](authors/feature-summary/content-composer/share-collaborate.md)
-      * [プロジェクトをレビュー用に共有](authors/feature-summary/content-composer/share-course-review.md)
-      * [学習者とのプロジェクトの共有](authors/feature-summary/content-composer/share-course-learners.md)
-      * [共有プロジェクトのレビュー](authors/feature-summary/content-composer/review-shared-course.md)
-      * [レビューコメントの管理と対応](authors/feature-summary/content-composer/manage-and-respond-comments.md)
+      * {hide-from-toc}[プロジェクトをレビュー用に共有](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[学習者とプロジェクトを共有する](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[共有プロジェクトのレビュー](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[レビューコメントの管理と返信](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * コース設定の構成 {#settings}
       * [一般的なコース設定](authors/feature-summary/content-composer/general-course-settings.md)
       * [完了条件と成功条件の設定](authors/feature-summary/content-composer/set-completion-success-criteria.md)

@@ -2,7 +2,8 @@
 description: コンテンツコンポーザーのコメントパネルでコメントを表示および管理する方法について説明します。返信、解決、@を使用してレビュー担当者にメンションする、レビュー担当者によってフィルターする、時間またはステータスを指定する、コメントを解決済みとしてマークする方法などが含まれます。
 jcr-language: en_us
 title: コメントの管理と返信
-source-git-commit: eb764ba06a5807bead165cbfdbfec0367654ed08
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
