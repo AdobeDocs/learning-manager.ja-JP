@@ -59,14 +59,14 @@ ht-degree: 0%
 
 4.**ALMコースをPublishする：** ALM作成者がモジュールをALMコースにまとめ、コースの画像と設定を追加してパブリッシュします。 この手順を実行した後にのみ、学習者を登録できます。
 
-詳細については、[Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author)を参照してください。
+詳細については、[Adobe Learning Manager](https://experienceleague.adobe.com/ja/docs/learning-manager/using/get-started/getting-started-author)を参照してください。
 ![&#x200B; Adobe Learning Managerのコンテンツライブラリ。公開されたモジュールと処理モジュールが表示されます](../assets/51_alm_content_library_list_view_updated.png)
 
-詳細については、[ALMでの作成者としてのコースの作成](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses)を参照してください。
+詳細については、[ALMでの作成者としてのコースの作成](https://experienceleague.adobe.com/ja/docs/learning-manager/using/authors/courses)を参照してください。
 
 5.**学習者がコースを完了する：**&#x200B;学習者は、Adobe Learning Managerからコースにアクセスし、コンテンツコンポーザーモジュールを起動して、レッスンとクイズを完了し、手順1で設定した完了条件と合格条件に基づいてスコアを受け取ります。
 
-詳細については、「[学習者としてコースにアクセス](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner)」を参照してください。
+詳細については、「[学習者としてコースにアクセス](https://experienceleague.adobe.com/ja/docs/learning-manager/using/get-started/getting-started-learner)」を参照してください。
 
 6.ALMは学習者の進行状況を記録します。完了ステータス、クイズスコア、学習者データがALMに記録され、学習者のトランスクリプトおよび管理者レポートを通じて使用できます。
 
