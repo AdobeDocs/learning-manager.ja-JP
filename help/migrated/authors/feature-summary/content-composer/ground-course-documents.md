@@ -1,10 +1,10 @@
 ---
-description: ポリシー、手順、またはデッキをアップロードし、AIをそのコンテンツのみに制限します。 これにより、生成されたコースに、組織の正確な言語が反映されます。これは、コンプライアンス、規制、および手順ベースのトレーニングに不可欠です。
+description: AI出力をポリシー、手順、またはデッキのみに制限することで、Content Composerコースを独自のドキュメントに固定する方法について説明します。
 jcr-language: en_us
 title: 自分のドキュメントでコースを固定する
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

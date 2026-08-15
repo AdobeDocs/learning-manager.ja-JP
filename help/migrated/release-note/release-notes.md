@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 65%
@@ -37,7 +37,7 @@ AIの面では、学習者向けAI Assistantは、Go1とLinkedInの学習カタ�
 
 コンテンツ管理は、WYSIWYGコンポーネントベースの電子メールテンプレートビルダー、ロールベースのアクセス権を持つ階層構造のコンテンツフォルダー構造、オフプラットフォームトレーニングの提出と承認を行う外部学習機能、エンタープライズWebページとConfluenceページのビデオコンテンツを集約する新しいチャネル機能によって強化されています。
 
-詳しくは、[Adobe Learning Managerの2026年8月リリースの新機能と変更点](/help/migrated/whats-new.md)を参照してください。
+[Adobe Learning Managerの2026年8月リリースの新機能と変更点](/help/migrated/whats-new.md)について説明します。
 
 ## リリースの変更の中断
 

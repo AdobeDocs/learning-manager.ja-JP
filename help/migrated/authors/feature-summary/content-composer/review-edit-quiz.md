@@ -1,10 +1,10 @@
 ---
-description: 採点方式のクイズがコースの最後に表示され、各質問はテストするトピックにタグ付けされます。 質問テキストの編集、正解の変更、スコアの割り当て、AIによる質問の再生成ができます。
+description: コンテンツコンポーザーでクイズの質問を編集する方法について説明します。正解の変更、スコアの割り当て、質問の削除、AIによる質問の再生成などです。
 jcr-language: en_us
 title: クイズの確認と編集
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

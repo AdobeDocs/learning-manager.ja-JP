@@ -1,10 +1,10 @@
 ---
-description: 既存のドキュメント、ポリシー、またはデッキをアップロードして、組織のコンテンツにAIを活用します。 生成をこれらのファイルのみに制限するか、AIに一般的な知識を補足させるかを選択します。
+description: Content Composerでソースファイルをアップロードする方法、AI出力をコンテンツに制限する方法、およびマテリアルが変更されたときにソースファイルを更新する方法について説明します。
 jcr-language: en_us
 title: ソースファイルの管理
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

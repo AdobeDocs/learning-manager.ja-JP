@@ -1,10 +1,10 @@
 ---
-description: コンテンツコンポーザーでクイズの再試行回数、時間制限、質問の順序、合格スコアを設定します。 各クイズ設定が学習者のエクスペリエンスに与える影響と、スコアがLMSに報告される方法について説明します。
+description: Content Composerで、クイズの再試行回数、時間制限、質問順序、シャッフル、SCORMスコアリングの設定を行う方法について説明します。
 jcr-language: en_us
 title: クイズ設定の構成
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

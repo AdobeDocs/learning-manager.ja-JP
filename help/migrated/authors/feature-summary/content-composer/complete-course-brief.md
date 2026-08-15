@@ -1,10 +1,10 @@
 ---
-description: 簡単なステージでは、ガイド付き会話を通じて、コースタイトル、学習者のプロファイル、学習目標という3つの入力を把握します。 AIがアウトラインを生成するには、3つのフィールドがすべて入力されている必要があります。
+description: アウトラインを生成する前に、コースタイトルの設定、学習者の定義、目標の記述など、コンテンツコンポーザーの準備段階を完了する方法について説明します。
 jcr-language: en_us
 title: コースの概要を完了する
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: コンテンツコンポーザーでコーステーマを適用する方法について説明します。 デフォルトおよびカスタムテーマを参照し、検索バーを使用して名前でテーマを検索し、1つの選択でコース全体に適用できます。
+description: コンテンツコンポーザーでコーステーマを適用する方法について説明します。 デフォルトおよびカスタムテーマの参照、名前による検索、コース全体の適用を瞬時に行えます。
 jcr-language: en_us
 title: テーマの適用
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

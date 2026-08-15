@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1660'
 ht-degree: 36%
 
 ---
@@ -233,12 +233,14 @@ ht-degree: 36%
       * [画像の編集または追加](authors/feature-summary/content-composer/edit-add-image.md)
       * [コンテンツコンポーネントの追加](authors/feature-summary/content-composer/add-content-component.md)
       * [コースのプレビュー](authors/feature-summary/content-composer/preview-course.md)
+    * 効果的なプロンプトを書く {#write-effective-prompt}
+      * [コンテンツコンポーザーで効果的なプロンプトを記述する](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 共有と共同作業 {#share}
-      * [コンテンツコンポーザーコースの共有と共同作業](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[レビュー用のコースを共有](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[学習者とのコースの共有](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[共有コースのレビュー](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[コースの表示とコメントの追加](authors/feature-summary/content-composer/view-add-comments-course.md)
+      * [Content Composerプロジェクトの共有と共同作業](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[プロジェクトをレビュー用に共有](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[学習者とプロジェクトを共有する](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[共有プロジェクトのレビュー](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[レビューコメントの管理と返信](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * コース設定の構成 {#settings}
       * [一般的なコース設定](authors/feature-summary/content-composer/general-course-settings.md)
       * [完了条件と成功条件の設定](authors/feature-summary/content-composer/set-completion-success-criteria.md)

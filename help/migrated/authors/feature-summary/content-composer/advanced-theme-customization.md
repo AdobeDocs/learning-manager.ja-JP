@@ -1,10 +1,10 @@
 ---
-description: コンテンツコンポーザーで高度なテーマのプロパティを使用して、個々のテキスト要素（レッスン名、トピック名、ブロック見出し、キャプション、段落など）を細かいフォントやスタイルのコントロールを使用してカスタマイズする方法について説明します。
+description: コンテンツコンポーザーで高度なテーマプロパティを使用して、見出しやテキスト要素のフォント、色、間隔、レイアウトをカスタマイズする方法について説明します。
 jcr-language: en_us
 title: 高度なテーマのカスタマイズ
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

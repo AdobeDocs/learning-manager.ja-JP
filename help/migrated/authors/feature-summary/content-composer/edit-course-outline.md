@@ -1,10 +1,10 @@
 ---
-description: コースの完全生成を確定する前に、AIが生成したレッスンとトピックの構造を確認してください。 チャットパネルで変更を依頼します。 レッスンとトピックの名前変更、追加、削除、分割、結合を対話的に行うことができます。
+description: チャットパネルを使用して、レッスンやトピックの名前変更、追加、削除、分割、結合など、コンテンツコンポーザーのコースアウトラインを編集する方法について説明します。
 jcr-language: en_us
 title: コースの概要を編集する
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

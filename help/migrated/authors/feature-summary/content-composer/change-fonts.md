@@ -1,10 +1,10 @@
 ---
-description: テーマを編集して、コンテンツコンポーザーで見出しと本文のフォントを変更する方法について説明します。 使用可能なフォントオプションから選択して新しいカスタムテーマとして保存するか、既存のテーマを上書きします。
+description: コンテンツコンポーザーでテーマを編集して見出しと本文のフォントを変更し、変更を保存するか、新しいカスタムテーマを作成する方法について説明します。
 jcr-language: en_us
 title: フォントを変更
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

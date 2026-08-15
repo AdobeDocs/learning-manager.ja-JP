@@ -1,10 +1,10 @@
 ---
-description: Content ComposerとAdobe Learning Managerによってオーサリングと配信の責任がどのように分担されるか、完成したコースがContent ComposerからALMコンテンツライブラリにどのように移行されるか、公開後の学習者のトラッキングとレポートの仕組みについて説明します。
+description: 公開後の配信、トラッキング、レポートにおいて、Content Composerでオーサリングを、Adobe Learning Managerで処理する方法について説明します。
 jcr-language: en_us
 title: コンテンツコンポーザーとAdobe Learning Managerの連携
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

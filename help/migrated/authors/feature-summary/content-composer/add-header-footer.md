@@ -1,10 +1,10 @@
 ---
-description: ヘッダーとフッターをContent Composerコースに追加する方法、ヘッダーのロゴをアップロードする方法、更新されたテーマを保存する前にカンバスで変更をプレビューする方法について説明します。
+description: コンテンツコンポーザーコースにヘッダーとフッターを追加する方法、ロゴをアップロードする方法、トグルを有効にする方法、テーマの変更をカンバス上でライブでプレビューする方法について説明します。
 jcr-language: en_us
 title: ヘッダーとフッターの追加
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---

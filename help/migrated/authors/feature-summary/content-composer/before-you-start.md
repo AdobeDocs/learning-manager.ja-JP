@@ -1,10 +1,10 @@
 ---
-description: コンテンツコンポーザー、コースで取り上げる内容の一般的な概念、およびオプションで組織固有のコンテンツでAIを活用するソースドキュメントを試すには、Creative Cloudサブスクリプションを通じてアクセスする必要があります。
+description: Content Composerを始める前に必要な情報（Creative Cloudアカウント、Google Chrome、AIをガイドするオプションのソース文書）について説明します。
 jcr-language: en_us
 title: 始める前に必要なもの
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
