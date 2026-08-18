@@ -2,13 +2,13 @@
 title: Adobe Learning ManagerのExperience Builderガイドラインと制限事項
 description: Experience Builderのガイドラインと制限により、AI駆動型アルゴリズムを使用して、学習者にパーソナライズされたコースとコンテンツの提案が提供されます。
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
-
 
 # Experience Builderのガイドラインと制限事項
 
@@ -115,13 +115,3 @@ Experience Builderの更新により、カスタマイズに関する重大な�
 * グローバルレベル：すべてのページにCSS変更を適用します。
 * ウィジェットレベル：特定のウィジェットにCSS変更を適用します。
 * ページレベル：特定のページ内のすべてのウィジェットにCSS変更を適用します。
-
-
-
-
-
-
-
-
-
-
