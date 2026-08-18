@@ -2,13 +2,13 @@
 description: Adobe Learning ManagerでGo1プレイリストを作成し、学習パスに追加する方法について説明します。 このガイドでは、プレイリストの統合に関する手順とベストプラクティスについて説明します。
 jcr-language: en_us
 title: Go1プレイリストをAdobe Learning Manager学習パスにキュレートします
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
 
 ---
-
 
 # 学習パスへのGo1コースのキュレーション
 
@@ -43,9 +43,9 @@ Go1コースを含む学習パスを作成するには：
 7. 管理者は、次の方法で再生リストを作成できます。
 
    * **[!UICONTROL Go1 AIアシスタント]**&#x200B;を使用しています。 詳細については、[Go1 AIアシスタント](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant)をご覧ください。
-   * **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**&#x200B;を選択し、次のいずれかを選択します。
-a. **[!UICONTROL AIを活用]**:AIを活用したプレイリストを作成します。 詳細については、この[セクション](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)を参照してください。
-b. **[!UICONTROL 自分で]**：再生リストにコースを手動で追加して、再生リストを作成します。 詳細については、この[セクション](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)を参照してください。
+   * **[!UICONTROL ライブラリ]**&#x200B;で、**[!UICONTROL 再生リストの作成]**を選択し、次のいずれかを選択します。
+     a. **[!UICONTROL AIを活用]**: AIを活用したプレイリストを作成します。 詳細については、この[セクション](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)を参照してください。
+     b. **[!UICONTROL 自分で]**：再生リストにコースを手動で追加して、再生リストを作成します。 詳細については、この[セクション](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)を参照してください。
 
 ### Go1 AIアシスタント
 
@@ -53,7 +53,7 @@ Adobe Learning Managerでは、管理者がコースを簡単にキュレーシ�
 
 AIを使用して再生リストを作成するには：
 
-1. **[!UICONTROL Go1コンテンツハブ]**&#x200B;で「**AIとチャット**」オプションを選択します。
+1. **Go1コンテンツハブ**&#x200B;で「**[!UICONTROL AIとチャット]**」オプションを選択します。
 
    ![](assets/select-chat-with-ai.png)
    _管理者がAIアシスタントと対話して質問できる、[AIとチャット]オプションが表示されているコンテンツハブ画面_
@@ -192,10 +192,10 @@ AIを使用して再生リストを作成するには：
 1. Adobe Learning Managerに管理者としてログインします。
 2. **[!UICONTROL コンテンツマーケットプレイス]**&#x200B;を選択します。
 3. **[!UICONTROL コンテンツハブ]**&#x200B;を選択し、**[!UICONTROL ライブラリ]**&#x200B;を選択します。
-4. 再生リストを選択し、**[!UICONTROL 編集]**&#x200B;を選択します。
+4. 再生リストを選択し、**[!UICONTROL 編集]**を選択します。
    ![](assets/edit-playlist.png)
    _再生リストを編集するためのオプションを表示するGo1再生リスト画面_
-5. 省略記号を選択してから、**[!UICONTROL 複製]**&#x200B;を選択してください。
+5. 省略記号を選択してから、**[!UICONTROL 複製]**を選択してください。
    ![](assets/duplicate-playlist.png)
    _再生リスト管理画面。重複オプションを強調表示します_
 
@@ -208,10 +208,10 @@ AIを使用して再生リストを作成するには：
 1. Adobe Learning Managerに管理者としてログインします。
 2. **[!UICONTROL コンテンツマーケットプレイス]**&#x200B;を選択します。
 3. **[!UICONTROL コンテンツハブ]**&#x200B;を選択し、**[!UICONTROL ライブラリ]**&#x200B;を選択します。
-4. 再生リストを選択し、**[!UICONTROL 編集]**&#x200B;を選択します。
+4. 再生リストを選択し、**[!UICONTROL 編集]**を選択します。
    ![](assets/edit-playlist.png)
    _再生リストを編集するためのオプションを表示するGo1再生リスト画面_
-5. 省略記号を選択してから、**[!UICONTROL 再生リストを削除]**&#x200B;を選択してください。
+5. 省略記号を選択してから、**[!UICONTROL 再生リストを削除]**を選択してください。
    ![](assets/delete-playlist.png)
    _再生リストの管理画面で、[再生リストの削除]オプションを強調表示します_
 

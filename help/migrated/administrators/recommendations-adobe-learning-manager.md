@@ -5,7 +5,7 @@ description: Adobe Learning ManagerのRecommendations。
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 52%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 52%
 
 # 概要
 
-改良された新しいコース推奨システムが Adobe Learning Manager に導入されました。 このレコメンデーション機能では、AIアルゴリズムと、製品、役割、レベルなどのユーザーの関心事を使用して、パーソナライズされたコンテンツのレコメンデーションを提供します。
+Adobe Learning Manager では、新しく改良されたコース推奨システムが導入されました。 このレコメンデーション機能では、AIアルゴリズムと、製品、役割、レベルなどのユーザーの関心事を使用して、パーソナライズされたコンテンツのレコメンデーションを提供します。
 
 新しい推奨システムでは、カスタムパラメーターを作成できます。学習者はこのパラメーターを選択して、パーソナライズされた推奨事項を受け取ることができます。 これらの推奨事項は、コース、学習パスおよび資格認定として学習者ホームページのフィードに表示されます。
 

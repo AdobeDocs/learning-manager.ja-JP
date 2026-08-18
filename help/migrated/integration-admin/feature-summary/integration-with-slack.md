@@ -5,8 +5,8 @@ description: Learning Manager とSlack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 44%
 
 Learning Managerのコネクタとして、**削除済み** **Slack**&#x200B;です。 Slackコネクタにアクセスできなくなります。
 
-Slack ユーザーは、Slack App ディレクトリの Adobe Learning Manager アプリを Slack チームにインストールして、Slack で Learning Manager のコンテンツを検索できます。Primebotを操作して、Learning Managerで新しいコースを検索したり、推奨事項を表示したり、今後の締め切りに関する通知を受信したりできます。 Slack 内で登録を行って学習内容に直接ジャンプできます。
+Slack ユーザーは、Slack App ディレクトリの Adobe Learning Manager アプリを Slack チームにインストールして、Slack で Learning Manager のコンテンツを検索できます。 Primebotを操作して、Learning Managerで新しいコースを検索したり、推奨事項を表示したり、今後の締め切りに関する通知を受信したりできます。 Slack 内で登録を行って学習内容に直接ジャンプできます。
 
 Learning ManagerアプリSlack版は、Learning ManagerのAzureインスタンスではサポートされていません。
 
 ## Learning ManagerAdobeアプリケーションのインストール {#installingadobecaptivateprimeapp}
 
-学習者は、Slack アカウントで CP Prime アプリをインストールできます。 アプリをインストールするには、Slack アカウントで App ディレクトリを開き、Learning Manager を検索します。アプリをダウンロードしてインストールします。 アカウントでアプリが承認されない場合は、統合管理者に連絡して承認を受けてください。 既に承認されている場合は、サインインできます。
+学習者は、Slack アカウントで CP Prime アプリをインストールできます。 アプリをインストールするには、Slack アカウントで App ディレクトリを開き、Learning Manager を検索します。 アプリをダウンロードしてインストールします。 アカウントでアプリが承認されない場合は、統合管理者に連絡して承認を受けてください。 既に承認されている場合は、サインインできます。
 
 ## 統合管理者としての学習者のログインを承認する方法 {#approvinglearnersigninasanintegrationadmin}
 
@@ -36,7 +36,7 @@ Learning ManagerアプリSlack版は、Learning ManagerのAzureインスタン�
 
    ![](assets/approval.png)
 
-1. **[!UICONTROL アプリケーション]**&#x200B;ページに戻ります。 承認されると「**[!UICONTROL 外部アプリ]**」タブに「Slack」が表示されます。
+1. **[!UICONTROL アプリケーション]**&#x200B;ページに戻ります。 承認されると&#x200B;**[!UICONTROL 「外部アプリ」]**&#x200B;タブに「Slack」が表示されます。
 1. 学習者は、Slack を使用して Prime アカウントにサインインできるようになりました。
 
 ## Primebot の機能 {#primebotfunctionalities}
