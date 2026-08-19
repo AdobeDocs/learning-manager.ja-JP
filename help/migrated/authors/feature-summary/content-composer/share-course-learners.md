@@ -2,8 +2,7 @@
 description: Content Composerで学習者リンクを作成する方法、そのリンクを通じて学習者がアクセスできるもの、トラック配信で直接リンクを共有するのではなくAdobe Learning Managerへの公開が必要になる理由について説明します。
 jcr-language: en_us
 title: 学習者とのコースの共有
-hide: true
-source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
