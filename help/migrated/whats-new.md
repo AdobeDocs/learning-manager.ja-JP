@@ -3,9 +3,9 @@ description: Adobe Learning Managerの2026年8月リリースの新機能と強�
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月リリースの新機能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: f5a988186fdc44d64389ad850af57bde10b728e9
+source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Adobe Learning Managerにコンテンツコンポーザーが追加されまし�
 
 Insights Agentは、管理者が自然言語クエリを使用して学習データを分析するのに役立ちます。 登録トレンド、完了率、学習者のエンゲージメント、スキルギャップに関する質問を行います。 エージェントは、応答としてレポートとビジュアライゼーションを生成します。
 
-詳細については、[インサイトエージェント](/help/migrated/administrators/feature-summary/insights-agent.md)の詳細情報をご覧ください。
+[インサイトエージェント](/help/migrated/administrators/feature-summary/insights-agent.md)の詳細情報をご覧ください。
 
 <!--
 ### Gen AI credits
