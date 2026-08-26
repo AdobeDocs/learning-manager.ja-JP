@@ -2,7 +2,8 @@
 description: このプロンプトは、コンテンツコンポーザーで最も重要な入力です。 対象者の名前、2～3のトピック、範囲シグナルなど、特定のプロンプトを使用すると、より正確な概要と強力なアウトラインが生成され、下流で編集する回数が減ります。
 jcr-language: en_us
 title: コンテンツコンポーザーで効果的なプロンプトを記述する
-source-git-commit: c58fff50e6ccf6ab45722a0aafb7f4cee73752b5
+hide: true
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
 source-wordcount: '2339'
 ht-degree: 0%

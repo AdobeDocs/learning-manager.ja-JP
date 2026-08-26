@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1651'
 ht-degree: 36%
 
 ---
@@ -233,8 +233,6 @@ ht-degree: 36%
       * [画像の編集または追加](authors/feature-summary/content-composer/edit-add-image.md)
       * [コンテンツコンポーネントの追加](authors/feature-summary/content-composer/add-content-component.md)
       * [コースのプレビュー](authors/feature-summary/content-composer/preview-course.md)
-    * 効果的なプロンプトを書く {#write-effective-prompt}
-      * [コンテンツコンポーザーで効果的なプロンプトを記述する](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 共有と共同作業 {#share}
       * [Content Composerプロジェクトの共有と共同作業](authors/feature-summary/content-composer/share-collaborate.md)
       * [プロジェクトをレビュー用に共有](authors/feature-summary/content-composer/share-course-review.md)
