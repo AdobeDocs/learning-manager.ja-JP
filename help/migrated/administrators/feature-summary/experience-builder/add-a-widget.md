@@ -2,13 +2,13 @@
 title: Experience Builderでのウィジェットの追加と設定
 description: Adobe Learning Manager内のExperience Builderで様々なウィジェットを追加、カスタマイズ、設定する方法について説明します。 このガイドでは、カレンダー、カテゴリ、コンプライアンスステータス、コースとパス、ゲーミフィケーション、HTMLコンテンツ、IFrames、ソーシャルラーニングなど、一般的に使用されるウィジェットについて説明します。
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
-
 
 # ウィジェットの追加と設定
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### カレンダーウィジェットの追加
 
-セールスチームとカスタマーサクセスマネージャー(CSM)チームが別になっている金融会社では、管理者はこのウィジェットを使用して、チーム固有のトレーニングセッションを強調できます。 例：
+セールスチームとカスタマーサクセスマネージャー(CSM)チームが別になっている金融会社では、管理者はこのウィジェットを使用して、チーム固有のトレーニングセッションを強調できます。 以下に例を示します。
 
 * セールスチームは、製品アップデート、コンプライアンストレーニング、ピッチワークショップに関する今後のセッションを確認できます。
 * CSMチームは、クライアントのオンボーディングワークショップ、顧客コミュニケーションのトレーニング、サービスエクセレンスプログラムを表示できます。
@@ -187,7 +187,7 @@ _管理者がウィジェットのタイトル、説明、およびコースや�
     * **[!UICONTROL 色]**:カラーピッカーから色を選択するか、テキストフィールドにカラーコードを入力します。
     * **[!UICONTROL 画像]**：画像を参照してアップロードします。
 
-11. **[!UICONTROL [コンテンツ]ボックスの高さ]**&#x200B;オプションを使用して、ボックスの高さを調整します。
+11. **[!UICONTROL [コンテンツ]ボックスのHeight]**&#x200B;オプションを使用して、ボックスのHeightを調整します。
 12. テキストの書式設定オプションを選択します。
 
     ![](assets/configure-content-box.png)
@@ -273,10 +273,10 @@ Iframeウィジェットを設定するには：
    _選択したセクション内に外部アプリケーションまたはwebページを埋め込むためのIframeウィジェットをハイライト表示したウィジェット選択画面_
 
 8. **[!UICONTROL [アクションボタンにリンクされたページ]]**&#x200B;オプションにURLを入力します。
-9. **[!UICONTROL Iframe height]**&#x200B;オプションを使用してIframeの高さを調整します。
+9. **[!UICONTROL [Iframe Height]]**&#x200B;オプションを使用してIframe Heightを調整します。
 
    ![](assets/configure-iframe.png)
-   _管理者がページのURLを入力し、外部コンテンツを埋め込むiframeの高さを指定できるIframeウィジェットのカスタマイズ画面_
+   _管理者がページのURLを入力し、外部コンテンツを埋め込むiframeウィジェットを指定できるiframe Heightのカスタマイズ画面_
 
 10. 「**[!UICONTROL ウィジェットを追加]**」を選択します。
 
@@ -314,6 +314,58 @@ Iframeウィジェットがページに追加されます。 管理者は、他�
 9. 「**[!UICONTROL ウィジェットを追加]**」を選択します。
 
 学習状況ウィジェットがページに追加されます。 管理者は、他のウィジェットを追加したり、ページを公開したりできます。
+
+<!--
+
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
 
 ## ソーシャル学習ウィジェット
 

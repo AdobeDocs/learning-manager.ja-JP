@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
+source-git-commit: b0a8e62ee7810e4b4fd01f45128b3da7ca2c3778
 workflow-type: tm+mt
-source-wordcount: '34007'
+source-wordcount: '34008'
 ht-degree: 65%
 
 ---
@@ -23,9 +23,35 @@ ht-degree: 65%
   </tr>
  </tbody>
 </table>
+
+
++++Update 111: August 31, 2026 release of Adobe Learning Manager
+
+## Enhancements in this release
+
+**Saved by me widget**
+
+* **Admin:** Administrators can place the Saved by me widget on a page so learners can easily find content they have bookmarked. This lets learners return to courses they saved earlier without having to search or navigate to them again. Learn more about [Saved by me widget](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget).
+
+* **Learner:** The **Saved by me** widget shows courses, learning paths, certifications, and job aids that you've bookmarked for later. Use this widget to quickly access your saved content in one place, without searching the catalog again. Learn more about [Saved by me widget](/help/migrated/learners/feature-summary/saved-by-me-widget.md).
+
+**Channel theme color:** When you create a channel, you have more channel theme colors to choose from. The theme colors are contextually applied to highlight contrast after your selection. When you select a theme color for the channel, the selected color is applied to the channel interface and is designed to maintain contrast with channel thumbnails and text. A default color is assigned automatically when you create a channel, but you can choose a different color from the available options at any time. 
+
+**Video thumbnails:** The learner can now quickly identify a video by its tile, which in turn displays a thumbnail to help identify its content at a glance. If the source video does not provide its own thumbnail image, Adobe Learning Manager automatically generates one using the channel theme color, an abstract pattern, and the video title.
+
+**Channels:** The Channels navigation option is visible to Learners only when at least one channel has been created, contains at least one video from its source, and is marked Visible to Learners.
+
+## Bugs fixed
+
+**Adobe Experience Manager component:** After upgrading to Adobe Learning Manager Reference Site package v2.0.1, the Notifications panel failed to load when users clicked the notification bell. The loader continued spinning indefinitely, preventing notifications from being displayed. The issue also caused repeated calls to the /userNotifications endpoint, eventually resulting in HTTP 429 responses. The notification loading workflow was fixed to prevent excessive API requests and resolve the loading issue. Notifications now load correctly, and the panel opens as expected without unnecessary API throttling.
+
+**Adobe Learning Manager mobile app > Learning Path:** Completed courses within a Learning Path in the Adobe Learning Manager mobile app were incorrectly displayed with a yellow indicator and red dot, even though their status was marked as completed. This visual inconsistency occurred only for courses inside Learning Paths, while completed modules displayed correctly. The status indicator logic has been fixed for Learning Path courses in the mobile app. Completed courses now display the correct green completion indicator. This ensures a consistent completion experience across the mobile app and desktop browser.
+
++++
+
 -->
 
-+++アップデート110:Adobe Learning Managerの2026年8月リリース
++++アップデート110:2026年8月16日にリリースされたAdobe Learning Manager
 
 ## リリースハイライト
 
