@@ -32,7 +32,7 @@ iFrame経由で埋め込んだ場合、学習者アシスタントでは、次�
 始める前に、次の点を確認してください。
 
 * 学習者アシスタントが有効になっているALMテナント。 管理者設定ページから必要なカタログを設定します。
-* 学習者（または管理者）セッションを認証するための有効なaccessToken。 アクセストークンを生成するには、[OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を使用した認証ページの手順に従います。 このページには、続行に必要なアクセストークンの認証および生成に必要な手順が含まれています。
+* 学習者（または管理者）セッションを認証するための有効なaccessToken。 アクセストークンを生成するには、[OAuth 2.0](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を使用した認証ページの手順に従います。 このページには、続行に必要なアクセストークンの認証および生成に必要な手順が含まれています。
 * `<iframe>`をアプリケーションに埋め込み、ブラウザーのpostMessage APIを介して通信する機能。
 * アプリケーションは、埋め込まれたiFrameからのメッセージをリッスンし、応答する必要があるため、親アプリケーションのフロントエンドコードの所有権。
 
