@@ -1,9 +1,9 @@
 ---
 title: チャネルの発見と活用
 description: Adobe Learning Managerのチャンネルを通じて利用可能なビデオコンテンツに関するディスカッションを検索、購読、視聴、いいね！する方法、参加する方法について説明します。
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ ht-degree: 0%
 1. Adobe Learning Manager にログインします。
 
 1. 上部のナビゲーションバーから&#x200B;**チャネル**&#x200B;を選択します。
+
+   >[!NOTE]
+   >
+   >ナビゲーションバーに&#x200B;**チャネル**&#x200B;タブが表示されない場合は、管理者に連絡してください。
 
    <br> **チャネル**&#x200B;ページが開き、既定で&#x200B;**すべて**&#x200B;タブが表示されます。
 

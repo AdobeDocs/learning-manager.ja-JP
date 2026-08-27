@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1670'
 ht-degree: 36%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 36%
   * [Adobe Learning Managerでサポートされる言語](/help/migrated/languages-supported.md)
   * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
   * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
-  * [Adobe Learning Managerでのホワイトラベルの設定](white-label.md)
+  * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
+* リリースでの機能の可用性 {#feature-availability}
+  * [2026年8月リリースで利用可能になった機能](/help/migrated/feature-availability-aug-2026.md)
 * 利用開始 {#get-started}
   * [OpenID ConnectでAdobe Learning Managerにログイン](/help/migrated/oidc.md)
   * [管理者の基本](administrators/feature-summary/getting-started-admin.md)
@@ -158,7 +160,8 @@ ht-degree: 36%
   * [学習プログラム](administrators/feature-summary/learning-programs.md)
   * [製品用語](administrators/feature-summary/product-terminology.md)
 * 統合管理者 {#integration}
-  * [アプリケーションデベロッパーマニュアル](integration-admin/feature-summary/developer-manual.md)
+  * [アプリケーションデベロッパーマニュアル](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+  * [iFrameを使用した学習者アシスタントの統合](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
   * Learning Manager コネクター {#connectors}
     * [コネクタの概要](integration-admin/feature-summary/connectors.md)
@@ -271,6 +274,7 @@ ht-degree: 36%
   * [プロファイル設定](learners/feature-summary/settings.md)
   * [カタログ](learners/feature-summary/catalogs.md)
   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
+  * {hide-from-toc}[自分が保存済みウィジェット](learners/feature-summary/saved-by-me-widget.md)
   * [学習状況](learners/feature-summary/courses.md)
   * {hide-from-toc}[アダプティブコース](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
