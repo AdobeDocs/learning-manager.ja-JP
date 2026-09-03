@@ -1,10 +1,10 @@
 ---
 title: Adobe Learning Managerでライブハブ（ベータ版）を有効にする
 description: 管理者がアカウントでライブハブを有効にし、デフォルトのバーチャルクラスルームプロバイダーとして設定し、AIを利用したライブハブアシスタントを有効にする方法について説明します。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 4%
+source-wordcount: '510'
+ht-degree: 0%
 
 ---
 
@@ -45,15 +45,15 @@ ht-degree: 4%
 
 1. ライブハブエージェントからアシスタントを有効にします。
 
-   1. 投票アシスタント
+   1. **投票アシスタント**:コースのコンテンツとライブセッションのトランスクリプトから投票を生成し、ワンクリックで確認および起動できるアイスブレーカーまたはナレッジチェックを作成します。 詳細については、[投票を作成して開始する](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai)を参照してください。
 
-   1. Q&amp;A アシスタント
+   1. **Q&amp;Aアシスタント** ：セッションチャットの参加者の質問を検出し、アップロードされたコンテンツとセッションのトランスクリプトに基づいて回答をドラフトし、インストラクターがレビュー、調整、共有できるようにします。 詳細については、[インストラクターとしてチャットパネルを使用](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai)してください。
 
-   1. ブレイクアウトモニタリングアシスタント
+   1. **ブレイクアウト監視アシスタント**：各ブレイクアウトルームのトランスクリプトをインストラクターの目標に照らして読み取り、数分ごとにステータスカードを投稿し、ルームごとのディスカッションの概要に加えて、テーマ、決定事項、ギャップをルーム間で1つ統合したレポートを提供して、簡単に概要を伝えます。 詳細については、[ブレークアウトセッションを作成および管理](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms)を参照してください。
 
-   1. 録画用トピック生成
+   1. **トピックのレコーディング生成**:セッションのレコーディングを、タイムスタンプと構造化されたメモを持つ名前付きのトピックに自動的にセグメント化します。これにより、参加者は完全なレコーディングを見ることなく、必要なものにすぐにアクセスしたり、メモから学んだりできます。 詳細については、[録音と文字起こしについて](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording)を参照してください。
 
-   1. 講師検索アシスタント
+   1. **インストラクターファインダーアシスタント** ：スキル、利用可能な時間帯、利用状況、優先指導時間などの条件を検討して、セッションのインストラクターに推奨するコンテンツを提供します。 詳細については、[Live Hubセッションの作成](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder)を参照してください。
 
 >[!NOTE]
 >
