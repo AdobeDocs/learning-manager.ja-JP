@@ -3,9 +3,9 @@ title: Experience Builderでのウィジェットの追加と設定
 description: Adobe Learning Manager内のExperience Builderで様々なウィジェットを追加、カスタマイズ、設定する方法について説明します。 このガイドでは、カレンダー、カテゴリ、コンプライアンスステータス、コースとパス、ゲーミフィケーション、HTMLコンテンツ、IFrames、ソーシャルラーニングなど、一般的に使用されるウィジェットについて説明します。
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 30372b696921be9e896f947e96683b72587f1323
+source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _管理者がウィジェットのタイトル、説明、およびコースや学習パスを選択して、インタラクティブカードとして表示する「コースとパス」ウィジェット_
-&#x200B;11. 「**[!UICONTROL ウィジェットを追加]**」を選択します。
+11. 「**[!UICONTROL ウィジェットを追加]**」を選択します。
 
 コースとパスウィジェットがページに追加されます。 管理者は、他のウィジェットを追加したり、ページを公開したりできます。
 
@@ -315,57 +315,53 @@ Iframeウィジェットがページに追加されます。 管理者は、他�
 
 学習状況ウィジェットがページに追加されます。 管理者は、他のウィジェットを追加したり、ページを公開したりできます。
 
-<!--
+## 「自分が保存済み」ウィジェット {#bookmark-widget}
 
-## Saved by me widget {#bookmark-widget}
+**自分が保存**&#x200B;ウィジェットには、学習者が後でブックマークしたコース、学習パス、資格認定、作業計画書が表示されます。 これにより、学習者は、カタログを再度検索しなくても、保存済みとしてマークしたコンテンツを1か所で見つけることができます。
 
-The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+管理者は、**自分が保存**&#x200B;ウィジェットをページに追加して、学習者がブックマークされたコンテンツにすばやくアクセスできるようにすることができます。 学習者はウィジェットを使用することで、元の検索やナビゲーションを繰り返すことなく、参照中に保存したコースに再アクセスできます。
 
-As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+このウィジェットをページに追加すると、以下の点で役立ちます。
 
-Adding this widget to a page can help: 
+* 頻繁にアクセスするコンテンツにシングルクリックでアクセスできるようにすることで、学習者ワークフローを効率化します
 
-* Streamline learner workflows by providing single-click access to frequently accessed content 
+* リソースの検索に費やす反復的なナビゲーション時間と時間を削減
 
-* Reduce repetitive navigation and time spent searching for resources 
+* 満足度とエンゲージメントを向上させる、よりパーソナライズされた学習体験を作成
 
-* Create a more personalized learning experience that increases satisfaction and engagement 
+### 自分が保存済みウィジェットを追加
 
-### Add a Saved by me widget 
+例えば、ある金融会社が50を超えるコースの新しいカリキュラムをSales and Customer Success Manager(CSM)チームに展開しているとします。  学習者がカタログを参照すると、自分の役割に最も関連する5 ～ 6つのコースをブックマークに登録します。
 
-Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+保存したコースは、学習者にパーソナライズされたホームページの「自分が保存」ウィジェットに自動的に表示されます。 カタログをもう一度移動する代わりに、ウィジェットに直接移動して、設定したコンテンツにアクセスしたり、登録したりすることができます。
 
-Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+**自分が保存**&#x200B;ウィジェットを構成するには：
 
-To configure the **Saved by me** widget: 
-
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **Branding** in the left navigation pane. 
-3. Select **Custom Pages**. 
-4. Select the required page and then select **Page Design**. 
-5. Select the layout. 
-6. Select **Add Widget**. 
-7. Select **Saved by me** and then select **Proceed**. 
+1. Adobe Learning Managerに管理者としてログインします。
+2. 左側のナビゲーションウィンドウで[**ブランド**]を選択します。
+3. **カスタムページ**&#x200B;を選択します。
+4. 必要なページを選択して、**ページデザイン**&#x200B;を選択します。
+5. レイアウトを選択します。
+6. 「**ウィジェットを追加**」を選択します。
+7. **自分が保存**&#x200B;を選択し、**続行**&#x200B;を選択します。
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
 
-8. Type a **Widget title** and **Widget description**.
+8. **ウィジェットのタイトル**&#x200B;と&#x200B;**ウィジェットの説明**&#x200B;を入力してください。
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
 
-9. Select **Add widget**. 
+9. 「**ウィジェットを追加**」を選択します。
 
-The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+**自分が保存**&#x200B;ウィジェットがページに追加されます。 管理者は、他のウィジェットを追加したり、ページを公開したりできます。
 
 ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
 
 >[!NOTE]
 >
->If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+>学習者がコンテンツをブックマークしていない場合、「自分が保存済み」ウィジェットのページには空の状態が表示されます。 学習者がコース、学習パス、資格認定、作業計画書をブックマークすると、それらの項目が自動的にウィジェットに表示されます。
 
-Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
-
--->
+ウィジェットのタイトルと説明は、Experience Builderの他のウィジェットと同様に、ローカライズをサポートしています。 アカウントに複数の言語が設定されている場合は、各言語のタイトルと説明を入力し、学習者が好みのロケールでウィジェットを表示できるようにします。
 
 ## ソーシャル学習ウィジェット
 
