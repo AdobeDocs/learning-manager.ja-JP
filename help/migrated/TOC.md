@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
+source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1679'
 ht-degree: 36%
 
 ---
@@ -225,6 +225,8 @@ ht-degree: 36%
       * [始める前に必要なもの](authors/feature-summary/content-composer/before-you-start.md)
       * [自分のドキュメントでコースを固定する](authors/feature-summary/content-composer/ground-course-documents.md)
       * [コンテンツコンポーザーが実行しないコンテンツ](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * 効果的なプロンプトを書く {#write-effective-prompt}
+      * [コンテンツコンポーザーで効果的なプロンプトを記述する](authors/feature-summary/content-composer/write-effective-prompts.md)
     * コースの作成 {#create-course}
       * [プロンプトを書く](authors/feature-summary/content-composer/write-a-prompt.md)
       * [コースの概要を完了する](authors/feature-summary/content-composer/complete-course-brief.md)
@@ -274,7 +276,7 @@ ht-degree: 36%
   * [プロファイル設定](learners/feature-summary/settings.md)
   * [カタログ](learners/feature-summary/catalogs.md)
   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
-  * {hide-from-toc}[自分が保存済みウィジェット](learners/feature-summary/saved-by-me-widget.md)
+  * [「自分が保存済み」ウィジェット](learners/feature-summary/saved-by-me-widget.md)
   * [学習状況](learners/feature-summary/courses.md)
   * {hide-from-toc}[アダプティブコース](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
