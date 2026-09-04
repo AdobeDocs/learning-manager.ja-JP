@@ -94,4 +94,4 @@ Adobeプロファイルで使用可能なCreative Cloudストレージがユー�
 
 Adobe Admin Console administratorでCreative Cloudストレージの割り当て時やアクセス関連の問題のデバッグ時に問題が面された場合は、エンタープライズアカウントレベルのサポートが必要になる場合があります。 このような場合は、Admin Consoleで利用可能なサポートオプションを通じて、Adobeエンタープライズサポートにお問い合わせください。
 
-詳しくは、[Adobeエンタープライズサポートオプション](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)をご覧ください。
+詳しくは、[Adobeエンタープライズサポートオプション](https://helpx.adobe.com/jp/business/enterprise/get-help/support-options/support-for-enterprise.html)をご覧ください。
