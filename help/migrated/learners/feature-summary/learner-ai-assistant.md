@@ -357,7 +357,7 @@ Adobe Learning Managerの学習アシスタントでは、プラットフォー�
 
 >[!IMPORTANT]
 >
->前提条件として、管理者は必要なカタログを学習者アシスタントに追加する必要があります。 詳しくは、[AIアシスタントのアクセスを構成する](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)を参照してください。
+>前提条件として、管理者は必要なカタログを学習者アシスタントに追加する必要があります。 詳しくは、[AIアシスタントのアクセスを構成する](https://experienceleague.adobe.com/ja/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)を参照してください。
 
 
 管理者がGo1またはLinkedIn学習カタログをAdobe Learning Managerに追加すると、カタログコンテンツがスケジュールされた取り込みプロセスを実行します。 取り込みが完了すると、そのカタログの学習目標をLearning Assistantで照会できるようになります。
