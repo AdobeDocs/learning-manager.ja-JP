@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
+source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 36%
 
 ---
@@ -222,6 +222,7 @@ ht-degree: 36%
       * [コンテンツコンポーザーとは](authors/feature-summary/content-composer/what-is-content-composer.md)
       * [コンテンツコンポーザーの仕組み](authors/feature-summary/content-composer/how-content-composer-works.md)
       * [コンテンツコンポーザーの対象](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [Content ComposerのCreative Cloudストレージを設定する](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [始める前に必要なもの](authors/feature-summary/content-composer/before-you-start.md)
       * [自分のドキュメントでコースを固定する](authors/feature-summary/content-composer/ground-course-documents.md)
       * [コンテンツコンポーザーが実行しないコンテンツ](authors/feature-summary/content-composer/what-content-composer-is-not.md)
