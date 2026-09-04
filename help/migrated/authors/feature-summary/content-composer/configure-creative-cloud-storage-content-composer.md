@@ -3,13 +3,15 @@ jcr-language: en_us
 title: Adobe Learning Manager Content ComposerのCreative Cloudストレージを設定する
 description: Adobe Learning Manager Content ComposerのCreative Cloudストレージを設定する方法について説明します。 このガイドでは、Creative Cloudストレージが必要な理由、管理者がAdobe Admin Consoleで無料メンバーシップのオファーを割り当てる方法、ストレージ関連のアクセス問題をトラブルシューティングする方法について説明します。
 contentowner: saghosh
-source-git-commit: 42512cc4cab0d0cdb1e9796610d6fc2f7b5c51d6
+source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
+
+# Adobe Learning Manager Content ComposerのCreative Cloudストレージを設定する
 
 >[!IMPORTANT]
 >
@@ -92,4 +94,4 @@ Adobeプロファイルで使用可能なCreative Cloudストレージがユー�
 
 Adobe Admin Console administratorでCreative Cloudストレージの割り当て時やアクセス関連の問題のデバッグ時に問題が面された場合は、エンタープライズアカウントレベルのサポートが必要になる場合があります。 このような場合は、Admin Consoleで利用可能なサポートオプションを通じて、Adobeエンタープライズサポートにお問い合わせください。
 
-詳しくは、[Adobeエンタープライズサポートオプション](https://helpx.adobe.com/jp/business/enterprise/get-help/support-options/support-for-enterprise.html)をご覧ください。
+詳しくは、[Adobeエンタープライズサポートオプション](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)をご覧ください。
