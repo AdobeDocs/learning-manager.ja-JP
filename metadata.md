@@ -6,10 +6,12 @@ product_v2:
 usetq: true
 product: experience cloud
 type: Documentation
+landing-page-name: learning-manager
+landing-page-breadcrumb-title: Learning Manager
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/learning-manager.ja-JP
 index: true
-source-git-commit: 1b39faac38564017fb7dcffe6ed82c94dab51d28
+source-git-commit: 59552d9d2b446779d0cf9a97e2380aa6f844ea01
 workflow-type: tm+mt
 source-wordcount: 69
 ht-degree: 0%
