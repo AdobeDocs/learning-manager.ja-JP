@@ -3,13 +3,11 @@ description: Adobe Learning ManagerのAIアシスタントを使用すると、�
 jcr-language: en_us
 title: Adobe Learning Managerの学習者向けAIアシスタント
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3245'
 ht-degree: 0%
-
 ---
-
 # 学習者向けの AI アシスタント
 
 ## 概要
@@ -81,15 +79,14 @@ Adobeは、信頼できるサービスを使用して学習コンテンツを安
 
 ### カタログとコンテンツソースの制限
 
-AIアシスタントでは、内部カタログ、外部カタログ、およびサードパーティのコンテンツライブラリのコンテンツのみを使用します。 学習者からの質問に対する回答は、学習者がアクセス権を持つカタログからのみ取得されます。
+AIアシスタントでは、社内カタログおよびサードパーティのコンテンツライブラリのコンテンツのみを使用します。 学習者からの質問に対する回答は、学習者がアクセス権を持つカタログからのみ取得されます。
 
 次のコンテンツソースは、現在のリリースではサポートされていません。
 
-- **共有**&#x200B;カタログ
-- **取得**&#x200B;カタログ
-- **外部**&#x200B;カタログ
-- **既定**&#x200B;カタログ
-- サードパーティのコンテンツライブラリ（LinkedIn LearningやGo1など）
+- 共有外部カタログ
+- 既定のカタログ
+
+取得したカタログもサポートされます。また、サードパーティのコンテンツライブラリ（LinkedIn LearningやGo1など）から入手できるメタデータからの回答もサポートされます。
 
 コースや作業計画書にアクセスできない場合、AIアシスタントではそのコンテンツから情報を取得できず、引用リンクにアクセスできません。
 
@@ -357,7 +354,7 @@ Adobe Learning Managerの学習アシスタントでは、プラットフォー�
 
 >[!IMPORTANT]
 >
->前提条件として、管理者は必要なカタログを学習者アシスタントに追加する必要があります。 詳しくは、[AIアシスタントのアクセスを構成する](https://experienceleague.adobe.com/ja/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)を参照してください。
+>前提条件として、管理者は必要なカタログを学習者アシスタントに追加する必要があります。 詳しくは、[AIアシスタントのアクセスを構成する](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)を参照してください。
 
 
 管理者がGo1またはLinkedIn学習カタログをAdobe Learning Managerに追加すると、カタログコンテンツがスケジュールされた取り込みプロセスを実行します。 取り込みが完了すると、そのカタログの学習目標をLearning Assistantで照会できるようになります。
