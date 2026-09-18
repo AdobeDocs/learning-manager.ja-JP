@@ -298,7 +298,7 @@ getAbstract.com をご利用のエンタープライズのお客様の場合、g
 
    同期のタイプを問わず、同期が動作するために、同期に指定された日付の getAbstract FTP フォルダーにユーザーフィードがあることを確認します。
 
-   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。 ファイル名は&#x200B;**report_export_yyyy_MM_dd_HHmmss.xlsx}または**0}report_export_yyyy_MM_dd.xlsx**の形式に従う必要があります。**
+   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。 ファイル名は&#x200B;**report_export_yyyy_MM_dd_HHmmss.xlsx&rbrace;または**&#x200B;0&rbrace;report_export_yyyy_MM_dd.xlsx&#x200B;**の形式に従う必要があります。**
    [getAbstractユーザーフィードサンプルExcelシート](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor コネクタ {#hmmconnector}
