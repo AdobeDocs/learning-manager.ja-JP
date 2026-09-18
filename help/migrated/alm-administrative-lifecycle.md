@@ -2,14 +2,12 @@
 title: Adobe Learning Manager管理アカウントライフサイクル
 description: この文書では、FedRAMPのコンプライアンスとベストプラクティスを満たすために、Adobe Learning Manager(ALM)で最上位レベルの管理アカウントを安全に管理するための包括的なガイダンスを提供します。
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Managerの管理アカウントタイプ
 
 ## ALM役割のマッピング
@@ -27,7 +25,7 @@ Adobe Learning Managerでは、最上位の管理アカウントが管理者ロ�
 
 Adobe Learning Managerでは、ロールベースのアクセス制御(RBAC)モデルを使用して、管理アクセスを管理します。 管理者の役割は、許可された管理者のみが割り当てます。
 
-詳細については、[Adobe Learning Managerのカスタムロール](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)を参照してください
+詳細については、[Adobe Learning Managerのカスタムロール](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)を参照してください
 
 ## IDタイプと推奨される認証
 
@@ -41,12 +39,12 @@ Adobe Admin Consoleでは、管理者アカウントに対して3つのidタイ�
 
 詳しくは、以下を参照してください。
 
-* [IDタイプ](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)
-* [安全なユーザー認証とパスワード](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html)
+* [IDタイプ](https://helpx.adobe.com/enterprise/using/admin-console.html)
+* [安全なユーザー認証とパスワード](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
 
 ## 役割の割り当てとアクセス制御
 
-Adobe Learning Managerの管理アカウントへのアクセスは、既存の管理者によって明示的な[ロールの割り当て](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/user-management/add-users-user-groups)によって制御されています。 安全な管理アクセスの主な特徴は次のとおりです。
+Adobe Learning Managerの管理アカウントへのアクセスは、既存の管理者によって明示的な[ロールの割り当て](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)によって制御されています。 安全な管理アクセスの主な特徴は次のとおりです。
 
 * 管理者の役割は、許可された管理者のみが割り当てます。
 * アクセスは役割に基づいており、割り当てられた権限に応じて範囲が設定されます。
@@ -69,12 +67,12 @@ Adobe Admin Consoleで2FAを強制するには、次の手順を実行します�
 >
 >Adobeでは、2FAを施行し、オプションのままにしないことをお勧めします。 2FAの適用には最大24時間かかる場合があります。 Federated IDユーザーの場合は、IDプロバイダーでMFAを強制します。
 
-詳細については、[セキュリティで保護されたユーザー認証](https://helpx.adobe.com/jp/enterprise/using/authentication-settings.html)を参照してください。
+詳細については、[セキュリティで保護されたユーザー認証](https://helpx.adobe.com/enterprise/using/authentication-settings.html)を参照してください。
 
 
 ## 管理者としてログイン
 
-ALM [管理者](https://experienceleague.adobe.com/ja/docs/learning-manager/using/get-started/getting-started-admin)は、Admin Consoleを通じて管理されている組織の資格情報を使用して、ALMプラットフォームに直接サインインします。
+ALM [管理者](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin)は、Admin Consoleを通じて管理されている組織の資格情報を使用して、ALMプラットフォームに直接サインインします。
 
 ### 管理者ロールの割り当て
 
@@ -89,7 +87,7 @@ ALMに管理者ロールを割り当てるには：
 
 カスタムの管理ロールを使用すると、アカウントレベルの権限を一元的に制御しながら、管理タスクを委任できます。 カスタム管理者は、特定のユーザーグループまたはカタログに対してスコープを設定できます。
 
-詳細については、[ユーザーとユーザーグループの追加](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/user-management/add-users-user-groups)を参照してください。
+詳細については、[ユーザーとユーザーグループの追加](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)を参照してください。
 
 ## ログイン方法とSSOの構成
 
@@ -100,7 +98,7 @@ ALM管理者は、セキュリティに関連する重要な設定である、�
 
 Adobeでは、すべての社内ユーザーのログイン方法として、Federated ID/SAML 2.0 SSOを使用することをお勧めします。 これにより、組織のIDプロバイダーによって認証が完全に制御され、MFAの集中適用と、ユーザーの出発時にアカウントが即座に取り消されます。
 
-詳細については、[設定](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/settings)を参照してください。
+詳細については、[設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings)を参照してください。
 
 ## プロビジョニング時に推奨される安全なデフォルト値
 
@@ -136,18 +134,18 @@ ALMアカウントが最初にプロビジョニングされる際には、管�
 * **ユーザーライフサイクル管理**:ユーザーの作成、プロファイルの更新、および役割の変更を行っています。
 * **学習コンテンツ管理**:コース、学習プログラム、資格認定、カタログを管理します。
 * **レポートと分析**：学習者の進行状況とプラットフォームの使用状況に関するレポートを生成およびレビューします。
-* **統合とシステム構成**:コネクタ、APIベースのアクセス、およびシステムレベルの設定を管理します。
+* **統合とシステム構成**: コネクター、APIベースのアクセス、およびシステムレベルの設定を管理しています。
 
 管理者は、管理操作を実行する際に、組織の内部アクセス制御に従い、管理ポリシーを変更する必要があります。
 
-[Adobe Learning Manager管理者のよくある質問](https://experienceleague.adobe.com/ja/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)を参照してください
+[Adobe Learning Manager管理者のよくある質問](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)を参照してください
 
 
 ### ロールの階層と委任
 
 Adobe Admin Consoleでは、階層構造の管理構造を使用します。 システム管理者は、権限の低い役割に責任を委任して、トップレベルの管理者アカウントの攻撃を軽減することができます。
 
-* 製品管理者：特定のAdobe製品(Adobe Learning Managerなど)へのアクセスを管理します。
+* 製品管理者：特定のAdobe製品（Adobe Learning Managerなど）へのアクセスを管理します。
 * 製品プロファイル管理者：特定の製品プロファイルのユーザーメンバーシップを管理します。
 * ユーザーグループ管理者：ユーザーグループのメンバーシップを管理します。
 * ALMカスタム管理者：カタログおよびユーザーグループごとに設定可能な権限を持つ、ALM内のスコープ指定された管理者。
@@ -161,7 +159,7 @@ Adobe Admin Consoleでは、階層構造の管理構造を使用します。 シ
 * **最低限の常時アクセス**：日常的なタスクに最上位の管理者アカウントを使用しないでください。 特に必要なタスクについては、完全な管理者アクセス権を予約してください。
 * **セッションセキュリティ**：無人セッションからの露出を制限するには、[Admin Console] > [設定] > [詳細設定]で[最大セッション期間]と[最大アイドル時間]を構成します。
 
-詳細については、[Admin Consoleの概要](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を参照してください。
+詳細については、[Admin Consoleの概要](https://helpx.adobe.com/enterprise/using/admin-console.html)を参照してください。
 
 ### 管理者コントロールによるユーザーアカウントの管理
 
@@ -174,8 +172,8 @@ ALM管理者は、内部および外部のユーザーアカウントを管理�
 
 詳しくは、以下を参照してください。
 
-* [ユーザーおよびユーザーグループの追加](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [ユーザーを消去](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/purge-users)
+* [ユーザーおよびユーザーグループの追加](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [ユーザーを消去](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
 
 ## 管理口座の廃止
 
@@ -203,8 +201,8 @@ ALM管理者は、内部および外部のユーザーアカウントを管理�
 
 詳しくは、以下を参照してください。
 
-* [Admin Console上のユーザーアカウントを作成、更新、または削除する](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)
-* [組織所有のアカウントから離脱する方法](https://helpx.adobe.com/jp/enterprise/using/leave-organization.html)
+* [Admin Console上のユーザーアカウントを作成、更新、または削除する](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [組織所有のアカウントから離脱する方法](https://helpx.adobe.com/enterprise/using/leave-organization.html)
 
 ### ALM管理者ロールの削除
 
@@ -217,7 +215,7 @@ ALM管理者は、内部および外部のユーザーアカウントを管理�
 
 ユーザーが学習者ロールに戻ります。 それらの学習履歴とコース登録は保持されます。
 
-詳細については、[ユーザーおよびユーザーグループの追加](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/user-management/add-users-user-groups)を参照してください。
+詳細については、[ユーザーおよびユーザーグループの追加](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)を参照してください。
 
 ### ユーザーの削除と消去
 
@@ -226,7 +224,7 @@ ALM管理者は、内部および外部のユーザーアカウントを管理�
 * ユーザーを削除します。ユーザー/内部/ユーザー/アクション/ユーザーを削除を選択します。 これにより、アカウントが無効になり、アクティブなアクセスが削除されます。
 * ユーザーを消去します。削除後、ユーザー/ユーザーのクリーンアップに移動し、削除月を選択します。次に、ユーザーを選択して、「アクション/ユーザーを消去」を選択します。 完全に削除すると、すべてのユーザーレコードが削除されます。
 
-詳細については、[ユーザーの消去](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/purge-users)を参照してください。
+詳細については、[ユーザーの消去](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)を参照してください。
 
 
 ## セキュリティと責任の共有
@@ -236,7 +234,7 @@ Adobe Learning Managerは、共有責任モデルに基づいて動作します�
 * Adobeは、基盤となるALMプラットフォームとインフラストラクチャのセキュリティを確保する責任を負います。
 * お客様は、ALMアカウント内の管理アクセス、役割の割り当て、ユーザーライフサイクルアクティビティを管理する責任があります。
 
-Adobe Learning Managerのセキュリティ対策の詳細については、[Adobe Learning Managerセキュリティの概要(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=ja)を参照してください
+Adobe Learning Managerのセキュリティ対策の詳細については、[Adobe Learning Managerセキュリティの概要(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)を参照してください
 
 ## 文書のメンテナンス
 

@@ -2,14 +2,12 @@
 description: ALMの新しいカートサポートを使用して、複数のSKUを購入する方法について説明します。
 jcr-language: en_us
 title: ALMの複数項目カート
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
-
 ---
-
-
 # ALMの複数項目カート
 
 学習者は、複数のコース、学習パス、または資格認定をカートに追加して一緒に購入できます。 カートを使用して、複数のコース、学習パス、資格認定を一度に購入できます。 この機能は、既存のUI、新しい学習者UI、モバイル没入型アプリなどの学習者アプリでのみ使用できます。

@@ -2,14 +2,12 @@
 title: Experience Builderのウィジェット
 jcr-language: en_us
 description: Adobe Learning ManagerのExperience Builderのウィジェットが、カスタム学習ページを作成するためのモジュール化された構成可能なブロックとして機能する仕組みについて説明します。 コンテンツボックス、カタログ、バナーなどのウィジェットを追加、設定、配置して、コーディングなしでインタラクティブなブランドエクスペリエンスを作成できます。
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
-
+source-wordcount: '480'
+ht-degree: 1%
 ---
-
-
 # 概要
 
 ウィジェットは、Adobe Learning ManagerのExperience Builderに含まれるモジュール化された構成可能なコンテンツブロックまたは機能要素です。
@@ -37,9 +35,9 @@ ht-degree: 0%
 ## ウィジェットの種類
 
 * 動的で、Adobe Learning Managerから直接データを取得する学習ベースのウィジェット（コースとパス、準拠ステータスなど）。
-* カスタムブランディングを作成し、ページに柔軟なコンテンツ(HTML、コンテンツボックスなど)を追加するのに役立つ静的またはコンテンツウィジェット
+* カスタムブランディングを作成し、ページに柔軟なコンテンツ（HTML、コンテンツボックスなど）を追加するのに役立つ静的またはコンテンツウィジェット
 
-| ウィジェット | 説明 | 使用事例 |
+| ウィジェット | 説明 | ユースケース |
 |---|---|---|
 | [カレンダー](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-calendar-widget) | 今後のイベント、トレーニングセッション、期日またはワークショップをカレンダー形式で表示します。 | スケジュールされた学習、ライブイベント、または締め切りに関する情報を学習者に通知します。 |
 | [カテゴリ](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-category-widget) | カタログ、製品、または役割からの学習コンテンツをカテゴリとして表示します。 | トピック、部門、スキルの領域別にトレーニングを参照できます。 |
@@ -51,4 +49,3 @@ ht-degree: 0%
 | [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | 外部webページまたはアプリケーションをインターフェイス内に埋め込みます。 | プラットフォームを離れずに外部コンテンツまたはツールを表示します。 |
 | [学習状況](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | 学習者の進行中のコースと進捗状況をパーソナライズされたビューで表示します。 | 学習者がコースの完了と学習目標を追跡できるようにします。 |
 | [ソーシャル学習](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | フォーラム、ディスカッション、グループ、またはソーシャルコラボレーションツールへのアクセスを提供します。 | ピア・インタラクション、コラボレーション、知識の共有を促進します。 |
-

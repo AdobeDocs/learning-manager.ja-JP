@@ -2,14 +2,12 @@
 title: Experience Builderでメニューを作成およびカスタマイズする方法
 description: このガイドでは、管理者がAdobe Learning Manager内のExperience Builderでメニューを作成する方法について説明します。 メニューに合わせてページを整理したり、メニューレイアウトをカスタマイズしたり、異なるユーザーグループに対してメニューの表示を制御したりする方法について説明します。
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: a9eaf86e-a4b8-4ae2-9873-ab76d8807168
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '667'
 ht-degree: 0%
-
 ---
-
-
 # メニューの作成
 
 2つの主要なチーム、SalesとCustomer Success Manager(CSM)を持つ金融会社の管理者は、それぞれのページで個別のメニューを作成する必要があります。 これにより、学習者は自分の役割に関連するコースを自分のメニューから簡単に見つけることができます。
@@ -87,4 +85,3 @@ _カタログ、ソーシャルラーニング、スキル、バッジなどの�
 ## 次のステップ
 
 ページ、ウィジェット、メニューを設定したら、JavaScriptとCSSを使用してカスタマイズし、学習者の全体的なエクスペリエンスを向上させます。
-
