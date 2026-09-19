@@ -4,22 +4,19 @@ title: Learning Manager のユーザーグループにインストラクター�
 description: Learning Manager のユーザーグループにインストラクターの役割をデフォルトで割り当て
 contentowner: nluke
 preview: true
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 48%
-
 ---
-
-
-
 # Learning Manager のユーザーグループにインストラクターの役割をデフォルトで割り当て
 
 ## 問題
 
 セッションに割り当てられているすべてのユーザーに、インストラクターの役割が割り当てられます。
 
-## 説明
+## 概要
 
 セッションに複数のインストラクターが必要な場合や、管理者/作成者がユーザーグループをセッションに割り当てる場合があります。 これによりユーザーグループ内のすべてのユーザーにインストラクターの役割が割り当てられます。
 
@@ -36,7 +33,7 @@ ht-degree: 48%
 
    ![](assets/instructor-disable-all.png)
 
-1. **ユーザー**/**ユーザーグループ**&#x200B;に移動します。 **[!UICONTROL 「追加」]**&#x200B;をクリックします。
+1. **ユーザー**/**ユーザーグループ**&#x200B;に移動します。 **&#x200B;**
 
    ![](assets/instructor-usergroups.png)
 

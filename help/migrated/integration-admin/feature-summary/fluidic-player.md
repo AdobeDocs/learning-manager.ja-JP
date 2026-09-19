@@ -4,15 +4,12 @@ jcr-language: en_us
 title: 埋め込み型 Fluidic プレーヤー
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 31%
-
+source-wordcount: '1693'
+ht-degree: 32%
 ---
-
-
-
 # 埋め込み型 Fluidic プレーヤー
 
 この記事では、カスタムアプリケーションに Fluidic プレーヤーを埋め込む方法について説明します。
@@ -75,9 +72,9 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-ここで、**[!UICONTROL クライアントID]**&#x200B;は、手順1で取得したアプリケーションIDです。
-**[!UICONTROL redirect_url]**&#x200B;は、手順1で設定したredirect_urlです。
-**[!UICONTROL state]**&#x200B;は、任意のダミーデータです。OAuthコードを取得するためのリダイレクトURLをフィルタリングする必要があります。 scope は、手順 1 で設定した学習者のスコープです。
+ここで、**[!UICONTROL クライアント ID]** は、手順 1 で取得したアプリケーション ID になります。
+**[!UICONTROL redirect_url]**&#x200B;は、手順1で設定されたredirect_urlです。
+**[!UICONTROL state]**&#x200B;は、任意のダミーデータです。OAuthコードを取得するためのリダイレクトURLをフィルター処理する必要があります。 scope は、手順 1 で設定した学習者のスコープです。
 **[!UICONTROL response_typ]**&#x200B;eは常に「CODE」です。\
 **[!UICONTROL account]**&#x200B;はオプションのフィールドです\
 **[!UICONTROL email]**&#x200B;はオプションのフィールドです\
@@ -154,10 +151,10 @@ code window.addEventListener("message", function closePlayer(){
 
 ## サンプルアプリケーションチュートリアル {#sampleapplicationtutorial}
 
-添付のpdf文書には、サンプルアプリケーションチュートリアルが含まれています。
-[Fluidicプレーヤーを埋め込むためのサンプルチュートリアルとチュートリアルソース。](assets/sample-applicationtutorial.zip) 代替コンテンツ
+添付の pdf ドキュメントには、サンプルアプリケーションチュートリアルが含まれています。
+[Fluidicプレーヤーを埋め込むサンプルチュートリアルとチュートリアルソース。](assets/sample-applicationtutorial.zip) 代替コンテンツ
 
-管理者は、Fluidicプレーヤー内で学習者に代替コンテンツを提供できるように、コースの内容を設定できます。 例えば、複数の地域の学習者が複数の言語を使用する場合は、複数の言語で同じコンテンツを作成できます。 Fluidicプレーヤーは設定されている言語を学習者に提供しますが、学習者はプレーヤー内から別の言語に切り替えることもできます。
+管理者は、Fluidicプレーヤー内で学習者に代替コンテンツを提供できるようにコースマテリアルを設定できます。 例えば、複数の地域の学習者が複数の言語を使用する場合は、複数の言語で同じコンテンツを作成できます。 Fluidicプレーヤーは設定されている言語を学習者に提供しますが、学習者はプレーヤー内から別の言語に切り替えることもできます。
 
 ビデオ固有のコントロール
 
@@ -179,7 +176,7 @@ Learning Manager Fluidicプレーヤーで使用されているストリーミ�
 
 1. アクセストークンを必須パラメーターとして使用します。
 
-   * access_token ：これはセキュリティパラメーターで、パブリックAPI oauthを使用します   アクセストークン
+   * access_token ：これはセキュリティパラメーターで、パブリックAPI oauthアクセストークンを使用します
 
    トークンは、統合管理者で埋め込み型Fluidicプレーヤーを設定することで取得できます。 アクセストークンとして使用できる認証トークンを取得できます。
 
@@ -224,7 +221,7 @@ URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adob
 
 必須パラメーター：
 
-* access_token ：これはセキュリティパラメーターで、パブリックAPI oauthを使用します   アクセストークン
+* access_token ：これはセキュリティパラメーターで、パブリックAPI oauthアクセストークンを使用します
 
 上記のパラメーターを取得するために、Learning Manager API呼び出しを作成します。 これらのAPI呼び出しは、ITチーム/コンサルタントがサイトで作成およびホストするアプリケーションによって行われます。
 
@@ -235,5 +232,3 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

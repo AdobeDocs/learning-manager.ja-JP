@@ -2,14 +2,12 @@
 description: 統合設定を使用してAdobe Learning Managerとサードパーティソリューションを連携する方法の詳細
 jcr-language: en_us
 title: Adobe Learning Managerの統合設定
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%
-
 ---
-
-
 # Adobe Learning Managerの統合設定
 
 ## ログイン方法
@@ -73,19 +71,14 @@ Adobe Learning Managerはシングルサインオン(SSO)をサポートして�
 
 **データソースの種類の例**
 
-* **FTPコネクタ**: FTPベースのデータソースを使用すると、セキュリティで保護されたファイル転送プロトコルを介してユーザーのデータファイルをAdobe Learning Managerに直接アップロードできます。 これらの接続は、ユーザー情報、コース登録、およびその他のバルクデータ操作をバッチで読み込む場合に特に便利です。
-* **サードパーティとの統合** : Adobe Learning Managerは、事前定義済みのコネクタを介したさまざまなエンタープライズシステムとの統合をサポートしています。 これらの統合には、人事管理システム、顧客関係管理プラットフォーム、およびその他の学習管理システムが含まれます。
-*** Salesforceとの統合**: Salesforceコネクターを使用すると、SalesforceとAdobe Learning Managerの間でユーザーデータ、コース情報、学習記録を直接同期できます。
+* **FTP コネクター**: FTPベースのデータソースを使用すると、セキュリティで保護されたファイル転送プロトコルを介してユーザーのデータファイルを直接Adobe Learning Managerにアップロードできます。 これらの接続は、ユーザー情報、コース登録、およびその他のバルクデータ操作をバッチで読み込む場合に特に便利です。
+* **サードパーティとの統合** : Adobe Learning Managerは、事前定義済みのコネクターを介したさまざまなエンタープライズシステムとの統合をサポートしています。 これらの統合には、人事管理システム、顧客関係管理プラットフォーム、およびその他の学習管理システムが含まれます。
+*** Salesforceとの統合**: Salesforceコネクターでは、SalesforceとAdobe Learning Managerの間でユーザーデータ、コース情報、学習記録を直接同期できます。
 
-詳細については、[Adobe Learning Managerのコネクタ](/help/migrated/integration-admin/feature-summary/connectors.md)を参照してください。
+詳細については、[Adobe Learning Managerのコネクター](/help/migrated/integration-admin/feature-summary/connectors.md)を参照してください。
 
 ## ピアアカウント
 
 Adobe Learning Managerのピアアカウントでは、購入した席を共有し、関連するアカウント間でレポートを表示できます。 この機能は、組織が異なるアカウント間で共同作業やリソースの共有を行う場合に便利です。
 
 詳しくは、Adobe Learning Managerの[ピアアカウント](/help/migrated/administrators/feature-summary/peer-account.md)を参照してください。
-
-
-
-
-

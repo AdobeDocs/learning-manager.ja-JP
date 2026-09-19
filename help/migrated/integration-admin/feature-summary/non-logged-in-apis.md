@@ -2,13 +2,12 @@
 description: ヘッドレスインターフェイスを開発するためのログインなしのAPIについて説明します。
 jcr-language: en_us
 title: ログインしていないAPI
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # ログインしていないAPI
 
 この記事では、ヘッドレスまたはログインなしのエクスペリエンスのデータを提供するAdobe Learning Manager APIについて説明します。
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 **サンプルカール**
 
-次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。
+次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクターページにあります。
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -91,7 +90,7 @@ curl --location '<Base_URL>/filterableData'
 
 **フィルターオプション**
 
-| オプション | 説明 |
+| オプション | 概要 |
 | --- | --- |
 | `loSkillLevels` | コースへの登録に必要な熟達度。 |
 | `catalogNames` | 使用可能なカタログ名のリスト。 |
@@ -114,7 +113,7 @@ curl --location '<Base_URL>/filterableData'
 
 **サンプルカール**
 
-次のリクエストを行うには、POST方式を使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。
+次のリクエストを行うには、POST方式を使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクターページにあります。
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -266,7 +265,7 @@ curl --location '<Base_URL>/search?size=1000' \
 
 次の並べ替えオプションを選択して、結果に適用できます。
 
-| オプション | 説明 |
+| オプション | 概要 |
 | --- | --- |
 | `duration` | 学習目標の期間。 |
 | `publishDate` | 学習目標の公開日。 |
@@ -282,7 +281,7 @@ curl --location '<Base_URL>/search?size=1000' \
 
 **サンプルカール**
 
-次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。
+次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクターページにあります。
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
@@ -306,7 +305,7 @@ curl --location '<Base_URL>/learningObjectIds'
 
 **サンプルカール**
 
-次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクタページにあります。 &lt;Course_ID>を特定のコースIDに置き換えます。
+次のリクエストを行うには、GETメソッドを使用します。 &lt;Base_URL>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;Base_URL>はトレーニングデータアクセスコネクターページにあります。 &lt;Course_ID>を特定のコースIDに置き換えます。
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
@@ -343,7 +342,7 @@ CDN JSON APIを使用すると、特定のコースに関する完全なコー�
 
 **コースのカールのサンプル**
 
-次のリクエストを行うには、GETメソッドを使用します。 &lt;CDN_path>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;CDN_path>はトレーニングデータアクセスコネクタページにあります。 &lt;Course_ID>を特定のコースIDに置き換えます。
+次のリクエストを行うには、GETメソッドを使用します。 &lt;CDN_path>は、以下のcurlコマンドのベースURLに置き換えます。 &lt;CDN_path>はトレーニングデータアクセスコネクターページにあります。 &lt;Course_ID>を特定のコースIDに置き換えます。
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
