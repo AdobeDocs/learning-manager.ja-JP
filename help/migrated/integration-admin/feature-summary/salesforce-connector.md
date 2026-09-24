@@ -1,23 +1,21 @@
 ---
-description: SalesforceコネクターとAdobe Learning Managerを統合する方法
+description: Salesforce コネクターとAdobe Learning Managerを統合する方法について説明します。
 jcr-language: en_us
 title: Salesforce コネクタ
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 5%
-
+ht-degree: 4%
 ---
 
-
-# Adobe Learning Manager用Salesforceコネクタ
+# Adobe Learning Manager用Salesforce コネクター
 
 ## 概要
 
-SalesforceコネクターはSalesforceアカウントとAdobe Learning Manager(ALM)アカウントを統合し、ユーザーの自動インポート、データ同期、学習記録の書き出しを可能にします。 このガイドでは、Salesforce内でコネクターの設定、ユーザーデータの管理、および学習インサイトの統合を行う方法について説明します。
+Salesforce コネクターは、SalesforceアカウントとAdobe Learning Manager(ALM)アカウントを統合して、ユーザーの自動インポート、データ同期、学習記録の書き出しを可能にします。 このガイドでは、Salesforce内でコネクターを設定し、ユーザーデータを管理し、ラーニングインサイトを統合する方法について説明します。
 
-Adobe Learning Manager用Salesforceコネクターを使用すると、ユーザーの自動インポート、カスタムデータマッピングのサポート、Salesforceへの学習記録の書き出しにより、スムーズな統合が可能になります。
+Adobe Learning Manager向けSalesforceコネクターでは、ユーザーの自動インポート、カスタムデータマッピングのサポート、Salesforceへの学習記録の書き出しにより、スムーズな統合が可能です。
 
 このガイドに従うことで、以下の方法を学習できます。
 
@@ -25,17 +23,17 @@ Adobe Learning Manager用Salesforceコネクターを使用すると、ユーザ
 - Salesforceからの自動ユーザーインポートプロセスを設定します。
 - SalesforceフィールドをAdobe Learning Manager属性に効果的にマッピングします。
 - 包括的なレポートを作成するために、学習記録をSalesforceに書き出します。
-- 対象となるデータ同期のフィルタリングとスケジューリングを設定します。
+- ターゲットのフィルタリング同期用にデータとスケジュールを設定します。
 
-## Salesforceコネクタとは何ですか？
+## Salesforceのコネクターとは何ですか？
 
-Salesforceコネクターは、Salesforce CRMとAdobe Learning Managerの間にシームレスなブリッジを構築する強力な統合ツールです。 このコネクタは、ユーザー情報、連絡先データ、および学習記録を2つのプラットフォーム間で自動的に同期させることにより、手動でのデータ入力を不要にします。
+Salesforce コネクターは、Salesforce CRMとAdobe Learning Managerの間にシームレスなブリッジを構築する強力な統合ツールです。 このコネクターは、ユーザー情報、連絡先、学習記録を2つのプラットフォーム間で自動同期することにより、手作業によるデータ入力を不要にします。
 
 ## 主な機能
 
 ### 属性のマッピング
 
-これにより、SalesforceフィールドとAdobe Learning Managerユーザー属性の間に柔軟なリンクを作成できます。 名前、電子メール、マネージャーなどの標準フィールドを、Learning Managerの対応する属性にマッピングできます。 コネクターは、両方のプラットフォームでカスタムフィールドをサポートしています。また、データの精度を維持するために必要なフィールド検証が含まれており、将来の読み込みで再利用できるようにマッピング設定を保存できます。
+これにより、SalesforceフィールドとAdobe Learning Managerユーザー属性の間に柔軟なリンクを作成できます。 名前、電子メール、マネージャーなどの標準フィールドを、Learning Managerの対応する属性にマッピングできます。 また、このコネクターは両方のプラットフォームでカスタムフィールドをサポートしています。データの精度を保つために必要なフィールド検証が含まれており、将来の読み込みで再利用できるようにマッピング設定を保存できます。
 
 ### 自動ユーザー読み込み
 
@@ -54,14 +52,14 @@ Salesforceコネクターは、Salesforce CRMとAdobe Learning Managerの間に�
 
 ### ユーザーフィルター
 
-- フィルタリング基準を適用して特定のユーザー集団を対象とし、データ同期効率を最適化します。
-- 目的のトレーニングプログラムのための役割ベースのフィルタリング。
-- 地域に関する実装に対する地理的または場所ベースのフィルタリング
-- Salesforceの基準と式を使用したカスタムフィールドフィルタリング
+- フィルタリング基準を適用して特定のユーザー集団を対象とし、データ同期の効率を最適化します。
+- 対象トレーニングプログラムのロールベースのフィルタリング。
+- 地域ごとの導入のための地理的または場所ベースのフィルタリング
+- Salesforceの基準と式を使用したカスタムフィールドフィルタリング。
 
 ## 前提条件
 
-Salesforceコネクタを設定する前に、環境が次の要件を満たしていることを確認してください。
+Salesforce環境を設定する前に、コネクターが次の要件を満たしていることを確認してください。
 
 - [Salesforce組織のURL](https://myorg.salesforce.com)
 - SalesforceとAdobe Learning Managerの両方の管理者ログイン資格情報。
@@ -72,13 +70,13 @@ Salesforceコネクタを設定する前に、環境が次の要件を満たし�
 
 Adobe Learning ManagerのSalesforceコネクターを使用すると、統合管理者はSalesforceとAdobe Learning Managerの間でユーザーデータと学習記録を自動的に同期できます。
 
-Salesforceコネクタを作成するには：
+Salesforce コネクターを作成するには：
 
 1. 統合管理者としてログインします。
 2. **Salesforce**&#x200B;を選択して、**Connect**&#x200B;を選択します。
 
    ![](assets/salesforce-connector1.png)
-   _[接続]ボタンが強調表示されたSalesforceコネクタを示す[Adobe Learning Managerコネクタ]ページ_
+   _[接続]ボタンが強調表示されたSalesforce コネクターを示すAdobe Learning Manager コネクターページ_
 
 3. Salesforce組織のURLを入力し、**Connect**&#x200B;を選択します。 Salesforceのログインページが表示されます。
 
@@ -87,10 +85,10 @@ Salesforceコネクタを作成するには：
 
 4. ユーザー名とパスワードでログインします。 2要素認証やセキュリティ質問への回答など、追加の認証手順を完了します。
 
-   認証が成功すると、「コネクタ概要」ページが表示され、システム間で確立された接続が確認されます。
+   認証が成功すると、「コネクターの概要」ページが表示され、システム間で確立された接続が確認されます。
 
    ![](assets/salesforce-connector3.png)
-   _正常な接続ステータスを示すSalesforceコネクタの概要ページ_
+   _正常なコネクターステータスを示すSalesforce接続の概要ページ_
 
 ### マップ属性
 
@@ -103,7 +101,7 @@ Salesforceコネクタを作成するには：
 
 属性をマッピングするには、次の手順に従います。
 
-1. Salesforceコネクタの概要ページに移動します。
+1. Salesforce コネクターの概要ページに移動します。
 2. **社内ユーザー**&#x200B;を選択し、**マッピングの構成**&#x200B;を選択します。
 3. 次のいずれかを選択します。
 
@@ -119,24 +117,24 @@ Salesforceコネクタを作成するには：
 
 ## ユーザーと連絡先の読み込み
 
-Salesforceコネクターを使用すると、Adobe Learning ManagerはSalesforceアカウントに接続し、設定に基づいてユーザーを自動的に読み込むことができます。
+Salesforceコネクターを使用すると、Adobe Learning ManagerでSalesforceアカウントに接続し、設定に基づいてユーザーを自動的に読み込むことができます。
 
 - **内部ユーザー**: Salesforceユーザーアカウントを持つ従業員およびスタッフメンバー。
 - **外部連絡先**：顧客、パートナー、ベンダー、その他の外部関係者。
 - **混在インポート**:ユーザーと連絡先の組み合わせを単一の同期処理で処理します。
 - **フィルターされたインポート**：特定の条件に基づくターゲット同期。
 
-Salesforceコネクターを使用すると、Adobe Learning ManagerはSalesforceアカウントに接続し、設定に基づいてユーザーを自動的に読み込むことができます。
+Salesforceコネクターを使用すると、Adobe Learning ManagerでSalesforceアカウントに接続し、設定に基づいてユーザーを自動的に読み込むことができます。
 
-コネクターでは、標準のSalesforceユーザーに加えて、連絡先の読み込みがサポートされています。 これにより、クライアントやパートナーなどの外部の関係者にトレーニングプログラムを拡張できます。
+このコネクターでは、標準のSalesforceユーザーに加えて、連絡先の読み込みがサポートされています。 これにより、クライアントやパートナーなどの外部の関係者にトレーニングプログラムを拡張できます。
 
 連絡先をインポートするには、次の手順に従います。
 
-1. **コネクタ**&#x200B;ページで&#x200B;**Salesforce**&#x200B;を選択します。
+1. **コネクター**&#x200B;ページで&#x200B;**Salesforce**&#x200B;を選択します。
 2. 接続ページで&#x200B;**社内ユーザーのインポート**&#x200B;を選択します。
 
    ![](assets/salesforce-connector5.png)
-   _[内部ユーザーのインポート]オプションが強調表示されているSalesforceコネクタページ_
+   _「社内ユーザーの読み込み」オプションがハイライトされたSalesforce コネクターページ_
 
 3. **ユーザーの読み込み**&#x200B;ページで&#x200B;**連絡先**&#x200B;を選択します。
 4. **はい**&#x200B;を選択して、**インポート前に連絡先をフィルター**&#x200B;するオプションを選択します。 **
@@ -147,7 +145,7 @@ Salesforceコネクターを使用すると、Adobe Learning ManagerはSalesforc
    - Salesforce属性とAdobe Learning Managerフィールドのマッピング
 
    ![](assets/salesforce-connector6.png)
-   _フィルターオプションとフィールドマッピングを示す連絡先のインポート構成_
+   _フィルタリングオプションとフィールドマッピングを示すインポート構成の連絡先_
 
 6. 「**保存**」を選択します。
 7. [**いいえ]を選択した場合。**&#x200B;をクリックすると、連絡先をフィルタリングせずにフィールドを直接マップできます。
@@ -164,9 +162,9 @@ Adobe Learning Managerから学習記録を書き出す前に、Salesforceでカ
 
 Adobeには、必要なカスタムオブジェクトを作成する事前定義済みパッケージが用意されています。
 
-- [パッケージ1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ):コア学習目標とフィールド
-- [パッケージ2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)：拡張学習分析オブジェクト
-- [パッケージ3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)：追加のレポートおよび統合オブジェクト
+- [パッケージ1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS):コア学習目標とフィールド
+- [パッケージ2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)：拡張学習分析オブジェクト
+- [パッケージ3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)：追加のレポートおよび統合オブジェクト
 
 >[!IMPORTANT]
 >
@@ -190,7 +188,7 @@ Adobeには、必要なカスタムオブジェクトを作成する事前定義
 
 レコードをSalesforceに書き出すには：
 
-1. **Salesforce**&#x200B;コネクタページで&#x200B;**統合レコードの書き出し**&#x200B;を選択します。
+1. **Salesforce** コネクターページで&#x200B;**統合レコードの書き出し**&#x200B;を選択します。
 2. 次からイベントを選択します。
 
    - 新規ユーザーの追加
@@ -398,4 +396,4 @@ Adobe Learning Managerアプリは、Adobe Learning Managerのロールに対応
 
 プロファイルが割り当てられた学習者は、SalesforceでAdobe Learning Managerアプリにアクセスできるようになりました。
 
-Adobe Learning Manager用Salesforceコネクタの設定が完了しました。 ユーザーはSalesforce内から学習コンテンツに直接アクセスできるようになり、組織のトレーニングプログラムへの導入とエンゲージメントが向上します。
+Adobe Learning Manager用のSalesforce コネクターが正常に設定されました。 ユーザーはSalesforce内から学習コンテンツに直接アクセスできるようになり、組織のトレーニングプログラムへの導入とエンゲージメントが向上します。
