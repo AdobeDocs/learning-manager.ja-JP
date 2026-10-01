@@ -3,9 +3,9 @@ description: Adobe Learning ManagerのAIアシスタントを使用すると、�
 jcr-language: en_us
 title: Adobe Learning Managerの学習者向けAIアシスタント
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # 学習者向けの AI アシスタント
@@ -81,7 +81,7 @@ Adobeは、信頼できるサービスを使用して学習コンテンツを安
 
 AIアシスタントでは、社内カタログおよびサードパーティのコンテンツライブラリのコンテンツのみを使用します。 学習者からの質問に対する回答は、学習者がアクセス権を持つカタログからのみ取得されます。
 
-次のコンテンツソースはサポートされていません：
+次のコンテンツソースは、現在のリリースではサポートされていません。
 
 - 共有外部カタログ
 - 既定のカタログ

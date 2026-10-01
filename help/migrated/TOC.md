@@ -2,17 +2,17 @@
 user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
-source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
+nudge: true
+source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 36%
-
+source-wordcount: '1786'
+ht-degree: 34%
 ---
 
-
-# Learning Managerガイド {#using}
+# Adobe学習マネージャーユーザーガイド {#using}
 
 * [Adobe学習マネージャーユーザーガイド](user-guide.md)
+* {hide-from-toc}[Adobe Learning Managerユーザーガイド](user-guide-redesign.md)
 * 概要 {#introduction}
   * [新機能の概要2026年8月](whats-new.md)
   * [新機能の概要2026年4月](whats-new-april-2026.md)
@@ -114,7 +114,11 @@ ht-degree: 36%
   * [代替文字と等価](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
   * [学習プラン](administrators/feature-summary/learning-plans.md)
   * [Learning Manager の注文および請求管理](administrators/feature-summary/billing-management.md)
+  * [Adobe Learning Managerのシート共有とアカウントプラン](administrators/feature-summary/tiering-seat-sharing.md)
   * [作業計画書](administrators/feature-summary/job-aids.md)
+  * バイタルコーチ {#virtualcoachadmin}
+    * [バーチャルコーチの使用と請求の管理](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+    * [バーチャルコーチレポート](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
   * [チャンネルの作成（ベータ版）](administrators/feature-summary/create-channels.md)
   * [資格認定](administrators/feature-summary/certifications.md)
   * [証明書の作成とカスタマイズ](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -164,13 +168,13 @@ ht-degree: 36%
   * [iFrameを使用した学習者アシスタントの統合](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
   * Learning Manager コネクター {#connectors}
-    * [コネクタの概要](integration-admin/feature-summary/connectors.md)
-    * [ADFSコネクタ](integration-admin/feature-summary/adfs-connector.md)
+    * [コネクターの概要](integration-admin/feature-summary/connectors.md)
+    * [ADFS コネクター](integration-admin/feature-summary/adfs-connector.md)
     * [Adobe Commerce connector](integration-admin/feature-summary/adobe-commerce-connector.md)
-    * [Adobe Connectコネクタ](integration-admin/feature-summary/adobe-connect-connector.md)
+    * [コネクター](integration-admin/feature-summary/adobe-connect-connector.md)
     * [Box コネクター](integration-admin/feature-summary/box-connector.md)
-    * [カスタムFTPコネクタ](integration-admin/feature-summary/custom-ftp-connector.md)
-    * [FTPコネクタ](integration-admin/feature-summary/ftp-connector.md)
+    * [カスタムFTP コネクター](integration-admin/feature-summary/custom-ftp-connector.md)
+    * [FTP コネクター](integration-admin/feature-summary/ftp-connector.md)
     * [getAbstract コネクタ](integration-admin/feature-summary/getabstract-connector.md)
     * [Harvard ManageMentor コネクタ](integration-admin/feature-summary/harvard-managementor-connector.md)
     * [LinkedIn Learning コネクタ](integration-admin/feature-summary/linkedin-learning-connector.md)
@@ -180,7 +184,7 @@ ht-degree: 36%
     * [Salesforce コネクタ](integration-admin/feature-summary/salesforce-connector.md)
     * [Training Data Access コネクタ](integration-admin/feature-summary/training-data-access-connector.md)
     * [Workday コネクタ](integration-admin/feature-summary/workday-connector.md)
-    * [Zoomコネクタ](integration-admin/feature-summary/zoom-connector.md)
+    * [ズームコネクター](integration-admin/feature-summary/zoom-connector.md)
   * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhooks {#webhooks}
     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -207,6 +211,15 @@ ht-degree: 36%
   * [コースの作成、変更、パブリッシュ](authors/feature-summary/courses.md)
   * [カタログ](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[アダプティブコース](authors/feature-summary/adaptive-course-author.md)
+  * バーチャルコーチ {#virtual-coach}
+    * [バーチャルコーチとは](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+    * [バーチャルコーチロールプレイのマテリアルを集める](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+    * [バーチャルコーチのデザイン](authors/feature-summary/virtual-coach/role-play-design.md)
+    * バーチャルコーチの作成 {#create-virtual-coach}
+      * [バーチャルコーチテンプレートを使用したロールプレイの作成](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+      * [バーチャルコーチロールプレイの作成と公開](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
+    * [コースへのバーチャルコーチロールプレイの追加](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
+    * [バーチャルコーチに関するFAQ](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
   * [作業計画書](authors/feature-summary/job-aids.md)
   * [成績表](authors/feature-summary/alm-author-gradebook.md)
   * [iPad および Android タブレットのユーザー](authors/feature-summary/ipad-android-tablet-users.md)
@@ -276,6 +289,9 @@ ht-degree: 36%
   * [ログイン](learners/feature-summary/user-login.md)
   * [プロファイル設定](learners/feature-summary/settings.md)
   * [カタログ](learners/feature-summary/catalogs.md)
+  * [仮想コーチ] {#virtualcoach}
+    * [バーチャルコーチでロールプレイを練習する](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+    * [バーチャルコーチパフォーマンスレポートについて](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
   * [「自分が保存済み」ウィジェット](learners/feature-summary/saved-by-me-widget.md)
   * [学習状況](learners/feature-summary/courses.md)
@@ -389,6 +405,7 @@ ht-degree: 36%
   * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)
 * APIの変更 {#api-changes}
   * [増分ユーザーレポート（ジョブAPI）](/help/migrated/incremental-user-report.md)
+  * [2026年9月リリースのAPIの変更](/help/migrated/api-changes-sep-2026.md)
   * [2026年8月リリースのAPIの変更](/help/migrated/api-changes-august-2026.md)
   * [2026年4月リリースのAPIの変更](/help/migrated/api-changes-alm.md)
   * [2026年5月リリースのAPIの変更](/help/migrated/api-changes-alm-may.md)

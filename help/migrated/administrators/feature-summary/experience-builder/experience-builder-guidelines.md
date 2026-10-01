@@ -3,13 +3,11 @@ title: Adobe Learning ManagerのExperience Builderガイドラインと制限事
 description: Experience Builderのガイドラインと制限により、AI駆動型アルゴリズムを使用して、学習者にパーソナライズされたコースとコンテンツの提案が提供されます。
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
-
 ---
-
 # Experience Builderのガイドラインと制限事項
 
 Experience Builderは、ユーザーがダイナミックで魅力的なwebページを簡単に作成できるように設計された強力なツールです。 最適なパフォーマンス、操作性、およびセキュリティを確保するには、ページの設定、ウィジェットの使用、およびレイアウトのカスタマイズを行う際に、特定のガイドラインと推奨事項に従うことが不可欠です。 このドキュメントでは、ユーザーがExperience Builderを使用する際に考慮すべき重要な注意事項および注意事項について詳しく説明します。
@@ -81,7 +79,7 @@ Experience Builderでは、最大1,000ページまで作成できます。 こ�
 
 ### 免責事項
 
-* カスタムコードは、今後のリリースでは正常に機能しなくなり、調整が必要になる場合があります。 リリースごとにコードを更新する準備をしておいてください。
+* カスタムHTML、CSS、およびJavaScriptのカスタマイズがサポートされていますが、プラットフォームアップデートでは、カスタムコードに微調整が必要になる場合があります。 メジャーリリース後は、定期的なメンテナンスの一環としてカスタマイズをテストすることをお勧めします。
 
 ## 一般的な推奨事項
 
