@@ -3,13 +3,11 @@ title: Adobe Learning Manager ユーザーガイドへようこそ
 description: Adobe Learning Manager（以前のAdobe Captivate Prime）の最新サービスについて説明します。 始めのセクションから読み進めたり、各セクションに個別にアクセスしたり、コミュニティに接続したりしてプロジェクトの作業を進めていきましょう。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
+source-git-commit: 3d72e5ad28f5d57090d40914a983b5c665a2e7df
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 29%
-
 ---
-
 # Adobe Learning Manager ユーザーガイドへようこそ
 
 Adobe Learning Manager（以前のAdobe Captivate Prime）の最新サービスについてお読みください。 最初から開始し、各セクションを自分のペースで探索するか、プロジェクトを進めながらコミュニティとつながりましょう。
@@ -44,7 +42,7 @@ Adobe Learning Manager（以前のAdobe Captivate Prime）の最新サービス�
     <img alt="ADFS" src="assets/learning-manager-connectors.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Managerコネクタ</strong></a>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager コネクター</strong></a>
     </div>
    </td>
    <td style="width:25%; text-align:left; vertical-align:top;">

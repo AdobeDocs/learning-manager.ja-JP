@@ -2,13 +2,11 @@
 description: Insights Agentは、Adobe Learning ManagerのAIを活用した機能で、管理者は自然言語を使用して学習者のデータを照会できます。
 jcr-language: en_us
 title: Adobe Learning ManagerのInsights Agent（ベータ版）
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 1%
-
 ---
-
 
 # Insights Agentとは
 
@@ -28,7 +26,7 @@ Insights Agentを使用して、次の操作を実行できます。
 
 ## Data Insights Agentでサポートされていない機能
 
-次のデータ型は、このリリースの範囲外です。
+次のデータ型は現在、スコープインサイトエージェントの外部にあります：
 
 - フィードバックおよび調査データ
 - ゲーミフィケーションポイントとバッジ
@@ -61,6 +59,7 @@ Adobe Learning ManagerでInsights Agentを使用すると、学習データに�
 **インサイトの取得**&#x200B;モードが既定で選択されている場合、アシスタントにアクセスするたびにモードを調整する必要なしに、学習データのクエリをすぐに開始できます。 ただし、説明のための質問を&#x200B;**学ぶ**&#x200B;モードに切り替えた場合は、クエリを送信する前に&#x200B;**インサイトを取得**&#x200B;を再度選択してください。
 
 1. Learning ManagerのAIアシスタントアイコンを選択して、アシスタントパネルを開きます。 **[インサイトの取得]**&#x200B;オプションは既定で既に選択されています。
+
    ![](assets/ask-question.png)
 
 2. テキストフィールドに質問を入力します。 分かりやすい言葉を使いなさい。 例： **過去3か月間に作成されたコースの数**
@@ -72,12 +71,15 @@ Adobe Learning ManagerでInsights Agentを使用すると、学習データに�
 質問を送信すると、Insights Agentがリクエストを処理し、最大4つの要素から成る応答を返します。
 
 1. **曖昧さ回避（必要な場合）:**&#x200B;質問に「学習活動」、「パフォーマンス」、「過去3か月間のパフォーマンスデータを提供する」などのあいまいな用語が含まれている場合、アシスタントによってオプションのリストが表示され、処理を進める前にオプションを選択するよう求められます。 お探しのオプションに最も合うオプションを選択します。 最初の質問の後に、他の指示を入力することはできません。 クエリインターフェイスを使用して新しいクエリを開始するまで、表示されるオプションから選択することだけが可能なインタラクションです。 あいまいさがない場合は、表示されるオプションからしか選択できません。フリーテキストによるフォローアップはこのリリースでは利用できません。
+
    ![](assets/disambiguation.png)
 
 2. **アプローチ：** 「**アプローチ**」セクションには、担当者がデータを取得するためにかかった手順が記載されています。 質問の下にスクロール可能なパネルとして表示されます。 展開アイコンを選択して、フルアプローチを表示します。 このセクションを確認すると、特に複雑なクエリの場合に、目的に合ったロジックを確認できます。 例えば、「過去1年間に登録されたすべての学習者」と尋ねると、すべての登録レコードではなく、各学習者の最新の登録がエージェントによって返される場合があります。 「**アプローチ**」セクションでは、データの取得時に担当者が行った決定事項を説明します。 ロジックが意図と一致しない場合は、より具体的な用語を使用して新しいクエリを開始します。
+
    ![](assets/approach.png)
 
-3. **結果：**&#x200B;インサイトエージェントは、結果をテキストまたはテーブルとして生成します。 表形式で最も適切に解釈されるデータポイントの場合、Insights Agentは表を返します。 Insights Agentはチャートやグラフを生成しません。 データを視覚化するには、CSVをダウンロードして、ご希望のツールで開きます。 結果には、プレーンランゲージの概要が含まれます。 結果の行数が50行以下の場合は、データに関する分析インサイトが集計に含まれます。 結果に50行を超える行が含まれる場合、概要には列レベルの統計が表示されます。 例：「過去1年間に作成された登録数が5つ以上のコースはどれですか。また、作成者はだれですか」
+3. **結果：**&#x200B;インサイトエージェントは、結果をテキストまたはテーブルとして生成します。 表形式で最も適切に解釈されるデータポイントの場合、Insights Agentは表を返します。 Insights Agentは、チャートやグラフを生成しません。 データを視覚化するには、CSVをダウンロードして、ご希望のツールで開きます。 結果には、プレーンランゲージの概要が含まれます。 結果の行数が50行以下の場合は、データに関する分析インサイトが集計に含まれます。 結果に50行を超える行が含まれる場合、概要には列レベルの統計が表示されます。 例：「過去1年間に作成された登録数が5つ以上のコースはどれですか。また、作成者はだれですか」
+
    ![](assets/results.png)
 
 また、応答には次の概要が含まれます。
@@ -95,11 +97,9 @@ Adobe Learning ManagerでInsights Agentを使用すると、学習データに�
 >
 >概要の形式は、データの性質によって異なります。 次に、サマリー応答の例を示します。 実際の概要は、クエリによって異なります。
 
-
 >[!NOTE]
 >
 >Insights Agentは確率論的です。 同じクエリを2回実行すると、応答の文言や結果の順序がわずかに異なる場合があります。
-
 
 ### レポートのダウンロード
 
@@ -108,7 +108,8 @@ Adobe Learning ManagerでInsights Agentを使用すると、学習データに�
 ## 新しいクエリの開始
 
 各Insightsエージェントのセッションは、一度に1つの質問を処理します。 結果を確認したら、**新しい質問**&#x200B;を選択して別の質問をします。 現在のクエリを破棄して新たに開始する場合は、応答を受信する前を含め、いつでも&#x200B;**新しいチャット**&#x200B;を選択できます。 同じセッションでフォローアップの質問を入力したり、返された結果を調整または拡張するように担当者に依頼したりすることはできません。
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Adobe Learning ManagerでInsights Agentを使用すると、学習データに�
 ## フィードバックの提出
 
 各応答の後、上向きまたは下向きの親指のアイコンを選択して結果を評価します。 出力が不正確だったか、理解しにくかったか、返すのに時間がかかりすぎたかを指定することもできます。 このフィードバックは、担当者の経時的な改善に役立ちます。
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## ベストプラクティス
 
@@ -125,9 +127,11 @@ Adobe Learning ManagerでInsights Agentを使用すると、学習データに�
 - コンテンツや学習者グループに名前を付ける場合は、正確なAdobe Learning Managerの用語を使用してください。 クエリ記述ガイドには、使用する正しい用語が記載されています。
 - 担当者が明確な質問をした場合は、次に元のクエリを改善するためのシグナルとして扱います。 質問が具体的であるほど、必要な説明は少なくなります。
 - 結果を確認する前に、**アプローチ**&#x200B;セクションを確認して、担当者のロジックが意図に一致していることを確認してください。
-- **キャンセル待ちの学習者を含めるか除外するかを指定します**。 デフォルトでは、登録数の照会には、アクティブで確認済みの登録と共にキャンセル待ちの学習者が含まれます。 アクティブな参加者のみが必要な場合は、キャンセル待ちの学習者をクエリから明示的に除外します。 例：「キャンセル待ちの学習者を除き、安全研修コースに直接登録している学習者は何人ですか？」 担当者は、「アプローチ」セクションで除外が適用されたことを明らかにします。 この指示がない場合、登録の合計には、コンテンツをまだ開始していないキャンセル待ち学習者が非常に多く含まれる可能性があります。
+- **キャンセル待ちの学習者を含めるかどうかを指定します。** デフォルトでは、登録数の照会では、有効で確認済みの登録を持つ学習者のみが返されます。これは、「コース」または「学習パス」ページから利用可能な登録学習者リストに従って、キャンセル待ちの学習者が除外されるためです。 キャンセル待ちの学習者をカウントに含める場合は、クエリでそのように明示的に伝えてください。 例：「キャンセル待ちの学習者を含め、安全研修コースに直接登録している学習者の人数は？」 「アプローチ」セクションには、キャンセル待ちの学習者が結果に含まれているかどうかが表示されます。
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **直接登録と間接登録の数**:インサイトエージェントは、コースまたは学習パスの登録または完了データを照会する場合、直接登録（そのコースまたは学習パスに特別に登録されている学習者）と間接登録（学習パスまたは資格認定の一部として同じコンテンツにアクセスした学習者）を区別します。 直接または間接の登録を個別に依頼した場合、担当者は各タイプに対して正しいカウントを返します。 クエリで直接または間接が指定されていない場合、エージェントは合計カウントを返す場合があります。 個別のカウントを取得するには、クエリに明示的に区別を含めます。 例： 「安全教育コースに直接登録している学習者と間接登録している学習者の数はどのくらいですか？」
-
 
 ## Insights AgentとReport Builderの違い
 
@@ -176,6 +180,36 @@ Insights Agentは、クエリをAdobe Learning Managerのデータモデルと�
 | **カタログラベル** | カテゴリ/タググループ |
 
 Insights Agentでは大文字と小文字は区別されませんが、完全一致の用語の照合により精度が向上します。
+
+### 組織のカスタム用語を使用したクエリ
+
+管理者が&#x200B;**設定/一般**&#x200B;で製品用語を使用して標準用語の名前を変更している場合、インサイトエージェントは上記にリストされたデフォルトの用語の代わりに組織のカスタム用語を認識します。 例えば、組織の名前を&#x200B;**コース**&#x200B;から&#x200B;**章**&#x200B;に変更した場合、「先月、何章が完了しましたか？」と質問できます。 また、インサイト担当者は質問を理解し、回答ヘッダーと列ヘッダーの&#x200B;**章**&#x200B;を使用して結果にラベルを付けます。
+
+カスタム用語は、クエリの解釈方法、アプローチの説明、結果の概要、チャットに表示されるテーブルまたは列のヘッダーなど、Insights Agentのチャットウィンドウ内のあらゆる場所に適用されます。 **ダウンロードされたCSVファイルには、カスタム用語が反映されていません。** 書き出すファイル内の列ヘッダーとコンテンツは、組織がどのようにカスタマイズしたかに関係なく、デフォルトのAdobe Learning Managerの用語を使用します。
+
+- Insights Agentは、製品用語のCSVファイルで設定されている、カスタム用語の単数形と複数形の両方を認識します。
+- 組織がカスタマイズした後も、クエリでデフォルトのAdobe Learning Manager用語を使用できます。 Insights Agentはデフォルトの用語を認識し、組織のカスタム用語を使用して対応します。 例えば、組織の名前を&#x200B;**コース**&#x200B;から&#x200B;**チャプター**&#x200B;に変更した場合でも、「先月、いくつのチャプターが完了しましたか？」と聞くことができます。 元の用語を使用する。 インサイト担当者は質問を理解し、回答の中で組織のカスタム用語である&#x200B;**章**&#x200B;を使用して回答します。
+- クエリにスペルミスがある用語や認識されていない用語が含まれている場合、インサイトエージェントは明確な質問を行い、アカウントで使用可能な最も近い用語や用語を提案します。
+- 管理者がカスタム用語をリセットすると、Insights Agentは以前カスタマイズした用語を認識しなくなり、デフォルトの用語に戻ります。
+
+>[!NOTE]
+>
+>ソーシャル学習、作業計画書、ディスカッションフォーラム、ゲーミフィケーション、アナウンスなど、現在インサイトエージェントが照会しないモジュールやタブには、専門用語のサポートは適用されません。
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### コンテンツの固定
 
@@ -237,7 +271,7 @@ Insights Agentでは大文字と小文字は区別されませんが、完全一
 
 **プログラムとコースの進捗状況**
 
-- 「リーダーシップデベロップメントの学習パスの完了ステータスの内訳は何ですか。完了済み、進行中、未開始の数が表示されます。」
+- 「リーダーシップ開発の学習パスの完了ステータスの内訳は何ですか？ 完了した数、進行中の数、開始していない数を表示します。」
 - 「先月データのプライバシーに関するコースを修了した学習者は何人ですか？」
 
 **組織ビュー**
@@ -260,4 +294,4 @@ Insights Agentでは大文字と小文字は区別されませんが、完全一
 
 **ラテン語以外のスクリプトで送信されたクエリはサポートされていません**
 
-Insights Agentは、フランス語やスペイン語など、英語とラテン文字の言語で書かれたクエリをサポートしています。 日本語、中国語、アラビア語、韓国語、ヒンディー語、ロシア語など、ラテン語以外のスクリプトを使用して送信されたクエリは処理できず、エージェントはクエリが完了できなかったことを示すメッセージを表示します。 これらの言語のいずれかでクエリを送信する場合は、新しいクエリを開始して、英語で言い換えます。
+Insights Agentは、フランス語やスペイン語など、英語とラテン文字の言語で書かれたクエリをサポートしています。 日本語、中国語、アラビア語、韓国語、ヒンディー語、ロシア語など、ラテン語以外のスクリプトを使用して送信されたクエリは処理されません。 問い合わせを完了できなかったことを示すメッセージが表示されます。 これらの言語のいずれかでクエリを送信する場合は、新しいクエリを開始して、英語で言い換えます。
