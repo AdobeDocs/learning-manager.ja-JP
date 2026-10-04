@@ -5,9 +5,9 @@ title: Adobe Learning Managerのドキュメントへようこそ
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
 contentowner: saghosh
 hide: true
-source-git-commit: 82722a54d6d273a04647ef0f2845aacd5aaba46e
+source-git-commit: eb83025fc9772cfc240b2253f2e6886bd74ee4f5
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1363'
 ht-degree: 1%
 ---
 
@@ -290,211 +290,68 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 
 新機能や主な機能の確認、スキルの向上について説明します。
 
-<div class="columns">
-    <!-- Check what's new -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Check what's new">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/whats-new-updated-new.png"
-                        alt="新機能を確認"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <p class="headline is-size-6 has-text-weight-bold">
-                    新機能を確認
-                </p>
-                <p class="is-size-6">
-                    最新機能を見る<br>
-                    およびリリースのアップデート
-                </p>
-                <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">
-                            詳細情報
-                        </a>
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">
-                            Content Composer (Beta)
-                        </a>
-                    </strong>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Explore AI -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Explore AI">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/explore-ai-new.png"
-                        alt="AIを見る"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <!-- Insights Agent -->
-                <p class="is-size-6">
-                    <strong>インサイトエージェント（ベータ版）</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">
-                        詳細情報
-                    </a>
-                    垂直(&amp;V);
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">
-                        コースを起動
-                    </a>
-                </p>
-                <!-- Learning Path Agent -->
-                <p class="is-size-6">
-                    <strong>学習パスエージェント（ベータ版）</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">
-                        詳細情報
-                    </a>
-                    垂直(&amp;V);
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">
-                        コースを起動
-                    </a>
-                </p>
-                <!-- Live Hub -->
-                <p class="is-size-6">
-                    <strong>ライブハブ（ベータ版）</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">
-                        詳細情報
-                    </a>
-                    垂直(&amp;V);
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">
-                        コースを起動
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Learning Experience -->
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Learning Experience">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <img
-                        class="is-bordered-r-small"
-                        src="./help/assets/overview/learning-experience-new.png"
-                        alt="学習経験"
-                        style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                </figure>
-            </div>
-            <div class="card-content is-padded-small"
-                 style="display: flex; flex-direction: column; flex-grow: 1;">
-                <!-- Experience Builder -->
-                <p class="is-size-6">
-                    <strong>エクスペリエンスビルダー</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">
-                        詳細情報
-                    </a>
-                    垂直(&amp;V);
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">
-                        コースを起動
-                    </a>
-                </p>
-                <!-- Report Builder -->
-                <p class="is-size-6">
-                    <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">
-                        詳細情報
-                    </a>
-                    垂直(&amp;V);
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">
-                        コースを起動
-                    </a>
-                </p>
-                <!-- Email Builder -->
-                <p class="is-size-6">
-                    <strong>電子メールビルダー</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">
-                        詳細情報
-                    </a>
-                    垂直(&amp;V);
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">
-                        コースを起動
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--
 <table style="table-layout:fixed">
  <tbody>
-  
-  <tr style="border: 0;">
-   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
-   
-   <p><strong>Check what's new</strong>
+
+<tr style="border: 0;">
+   <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="新機能を確認" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+
+<p><strong>新機能の確認</strong>
     </p>
-    <p>Explore the latest features<br>and release updates.</p>
+    <p>最新の機能<br>を確認し、更新をリリースしてください。</p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/whats-new.md">Learn more</a>
+                        <a href="/help/migrated/whats-new.md">詳細情報</a>
                     </strong>
                 </p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
+                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">コンテンツコンポーザー（ベータ版）</a>
                     </strong>
     </p>
 
-   
-   </td>
-   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
-   
-<p>
-                    <strong>Insights Agent (Beta)</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Launch course</a>
-</p>
-<p>
-                    <strong>Learning Path Agent (Beta)</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Launch course</a>
 
-</p>
+</td>
+   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
 
 <p>
-                    <strong>Live Hub (Beta)</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Launch course</a>
+                    <strong>インサイトエージェント（ベータ版）</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">コースの起動</a>
+</p>
+<p>
+                    <strong>学習パスエージェント（ベータ版）</strong><br>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">コースの起動</a>
 
 </p>
 
+<p>
+                    <strong>ライブハブ（ベータ版）</strong><br>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">コースの起動</a>
 
-                
-   
-   </td>
-   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+</p>
+
+
+
+
+</td>
+   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
    <p>
-                    <strong>Experience Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Launch course</a>
+                    <strong>エクスペリエンスビルダー</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">コースの起動</a>
     </p>
     <p>
                     <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Launch course</a>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">コースの起動</a>
     </p>
 <p>
-                    <strong>Email Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">Learn more</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Launch course</a>
+                    <strong>電子メールビルダー</strong><br>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">コースの起動</a>
     </p>
     </td>
   </tr>
-  
- </tbody>
+
+</tbody>
 </table>
--->
 
 ALMを使用して、魅力的な学習体験を作成、管理、提供する方法について説明します。 今すぐパーソナライズされたデモにサインアップしてください。
 
