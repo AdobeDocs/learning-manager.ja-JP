@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Managerリリースノート
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35479'
 ht-degree: 63%
 ---
 # Adobe Learning Managerリリースノート
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -31,6 +31,15 @@ ht-degree: 63%
 **Virtual Coach:** Virtual Coachは、Adobe Learning ManagerのAIを活用したコーチソリューションです。現実的なロールプレイのシナリオ、パーソナライズされたフィードバック、オンデマンドの練習を通じて学習者がスキルを磨き、実際の状況でこれらのスキルを適用するのに役立ちます。 [学習を増やす](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)。
 
 **席の共有：**&#x200B;席の共有により、アカウントがライセンスを取得した席の一部を別のアカウントと共有し、共有されている席を使用して獲得側のアカウントの学習者がAdobe Learning Managerにアクセスできるようになります。 シート共有は、Ultimateアカウントでのみ利用できます。Primeアカウントではシートの共有と受領はできません。クレジットカードで請求されるアカウントは、デフォルトでPrimeプランに含まれています。 体験版アカウントは例外で、Ultimateアカウントから共有シートを受け取ることができます。 アクティブなシート共有関係の期間中、体験版アカウントはアルティメットレベルの機能アクセスを受け取ります。 [学習を増やす](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md)。
+
+**学習パスエージェントの機能強化：**&#x200B;学習パスエージェントでは、保存する前にカスタマイズした学習パスを作成および調整する柔軟性が向上しました。
+
+* **その他の学習パスの作成：**&#x200B;学習者は、以前の上限である10個から増えた最大20個の学習パスを作成できるようになりました。
+* **保存前のパスの調整：**&#x200B;学習者は、学習パスを保存する前に、自然言語でエージェントにコースの追加、削除、置き換えを依頼することができます。 担当者は、パスの残りの部分は変更せずに、要求されたコースのみを更新します。これにより、学習者はニーズに合うまでパスの調整を続けることができます。
+* **完全な学習パスの処理を改善しました：**&#x200B;学習パスには最大5つのコースを含めることができます。 学習者がフルパスに別のコースを追加するように求めた場合、担当者は置き換える既存のコースを選択するように求めるプロンプトを表示します。
+* **コースの変更に関するよりスマートなガイダンス：**&#x200B;学習者のリクエストがはっきりしない場合、担当者はパスを変更する前に明確にするよう求めます。 適切な代替コースが利用できない場合、担当者は制限について説明し、最も近い代替コースを推奨します。
+
+[学習を増やす](/help/migrated/learners/feature-summary/learning-path-agent.md)。
 
 **管理者監査追跡レポート：**&#x200B;管理者監査追跡レポートには、構成の変更の履歴が記録されるので、次の項目を特定できます。
 
@@ -124,7 +133,7 @@ Insights Agentに2つの拡張機能が追加されました。 以下の 2 つ�
 
 ## API
 
-* **学習目標のカタログアクセスのAPI:**&#x200B;学習目標のカタログアクセスAPIを使用すると、割り当てられたカタログを通じて学習者が1つ以上の学習目標に直接アクセスできるかどうかを判断できます。 応答を使用して、登録関連のUI要素を制御します。 例えば、カタログへの直接アクセスが確認された場合にのみ「登録」オプションが表示され、学習者はカタログアクセスに関係なくコースページを表示できます。
+* **学習目標のカタログアクセスのAPI:**学習目標のカタログアクセスAPIを使用すると、割り当てられたカタログを通じて学習者が1つ以上の学習目標に直接アクセスできるかどうかを判断できます。 応答を使用して、登録関連のUI要素を制御します。 例えば、カタログへの直接アクセスが確認された場合にのみ「登録」オプションが表示され、学習者はカタログアクセスに関係なくコースページを表示できます。
 詳細情報。
 
 * **管理者監査追跡レポートのジョブAPI:**&#x200B;このAPIは、監査追跡レポートジョブを操作するために使用され、指定した日付範囲と設定の種類のセットについて構成変更監査追跡レポートを生成するジョブを作成します。
@@ -381,7 +390,7 @@ UIロケールが英語以外の言語に設定されている場合、「教室
 4. 左側のナビゲーションパネルで「学習者」に移動します。
    ![](assets/instructor-send-email1.png)
 5. 学習者のリストから学習者を選択します。
-6. 右上の「**アクション**」ドロップダウンリストを開くと、グレー表示されたオプションを含め、その他のオプションが表示されます。 **全員に電子メールを送信**&#x200B;は、オプションの1つです。
+6. 右上の「**アクション**」ドロップダウンリストを開くと、グレー表示されたオプションを含め、その他のオプションが表示されます。 **全員に電子メールを送信**は、オプションの1つです。
    ![](assets/instructor-send-email2.png)
 
 **削除されたユーザーの自動消去：**&#x200B;削除されたユーザーの自動消去は、削除に必要な最小期間として1年に設定されました。 この機能は、日数にも対応するように強化されました。 管理者はカスタマーサクセスマネージャーに連絡してこの変更をリクエストし、バックエンドから変更してもらうことができます。
@@ -754,7 +763,7 @@ Fluidicプレーヤーの詳細については、この[記事](/help/migrated/l
 
 * コンテンツモジュールが新しいバージョンに更新された後、コースを完了した学習者がコースを再び参照すると白い画面が表示される問題を修正しました。
 
-さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
+さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
 
 +++
 
@@ -2234,7 +2243,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -2271,7 +2280,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -3238,7 +3247,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-この更新の一部として、Learning Managerではアプリケーションでユーザーを更新するためのエンドポイント<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->を提供しています。 この API エンドポイントには管理者の役割でアクセスできます。 こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+この更新の一部として、Learning Managerではアプリケーションでユーザーを更新するためのエンドポイント<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->を提供しています。 この API エンドポイントには管理者の役割でアクセスできます。 こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3748,7 +3757,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 社外グループという意味で使用されていた&#x200B;**パートナー**&#x200B;という用語が、**&#x200B;**&#x200B;**&#x200B;**&#x200B;電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 社外グループという意味で使用されていた&#x200B;**パートナー**&#x200B;という用語が、********&#x200B;電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * 「**プロファイルが作成されました (セルフ登録)**」および「**プロファイルが作成されました (社外 / パートナー)**」の各電子メールテンプレートが編集されるたび、管理者が受信する電子メール内の URL がクリックできなくなる。 この問題は修正されました。
