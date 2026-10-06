@@ -1,19 +1,17 @@
 ---
 jcr-language: en_us
 title: 外部ソースからのスキルの読み込み
-description: それぞれのコネクタを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。  読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。
+description: それぞれのコネクターを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。  読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
 source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 # 外部ソースからのスキルの読み込み
 
-それぞれのコネクタを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。 この機能強化は、Learning Managerが外部のSkills CloudおよびTalent Managementシステムと統合できるようにするための目標の一部です。 読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。 また、プラットフォーム全体のスキル検索機能が強化され、アカウントに多数のスキルが含まれている場合の検索機能が向上しました。
+それぞれのコネクターを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。 この機能強化は、Learning Managerが外部のSkills CloudおよびTalent Managementシステムと統合できるようにするための目標の一部です。 読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。 また、プラットフォーム全体のスキル検索機能が強化され、アカウントに多数のスキルが含まれている場合の検索機能が向上しました。
 
 ## スキルインポートを設定
 
