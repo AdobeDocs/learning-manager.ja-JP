@@ -36,7 +36,7 @@ ht-degree: 48%
 
    ![](assets/instructor-disable-all.png)
 
-1. **ユーザー**/**ユーザーグループ**&#x200B;に移動します。 **&#x200B;**
+1. **ユーザー**/**ユーザーグループ**&#x200B;に移動します。 ****
 
    ![](assets/instructor-usergroups.png)
 
