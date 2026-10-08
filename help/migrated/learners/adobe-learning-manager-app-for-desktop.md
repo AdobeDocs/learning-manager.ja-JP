@@ -200,7 +200,7 @@ Learning Manager のソーシャル学習 web ページで新しい投稿をク�
 
 Learning Manager では、学習者が Learning Manager web アプリケーションにログインしているかどうかに関係なく、通知ウィンドウに通知が表示されます。 通知には、ユーザーが作成した投稿や掲示板、ユーザーがフォローしている投稿や掲示板、またはユーザーが参加している投稿や掲示板が表示されます。 通知をクリックすると、Learning Manager のソーシャル学習 web に移動します。
 
-通知を非表示にするには、**[!UICONTROL プロファイルメニュー*]* > **[!UICONTROL 設定] > **[!UICONTROL 通知をミュート]**&#x200B;をクリックします。
+通知を非表示にするには、**[!UICONTROL プロファイルメニュー*]* > &#x200B;** [!UICONTROL 設定] > **[!UICONTROL 通知をミュート]**&#x200B;をクリックします。
 
 ## Learning Manager デスクトップAdobeの設定 {#settingsinadobecaptivateprimedesktopapplication}
 
