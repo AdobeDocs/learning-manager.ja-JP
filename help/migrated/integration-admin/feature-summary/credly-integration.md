@@ -46,11 +46,11 @@ Adobe Learning Managerのbadge.csvを使用すると、既存のLMSまたは外�
 * externalBadgeId
 * externalBadgeProvider
 
-外部バッジIDは、CredlyプラットフォームのバッジテンプレートIDを参照し、外部バッジプロバイダーはCredlyです。 badge.csvにこれらの値を追加し、[移行マニュアル](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)に記載されている手順に従ってcsvを移行します。
+外部バッジIDは、CredlyプラットフォームのバッジテンプレートIDを参照し、外部バッジプロバイダーはCredlyです。 badge.csvにこれらの値を追加し、[移行マニュアル](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/migration-manual#migrationprocedure)に記載されている手順に従ってcsvを移行します。
 
 ## スキルの作成 – 管理者
 
-バッジをAdobe Learning Managerに読み込むと、管理者はスキルとしてこのバッジを作成できます。 スキルの作成方法については、[スキルの作成と変更](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels)を参照してください。
+バッジをAdobe Learning Managerに読み込むと、管理者はスキルとしてこのバッジを作成できます。 スキルの作成方法については、[スキルの作成と変更](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/skills-levels)を参照してください。
 
 ### 学習オブジェクトにスキル/バッジを割り当てる – 作成者
 
