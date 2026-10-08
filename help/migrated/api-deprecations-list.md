@@ -4,13 +4,14 @@ title: Adobe Learning ManagerでのAPIの廃止
 description: Adobe Learning ManagerのAPIの進化に伴い、APIは定期的に再編成またはアップグレードされます。 APIが進化すると、古いAPIは廃止され、最終的に削除されます。 このページでは、非推奨のAPIバージョンから新しく安定したバージョンに移行する際に知っておく必要がある情報を記載しています。
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Adobe Learning ManagerでのAPIの廃止と変更
 
 ## Adobe Learning Managerの2024年3月リリースのAPIの廃止
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 次のパスは非推奨です。
 
 * /learningObjects
-   * 非推奨のパス：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 新しいパス：
-      * enrollment.loInstance.loResources
-      * instances.loResources
+  * 非推奨のパス：
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 新しいパス：
+    * enrollment.loInstance.loResources
+    * instances.loResources
 
 * /learningObjects/{id}
-   * 非推奨のパス：
-      * enrollment.instances.subLoInstances.learningObject
-   * 新しいパス：
-      * enrollment.instances.subLoInstances
+  * 非推奨のパス：
+    * enrollment.instances.subLoInstances.learningObject
+  * 新しいパス：
+    * enrollment.instances.subLoInstances
 
 * /enrollments
-   * 非推奨のパス：
-      * loInstance.learningObject.enrollment
-   * 新しいパス：
-      * loInstance.learningObject
+  * 非推奨のパス：
+    * loInstance.learningObject.enrollment
+  * 新しいパス：
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * 非推奨のパス：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrade
-   * 新しいパス：
-      * instance.subLoInstances
+  * 非推奨のパス：
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrade
+  * 新しいパス：
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

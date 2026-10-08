@@ -3,20 +3,21 @@ jcr-language: en_us
 title: Experience leagueでサポートチケットを提出する方法
 description: Experience League時にサポートリクエストを送信する方法について説明します。
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # Experience League時にサポートチケットを提出する方法
 
 Adobe Learning Managerサポートチケットを送信するプロセスが、Experience Leagueサポートプラットフォームと直接統合されるようになりました。 このセルフサービスポータルは、最近、資格をお持ちのお客様がよりパーソナライズされ、使いやすくなるよう再設計されました。 Experience Leagueサポートポータルにアクセスしてチケットをログに記録する方法について詳しくは、以下のガイドを参照してください。
 
 サポートチケットの送信は、許可されたサポート連絡先のみが利用できます。 サポートに関するお問い合わせについては、2025年5月11日までAdobe Learning Managerにサポートチケットを電子メールで送信してください。 この日以降、既存のメールチャネルに加えて、以下に記載のとおり、Experience Leagueサポートポータルを介してサポートチケットを送信できます。
 
-1. サポートポータルにアクセスするには、**[!UICONTROL Experience League]**&#x200B;のWebサイトにアクセスし、ページの上部にある&#x200B;**[!UICONTROL [サポート]]**&#x200B;タブをクリックします。 または、[直接リンク](https://experienceleague.adobe.com/home?lang=ja#support)にアクセスしてください。
+1. サポートポータルにアクセスするには、**[!UICONTROL Experience League]**&#x200B;のWebサイトにアクセスし、ページの上部にある&#x200B;**[!UICONTROL [サポート]]**&#x200B;タブをクリックします。 または、[直接リンク](https://experienceleague.adobe.com/home#support)にアクセスしてください。
 
    ![](assets/support.png)
    _サポートホームページ_

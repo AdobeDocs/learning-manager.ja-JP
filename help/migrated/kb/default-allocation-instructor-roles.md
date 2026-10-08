@@ -5,7 +5,10 @@ description: Learning Manager のユーザーグループにインストラク�
 contentowner: nluke
 preview: true
 exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 48%
@@ -33,7 +36,7 @@ ht-degree: 48%
 
    ![](assets/instructor-disable-all.png)
 
-1. **ユーザー**/**ユーザーグループ**&#x200B;に移動します。 **&#x200B;**
+1. **ユーザー**/**ユーザーグループ**&#x200B;に移動します。 ****
 
    ![](assets/instructor-usergroups.png)
 

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Managerでの外部学習の送信
 description: 外部学習を使用して、Adobe Learning Manager以外で行ったワークショップ、セミナー、資格認定、オンラインコースなどのトレーニングを記録します。 マネージャーによるレビューのために詳細を送信すると、承認されたアクティビティが学習者トランスクリプトに追加されます。
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 2%
-
+source-wordcount: '604'
+ht-degree: 1%
 ---
-
 
 # 学習者としての外部学習の送信
 
@@ -43,7 +44,7 @@ Adobe Learning Managerでは、**社外学習**&#x200B;機能を使用して、�
 
 2. **社外学習**&#x200B;オプションを選択します。
 
-3. **社外学習を追加**&#x200B;を選択します。
+3. **社外学習を追加**を選択します。
    ![](assets/submit-external-learning-request.png)
 
 
@@ -61,14 +62,14 @@ Adobe Learning Managerでは、**社外学習**&#x200B;機能を使用して、�
 
    6. **スコア：**&#x200B;トレーニングに評価が含まれている場合は、スコアを入力します。
 
-   7. **添付ファイル：**&#x200B;証明書、トランスクリプト、またはその他の文書を証拠としてアップロードします。サポートされているファイル形式は、PDF、DOC、DOCX、PNG、JPEG、JPGです。最大ファイルサイズは50 MBです。
+   7. **添付ファイル：**証明書、トランスクリプト、またはその他の文書を証拠としてアップロードします。 サポートされているファイル形式は、PDF、DOC、DOCX、PNG、JPEG、JPGです。 最大ファイルサイズは50 MBです。
       ![](assets/add-external-learning.png)
 
    8. 管理者が設定した追加カスタムフィールドに入力します。
 
 5. 「**送信**」を選択します。
 
-マネージャーは、新しい外部学習リクエストがレビュー待ちであるという通知をアプリ内通知で受け取ります。送信内容が&#x200B;**外部学習**&#x200B;リストに表示され、状態は&#x200B;**レビュー待ち**&#x200B;です。
+マネージャーは、新しい外部学習リクエストがレビュー待ちであるという通知をアプリ内通知で受け取ります。 送信内容が&#x200B;**外部学習**&#x200B;リストに表示され、状態は&#x200B;**レビュー待ち**です。
 <!--![](assets/submission-external-learning-list.png)-->
 
 >[!NOTE]

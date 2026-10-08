@@ -4,13 +4,14 @@ title: Learning ManagerのAPIレート制限
 description: AdobeのLearning Managerでは、REST APIの豊富なスイートが提供されます。このスイートを使用して、Learning Managerと連携するアプリケーションを構築できます。また、業務に役立つワークフローを使用して、カスタムユーザーエクスペリエンスや拡張機能を構築することもできます。
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 80%
-
 ---
-
 
 
 # Learning ManagerのAPIレート制限
@@ -111,7 +112,7 @@ x-burst: 2
 
 これを簡単に説明するサンプルのJavaCriptコードを確認できます。 ここをクリック [バイオリン](https://jsfiddle.net/ACAPJS/9yv8zcmL/) を実行し、コードの動作を確認します。
 
-このアプリケーションでは、アカウントの学習者ロールのアプリケーショントークンを提供する必要があります。 APIトークンの詳細については、[アプリケーションデベロッパーマニュアル]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)を参照してください。Learning Manager Integration Adminアプリケーションの「開発者向けリソース」セクションにあるトークンヘルパーを使用して、トークンを生成できます。
+このアプリケーションでは、アカウントの学習者ロールのアプリケーショントークンを提供する必要があります。 APIトークンの詳細については、[アプリケーションデベロッパーマニュアル]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)を参照してください。Learning Manager Integration Adminアプリケーションの「Developer Resources」セクションにあるトークンヘルパーを使用して、トークンを生成できます。
 
 このアプリケーションは、1回の操作でダミーAPIに10回の呼び出しを行っています。 ダミーAPIのレート制限は(5, 2)であるため、Learning Managerが受信した最初の5+2呼び出しが成功すると、レート制限に違反し、成功応答が表示されます。
 

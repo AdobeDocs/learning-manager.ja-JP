@@ -1,13 +1,14 @@
 ---
 title: チャネルの発見と活用
 description: Adobe Learning Managerのチャンネルを通じて利用可能なビデオコンテンツに関するディスカッションを検索、購読、視聴、いいね！する方法、参加する方法について説明します。
-source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
-
 ---
-
 
 # チャネル（ベータ版）の検索と活用
 

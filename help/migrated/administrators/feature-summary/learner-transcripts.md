@@ -4,7 +4,10 @@ jcr-language: en_us
 title: 学習者のトランスクリプト
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1928'
 ht-degree: 81%

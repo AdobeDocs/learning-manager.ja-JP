@@ -1,13 +1,14 @@
 ---
 title: ライブハブセッションでのインストラクターの役割
 description: セッションの準備や学習者とのやり取りの管理から後で結果を確認するまでの、Live Hubでのインストラクターのワークフローについて説明します。
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # ライブハブセッションでのインストラクターの役割
 
@@ -33,7 +34,7 @@ Adobe Learning Managerのインストラクターとして、ライブハブの�
 
 * ブレイクアウトルームをデザインし、学習者を割り当て、ルームごとにインストラクションを追加します。 詳細については、[ブレークアウトルームを作成および管理する](./create-and-manage-breakout-rooms.md#design-a-breakout-session)を参照してください。
 
-* 参照資料をアップロードすると、セッション中にAIが学習者の質問に対して、コンテキストに応じた正確な回答を生成できます。 詳細については、[インストラクターとしてチャットパネルを使用](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses)してください。
+* 参照マテリアルをアップロードすると、セッション中にAIが学習者の質問に対して、コンテキストに応じた正確な回答を生成できます。 詳細については、[インストラクターとしてチャットパネルを使用](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses)してください。
 
 ### セッションの管理
 

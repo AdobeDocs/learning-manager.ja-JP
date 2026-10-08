@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3974'
 ht-degree: 75%
-
 ---
-
 # 設定
 
 この記事では、管理者として構成可能な Learning Manager アカウント設定について説明します。
@@ -124,7 +125,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
    <td>すべてのスキルとタグを学習者に表示します。 すべてのスキルとタグを表示するか、割り当てられたスキルとタグ、または学習者に表示されるカタログの一部であるスキルとタグを表示できます。
    <p><b>重要 – 学習者アシスタントとカタログの表示</b></p>
    <p>アカウントで学習者アシスタントを使用している場合、アシスタントのコンテンツソースとして選択されたカタログは、学習者ごとのカタログ表示の範囲に含まれないことに注意してください。 アシスタントでは、カタログビューで特定の学習者に対して一部のトレーニングが表示されない場合でも、設定済みのカタログのコンテンツを使用できます。</p>
-   <p>Adobeでは、Learner Assistantにアクセスできるすべての学習者に対して公開するコンテンツ（概要または説明された形式）を含むカタログのみを選択することをお勧めします。 </p>
+   <p>Adobeでは、Learner Assistantにアクセスできるすべての学習者に対して、自分が快適に表示できるコンテンツ（要約または説明された形式）を含むカタログのみを選択することをお勧めします。 </p>
    </td>
 
 </tr>
@@ -304,7 +305,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
    <td>有効にすると、学習者は利用可能なすべてのカタログのリストを見ることができます。 学習者はこれを使用して、学習目標の表示方法を調整できます。
    <p><b>重要 – 学習者アシスタントとカタログの表示</b></p>
    <p>アカウントで学習者アシスタントを使用している場合、アシスタントのコンテンツソースとして選択されたカタログは、学習者ごとのカタログ表示の範囲に含まれないことに注意してください。 アシスタントでは、カタログビューで特定の学習者に対して一部のトレーニングが表示されない場合でも、設定済みのカタログのコンテンツを使用できます。</p>
-   <p>Adobeでは、Learner Assistantにアクセスできるすべての学習者に対して公開するコンテンツ（概要または説明された形式）を含むカタログのみを選択することをお勧めします。 </p>
+   <p>Adobeでは、Learner Assistantにアクセスできるすべての学習者に対して、自分が快適に表示できるコンテンツ（要約または説明された形式）を含むカタログのみを選択することをお勧めします。 </p>
    </td>
 
 </tr>
@@ -457,7 +458,7 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
       <p>代替コース/パス</p>
     </td>
     <td>
-      <p>学習者がコース/パスを完了すると、別の指定されたコース/パスのセットを、代替を介して完了としてマークすることができます。 Learners won't be automatically enrolled in Courses/Paths marked as completed via alternate and will only receive credits, Badges, and points for the Course/Path they actually completed. The avaiable options are- Retroactive completions activated and Retroactive incompletions activated.
+      <p>学習者がコース/パスを完了すると、別の指定されたコース/パスのセットを、代替を介して完了としてマークすることができます。 学習者は、代替を介して完了とマークされたコース/パスに自動的に登録されることはなく、実際に完了したコース/パスのクレジット、バッジ、ポイントのみを受け取ります。 使用可能なオプションは、「遡及的完了の有効化」および「遡及的未完了の有効化」です。
       </p>
     </td>
   </tr>
@@ -467,11 +468,11 @@ Adobe ID を使用して Learning Manager にアクセスすることも、シ�
 
 >[!NOTE]
 >
->Once skill import setting is enabled, the account layout cannot be switched to the Classic view, i.e. switching to Classic account is disabled after the **Skill import** option is enabled.
+>スキルインポート設定を有効にすると、アカウントレイアウトをクラシックビューに切り替えることができなくなります。つまり、**スキルインポート**&#x200B;オプションを有効にした後でクラシックアカウントに切り替えることができなくなります。
 
 ## 学習オブジェクト名の変更機能 {#renaminglearningobjects}
 
-This feature is only available in English language.
+この機能は英語でのみ利用できます。
 
 管理者は、Learning Manager で学習目標の名前を変更できるようになりました。 以下に、名前を変更できる学習オブジェクトを示します。
 
@@ -511,11 +512,11 @@ Learning Manager では、非公開コンテンツフォルダーがサポート
 
 コンテンツフォルダーは、管理者が設定できます。 一度設定すると、作成者はコンテンツフォルダーを表示して、1 つまたは複数のフォルダーにコンテンツを配置できるようになります。
 
-To add a content folder, in the Administrator app, click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**.
+コンテンツフォルダーを追加するには、管理者アプリで、**[!UICONTROL 設定]** > **[!UICONTROL コンテンツフォルダー]**&#x200B;をクリックします。
 
 ![](assets/manage-content-folders.png)
 
-*Change Content Folder settings*
+*コンテンツフォルダの設定を変更する*
 
 ### フォルダー
 
@@ -546,7 +547,7 @@ To add a content folder, in the Administrator app, click **[!UICONTROL Settings]
 
 **フォルダーの追加**
 
-To add a folder, click **[!UICONTROL Add]** on the upper-right corner of the window.
+フォルダーを追加するには、ウィンドウの右上隅にある「**[!UICONTROL 追加]**」をクリックします。
 
 **フォルダーの削除**
 
@@ -554,15 +555,15 @@ To add a folder, click **[!UICONTROL Add]** on the upper-right corner of the win
 
 >[!NOTE]
 >
->Folders can be deleted when all of its associated content is also associated with other folders. 削除するフォルダーのみにリンクされたコンテンツがある場合は、まずそのコンテンツを別のフォルダーに移動してから、そのフォルダーを削除します。
+>フォルダーは、関連するすべてのコンテンツが他のフォルダーにも関連付けられている場合に削除できます。 削除するフォルダーのみにリンクされたコンテンツがある場合は、まずそのコンテンツを別のフォルダーに移動してから、そのフォルダーを削除します。
 
 ## 教室の場所
 
-管理者はこの設定を使用して教室の場所のライブラリを作成し、ライブラリを構成できます。 作成者は事前設定された場所を選択して、教室イベントを設定できます。 Select a location from the library to automatically populate the location information, URL, and seat limit.
+管理者はこの設定を使用して教室の場所のライブラリを作成し、ライブラリを構成できます。 作成者は事前設定された場所を選択して、教室イベントを設定できます。 ライブラリから場所を選択すると、場所情報、URL、人数制限が自動的に入力されます。
 
 管理者は、次のいずれかの方法で場所を設定できます。
 
-### Import locations CSV
+### 場所のCSVの読み込み
 
 場所の CSV ファイルを読み込むことで、アカウントに場所を追加できます。 CSV ファイルには「都市」列が含まれていることが必要です。
 
@@ -572,11 +573,11 @@ To add a folder, click **[!UICONTROL Add]** on the upper-right corner of the win
 
 1. 場所名：教室の名前を入力します。
 2. 場所情報：場所に関する情報を入力します。
-3. Location Region: The entered value appears as Training Locations filter for learners.
-4. Location URL: Enter the URL of the location.
+3. 「事業所」リージョン：入力した値が、学習者用の「研修事業所」フィルタとして表示されます。
+4. 場所のURL：場所のURLを入力します。
 5. 人数制限：部屋の収容人数を入力します。
 
-![classroom location](assets/location-alm.gif)
+![教室の場所](assets/location-alm.gif)
 
 *教室の場所を追加*
 
@@ -592,17 +593,17 @@ CSV を使用して場所を追加することも可能です。 CSV には次�
 
 ### 設定 {#admin-classroom-settings}
 
-Select **Edit** to change the following:
+**編集**&#x200B;を選択して、次の項目を変更します：
 
-* **Allow authors to create locations**: Once enabled, all the locations created by authors will be listed under &#39;All Locations&#39; tab. Learners will also see these locations under Catalog and calendar filters.
-* **Allow authors to modify and delete locations**:
-Once enabled, authors will be able to modify and delete all Classroom locations. The modifications by authors will be reflected across the platform, including reports.
+* **作成者に場所の作成を許可する**：有効にすると、作成者が作成したすべての場所が[すべての場所]タブに一覧表示されます。 学習者には、カタログおよびカレンダーのフィルターにも、これらの場所が表示されます。
+* **作成者に場所の変更と削除を許可する**:
+有効にすると、作成者は教室のすべての場所を変更および削除できるようになります。 作成者による変更は、レポートを含むプラットフォーム全体に反映されます。
 
 ## よくある質問 {#frequentlyaskedquestions}
 
-+++How to create different folders for content library?
++++コンテンツライブラリ用に異なるフォルダーを作成する方法を教えてください。
 
-Click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. To add a folder, click **[!UICONTROL Add]** on the upper-right corner, and in the dialog, enter the name and description of the folder.
+**[!UICONTROL 設定]** > **[!UICONTROL コンテンツフォルダー]**&#x200B;をクリックします。 フォルダーを追加するには、右上隅の&#x200B;**[!UICONTROL 追加]**&#x200B;をクリックし、ダイアログでフォルダーの名前と説明を入力します。
 
 コンテンツフォルダーは、管理者が設定できます。 一度設定すると、作成者はコンテンツフォルダーを表示して、1 つまたは複数のフォルダーにコンテンツを配置できるようになります。
 

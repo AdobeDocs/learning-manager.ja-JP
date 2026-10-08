@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Learning Manager とSlack
 description: Learning Manager とSlack
 contentowner: dvenkate
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 52%
-
 ---
-
 
 
 # Learning Manager とSlack
 
-Learning Managerのコネクタとして、**削除済み** **Slack**&#x200B;です。 Slackコネクタにアクセスできなくなります。
+Learning Managerのコネクターとして&#x200B;**削除** **Slack**&#x200B;が存在します。 コネクターにアクセスできなくなります。
 
 Slack ユーザーは、Slack App ディレクトリの Adobe Learning Manager アプリを Slack チームにインストールして、Slack で Learning Manager のコンテンツを検索できます。 Primebotを操作して、Learning Managerで新しいコースを検索したり、推奨事項を表示したり、今後の締め切りに関する通知を受信したりできます。 Slack 内で登録を行って学習内容に直接ジャンプできます。
 

@@ -4,13 +4,14 @@ title: Adobe Connect の統合
 description: 作成者は、コースの作成プロセスで Adobe Connect を使用してバーチャルクラスルームコースを作成することができます。 Learning Manager アカウントで Adobe Connect を有効にするには、組織の管理者に連絡する必要があります。
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 57%
-
 ---
-
 # Adobe Connect の統合
 
 組織の管理者は、Adobe Connect と統合できるように Learning Manager アカウントを設定できます。
@@ -70,7 +71,7 @@ Adobe Learning Manager とは別に、Adobe Connect を購入する必要があ�
 
 Adobe Learning Managerでは、Connectでバーチャルクラスルームセッションを設定する際に、Adobe Connectからセミナールームを選択できます。 以前は、管理者は会議室タイプのみを選択できました。 有効なセミナーライセンスを持つ管理者はこの機能を使用して、ALM内で一度だけ、または大規模なイベント（最大1,500人の参加者）をスケジュールして管理できます。
 
-Seminar Roomの詳細については、この[記事](https://helpx.adobe.com/jp/adobe-connect/using/creating-seminars.html)を参照してください。
+Seminar Roomの詳細については、この[記事](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)を参照してください。
 
 ### セッション分析へのアクセスのサポート
 

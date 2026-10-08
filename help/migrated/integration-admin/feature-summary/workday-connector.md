@@ -1,23 +1,24 @@
 ---
-description: WorkdayコネクタとAdobe Learning Managerを統合する方法について説明します。
+description: Workday コネクターとAdobe Learning Managerを連携する方法について説明します
 jcr-language: en_us
 title: Workday コネクタ
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
-
 ---
 
-
-# Adobe Learning ManagerのWorkdayコネクタ
+# Adobe Learning ManagerのWorkday コネクター
 
 ## 概要
 
 **Workday**&#x200B;は、社員や財務データの管理を支援するクラウドベースのシステムです。 主に採用、給与、業績追跡などの人事タスクに使用されます。 Adobe Learning Managerに接続すると、2つのプラットフォーム間でユーザーデータとスキルデータを自動的に同期できます。
 
-Workdayコネクタを使用すると、Adobe Learning Managerを組織のWorkdayテナントとシームレスに統合できます。 この統合により、2つのシステム間でユーザーデータとスキルを自動的に同期し、データの正確性を向上させ、手作業を減らすことができます。
+Workday コネクターを使用すると、Adobe Learning Managerを組織のWorkdayテナントとシームレスに統合できます。 この統合により、2つのシステム間でユーザーデータとスキルを自動的に同期し、データの正確性を向上させ、手作業を減らすことができます。
 
 ## 主な利点
 
@@ -28,24 +29,24 @@ Workdayコネクタを使用すると、Adobe Learning Managerを組織のWorkda
 
 ## 前提条件
 
-Workdayコネクタを設定する前に、Workday管理者から次の詳細情報を取得します。
+コネクターを設定する前に、Workday管理者から次の詳細情報を取得します。
 
 - ホストURL
 - テナントID
 - ユーザー名
 - パスワード
 
-## Workdayコネクタを設定する
+## コネクターの設定
 
-Adobe Learning ManagerでWorkdayコネクタを設定して、Workdayからユーザーデータを読み込み、ユーザースキルをWorkdayに書き出し、両方のシステムを最新の状態に保つための自動同期をスケジュールできます。
+Adobe Learning ManagerでWorkdayコネクターを設定して、Workdayからユーザーデータを読み込み、ユーザースキルをWorkdayに書き出し、両方のシステムを最新の状態に保つための自動同期をスケジュールできます。
 
-Workdayコネクタを設定するには：
+Workdayのコネクターを設定するには：
 
 1. Adobe Learning Managerに統合管理者としてログインします。
 2. **Workday**&#x200B;タイルにカーソルを合わせ、**Connect**&#x200B;を選択します。
 
    ![](assets/workday-connector1.png)
-   _データをインポートおよびエクスポートするようにWorkdayコネクタを構成する_
+   _データをインポートおよびエクスポートするようにWorkday コネクターを構成する_
 
 3. 次の接続詳細を入力します。
    - **接続名**：接続に使用する名前です。
@@ -54,7 +55,7 @@ Workdayコネクタを設定するには：
    - **ユーザー名とパスワード**: Workday管理者は、必要なセキュリティ特権を持つ統合システムユーザー(ISU)を作成し、統合管理者と共有します。
 
    ![](assets/workday-connector2.png)
-   _Workdayコネクタを構成するために必要な詳細を追加します_
+   _Workdayのコネクターを構成するために必要な詳細情報を追加してください_
 
 4. **接続**&#x200B;を選択して、セットアップを完了します。
 
@@ -66,11 +67,11 @@ Workdayコネクタを設定するには：
 
 ### マップ属性
 
-Workdayコネクタを使用して、WorkdayテナントからAdobe Learning Managerにアクティブユーザーを読み込むことができます。 この統合により、従業員の記録を同期させてユーザー管理を合理化できます。 Adobe Learning Managerでは、Workdayに加えて、FTPやSalesforceなどの他のデータソースからのユーザーインポートもサポートしています。
+Workday コネクターを使用して、WorkdayテナントからAdobe Learning Managerにアクティブユーザーを読み込むことができます。 この統合により、従業員の記録を同期させてユーザー管理を合理化できます。 Adobe Learning Managerでは、Workdayに加えて、FTPやSalesforceなどの他のデータソースからのユーザーインポートもサポートしています。
 
 ユーザーを読み込む前に、WorkdayとLearning Manager間でユーザー属性をマッピングする必要があります。
 
-1. Workdayコネクタの&#x200B;**概要**&#x200B;ページに移動します。
+1. Workday コネクターの&#x200B;**概要**&#x200B;ページに移動します。
 2. 「**インポート**」セクションで「**社内ユーザー**」を選択します。
 
    ![](assets/workday-connector3.png)
@@ -127,7 +128,7 @@ wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Employment_Data.wd
 4. 開始日、時刻、および定期的なアイテムの間隔を設定します。
 
    ![](assets/workday-connector6.png)
-   _Workdayコネクタでスケジュールの書き出しを構成する_
+   _Workday コネクターでスケジュールの書き出しを構成する_
 
 5. [**保存**]を選択して、スケジュールを適用します。
 
@@ -146,7 +147,7 @@ wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Employment_Data.wd
 
 ## 同期タスクのスケジュール
 
-データ同期タスクを自動的に実行するようにコネクタを設定できます。
+データ同期タスクを自動的に実行するようにコネクターを構成するには、次の手順を実行します。
 
 - WorkdayからLearning Managerへのユーザーの毎日の読み込みをスケジュールします。
 - ユーザースキルのWorkdayへの定期的な書き出しをスケジュールします。

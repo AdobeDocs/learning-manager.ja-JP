@@ -4,7 +4,10 @@ jcr-language: en_us
 title: 資格認定
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 83%
@@ -29,7 +32,7 @@ ht-degree: 83%
    1. **[!UICONTROL [すべて]]**&#x200B;をクリックして、すべての状態の資格認定を表示します。
    1. 資格認定のリストは、昇順、降順、または更新日に基づいて並べ替えることができます。
 
-1. **&#x200B;**
+1. ****
 
    新しい資格認定ページが表示されます。
 

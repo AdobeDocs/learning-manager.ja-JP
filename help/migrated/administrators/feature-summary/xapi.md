@@ -4,13 +4,14 @@ title: Learning Manager の xAPI
 description: Experience API （xAPI）は、あらゆるタイプの学習経験を記録し、追跡しつつ、学習コンテンツと学習システムを相互に連携させることを可能にする e ラーニングのソフトウェア仕様です。 学習経験は、学習記録ストア（LRS）に記録されます。 LRS は、従来の学習管理システム（LMS）内、またはそれ自体で存在します。
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 67%
-
 ---
-
 
 
 # Learning Manager の xAPI
@@ -75,7 +76,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 これで作成者として、コースを作成する際に xAPI モジュールを選択し、Learning Manager の外でユーザーエクスペリエンスを監視できるようになりました。 例えば、この機能を使用して、コースの受講に使用されるサードパーティーのプラットフォーム上のユーザーのアクティビティを評価できます。
 
-1. **[!UICONTROL アクティビティモジュール]**&#x200B;を作成するときに、&lbrack;**[!UICONTROL 型]**&#x200B;オプションで、ポップアップメニューを使用して&#x200B;**[!UICONTROL xAPIベースのモジュール]**&#x200B;を選択します。
+1. **[!UICONTROL アクティビティモジュール]**&#x200B;を作成するときに、[**[!UICONTROL 型]**オプションで、ポップアップメニューを使用して&#x200B;**[!UICONTROL xAPIベースのモジュール]**&#x200B;を選択します。
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +98,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 **注意点：**
 
-* Learning Managerでは現在、識別子としてmboxのみをサポートしています。 mboz_sha1 、 openid 、 accountなどのその他の識別子はサポートされていません。
+* Learning Managerは現在、識別子としてmboxのみをサポートしています。 mboz_sha1 、 openid 、 accountなどのその他の識別子はサポートされていません。
 
 * stateId と profileId は、Learning Manager で使用する際は UUID になります。
 * xAPIの担当者/プロファイル、アクティビティ/プロファイル、アクティビティ/ステートの文書は、PUTリクエストによって上書きされません
@@ -112,9 +113,9 @@ xAPIレポートは、Excelレポートとして生成できます。 管理者�
 
 ダウンロードされたレポートでは、学習者と管理者がステートメントで投稿したすべての情報が取得されます。
 
-同じレポートは、任意のサードパーティ統合用にFTPおよびBoxコネクタを使用して生成/スケジュールできます。 その場合、以下の手順を実行します。
+同じレポートは、任意のサードパーティ統合用にFTPおよびBox コネクターを使用して生成/スケジュールできます。 その場合、以下の手順を実行します。
 
-**統合管理者/ FTP/Boxコネクターを開く/左パネルから「 xAPIアクティビティレポート** 」を選択してログインします。 レポートのスケジュール/生成を選択します。
+**統合管理者/ FTP/Box コネクターーを開く/左パネルから「 xAPIアクティビティレポート** 」を選択してログインします。 レポートのスケジュール/生成を選択します。
 
 ![](assets/xapischedule.png)
 

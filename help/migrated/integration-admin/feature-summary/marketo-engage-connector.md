@@ -1,25 +1,26 @@
 ---
-description: Marketo EngageコネクタをAdobe Learning Managerと統合する方法について説明します。
+description: Adobe Learning ManagerにMarketo Engageコネクターを組み込む方法
 jcr-language: en_us
 title: Adobe Marketo Engage コネクター
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
 
-
-# Adobe Learning ManagerのMarketo Engageコネクタ
+# Adobe Learning ManagerのMarketo Engageコネクター
 
 ## 概要
 
-Marketo Engageコネクタを使用すると、Adobe Learning Managerはマーケティングの自動化プラットフォームであるMarketo Engageとシームレスに統合できます。 この統合は、マーケターがMarketoデータベースと同期することで、Adobe Learning Managerの学習者ビヘイビアーデータを追跡し、それに基づいて行動するのに役立ちます。
+コネクターにより、Adobe Learning Managerはマーケティングの自動化プラットフォームであるMarketo Engageとシームレスに連携できます。 この統合は、マーケターがMarketoデータベースと同期することで、Adobe Learning Managerの学習者ビヘイビアーデータを追跡し、それに基づいて行動するのに役立ちます。
 
-Marketo Engageコネクタを使用すると、2つのシステム間でシームレスにデータを同期し、マーケティング担当者が学習活動データを使用して目的のマーケティングキャンペーンを作成できます。
+コネクターにより、2つのシステム間でシームレスにデータを同期し、マーケティング担当者が学習活動データを使用してターゲットを絞ったマーケティングキャンペーンを作成できます。
 
-Marketo Engageコネクタを使用すると、次のことが可能になります。
+コネクターでは、次の操作が可能です。
 
 - ユーザーがAdobe Learning Managerに追加されたときに、Marketo Engageデータベースにリードを自動的に追加または更新します。
 - コースの登録、完了数、スキルの割り当て、スキルの完了数などのユーザーの学習行動を、Marketoのカスタムオブジェクトとして同期します。
@@ -33,9 +34,9 @@ Marketo Engageコネクタを使用すると、次のことが可能になりま
 - 学習活動（登録、修了、スキル達成）をカスタムオブジェクトとしてMarketoに書き出します。
 - 必要に応じて書き出しをスケジュールまたはトリガーします。
 - 統合レポートのサポート：
-   - ユーザーレポート
-   - 学習トランスクリプト
-   - ユーザースキルレポート
+  - ユーザーレポート
+  - 学習トランスクリプト
+  - ユーザースキルレポート
 
 ## 前提条件
 
@@ -52,15 +53,15 @@ Marketo Engageコネクタを使用すると、次のことが可能になりま
 >
 >クライアントIDとクライアントシークレットは、**LaunchPoint**&#x200B;の下のMarketo Engageアプリと、**Webサービス**&#x200B;セクションのドメインから取得できます。
 
-## コネクタの設定
+## コネクターの設定
 
-Marketo Engageコネクタを設定するには、次の手順に従います。
+コネクターを設定するには、次の手順に従います。
 
 1. Adobe Learning Managerに統合管理者としてログインします。
 2. **Marketo Engage**&#x200B;タイルにカーソルを合わせ、**接続**&#x200B;を選択します。
 
    ![](assets/marketo-engage-connector1.png)
-   _[接続]を選択してMarketo Engageコネクタを構成する_
+   _[接続]を選択してコネクターを構成する_
 
 3. 必要な資格情報を入力します
 
@@ -70,7 +71,7 @@ Marketo Engageコネクタを設定するには、次の手順に従います。
    - Marketo Engage ドメイン
 
    ![](assets/marketo-engage-connector2.png)
-   _Marketo Engageコネクタに必要な詳細を入力してください_
+   _コネクターに必要な詳細情報を入力してください_
 
 4. **接続**&#x200B;を選択して接続を確立します。
 

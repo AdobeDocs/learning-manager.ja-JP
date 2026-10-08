@@ -1,13 +1,14 @@
 ---
 title: 学習者としてライブハブセッションに参加する
-description: 学習者が登録コースからライブハブセッションに参加する方法を説明します。例えば、会議室に入る前にオーディオとカメラの設定をテストする方法などが説明されています。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+description: 受講者が登録済みのコースからライブハブセッションに参加する方法を説明します。例えば、会議室に入る前にオーディオとカメラの設定をテストする方法などが説明されています。
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 4%
-
 ---
-
 
 # 学習者としてライブハブ（ベータ版）セッションに参加する
 

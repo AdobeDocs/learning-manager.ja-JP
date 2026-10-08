@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 学習内容
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3331'
 ht-degree: 74%
-
 ---
-
 # 学習内容
 
 この記事では、Learning Manager でコースを表示および使用する方法について説明します。 ディスカッションに参加して、フィードバックを提出します。
@@ -243,7 +244,7 @@ _インスタンスプロンプトの切り替え_
 
 >[!NOTE]
 >
->コンテンツマーケットプレイスはInternet Explorer 11ではサポートされていません。
+>コンテンツマーケットプレイスは、インターネットエクスプローラー 11ではサポートされていません。
 
 以下のビデオで、すべてのフィルターおよびその他のオプションを紹介しています。
 

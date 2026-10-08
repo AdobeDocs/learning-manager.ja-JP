@@ -4,13 +4,14 @@ title: 信心深く
 description: 様々なソーシャルメディアチャネルでプラットフォームから外部バッジを管理および共有するためのALMとのCredlyの統合について説明します
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # 信心深く
 
 [Credly](https://info.credly.com/)は、学習者と組織がバッジや資格認定などの専門的な成果を獲得、共有、および確認できるようにするデジタル資格情報プラットフォームです。 学習者は、ソーシャルメディアやその他の場所にあるCredlyプロファイルを通じてバッジを管理および共有できます。
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 組織のCredlyアカウントを設定します。 Adobe Learning Managerで電子メールIDを使用して、学習者をCredlyに追加します。 これにより、学習者はCredlyとAdobe Learning Managerにバッジを表示できます。
 
-## Adobe Learning ManagerへのCredlyコネクタの追加
+## Adobe Learning Managerに信心深いコネクターを加える
 
-Adobe Learning ManagerにCredlyコネクタを追加するには、次の手順に従います。
+Credly コネクターをAdobe Learning Managerに追加するには、次の手順に従います。
 
 1. **[!UICONTROL 統合管理者]**&#x200B;としてログインします。
-2. **[!UICONTROL Credly]** > **Connect**&#x200B;を選択して、**[!UICONTROL Credly]**&#x200B;コネクタをAdobe Learning Managerに追加します。
+2. **[!UICONTROL Credly]** > **Connect**&#x200B;を選択して、**[!UICONTROL Credly]** コネクターをAdobe Learning Managerに追加します。
 
    ![](assets/connector-credly.png)
-   _信頼できるコネクタの追加_
+   _信頼できるコネクターを加える_
 
 3. **[!UICONTROL 接続名]**&#x200B;を入力します。
 4. **[!UICONTROL 組織ID]**&#x200B;と&#x200B;**[!UICONTROL 認証トークン]**&#x200B;を入力します。
@@ -45,11 +46,11 @@ Adobe Learning Managerのbadge.csvを使用すると、既存のLMSまたは外�
 * externalBadgeId
 * externalBadgeProvider
 
-外部バッジIDは、CredlyプラットフォームのバッジテンプレートIDを参照し、外部バッジプロバイダーはCredlyです。 badge.csvにこれらの値を追加し、[移行マニュアル](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/migration-manual#migrationprocedure)に記載されている手順に従ってcsvを移行します。
+外部バッジIDは、CredlyプラットフォームのバッジテンプレートIDを参照し、外部バッジプロバイダーはCredlyです。 badge.csvにこれらの値を追加し、[移行マニュアル](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)に記載されている手順に従ってcsvを移行します。
 
 ## スキルの作成 – 管理者
 
-バッジをAdobe Learning Managerに読み込むと、管理者はスキルとしてこのバッジを作成できます。 スキルの作成方法については、[スキルの作成と変更](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/skills-levels)を参照してください。
+バッジをAdobe Learning Managerに読み込むと、管理者はスキルとしてこのバッジを作成できます。 スキルの作成方法については、[スキルの作成と変更](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels)を参照してください。
 
 ### 学習オブジェクトにスキル/バッジを割り当てる – 作成者
 

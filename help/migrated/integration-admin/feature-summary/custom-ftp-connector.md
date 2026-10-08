@@ -1,21 +1,22 @@
 ---
-description: Adobe Learning ManagerのカスタムFTPコネクタ
+description: Adobe Learning ManagerのカスタムFTP コネクター
 jcr-language: en_us
-title: カスタムFTPコネクタ
+title: カスタムFTP コネクター
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
-
 ---
 
-
-# Adobe Learning ManagerのカスタムFTPコネクタ
+# Adobe Learning ManagerのカスタムFTP コネクター
 
 ## 概要
 
-Adobe Learning ManagerのカスタムFTPコネクターを使用すると、Adobe Learning Managerと組織のFTP(SFTP)サーバー間で安全かつ自動的なデータ交換を行うことができます。 この統合により、管理者は外部システムからユーザーデータを読み込み、学習者のトランスクリプトやスキルデータをスケジュールに従って書き出すことができます。 このセットアップにより、データ同期が合理化され、手作業が減り、サードパーティの人事またはレポートシステムとのシームレスな統合がサポートされます。 設定には、ITチームとの調整と、Adobeのカスタマーサクセスマネージャー(CSM)の支援が必要です。
+Adobe Learning ManagerのカスタムFTP コネクターを使用すると、Adobe Learning Managerと組織のFTP(SFTP)サーバー間で安全かつ自動的なデータ交換を行うことができます。 この統合により、管理者は外部システムからユーザーデータを読み込み、学習者のトランスクリプトやスキルデータをスケジュールに従って書き出すことができます。 このセットアップにより、データ同期が合理化され、手作業が減り、サードパーティの人事またはレポートシステムとのシームレスな統合がサポートされます。 設定には、ITチームとの調整と、Adobeのカスタマーサクセスマネージャー(CSM)の支援が必要です。
 
 >[!NOTE]
 >
@@ -23,7 +24,7 @@ Adobe Learning ManagerのカスタムFTPコネクターを使用すると、Adob
 
 ## サポートされる機能
 
-カスタムFTPコネクターは、次のアクションをサポートしています。
+カスタムFTP コネクターでは、次の操作がサポートされています。
 
 ### データの読み込み
 
@@ -60,15 +61,15 @@ Adobe Learning Managerでは、以下を書き出すことができます。
 
 スケジュールを設定することで、Adobe Learning Manager環境をソースシステムに合わせて常に最新の状態に保つことができます。 必要に応じて、日次同期またはカスタム間隔を設定できます。
 
-## カスタムFTPコネクターの設定
+## カスタムFTP コネクターの設定
 
-カスタムFTPコネクタを設定するには：
+カスタムFTP コネクターを設定するには：
 
 1. Adobe Learning Managerに統合管理者としてログインします。
 2. **カスタムFTP**&#x200B;タイルにカーソルを合わせ、**接続**&#x200B;を選択します。
 
    ![](assets/custom-ftp-connector1.png)
-   _[接続]を選択してカスタムFTPコネクタを構成する_
+   _[接続]を選択してカスタムFTP コネクターを構成する_
 
 ### 認証方法を選択
 

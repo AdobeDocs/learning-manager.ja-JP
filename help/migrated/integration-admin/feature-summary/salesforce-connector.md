@@ -3,7 +3,10 @@ description: Salesforce コネクターとAdobe Learning Managerを統合する�
 jcr-language: en_us
 title: Salesforce コネクタ
 contentowner: mmanuel
-source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 4%
@@ -361,7 +364,7 @@ Adobe Learning Managerアプリは、Adobe Learning Managerのロールに対応
 
 **カスタムプロファイルの作成**
 
-1. **設定**」に移動し、**人のユーザーを選択します。 &#x200B;**
+1. **設定**」に移動し、**人のユーザーを選択します。 **
 2. **プロファイル**&#x200B;を選択します。
 3. **新しいプロファイル**&#x200B;をクリックします。
 4. Adobe Learning Managerユーザー向けにカスタマイズされた、既存のプロファイルに基づくカスタムプロファイルを作成します。
@@ -370,7 +373,7 @@ Adobe Learning Managerアプリは、Adobe Learning Managerのロールに対応
 
 プロファイルを設定するには、次の手順を実行します。
 
-1. パッケージのインストール後、**&#x200B;**&#x200B;を構成し、**新規**&#x200B;を選択します。
+1. パッケージのインストール後、****&#x200B;を構成し、**新規**&#x200B;を選択します。
 2. 次の情報を入力します。
 
    - **構成名**

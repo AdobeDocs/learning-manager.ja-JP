@@ -2,13 +2,14 @@
 title: Adobe FTP Manager からの移行
 description: Adobe Learning Manager は、AWS Transfer ファミリーの SFTP プロトコルを使用する新しいコネクターをサポートしています。 オープンソースの FTP クライアントを Adobe FTP Manager に置き換えることができます。
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 69%
-
 ---
-
 # Adobe FTP Manager からの移行
 
 Adobe Learning Manager は、AWS Transfer ファミリーの SFTP プロトコルを使用する新しいコネクターをサポートしています。
@@ -22,11 +23,11 @@ AWS推奨のFTPクライアントの一部は、[ここに表示](https://docs.a
 * WinSCP（Microsoft Windows のみ）
 * Cyberduck（Windows、macOSおよびLinux）
 
-## AWSベースのFTPコネクタの設定
+## AWSベースのFTP コネクターの設定
 
-統合管理者で、新しいAWSベースのFTPコネクタを設定する必要があります。
+統合管理者で、新しいAWSベースのFTP コネクターを設定する必要があります。
 
-![コネクタ画像](assets/alm-ftp.png)
+![コネクターの画像](assets/alm-ftp.png)
 *FTPオプションを選択する*
 
 接続すると、「接続の詳細」ページが表示されます。
@@ -84,7 +85,7 @@ FTP接続を作成しました。
 1. 新しい ALM FTP コネクターに接続します。 「接続」をクリックします。
 
    ![画像の接続](assets/connect-client.png)
-   *新しいALM FTPコネクタに接続*
+   *新しいALM FTP コネクターに接続*
 
 1. パスワードを使用して基本的な認証で接続するには、ドメイン名と FTP ユーザー名を入力し、パスワードの検証条件と一致するパスワードを設定します。 「接続」をクリックします。 新しい FTP 接続が作成され、任意の SFTP クライアントからアクセスできるようになります。
 

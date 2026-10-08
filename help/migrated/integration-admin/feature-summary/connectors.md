@@ -1,25 +1,26 @@
 ---
-description: ALMでサポートされる各コネクタの概要
+description: ALMでサポートされる各コネクターの概要
 jcr-language: en_us
-title: Adobe Learning Managerのコネクタの概要
+title: Adobe Learning Managerのコネクターの概要
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
 
-
-# Adobe Learning Managerコネクタ
+# コネクター
 
 ## 概要
 
-Adobe Learning Manager(ALM)は、サードパーティ製アプリケーションやエンタープライズシステムとシームレスに統合できる包括的なコネクタスイートを提供します。 これらのコネクターは、学習管理システムと外部プラットフォームを橋渡しする役割を果たし、自動化されたデータ同期、ユーザー管理、コンテンツの読み込み、学習記録の書き出しを促進します。
+Adobe Learning Manager(ALM)は、サードパーティ製アプリケーションやエンタープライズシステムとシームレスに統合できる包括的なコネクタースイートを提供します。 これらのコネクターは、学習管理システムと外部プラットフォームを橋渡しする役割を果たし、データ同期、ユーザー管理、コンテンツの読み込み、学習記録の書き出しを自動化します。
 
-このドキュメントは、組織の学習エコシステムに適切なコネクタを理解して選択するための完全なリファレンスガイドとして機能します。 人事システム、eコマースプラットフォーム、仮想ミーティングツール、ビジネスインテリジェンスソリューションとの統合を検討しているかどうか。
+このドキュメントは、組織の学習エコシステムに適したコネクターを理解して選択するための完全なリファレンスガイドとして機能します。 人事システム、eコマースプラットフォーム、仮想ミーティングツール、ビジネスインテリジェンスソリューションとの統合を検討しているかどうか。
 
-Adobe Learning Managerでサポートされているコネクタの一覧については、左側の目次のこの記事の下にネストされているコネクタの記事を参照してください。
+Adobe Learning Managerでサポートされているコネクターの一覧については、左側の目次のこの記事の下にネストされているコネクターの記事を参照してください。
 
 >[!NOTE]
 >
@@ -29,11 +30,11 @@ Adobe Learning Managerでサポートされているコネクタの一覧につ�
 >
 >2022年11月リリースのAdobe Learning Managerでは、Zoomは2023年6月までの[JWT認証](https://developers.zoom.us/docs/internal-apps/s2s-oauth/)を廃止しました。 このため、JWT を使用した Zoom コネクターは前述の期日まで利用可能ですが、アカウントの機能を置き換えるためにサーバー間 OAuth アプリを作成することをお勧めします。 新しい接続では、デフォルトで Zoom OAuth 認証が使用されます。
 
-## コネクタカテゴリ
+## コネクターのカテゴリ
 
-Adobe Learning Managerコネクタは、主な目的と統合機能に基づいて、いくつかの機能的なカテゴリに分類できます。
+Adobe Learning Manager コネクターは、その主な目的と統合機能に基づいて、いくつかの機能的なカテゴリに分類できます。
 
-| カテゴリ | 目的 | コネクタの例 |
+| カテゴリ | 目的 | コネクターの例 |
 |---------|--------|-------------------|
 | データ転送 | ファイル・ベースのデータ交換と一括操作 | FTP,カスタムFTP, Box |
 | バーチャルクラスルーム | ライブトレーニングとミーティングの統合 | Microsoft Teams、ズーム、Adobe Connect |
@@ -43,13 +44,13 @@ Adobe Learning Managerコネクタは、主な目的と統合機能に基づい�
 | 認証 | ID管理とセキュリティ | ADFS（SSO機能） |
 | eコマースとマーケティング | 販売とマーケティングの統合 | Adobe Commerce、Marketo Engage |
 
-## データ転送およびﬁle管理コネクタ
+## データ転送およびﬁle管理コネクター
 
-これらのコネクタは、ﬁle転送プロトコルを介した自動データ交換を容易にし、一括操作とシステム間通信を可能にします。
+これらのコネクターは、ﬁle転送プロトコルを介した自動データ交換を容易にし、一括操作やシステム間の通信を可能にします。
 
-### Adobe Learning Manager FTPコネクタ
+### ADOBE LEARNING MANAGER FTP コネクター
 
-FTPコネクターを使用すると、広く採用されているファイル転送プロトコルを使用して、Adobe Learning Managerと外部システム間のデータ同期を自動化できます。 このコネクタは、セキュリティを強化するために、SFTP(SSH File Transfer Protocol)やFTPS(FTP Secure)などの安全なバリエーションをサポートしています。
+FTP コネクターを使用すると、広く採用されているファイル転送プロトコルを使用して、Adobe Learning Managerと外部システム間のデータ同期を自動化できます。 このコネクターは、セキュリティを強化するために、SFTP(SSH File Transfer Protocol)やFTPS(FTP Secure)などの安全なバリアントをサポートします。
 
 #### 主な機能：
 
@@ -58,11 +59,11 @@ FTPコネクターを使用すると、広く採用されているファイル�
 - セキュアなﬁle転送プロトコル(SFTP、FTPS)のサポート。
 - サイズの大きいデータセットのバッチ処理
 
-詳細については、[FTPコネクタ](/help/migrated/integration-admin/feature-summary/ftp-connector.md)を参照してください。
+詳細については、[FTP コネクター](/help/migrated/integration-admin/feature-summary/ftp-connector.md)を参照してください。
 
-### カスタムFTPコネクタ
+### カスタムFTP コネクター
 
-カスタムFTPコネクタは、構造化データ形式やxAPIステートメント交換をサポートし、より高度なﬁル転送機能を提供します。 このコネクタは、データ交換プロセスをより詳細に制御する必要がある組織向けに設計されています。
+カスタムFTP コネクターは、構造化データフォーマットとxAPIステートメント交換をサポートし、より高度なﬁle転送機能を提供します。 このコネクターは、データ交換プロセスをより詳細に制御する必要がある企業向けに設計されています。
 
 #### 主な機能：
 
@@ -71,11 +72,11 @@ FTPコネクターを使用すると、広く採用されているファイル�
 - 指定されたFTPフォルダーからの自動ﬁle処理。
 - 機密データ転送のための拡張セキュリティ機能。
 
-詳細については、[カスタムFTPコネクタ](/help/migrated/integration-admin/feature-summary/custom-ftp-connector.md)を参照してください。
+詳細については、[カスタムFTP コネクター](/help/migrated/integration-admin/feature-summary/custom-ftp-connector.md)を参照してください。
 
 ### Box コネクター
 
-Boxコネクターは、Boxのクラウドストレージプラットフォームを活用して、外部システムとAdobe Learning Managerの間のシームレスなデータ同期を容易にします。 このコネクターは、既にBoxを使用してﬁル管理を行っている組織にとって特に便利です。
+Boxコネクターは、Boxのクラウドストレージプラットフォームを活用して、外部システムとAdobe Learning Managerの間のシームレスなデータ同期を容易にします。 このコネクターは、既にBoxを使用してﬁル管理を行っている場合に特に便利です。
 
 #### 主な機能：
 
@@ -86,13 +87,13 @@ Boxコネクターは、Boxのクラウドストレージプラットフォー�
 
 詳細については、「[Box コネクタ](/help/migrated/integration-admin/feature-summary/box-connector.md)」を参照してください。
 
-## バーチャルクラスルームおよび会議コネクタ
+## バーチャルクラスルームとミーティングのコネクター
 
 これらのコネクターは、Adobe Learning Managerを人気のビデオ会議やバーチャルミーティングプラットフォームと統合し、ライブトレーニングセッションをシームレスに提供します。
 
 ### Microsoft Teams コネクター
 
-Microsoft Teamsコネクタは、Teamsの会議機能と直接統合することで、Adobe Learning Managerを包括的なバーチャルクラスルームソリューションに変えます。 このコネクタは、Microsoft 365エコシステムを使用する組織に不可欠です。
+コネクターは、Adobe Learning Managerをチームの会議機能と直接統合することで、包括的なバーチャルクラスルームソリューションに変形します。 このコネクターは、Microsoft 365エコシステムを使用する組織に不可欠です。
 
 #### 主な機能：
 
@@ -100,11 +101,11 @@ Microsoft Teamsコネクタは、Teamsの会議機能と直接統合すること
 - チーム会議の自動作成と管理。
 - 個別の会議リンクを使用せずに、シームレスに学習者にアクセスできます。
 
-詳細については、[MS Teamsコネクター](/help/migrated/integration-admin/feature-summary/install-microsoft-teams-connector.md)を参照してください。
+詳細については、[MS Teams コネクター](/help/migrated/integration-admin/feature-summary/install-microsoft-teams-connector.md)を参照してください。
 
-### Zoomコネクタ
+### ズームコネクター
 
-Zoomコネクターを使用すると、Zoomの強力なビデオ会議機能をAdobe Learning Manager内で直接活用でき、インストラクターと学習者の両方にシームレスなエクスペリエンスを提供できます。
+Zoom コネクターを使用すると、Zoomの強力なビデオ会議機能をAdobe Learning Manager内で直接活用できます。これにより、インストラクターと学習者の両方がシームレスにビデオ会議を楽しむことができます。
 
 #### 主な機能：
 
@@ -114,11 +115,11 @@ Zoomコネクターを使用すると、Zoomの強力なビデオ会議機能を
 - 録音管理と再生の統合。
 - インタラクティブセッションのブレイクアウトルームのサポート。
 
-詳細については、[Zoomコネクタ](/help/migrated/integration-admin/feature-summary/zoom-connector.md)を参照してください。
+詳細については、[コネクターのズーム](/help/migrated/integration-admin/feature-summary/zoom-connector.md)を参照してください。
 
-### Adobe Connectコネクタ
+### コネクター
 
-Adobe Connectコネクタは、インタラクティブなオンライン学習体験のための高度な機能を備えた、Adobe独自のバーチャルクラスルームプラットフォームとﬀの深い統合を提供します。
+コネクターは、Adobe独自のバーチャルクラスルームプラットフォームと緊密に連携し、インタラクティブなオンライン学習体験を実現する高度な機能をﬀ備えています。
 
 #### 主な機能：
 
@@ -127,15 +128,15 @@ Adobe Connectコネクタは、インタラクティブなオンライン学習�
 - 包括的なセッション録音と再生。
 - モバイルに最適化されたバーチャルクラスルームのエクスペリエンス。
 
-詳細については、[Adobe Connectコネクタ](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md)を参照してください。
+詳細については、[Adobe Connect コネクター](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md)を参照してください。
 
-## エンタープライズシステム統合コネクタ
+## エンタープライズシステム統合のコネクター
 
-これらのコネクターを使用することで、Adobe Learning Managerは基幹業務システムと連携し、ユーザー管理の自動化とデータの同期の効率化を実現できます。
+これらのコネクターにより、Adobe Learning Managerは基幹業務システムと連携し、自動化されたユーザー管理と組織のデータ同期を実現します。
 
 ### Workday コネクタ
 
-Workdayコネクタは、人事システムとLearning Management Platformの間にシームレスなブリッジを構築し、従業員の記録、組織構造、ロール割り当てが両方のシステム間で同期された状態を維持します。
+コネクターは、人事システムとLearning Management Platformの間にシームレスなブリッジを構築し、社員の記録、組織構造、ロール割り当てが両方のシステム間で同期された状態を維持します。
 
 #### 主な機能：
 
@@ -144,11 +145,11 @@ Workdayコネクタは、人事システムとLearning Management Platformの間
 - 組織階層マッピング。
 - ロールベースの学習割り当ての自動化。
 
-詳細については、[Workdayコネクタ](/help/migrated/integration-admin/feature-summary/workday-connector.md)を参照してください。
+詳細については、[Workday コネクター](/help/migrated/integration-admin/feature-summary/workday-connector.md)を参照してください。
 
 ### Salesforce コネクタ
 
-Salesforceコネクターを使用すると、組織は顧客関係管理システムと学習イニシアチブを統合し、セールストレーニング、顧客教育、パフォーマンス追跡の機会を創出できます。
+Salesforceのコネクターを利用すると、カスタマーリレーションシップ管理システムとラーニングイニシアチブを統合し、セールストレーニング、カスタマー教育、パフォーマンス追跡の機会を得ることができます。
 
 #### 主な機能：
 
@@ -158,11 +159,11 @@ Salesforceコネクターを使用すると、組織は顧客関係管理シス�
 - セールスパフォーマンスとトレーニングの完了の相関関係。
 - お客様教育プログラムの管理
 
-詳細については、[Salesforceコネクタ](/help/migrated/integration-admin/feature-summary/salesforce-connector.md)を参照してください。
+詳細については、[Salesforce コネクター](/help/migrated/integration-admin/feature-summary/salesforce-connector.md)を参照してください。
 
-### ADFS （Active Directoryフェデレーションサービス）コネクタ
+### ADFS （Active Directoryフェデレーションサービス） コネクター
 
-ADFSコネクターを使用すると、エンタープライズレベルの認証と承認を実装して、既存のActive Directory資格情報を使用してAdobe Learning Managerにアクセスできます。
+ADFS コネクターを使用すると、エンタープライズレベルの認証と承認を実装して、既存のActive Directory資格情報を使用してAdobe Learning Managerにアクセスできます。
 
 #### 主な機能：
 
@@ -173,15 +174,15 @@ ADFSコネクターを使用すると、エンタープライズレベルの認�
 - スケジュールを設定する機能
 - フィルター機能
 
-詳細については、[ADFSコネクタ](/help/migrated/integration-admin/feature-summary/adfs-connector.md)を参照してください。
+詳細については、[ADFS コネクター](/help/migrated/integration-admin/feature-summary/adfs-connector.md)を参照してください。
 
-## コンテンツと学習プラットフォームコネクタ
+## コンテンツとラーニングプラットフォームのコネクター
 
 これらのコネクターは、外部コンテンツライブラリと専用の学習プラットフォームを統合して、学習カタログを拡張します。
 
 ### LinkedIn Learning コネクタ
 
-linkedInラーニングコネクターを使用すると、LinkedInのプロフェッショナル向け開発コースの豊富なライブラリにアクセスして、業界をリードする外部コンテンツで社内トレーニングを補完できます。
+linkedInラーニングコネクターでは、LinkedInのプロフェッショナル育成コースの豊富なライブラリにアクセスでき、企業は社内向けトレーニングを業界をリードする社外コンテンツで補うことができます。
 
 #### 主な機能：
 
@@ -189,11 +190,11 @@ linkedInラーニングコネクターを使用すると、LinkedInのプロフ�
 - 自動コース検出および読み込み。
 - Adobe Learning Manager内での学習者の進行状況のトラッキング。
 
-詳細については、[LinkedInコネクタ](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md)を参照してください。
+詳細については、[LinkedIn コネクター](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md)を参照してください。
 
 ### Harvard ManageMentor コネクタ
 
-Harvard ManageMentorコネクタは、トップクラスのリーダーシップとマネージメントに関するトレーニングコンテンツをお客様のAdobe Learning Manager環境に直接提供し、Harvard Business Schoolの著名な教育機関リソースへのアクセスを可能にします。
+Harvard ManageMentor コネクターは、トップクラスのリーダーシップとマネジメントに関するトレーニングコンテンツをお客様のAdobe Learning Manager環境に直接提供し、Harvard Business Schoolの著名な教育機関リソースへのアクセスを可能にします。
 
 #### 主な機能：
 
@@ -201,11 +202,11 @@ Harvard ManageMentorコネクタは、トップクラスのリーダーシップ
 - 管理およびリーダーシップ開発モジュール。
 - シームレスなコンテンツの読み込みと整理
 
-詳細については、[Harvard ManageMentorコネクタ](/help/migrated/integration-admin/feature-summary/harvard-managementor-connector.md)を参照してください。
+詳細については、[Harvard ManageMentor コネクター](/help/migrated/integration-admin/feature-summary/harvard-managementor-connector.md)を参照してください。
 
-### getAbstractコネクタ
+### getAbstract コネクター
 
-getAbstractコネクターを使用すると、ビジネス帳簿の簡潔な概要やプロフェッショナルな洞察にアクセスでき、組織は消化しやすいコンテンツ形式を通じて継続的ﬀな学習を行うことができます。
+getAbstractコネクターは、簡潔なビジネス書のまとめや専門的な洞察にアクセスし、消化しやすいコンテンツ形式を通じて継続的な学習をﬀ可能にします。
 
 #### 主な機能：
 
@@ -213,15 +214,15 @@ getAbstractコネクターを使用すると、ビジネス帳簿の簡潔な概
 - 使用状況データの追跡とレポート。
 - 完了記録の自動作成
 
-詳細については、[getAbstractコネクタ](/help/migrated/integration-admin/feature-summary/getabstract-connector.md)を参照してください。
+詳細については、[getAbstract コネクター](/help/migrated/integration-admin/feature-summary/getabstract-connector.md)を参照してください。
 
-## ビジネスインテリジェンスと分析コネクタ
+## Business Intelligenceと分析のコネクター
 
-これらのコネクターを使用すると、学習データを外部の分析プラットフォームと統合することで、高度なレポート機能、データ視覚化機能、ビジネスインテリジェンス機能を利用できます。
+これらのコネクターは、学習データを外部の分析プラットフォームと統合することで、高度なレポート作成機能、データビジュアライゼーション機能、ビジネスインテリジェンス機能を実現します。
 
 ### Power BI コネクター
 
-Power BIコネクタは、Microsoftの強力なビジネスインテリジェンスプラットフォームと学習指標を自動的に同期させ、学習データを実用的なビジネスインサイトに変換します。
+コネクターは、Microsoftの強力なビジネスインテリジェンスプラットフォームと学習指標を自動的に同期させることで、学習データを実用的なビジネスインサイトに変形します。
 
 #### 主な機能：
 
@@ -234,7 +235,7 @@ Power BIコネクタは、Microsoftの強力なビジネスインテリジェン
 
 ### Training Data Access コネクタ
 
-トレーニングデータアクセスコネクタを使用すると、トレーニングデータやコース情報へのAPIアクセスを提供することで、組織はカスタム学習インターフェイスやヘッドレス学習体験を作成できます。
+トレーニングデータアクセスコネクターを使用すると、トレーニングデータやコース情報へのAPIアクセスを提供することで、カスタム学習インターフェイスやヘッドレスラーニングエクスペリエンスを構築できます。
 
 **主な機能：**
 
@@ -243,15 +244,15 @@ Power BIコネクタは、Microsoftの強力なビジネスインテリジェン
 - ヘッドレス学習体験の作成。
 - 高度な検索ﬁフィルタリング機能。
 
-詳細については、[トレーニングデータアクセスコネクタ](/help/migrated/integration-admin/feature-summary/training-data-access-connector.md)を参照してください。
+詳細については、[トレーニングデータアクセスコネクター](/help/migrated/integration-admin/feature-summary/training-data-access-connector.md)を参照してください。
 
-## eコマースおよびマーケティングコネクタ
+## eコマースとマーケティングのコネクター
 
 これらのコネクターにより、学習コンテンツの収益化とマーケティング自動化プラットフォームとの統合が可能になります。
 
 ### Adobe Commerce connector
 
-Adobe Commerceコネクタにより、Adobe Learning Managerは包括的なラーニングコマースプラットフォームに変わり、完全に統合されたeコマースのエクスペリエンスを通じて、コース、資格認定ﬁ、トレーニングプログラムを販売できるようになります。
+コネクターは、Adobe Learning Managerを包括的なlearning commerceプラットフォームに変形し、完全に統合されたeコマース体験を通じて、コース、資格認定ﬁ、トレーニングプログラムを販売できるようにします。
 
 **主な機能：**
 
@@ -259,11 +260,11 @@ Adobe Commerceコネクタにより、Adobe Learning Managerは包括的なラ�
 - コースカタログと価格管理。
 - 支払い処理と登録を自動化
 
-詳細については、[Adobe Commerceコネクタ](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md)を参照してください。
+詳細については、[Adobe Commerce コネクター](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md)を参照してください。
 
 ### Adobe Marketo Engage コネクター
 
-Marketo Engageコネクタは、学習活動とマーケティングキャンペーンの間に強力な相乗効果を生み出し、企業が教育を活用して、見込み客の育成と顧客開拓を行えるようにします。
+コネクターは、学習活動とマーケティングキャンペーンの間に強力な相乗効果を生み出し、企業が教育エンゲージメントを活用して、見込み客の育成と顧客開拓を行えるようにします。
 
 #### 主な機能：
 
@@ -271,4 +272,4 @@ Marketo Engageコネクタは、学習活動とマーケティングキャンペ
 - マーケティングインサイトのための学習活動の追跡。
 - コースの登録および完了イベントがトリガーされます。
 
-詳細については、[Marketo Engageコネクタ](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md)を参照してください。
+詳細については、[コネクター](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md)を参照してください。

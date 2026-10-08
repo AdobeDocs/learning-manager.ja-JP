@@ -4,13 +4,14 @@ title: CSV ファイルを使用したカスタムの役割の管理
 description: 統合管理者は CSV を使用して、複数のカスタムの役割を自分のアカウントにまとめて追加することも、複数のユーザーにカスタムの役割を割り当てることもできます。 この方法はカスタムの役割を作成するプロセスを自動化します。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 78%
-
 ---
-
 # CSV ファイルを使用したカスタムの役割の管理
 
 統合管理者は CSV を使用して、複数のカスタムの役割を自分のアカウントにまとめて追加することも、複数のユーザーにカスタムの役割を割り当てることもできます。 この方法はカスタムの役割を作成するプロセスを自動化します。

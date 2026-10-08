@@ -4,13 +4,14 @@ title: 学習者としてプレビュー
 description: Fluidic プレーヤーは、ミックスされた学習コンテンツをシームレスに利用するための学習者向けプラットフォームです。 サポート対象となっているすべての形式は、このプレーヤーで正しく再生されます。 作成者と管理者は、プレーヤーを使用してコンテンツをプレビューできます。
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 68%
-
 ---
-
 # 学習者としてプレビュー
 
 ## Fluidic プレーヤー {#fluidicplayer}

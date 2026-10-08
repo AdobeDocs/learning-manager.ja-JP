@@ -1,13 +1,14 @@
 ---
 title: ライブハブで学習者としてセッション録画を表示
 description: 学習者がLive Hubセッションの録音機能にアクセスする方法、再生コントロールを使用する方法、AIが生成したトピックに移動する方法、タイムスタンプ付きの文字起こしを表示する方法について説明します。
-source-git-commit: a674dd6e6ce34adbb7b756e151f6a0dc0437dc94
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
-
 ---
-
 
 # 学習者としてのセッション記録の表示
 

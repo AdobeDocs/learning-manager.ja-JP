@@ -4,7 +4,10 @@ title: 社外ユーザーとして登録できない
 description: 社外学習者をAdobe Learning Managerのプロファイルに登録できない。
 contentowner: nluke
 exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 70%

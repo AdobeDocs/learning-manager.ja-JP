@@ -2,13 +2,14 @@
 title: ログインなしのエクスペリエンス（学習者向け）
 description: Adobe Learning Managerネイティブポータルでは、ログを使用せずにトレーニングサイトにアクセスできます。 このモードを有効にすると、学習者はトレーニングサイトを検索してアクセスし、利用可能なさまざまなコースやコンテンツを確認できます。 学習者はログインなしのエクスペリエンスにより、ポータルにログインしなくてもコースを参照できます。
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 38%
-
 ---
-
 # ログインなしのエクスペリエンス（学習者向け）
 
 Adobe Learning Managerネイティブポータルでは、ログを使用せずにトレーニングサイトにアクセスできます。 このモードを有効にすると、学習者はトレーニングサイトを検索してアクセスし、利用可能なさまざまなコースやコンテンツを確認できます。
@@ -17,7 +18,7 @@ Adobe Learning Managerネイティブポータルでは、ログを使用せず�
 
 ログインしていないホームページを有効にするには、統合管理者が[トレーニングデータコネクター](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)を有効にして、コネクターを設定する必要があります。
 
-その後、コネクタからトレーニングを書き出すことができます。
+その後、コネクターからトレーニングを書き出すことができます。
 
 >[!NOTE]
 >

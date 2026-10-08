@@ -3,7 +3,10 @@ description: OIDCログイン方法の詳細
 jcr-language: en_us
 title: OpenID ConnectでAdobe Learning Managerにログイン
 exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
-source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%

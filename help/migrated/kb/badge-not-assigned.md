@@ -4,13 +4,14 @@ title: バッジを割り当てられない
 description: 学習者がコース／学習プログラム／資格認定を完了しても、学習者にバッジが付与されません。
 contentowner: nluke
 exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 74%
-
+ht-degree: 97%
 ---
-
 # バッジを割り当てられない
 
 ## 問題
@@ -43,11 +44,11 @@ ht-degree: 74%
 
    ![](assets/view-a-badge.png)
 
-1. 学習目標からバッジを削除して、[**[!UICONTROL 保存]**]をクリックします。
+1. 学習目標からバッジを削除して&#x200B;**[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
    ![](assets/remove-a-badge.png)
 
-1. バッジを学習目標に再割り当てして「**[!UICONTROL 保存]**」をクリックします。
+1. バッジを学習目標に再割り当てして&#x200B;**[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
    この手順により、学習目標に登録されたすべての学習者にバッジが割り当てられます。
 
@@ -60,4 +61,4 @@ ht-degree: 74%
 
    ![](assets/remove-a-badge-cert.png)
 
-1. 資格認定にバッジを再割り当てして「**[!UICONTROL 保存]**」をクリックします。
+1. 資格認定にバッジを再割り当てして&#x200B;**[!UICONTROL 「保存」]**&#x200B;をクリックします。

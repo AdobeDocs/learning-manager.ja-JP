@@ -1,13 +1,14 @@
 ---
 title: ライブハブのクイズ機能について
 description: ライブハブセッション中に、インストラクターが作成した複数の質問で構成されるクイズで、学習者の理解度をリアルタイムで評価する方法について説明します。
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # クイズについて
 

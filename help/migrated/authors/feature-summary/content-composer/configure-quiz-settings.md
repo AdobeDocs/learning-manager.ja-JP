@@ -2,13 +2,14 @@
 description: Content Composerで、クイズの再試行回数、時間制限、質問順序、シャッフル、SCORMスコアリングの設定を行う方法について説明します。
 jcr-language: en_us
 title: クイズ設定の構成
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
-
 ---
-
 
 # クイズ設定の構成
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 ## 庶務課
 
-- **クイズの再試行回数**：学習者がクイズを完了するために受ける試行回数を選択します。 例えば、**3**&#x200B;を選択すると、最大3回まで試行できます。
+- **クイズの再試行回数**：学習者がクイズを完了するために受ける試行回数を選択します。 例えば、**3**を選択すると、最大3回まで試行できます。
   ![](../assets/28_quiz_retries_dropdown_options_updated.png)
 
 - **時間制限（分）**：切り替えを選択して時間制限を有効にし、期間を分で入力します。 例えば、**60**&#x200B;と入力すると、学習者はクイズの所要時間を60分に設定できます。
@@ -28,7 +29,7 @@ ht-degree: 0%
 - **質問の順序をランダム化**：切り替えスイッチを選択すると、各学習者に対して質問がランダムな順序で表示されます。
   ![](../assets/29_quiz_randomize_question_order_toggle_updated.png)
 
-- **回答の選択肢をシャッフルする：**&#x200B;切り替えスイッチを選択して、各質問の回答の選択肢をシャッフルします。
+- **回答の選択肢をシャッフルする：**切り替えスイッチを選択して、各質問の回答の選択肢をシャッフルします。
   ![](../assets/30_quiz_shuffle_answer_choices_toggle_updated.png)
 
 ## 採点セクション

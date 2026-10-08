@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 新機能の概要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # 新機能の概要 {#new-features-summary}
 
 Adobe Learning Managerの2024年3月リリースの新機能と機能強化について説明します。
@@ -31,7 +32,7 @@ Adobe Learning Managerの2024年3月リリースの新機能と機能強化に�
 
 ### 外部ソースからのスキルの読み込み
 
-それぞれのコネクタを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。 この機能強化は、Learning Managerが外部のSkills CloudおよびTalent Managementシステムと統合できるようにするための目標の一部です。 読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。 また、プラットフォーム全体のスキル検索機能が強化され、アカウントに多数のスキルが含まれている場合の検索機能が向上しました。
+それぞれのコネクターを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。 この機能強化は、Learning Managerが外部のSkills CloudおよびTalent Managementシステムと統合できるようにするための目標の一部です。 読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。 また、プラットフォーム全体のスキル検索機能が強化され、アカウントに多数のスキルが含まれている場合の検索機能が向上しました。
 
 [スキルの読み込み](administrators/feature-summary/import-skills-external-sources.md)を表示して、詳細を確認してください。
 
@@ -54,7 +55,7 @@ Adobe Learning Managerの2024年3月リリースの新機能と機能強化に�
 
 ### 管理者 – 学習者ページ
 
-任意のユーザーを検索する場合、**[学習者のダウンロード]**&#x200B;と&#x200B;**[書き出し]**&#x200B;のオプションで同じレポートをダウンロードします。 一方、ユーザーグループを検索する際に、そのユーザーグループからフィルタリングされたユーザーをダウンロードできるようになりました。 ユーザーグループを検索する場合、
+任意のユーザーを検索する場合、**[学習者のダウンロード]**&#x200B;と&#x200B;**[書き出し]**のオプションで同じレポートをダウンロードします。 一方、ユーザーグループを検索する際に、そのユーザーグループからフィルタリングされたユーザーをダウンロードできるようになりました。 ユーザーグループを検索する場合、
 **学習者リストのダウンロード**&#x200B;が&#x200B;**ユーザーグループの学習者リストのダウンロード**&#x200B;に変わります。**書き出し**&#x200B;オプションを使用すると、リスト全体が再度ダウンロードされます。
 
 ### 管理者 – ユーザーページ
@@ -204,7 +205,7 @@ Adobe Learning Managerのこのリリースでは、登録済みユーザーの�
             <td>
                 <ul>
                     <li>ユーザー数が50,000人を超えた場合は、後でより詳細な分析のためにデータをダウンロードするための追加メッセージが表示されます。 検索バーが目立つようになり、名前、電子メールの形式でユーザーが表示されるようになりました | UUID。</li>
-                    <li>ユーザークリーンアップページで、削除されたユーザーに対して、**削除日**&#x200B;の並べ替え機能を削除しました。 UUIDに基づいてのみ並べ替えることができます。</li>
+                    <li>ユーザークリーンアップページで、削除されたユーザーに対して、**削除日**の並べ替え機能を削除しました。 UUIDに基づいてのみ並べ替えることができます。</li>
                 </ul>
             </td>
         </tr>
@@ -266,7 +267,9 @@ Adobe Learning Managerのこのリリースでは、登録済みユーザーの�
 
 * トレーニングレポートの「タグ」列と「スキル」列が「タグとスキル」に変更されました。
 * レポート[ゲーミフィケーション監査追跡](administrators/feature-summary/reports.md#gamification-audit-trail)を追加しました。
-* アカウントにスキルに割り当てられた学習者が280000人以上ある場合、スキル学習者レポートがzip形式のcsvとしてダウンロードされます。アカウントに学習者が250000人未満の場合は、同じレポートがCSVとしてダウンロードされます。管理者ページで、**管理者** > **スキル** > **スキル** > **学習者**&#x200B;を選択します。 レポートがCSVとしてダウンロードされます。
+* アカウントにスキルに割り当てられた学習者が280000人以上ある場合、スキル学習者レポートがzip形式のcsvとしてダウンロードされます。
+アカウントに学習者が250000人未満の場合は、同じレポートがCSVとしてダウンロードされます。
+管理者ページで、**管理者** > **スキル** > **スキル** > **学習者**&#x200B;を選択します。 レポートがCSVとしてダウンロードされます。
 * [セッションの概要レポート](administrators/feature-summary/reports.md#session-summary-report)には、場所の情報と場所の領域の2つの新しい列があります。
 
 ## 教室の作成の変更
@@ -281,7 +284,8 @@ Adobe Learning Managerのこのリリースでは、登録済みユーザーの�
 
 ## 柔軟な学習パスの変更
 
-の全アカウント（新旧）で、柔軟な学習パスを持つ学習者アプリの登録期限、登録解除期限、人数制限が開始されます。学習者は、コースのインスタンスを選択することなく、柔軟な学習パスに登録できるようになりました。
+の全アカウント（新旧）で、柔軟な学習パスを持つ学習者アプリの登録期限、登録解除期限、人数制限が開始されます。
+学習者は、コースのインスタンスを選択することなく、柔軟な学習パスに登録できるようになりました。
 
 ## 学習プランの新しいトリガー
 
@@ -339,9 +343,9 @@ Adobe Learning Managerの以前のリリースでは、学習者がセッショ�
 2024年3月リリースのAdobe Learning Managerでは、次の新しい変更が加えられました。
 
 * セッションの詳細が更新され、セッションが招待されました（学習者およびインストラクター用）
-   * 今後のセッションでは、登録済み学習者および現在のインストラクターの&#x200B;**セッションの詳細の更新**、**セッションの招待**&#x200B;に関する電子メールが廃止されます。 過去のセッションについては、登録されている学習者と現在のインストラクターに対する&#x200B;**セッションの詳細の更新**&#x200B;と&#x200B;**セッションの招待**&#x200B;のメールは、そのまま維持されます。
+  * 今後のセッションでは、登録済み学習者および現在のインストラクターの&#x200B;**セッションの詳細の更新**、**セッションの招待**&#x200B;に関する電子メールが廃止されます。 過去のセッションについては、登録されている学習者と現在のインストラクターに対する&#x200B;**セッションの詳細の更新**&#x200B;と&#x200B;**セッションの招待**&#x200B;のメールは、そのまま維持されます。
 * リマインダーメール（管理者および学習者向け）
-   * 今後のセッションでは、**セッションのリマインダー**&#x200B;のメールのみが送信されます。
+  * 今後のセッションでは、**セッションのリマインダー**&#x200B;のメールのみが送信されます。
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ AEMの参照サイトで、学習者アクセストークンに管理者更新�
 * 3日後にもう一度通知する
 * 1週間以内に再度通知する
 
-Androidの場合：プッシュ通知をクリックすると、**コースの概要**&#x200B;ページが表示されます。iOSの場合：プッシュ通知をクリックすると、アプリのホームページが表示されます。 これは、iOSでは既知の制限です。
+Androidの場合：プッシュ通知をクリックすると、**コースの概要**ページが表示されます。
+iOSの場合：プッシュ通知をクリックすると、アプリのホームページが表示されます。 これは、iOSでは既知の制限です。
 
 ### Salesforceの学習者アプリのチェックリストの変更
 
@@ -428,7 +433,7 @@ Adobe Learning Managerモバイルアプリは、ホワイトラベルをサポ�
 
 Bluejeansが2024年2月にサポート終了(EOL)になったことをお知らせします。 2024年2月以降、Bluejeansはアップデートやサポートを受けられなくなります。 CSAMとサポートチームは、この移行期間中に発生する可能性のある質問や懸念事項についてお客様を支援します。
 
-コネクタの構成の詳細については、[Adobe Learning Managerのコネクタ](integration-admin/feature-summary/connectors.md)を参照してください。
+コネクターの構成の詳細については、[Adobe Learning Managerのコネクター](integration-admin/feature-summary/connectors.md)を参照してください。
 
 ### ログインアクセスレポートの変更点
 
@@ -452,8 +457,8 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 
 * GET /account API：新しい属性&#x200B;**expireSubmissionDuration** Xを返します。Xは設定された日数です。 設定されていない場合は、0が返されます
 * リソースのGET /LO APIに、TrueまたはFalseの新しい属性&#x200B;**isExpiredSubmission**&quot;が含まれています。
-   * 送信の有効期限が切れ、「submissionUrl」が表示されない場合は、Trueを指定します。
-   * Falseの場合、送信の有効期限は切れず、「submissionUrl」が取得されます。
+  * 送信の有効期限が切れ、「submissionUrl」が表示されない場合は、Trueを指定します。
+  * Falseの場合、送信の有効期限は切れず、「submissionUrl」が取得されます。
 
 ### チェックリストのAPIの変更
 
@@ -477,7 +482,7 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 
 ### 非推奨のパス
 
-現在、Learning Manager APIはグラフデータ構造に従っているため、インクルードを介してAPIモデルを走査することでデータを取得できます。 最大7つのレベルのAPIをトラバースできますが、単一のAPI呼び出しを使用したデータの取得は計算上、高コストです。
+現在、Learning Manager APIはグラフのデータ構造に従っているため、インクルードを介してAPIモデルを走査することでデータを取得できます。 最大7つのレベルのAPIをトラバースできますが、単一のAPI呼び出しを使用したデータの取得は計算上、高コストです。
 
 既存および新規のお客様は、1回の大電話ではなく、何度も少額電話をかけることをお勧めします。 この方法では、不要なデータがコールにロードされるのを防ぐことができます。
 
@@ -486,27 +491,27 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 次のパスは非推奨です。
 
 * /learningObjects
-   * 非推奨のパス：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 既存のパス：
-      * enrollment.loInstance
-      * instances.loResources
+  * 非推奨のパス：
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 既存のパス：
+    * enrollment.loInstance
+    * instances.loResources
 * /learningObjects/{id}
-   * 非推奨のパス：
-      * enrollment.instances.subLoInstances.learningObject
-   * 既存のパス：
-      * enrollment.instances.subLoInstances
+  * 非推奨のパス：
+    * enrollment.instances.subLoInstances.learningObject
+  * 既存のパス：
+    * enrollment.instances.subLoInstances
 * /enrollments
-   * 非推奨のパス：
-      * loInstance.learningObject.enrollment
-   * 新しいパス：
-      * loInstance.learningObject
+  * 非推奨のパス：
+    * loInstance.learningObject.enrollment
+  * 新しいパス：
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * 非推奨のパス：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrade
-   * 新しいパス：
-      * instance.subLoInstances
+  * 非推奨のパス：
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrade
+  * 新しいパス：
+    * instance.subLoInstances
 
 ### ジョブAPIのログインアクセスおよびユーザー監査レポートのアーカイブの変更
 
@@ -554,7 +559,7 @@ learningObjectResourceの新しい属性isExpiredSubmissionは、リソースの
 * インスタンスを切り替えて学習者をインスタンスに登録した後も、古いインスタンスはOutlookカレンダーに残ります。
 * ピアアカウントの学習者がコースのサムネールを選択しようとすると、エラーメッセージが表示されます。
 * 学習者がコースに登録すると、登録に関する複数の通知が届きます。
-* コネクタで作成されたカタログの名前をユーザーが手動で変更すると、新しいカタログが作成され、コースが正しくないカタログに公開されます。
+* コネクターで作成したカタログの名前を手動で変更すると、新しいカタログが作成され、コースが正しくないカタログにパブリッシュされます。
 * 非アクティブなアカウントに属しているユーザーは、引き続きサブスクリプションメールを受信します。
 
 ### API関連のバグ修正

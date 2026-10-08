@@ -1,25 +1,26 @@
 ---
 description: ADFSコネクターとAdobe Learning Managerを統合する方法について説明します
 jcr-language: en_us
-title: ADFSコネクタ
+title: ADFS コネクター
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
-
 ---
 
-
-# Adobe Learning ManagerのADFSコネクター
+# Adobe Learning ManagerでのADFSのコネクター
 
 ## 概要
 
-Adobe Learning ManagerのADFSコネクターを使用すると、Active Directoryフェデレーションサービス(ADFS)を使用してMicrosoft Azure Active Directoryと統合できます。 この統合により、ユーザーデータをAzure ADからLearning Managerに自動的に同期できます。 属性マッピング、ユーザーフィルタリング、スケジュールされた読み込みなどの機能を備えたこのコネクターを使用すると、ユーザー管理が合理化され、学習者データを正確かつ最新の状態に保つことができます。 これは、IDとアクセスの一元管理をADFSに依存している組織にとって特に便利です。
+Adobe Learning ManagerのADFS コネクターでは、Active Directoryフェデレーションサービス(ADFS)を使用してMicrosoft Azure Active Directoryと統合できます。 この統合により、ユーザーデータをAzure ADからLearning Managerに自動的に同期できます。 このコネクターには、属性マッピング、ユーザーフィルタリング、スケジュール設定された読み込みなどの機能があるため、ユーザー管理を合理化し、学習者データを正確かつ最新の状態に保つことができます。 これは、IDとアクセスの一元管理をADFSに依存している組織にとって特に便利です。
 
 ## 前提条件
 
-Adobe Learning ManagerでADFSコネクタを設定する前に、Azure Portalで次の手順を実行します。
+Adobe Learning ManagerでADFSコネクターを設定する前に、Azure Portalで次の手順を実行します。
 
 - アプリケーションの登録
 - クライアントシークレットの生成
@@ -48,7 +49,7 @@ Azureにアプリケーションを登録するには、次の手順を実行し
 API権限を追加するには：
 
 1. **APIのアクセス許可**&#x200B;を選択し、**アクセス許可を追加**&#x200B;を選択します。
-2. **Microsoft Graph**&#x200B;を選択し、**アプリケーションのアクセス許可**&#x200B;を選択します。
+2. **Microsoft グラフ**&#x200B;を選択し、**アプリケーションのアクセス許可**&#x200B;を選択します。
 3. 次の権限を検索して選択します。
 
    - **Directory.Read.All** – ディレクトリデータの読み取り
@@ -56,18 +57,18 @@ API権限を追加するには：
 4. **[アクセス許可の追加]**&#x200B;を選択します。
 5. アクセス許可に&#x200B;**管理者の同意**&#x200B;を付与します。
 
-## Learning ManagerでADFSコネクターを設定する
+## Learning ManagerでのADFSコネクターの設定
 
-Adobe Learning ManagerでADFSコネクターを設定して、ADFSからユーザーデータを読み込み、ユーザースキルをADFSに書き出し、両方のシステムを最新の状態に保つように自動同期をスケジュールできます。
+Adobe Learning ManagerでADFS コネクターを設定して、ADFSからユーザーデータをインポートし、ユーザースキルをADFSにエクスポートし、両方のシステムを最新の状態に保つように自動同期をスケジュールできます。
 
-ADFSコネクタを設定するには：
+ADFSコネクターを構成するには、次の手順を実行します。
 
 1. Adobe Learning Managerに統合管理者としてログインします。
-2. **ADFS**&#x200B;コネクタタイルにカーソルを合わせます。
+2. **ADFS** コネクタータイルにカーソルを合わせます。
 3. **Connect**&#x200B;を選択します。
 
    ![](assets/adfs-connector1.png)
-   _[接続]を選択してADFSコネクタを構成します_
+   _[接続]を選択してADFSコネクターを構成する_
 
 ### 接続詳細を入力
 

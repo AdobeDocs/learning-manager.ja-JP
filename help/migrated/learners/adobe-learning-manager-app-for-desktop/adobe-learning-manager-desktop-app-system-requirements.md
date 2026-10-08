@@ -4,13 +4,14 @@ title: 必要システム構成 | Learning ManagerAdobe版デスクトップア�
 description: Adobe Learning Managerデスクトップアプリケーションの必要システム構成
 contentowner: kuppan
 exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 70%
-
+source-wordcount: '149'
+ht-degree: 89%
 ---
-
 # Adobe Learning Managerデスクトップアプリケーションの必要システム構成
 
 ## Windows {#windows}
@@ -18,7 +19,7 @@ ht-degree: 70%
 ### オーサリング
 
 * オペレーティングシステム：Windows 7、Windows 8.1、Windows 10（64 ビット版のみ）
-* プロセッサー： Intel® CoreTM i5以降
+* プロセッサー：Intel® CoreTM i5 以降
 * RAM：8 GB 以上
 * ディスプレイ：1024 x 768 以上の解像度（1366 x 768 を推奨）
 * ハードディスク空き容量：5 GB 以上
@@ -28,8 +29,8 @@ ht-degree: 70%
 
 ### オーサリング
 
-* オペレーティングシステム： Mac OSX 10.12、10.13、10.14（64ビット版のみ）
-* プロセッサー： Intel® CoreTM i5以降
+* オペレーティングシステム：Mac OSX 10.12、10.13、10.14（64 ビット版のみ）
+* プロセッサー：Intel® CoreTM i5 以降
 * RAM：8 GB 以上
 * ディスプレイ：1024 x 768 以上の解像度（1366 x 768 を推奨）
 * ハードディスク空き容量：5 GB 以上

@@ -2,13 +2,14 @@
 description: 設定、設定、イベント処理など、iframeを使用して学習者アシスタントをアプリに埋め込む方法を説明します
 jcr-language: en_us
 title: iFrameを埋め込むことで学習者アシスタントを統合
-source-git-commit: 1549a4592b7a930631dcff6b2e75ec3a3d4f5592
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 
 # iframeを使用したLearner Assistantの埋め込み
 
@@ -19,7 +20,7 @@ Adobe Learning Manager(ALM)を使用すると、**学習者アシスタント**&
 iFrame経由で埋め込んだ場合、学習者アシスタントでは、次を含むすべての学習者アシスタント機能にアクセスできます。
 
 * Orchestrator
-* 回答担当者
+* Answer Agent
 * サポート情報担当者
 * 学習パスエージェント
 
@@ -32,7 +33,7 @@ iFrame経由で埋め込んだ場合、学習者アシスタントでは、次�
 始める前に、次の点を確認してください。
 
 * 学習者アシスタントが有効になっているALMテナント。 管理者設定ページから必要なカタログを設定します。
-* 学習者（または管理者）セッションを認証するための有効なaccessToken。 アクセストークンを生成するには、[OAuth 2.0](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を使用した認証ページの手順に従います。 このページには、続行に必要なアクセストークンの認証および生成に必要な手順が含まれています。
+* 学習者（または管理者）セッションを認証するための有効なaccessToken。 アクセストークンを生成するには、[OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を使用した認証ページの手順に従います。 このページには、続行に必要なアクセストークンの認証および生成に必要な手順が含まれています。
 * `<iframe>`をアプリケーションに埋め込み、ブラウザーのpostMessage APIを介して通信する機能。
 * アプリケーションは、埋め込まれたiFrameからのメッセージをリッスンし、応答する必要があるため、親アプリケーションのフロントエンドコードの所有権。
 

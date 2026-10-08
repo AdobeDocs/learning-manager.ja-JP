@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 学習ツールの相互運用性(LTI)
 description: LTI統合ALMについて説明します
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1993'
 ht-degree: 1%
-
 ---
-
 # LTIの統合
 
 ## LTIとは何ですか？
@@ -24,7 +25,7 @@ Adobe Learning ManagerはLTIバージョン1.3をサポートするようにな�
 
 **ツールコンシューマーとしてのLTI**:ツールコンシューマーとしてのLTIを使用すると、LMSはLearning Tools Interoperability(LTI)を介して外部ツールを統合できます。 このシナリオでは、LMSは外部ツールによって提供されるサービスの消費者です。 Adobe Learning ManagerはLTIツールコンシューマーとして機能し、サードパーティの学習ツールを統合できます。これにより、Adobe Learning Managerの学習者は、Adobe Learning Manager内でサードパーティツールの学習オブジェクトを使用できます。
 
-## ALMでのLTIコネクタの設定
+## ALMでのLTI コネクターの設定
 
 Adobe Learning ManagerでLTI統合を有効にするには、次の手順に従います。
 
@@ -74,9 +75,9 @@ LTI資格情報を外部LMSと共有するには、次の手順に従います�
 
 Adobe Learning Manager管理者が共有した資格情報を使用して、外部のLMS管理者がAdobe Learning Managerを登録し、資格情報を生成します。 これらの資格情報は、Adobe Learning Managerをツールプロバイダーとして設定するための最後の手順として、Adobe Learning Managerに追加されます。 以下は、外部のLMSによって生成された資格情報です。
 
-* **[!UICONTROL 発行者IDまたはプラットフォームID]**:ツールプロバイダーにLTI起動要求を送信するLMSまたはプラットフォームの一意のIDです。
-* **[!UICONTROL クライアントID]**: LMSによって承認のためにLTIツールに割り当てられた一意のIDです。
-* **[!UICONTROL デプロイメントID]**：複数のインスタンスを管理するために、特定のLTIツールのデプロイメントをLMSにリンクするIDです。
+* **[!UICONTROL 発行者IDまたはプラットフォームID]**:ツールプロバイダーにLTI起動要求を送信するLMSまたはプラットフォームの一意の識別子です。
+* **[!UICONTROL クライアントID]**: LMSによって認証のためにLTIツールに割り当てられた一意の識別子です。
+* **[!UICONTROL 展開ID]**：複数のインスタンスを管理するために、特定のLTIツール展開をLMSにリンクする識別子です。
 * **[!UICONTROL トークンURL]**: LMSがLTIツールとの対話を認証および承認するためにアクセストークンを要求するエンドポイントです。
 * **[!UICONTROL 認証URL]**: LMSがLTI接続を認証および開始するためにユーザーを送信するURLです。
 * **[!UICONTROL 公開キーURL]**:セキュリティトークンを確認し、安全な通信を確保するためにLTIツールによって使用される公開キーを提供するURLです。
@@ -120,7 +121,8 @@ Adobe Learning Managerからコースを書き出すには、次の手順に従�
 
 ## LTIコンシューマーとしてのAdobe Learning Manager – 管理ワークフロー
 
-LTIコンシューマーは、Adobe Learning Managerで外部LTIプロバイダーのアクティビティ、ツール、コンテンツ、ウィジェットを使用できます。Adobe Learning ManagerをLTIコンシューマーとして追加するには、外部LTIプロバイダーからの次の資格情報が必要です。
+LTIコンシューマーは、Adobe Learning Managerで外部LTIプロバイダーのアクティビティ、ツール、コンテンツ、ウィジェットを使用できます。
+Adobe Learning ManagerをLTIコンシューマーとして追加するには、外部LTIプロバイダーからの次の資格情報が必要です。
 
 * 起動ログイン URL
 * ターゲットリンクのURL
@@ -164,7 +166,8 @@ LTIプロバイダーは、Adobe Learning Managerにコースを追加するた�
 4. LTIプロバイダーの&#x200B;**[!UICONTROL Launch Link]**&#x200B;と&#x200B;**[!UICONTROL カスタムパラメーター]**&#x200B;を入力します。
 5. **[!UICONTROL ツールプロバイダー]**&#x200B;のドロップダウンメニューから[!UICONTROL LTIプロバイダー]を選択します。
 6. **[!UICONTROL [フォルダーに追加]]**&#x200B;オプションで&#x200B;**[!UICONTROL パブリック]**&#x200B;を検索して選択します。 これにより、すべての作成者がコースを利用できるようになります。
-7. 「**[!UICONTROL 保存]**」を選択します。コンテンツを作成したら、コースの作成時にこのコンテンツを追加できます。
+7. 「**[!UICONTROL 保存]**」を選択します。
+コンテンツを作成したら、コースの作成時にこのコンテンツを追加できます。
 
 ### LTIコンテンツを使用したコースの作成 – 作成者のワークフロー
 

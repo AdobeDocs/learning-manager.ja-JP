@@ -2,13 +2,14 @@
 description: Content Composerコースを共有して同僚とレビューを行う方法、または学習者と直接レビューを行う方法について説明します。 2つの共有フロー、アクセス制御、および追跡の影響の違いを理解します。
 jcr-language: en_us
 title: コンテンツコンポーザーコースの共有と共同作業
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # コンテンツコンポーザーコースの共有と共同作業
 

@@ -4,7 +4,10 @@ jcr-language: en_us
 title: Learning Manager コネクタ
 preview: true
 exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6186'
 ht-degree: 82%
@@ -298,7 +301,7 @@ getAbstract.com をご利用のエンタープライズのお客様の場合、g
 
    同期のタイプを問わず、同期が動作するために、同期に指定された日付の getAbstract FTP フォルダーにユーザーフィードがあることを確認します。
 
-   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。 ファイル名は&#x200B;**report_export_yyyy_MM_dd_HHmmss.xlsx&rbrace;または**&#x200B;0&rbrace;report_export_yyyy_MM_dd.xlsx&#x200B;**の形式に従う必要があります。**
+   次の Excel シートを参照してください。これは、getAbstract のユーザーフィードファイルのサンプルです。 ファイル名は&#x200B;**report_export_yyyy_MM_dd_HHmmss.xlsx}または**0}report_export_yyyy_MM_dd.xlsx**の形式に従う必要があります。**
    [getAbstractユーザーフィードサンプルExcelシート](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor コネクタ {#hmmconnector}

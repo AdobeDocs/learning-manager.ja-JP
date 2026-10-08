@@ -1,45 +1,46 @@
 ---
-description: Adobe Learning ManagerのgetAbstractコネクタ
+description: Adobe Learning ManagerのgetAbstract コネクター
 jcr-language: en_us
 title: getAbstract コネクタ
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%
-
 ---
 
-
-# Adobe Learning ManagerのgetAbstractコネクター
+# Adobe Learning ManagerのgetAbstract コネクター
 
 ## 概要
 
-**getAbstractコネクタ**&#x200B;は、[getAbstract.com](https://www.getabstract.com/)のエンタープライズユーザー向けに設計されています。 これにより、学習者はAdobe Learning Managerを通じてgetAbstractコンテンツを直接検出および使用できます。 また、管理者はコネクタを使用して、ユーザーエンゲージメントデータをインポートし、学習者の完了レコードを自動的に追跡することもできます。
+**getAbstract コネクター**&#x200B;は、[getAbstract.com](https://www.getabstract.com/)のエンタープライズユーザー向けに設計されています。 これにより、学習者はAdobe Learning Managerを通じてgetAbstractコンテンツを直接検出および使用できます。 また、このコネクターを使用すると、管理者はユーザーエンゲージメントデータをインポートし、学習者の完了レコードを自動的に追跡することもできます。
 
-Adobe Learning Managerは、リーダーシップとﬀソフトスキルに焦点を当てた、自主的な学習機会を継続して学習者に提供したいと考えています。 管理者は、すべてのコンテンツを内部で開発するのではなく、getAbstractコネクターを使用して、組織のgetAbstractアカウントをAdobe Learning Managerに接続します。
+Adobe Learning Managerは、リーダーシップとﬀソフトスキルに焦点を当てた、自主的な学習機会を継続して学習者に提供したいと考えています。 管理者は、すべてのコンテンツを内部で開発するのではなく、getAbstract コネクターを使用して、組織のgetAbstractアカウントをAdobe Learning Managerに接続します。
 
 - getAbstractコンテンツをAdobe Learning Managerに自動的に読み込みます。
 - コースと学習パスの学習者の使用量を追跡します。
 
-この記事では、Adobe Learning ManagerでgetAbstractコネクターを設定および管理する手順の概要を説明します。
+この記事では、Adobe Learning ManagerでgetAbstract コネクターを設定および管理する手順の概要を説明します。
 
 ## 前提条件
 
-- コネクタを構成する前に、アカウントで&#x200B;**移行**&#x200B;機能が有効になっていることを確認してください。
+- コネクターを構成する前に、アカウントで&#x200B;**Migration**&#x200B;機能が有効になっていることを確認してください。
 - getAbstractアカウント担当者から&#x200B;**クライアントID**&#x200B;と&#x200B;**クライアントシークレット**&#x200B;を取得します。 これらの資格情報は、コースメタデータとユーザー消費データを取得するために必要です。
 
 ## getAbstract コネクタを構成する
 
-getAbstractコネクターを使用すると、Adobe Learning Manager管理者は、getAbstractの厳選された高品質なコンテンツを統合することで、学習体験を向上させることができます。
+getAbstract コネクターを使用すると、Adobe Learning Manager管理者は、getAbstractの厳選された高品質なコンテンツを統合して、学習体験を向上させることができます。
 
-getAbstractコネクターを設定するには：
+getAbstract コネクターを設定するには、次の手順に従います。
 
 1. 統合管理者としてログインします。
 2. ホームページで&#x200B;**getAbstract**&#x200B;を選択します。
-3. **コネクタ**&#x200B;タイルの次のオプションから選択します：
+3. **コネクター**&#x200B;タイルの次のオプションから選択します：
 
-   - **はじめに**:コネクタの概要。
+   - **はじめに**: コネクターの概要。
    - **接続**：新しい接続を作成します。
    - **接続の管理**：既存の接続を表示または変更します。
 
@@ -63,9 +64,9 @@ getAbstractコネクターを設定するには：
 
 4. **[保存]**&#x200B;を選択して接続を作成します。
 
-## getAbstractコネクタの管理
+## getAbstract コネクターの管理
 
-データをインポートする前に、コネクタを構成し、同期スケジュールを設定する必要があります。 設定後、コネクタは使用状況データを自動的に取得するため、学習者の進行状況を監視し、getAbstractコンテンツを学習プランとレポートに含めることができます。
+データをインポートする前に、コネクターを構成し、同期スケジュールを設定する必要があります。 設定が完了すると、コネクターは使用状況データを自動的に取得します。これにより、学習者の進行状況を監視し、getAbstractコンテンツを学習プランや学習レポートに含めることができます。
 
 ### 接続を有効にする
 
@@ -113,7 +114,7 @@ getAbstractコネクターを設定するには：
 6. 同期を繰り返す日数を入力します。
 7. 「**保存**」を選択します。
 
-同期設定が保存されます。 コネクタはスケジュールに従って実行され、getAbstractからAdobe Learning Managerにデータを読み込みます。
+同期設定が保存されます。 コネクターはスケジュールに従って実行され、getAbstractからAdobe Learning Managerにデータをインポートします。
 
 ## オンデマンド同期の実行
 
@@ -162,7 +163,7 @@ getAbstractコネクターを設定するには：
 
 - 指定された同期日に対して、有効なユーザーフィードファイルがgetAbstract FTPフォルダーに存在する必要があります。
 - ファイルは命名規則に従う必要があります。
-   - report_export_yyyy_MM_dd_HHmmss.xlsxまたは、
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsxまたは、
+  - report_export_yyyy_MM_dd.xlsx
 
-[getAbstractユーザーフィードのサンプルファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=ja)をダウンロードして、形式を確認してください。
+[getAbstractユーザーフィードのサンプルファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en)をダウンロードして、形式を確認してください。

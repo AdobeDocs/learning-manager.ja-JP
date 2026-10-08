@@ -3,20 +3,21 @@ jcr-language: en_us
 title: Adobe Learning Managerでの体験版、サンドボックス、またはテストアカウントの設定
 description: Adobe Learning Managerで30日間無料の体験版またはサンドボックスアカウントを作成する方法について説明します。 簡単な手順に従ってテスト環境を設定し、すぐに開始できます。
 exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
-source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Managerで体験版アカウントを作成する
 
 Adobe Learning Managerで30日間無料の体験版アカウントを簡単に設定して、機能を確認したり、学習ワークフローをテストしたりできます。 このガイドでは、最初のステップ、サインアップ方法、セットアップ後にアカウントの詳細を見つける方法について説明します。
 
 体験版アカウントを作成するには：
 
-1. [Adobe Learning Manager](https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html)に移動します。
+1. [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html)に移動します。
 2. **[!UICONTROL 30日間の無料体験]**&#x200B;を選択します。
 
    ![](assets/free-trial.png)

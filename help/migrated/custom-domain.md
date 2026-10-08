@@ -4,31 +4,32 @@ title: カスタムドメインのサポート
 description: カスタムドメインは、Learning Manager の Azure インスタンスではサポートされていません。
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # カスタムドメインのサポート
 
 カスタムドメインは、Learning Manager の Azure インスタンスではサポートされていません。
 
 ## 概要 {#overview}
 
-カスタムドメインのサポートにより、お客様は Learning Manager のアカウントで使用できるドメイン名を包括的に管理できます。お客様は、カスタムドメインを別途購入し、Adobe チームと連携して、カスタムドメインを学習プラットフォームのログイン URL として設定する必要があります。
+カスタムドメインのサポートにより、お客様は Learning Manager のアカウントで使用できるドメイン名を包括的に管理できます。 お客様は、カスタムドメインを別途購入し、Adobe チームと連携して、カスタムドメインを学習プラットフォームのログイン URL として設定する必要があります。
 
 これにより、お客様はログインとアクセスのエクスペリエンスにホワイトラベルを付けて、アドビや Adobe Learning Manager がユーザーに表示されないように設定できます。
 
-例えば、ユーザーがAdobeドメインにいる場合と同じエクスペリエンスを得られるように、ドメインをカスタマイズすることができます。 ABC社が顧客のトレーニングを希望している場合、`abc.com/mylearning`ではなく`learningmanager.adobe.com/abc-inc/mylearning`というドメインへの登録を希望しています。
+例えば、ユーザーがAdobeドメインにいる場合と同じエクスペリエンスを得られるように、ドメインをカスタマイズすることができます。 ABC社が顧客のトレーニングを希望している場合、`learningmanager.adobe.com/abc-inc/mylearning`ではなく`abc.com/mylearning`というドメインへの登録を希望しています。
 
 >[!NOTE]
 >
->前提条件として、ドメインを登録する必要があります。登録すると、AdobeがURLのカスタマイズについて説明します。
+>そのためにはまず、そのドメインを登録する必要があります。登録すると、Adobe が URL のカスタマイズ方法を案内します。
 
 
-カスタムドメイン機能は、追加料金で利用できます。 詳細については、カスタマーサクセスマネージャーにお問い合わせください。
+カスタムドメイン機能は追加料金で利用できます。 詳細については、カスタマーサクセスマネージャーにお問い合わせください。
 
 * 学習者の役割の場合、ドメインは`https://cdn.<customer_custom_domain>/`で始まります（例： `https://cdn.elearningstage1.cpdomaintest.in/`）
 * その他の役割の場合、ドメインは`https://<customer_custom_domain>/`で始まります。 例：`https://elearningstage1.cpdomaintest.in/`

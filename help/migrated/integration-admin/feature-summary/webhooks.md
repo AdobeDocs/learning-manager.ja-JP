@@ -4,13 +4,14 @@ title: Webhooks
 description: コースの登録、コースの作成などの情報をリアルタイムで特定のURLに送信するためのWebhookについて説明します
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1648'
 ht-degree: 0%
-
 ---
-
 # Webhooks
 
 ## 概要
@@ -287,12 +288,12 @@ Adobe Learning Managerは、**学習パス（学習プログラム）**&#x200B;�
 
 **ダウンストリームワークフローのトリガー** （証明書やバッジの再割り当て、通知、再計算など）。
 
-eventId、タイムスタンプ、eventInfoを、学習者および学習パスIDと共にログに記録することで、**監査証跡を維持**&#x200B;します。
+**eventId、timestamp、eventInfoを、学習者および学習パスの識別子と共にログに記録することで、監査証跡を維持**&#x200B;します。
 
 少なくとも、webhookハンドラーは次のことを行う必要があります。
 
 ペイロードを検証し、イベントを解析します[]。
-eventNameを使用して、変更が&#x200B;**learnerinitiated**&#x200B;か&#x200B;**admin/batchinitiated**&#x200B;かを特定します。
+eventNameを使用して、変更が**learnerinitiated**&#x200B;か&#x200B;**admin/batchinitiated**&#x200B;かを特定します。
 
 userId、loId、およびloInstanceIdを使用して、システム内の対応するレコードを検索し、更新します。
 同じイベントが複数回配信される場合に、重複した処理を防ぐには、eventIdを使用します。

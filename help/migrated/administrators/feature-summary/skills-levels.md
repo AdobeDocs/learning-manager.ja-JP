@@ -4,13 +4,14 @@ jcr-language: en_us
 title: スキルとレベルの作成および変更
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 84%
-
 ---
-
 # スキルとレベルの作成および変更
 
 スキルとレベルの作成、割り当て、変更

@@ -4,16 +4,17 @@ jcr-language: en_us
 title: 学習者およびマネージャーの偽装
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # 学習者およびマネージャーの偽装 {#impersonation-of-learner-and-manager}
 
-大規模組織のカスタマーサポート担当者は、学習者が直面する問題をデバッグするための偽装機能を必要としています。
+大規模な組織のカスタマーサポート担当者は、学習者が直面する問題をデバッグするための偽装機能が必要です。
 
 管理者は他のユーザーを偽装するこの機能を使用して、組織の学習者とマネージャーが実行するすべてのアクティビティを特定および実行できます。
 
@@ -78,7 +79,7 @@ ht-degree: 56%
 
 ## よくある質問
 
-+++偽装していても、Adobe Learning Managerにログインできますか？
++++偽装していてもAdobe Learning Managerにログインできますか？
 
 はい。ユーザーのログインは偽装には依存しません。
 +++
@@ -88,7 +89,7 @@ ht-degree: 56%
 はい。偽装している管理者のログインアクセス / 訪問は、個別にカウントされます。
 +++
 
-+++偽装のタイムアウトとは何ですか？
++++偽装のタイムアウトとは何ですか？  
 
 60 分です。 偽装中のユーザーがブラウザーのウィンドウを閉じて 60 分以内に最初の URL に移動すると、偽装アクティビティは続行され、バナーメッセージが表示されます。
 +++

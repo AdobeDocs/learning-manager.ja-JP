@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 様々なロケールで学習目標を追加
 contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
-source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '644'
 ht-degree: 28%
-
 ---
-
 # 様々なロケールで学習目標を追加
 
 このトピックでは、様々な言語でコース、認定資格、学習プランを追加する方法について説明します。
@@ -60,7 +61,7 @@ Learning Manager では、複数の言語で学習オブジェクトを作成で
    >手順は、教室モジュールでも同じです。
 
    ![](assets/vc-page.png)
-VCモジュールの新しい言語の追加
+   VCモジュールの新しい言語の追加
 
 7. 各言語タブに&#x200B;**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力し、**[!UICONTROL 追加]**&#x200B;を選択します。
 8. コースに必要な詳細情報を入力し、コースを公開します。

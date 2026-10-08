@@ -3,37 +3,38 @@ description: Harvard ManageMentorとAdobe Learning Managerを連携する方法�
 jcr-language: en_us
 title: Harvard ManageMentor コネクタ
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
-
 ---
 
-
-# Adobe Learning ManagerのHarvard ManageMentorコネクタ
+# Adobe Learning ManagerのHarvard ManageMentor コネクター
 
 ## 概要
 
-**Harvard ManageMentorコネクタ**&#x200B;は、Harvard ManageMentorを使用するエンタープライズユーザー向けに設計されています。 これにより、学習者はAdobe Learning Managerから直接Harvard ManageMentorコースを検索してアクセスできます。 接続すると、学習者の進行状況データが定期的に取得され、読み込まれたメタデータに基づいてAdobe Learning Managerでコースが作成されます。
+**Harvard ManageMentor コネクター**&#x200B;は、Harvard ManageMentorをご利用のエンタープライズユーザー向けに設計されています。 これにより、学習者はAdobe Learning Managerから直接Harvard ManageMentorコースを検索してアクセスできます。 接続すると、学習者の進行状況データが定期的に取得され、読み込まれたメタデータに基づいてAdobe Learning Managerでコースが作成されます。
 
-この記事では、Adobe Learning ManagerでHarvard ManageMentorコネクタを設定および使用する方法について説明します。
+ここでは、Adobe Learning ManagerでHarvard ManageMentor コネクターを設定し、使用する方法について説明します。
 
 この統合により、統合管理者は会社のHarvard ManageMentorアカウントをAdobe Learning Managerに連携させることで、新しいトレーニングコンテンツを一から作成しなくても、コースを自動で読み込み、学習者の進行状況を追跡できます。
 
 ## 前提条件
 
-コネクタを構成する前に、アカウントで&#x200B;**移行**&#x200B;機能が有効になっていることを確認してください。
+コネクターを構成する前に、アカウントで&#x200B;**Migration**&#x200B;機能が有効になっていることを確認してください。
 
-## コネクタの設定
+## コネクターの設定
 
-Harvard ManageMentorコネクタを使用して、Harvard ManageMentorのコースをAdobe Learning Managerに取り込みます。 アカウントを接続すると、コースの詳細を読み込んで、学習者の進行状況を追跡できます。
+Harvard ManageMentor コネクターを使用して、Harvard ManageMentorのコースをAdobe Learning Managerに取り込みます。 アカウントを接続すると、コースの詳細を読み込んで、学習者の進行状況を追跡できます。
 
-コネクタを設定するには、次の手順に従います。
+コネクターを設定するには、次の手順に従います。
 
 1. 統合管理者としてログインします。
 2. ホームページで&#x200B;**Harvard ManageMentor**&#x200B;を選択します。
-3. コネクタタイルの次のオプションから選択します。
+3. コネクタータイルの次のオプションから選択します。
    - **はじめに**
    - **接続**
    - **接続の管理**
@@ -58,7 +59,7 @@ Harvard ManageMentorコネクタを使用して、Harvard ManageMentorのコー�
 
 ## 接続の管理
 
-Harvard ManageMentorコネクタを設定すると、Adobe Learning Managerで接続を管理できます。 同期設定を変更し、手動またはスケジュールに従って同期を実行できます。
+Harvard ManageMentor コネクターを設定すると、Adobe Learning Managerで接続を管理できます。 同期設定を変更し、手動またはスケジュールに従って同期を実行できます。
 
 ### 接続を有効にする
 
@@ -74,7 +75,7 @@ Harvard ManageMentorコネクタを設定すると、Adobe Learning Managerで�
 4. **接続を有効にする**&#x200B;を選択し、**保存**&#x200B;を選択します。
 
    ![](assets/harvard-managementor-connector5.png)
-   _Harvard ManageMentorコネクタを有効にしてデータをインポートする_
+   _Harvard ManageMentor コネクターを有効にしてデータをインポートする_
 
 ### 同期のスケジュール
 
@@ -92,7 +93,7 @@ Harvard ManageMentorコネクタを設定すると、Adobe Learning Managerで�
 6. 同期を繰り返す日数を入力します。
 7. 「**保存**」を選択します。
 
-同期設定が保存されます。 コネクタはスケジュールどおりに実行され、Harvard ManageMentorからAdobe Learning Managerにデータを読み込みます。
+同期設定が保存されます。 コネクターはスケジュールどおりに実行され、Harvard ManageMentorからAdobe Learning Managerにデータをインポートします。
 
 ## オンデマンド同期の実行
 
@@ -144,5 +145,5 @@ Harvard ManageMentor FTPフォルダに以下のファイルが存在するこ�
 
 **サンプルファイル**
 
-- [Harvard ManageMentorコネクタのコースメタデータファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=ja)
-- [Harvard ManageMentorコネクタのユーザーフィードファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=ja)
+- [Harvard ManageMentor コネクターのコースメタデータファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [Harvard ManageMentor コネクターのユーザーフィードファイル](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

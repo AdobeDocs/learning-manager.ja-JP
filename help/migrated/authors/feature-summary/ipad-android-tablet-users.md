@@ -5,7 +5,10 @@ description: iPad および Android タブレットユーザー
 contentowner: manochan
 preview: true
 exl-id: d6300070-9de0-4971-ae1a-ae944731b3bb
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%

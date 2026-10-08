@@ -3,7 +3,10 @@ description: Adobe Learning Managerでフィードバックレポートにアク
 jcr-language: en_us
 title: Adobe Learning Managerのフィードバックレポート
 exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 7%
@@ -30,16 +33,16 @@ ht-degree: 7%
 ## フィードバックレポートのダウンロード方法
 
 1. Adobe Learning Managerに管理者としてログインします。
-2. 左側のナビゲーションメニューから&#x200B;**[!UICONTROL レポート]**&#x200B;を選択します。
+2. 左側のナビゲーションメニューから&#x200B;**[!UICONTROL レポート]**を選択します。
    ![](assets/select-report.png)
    _管理者のホームページでは、レポートをダウンロードするための[レポート]オプションがハイライト表示されています_
 
 3. レポート内の&#x200B;**[!UICONTROL カスタムレポート]**&#x200B;を選択してから、**[!UICONTROL Excelレポート]**&#x200B;を選択します。
-4. **[!UICONTROL フィードバックレポート]**&#x200B;を選択します。
+4. **[!UICONTROL フィードバックレポート]**を選択します。
    ![](assets/select-feedback-report.png)
    _カスタムレポートセクションには、学習者およびマネージャーのフィードバックデータにアクセスするためのフィードバックレポートを選択するオプションが表示されています_
 
-5. **[!UICONTROL すべてのトレーニング]**&#x200B;または&#x200B;**[!UICONTROL 選択したトレーニング]**&#x200B;と日付範囲を選択します。 2番目のオプションを選択した場合、最大10個のコースまたは学習パスを追加して、フィードバックレポートを生成することができます。 また、レポートは最大1年間生成できます。
+5. **[!UICONTROL すべてのトレーニング]**&#x200B;または&#x200B;**[!UICONTROL 選択したトレーニング]**と日付範囲を選択します。 2番目のオプションを選択した場合、最大10個のコースまたは学習パスを追加して、フィードバックレポートを生成することができます。 また、レポートは最大1年間生成できます。
    ![](assets/feedback-report.png)
    _トレーニング範囲を選択し、日付範囲を設定して、ダウンロードする前に翻訳オプションを選択することで、フィードバックレポートを構成します_
 

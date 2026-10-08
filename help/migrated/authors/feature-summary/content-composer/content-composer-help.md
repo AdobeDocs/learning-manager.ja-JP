@@ -2,13 +2,14 @@
 title: Adobe Learning Manager Content Composer (Beta)ヘルプ
 description: Adobe Learning Manager Content Composerは、AIを使用して、プレーンテキストのプロンプトを、レッスン、評価、メディアを含むパブリッシュ対応コースに変換します。
 contentowner: saghosh
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager Content Composer (Beta)ヘルプ
 
@@ -20,12 +21,12 @@ ht-degree: 0%
 
 Adobe Learning Manager Content Composerは、わかりやすい言語のプロンプトを、構造化された公開可能なコース（レッスン、評価、メディアを含む）に変換するAIコースオーサリングツールです。インストラクションデザインの経験は必要ありません。
 
-Content Composerは、トレーニングの目標、ソース資料、学習目標について会話を通じて作成者をガイドし、教育的に健全で、ブランドイメージに優れ、Adobe Learning Managerに直接公開できるコースを作成します。
+Content Composerは、トレーニングの目標、ソースのマテリアル、学習目標について会話を通じて作成者をガイドし、教育的に健全で、ブランドイメージに優れ、Adobe Learning Managerに直接公開できるコースを作成します。
 
 **主なハイライト**
 
 - **AIガイド付きコースの作成** ：会話型AIは、トレーニングの目標を明確で測定可能な学習目標に変えるために、対象を絞った質問を行います。
-- **文書に基づく生成**：作成者は、既存の文書、ポリシー、またはデッキをアップロードします。 AIは、そのマテリアルから概要を生成します。作成者は、何かが構築される前に、承認または編集します。
+- **文書に基づく生成**：作成者は、既存の文書、ポリシー、またはデッキをアップロードします。 AIは、そのマテリアルから概要を作成します。作成者は、文書を作成する前にその内容を承認または編集します。
 - **インストラクショナルサウンド出力** ：コース、評価、メディアは、構造化された学習原則を使用して生成されます。生成が速いだけでなく、教育的に効果的な出力が得られます。
 - **Adobe Learning Managerへの直接公開** ：完成したコースは、Adobe Learning Managerに直接公開されます。個別のオーサリングツールや手動のSCORM書き出しはありません。
 - **単一システムのワークフロー**:コースの作成、学習者の管理、レポート作成は1つのプラットフォームで行われるため、複数のオーサリングツールや配信ツールを管理するオーバーヘッドが解消されます。
@@ -34,7 +35,7 @@ Content Composerは、トレーニングの目標、ソース資料、学習目�
 
 >[!IMPORTANT]
 >
->有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/jp/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
+>有効なAdobe Creative Cloudアカウントでログインする必要があります。 アカウントをお持ちでない場合は、Adobe Expressで無料アカウントを作成できます。 詳しくは、[無料のAdobe Expressアカウントを作成する](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)をご覧ください。 Adobe認証情報を作成したら、Content Composerを起動し、ログインしてコースの作成を開始します。 組織内で既にCreative Cloudサブスクリプションを使用している場合は、Content Composerにログインする前に、管理者に連絡して、Creative Cloudアカウントをプロビジョニングしてもらってください。
 
 >[!NOTE]
 >

@@ -2,13 +2,14 @@
 description: Content Composerの修了基準と合格基準の違い、各基準の設定方法、Adobe Learning Managerでの学習者の正確なトラッキングとレポート作成で差が重要な理由について説明します。
 jcr-language: en_us
 title: 完了条件と成功条件の設定
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 
 # 完了条件と成功条件の設定
 
@@ -16,10 +17,10 @@ ht-degree: 0%
 
 **完了条件**:ドロップダウンを選択し、コースをいつ完了とマークするかを選択します。
 
-- **起動：**&#x200B;は、学習者がコースを開くとすぐに、どの程度表示したかに関係なく、コースを完了したとマークします。
+- **起動：**は、学習者がコースを開くとすぐに、どの程度表示したかに関係なく、コースを完了したとマークします。
   ![](../assets/21_completion_criteria_dropdown_launch_minview_quiz_updated.png)
 
-- 学習者がコースコンテンツの指定した割合を表示すると、**最小表示%:**&#x200B;はコースを完了したとマークします。
+- 学習者がコースコンテンツの指定した割合を表示すると、**最小表示%:**はコースを完了したとマークします。
   ![](../assets/22_completion_criteria_minview_percent_field_updated.png)
 
 - **クイズ：学習者のクイズアクティビティに基づいて、コースを完了とマークします。 クイズ条件を選択：**
@@ -28,7 +29,7 @@ ht-degree: 0%
 
   - **合格時：**&#x200B;学習者がクイズに合格した場合にのみ完了とマークされます。
 
-  - **合格または上限に達しました：**&#x200B;学習者が合格、または許可されている最大試行回数に達したときに、どちらか早い方が完了したとマークします。
+  - **合格または上限に達しました：**学習者が合格、または許可されている最大試行回数に達したときに、どちらか早い方が完了したとマークします。
     ![](../assets/23_completion_criteria_quiz_condition_dropdown_updated.png)
 
 ## 合格条件
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 - **成功基準**:ドロップダウンを選択し、コースの成功基準を選択します。
 
-- **起動：**&#x200B;は、コースを起動するだけで合格した学習者にマークを付けます。
+- **起動：**は、コースを起動するだけで合格した学習者にマークを付けます。
   ![](../assets/24_success_criteria_dropdown_launch_minview_quiz_updated.png)
 
 - **最小表示%**：指定した割合のコンテンツを表示した学習者に、合格のマークを付けます。 例えば、学習者にコースの80%以上を表示させるには、「80」と入力します。

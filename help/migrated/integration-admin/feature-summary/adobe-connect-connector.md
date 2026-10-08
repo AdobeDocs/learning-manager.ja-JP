@@ -1,17 +1,18 @@
 ---
-description: Adobe ConnectコネクタとAdobe Learning Managerを統合する方法について説明します。
+description: Adobe Connect コネクターとAdobe Learning Managerを連携する方法について説明します
 jcr-language: en_us
-title: Adobe Connectコネクタ
+title: コネクター
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 2%
-
 ---
 
-
-# Adobe Learning ManagerのAdobe Connectコネクタ
+# Adobe Learning ManagerのAdobe Connect コネクター
 
 ## 概要
 
@@ -25,7 +26,7 @@ Adobe Connectを設定するには：
 2. **Adobe Connect**&#x200B;タイルにカーソルを合わせ、**Connect**&#x200B;を選択します。
 
    ![](assets/adobe-connect-connector1.png)
-   _[接続]を選択して、Adobe Connectコネクタを構成します_
+   _[接続]を選択してAdobe Connect コネクターを構成する_
 
 3. 次の情報を入力します。
 
@@ -110,12 +111,12 @@ Adobe Learning Managerでは、Adobe Connectセッションからクイズデー
 
 - セッションが終了すると、Adobe Learning Managerによってクイズデータが自動的に同期されます。
 - クイズ読み込みワークフローは、スケジュールされた期間の終了後に開始されます。
-- 進捗状況を管理するために、統合管理者はAdobe Connectコネクタの&#x200B;**実行ステータス**&#x200B;を確認できます。
+- 進捗状況を管理するために、統合管理者はAdobe Connect コネクターで&#x200B;**実行ステータス**&#x200B;を確認できます。
 - インポートが完了すると、状態が&#x200B;**完了**&#x200B;に更新されます。
 
 その後、管理者は読み込まれた結果を確認できます。
 
 - **出席とスコア付け：**&#x200B;最終的なクイズのスコアと出席を表示します。
 - **L2クイズスコア：**
-   - **ユーザー別：**&#x200B;個々のスコアをポイントとパーセンテージで表示します。
-   - **質問別：**&#x200B;クイズの結果をレポートチャートに表示します。
+  - **ユーザー別：**&#x200B;個々のスコアをポイントとパーセンテージで表示します。
+  - **質問別：**&#x200B;クイズの結果をレポートチャートに表示します。

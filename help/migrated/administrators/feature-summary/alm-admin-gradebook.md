@@ -2,13 +2,14 @@
 description: 成績表を有効にして、作成者や学習者が閲覧できるようにすること
 jcr-language: en_us
 title: 管理者の成績表
-source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
-
 ---
-
 
 # アカウントで成績表の表示を有効にする
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## この設定が制御する内容
 
-**設定** > **一般**&#x200B;の&#x200B;**成績表の表示**&#x200B;設定によって、作成者が成績表をコースレベルの学習者に公開することが許可されるかどうかが決まります。
+**設定** > **一般**&#x200B;の&#x200B;**成績表の表示**&#x200B;の設定によって、作成者がコースレベルで成績表を学習者に表示することが許可されるかどうかが決まります。
 
 詳細については、[Gradebookの表示](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)を参照してください。
 

@@ -4,14 +4,15 @@ jcr-language: en_us
 title: Microsoft Teams コネクター
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 51%
-
 ---
-
-# Adobe Learning ManagerのMicrosoft Teamsコネクタ
+# Adobe Learning ManagerのMicrosoft Teamsコネクター
 
 ## 概要
 
@@ -58,7 +59,7 @@ Office 365 E3 または Office 365 E5 を備えている場合は、Microsoft Te
 >
 >アカウントは`<username>@<company name>.onmicrosoft.com`の形式を使用する必要があります。
 
-## Microsoft Teamsコネクタのアプリケーションを作成
+## コネクターのアプリケーションを作成
 
 1. [Microsoft Azure®ポータル](https://portal.azure.com/)にアクセスします。
 1. 前セクションで作成した Microsoft E5 アカウントでサインインします。
@@ -92,7 +93,7 @@ Office 365 E3 または Office 365 E5 を備えている場合は、Microsoft Te
 1. 前セクションで作成したアプリをクリックします。
 1. **[!UICONTROL 「API の許可」]**&#x200B;をクリックします。
 1. **[!UICONTROL 「許可の追加」]**&#x200B;をクリックします。
-1. **[!UICONTROL Microsoft Graph]**/**[!UICONTROL アプリケーションのアクセス許可]**&#x200B;を選択し、次のアクセス許可を追加します：
+1. **[!UICONTROL Microsoft グラフ]**/**[!UICONTROL アプリケーションのアクセス許可]**&#x200B;を選択し、次のアクセス許可を追加します：
 
    1. Chat.Read.All
    1. Directory.Read.All
@@ -120,7 +121,7 @@ Office 365 E3 または Office 365 E5 を備えている場合は、Microsoft Te
 
 ## PowerShell スクリプトを使用してアクセスポリシーを構成する
 
-PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリケーションアクセスポリシーを構成するには、この[文書](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy)に記載されている手順に従ってください。
+PowerShellスクリプトを実行してMicrosoft Teams コネクターのアプリケーションアクセスポリシーを構成するには、この[文書](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy)に記載されている手順に従ってください。
 
 これにより、コネクタから Microsoft Teams オンライン会議にアクセスできます。
 
@@ -128,11 +129,11 @@ PowerShellスクリプトを実行してMicrosoft Teamsコネクタのアプリ�
 >
 >また、すべてのアクティブなユーザーにLearning Manager作成者アプリから主催者の役割が割り当てられるよう、上記のオプション手順5も実行してください。 この操作を実行しない場合、主催者に必要なアクセス権限がユーザーに付与されないため、ミーティングを正しく作成できません（Microsoft API では、Teams ミーティングの主催者が作成者と見なされます）。
 
-## Learning ManagerでのMicrosoft Teamsコネクタの設定
+## Learning Managerでのコネクターの設定
 
 1. Learning Managerに&#x200B;**統合管理者**&#x200B;としてサインインします。
 
-1. [コネクタ]ページで[Microsoft Teamsコネクタ]を選択し、[**[!UICONTROL 接続]**]をクリックします。
+1. コネクターページで、Microsoft Teamsコネクターを選択し、[**[!UICONTROL 接続]**]をクリックします。
 
 1. 次の値を入力します。
 
