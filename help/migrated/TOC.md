@@ -3,7 +3,7 @@ user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
 nudge: true
-source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
+source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 34%
@@ -289,7 +289,7 @@ ht-degree: 34%
   * [ログイン](learners/feature-summary/user-login.md)
   * [プロファイル設定](learners/feature-summary/settings.md)
   * [カタログ](learners/feature-summary/catalogs.md)
-  * [仮想コーチ] {#virtualcoach}
+  * バーチャルコーチ {#virtualcoach}
     * [バーチャルコーチでロールプレイを練習する](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
     * [バーチャルコーチパフォーマンスレポートについて](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
