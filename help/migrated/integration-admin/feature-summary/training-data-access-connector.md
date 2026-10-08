@@ -84,7 +84,7 @@ Adobe Learning Managerをデータストレージと検索システムと連携�
 2. **ベースURL**、**CDN URL**、**クライアントID**、**クライアントシークレット**&#x200B;および&#x200B;**管理者更新トークン**&#x200B;を使用して、AEMでコンフィギュレーションを作成します。
 3. AEMコンポーネントを使用してサイトを構築します。
 4. 学習者向けのサイトをPublishします。
-5. セットアップの詳細については、[この記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem)および[この記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)を参照してください。
+5. セットアップの詳細については、[この記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem)および[この記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)を参照してください。
 
 ### 学習者の経験
 

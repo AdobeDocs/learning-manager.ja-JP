@@ -52,7 +52,7 @@ Adobe Learning Managerでは、ロールベースのアクセス制御(RBAC)モ�
 >
 >ログイン方式が社内ユーザー向けにAdobe IDに設定されている場合、ユーザーが離脱したときに、多要素認証の強制、パスワードの複雑性の制御、またはアクセスの即時取り消しができなくなります。 これにより、不正アクセスのリスクが大幅に増大します。
 
-詳細については、[カスタムの役割](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)を参照してください。
+詳細については、[カスタムの役割](https://experienceleague.adobe.com/ja/docs/learning-manager/using/admin/custom-role)を参照してください。
 
 ### 多要素認証(MFA)
 

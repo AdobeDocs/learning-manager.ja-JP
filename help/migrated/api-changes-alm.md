@@ -459,7 +459,7 @@ Adobe Learning Managerでは、learning_program_course.csvの「順序」列を�
 - 必要な主なマッピングは以下のとおりです。
   - 学習プログラムID ↔コースID （およびid、learningProgramId、courseId、日付など、その他の文書化された列）。
 
-現在のヘッダーセットと要件を確認するには、常にLearning Managerアカウントから（csv _specifications.zipを介して）最新の[_ CSV仕様_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual)を参照します。
+現在のヘッダーセットと要件を確認するには、常にLearning Managerアカウントから（csv _specifications.zipを介して）最新の[_ CSV仕様_](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/migration-manual)を参照します。
 
 ## コースインスタンスのtimeZoneCode
 

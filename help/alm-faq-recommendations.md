@@ -95,7 +95,7 @@ Adobe Learning Managerは、いくつかのメカニズムを使用して、セ�
 
 * ALMジョブAPIは、CSV形式でのユーザーレポート（ロール割り当てを含む）のオンデマンド生成をサポートしています。 これらは、外部コンプライアンスまたはSIEMツールによってスケジュールして使用できます。
 
-詳細については、[Adobe Learning Manager – アプリケーション開発マニュアル](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)を参照してください。
+詳細については、[Adobe Learning Manager – アプリケーション開発マニュアル](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual)を参照してください。
 
 ## Adobe Learning Managerには、セキュリティに関連する設定をプログラムで表示および調整できるAPIが用意されていますか？
 
