@@ -1,13 +1,14 @@
 ---
 title: ライブハブで画面を学習者として共有
 description: ライブハブセッションでインストラクターが許可した場合に、学習者が共有コンテンツを表示し、独自の画面を共有する方法について説明します。
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
-
 ---
-
 
 # 画面を学習者として共有
 
@@ -42,4 +43,4 @@ ht-degree: 1%
 
 ## 注釈ツールの使用
 
-画面を共有している間は、その画面に注釈を付けて、セッションで情報をハイライトしたり、他のユーザーにコンテンツを説明したりできます。 注釈を付けるには、共有画面の右上隅にある注釈（ペン）アイコンを選択します。 詳細については、[注釈ツールを使用](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools)を参照してください。
+画面を共有している間は、その画面に注釈を付けて、セッションで情報をハイライトしたり、他のユーザーにコンテンツを説明したりできます。 注釈を付けるには、共有画面の右上隅にある注釈(ペン)アイコンを選択します。 詳細については、[注釈ツールを使用](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools)を参照してください。

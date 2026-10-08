@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Learning Manager の xAPI
 description: Experience API （xAPI）は、あらゆるタイプの学習経験を記録し、追跡しつつ、学習コンテンツと学習システムを相互に連携させることを可能にする e ラーニングのソフトウェア仕様です。
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 77%
-
 ---
-
 # Learning Manager の xAPI
 
 ## xAPI とは？ {#whatisxapi}
@@ -100,7 +101,7 @@ xAPIレポートは、Excelレポートとして生成できます。 管理者�
 
 ダウンロードされたレポートでは、学習者と管理者がステートメントで投稿したすべての情報が取得されます。
 
-同じレポートを、任意のサードパーティ統合用にFTPおよびBoxコネクタを使用して生成/スケジュールできます。 その場合、以下の手順を実行します。
+同じレポートは、任意のサードパーティ統合用にFTPおよびBox コネクターを使用して生成/スケジュールできます。 その場合、以下の手順を実行します。
 
 統合管理者としてログインし、FTP/Box コネクタを開いて、左側のペインから xAPI アクティビティレポートを選択し、レポートのスケジュールまたは生成を選択します。
 

@@ -4,13 +4,14 @@ title: アプリケーションデベロッパーマニュアル
 description: RESTful APIを使用してアプリケーションを統合およびカスタマイズする方法について説明し、OAuth 2.0認証、APIの使用シナリオ、データモデルなどの重要なトピックを取り上げます。 コースの作成、学習者の進捗追跡、スキルマッピング、資格認定、ゲーミフィケーションなどの機能を使用して、エンタープライズアプリケーションを強化できます。 このガイドでは、開発者がシームレスで効率的なワークフローを作成するのに役立つステップバイステップの手順と実際の例を説明します。 学習者中心のアプリケーションを開発するためにAdobe Learning Managerの機能を活用したいと考えている開発者に最適です。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
+source-wordcount: '4577'
 ht-degree: 6%
-
 ---
-
 
 # Adobe Learning Managerデベロッパーマニュアル
 
@@ -54,14 +55,14 @@ Adobe Learning Managerを外部アプリケーションと統合することで�
    * **[!UICONTROL 説明]**:アプリケーションの機能の簡単な説明です。
    * **[!UICONTROL スコープ]**:アプリケーションのスコープを定義するために使用できる6つのオプションのいずれかを選択します。 ここに示された選択に基づき、アプリケーションからLearning Manager APIエンドポイントにアクセスできます。 例えば「学習者の役割の読み取りアクセス」を選択した場合、Learning Managerの学習者APIエンドポイントのすべてで、アプリケーションから読み取り専用のアクセスが可能になります。
 
-      * 管理者ロール読み取り/書き込みアクセス権：アプリケーションが管理者としてデータにアクセスしたり、データを変更したりできるようにします。
-      * 学習者の役割読み取り/書き込みアクセス権：アプリケーションが学習者のデータにアクセスしたり、変更したりできるようにします。
-      * xAPI読み取り/書き込みアクセス：アプリケーションがExperience API(xAPI)ステートメントにアクセスして送信できるようにします。
+     * 管理者ロール読み取り/書き込みアクセス権：アプリケーションが管理者としてデータにアクセスしたり、データを変更したりできるようにします。
+     * 学習者の役割読み取り/書き込みアクセス権：アプリケーションが学習者のデータにアクセスしたり、変更したりできるようにします。
+     * xAPI読み取り/書き込みアクセス：アプリケーションがExperience API(xAPI)ステートメントにアクセスして送信できるようにします。
 
    * **[!UICONTROL このアカウントのみですか？]**
 
-      * **[!UICONTROL はい]** - [はい]を選択した場合、他のアカウント管理者がアプリケーションを見ることはできません。
-      * **[!UICONTROL いいえ]** - [いいえ]を選択した場合、他のアカウント管理者もこのアプリケーションにアクセスできますが、このアプリケーションにアクセスするには、アプリケーションIDを使用する必要があります。 アプリケーション ID が生成され、Learning Manager アプリケーションの編集モードに表示されます。
+     * **[!UICONTROL はい]** - [はい]を選択した場合、他のアカウント管理者がアプリケーションを見ることはできません。
+     * **[!UICONTROL いいえ]** - [いいえ]を選択した場合、他のアカウント管理者もこのアプリケーションにアクセスできますが、このアプリケーションにアクセスするには、アプリケーションIDを使用する必要があります。 アプリケーション ID が生成され、Learning Manager アプリケーションの編集モードに表示されます。
 
      ![代替テキスト](assets/register-an-app.png)
 
@@ -263,8 +264,8 @@ APIを使用すると、開発者はユーザー、コース、スキル、資�
 
 ### include
 
-Adobe Learning Manager APIを使用すると、カスタムアプリケーションやヘッドレスLMSの構築中に、役立つ情報を取得できます。APIエンドポイントを追加の「include」パラメーターと共に含めて、デフォルトで受信されたデータと関連する追加情報を取得することもできます。これらの関連付けはデータモデルリレーションです。例えば、ユーザーの詳細を取得するために電話をかけると、ユーザー情報と、マネージャーIDとAdobe Learning ManagerアカウントIDの関連付けが表示されます。includeパラメーターを使用すると、マネージャーの詳細やAdobe Learning Managerアカウントの詳細などのユーザーの詳細とともに、詳細な方法で追加の詳細を抽出できます。
-つまり、API呼び出しで&#x200B;**include**&#x200B;パラメーターを使用して、関連する（リンクされた）リソースとプライマリリソースを1つの応答で取得します。この機能は、個別のAPI呼び出しを行わずに、コースのモジュールや学習者にマップされたスキルなど、ネストされたデータや依存データにアクセスする場合に便利です。
+Adobe Learning Manager APIを使用すると、カスタムアプリケーションやヘッドレスLMSの構築中に、役立つ情報を取得できます。 APIエンドポイントを追加の「include」パラメーターと共に含めて、デフォルトで受信されたデータと関連する追加情報を取得することもできます。 これらの関連付けはデータモデルリレーションです。例えば、ユーザーの詳細を取得するために電話をかけると、ユーザー情報と、マネージャーIDとAdobe Learning ManagerアカウントIDの関連付けが表示されます。 includeパラメーターを使用すると、マネージャーの詳細やAdobe Learning Managerアカウントの詳細などのユーザーの詳細とともに、詳細な方法で追加の詳細を抽出できます。
+つまり、API呼び出しで&#x200B;**include**&#x200B;パラメーターを使用して、関連する（リンクされた）リソースとプライマリリソースを1つの応答で取得します。 この機能は、個別のAPI呼び出しを行わずに、コースのモジュールや学習者にマップされたスキルなど、ネストされたデータや依存データにアクセスする場合に便利です。
 
 主なメリット：
 
@@ -413,7 +414,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subSUBlos.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instances.loResources.resources.room</br><br>prerequisiteLOS.ENROLLMENT</br><br>EnROLLMENTLo0 RESOURCEGrADES</br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instances.loResources.resources</br><br>supplementaryLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instances.loResources.resources.room</br><br>prerequisiteLOS.ENROLLMENT</br><br>EnROLLMENTLo0 RESOURCEGrade</br>
   </td>
   </tr>
   </table>
@@ -913,7 +914,7 @@ ID `<userID>`のユーザーを更新するリクエストのペイロードに�
    ```
 
 5. 応答からS3 URLをコピーします。
-6. ブラウザーにURLを貼り付けます。ブラウザーに、CSVファイルを保存するか開くかを確認するメッセージが表示されます。ファイルをコンピューターに保存します。
+6. ブラウザーにURLを貼り付けます。 ブラウザーに、CSVファイルを保存するか開くかを確認するメッセージが表示されます。 ファイルをコンピューターに保存します。
 ダウンロードされたファイルには、次の列が含まれています。
 
 internalUserID、userEmail、customerDefinedUniqueUserId、name、managerEmail、userType、state、excludedFromGamification、pointsEarned、profile、roles、dateCreated、lastLoginDate、dateDeleted、uiLocale、contentLocale、timeZoneCode、userSource、group、Activeフィールド、メタデータ、lastSocialActivityDate。

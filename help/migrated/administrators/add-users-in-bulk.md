@@ -4,18 +4,19 @@ title: ユーザーの一括追加
 description: 一度に複数のユーザーを追加する方法を説明します。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 22%
-
+source-wordcount: '369'
+ht-degree: 36%
 ---
-
 # ユーザーの一括追加
 
 >[!INFO]
 >
->このトレーニングでは、CSVを使用してユーザーを一括で追加する方法を説明します。<br><br>[![ボタン](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>このトレーニングでは、CSVを使用してユーザーを一括で追加する方法について説明します。<br><br>[![ボタン](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
@@ -29,9 +30,9 @@ ht-degree: 22%
 
 1. ファイルを読み込んだ後、最初に.csv ファイルをアップロードするときに、.csv ファイルの内容をアプリケーションラベルにマッピングします。
 
-   それ以降のすべてのアップロードでは、以前のラベルの設定が考慮されます。 データのマッピングが完了したら「**[!UICONTROL 保存]**」をクリックし、「**[!UICONTROL 追加]**」をクリックして、マップされた.csvファイルをアップロードします。
+   それ以降のすべてのアップロードでは、以前のラベルの設定が考慮されます。 クリック **[!UICONTROL 保存]** データのマッピングが完了したら、「 **[!UICONTROL 追加]** 」をクリックして、マップされた.csv ファイルをアップロードします。
 
-1. データのマッピングが完了したら「**[!UICONTROL 保存]**」をクリックし、「**[!UICONTROL 追加]**」をクリックして、マップされた.csvファイルをアップロードします。
+1. クリック **[!UICONTROL 保存]** データのマッピングが完了したら、「 **[!UICONTROL 追加]** 」をクリックして、マップされた.csv ファイルをアップロードします。
 
 ## 必須フィールドを含む CSV アップロード {#csvuploadwithmandatoryfields}
 
@@ -45,7 +46,7 @@ CSVにユーザーのプロファイルとマネージャーの電子メールID
 
 **サンプルCSV**
 
-Learning ManagerのサンプルCSVは、以下の必須フィールドで利用できます。
+Learning Manager のサンプル CSV は、以下の必須フィールドで利用できます。
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## すべてのフィールドを含む CSV アップロード {#csvuploadwithallthefields}
@@ -60,7 +61,7 @@ Learning ManagerのサンプルCSVは、以下の必須フィールドで利用�
 
 **サンプルCSV**
 
-Learning ManagerのサンプルCSVには、以下のすべてのフィールドが含まれています。
+Learning Manager のサンプル CSV には、以下のすべてのフィールドが含まれています。
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)。
 
 詳細については、[CSVアップロードの使用](/help/migrated/administrators/feature-summary/add-users-user-groups.md)機能のヘルプコンテンツを参照してください。

@@ -1,15 +1,16 @@
 ---
 title: このリリースの新機能（2023年4月）
 description: Adobe Learning Manager の新機能と機能強化について説明します
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 70%
-
 ---
-
 # このリリースの新機能（2023年4月）
 
 ## Microsoft Teams 向け Adobe Learning Manager アプリ
@@ -418,7 +419,7 @@ generateInstructorUtilizationReport応答：
 
 ### インストラクターのスキルとスキルレベルの関連付け
 
-インストラクターのスキル専門知識をキャプチャする新しい機能を導入しました。つまり、各インストラクターの専門知識が維持され、検索やフィルタリングなどのダウンストリーム操作で利用できるようになります。
+インストラクターのスキル専門知識をキャプチャする新しい機能を導入しました。つまり、各インストラクターの専門知識が維持され、検索やフィルタリングなどの後工程で利用できるようになります。
 
 次の属性が追加されました。
 
@@ -525,9 +526,9 @@ DELETE /userGroups/{id}/users
 ]   
 ```
 
-### 学習者アプリでのロスに関するアナウンスのユーザーグループのフィルタリング
+### 学習者アプリでのlosに関するアナウンスのユーザーグループフィルタリング
 
-* GET /users/{userId}/userGroups APIには、ブール値(true/false)を取る新しいパラメーターfilter.announcedGroupsOnlyが追加されました。 このパラメーターでフィルタリングされるのは、管理者がアナウンスしたユーザーグループのみです。 このパラメーターのデフォルト値は false です。
+* GET /users/{userId}/userGroups APIには、ブーリアン値(true/false)を受け取る新しいパラメーターfilter.announcedGroupsOnlyが追加されました。 このパラメーターでフィルタリングされるのは、管理者がアナウンスしたユーザーグループのみです。 このパラメーターのデフォルト値は false です。
 * GET /learningObjects APIには、結果をフィルタリングするためのアナウンスグループIDを受け入れる新しいパラメーターfilter.announcedGroupsが追加されています。
 * GET /検索APIには、結果をフィルタリングするためのアナウンスグループIDを受け入れる新しいパラメーターfilter.announcedGroupsが追加されています。
 

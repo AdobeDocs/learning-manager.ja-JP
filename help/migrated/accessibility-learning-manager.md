@@ -1,24 +1,25 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager におけるアクセシビリティ
-description: このドキュメントでは、Learning Manager 学習管理システムが、障がいを持つ学習者向けに提供しているアクセシビリティサポートの概要を説明します。また、プラットフォームのナビゲーションオプションやアクセシビリティ機能についても説明しています。
+description: このドキュメントでは、Learning Manager 学習管理システムが、障がいを持つ学習者向けに提供しているアクセシビリティサポートの概要を説明します。 また、プラットフォームのナビゲーションオプションやアクセシビリティ機能についても説明しています。
 contentowner: saghosh
 preview: true
 exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
-source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 76%
 ---
-
 # Adobe Learning Manager におけるアクセシビリティ
 
-このドキュメントでは、Learning Manager 学習管理システムが、障がいを持つ学習者向けに提供しているアクセシビリティサポートの概要を説明します。また、プラットフォームのナビゲーションオプションやアクセシビリティ機能についても説明しています。
+このドキュメントでは、Learning Manager 学習管理システムが、障がいを持つ学習者向けに提供しているアクセシビリティサポートの概要を説明します。 また、プラットフォームのナビゲーションオプションやアクセシビリティ機能についても説明しています。
 
 Learning Managerのプラットフォームは、W3CのWCAG 2.1レベルAおよびAAのアクセシビリティ標準に準拠しています。
 
-Adobe Learning Managerの学習者の役割により、学習者はプラットフォーム内を移動し、次の主要なアクセシビリティ機能を活用できます。
+Adobe Learning Manager の学習者の役割により、学習者はプラットフォーム内を移動し、次の主要なアクセシビリティ機能を活用できます。
 
 * スクリーンリーダー
 * キーボード
@@ -150,8 +151,8 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 
 詳細については次を参照してください。
 
-* [学習者のアクセシビリティ適合性レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
-* [すべての役割のアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
+* [学習者に対するアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [すべての役割に対するアクセシビリティ準拠レポート](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Managerの最上位ワークフロー（学習者の役割） {#captivateprimetopworkflowslearnerrole}
 
@@ -172,7 +173,7 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 1. トレーニングを特定したら、`kbd Tab`または`kbd Shift + Tab`を使用して「登録/開始」ボタンに移動します。 ボタンのステータスは、そのトレーニングの登録ステータスによって異なります。
 
 1. `kbd ENTER`を押してトレーニングを開始します。
-1. コンテンツの種類に関係なく表示されるコントロールを次に示します。
+1. コンテンツの種類に関係なく表示されるコントロールは、次のとおりです。
 
    * 目次
    * メモ
@@ -200,7 +201,7 @@ Learning Manager の学習者の役割では、次のようなその他のアク
 
 * Adobe Captivate オーサリングツールを使用して作成されたコンテンツで利用可能なクローズドキャプションを使用します。
 * ビデオの場合、作成者はクローズドキャプションテキストでビデオをエンコードできます。 このような動画にはクローズドキャプションが埋め込まれており、学習者が利用できます。
-* Learning Manager は、ビデオコンテンツ用のクローズドキャプション WebVTT ファイルをアップロードする機能をサポートしています。詳細については、[*クローズドキャプションのWebVTTファイルのアップロード*](/help/migrated/authors/feature-summary/content-library.md)&#x200B;を参照してください。
+* Learning Manager は、ビデオコンテンツ用のクローズドキャプション WebVTT ファイルをアップロードする機能をサポートしています。 詳細については、[*クローズドキャプションのWebVTTファイルのアップロード*](/help/migrated/authors/feature-summary/content-library.md)&#x200B;を参照してください。
 
 ### 目が不自由な方、または視力の弱い方
 

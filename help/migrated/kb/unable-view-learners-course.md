@@ -4,13 +4,14 @@ title: コースに学習者を表示できない
 description: コースの「学習者」タブに、Adobe Learning Managerに登録されている学習者が表示されません。 ただし、レポートを生成すると、登録済みの学習者がレポートに表示されます。
 contentowner: saghosh
 exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 58%
-
 ---
-
 # コースに学習者を表示できない
 
 ## 問題

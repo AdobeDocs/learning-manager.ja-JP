@@ -2,13 +2,14 @@
 title: FedRAMP認定環境での機能の可用性
 description: この文書では、FedRAMPが承認している環境でサポートされていない機能について説明します
 jcr-language: en-us
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
-
 ---
-
 
 # FedRAMP承認環境での機能の可用性
 
@@ -30,7 +31,7 @@ FedRAMPのセキュリティおよびコンプライアンス要件の一部と�
 | [LTIサポート](/help/migrated/whats-new.md) | サポートなし |
 | [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md) | サポートなし |
 | [Badgrの統合](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges) | サポートなし |
-| [コネクタ](/help/migrated/integration-admin/feature-summary/connectors.md) | 一部サポート（ズーム – サポート、MS Teams – サポートなし） |
+| [コネクター](/help/migrated/integration-admin/feature-summary/connectors.md) | 一部サポート（ズーム – サポート、MS Teams – サポートなし） |
 | [ゲーミフィケーション監査レポート](/help/migrated/administrators/feature-summary/reports.md#gamification-audit-trail-report) | サポートなし |
 | [GSDレポート](/help/migrated/administrators/feature-summary/group-success-dashboard.md) | サポートなし |
 | [L1レポート](/help/migrated/administrators/feature-summary/l1-feedback-form.md) | サポートなし |

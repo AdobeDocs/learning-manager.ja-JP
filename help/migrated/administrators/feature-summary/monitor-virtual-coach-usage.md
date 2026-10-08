@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 仮想コーチの使用の監視
 description: アカウントで仮想コーチがどのように使用されるかを監視します。
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 2%
-
 ---
-
 
 # 仮想コーチの使用の監視
 
@@ -22,7 +23,7 @@ Adobe Learning Managerでバーチャルコーチの使用状況データを表�
 1. Adobe Learning Managerに管理者としてログインします。
 2. 左側のナビゲーションウィンドウから&#x200B;**請求**&#x200B;ページに移動します。
 3. **仮想コーチ**&#x200B;セクションで、電子メールで受け取ったアクティベーションキーを入力します。
-4. 「**適用**」を選択します。アカウントに対して仮想コーチが有効になっています。
+4. 「**適用**」を選択します。 アカウントに対して仮想コーチが有効になっています。
    ![](assets/virtual-coach-037.png)
 
 有効化されると、機能が有効であることを確認するアプリ内通知が届きます。 4つのサンプルロールプレイシナリオがコンテンツライブラリに自動的に追加されるため、作成者はすぐに作業を開始できます。

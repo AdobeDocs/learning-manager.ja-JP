@@ -3,13 +3,14 @@ description: Adobe Learning Managerで「自分が保存」ウィジェットを
 jcr-language: en_us
 title: 「自分が保存済み」ウィジェット
 exl-id: 123ff7ab-bdb5-495d-8254-67701e7be3eb
-source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
-
 ---
-
 
 ## 「自分が保存」ウィジェット
 

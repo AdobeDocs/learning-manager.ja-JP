@@ -2,13 +2,14 @@
 title: このリリースの最新情報
 description: Adobe Learning Managerの2023年11月リリースの新機能と強化機能について説明します。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # このリリースの最新情報
 
 ## 刷新されたユーザーインターフェイス
@@ -112,7 +113,7 @@ Adobe Learning Manager では、カスタム管理者が使用できるのは学
    <td>
     <p style="text-align: left;"><b>使用可能</b></p></td>
    <td>
-    <p style="text-align: left;"><b>範囲</b></p></td>
+    <p style="text-align: left;"><b>スコープ</b></p></td>
         </tr>
     <tr>
    <td>
@@ -177,7 +178,7 @@ Adobe Learning Manager では、カスタム管理者が使用できるのは学
    <td>
     <p style="text-align: left;"><b>使用可能</b></p></td>
    <td>
-    <p style="text-align: left;"><b>範囲</b></p></td>
+    <p style="text-align: left;"><b>スコープ</b></p></td>
         </tr>
     <tr>
    <td>
@@ -245,7 +246,7 @@ Connectからセッショントランスクリプトを読み込み、トラン�
 
 ## 複雑なコースフィルタリングのための API 機能強化
 
-タグとカタログラベルによるコースの高度なフィルタリング（「AND」と「OR」の条件を組み合わせて使用）が、Learning Manager APIを介して実行できるようになりました。
+タグおよびカタログラベル別コースの詳細フィルタリング（「AND」および「OR」の条件を組み合わせて使用）が、Learning Manager APIを介して実行できるようになりました。
 
 ## このリリースでの API の変更
 

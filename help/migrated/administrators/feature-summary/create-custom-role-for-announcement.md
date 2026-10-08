@@ -3,7 +3,10 @@ title: スコープ指定のアナウンス権限を持つカスタムの役割
 jcr-language: en_us
 description: Adobe Learning Managerで、選択したカタログとユーザーグループに対してのみアナウンスを送信できるカスタムの役割を作成する方法について説明します。
 exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%

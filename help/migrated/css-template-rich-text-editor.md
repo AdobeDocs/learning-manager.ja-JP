@@ -4,13 +4,14 @@ title: リッチテキストエディターのCSSテンプレート
 description: リッチテキストエディターのCSSテンプレート
 contentowner: saghosh
 preview: true
-source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 70%
-
+source-wordcount: '231'
+ht-degree: 72%
 ---
-
 
 
 # リッチテキストエディターのCSSテンプレート
@@ -21,7 +22,7 @@ ht-degree: 70%
 
 ## デフォルトのスタイル
 
-添付された CSS のスタイルシートには、Learning Manager で適用されるスタイルが含まれています。このスタイルは、さまざまユースケースを念頭において調整されています。 自分の命名規則やビルドシステムに沿って、添付された CSS ファイルをダウンロードして Web アプリに読み込みます。 定義されたCSSクラスはql-editorクラスの名前空間に属し、既存のスタイルと干渉しません。
+添付された CSS のスタイルシートには、Learning Manager で適用されるスタイルが含まれています。 このスタイルは、さまざまユースケースを念頭において調整されています。 自分の命名規則やビルドシステムに沿って、添付された CSS ファイルをダウンロードして Web アプリに読み込みます。 定義された CSS クラスは、「ql-editor」クラスの名前空間に属し、既存のスタイルに干渉することはありません。
 
 ## スタイルのカスタマイズ
 
@@ -29,7 +30,7 @@ ht-degree: 70%
 
 * **インデント**: li.ql-indent-$number。 $number には、1～9 が入ります。
 * **サイズ**: ql-size-small、ql-size-large、ql-size-huge
-* **整列**: ql-align-center、ql-align-justify、ql-align-right
+* **アラインメント**: ql-align-center、ql-align-justify、ql-align-right
 * **color**: ql-color-$color。 $color に入る色：white、red、orange、yellow、green、blue、purple
 * **背景**: ql-bg-$color。 $color に入る色：black、red、orange、yellow、green、blue、purple
 * **htmlタグ**: p、ol、ul、pre、blockquote、h1、h2、h3、h4、h5、h6

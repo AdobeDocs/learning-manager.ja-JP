@@ -1,13 +1,14 @@
 ---
 title: ライブハブの必要システム構成
 description: サポートされているブラウザー、オペレーティングシステム、画面解像度、ハードウェアなど、Adobe Learning Managerでライブハブセッションを設定および実行するための必要システム構成です。
-source-git-commit: 577448e876bc7ba56c6191705c7c894fc5991770
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%
-
 ---
-
 
 # 必要システム構成
 
@@ -27,4 +28,4 @@ Live Hubはバーチャルクラスルームセッション内で利用でき、
 
 >[!NOTE]
 >
->Linuxブラウザー、Chromebookデバイス、Firefoxモバイル版、Opera（デスクトップ版およびモバイル版）、Internet Explorer 11および以前のバージョンのブラウザーはサポートされていません。
+>Linuxブラウザー、Chromebookデバイス、Firefoxモバイル版、Opera（デスクトップ版およびモバイル版）、インターネットエクスプローラー 11および以前のバージョンのブラウザーはサポートされていません。

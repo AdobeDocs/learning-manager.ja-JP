@@ -1,31 +1,32 @@
 ---
-description: Adobe Commerceコネクタを統合する方法について
+description: Adobe Commerce コネクターの統合方法について説明します
 jcr-language: en_us
 title: Adobe Commerce connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 4%
-
 ---
 
-
-# Adobe Learning ManagerのAdobe Commerceコネクタ
+# Adobe Learning ManagerのAdobe Commerce コネクター
 
 ## Adobe Commerce connector
 
 >[!NOTE]
 >
->この機能は、Adobe Learning ManagerがAdobe Experience Managerに&#x200B;**アドオン**&#x200B;として販売されている場合にのみ使用できます。 コネクタは、**体験版**&#x200B;アカウントでも有効にすることができます。
+>この機能は、Adobe Learning ManagerがAdobe Experience Managerに&#x200B;**アドオン**&#x200B;として販売されている場合にのみ使用できます。 このコネクターは、**体験版**&#x200B;アカウントでも有効にすることができます。
 
-Adobe Learning Managerは、拡張性と拡張性に優れたeコマースソリューションであるAdobe Commerceと統合することで、B2BおよびB2Cの顧客向けにマルチチャネルのコマースエクスペリエンスを提供できます。 Adobe Commerceコネクタを使用してAdobe Learning ManagerをAdobe Commerceに接続し、有料トレーニングとeコマース機能を学習プラットフォーム内で有効にします。
+Adobe Learning Managerは、拡張性と拡張性に優れたeコマースソリューションであるAdobe Commerceと統合することで、B2BおよびB2Cの顧客向けにマルチチャネルのコマースエクスペリエンスを提供できます。 コネクターを使用してAdobe Learning ManagerをAdobe Commerceと連携し、有料トレーニングとeコマース機能を学習プラットフォーム内で有効にします。
 
-コネクターが有効になっている場合、Learning ManagerからAdobe Commerceにトレーニングデータが送信され、学習者はコース、学習パス、資格認定を購入できるようになります。 また、コネクタは購入情報を収集して、トランザクションを検証し、学習者にトレーニングへのアクセスを許可します。
+このコネクターを有効にすると、Learning ManagerからAdobe Commerceにトレーニングデータが送信され、学習者はコース、学習パス、資格認定を購入できるようになります。 また、コネクターは購入情報を収集して、トランザクションを検証し、学習者にトレーニングへのアクセスを許可します。
 
 ## 前提条件
 
-Adobe Commerceコネクタを設定する前に、次のことを確認してください。
+Adobe Commerce コネクターを設定する前に、次のことを確認してください。
 
 - [RabbitMQ](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/start/overview)またはその他のメッセージングブローカーを有効にします。
 - [CRON](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/start/overview#cron_consumers_runner)ジョブを有効にします。
@@ -41,20 +42,20 @@ Adobe Commerceコネクタを設定する前に、次のことを確認してく
 - カスタムモジュールを使用して、オプション制限を上書きします。 この手順はオプションですが、大規模なデータセットの場合に推奨されます。
 - すべての&#x200B;**非同期API**&#x200B;を有効にします。 大きなトレーニングデータセットは、非同期で書き出されます。 Learning ManagerがAdobe Commerce APIを呼び出すと、コマース側で製品を作成するコンシューマーがリクエストをキューに入れて処理します。 非同期処理は、Adobe Commerceのデフォルトでは使用できないため、有効にする必要があります。
 - Adobe Commerceの支払い処理ページで、Learning Managerに&#x200B;**return link**&#x200B;を追加します。
-   - 次の[戻り値URL](https://learningmanager.adobe.com/app/learner#/postPayment)を使用する：
+  - 次の[戻り値URL](https://learningmanager.adobe.com/app/learner#/postPayment)を使用する：
 - **インデックス**&#x200B;を保存時の&#x200B;**から**&#x200B;スケジュール済み&#x200B;**に変更します。**&#x200B;詳細については、[サポート技術情報](https://experienceleague.adobe.com/ja/support?support-tab=home#home)を参照してください。
 - 必要な&#x200B;**パッチ**&#x200B;を適用します。 手順については、[修正プログラムのドキュメントを適用する](https://experienceleague.adobe.com/ja/docs/commerce-cloud-service/start/overview)を参照してください。
 - クラウドインフラストラクチャ（ステージングおよび実稼働環境）でAdobe Commerce用に&#x200B;**Fastly**&#x200B;を構成します。 詳細については、[Fastlyのセットアップ](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)を参照してください。
 
 ## コネクターの構成
 
-Adobe Commerceコネクタを設定するには：
+Adobe Commerceのコネクターを設定するには：
 
 1. Adobe Learning Managerに統合管理者としてログインします。
-2. **Adobe Commerce**&#x200B;コネクタタイルにカーソルを合わせ、**Connect**&#x200B;を選択します。
+2. **Adobe Commerce**&#x200B;のコネクタータイルにカーソルを合わせ、**Connect**&#x200B;を選択します。
 
    ![](assets/adobe-commerce-connector1.png)
-   _[接続]を選択してAdobe Commerceコネクタを構成します_
+   _[接続]を選択してAdobe Commerce コネクターを構成する_
 
 3. 次の情報を入力します。
 

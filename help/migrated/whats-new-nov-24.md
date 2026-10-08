@@ -3,13 +3,14 @@ description: Adobe Learning Managerの2024年11月リリースの新機能と強
 jcr-language: en_us
 title: 新機能の概要2024年11月
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # 新機能の概要2024年11月 {#new-features-summary}
 
 Adobe Learning Managerの2024年11月リリースの新機能と強化機能について説明します。
@@ -77,7 +78,7 @@ Credlyは、学習者や組織がバッジや資格認定などの専門的な�
 
 ### CredlyをAdobe Learning Managerと統合
 
-まず、Adobe Learning Manager(ALM)にCredlyコネクタを追加します。 次に、学習者の達成が継続できるように、既存のバッジをCredlyから移行します。 最後に、Adobe Learning Managerで適切な学習パスに沿ってスキルを構築し、学習者の育成と認知度を高めます。
+まず、Adobe Learning Manager(ALM)でCredly コネクターを追加します。 次に、学習者の達成が継続できるように、既存のバッジをCredlyから移行します。 最後に、Adobe Learning Managerで適切な学習パスに沿ってスキルを構築し、学習者の育成と認知度を高めます。
 
 詳細については、この記事[信頼性](/help/migrated/integration-admin/feature-summary/credly-integration.md)を参照してください
 
@@ -250,7 +251,7 @@ folder列は文字列データ型を使用し、オプションの列です。 f
 
 2. `viewPercent`:
 
-   * この列のデータ型は整数にする必要があり、値は0 ～ 100の範囲にする必要があります。
+   * この列のデータ型は整数で、値は0 ～ 100の範囲にする必要があります。
    * completionCriteriaが`VIEW_PERCENT`に設定されている場合、この列に必要なビューの割合を入力するか、空白のままにします。
 
 3. `quizData`:
@@ -528,7 +529,7 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 **[!UICONTROL 学習トランスクリプト]**&#x200B;レポートには、次の2つの新しい列が含まれます：
 
 * **[!UICONTROL モジュールID]**：各モジュールの一意の識別子を表示します。 この新しい列は、既存の&#x200B;**[!UICONTROL モジュール]**&#x200B;列の後に追加されました。
-* **[!UICONTROL コースインスタンスID]**：各コースインスタンスの一意のIDを表示します。この新しい列は、既存の&#x200B;**[!UICONTROL Instance]**&#x200B;列の後に追加されました。
+* **[!UICONTROL コースインスタンスID]**：各コースインスタンスの一意の識別子を表示します。この新しい列は、既存の&#x200B;**[!UICONTROL Instance]**&#x200B;列の後に追加されました。
 * **[!UICONTROL 完了コメント]**：この列には、ユーザーの完了を記録するときに管理者が入力したコメントが記録されます。 この新しい列は、レポートの最後に追加されました。
 
 
@@ -551,9 +552,9 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 * コースからセッションが削除されたときに、主催者がメール通知を受け取れない問題を修正しました。
 * モジュールがコースから削除されて再パブリッシュされた場合、主催者がセッションのキャンセルを知らせるメールを受信しない問題を修正しました。
 * 外部ユーザーの作成時に電子メールアドレスに特殊文字「+」および「 – 」を含める機能がサポートされました。
-* ユーザーのスキルレポートのCSVレコード値に二重引用符が含まれていると、Marketoコネクタの統合レポートの同期が失敗する問題を修正しました
+* ユーザーのスキルレポートのCSVレコード値に二重引用符が含まれていると、Marketo コネクターの統合レポートの同期が失敗する問題を修正しました
 * `/skills`エンドポイントがAdmin APIの正しい状態を返すが、学習者APIが常に正しくないデータまたはキャッシュされたデータを表示する問題を修正しました。
-* アカウントにGo1コネクタが設定されていない場合、フリーミアムコースのGo1オンボーディングが失敗する問題を修正しました。
+* アカウントにGo1 コネクターが設定されていない場合、フリーミアムコースのGo1オンボーディングが失敗する問題を修正しました。
 * 学習者が学習パス(LP)を既に完了している場合、移行を介して学習パス(LP)のコースにアクセスできない問題を修正しました。
 * ユーザーのマネージャーとスキップレベルマネージャーの両方が管理者ではなくSU（スーパーユーザー）として設定され、CSVに含まれていないと、インクリメンタルユーザーのCSVが失敗する問題を修正しました。
 * ダッシュボードレポートのストアマネージャーのスコープの問題を修正しました。

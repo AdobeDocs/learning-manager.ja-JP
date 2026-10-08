@@ -5,18 +5,19 @@ title: Learning Managerデプロイメントガイド – セクション2
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Learning Managerデプロイメントガイド – セクション2
 
 ## 技術的な設定 {#technicalsetup}
 
-Learning Managerアカウントの技術的な設定は、主にエンタープライズユーザーの場合に必要となります。 このドキュメントでは、組織のシングルサインオンの設定と、Learning Managerとサードパーティコネクタの統合について説明します。
+Learning Managerアカウントの技術的な設定は、主にエンタープライズユーザーの場合に必要となります。 このドキュメントでは、組織でのシングルサインオンの設定と、Learning Managerとサードパーティ製コネクターとの統合について説明します。
 
 ### シングルログオンの設定 {#configuresinglesignon}
 
@@ -74,7 +75,7 @@ Learning Managerでは、ステップバイステップのウィザードを使�
 
 移行プロセスを開始する前に、以下の前提条件を実行する必要があります。
 
-* 既存のLMSからデータとコンテンツを抽出し、そのデータをLearning Managerで定義されているファイル形式に変換します。
+* 既存のLMSからデータとコンテンツを抽出し、Learning Managerで定義されているファイル形式に変形します。
 * FTP コネクタと BOX コネクタを使用してユーザーを読み込みます。 統合管理者は、移行プロセスの前にコネクタが設定されていることを確認する必要があります。
 
 
@@ -119,7 +120,7 @@ Learning Managerでは、ステップバイステップのウィザードを使�
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>掲示板で</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>番号</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel シート名</strong></p></th> 
    <th width="31%" valign="top"><p><strong>コンテンツの説明</strong></p></th> 
    <th width="31%" valign="top"><p><strong>メモ</strong></p></th> 

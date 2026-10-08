@@ -4,7 +4,10 @@ title: Adobe Learning ManagerとのSalesforce(SFDC)統合に関する問題の�
 description: 書き出しの失敗、SFDCカスタムオブジェクトでのフィールド権限の問題、SFDC-ALMの互換性に関する重要な注意事項など、Adobe Learning Manager(ALM)との一般的なSalesforce(SFDC)統合の問題に関するトラブルシューティング。
 contentowner: saghosh
 exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%

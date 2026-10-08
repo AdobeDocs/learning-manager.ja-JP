@@ -1,21 +1,22 @@
 ---
-description: Adobe Learning ManagerとPower BIコネクタを統合する方法について説明します。
+description: Adobe Learning ManagerとPower BIコネクターを連携させる方法
 jcr-language: en_us
 title: Power BI コネクター
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
 
-
-# Adobe Learning ManagerのPower BIコネクタ
+# Adobe Learning ManagerのPower BIコネクター
 
 ## 概要
 
-Power BIコネクタを使用すると、Adobe Learning ManagerとMicrosoft Power BI（商用ライセンス）を連携させて、学習データを分析、視覚化、共有できます。
+コネクターを使用すると、Adobe Learning ManagerとMicrosoft Power BI（商用ライセンス）を連携させ、学習データを分析、視覚化、共有できます。
 
 この統合により、統合管理者は、学習者のトランスクリプト、ユーザースキル、xAPIアクティビティレポートなどのライブデータセットを、選択したPower BIワークスペースに直接自動的に書き出すことができます。
 
@@ -31,15 +32,15 @@ Power BIコネクタを使用すると、Adobe Learning ManagerとMicrosoft Powe
 - Power BIアプリとワークスペースを作成する権限があることを確認します。
 - **テナント名**、**アプリクライアントID**、**アプリクライアントシークレット**、**ワークスペースID**&#x200B;を取得します（オプション）。
 
-## Power BIコネクタの設定
+## コネクターの設定
 
 ALMとPower BIを接続するには、次の手順を実行します。
 
 1. Adobe Learning Managerに統合管理者としてログインします。
-2. **Power BI**&#x200B;コネクタタイルにカーソルを合わせ、**接続**&#x200B;を選択します。
+2. **Power BI**&#x200B;コネクターのタイルにカーソルを合わせ、**接続**&#x200B;を選択します。
 
    ![](assets/power-bi-connector1.png)
-   _[接続]を選択してPower BIコネクタを構成する_
+   _[接続]を選択してコネクターを構成する_
 
 3. 次の情報を入力します。
 
@@ -212,18 +213,18 @@ Adobeには、すぐに使い始めるのに役立つすぐに使えるPower BI�
 
 - **既存の接続：**
 
-   - **学習パス**&#x200B;が無効な場合、関連する行や列は含まれません。
-   - 有効にすると、登録済み学習者の学習パス（上位レベル）がレポートに含まれます。
+  - **学習パス**&#x200B;が無効な場合、関連する行や列は含まれません。
+  - 有効にすると、登録済み学習者の学習パス（上位レベル）がレポートに含まれます。
 
 - **新しい接続：**
 
-   - 学習パスが無効な場合、列には次が表示されます。
+  - 学習パスが無効な場合、列には次が表示されます。
 
-      - **埋め込みパス：**&#x200B;学習プログラム名。
-      - 学習プログラムの&#x200B;**埋め込みパスID:** ID。
-      - 学習パスに埋め込まれたコースの&#x200B;**埋め込みコースのID :**
-   - 有効にすると、**型**&#x200B;列で関連する学習パス（上位レベル）が使用されます。
-   - 新しい接続の場合、変更は30日後に適用されます。
+    - **埋め込みパス：**&#x200B;学習プログラム名。
+    - 学習プログラムの&#x200B;**埋め込みパスID:** ID。
+    - 学習パスに埋め込まれたコースの&#x200B;**埋め込みコースのID :**
+  - 有効にすると、**型**&#x200B;列で関連する学習パス（上位レベル）が使用されます。
+  - 新しい接続の場合、変更は30日後に適用されます。
 
 ### データの保存場所**
 

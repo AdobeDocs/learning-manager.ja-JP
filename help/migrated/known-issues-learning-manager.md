@@ -4,13 +4,14 @@ title: Learning Managerの既知の問題
 description: 以下では、Learning Managerをアップデートするたびに発生する既知の問題をまとめています。 リストは累積的で、以前のアップデートで確認された問題が含まれています。
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 62%
-
 ---
-
 
 
 # Learning Managerの既知の問題
@@ -20,7 +21,7 @@ ht-degree: 62%
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>更新</b></p></td> 
+   <td><p><b>アップデート</b></p></td> 
    <td><p><b>既知の問題</b></p></td> 
   </tr> 
   <tr> 
@@ -51,7 +52,7 @@ ht-degree: 62%
   </tr> 
   <tr> 
    <td><p>37</p></td> 
-   <td><p>Internet Explorer v11.1478.10586.0を使用して特定の学習オブジェクトにアクセスすると、Learning Managerがクラッシュする場合があります。</p></td> 
+   <td><p>インターネットエクスプローラー v11.1478.10586.0を使用して特定の学習目標にアクセスすると、Learning Managerがクラッシュする場合があります。</p></td> 
   </tr> 
  </tbody>
 </table>

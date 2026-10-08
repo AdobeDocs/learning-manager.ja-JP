@@ -3,13 +3,14 @@ description: ALMでのAPIの変更
 jcr-language: en_us
 title: 4月リリースのAPIの変更
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4106'
 ht-degree: 0%
-
 ---
-
 # 2026年4月リリースのAPIの変更
 
 Adobe Learning Managerの2026年4月リリースでは、代替と同等の機能、コンテンツへの時間枠によるアクセス、コンテンツ駆動型クイズの試行、ログインなしのエクスペリエンス、作業計画書の処理に関するパブリックAPIの重点的な機能強化が導入されています。 この変更は、下位互換性が高く、より正確な統合が可能になるように設計されています。
@@ -23,11 +24,11 @@ Adobe Learning Managerの2026年4月リリースでは、代替と同等の機�
 - GET /primeapi/v2/learningObjects?filter.loTypes=learningPath
 - GET /primeapi/v2/learningObjects/{loId}
 
-新しいブール属性attributes.isAdaptiveは、学習プログラムがアダプティブルールを使用することを示します。 このフラグがtrueの場合、sections属性が適応的に解釈されます。
+新しいブーリアン属性attributes.isAdaptiveは、学習プログラムがアダプティブルールを使用することを示します。 このフラグがtrueの場合、sections属性が適応的に解釈されます。
 
 学習者呼び出しの場合は、現在の学習者に表示されているセクションのみが返されます。 各セクションには、セクションIDとともに、その学習者の適応設定に基づいて計算される学習目標ID(loId)、必須フラグおよびmandatoryLOCountのリストが含まれます。 relationships.subLOsリレーションもフィルタリングされるようになり、その学習者に表示されるサブ学習オブジェクトのみが含まれるようになりました。
 
-管理者呼び出しの場合、セクションはadaptiveConfig配列をさらに公開できます。 userGroupId、userGroupName、およびそのグループにセクションが必須であるかどうかなど、ユーザーグループごとの適応規則を説明します。 管理者向けのツールでは、これを使用してアダプティブルールを視覚化および管理できます。
+管理者呼び出しでは、セクションでadaptiveConfigアレイを追加で表示できます。 userGroupId、userGroupName、およびそのグループにセクションが必須であるかどうかなど、ユーザーグループごとの適応規則を説明します。 管理者向けのツールでは、これを使用してアダプティブルールを視覚化および管理できます。
 
 学習プログラムの完了のリセット
 
@@ -64,9 +65,9 @@ POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshComplet
 - GET /primeapi/v2/learningObjects/{loId}
 ```
 
-新しいブール属性attributes.isAlternateCompleteは、特定の学習オブジェクトに対する学習者の完了が、オブジェクト自体ではなく代替または同等の学習オブジェクトのどちらに基づくかを示します。 これがtrueの場合、 relationships.alternateCompletions関係に、代替文字として機能した学習目標がリストされます。 これにより、ダウンストリーム・レポートおよびダッシュボードで、直接完了と代替完了を区別し、要件を満たした代替完了を表示できます。
+新しいブーリアン属性attributes.isAlternateCompleteは、特定の学習オブジェクトに対する学習者の完了が、オブジェクト自体ではなく代替または同等の学習オブジェクトのどちらに基づくかを示します。 これがtrueの場合、 relationships.alternateCompletions関係に、代替文字として機能した学習目標がリストされます。 これにより、ダウンストリーム・レポートおよびダッシュボードで、直接完了と代替完了を区別し、要件を満たした代替完了を表示できます。
 
-さらに、関連学習目標ビューでは、学習目標を満たす可能性のある代替案を検出できます。 この情報は、次の方法で公開されます。
+さらに、関連学習目標ビューでは、学習目標を満たす可能性のある代替案を検出できます。 これは次の方法で表示されます。
 
 ```
 GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}
@@ -83,8 +84,8 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 - isAlternateCompleteがfalse==場合：\
   レコードをLOの&#x200B;__直接完了__&#x200B;として現在のように扱います。
 - isAlternateCompleteがtrue==場合：
-   - レコードに&#x200B;__代替の完了__&#x200B;としてレポートにフラグを付けます（たとえば、値がDIRECTとALTERNATEの列の「完了方法」列）。
-   - relationships.alternateCompletions.data[*].idを使用して、この完了を付与された&#x200B;__どのソースLO__&#x200B;を取得します（例：「代替コースAを介してコースBが完了しました」）。
+  - レコードに&#x200B;__代替の完了__&#x200B;としてレポートにフラグを付けます（たとえば、値がDIRECTとALTERNATEの列の「完了方法」列）。
+  - relationships.alternateCompletions.data[*].idを使用して、この完了を付与された&#x200B;__どのソースLO__&#x200B;を取得します（例：「代替コースAを介してコースBが完了しました」）。
 
 一般的な使用例：
 
@@ -96,13 +97,13 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 
 ## 学習者と管理者のLO APIの動作
 
-多言語の作業計画書の構造は、学習者LOと管理者LOの両方のAPIで同じです。 学習者のスコープは、学習者が表示できる作業計画書のみを返しますが、表示される作業計画書ごとに、複数のリソースエンティティ（ロケールごとに1つ）と複数のロケールlocalizedMetadataを介してすべての設定済みロケールが表示されます。 管理者スコープは、同じLOモデルとロケール固有のリソースIDを使用して、管理者が管理できるすべての作業計画書を返します。 学習者の範囲を持つクライアントは、attributes.localeが学習者のコンテンツ言語と最も一致するリソースを選択する必要があります。一方、管理ツールは、レポートと管理のためにすべてのロケールを列挙できます。
+多言語の作業計画書の構造は、学習者LOと管理者LOの両方のAPIで同じです。 学習者スコープは、学習者に表示されている作業計画書のみを返しますが、表示されている作業計画書ごとに、複数のリソースエンティティ（ロケールごとに1つ）と複数ロケールlocalizedMetadataを介してすべての設定済みロケールが表示されます。 管理者スコープは、同じLOモデルとロケール固有のリソースIDを使用して、管理者が管理できるすべての作業計画書を返します。 学習者の範囲を持つクライアントは、attributes.localeが学習者のコンテンツ言語と最も一致するリソースを選択する必要があります。一方、管理ツールは、レポートと管理のためにすべてのロケールを列挙できます。
 
 ## コメント機能付きチェックリスト
 
 このリリースでは、レビューアーがチェックリストベースのアクティビティに対して構造化されたフィードバックを共有できるワークフローをサポートするために、学習オブジェクトリソースAPIを介して&#x200B;*チェックリストコメント*&#x200B;とレビューアーの表示コントロールが表示されます。
 
-チェックリスト関連のメタデータは、コースまたは他の学習目標内のチェックリストのリソースを表すlearningObjectResourceエンティティ(JApiLOResource、「type」:「learningObjectResource」)に公開されます。
+コースまたは他の学習目標内のチェックリストのリソースを表すlearningObjectResourceエンティティ(JApiLOResource、「type」:「learningObjectResource」)に、チェックリスト関連のメタデータが表示されます。
 
 この情報は、次の方法で取得できます。
 
@@ -110,7 +111,7 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
-学習目標インスタンスにチェックリスト型リソースが含まれている場合、含まれている配列の対応するlearningObjectResourceエントリによって、属性の下にコメントとレビューアーの可視性属性、関係の下にレビューアーのIDが表示されます。
+学習目標インスタンスにチェックリスト型リソースが含まれている場合、含まれている配列の対応するlearningObjectResourceエントリによって、属性の下にcomment属性とreviewer-visibility属性、関係の下にreviewer idが表示されます。
 
 ### 新しいチェックリストコメント属性
 
@@ -120,15 +121,15 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
   学習者のレビュー担当者が残したフリーテキストコメント。例：\
   &quot;checklistComment&quot;: &quot;Excellent performance! すべての安全プロトコルは正しく遵守されています。\
   この属性は、_の場合にのみ_&#x200B;入力されます：
-   - showChecklistCommentがtrueで、
-   - チェックリスト設定でenable_reviewer_remarksが有効になっています。
+  - showChecklistCommentがtrueで、
+  - チェックリスト設定でenable_reviewer_remarksが有効になっています。
 - attributes.showChecklistComment\
-  レビュー担当者のコメントを学習者に表示するかどうかを示すブール・フラグ。\
+  レビュー担当者のコメントを学習者に表示するかどうかを示すブーリアンフラグ：\
   &quot;showChecklistComment&quot;: true\
   この属性は、チェックリスト構成で&#x200B;_enable_ reviewer_remarksが有効になっている場合にのみ_存在します。\
   クライアントは、このフラグを使用して、学習者エクスペリエンスでchecklistCommentをレンダリングするかどうかを決定する必要があります。
 - attributes.showReviewerNameToLearner\
-  学習者がレビュー担当者のIDを表示するかどうかを制御するブール値フラグ。\
+  学習者がレビュー担当者のIDを表示するかどうかを制御するブーリアンフラグ：\
   &quot;showReviewerNameToLearner&quot;: true\
   trueの場合、クライアントはchecklistReviewedBy関係（以下を参照）を使用して、レビューアーの名前を解決および表示できます（例：ユーザールックアップAPIを介して）。
 
@@ -171,17 +172,17 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
 - 応答で次の操作を行います。
-   - メインのlearningObjectのrelationships.instancesを使用して、含まれている関連するlearningObjectInstanceエントリを検索します。
-   - 各learningObjectInstanceからrelationships.loResourcesに従って、learningObjectResourceエントリを見つけます。
-   - 次の条件を満たすlearningObjectResourceエントリをフィルター：
-      - attributes.resourceSubType == &quot;CHECKLIST&quot;（チェックリソース用）
-      - オプションでattributes.showChecklistComment==trueに設定すると、学習者が表示できるコメントを含むチェックリストが検索されます。
+  - メインのlearningObjectのrelationships.instancesを使用して、含まれている関連するlearningObjectInstanceエントリを検索します。
+  - 各learningObjectInstanceからrelationships.loResourcesに従って、learningObjectResourceエントリを見つけます。
+  - 次の条件を満たすlearningObjectResourceエントリをフィルター：
+    - attributes.resourceSubType == &quot;CHECKLIST&quot;（チェックリソース用）
+    - オプションでattributes.showChecklistComment==trueに設定すると、学習者が表示できるコメントを含むチェックリストが検索されます。
 
 - 各チェックリストlearningObjectResourceについて、次を利用します。
-   - attributes.checklistComment （存在し、showChecklistCommentがtrueの場合）
-   - attributes.checklistEvaluationStatus（「PASSED」など）
-   - attributes.showReviewerNameToLearner
-   - relationships.checklistReviewedBy （存在する場合）を使用して、レビュー担当者を識別します。
+  - attributes.checklistComment （存在し、showChecklistCommentがtrueの場合）
+  - attributes.checklistEvaluationStatus（「PASSED」など）
+  - attributes.showReviewerNameToLearner
+  - relationships.checklistReviewedBy （存在する場合）を使用して、レビュー担当者を識別します。
 
 このパターンにより、ヘッドレスまたはカスタムクライアントは、ステータス、必須/オプションフラグ、レビュー担当者のフィードバックなどの包括的なチェックリストエクスペリエンスをPrime APIから直接レンダリングできます。
 
@@ -189,14 +190,14 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 
 - _レポートと分析_
 チェックリストで学習者のパフォーマンスを追跡する統合には、次のものを組み込むことができます。
-   - 合格/不合格またはその他のステータスインジケーターのchecklistEvaluationStatus。
-   - 必須と任意のチェックリストのアクティビティを区別するためのisChecklistMandatory。
-   - フィードバック範囲の監査に関するchecklistCommentおよびshowChecklistCommentの有無。
+  - 合格/不合格またはその他のステータスインジケーターのchecklistEvaluationStatus。
+  - 必須と任意のチェックリストのアクティビティを区別するためのisChecklistMandatory。
+  - フィードバック範囲の監査に関するchecklistCommentおよびshowChecklistCommentの有無。
 - _学習者のエクスペリエンス_
 UIの実装は以下の条件を満たす必要があります。
-   - コメントを表示する前に、showChecklistCommentを尊重します。
-   - showReviewerNameToLearnerおよびchecklistReviewedByを使用して、レビュー担当者の名前を表示するか、レビューを匿名のままにするかを決定します。
-   - コメントが無効になっている場合、またはコメントが存在しない場合に、評価ステータスと提出情報を引き続き表示して、スムーズに折り返します。
+  - コメントを表示する前に、showChecklistCommentを尊重します。
+  - showReviewerNameToLearnerおよびchecklistReviewedByを使用して、レビュー担当者の名前を表示するか、レビューを匿名のままにするかを決定します。
+  - コメントが無効になっている場合、またはコメントが存在しない場合に、評価ステータスと提出情報を引き続き表示して、スムーズに折り返します。
 
 ## 作業計画書の多言語サポート
 
@@ -208,7 +209,7 @@ _学習目標_ (lo) → _learningObjectResource_ (loResource) → _リソース_
 
 API契約に変更を加える必要はありません。 ローカライズされた作業計画書は、ロケールごとに個別のリソースエンティティを持ち、ローカライズされたメタデータをlearningObject/learningObjectResourceレベルで共有することで、自然にこの構造に適合します。
 
-作業計画書のデータは、次の方法で公開されます。
+作業計画書のデータは次の方法で表示されます。
 
 ```
 GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources.resources
@@ -221,21 +222,21 @@ GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources
 多言語の作業計画書の使用：
 
 - _learningObject （型： learningObject）_
-   - 複数のエントリ（en-US、fr-FRなど）を持つlocalizedMetadataが含まれているため、クライアントは作業計画書のタイトル/説明を適切な言語で表示できます。
+  - 複数のエントリ（en-US、fr-FRなど）を持つlocalizedMetadataが含まれているため、クライアントは作業計画書のタイトル/説明を適切な言語で表示できます。
 - _learningObjectInstance （型： learningObjectInstance）_
-   - relationships.loResourcesを介して1つ以上のlearningObjectResourceエントリを参照します。
+  - relationships.loResourcesを介して1つ以上のlearningObjectResourceエントリを参照します。
 - _learningObjectResource （型： learningObjectResource）_
-   - 共通の構成（コンテンツ・タイプ、バージョンなど）を保持 および複数ロケールlocalizedMetadata.
-   - relationships.resourcesを介して1つ以上のリソースエンティティにリンクします。
+  - 共通の構成（コンテンツ・タイプ、バージョンなど）を保持 および複数ロケールlocalizedMetadata.
+  - relationships.resourcesを介して1つ以上のリソースエンティティにリンクします。
 - _リソース（種類：リソース）_
-   - *ロケールごとに1つ*。それぞれに独自のID、ロケール、名前、およびURL （場所/downloadUrl）があります。
+  - *ロケールごとに1つ*。それぞれに独自のID、ロケール、名前、およびURL （場所/downloadUrl）があります。
 
 多言語の作業計画書の場合、一般的なパターンは次のとおりです。
 
 - en-USおよびfr-FRのlocalizedMetadataを含むlearningObjectResource
 - relationships.resources.dataの参照先：
-   - ロケールを含むリソース：「en-US」
-   - ロケールを含むリソース：&quot;fr-FR&quot;
+  - ロケールを含むリソース：「en-US」
+  - ロケールを含むリソース：&quot;fr-FR&quot;
 
 学習者のロケールをresource.attributes.localeフィールドと一致させることで、クライアントは適切なリソースを選択できます。
 
@@ -247,9 +248,9 @@ _古い（レガシ）リソースID形式_
 
 以前は、作業計画書のリソースで、次のような不透明なID形式が使用されていました。
 
-作業計画書:131032_-1_-1_2_resource
+jobAid:131032_-1_-1_2_resource
 
-この形式ではロケールはエンコードされず、APIは実質的に1つのリソース（通常はen-US）のみを公開します。
+このフォーマットはロケールをエンコードせず、APIは実質的に1つのリソース（通常はen-US）のみを表示します。
 
 _新しいリソースID形式（多言語対応）_
 
@@ -261,9 +262,9 @@ jobAid:<jobAidId>_<version>_<localeCode>
 
 例：
 
-- 作業計画書:131032_2_en-US
-- 作業計画書:131032_2_fr_FR
-- 作業計画書:131032_2_es_ES
+- jobAid:131032_2_en-US
+- 作業計画書：131032_2_fr_FR
+- jobAid:131032_2_es_ES
 
 視覚的な内訳：
 
@@ -299,23 +300,23 @@ jobAid:131032_2_fr_FR
 古いID形式と新しいID形式の両方で&#x200B;_下位互換性_&#x200B;があります。
 
 - _古いID形式_ （例： jobAid:131032_-1_-1_2_resource）
-   - 作業を続行します。
-   - そのレガシID （通常は元のen-USリソース）に関連付けられた&#x200B;_最初に作成されたリソース_&#x200B;を返します。
-- _新しいID形式_ （例： jobAid:131032_2_fr_FR）
-   - そのIDに対応する&#x200B;_ロケール固有の正確なリソース_&#x200B;を返します。
-   - これにより、ローカライズされた作業計画書のバリエーションを正確に取得および操作できます。
+  - 作業を続行します。
+  - そのレガシリソース（通常は元のen-US 識別子）に関連付けられた&#x200B;_最初に作成されたリソース_&#x200B;を返します。
+- _新しいID形式_ （jobAid:131032_2_fr_FRなど）
+  - そのIDに対応する&#x200B;_ロケール固有の正確なリソース_&#x200B;を返します。
+  - これにより、ローカライズされた作業計画書のバリエーションを正確に取得および操作できます。
 
 現在、古いリソースIDを保存または参照している統合は、変更なく機能し続けることができます。一方、新しい実装では、ロケール固有の操作に新しいID形式を採用することをお勧めします。
 
 ### 統合とUXに関する考慮事項
 
 - _学習者/管理者UI_
-   - 適切な言語でタイトルと説明を表示するには、learningObject.localizedMetadataおよびlearningObjectResource.localizedMetadataを使用します。
-   - resource.attributes.localeを使用して、学習者のロケールに適したURL（場所/ downloadUrl）を選択します。
-   - 学習者の正確なロケールが使用できない場合は、フォールバック動作（例：en-USにフォールバック）を実装します。
+  - 適切な言語でタイトルと説明を表示するには、learningObject.localizedMetadataおよびlearningObjectResource.localizedMetadataを使用します。
+  - resource.attributes.localeを使用して、学習者のロケールに適したURL（場所/ downloadUrl）を選択します。
+  - 学習者の正確なロケールが使用できない場合は、フォールバック動作（例：en-USにフォールバック）を実装します。
 - _APIとストレージ_
-   - 新しい統合の場合は、_新しい形式のリソースID_ (`jobAid:<jobAidId>_<version>_<localeCode>`)を保存して、ロケール固有の取得を明確にします。
-   - 従来のIDは/resources/{resourceId}で引き続き使用できますが、ロケールは区別されません。
+  - 新しい統合の場合は、_新しい形式のリソースID_ (`jobAid:<jobAidId>_<version>_<localeCode>`)を保存して、ロケール固有の取得を明確にします。
+  - 従来のIDは/resources/{resourceId}で引き続き使用できますが、ロケールは区別されません。
 
 ## 開始モジュールのタイムスロット制約
 
@@ -343,7 +344,7 @@ jobAid:131032_2_fr_FR
 
 `GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
-学習オブジェクトリソースは、ブール属性hasContentDrivenAttemptTrackingを公開できるようになりました。 この場合、クイズまたはモジュールは（SCORMやxAPIロジックなどを介して）試行を内部的に管理します。プラットフォームの標準試行カウンターは、学習者のエクスペリエンスを完全には反映していない場合があります。
+学習オブジェクトリソースは、ブーリアン属性hasContentDrivenAttemptTrackingを表示できるようになりました。 この場合、クイズまたはモジュールは（SCORMやxAPIロジックなどを介して）試行を内部的に管理します。プラットフォームの標準試行カウンターは、学習者のエクスペリエンスを完全には反映していない場合があります。
 
 試行回数を表示する統合、または再試行動作を制御する統合では、このフラグをチェックする必要があります。 有効な場合は、プラットフォームのメタデータのみから試行制限を推測するのではなく、コンテンツ側のレポート（例えば、xAPIステートメントを介して）またはビジネス固有のルールに依存できるようにする必要があります。
 
@@ -361,7 +362,7 @@ jobAid:131032_2_fr_FR
 
 以下に例を示します。
 
-作業計画書:131032_2_fr_FR
+作業計画書：131032_2_fr_FR
 
 コンポーネントは次のとおりです。
 
@@ -369,7 +370,7 @@ jobAid:131032_2_fr_FR
 - `<version>`：作業計画書のバージョン番号（例： 2）、
 - `<localeCode>`:ロケールコード（例： en_US、fr_FR、es_ES）。
 
-リソースをインデックス化する、または作業計画書のリソースIDに保持する統合は、解析ロジックとストレージロジックを更新して、新しい形式を認識する必要があります。 ID自体が変更されるため、2026年4月のリリースにアップグレードした後で、作業計画書のリソースIDによってキー設定されたローカルインデックスを再構築することを強くお勧めします。
+リソースをインデックス化する、または作業計画書のリソースIDに保持する統合は、解析ロジックとストレージロジックを更新して、新しい形式を認識する必要があります。 識別子自体が変わるため、2026年4月リリースにアップグレードした後、作業計画書リソースIDによってキー設定されたローカルインデックスを再構築することを強くお勧めします。
 
 ## 移行によるコースバナー画像の設定
 
@@ -415,7 +416,7 @@ course.csvが更新されると、フローは他の移行と同じになりま�
 移行用に設定されたBox/FTPフォルダーに、更新されたcourse.csv（およびその他の関連ファイル）をアップロードします。 ファイル名は、csv_specifications.zipで指定された名前と正確に一致する必要があります（大文字と小文字が区別されます）。
 2. _スプリントの実行を開始する_
 Adobe Learning Managerで、統合管理者として、course.csvを含む移行_スプリントの実行_&#x200B;を開始します。\
-   移行エンジンがバナー列を読み取り、バナー画像を各コースに適用します。
+   移行エンジンでバナー列が読み取られ、バナー画像が各コースに適用されます。
 3. _結果とエラーログの確認_
 スプリントの実行後：
    1. _作成者_&#x200B;および&#x200B;_学習者_&#x200B;アプリのバナーを確認します。
@@ -429,8 +430,8 @@ Adobe Learning Managerで、統合管理者として、course.csvを含む移行
 course.csvからコースが初めて作成され、バナー列にデータが入力されると、そのバナーがすぐに設定されます。
 - _既存のコース（後付/修正）_
 同じコースIDと新しいバナー値で移行を再実行する場合：
-   - Learning Managerは既存のコースを検索します。
-   - バナー画像は、CSVで指定された新しい画像に&#x200B;_更新_&#x200B;されます。
+  - Learning Managerは既存のコースを検索します。
+  - バナー画像は、CSVで指定された新しい画像に&#x200B;_更新_&#x200B;されます。
 
 実際の列名とパスは、_ダウンロードされたCSV仕様_&#x200B;とコンテンツリポジトリレイアウトと一致している必要があります。
 
@@ -453,16 +454,16 @@ Adobe Learning Managerでは、learning_program_course.csvの「順序」列を�
 
 - 移行中に学習プログラムのコースの順序を制御する必要はありません。
 - 古いテンプレートの注文列が引き続き表示される場合：
-   - Learning Managerでは、順序の設定は無視されます。
-   - CSVからファイルを安全に削除し、時間の経過とともに移行ファイルを簡素化できます。
+  - Learning Managerでは、順序の設定は無視されます。
+  - CSVからファイルを安全に削除し、時間の経過とともに移行ファイルを簡素化できます。
 - 必要な主なマッピングは以下のとおりです。
-   - 学習プログラムID ↔コースID （およびid、learningProgramId、courseId、日付など、その他の文書化された列）。
+  - 学習プログラムID ↔コースID （およびid、learningProgramId、courseId、日付など、その他の文書化された列）。
 
 現在のヘッダーセットと要件を確認するには、常にLearning Managerアカウントから（csv _specifications.zipを介して）最新の[_ CSV仕様_](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/migration-manual)を参照します。
 
 ## コースインスタンスのtimeZoneCode
 
-このリリース以降、コースインスタンスモデル(learningObjectInstance)には次のような新しい属性が公開されます。
+このリリース以降、コースインスタンスモデル(learningObjectInstance)には新しい属性が表示されます。
 
 timeZoneCode – アカウントで設定されているタイムゾーンに、コースインスタンスを明示的にリンクする文字列フィールド。
 
@@ -501,7 +502,7 @@ timeZoneCode – アカウントで設定されているタイムゾーンに、
 
 ### timeZoneCodeの解決方法
 
-数値timeZoneCodeは、アカウントAPIを介して公開されるアカウントのタイムゾーンカタログへの参照キーです。
+数値timeZoneCodeは、アカウントAPIを介して表示されるアカウントのタイムゾーンカタログへの参照キーです。
 
 ```http
 GET /primeapi/v2/account
@@ -539,7 +540,7 @@ Authorization: Bearer <access_token>
 
 ### 概要
 
-Adobe Learning Managerは、ユーザーグループ(UG)メンバーシップを管理するための2つの&#x200B;_admin async API_&#x200B;を公開しています。
+Adobe Learning Managerは、ユーザーグループ(UG)メンバーシップを管理するために、次の2つの&#x200B;_admin async API_&#x200B;を表示しています。
 
 - POST/async/userGroups/{userGroupId}/users – ユーザーを非同期でUGに追加します
 - DELETE/async/userGroups/{userGroupId}/users - UGからユーザーを非同期に削除します
@@ -561,9 +562,9 @@ Adobe Learning Managerは、ユーザーグループ(UG)メンバーシップを
 - [ベースURL (prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
 - 認証： `admin:write`範囲のOAuth 2.0アクセストークン
 - 必須ヘッダー：
-   - Authorization: Bearer &lt;access_token>
-   - Content-Type: application/json
-   - Accept: application/json
+  - Authorization: Bearer &lt;access_token>
+  - Content-Type: application/json
+  - Accept: application/json
 
 一般的なAdmin APIの動作とスコープについては、次を参照してください。
 
@@ -592,7 +593,7 @@ __add__&#x200B;と&#x200B;__remove__&#x200B;ではまったく同じボディの
 
 #### データ（必須）
 
-dataは、このバッチのユーザー・リソース識別子のリストです。
+dataは、このバッチのユーザー・リソース・識別子のリストです。
 
 - `type`は「user」である必要があります。
 - `id`はALMの&#x200B;_数値ユーザーID_&#x200B;です（電子メールではありません。UUIDではありません）。
@@ -614,7 +615,7 @@ dataは、このバッチのユーザー・リソース識別子のリストで�
 
 - `event_id` – 生成する関連付けID。
 - `sourceSystem` – アップストリームシステムの名前。
-- `batchId` – バッチまたはジョブの識別子。
+- `batchId` – バッチまたはジョブ識別子。
 
 サービスは、Webhook応答でこのオブジェクトを変更せずに返すので、コールバックを内部ジョブと一致させることができます。
 
@@ -638,7 +639,7 @@ dataは、このバッチのユーザー・リソース識別子のリストで�
 
 常に次のことを行う必要があります。
 
-- この`event_id`をバッチのプライマリ識別子として保存します。
+- この`event_id`をバッチの主識別子として保存します。
 - Webhookコールバックで同じ値を受け取ることを想定します。
 
 詳細については、[ユーザーグループメンバーシップを追加および削除するためのWebhook](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-adding-and-removing-user-group-membership)を表示してください。
@@ -693,7 +694,7 @@ _ログインしていないユーザー（パブリックエクスペリエン�
 
 これにより、匿名ユーザー用にフィルターされたメニューおよびページの構造が返されます。これは、Experience Builderなどのヘッドレスサイトに適しています。
 
-_effectiveModifiedDateを使用した作業計画書のフィルタリングで何が変更されましたか？_
+_effectiveModifiedDateを使用した作業計画書のフィルタリングの変更点を教えてください。_
 
 filter.effectiveModifiedDateとfilter.loTypes=jobAidを組み合わせたリクエストで、指定された日付ウィンドウ内の作業計画書のみが正しく返されるようになりました。
 
@@ -707,4 +708,4 @@ ID形式が次のような値から変更されました。
 
 `jobAid:<jobAidId>_<version>_<localeCode>`
 
-例： jobAid:131032_2_fr_FR。 作業計画書のリソースIDを保存または解析するシステムはすべて更新する必要があります。2026年4月のリリースにアップグレードした後、これらのIDによってキー設定されたローカルインデックスの再構築を計画する必要があります。
+例えば、jobAid:131032_2_fr_FRのように指定します。 作業計画書のリソースIDを保存または解析するシステムはすべて更新する必要があります。2026年4月のリリースにアップグレードした後、これらのIDによってキー設定されたローカルインデックスの再構築を計画する必要があります。

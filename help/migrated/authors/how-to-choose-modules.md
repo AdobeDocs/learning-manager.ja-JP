@@ -4,13 +4,14 @@ title: コースモジュールの選択方法
 description: Adobe Learning Managerでは4種類のコースモジュールをサポートしています。 トレーニングプログラムの作成の担当者にとって、組織の要件に合わせて、どのタイプのモジュールを選択する必要があるのか決定するのは、簡単ではありません。 組織の予算と対象ユーザーのニーズを考慮すると、コースモジュールを選択しやすくなります。 各モジュールの一般的な使用事例の一部が、参考のために以下に説明されています。
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 75%
-
 ---
-
 # コースモジュールの選択方法
 
 Learning Manager では、4 種類のコースモジュールをサポートしています。 トレーニングプログラムの作成の担当者にとって、組織の要件に合わせて、どのタイプのモジュールを選択する必要があるのか決定するのは、簡単ではありません。 組織の予算と対象ユーザーのニーズを考慮すると、コースモジュールを選択しやすくなります。 各モジュールの一般的な使用事例の一部が、参考のために以下に説明されています。

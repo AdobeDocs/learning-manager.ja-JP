@@ -4,13 +4,14 @@ title: L1 フィードバックの自動ポップアップが表示されない
 description: 「L1フィードバックの自動ポップアップが表示されない」エラーの解決方法
 contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 76%
-
+source-wordcount: '205'
+ht-degree: 77%
 ---
-
 # L1 フィードバックの自動ポップアップが表示されない
 
 ## 問題

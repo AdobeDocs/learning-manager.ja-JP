@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Learning Manager の注文および請求管理
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 52%
-
 ---
-
 
 # Learning Manager の注文および請求管理
 
@@ -39,12 +40,12 @@ Learning Manager のサブスクリプションおよび請求についての詳
 
 **アカウントの詳細**
 
-「**サブスクリプション**」タブの上部にある&#x200B;**アカウントの詳細**&#x200B;カードには、アカウントの4つの読み取り専用IDが表示されます。
+「**サブスクリプション**」タブ上部の&#x200B;**アカウントの詳細**&#x200B;カードには、アカウントの4つの読み取り専用識別子が表示されます。
 
 | フィールド | 説明 |
 |---|---|
 | **ECCID** | お客様のアカウントのAdobe参照番号。 Adobeサポートに問い合わせる場合は、ここに記載する内容を引用してください。 |
-| **アカウントID** | 固有のAdobe Learning ManagerアカウントID。 |
+| **アカウントID** | お客様固有のAdobe Learning Managerアカウント識別子。 |
 | **アカウント名** | Adobe Learning Managerアカウントの表示名です。 |
 | **IMS組織ID** | Adobe Admin Console組織が、このアカウントにリンクされています。 まだリンクされていない場合は空白。 |
 
@@ -97,7 +98,7 @@ Gen AI機能を有効にするには、Adobe Learning ManagerアカウントがA
 1. **[!UICONTROL 請求]**&#x200B;を選択し、[**[!UICONTROL サブスクリプション]**]タブを選択します。
 2. **アカウントの詳細**&#x200B;カードで、**[!UICONTROL IMS組織のリンク]**&#x200B;を選択します。
 3. ログインウィンドウが開きます。 Adobeアカウントの資格情報を入力し、リストから組織を選択します。 Adobe Learning Managerは、ログインしているアカウントがAdobe Admin ConsoleのSystem Administratorロールを持ち、同じアカウントがAdobe Learning ManagerのAdministratorロールを持っていることを確認します。
-4. 両方のチェックに合格すると、リンクが確立されます。 **IMS組織ID**&#x200B;フィールドが組織のIDで更新され、クレジット残高が&#x200B;**ライセンス**&#x200B;セクションに表示されます。
+4. 両方のチェックに合格すると、リンクが確立されます。 **IMS組織ID**&#x200B;のフィールドが組織の識別子に更新され、クレジット残高が&#x200B;**ライセンス**&#x200B;セクションに表示されます。
 5. いずれかのチェックが失敗すると、エラーメッセージが表示されます。 上記の前提条件を確認して、もう一度やり直してください。
 
 ### アカウントのリンク解除

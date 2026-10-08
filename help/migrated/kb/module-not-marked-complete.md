@@ -4,13 +4,14 @@ title: Adobe Learning Manager のコース完了時に、モジュールが未�
 description: 学習者が Adobe Learning Manager でコースを完了した後でも、モジュールが未完了としてマークされます。
 contentowner: nluke
 exl-id: c0f14f2e-733a-4b4f-a2c2-4c0b33a15fa1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 53%
-
+ht-degree: 65%
 ---
-
 # Adobe Learning Manager のコース完了時に、モジュールが未完了とマークされる
 
 ## 問題
@@ -23,7 +24,7 @@ SCORM 2004では、合格および完了条件を定義し、両方のステー�
 
 例えば、**完了条件**&#x200B;が100%のスライド表示で、**合格条件**&#x200B;が「クイズに合格する」に設定されているコンテンツがあるとします。
 
-学習者は、コースを完了しましたが、クイズに失敗しました。 この場合、進行状況は100%ですが、学習者が&#x200B;**合格条件**&#x200B;を満たしていないため、モジュールは未完了とマークされます。
+学習者は、コースを完了しましたが、クイズに失敗しました。 この場合、進行状況は 100％ですが、学習者が&#x200B;**合格条件**&#x200B;を達成できなかったため、モジュールは未完了とマークされます。
 
 ## 解決策
 

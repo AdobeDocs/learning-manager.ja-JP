@@ -4,13 +4,14 @@ title: 埋め込みプレーヤーインタラクション API に関するド�
 description: Adobe Learning Managerの組み込みプレーヤーでイベントをリッスンし、アクションをトリガーする様々なAPIについて説明します
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 70%
-
 ---
-
 # 埋め込みプレーヤーインタラクション API に関するドキュメント
 
 Adobe Learning Manager には、アプリケーションに統合できるライブラリが用意されています。 このライブラリには、埋め込みプレーヤーでイベントをリッスンし、アクションをトリガーするための各種 API が用意されています。
@@ -320,7 +321,7 @@ cpPlayerLib ライブラリは、次の関数で構成されています。
 <td>togglePlayPause</td>
 </tr>
 <tr>
-<td>説明</td>
+<td>概要</td>
 <td>プレーヤー上のコンテンツの再生と一時停止を切り替えます。</td>
 </tr>
 <tr>
@@ -584,7 +585,7 @@ cpPlayerLib ライブラリは、次の関数で構成されています。
 <td>downloadJobAid</td>
 </tr>
 <tr>
-<td>説明</td>
+<td>概要</td>
 <td>コースから作業計画書をダウンロードします。</td>
 </tr>
 <tr>
@@ -632,7 +633,7 @@ cpPlayerLib ライブラリは、次の関数で構成されています。
 <td>fullScreen</td>
 </tr>
 <tr>
-<td>説明</td>
+<td>概要</td>
 <td>プレーヤーをフルスクリーンモードに設定します。</td>
 </tr>
 <tr>

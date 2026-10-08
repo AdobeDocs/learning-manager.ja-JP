@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Managerの管理者AIアシスタント（ベータ版）
 description: Adobe Learning Manager管理AIアシスタント（ベータ版）の詳細情報
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
-
 ---
-
 # Adobe Learning Managerの管理者AIアシスタント（ベータ版）
 
 ## 概要
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 Adobe Learning Managerの管理者AIアシスタント（ベータ版）では、単純な言葉で質問するだけで、一般的な質問に対する回答の迅速な検索、システム機能の調査、重要なタスクを完了する方法の理解に役立ちます。 Adobe Learning Managerを初めてご利用になる場合でも、トラブルシューティングの迅速化を望んでいる場合でも、Admin AI Assistant（ベータ版）は、プラットフォームにコンテキストに応じたヘルプを直接提供することで、ワークフローを簡素化します。
 
-AdobeのAI機能を使用して、学習コンテンツやシステムのワークフロー全体で自然言語のクエリを有効にします。  管理者は、**Adobe Learning Managerにユーザーを追加する方法**&#x200B;や&#x200B;**学習パスを追加する方法**&#x200B;などを確認できます。 Adobe Learning Manager管理AIアシスタント（ベータ版）は、**[!UICONTROL Experience League]**&#x200B;でホストされているリソースなど、一般に公開されているAdobe所有のドキュメントに限定してトレーニングされています。 お客様のコンテンツ、社内トレーニング資料、ユーザー作成データからの学習やアクセスは行いません。
+AdobeのAI機能を使用して、学習コンテンツやシステムのワークフロー全体で自然言語のクエリを有効にします。  管理者は、**Adobe Learning Managerにユーザーを追加する方法**&#x200B;や&#x200B;**学習パスを追加する方法**&#x200B;などを確認できます。 Adobe Learning Manager管理AIアシスタント（ベータ版）は、**[!UICONTROL Experience League]**&#x200B;でホストされているリソースなど、一般に公開されているAdobe所有のドキュメントに限定してトレーニングされています。 お客様のコンテンツ、社内トレーニングマテリアル、ユーザー作成データからは学習したり、アクセスしたりしません。
 
 このアシスタントは、手動ナビゲーションへの依存を軽減し、発見時間を短縮し、実用的なインサイトを迅速に表示するのに役立ちます。
 

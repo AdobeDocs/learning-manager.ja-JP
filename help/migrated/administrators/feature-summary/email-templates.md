@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 電子メールテンプレート
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 59%
-
+source-wordcount: '1753'
+ht-degree: 60%
 ---
-
 # 電子メールテンプレート
 
 トレーニング活動内のイベントにより、学習者に電子メールが送信されます。 管理者は、電子メールテンプレートの有効と無効の切り替えや変更を簡単に行うことができます。

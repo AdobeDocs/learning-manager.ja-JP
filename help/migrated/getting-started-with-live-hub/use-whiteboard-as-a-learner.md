@@ -1,13 +1,14 @@
 ---
 title: ライブハブでホワイトボードを学習者として使用する
 description: ライブハブセッション中に、共有ホワイトボードで学習者が描画したコンテンツのシェイプやテキストの追加、消去を行う方法について説明します。
-source-git-commit: 8752d9ef9c0d6bfdae134e5e8d3386ae555850bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 
 # ホワイトボードを学習者として使用する
 

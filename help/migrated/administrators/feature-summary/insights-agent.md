@@ -2,7 +2,10 @@
 description: Insights Agentは、Adobe Learning ManagerのAIを活用した機能で、管理者は自然言語を使用して学習者のデータを照会できます。
 jcr-language: en_us
 title: Adobe Learning ManagerのInsights Agent（ベータ版）
-source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2929'
 ht-degree: 1%

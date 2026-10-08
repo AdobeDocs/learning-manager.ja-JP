@@ -4,13 +4,14 @@ title: 必要システム構成
 description: Adobe Learning Managerの必要システム構成
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 75%
-
 ---
-
 # Adobe Learning Managerの必要システム構成
 
 ## デスクトップ
@@ -327,7 +328,7 @@ Intel® CoreTM i5 以上
    <td>Workday</td>
   </tr>
   <tr>
-   <td>ブルージーンズコネクタ<br></td>
+   <td>ブルージーンズコネクター<br></td>
    <td>Blue Jeans</td>
   </tr>
   <tr>

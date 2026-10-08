@@ -4,7 +4,10 @@ title: 外部ソースからのスキルの読み込み
 description: それぞれのコネクターを使用して、LinkedInやGo1などのコンテンツプロバイダーからスキルを読み込みます。  読み込まれたスキルは、Learning Managerで管理者が定義したスキルに追加され、コースの作成ワークフローで作成者が利用できるようになります。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%

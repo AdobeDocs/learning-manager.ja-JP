@@ -2,13 +2,14 @@
 description: Content Composerの修了基準と合格基準の違い、各基準の設定方法、Adobe Learning Managerでの学習者の正確なトラッキングとレポート作成で差が重要な理由について説明します。
 jcr-language: en_us
 title: 完了条件と成功条件の設定
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 
 # 完了条件と成功条件の設定
 

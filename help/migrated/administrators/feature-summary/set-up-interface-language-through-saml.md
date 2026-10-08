@@ -4,13 +4,14 @@ jcr-language: en_us
 title: SAMLを使用したインターフェイス言語の設定
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 # SAMLを使用したインターフェイス言語の設定
 
 Adobe Learning Manager(ALM)で、言語にSAML属性を使用できるようになりました。 この属性は、ユーザーのインターフェイスとコンテンツ言語の設定にマッピングされ、ユーザーが使用する言語でLMSとスムーズに対話できるようになります。 これらの言語設定の設定は、シングルサインオン(SSO)にSAMLを利用し、Identity and Access Management(IAM)プラットフォームで管理します。 これにより、サービスプロバイダー(SP)から開始されるログインとアイデンティティプロバイダー(IdP)から開始されるログインの両方がサポートされ、ユーザーは選択した言語でインターフェイスとコンテンツを表示できます。 ワークフローは次のとおりです。

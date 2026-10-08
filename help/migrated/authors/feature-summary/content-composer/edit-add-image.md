@@ -2,13 +2,14 @@
 description: サイズ、明るさ、彩度を調整したり、アップロード、Adobe Stock、AIで置き換えたりするなど、コンテンツコンポーザーで画像を編集する方法について説明します。
 jcr-language: en_us
 title: 画像の編集または追加
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 
 # 画像の編集または追加
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 任意の画像を選択して、画像ツールバーを開きます。 コントロールには、次のものが含まれます。
 
-- **塗りつぶし**、**フィット：**&#x200B;画像がフレーム内でどのようにサイズ調整されているか
+- **塗りつぶし**、**フィット：**&#x200B;フレーム内での画像のサイズの変更方法
 
 - **代替テキスト**&#x200B;フィールド：画像の説明を表示します。<br>
   **注意**：このテキストは変更できません。 画像に基づいて自動的に更新されます。

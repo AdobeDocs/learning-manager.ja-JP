@@ -4,7 +4,10 @@ title: Adobe学習マネージャーリファレンスサイト（ALM リファ�
 description: Adobeラーニングマネージャー (ALM) はAdobe Experience Manager(AEM) サイトと統合します。 これにより、コーディングの労力を最小限に抑えながら、独自の Web サイトとレスポンシブなモバイルAdobeインターフェイスを作成して Learning Manager にアクセスできます。 この統合により、ユーザー向けにカスタマイズされた学習体験を作成できます。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2277'
 ht-degree: 67%

@@ -3,13 +3,14 @@ title: Adobe Learning Managerの新機能
 description: Adobe Learning Managerで予定されている変更をご確認ください。 最新のアップデートや今後の発表に関する情報の受け取りを希望します。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 hide: true
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Managerのアップデート
 

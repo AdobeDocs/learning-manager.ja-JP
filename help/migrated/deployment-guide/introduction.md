@@ -1,22 +1,23 @@
 ---
 jcr-language: en_us
 title: Learning Manager 展開ガイド
-description: Learning Managerは学習管理システム(LMS)の1つです。これを使用すると、トレーニングの専門家は、組織のニーズや目標に貢献する魅力的で追跡可能な学習教材を提供できます。 Learning Manager は主に、トレーナーやマネージャーが、学習者に特定の順序でコースや他の学習オブジェクトを割り当てるために使用します。
+description: Learning Managerはラーニングマネージメントシステム(LMS)の1つです。これを使用すると、トレーニングの専門家は、組織のニーズや目標に貢献できる魅力的で追跡可能な学習マテリアルを提供できます。 Learning Manager は主に、トレーナーやマネージャーが、学習者に特定の順序でコースや他の学習オブジェクトを割り当てるために使用します。
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Learning Manager 展開ガイド
 
 ## 概要 {#introduction}
 
-Learning Managerは学習管理システム(LMS)の1つです。これを使用すると、トレーニングの専門家は、組織のニーズや目標に貢献する魅力的で追跡可能な学習教材を提供できます。 Learning Manager は主に、トレーナーやマネージャーが、学習者に特定の順序でコースや他の学習オブジェクトを割り当てるために使用します。 このツールには、マルチフォーマットの Fluidic プレーヤー、ゲーミフィケーション、バッジ、使いやすい学習者ダッシュボードなど、複数の強力な機能も備わっています。 ただし、これらの機能を利用するには、最初に Learning Manager の設定を行う必要があります。
+Learning Managerはラーニングマネージメントシステム(LMS)の1つです。これを使用すると、トレーニングの専門家は、組織のニーズや目標に貢献できる魅力的で追跡可能な学習マテリアルを提供できます。 Learning Manager は主に、トレーナーやマネージャーが、学習者に特定の順序でコースや他の学習オブジェクトを割り当てるために使用します。 このツールには、マルチフォーマットの Fluidic プレーヤー、ゲーミフィケーション、バッジ、使いやすい学習者ダッシュボードなど、複数の強力な機能も備わっています。 ただし、これらの機能を利用するには、最初に Learning Manager の設定を行う必要があります。
 
 このガイドには、Learning Manager を起動し、実行するための手順が記載されています。 また、設定に関する詳細な情報も記載されています。 このガイドを読んで、Learning Manager を始めましょう。
 

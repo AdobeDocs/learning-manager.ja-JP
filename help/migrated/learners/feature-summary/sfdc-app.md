@@ -4,13 +4,14 @@ title: Salesforce 向け Learning Manager アプリ
 description: Salesforce&trade；は、営業およびマーケティングチームに最も人気のあるCRMソリューションです。 Salesforce で Adobe Learning Manager アプリを用いると、学習者は Salesforce のインターフェイス内からすべての学習コンテンツにアクセスすることができます。 学習者は、コース、学習プログラム、ジョブエイドなどの割り当てられた学習コンテンツに Salesforce 内からアクセスできます。 ユーザーは管理者から登録とアナウンスに関する通知を受信することもできます。
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 65%
-
 ---
-
 # Salesforce 向け Learning Manager アプリ
 
 ## 概要 {#overview}

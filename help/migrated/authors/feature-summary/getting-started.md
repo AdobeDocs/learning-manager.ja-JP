@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 作成者の基本
 description: 「はじめに」ページを使用して、Adobe Learning Managerの主要なオーサリング機能に移動します。
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 54%
-
+source-wordcount: '166'
+ht-degree: 53%
 ---
-
 
 
 # 作成者の基本
@@ -22,7 +23,7 @@ ht-degree: 54%
 
 ## サンプルビデオの表示 {#viewsamplevideos}
 
-サンプルビデオチュートリアルを参照し、作成者としての役割の主な特徴を理解します。このポップアップウィンドウをログイン時に表示したくない場合は、ポップアップの右下隅で「ログイン時に表示しない」オプションをクリックして無効にすることができます。
+サンプルビデオチュートリアルを参照し、作成者としての役割の主な特徴を理解します。 このポップアップウィンドウをログイン時に表示したくない場合は、ポップアップの右下隅で「ログイン時に表示しない」オプションをクリックして無効にすることができます。
 
 「ウィンドウを閉じる」をクリックしてポップアップを閉じます。
 

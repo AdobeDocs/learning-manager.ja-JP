@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Fluidic プレーヤー
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 53%
-
 ---
-
 # Fluidic プレーヤー
 
 この記事では、コースで Fluidic プレーヤーを使用する方法について紹介します。

@@ -3,13 +3,14 @@ description: この記事では、作成したコンテンツをセルフペー�
 jcr-language: en_us
 title: コンテンツライブラリ
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 33%
-
 ---
-
 # コンテンツライブラリ
 
 この記事では、作成したコンテンツをセルフペースコンテンツとしてコースに組み込む方法について説明します。
@@ -54,7 +55,7 @@ ht-degree: 33%
    <p>高額な評価や先延ばしの評価（コンプライアンスや認定試験など）の場合、Adobeは次のことを推奨します。</p>
    <ul>
       <li>学習者アシスタントのソースとして設定されていないカタログに、評価レベルの高いSCORMコンテンツを保持する。または、</li>
-      <li>評価のデザインでは、単に学習項目の言い換えだけでは正しい回答が明らかにならないようにします。</li>
+      <li>単に学習マテリアルの言い換えだけでは正解が表示されないよう、アセスメントを設計します。</li>
    </ul>
    <p>Adobe Learning Managerを使用しても、AIソースとして明示的に選択したカタログに含まれるコンテンツは表示されます。</p>
     </td>

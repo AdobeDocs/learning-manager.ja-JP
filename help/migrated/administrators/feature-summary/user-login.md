@@ -4,13 +4,14 @@ title: ユーザーログイン
 description: Adobe Learning Managerへのユーザーログイン
 contentowner: manochan
 exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 66%
-
+source-wordcount: '205'
+ht-degree: 74%
 ---
-
 # ユーザーログイン
 
 Adobe Learning Manager を初めて使用する場合は、以下の手順でアカウントを作成する必要があります。
@@ -24,9 +25,9 @@ Adobe Learning Manager を初めて使用する場合は、以下の手順でア
 *Adobe Learning Managerにログイン*
 
 1. Adobe ID とパスワードを入力し、「サインイン」をクリックします。\
-   パスワードを忘れた場合は、[**[!UICONTROL パスワードをお忘れですか？]をクリックします。]**&#x200B;リンクをクリックし、Adobe IDの作成に使用した電子メールidを入力してください。
+   パスワードを忘れた場合は、[**[!UICONTROL パスワードをお忘れですか？]**]をクリックします。 Adobe IDの作成に使用した電子メールidをリンクして入力します。
 
-1. または、[**[!UICONTROL Enterprise IDを使用してサインイン]**]をクリックして、Enterprise IDを使用することもできます。
+1. または、**[!UICONTROL 「Enterprise ID を使用してログイン」]**&#x200B;リンクをクリックし、Enterprise ID を使用することもできます。
 
 >[!NOTE]
 >

@@ -4,7 +4,10 @@ jcr-language: en_us
 title: 製品用語
 contentowner: chandrum
 exl-id: 4fd0dd43-9e6c-4586-8f0b-eadac3374bec
-source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 72%

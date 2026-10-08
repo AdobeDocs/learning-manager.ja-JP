@@ -4,13 +4,14 @@ jcr-language: en_us
 title: カタログ
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 26%
-
 ---
-
 # カタログ
 
 利用可能な学習オブジェクトについて、Learning Manager のカタログを用いて確認
@@ -21,7 +22,7 @@ ht-degree: 26%
 
 製品、ジョブの役割、タイプ、必要時間、スキル、キーワードなど、様々なカテゴリに基づいて学習目標を並べ替えることができます。 また、左ペインのオプション（学習目標、スキル、完了ステータス）を使用してフィルタリングすることもできます。
 
-学習目標の名前を入力して検索するには、ページの上部にある検索バーを使用します。 学習者は、この![](assets/icon-list.png)アイコンを選択することで、グリッド表示とリスト表示を切り替えることができます。
+学習目標の名前を入力して検索するには、ページの上部にある検索バーを使用します。 学習者は、この![](assets/icon-list.png)アイコンを選択することで、グリッドとリストビューを切り替えることができます。
 
 ![](assets/catalogs.png)
 *カタログの表示*

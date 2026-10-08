@@ -2,13 +2,14 @@
 description: コンテンツコンポーザーのAIガイド付きワークフローを使用して、単純な言語のプロンプトから完全に構造化された編集可能なコースに移行します。
 jcr-language: en_us
 title: コースの生成を促すプロンプトの記述
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
-
 ---
-
 
 # プロンプトを書く
 

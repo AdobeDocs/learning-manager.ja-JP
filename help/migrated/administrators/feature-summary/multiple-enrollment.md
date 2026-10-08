@@ -2,13 +2,14 @@
 title: Adobe Learning Manager の複数登録
 description: アカウント管理者の主な役割は、異なるタイムゾーンにまたがって VILT セッションのインスタンスを個別に作成し、場合によっては特定のユーザーグループに対してセッションを作成することです。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 63%
-
+source-wordcount: '624'
+ht-degree: 70%
 ---
-
 # Adobe Learning Manager の複数登録
 
 Adobe Learning Manager では、コースに異なるインスタンスを個別に設定できます。 アカウント管理者の主な役割は、異なるタイムゾーンにまたがって VILT セッションのインスタンスを個別に作成し、場合によっては特定のユーザーグループに対してセッションを作成することです。
@@ -21,13 +22,13 @@ Adobe Learning Manager では、コースに異なるインスタンスを個別
 
 >[!INFO]
 >
->このトレーニングでは、インスタンスの詳細とインスタンスプロパティを編集する方法を学習します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>このトレーニングでは、インスタンスの詳細とインスタンスのプロパティを編集する方法について説明します。<br><br>[![ボタン](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 トレーニングを起動できない場合は、<almacademy@adobe.com>に書き込んでください。
 
 ## 複数登録の仕組み
 
-利用可能なインスタンスから学習者をコースに複数回登録することを複数登録と言います。  学習者は、登録済み、完了済み、または未開始の状態に関係なく、複数のコースインスタンスに登録できます。 作成者が[!UICONTROL 「複数登録」]トグルを有効にすると、学習者はコースの複数のインスタンスに登録できるようになります。
+利用可能なインスタンスから学習者をコースに複数回登録することを複数登録と言います。  学習者は、登録済み、完了済み、または未開始の状態に関わらず、コースインスタンスに複数登録できます。 作成者が[!UICONTROL 「複数登録」]トグルを有効にすると、学習者はコースの複数のインスタンスに登録できるようになります。
 
 ![複数登録イメージ](assets/multi-enrollment-author.png)
 *設定から複数の登録を開始する*
@@ -43,8 +44,8 @@ Adobe Learning Manager では、コースに異なるインスタンスを個別
 
 ## 複数登録を有効化する方法
 
-1. 作成者としてAdobe Learning Managerアカウントにログインします。
-1. 学習者が複数回登録するコースを選択します。
+1. 作成者として Adobe Learning Manager アカウントにログインします。
+1. 学習者が複数回登録できるようにするコースを選択します。
 1. 左パネルで、**[!UICONTROL 設定]** > **[!UICONTROL 編集]** > **[!UICONTROL インスタンス構成]** > **[!UICONTROL 複数登録を有効にする]**&#x200B;を選択します。
 
 ![複数登録イメージ](assets/multi-enrollment-author.png)
@@ -71,7 +72,7 @@ Adobe Learning Manager では、コースに異なるインスタンスを個別
 インスタンスの進捗状況は、次の場所で個別に追跡できます。
 
 ![進捗状況の追跡](assets/check-progress.png)
-*各インスタンスの進捗状況の追跡*
+*各インスタンスの進行状況を追跡する*
 
 ## 管理者による複数登録の変更
 
@@ -88,4 +89,4 @@ Adobe Learning Manager では、コースに異なるインスタンスを個別
 
 ## 報告
 
-同じコースの 2 つのインスタンスに登録している学習者の場合、2 つの行がコースインスタンスに個別に作成されます。 レポートには、インスタンスの進行状況も表示されます。
+同じコースの 2 つのインスタンスに登録している学習者の場合、2 つの行がコースインスタンスに個別に作成されます。 インスタンスの進捗状況もレポートに表示されます。

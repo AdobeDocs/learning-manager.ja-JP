@@ -3,7 +3,10 @@ description: 統合設定を使用してAdobe Learning Managerとサードパー
 jcr-language: en_us
 title: Adobe Learning Managerの統合設定
 exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
-source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%

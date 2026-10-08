@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe学習マネージャーデスクトップアプリケーション
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Adobe学習マネージャーデスクトップアプリケーション
 
 この記事では、Adobe Learning Manager デスクトップアプリケーションを使用して、ソーシャル学習で共有可能なコンテンツを作成および編集する方法について説明します。

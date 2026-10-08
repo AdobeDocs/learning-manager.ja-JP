@@ -4,13 +4,14 @@ jcr-language: en_us
 title: バッジ
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 84%
-
 ---
-
 # バッジ
 
 Learning Manager 学習者アプリを使用して、バッジを表示およびダウンロードする方法について説明します。

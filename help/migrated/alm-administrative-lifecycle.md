@@ -3,7 +3,10 @@ title: Adobe Learning Manager管理アカウントライフサイクル
 description: この文書では、FedRAMPのコンプライアンスとベストプラクティスを満たすために、Adobe Learning Manager(ALM)で最上位レベルの管理アカウントを安全に管理するための包括的なガイダンスを提供します。
 jcr-language: en-us
 exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
-source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
@@ -234,7 +237,7 @@ Adobe Learning Managerは、共有責任モデルに基づいて動作します�
 * Adobeは、基盤となるALMプラットフォームとインフラストラクチャのセキュリティを確保する責任を負います。
 * お客様は、ALMアカウント内の管理アクセス、役割の割り当て、ユーザーライフサイクルアクティビティを管理する責任があります。
 
-Adobe Learning Managerのセキュリティ対策の詳細については、[Adobe Learning Managerセキュリティの概要(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=ja)を参照してください
+Adobe Learning Managerのセキュリティ対策の詳細については、[Adobe Learning Managerセキュリティの概要(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)を参照してください
 
 ## 文書のメンテナンス
 

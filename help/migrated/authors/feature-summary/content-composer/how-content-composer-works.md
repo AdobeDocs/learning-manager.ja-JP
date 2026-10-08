@@ -2,13 +2,14 @@
 description: コンテンツコンポーザーは、プロンプト、簡単、アウトライン、コースの4つの段階を進みます。 会話型AIが各ステージのガイドとなり、Adobe Learning Managerに直接公開する前に、レビューして編集するコンテンツを作成します。
 jcr-language: en_us
 title: コンテンツコンポーザーの仕組み
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
-
 ---
-
 
 # コンテンツコンポーザーの仕組み
 

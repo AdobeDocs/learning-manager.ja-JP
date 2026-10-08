@@ -1,14 +1,15 @@
 ---
 title: ネイティブな拡張機能
-description: ネイティブバージョンのAdobe Learning Managerでカスタムエクスペリエンスを設定すると、それほど複雑でないケースでヘッドレスを使用しないようにできます。
+description: Adobe Learning Manager のネイティブバージョンで、エクスペリエンスをカスタム設定できます。これにより、それほど複雑ではないユースケースでヘッドレスを使用する必要がなくなります。
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
-
+source-wordcount: '760'
+ht-degree: 51%
 ---
-
 # ネイティブな拡張機能
 
 Adobe Learning Manager のネイティブバージョンで、エクスペリエンスをカスタム設定できるようになりました。これにより、それほど複雑ではないユースケースでヘッドレスを使用する必要がなくなります。 アプリをカスタム作成し、学習者、マネージャー、管理者、作成者またはインストラクターのワークフローで、ネイティブバージョンのさまざまな場所に配置できるようにもなりました。
@@ -25,7 +26,7 @@ Adobe Learning Manager では、管理者、作成者、学習者、マネージ
 
    この例では、**[!UICONTROL 管理者]**、**[!UICONTROL 作成者：コース]**、**[!UICONTROL 学習パス]** - **[!UICONTROL インスタンス]** - **[!UICONTROL インスタンス行]**&#x200B;を選択します。
 
-   ![拡張画像](assets/list-native-extensions.png)
+   ![拡張機能画像](assets/list-native-extensions.png)
    *呼び出しポイントの選択*
 
 1. UIの&#x200B;**[!UICONTROL Extension Label]**&#x200B;フィールドに表示する拡張ラベルを入力します。
@@ -58,7 +59,7 @@ Adobe Learning Manager では、管理者、作成者、学習者、マネージ
 1. 左側のパネルから&#x200B;**[!UICONTROL 「インスタンス」]**&#x200B;を選択します。
 1. インスタンスセクションで&#x200B;**[!UICONTROL 「その他」]**&#x200B;を選択します。 インスタンスセクションに拡張機能が表示されます。
 
-   ![インスタンスイメージ](assets/instances-extension.png)
+   ![インスタンスの画像](assets/instances-extension.png)
    *拡張機能の選択*
 
    拡張機能を選択すると、モーダルに拡張機能が表示されます。
@@ -70,7 +71,7 @@ Adobe Learning Manager では、管理者、作成者、学習者、マネージ
 1. 左側のパネルから&#x200B;**[!UICONTROL 「インスタンス」]**&#x200B;を選択します。
 1. インスタンスセクションで&#x200B;**[!UICONTROL 「その他」]**&#x200B;を選択します。 インスタンスセクションに拡張機能が表示されます。
 
-   ![インスタンスイメージ](assets/instances-extension.png)
+   ![インスタンスの画像](assets/instances-extension.png)
    *作成者として拡張機能にアクセス*
 
    拡張機能を選択すると、モーダルに拡張機能が表示されます。
@@ -86,7 +87,7 @@ Adobe Learning Manager では、管理者、作成者、学習者、マネージ
 
 作成者は、コースの設定ページで、コース、資格認定、学習パスの拡張機能を有効または無効に設定できます。
 
-![拡張機能の画像をアクティブ化する](assets/activate-extension.png)
+![拡張機能の画像のアクティブ化](assets/activate-extension.png)
 *拡張機能を有効にする*
 
 ## アクセスキーを共有する
@@ -100,7 +101,7 @@ Adobe Learning Manager では、管理者、作成者、学習者、マネージ
 「設定」タブで、キーを生成します。
 
 ![キー画像の共有](assets/share-extension.png)
-*アクセスキーの共有*
+*アクセスキーを共有する*
 
 ## 拡張機能レポートをダウンロードする
 
@@ -110,22 +111,22 @@ Adobe Learning Manager では、管理者、作成者、学習者、マネージ
 
 1. ネイティブ拡張機能ページで、**[!UICONTROL 「拡張機能の設定レポート」]**&#x200B;を選択します。
 
-   ![画像のレポート](assets/extension-config-report.png)
+   ![レポート画像](assets/extension-config-report.png)
    *拡張機能レポートのダウンロード*
 
    レポートが生成されます。
 
 1. 「 OK 」を選択します。
 
-   ![レポートイメージを生成しています](assets/generating-report.png)
+   ![レポート画像を生成しています](assets/generating-report.png)
    *レポートを生成しています*
 
-    レポートには、次のフィールドが含まれています。
+   レポートには、次のフィールドが含まれています。
 
-   * 延長の名前
+   * 拡張機能の名前
    * 起動ポイント
    * ラベル
-   * URLで開く
+   * 開く URL
    * スコープ
    * ライセンス認証
    * LO の一意 ID

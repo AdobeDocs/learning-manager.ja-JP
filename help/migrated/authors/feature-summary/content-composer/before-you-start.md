@@ -2,13 +2,14 @@
 description: Content Composerを始める前に必要な情報（Creative Cloudアカウント、Google Chrome、AIをガイドするオプションのソース文書）について説明します。
 jcr-language: en_us
 title: 始める前に必要なもの
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # 始める前に
 
@@ -28,4 +29,4 @@ Adobe Learning Manager Content Composerを起動する前に、以下を確認�
 
 * ソース文書はオプションです。 ファイルをアップロードせずに続行できます。入力に基づいてAIがコンテンツを生成します。
 
-* 既存のマテリアルがあり、そこからコースを作成する場合は、Briefステージでマテリアルをアップロードできます。 サポートされているファイル形式は、PDF、マークダウン(.md)、PowerPoint(.pptx)などで、それぞれ最大100 MBです。
+* 既存のマテリアルを使用してコースを作成する場合は、Briefステージでコースをアップロードできます。 サポートされているファイル形式は、PDF、マークダウン(.md)、PowerPoint(.pptx)などで、それぞれ最大100 MBです。

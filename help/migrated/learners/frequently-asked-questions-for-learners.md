@@ -5,7 +5,10 @@ description: Adobe Learning Managerの学習者のよくある質問(FAQ)
 contentowner: admin
 preview: true
 exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
-source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 78%

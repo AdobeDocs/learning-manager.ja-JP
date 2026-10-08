@@ -4,13 +4,14 @@ jcr-language: en_us
 title: ユーザーを消去
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1442'
 ht-degree: 45%
-
 ---
-
 # ユーザーを消去
 
 Learning Manager でのユーザーデータの消去について
@@ -25,7 +26,7 @@ Learning Manager でのユーザーデータの消去について
 * 作成者を消去すると、作成者の名前は、そのユーザーを消去した管理者の名前に置き換えられます。
 * インストラクタを消去すると、セッションに表示されなくなります。 管理者はそのようなセッションのインストラクターを変更または追加する必要があります。
 * Learning Manager でユーザーを消去しても、外部アプリケーション（サードパーティ製のシステムや自分で作成した他のアプリケーション）ではユーザーを削除できません。 そのようなアプリケーションからユーザーを削除してもらうには、外部アプリケーションのオーナーに連絡してください。
-* 消去されたユーザーをコネクタの構成設定で参照すると、そのコネクタは無効になります。 再開するには、管理者がコネクタを再構成する必要があります。
+* 消去されたユーザーをコネクタの構成設定で参照すると、そのコネクタは無効になります。 再開するには、管理者がコネクターを再構成する必要があります。
 
 <!--
 ### Manage users

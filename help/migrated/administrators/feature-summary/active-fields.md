@@ -1,15 +1,16 @@
 ---
-description: Adobe Learning Managerのアクティブフィールドを使用して、カスタムのユーザー情報をキャプチャ、整理、および管理する方法について説明します。 柔軟なフィールド設定により、レポート作成、フィルタリング、ユーザーセグメント化を向上させます。
+description: Adobe Learning Managerのアクティブフィールドを使用して、カスタムのユーザー情報をキャプチャ、整理、および管理する方法について説明します。 柔軟なフィールド設定により、レポート、フィルタリング、およびユーザーセグメント化を強化します。
 jcr-language: en_us
 title: Adobe Learning Managerでのアクティブフィールドの設定
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # アクティブフィールド
 
 Adobe Learning Managerのアクティブフィールドは、管理者がユーザーを効果的に整理および管理するのに役立つカスタムユーザー属性です。 ユーザーに関する追加情報（部門、場所、役職など）を収集できます。 管理者はこのデータを使用して、ユーザーグループの作成、学習のパーソナライズ、およびレポートのフィルタリングをより効果的に行うことができます。
@@ -126,6 +127,6 @@ _CSVアップロード時に値の制限を有効にするチェックボック�
 
 CSVファイルにすべてのアクティブフィールドが含まれていない場合、管理者はインポート後に欠落している値を手動で入力する必要があります。
 
-デフォルトでは、すべてのアクティブフィールドをソースCSVの対応するフィールドにマッピングする必要があります。 ただし、特定のアクティブフィールドをCSVの列にマッピングしない場合は、BoxとFTPの両方の読み込みプロセスで、ドロップダウンリストから値&#x200B;**DontImportFromSource**&#x200B;を選択できます。 このオプションは、FTPコネクタまたはBoxコネクタを介してユーザーを読み込む場合に使用できます。 コネクタの詳細については、この[記事](/help/migrated/integration-admin/feature-summary/connectors.md)を参照してください。
+デフォルトでは、すべてのアクティブフィールドをソースCSVの対応するフィールドにマッピングする必要があります。 ただし、特定のアクティブフィールドをCSVの列にマッピングしない場合は、BoxとFTPの両方の読み込みプロセスで、ドロップダウンリストから値&#x200B;**DontImportFromSource**&#x200B;を選択できます。 このオプションは、FTPフォルダーまたはBox コネクター経由でユーザーを読み込む場合に使用できます。 コネクターの詳細については、この[記事](/help/migrated/integration-admin/feature-summary/connectors.md)を参照してください。
 
 

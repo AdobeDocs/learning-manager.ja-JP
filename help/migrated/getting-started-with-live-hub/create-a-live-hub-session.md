@@ -1,13 +1,14 @@
 ---
 title: ライブハブ（ベータ版）セッションの作成
 description: Live Hubコースの作成方法、コースインスタンスの追加方法、インストラクターファインダーを使用したインストラクターの割り当て方法、学習者の登録方法、ルームのブランディングのカスタマイズ方法について説明します。
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
-
 ---
-
 
 # ライブハブ（ベータ版）セッションの作成
 

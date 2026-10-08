@@ -3,7 +3,10 @@ description: ペルソナやトピックの設定からスコアリングや詳�
 jcr-language: en_us
 title: バーチャルコーチロールプレイの作成と公開
 exl-id: f37e93ef-6d76-4b7c-b4c3-f3f8c57b143c
-source-git-commit: 8bde6827835a7f8cd8cc28f3d2c4014527e4a96c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%

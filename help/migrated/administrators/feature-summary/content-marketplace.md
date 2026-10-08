@@ -4,16 +4,17 @@ title: コンテンツマーケットプレイス
 description: Learning Manager では、コンテンツマーケットプレイスでトレーニングを検索および購入できるようになりました。 様々な形式で利用できる、幅広いトピックをカバーする 70,000 種類以上のコースを検索できます。 あらゆる役割に対応している、学習やスキルアップのニーズに合わせることが可能な、キュレートされたプレイリストから選択できます。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # コンテンツマーケットプレイス
 
-学習管理者は、多くの場合、質の高いコンテンツのソーシングとアップロードに関する課題に直面します。 Adobe Learning Managerのコンテンツマーケットプレイスでは、信頼できるプロバイダーからのプレミアムコースのライセンスを取得して、より迅速でスケーラブルな学習配信を実現できます。 管理者は、コンテンツマーケットプレイスを使用して、プロバイダーからサードパーティコースを参照、プレビュー、ライセンス購入することができます。
+学習管理者は多くの場合、質の高いコンテンツの調達やアップロードに面を使って取り組みます。 Adobe Learning Managerのコンテンツマーケットプレイスでは、信頼できるプロバイダーからのプレミアムコースのライセンスを取得して、より迅速でスケーラブルな学習配信を実現できます。 管理者は、コンテンツマーケットプレイスを使用して、プロバイダーからサードパーティコースを参照、プレビュー、ライセンス購入することができます。
 
 コンテンツマーケットプレイスは、コンテンツを取得するための以下のプランを提供しています。
 
@@ -65,7 +66,7 @@ Select the plan that best meets your organization's learning goals and budget.
 
 2. 管理者は、**[!UICONTROL Premium Essentials]**&#x200B;と&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;プランの両方のコンテンツハブをプレビューして探索できます。
 
-コンテンツプロバイダーは、古いコンテンツの削除を管理し、事前に通知することなく学習教材が廃止されないようにします。
+コンテンツプロバイダーは、古いコンテンツの削除を管理し、事前に通知することなく学習マテリアルが廃止されないようにします。
 
 <!--
 Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.

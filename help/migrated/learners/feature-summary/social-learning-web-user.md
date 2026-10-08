@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Learning Manager のソーシャル学習
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Learning Manager のソーシャル学習
 
 学習者としてソーシャル学習 Web を使用する方法
@@ -245,7 +246,8 @@ Learning Manager では、掲示板に組み込まれているソーシャルプ
 
 ### ソーシャル掲示板の投稿でのユーザーのタグ付け
 
-@usernameを使用して、投稿またはコメントで特定の掲示板メンバーにタグを付けることができます。 タグ付けはその掲示板にアクセスできるメンバーに限定されます。ソーシャル掲示板でユーザーにタグを付けるには：
+@usernameを使用して、投稿またはコメントで特定の掲示板メンバーにタグを付けることができます。 タグ付けはその掲示板にアクセスできるメンバーに限定されます。
+ソーシャル掲示板でユーザーにタグを付けるには：
 
 1. Adobe Learning Managerに学習者としてログインします。
 2. 左側のナビゲーションウィンドウで&#x200B;**[!UICONTROL ソーシャル学習]**&#x200B;を選択します。

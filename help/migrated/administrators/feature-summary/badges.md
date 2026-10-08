@@ -1,19 +1,20 @@
 ---
 jcr-language: en_us
 title: バッジ
-description: バッジは、従業員がコースを完了したときに獲得できる達成度の指標です。 Adobe Learning Managerでは、「バッジ」と呼ばれる最新のeラーニングコンセプトが導入されています。 世界中のプロフェッショナルは、特定のスキルや学習成果を達成した証としてこれらのバッジを使用しています。
+description: バッジは達成度の指標を表し、従業員がコースを修了したときに獲得します。 Adobe Learning Manager では「バッジ」と呼ばれる最新の e ラーニングコンセプトが導入されています。 世界中のプロフェッショナルは、特定のスキルや学習成果を達成した証としてこれらのバッジを使用しています。
 contentowner: manochan
 exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
-source-git-commit: c7818fea372cb0324085de8ff08ec2ee1ff91864
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 32%
-
+source-wordcount: '205'
+ht-degree: 63%
 ---
-
 # バッジ
 
-バッジは、従業員がコースを完了したときに獲得できる達成度の指標です。 Adobe Learning Managerでは、「バッジ」と呼ばれる最新のeラーニングコンセプトが導入されています。 世界中のプロフェッショナルは、特定のスキルや学習成果を達成した証としてこれらのバッジを使用しています。
+バッジは達成度の指標を表し、従業員がコースを修了したときに獲得します。 Adobe Learning Manager では「バッジ」と呼ばれる最新の e ラーニングコンセプトが導入されています。 世界中のプロフェッショナルは、特定のスキルや学習成果を達成した証としてこれらのバッジを使用しています。
 
 ユーザーのモチベーションとなるバッジを定義できます。
 
@@ -32,7 +33,7 @@ ht-degree: 32%
 
    *バッジ名とその画像を追加する*
 
-4. **[!UICONTROL バッジ名]**&#x200B;を入力します。 **[!UICONTROL [バッジのアップロード]]**&#x200B;をクリックしてバッジをアップロードし、**[!UICONTROL [保存]]**&#x200B;をクリックします。
+4. **[!UICONTROL バッジ名]**&#x200B;を入力します。 **[!UICONTROL 「バッジをアップロード」]**&#x200B;をクリックしてバッジをアップロードし&#x200B;**[!UICONTROL 「保存」]**&#x200B;をクリックします。
 
 >[!NOTE]
 >

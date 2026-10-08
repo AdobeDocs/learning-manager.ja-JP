@@ -1,21 +1,22 @@
 ---
-description: linkedIn学習コネクタをAdobe Learning Managerと統合する方法について説明します。
+description: linkedIn学習コネクターとAdobe Learning Managerを連携する方法について説明します
 jcr-language: en_us
 title: LinkedIn Learning コネクタ
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
-
 ---
 
-
-# Adobe Learning ManagerのLinkedIn学習コネクタ
+# Adobe Learning ManagerのLinkedIn学習コネクター
 
 ## 導入
 
-linkedInラーニングコネクターを使用すると、LinkedInラーニングコンテンツをAdobe Learning Managerにシームレスに統合できます。 このコネクターを使用すると、LinkedInラーニングコースをAdobe Learning Managerに自動的に取り込むことができるため、学習者はプラットフォーム内で直接LinkedInコースを検索、登録、完了できます。
+linkedInラーニングコネクターを使用すると、LinkedInラーニングコンテンツをAdobe Learning Managerにシームレスに統合できます。 このコネクターにより、LinkedInラーニングコースをAdobe Learning Managerに自動的に取り込むことができるため、学習者はプラットフォーム内で直接LinkedInコースを検索、登録、完了できます。
 
 設定すると、学習者のLinkedIn学習コンテンツの進行状況がAdobe Learning Managerで追跡されるため、管理者は進行状況と時間を確認できます。 自動コンテンツ同期のスケジュールを設定したり、オンデマンド読み込みを実行したり、言語、ライブラリ、カスタムタグによってシステムに導入されるコースをフィルタリングしたりできます。
 
@@ -40,24 +41,24 @@ linkedIn学習ポータルを設定するには：
 7. 「**AICC統合を有効にする**」を選択します。
 
    ![](assets/linkedin-connector1.png)
-   _「AICC統合を有効にする」を選択して、LinkedIn学習コネクタを設定します_
+   _「AICC統合を有効にする」を選択して、LinkedIn学習コネクターを設定します_
 
 ## Adobe Learning ManagerでLinkedInラーニングを連携
 
-linkedIn学習コネクタを設定するには：
+linkedIn学習コネクターを設定するには：
 
 1. Adobe Learning Managerに統合管理者としてログインします。
 2. **LinkedIn Learning**&#x200B;タイルにカーソルを合わせ、**Connect**&#x200B;を選択します。
 
    ![](assets/linkedin-connector2.png)
-   _「接続」を選択してLinkedIn Learningコネクターを設定_
+   _「連携」を選択して、LinkedIn学習コネクターを設定します_
 
 3. 接続設定ページで、次の手順を実行します。
    - **接続名**&#x200B;を入力してください。
    - **アプリケーションキー**&#x200B;と&#x200B;**秘密キー**&#x200B;を入力してください。
 
    ![](assets/linkedin-connector3.png)
-   _接続名、アプリケーションキー、秘密キーを入力して、LinkedIn Learningコネクタを構成します_
+   _接続名、アプリケーションキー、および秘密鍵を入力して、LinkedIn学習コネクターを設定します_
 
    >[!NOTE]
    >
@@ -69,19 +70,19 @@ linkedIn学習コネクタを設定するには：
 
 >[!IMPORTANT]
 >
->このコネクタを構成する前に、アカウントで&#x200B;**移行**&#x200B;機能を有効にする必要があります。
+>このコネクターを構成する前に、アカウントで&#x200B;**Migration**&#x200B;機能を有効にする必要があります。
 
 
 ## 接続と同期の管理
 
-linkedIn Learning Connectorを管理するには：
+linkedIn学習コネクターを管理するには：
 
 1. **接続の管理**&#x200B;を選択し、接続を選択します。
 2. 左ペインから、**構成**&#x200B;を選択します。
 3. **接続を有効にする**&#x200B;を選択します。
 
    ![](assets/linkedin-connector4.png)
-   _LinkedIn Learningコネクタの設定ページで「接続を有効にする」を選択します_
+   _LinkedIn学習コネクターの設定ページで「接続を有効にする」を選択します_
 
 4. **[編集]**&#x200B;を選択して資格情報を更新します。 **リセット**&#x200B;を使用して編集を元に戻します。
 5. 同期を自動化するには、**スケジュールを有効にする**&#x200B;を選択します。
@@ -113,7 +114,7 @@ linkedIn Learning Connectorを管理するには：
 
 ## LinkedIn Learning コンテンツのフィルタリング
 
-コネクタを設定する際に、読み込むLinkedIn学習コースをフィルタリングできます。
+コネクターを設定する際、読み込むLinkedIn学習コースをフィルタリングできます。
 
 フィルターを設定するには：
 
@@ -122,7 +123,7 @@ linkedIn Learning Connectorを管理するには：
    - **フィルターなし** – すべてのコースを読み込みます。
    - **言語** – 特定の言語でコースをフィルター処理します。
    - **ライブラリ** - LinkedInラーニングライブラリでコースをフィルタリングします。
-3. **言語**&#x200B;でフィルターする場合は、必要な言語を選択してください。 例えば、**英語**&#x200B;と&#x200B;**スペイン語**&#x200B;などです。
+3. **Language**&#x200B;によるフィルタリングの場合は、使用する言語を選択します。 例えば、**英語**&#x200B;と&#x200B;**スペイン語**&#x200B;などです。
 4. **「トレーニングの読み込み先」**&#x200B;で、コースの読み込み先を選択します。
 5. 読み込んだコースの整理方法を選択します。
 6. **「トレーニングを次の条件に基づいて分離」**&#x200B;オプションで以下のいずれかのオプションを選択します。
@@ -139,7 +140,7 @@ linkedIn Learning Connectorを管理するには：
 8. [**カスタムタグ**]フィールドに、割り当てるカスタムタグを入力します。 複数のタグはカンマで区切ります。
 
    ![](assets/linkedin-connector6.png)
-   _フィルターオプションを選択して、LinkedIn Learningコネクターからデータを読み込みます_
+   _フィルターオプションを選択して、LinkedInラーニングコネクターからデータを読み込みます_
 
 9. 学習者がこれらのコースから登録解除できるようにする場合は、[**ユーザーは登録解除できます**]を選択します。
 10. 「**保存**」を選択して、フィルターを適用し、設定を読み込みます。

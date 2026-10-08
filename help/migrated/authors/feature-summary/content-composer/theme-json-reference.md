@@ -1,18 +1,19 @@
 ---
-description: Content ComposerテーマのJSONスキーマに含まれるすべてのプロパティの完全な参照です。これには、パレットトークン、フォントスタック、半径および間隔トークン、テキストロールの値、コンポーネントプロパティ、評価スタイルが含まれます。
+description: Content ComposerテーマのJSONスキーマに含まれるすべてのプロパティの完全なリファレンス。これには、パレットトークン、フォントスタック、radiusおよび間隔トークン、テキストロールの値、コンポーネントプロパティ、およびアセスメントスタイルが含まれます。
 jcr-language: en_us
 title: Adobe Learning Manager Content ComposerテーマJSONプロパティリファレンス
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 5%
-
 ---
-
 
 # Adobe Learning Manager Content ComposerテーマJSONプロパティリファレンス
 
-Content ComposerテーマJSONファイルの各プロパティの完全なリファレンス。説明とサンプル値を含みます。
+Content ComposerテーマJSON ファイルのすべてのプロパティの完全なリファレンスです。説明とサンプル値が含まれています。
 
 テーマを識別および説明する最上位レベルのフィールド。
 
@@ -20,7 +21,7 @@ Content ComposerテーマJSONファイルの各プロパティの完全なリフ
 
 | **プロパティ** | **タイプ** | **説明** | **スレート値** |
 |--------------|----------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| id | string | 一意のテーマ識別子です。 小文字、ハイフンのみ。スペースや特殊文字は使用できません。 テーマを参照するために内部的に使用されます。 | 「スレート」 |
+| id | string | 固有のテーマ識別子。 小文字、ハイフンのみ。スペースや特殊文字は使用できません。 テーマを参照するために内部的に使用されます。 | 「スレート」 |
 | 名前 | string | コーステーマパネルに表示される表示名。 | 「スレート」 |
 | バージョン | string | セマンティックバージョン番号。 新しいテーマには「1.0.0」を使用します。 | &quot;1.0.0&quot; |
 | 説明 | string | テーマの視覚的特徴の簡単な説明。 | 「クリーム色の背景、Adobeレッドのアクセント、Roboto Slab + Roboto type systemを備えた、温かみのある権威あるテーマ」 |
@@ -44,29 +45,29 @@ Content ComposerテーマJSONファイルの各プロパティの完全なリフ
 
 ## **foundation.fonts**
 
-テーマ内のすべてのテキストの役割に適用される2つのフォントスタック。 var(—font-heading)またはvar(—font-body)を使用して、エレメント値を参照します。
+2つのフォントスタックが、テーマ内のすべてのテキストロールに適用されます。 var(—font-heading)またはvar(—font-body)を使用して、エレメント値を参照します。
 
 | **プロパティ** | **タイプ** | **説明** | **スレート値** |
 |--------------|-------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | 見出し | フォントスタック文字列 | レッスンのタイトル、トピックタイトル、見出し表示のフォントファミリー。 Webに適したフォールバックを含めます。 | 「Roboto Slab, Georgia, &#39;Times New Roman&#39;, serif」 |
 | body | フォントスタック文字列 | 段落テキスト、キャプション、クイズ質問、UIラベルのフォントファミリー。 Webに適したフォールバックを含めます。 | 「Roboto, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif」 |
 
-## **foundation.spacing**
+## **foundation.間隔**
 
-ベースラインとして使用する水平方向および垂直方向の間隔トークン。 これらのコンポーネントは、horizontalSpacingScaleおよびverticalSpacingScale乗数を使用して拡大・縮小されます。
+ベースラインとして使用される水平および垂直方向の間隔トークン。 これらのコンポーネントは、horizontalSpacingScaleおよびverticalSpacingScale乗数を使用して拡大・縮小されます。
 
 | **パス** | **タイプ** | **説明** | **スレート値** |
 |---------------|----------|-------------------------------------|-----------------|
-| horizontal.xs | px値 | 水平方向の最小間隔単位 | 4px |
-| horizontal.s | px値 | 水平方向の間隔（小）の単位 | 8px |
-| horizontal.m | px値 | 水平方向の中間隔の単位 | 12px |
-| horizontal.l | px値 | 水平方向の間隔の大きい単位 | 16px |
-| horizontal.xl | px値 | 特大の水平方向の間隔単位 | 24px |
-| vertical.xs | px値 | 縦方向の最小間隔単位 | 4px |
-| 垂直方向.s | px値 | 縦方向の間隔の小さい単位 | 8px |
-| vertical.m | px値 | 垂直方向間隔単位（中） | 16px |
-| 垂直方向.l | px値 | 行間の大きい単位 | 24px |
-| vertical.xl | px値 | 特大の縦方向の間隔単位 | 32px |
+| horizontal.xs | px値 | 最小の水平間隔単位 | 4px |
+| horizontal.s | px値 | 水平方向の間隔ユニット（小） | 8px |
+| horizontal.m | px値 | 中横間隔ユニット | 12px |
+| horizontal.l | px値 | 横型間隔ユニット（大） | 16px |
+| horizontal.xl | px値 | 特大の水平間隔ユニット | 24px |
+| vertical.xs | px値 | 垂直方向の間隔の最小単位 | 4px |
+| 垂直方向.s | px値 | 縦型間隔ユニット（小） | 8px |
+| vertical.m | px値 | 中縦型間隔ユニット | 16px |
+| 垂直方向.l | px値 | 縦型間隔ユニット（大） | 24px |
+| vertical.xl | px値 | 特大の縦型間隔ユニット | 32px |
 
 ## **foundation.radius**
 
@@ -109,12 +110,12 @@ Content ComposerテーマJSONファイルの各プロパティの完全なリフ
 
 | **プロパティ** | **タイプ** | **承認された値** | **説明** |
 |--------------------|-----------------------|--------------------------------------------------------------------|---------------------------------------------------------|
-| fontFamily | CSS変数またはフォントスタック | var(—font-heading)、var(—font-body)、またはフォントスタック文字列全体 | このテキストロールのフォントファミリ。 |
+| fontFamily | CSS変数またはフォントスタック | var(—font-heading)、var(—font-body)、または完全なフォントスタック文字列 | このテキストロールのフォントファミリ。 |
 | fontSize | px値 | 任意のピクセル値 | フォントサイズ： |
 | fontWeight | string | 「太字」または「標準」のみ：数値はサポートされていません | フォントの太さ： |
 | fontStyle | string | &quot;normal&quot;または&quot;italic&quot; | フォントスタイル： |
 | カラー | CSSのvarまたはhex | var(—tokenName)または直接の16進数値を介したパレットトークン | テキストカラー： |
-| textAlign | string | &quot;left&quot;、&quot;center&quot;、または&quot;right&quot; | テキストの水平方向の整列。 |
+| textAlign | string | &quot;left&quot;、&quot;center&quot;、または&quot;right&quot; | 横書きテキストのアラインメント |
 | letterSpacing | string | &quot;normal&quot;、px値、またはem値 | 文字と文字の間隔 |
 | lineHeight | string | パーセントまたは単位のない値 | 線のHeight。 |
 | textDecoration | string | &quot;none&quot;、&quot;underline&quot;、または&quot;line-through&quot; | テキストの装飾： |
@@ -166,8 +167,8 @@ paragraphBlock、videoBlock、imageGrid、accordion、carousel、flipCard、time
 | cardShadowOffset | string | カードドロップシャドウのXおよびYオフセット（例：「0px 2px 6px」）。 |
 | cardShadowColor | CSSの変数またはカラー | カードのドロップシャドウの色。 |
 | cardShadowOpacity | パーセント文字列 | カードドロップシャドウの不透明度。 「0%」に設定すると、シャドウが削除されます。 |
-| horizontalSpacingScale | 数値文字列 | このコンポーネントの水平方向の間隔トークンに適用される乗数。 「1」はデフォルトの間隔を使用します。 |
-| verticalSpacingScale | 数値文字列 | このコンポーネントの垂直間隔トークンに適用される乗数。 「1」はデフォルトの間隔を使用します。 |
+| horizontalSpacingScale | 数値文字列 | このコンポーネントの水平間隔トークンに適用される乗数。 「1」はデフォルトの間隔を使用します。 |
+| verticalSpacingScale | 数値文字列 | このコンポーネントの垂直方向の間隔トークンに適用される乗数。 「1」はデフォルトの間隔を使用します。 |
 | radiusScale | 数値文字列 | このコンポーネントの半径トークンに適用される乗数。 「1」はデフォルトの半径を使用します。 |
 | nestedAccentColor | CSSの変数またはカラー | コンポーネント内の入れ子になった要素のアクセント色です。 paragraphBlockにのみ適用されます。 |
 
@@ -190,8 +191,8 @@ paragraphBlock、videoBlock、imageGrid、accordion、carousel、flipCard、time
 | **コンポーネント** | **プロパティ** | **タイプ** | **説明** | **スレート値** |
 |----------------|--------------------------|----------|------------------------------------------------------------------|-------------------------|
 | paragraphBlock | nestedAccentColor | CSS変数 | 段落ブロック内のネストされたエレメントのアクセントカラー | var(—accent) |
-| flipCard | cardFrontBackgroundColor | CSS変数 | フリップカードの前面の背景色 | var(—backgroundSubtle) |
-| flipCard | cardBackBackgroundColor | CSS変数 | フリップカードの裏面の背景色 – リビールカラー | var(—accent) |
+| flipCard | cardFrontBackgroundColor | CSS変数 | フリップカードフロント面の背景色 | var(—backgroundSubtle) |
+| flipCard | cardBackBackgroundColor | CSS変数 | フリップカードバック面の背景色 – リビールカラー | var(—accent) |
 | flipCard | arrowColor | CSS変数 | 反転インジケーターの矢印アイコンの色 | var(—textInverse) |
 | タブ | activeBg | CSS変数 | 現在選択されているタブの背景色 | var(—accent) |
 | タブ | inactiveBg | CSS変数 | 選択されていないタブの背景色 | var(—backgroundSubtle) |
@@ -223,8 +224,8 @@ paragraphBlock、videoBlock、imageGrid、accordion、carousel、flipCard、time
 | feedbackTextColor | 16進数カラー | フィードバックパネル内のテキストカラー | #111111 |
 | optionBorderCorrectColor | 16進数カラー | 回答が表示された後の正解オプションの境界線の色 | #079355 |
 | optionBorderIncorrectColor | 16進数カラー | 回答が表示された後の誤って選択されたオプションの境界線のカラー | #D73220 |
-| horizontalSpacingScale | 数値文字列 | 評価コンポーネント内の水平方向の間隔の乗数 | &quot;1&quot; |
-| verticalSpacingScale | 数値文字列 | 評価コンポーネント内の垂直間隔の乗数 | &quot;1&quot; |
+| horizontalSpacingScale | 数値文字列 | アセスメントコンポーネント内の水平間隔の乗数 | &quot;1&quot; |
+| verticalSpacingScale | 数値文字列 | 評価コンポーネント内の垂直方向の間隔の乗数 | &quot;1&quot; |
 | radiusScale | 数値文字列 | 評価コンポーネント内の境界半径の乗数 | &quot;1&quot; |
 
 ## **パレットトークンvar()参照**
