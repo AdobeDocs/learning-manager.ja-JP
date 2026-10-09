@@ -150,7 +150,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" title="コースおよびコンテンツ管理" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="コースおよびコンテンツ管理" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="コースおよびコンテンツ管理"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a></b>
@@ -159,11 +159,11 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="コースおよびコンテンツ管理">コースとコンテンツの管理</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="コースおよびコンテンツ管理">コースとコンテンツの管理</a>
                     </p>
                     <p class="is-size-6">この学習ジャーニーを通じて、学習コンテンツを効果的に作成、整理、管理する方法について説明します。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">学習パスを開く</span>
                 </a>
             </div>
@@ -171,7 +171,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" title="ポータルとエクスペリエンス" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" title="ポータルとエクスペリエンス" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-portal-new.png" alt="ポータルとエクスペリエンス"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -180,11 +180,11 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="ポータルとエクスペリエンス">ポータルとエクスペリエンス</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="ポータルとエクスペリエンス">ポータルとエクスペリエンス</a>
                     </p>
                     <p class="is-size-6">Experience Builderを使用して、カスタムブランドポータルと魅力的な一般向けホームページを構築する方法について説明します。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">学習パスを開く</span>
                 </a>
             </div>
@@ -192,7 +192,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" title="管理とアクセス" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" title="管理とアクセス" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-admin-new.png" alt="管理とアクセス"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -201,11 +201,11 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="管理とアクセス">管理とアクセス</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="管理とアクセス">管理とアクセス</a>
                     </p>
                     <p class="is-size-6">ここでは、役割の構成、権限の管理、ガバナンス・フレームワークの確立を行う方法について説明します。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">学習パスを開く</span>
                 </a>
             </div>
@@ -213,7 +213,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" title="承認とコンプライアンス" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" title="承認とコンプライアンス" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition-new.png" alt="承認とコンプライアンス"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -222,11 +222,11 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="承認とコンプライアンス">承認とコンプライアンス</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="承認とコンプライアンス">承認とコンプライアンス</a>
                     </p>
                     <p class="is-size-6">コンプライアンス認証を設定する方法、カスタム証明書を設計する方法、学習者の達成を称えるバッジを作成する方法について説明します。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">学習パスを開く</span>
                 </a>
             </div>
@@ -234,7 +234,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" title="学習体験ジャーニー" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" title="学習体験ジャーニー" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-journey-new.png" alt="学習体験ジャーニー"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -243,11 +243,11 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="学習体験ジャーニー">学習体験ジャーニー</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="学習体験ジャーニー">学習体験ジャーニー</a>
                     </p>
                     <p class="is-size-6">学習プランを使用してコースを構造化されたパスに配置し、登録を自動化する方法について説明します。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">学習パスを開く</span>
                 </a>
             </div>
@@ -255,7 +255,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" title="レポートと分析" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" title="レポートと分析" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-reporting-new.png" alt="レポートと分析"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -264,11 +264,11 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="レポートと分析">レポートと分析</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="レポートと分析">レポートと分析</a>
                     </p>
                     <p class="is-size-6">ダッシュボードとレポートを変形して、リーダーシップを発揮するための有意義な意思決定を行う方法について説明します。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">学習パスを開く</span>
                 </a>
             </div>
@@ -320,15 +320,15 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 
 <p>
                     Insights Agent （ベータ版）<br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">詳細情報</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MQH8RTM8&amp;mv=partner#/course/17286964">コースの起動</a>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">コースの起動</a>
 </p>
 <p>
                     学習パスエージェント（ベータ版）<br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">詳細情報</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MLR7RYC9&amp;mv=partner#/course/17286956">コースの起動</a>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">コースの起動</a>
 </p>
 <p>
                     ライブハブ（ベータ版）<br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">詳細情報</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MV79RPW7&amp;mv=partner#/course/17286962">コースの起動</a>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">コースの起動</a>
 
 </p>
 
@@ -341,15 +341,15 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
     </p>
    <p>
                     Experience Builder<br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">詳細情報</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">コースの起動</a>
+                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">コースの起動</a>
     </p>
     <p>
                     レポートビルダー<br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">詳細情報</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MYYBRL56&amp;mv=partner#/course/17286960">コースの起動</a>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">コースの起動</a>
     </p>
 <p>
                     Email Builder<br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">詳細情報</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N3PCRGF5&amp;mv=partner#/course/17286967">コースの起動</a>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">コースの起動</a>
     </p>
     </td>
   </tr>
