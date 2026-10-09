@@ -360,7 +360,7 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 ALMを使用して、魅力的な学習体験を作成、管理、提供する方法について説明します。 今すぐパーソナライズされたデモにサインアップしてください。
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/jp/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
