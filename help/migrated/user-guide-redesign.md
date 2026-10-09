@@ -2,15 +2,15 @@
 description: コンテンツの制作からライブやオンデマンドのエクスペリエンスまで、Adobe Learning Managerはブランド化されたアカデミー、適応ジャーニー、AIエージェントを組み合わせ、パーソナライズされたラーニングを提供することで、成果を上げています。
 jcr-language: en_us
 title: Adobe Learning Managerのドキュメントへようこそ
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a211121
 contentowner: saghosh
 hide: true
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 1d3ece3eefea47e3f4da30579941f9069d2b4431
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1292'
 ht-degree: 1%
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="管理者">管理者</a>
+                        <b><a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="管理者">管理者</a></b>
                     </p>
                     <p class="is-size-6">アカウント、ユーザー、アクセスおよび学習パスを設定します。</p>
                 </div>
@@ -59,7 +59,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="作成者">作成者</a>
+                        <b><a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="作成者">作成者</a></b>
                     </p>
                     <p class="is-size-6">コース、資格認定、コンテンツ、学習パスを作成します。</p>
                 </div>
@@ -82,7 +82,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="学習者">学習者</a>
+                        <b><a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="学習者">学習者</a></b>
                     </p>
                     <p class="is-size-6">割り当てられた学習を見つけ、把握し、追跡します。</p>
                 </div>
@@ -105,7 +105,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="マネージャー">マネージャー</a>
+                        <b><a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="マネージャー">マネージャー</a></b>
                     </p>
                     <p class="is-size-6">学習を割り当て、チームの進行状況を監視します。</p>
                 </div>
@@ -128,7 +128,7 @@ ht-degree: 1%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="統合管理者">統合管理者</a>
+                        <b><a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="統合管理者">統合管理者</a></b>
                     </p>
                     <p class="is-size-6">システム、API、データ、ワークフローを接続します。</p>
                 </div>
@@ -150,10 +150,10 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="コースおよびコンテンツ管理" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="コースおよびコンテンツ管理" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="コースおよびコンテンツ管理"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
+                    </a></b>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
@@ -278,16 +278,20 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 
 主な機能に焦点を当てたコースを選択するか、ガイド付き学習パスに従います。 アカデミーのリンクが新しいタブで開き、ログインが必要になる場合があります。
 
+[**ALMアカデミーを探索**](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+
+<!--
 <div style="margin-top: 1rem;">
     <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            ALMアカデミーを検索
+            Explore ALM Academy
         </span>
     </a>
 </div>
+-->
 
 ## Adobe Learning Managerを検索
 
@@ -299,36 +303,31 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="新機能を確認" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
 
-<p><strong>新機能の確認</strong>
+<p><strong>Adobe Learning Managerの新機能</strong>
     </p>
-    <p>最新の機能<br>を確認し、更新をリリースしてください。</p>
+    <p>2026年8月リリースの最新機能およびアップデートをご確認ください。</p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">詳細情報</a>
-                    </strong>
+                    <a href="/help/migrated/whats-new.md">新機能の概要</a>
                 </p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">コンテンツコンポーザー（ベータ版）</a>
-                    </strong>
+                    <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">コンテンツコンポーザー（ベータ版）</a>
     </p>
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="新機能を確認" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>AI機能</strong></p>
 
 <p>
-                    <strong>インサイトエージェント（ベータ版）</strong><br>
+                    Insights Agent （ベータ版）<br>
                     <a href="/help/migrated/administrators/feature-summary/insights-agent.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">コースの起動</a>
 </p>
 <p>
-                    <strong>学習パスエージェント（ベータ版）</strong><br>
+                    学習パスエージェント（ベータ版）<br>
                     <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">コースの起動</a>
-
 </p>
-
 <p>
-                    <strong>ライブハブ（ベータ版）</strong><br>
+                    ライブハブ（ベータ版）<br>
                     <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">コースの起動</a>
 
 </p>
@@ -337,17 +336,19 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="Check what's new" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="新機能を確認" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>管理ツール</strong>
+    </p>
    <p>
-                    <strong>エクスペリエンスビルダー</strong><br>
+                    Experience Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">コースの起動</a>
     </p>
     <p>
-                    <strong>Report Builder</strong><br>
+                    レポートビルダー<br>
                     <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">コースの起動</a>
     </p>
 <p>
-                    <strong>電子メールビルダー</strong><br>
+                    Email Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/email-builder.md">詳細情報</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">コースの起動</a>
     </p>
     </td>
@@ -358,16 +359,20 @@ Adobe Learning Managerの設定と管理に必要なスキルを身につけま�
 
 ALMを使用して、魅力的な学習体験を作成、管理、提供する方法について説明します。 今すぐパーソナライズされたデモにサインアップしてください。
 
+[**新規登録**](https://business.adobe.com/jp/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
+<!--
 <div>
     <a href="https://business.adobe.com/jp/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            新規登録
+            <strong>Sign up</strong>
         </span>
     </a>
 </div>
+-->
 
 ## その他のリソース {#additional-resources}
 
