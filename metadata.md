@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: "Learning Manager"
 usetq: true
 product: experience cloud
 type: Documentation
@@ -13,11 +14,9 @@ git-repo: https://github.com/AdobeDocs/learning-manager.ja-JP
 index: true
 source-git-commit: 59552d9d2b446779d0cf9a97e2380aa6f844ea01
 workflow-type: tm+mt
-source-wordcount: 69
+source-wordcount: '64'
 ht-degree: 0%
-
 ---
-
 
 # 内部使用のメタデータ
 
