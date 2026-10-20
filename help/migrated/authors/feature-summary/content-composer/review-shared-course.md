@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 不快なコンテンツを報告
 
-共有コンテンツコンポーザーのコースのレビュー中に、Adobeの[利用条件](https://www.adobe.com/legal/terms.html)に違反するコンテンツが発生した場合は、報告することができます。
+共有コンテンツコンポーザーのコースのレビュー中に、Adobeの[利用条件](https://www.adobe.com/jp/legal/terms.html)に違反するコンテンツが発生した場合は、報告することができます。
 
 右上から&#x200B;**レポート**&#x200B;を選択し、フォームに入力します。 または、[abuse@adobe.com](mailto:abuse@adobe.com)宛てにメールで不正を報告することもできます。 
 
