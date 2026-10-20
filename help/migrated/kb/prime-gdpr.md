@@ -38,7 +38,7 @@ GDPRはEUの規制ですが、EU加盟国に居住するユーザーの個人情
 
 GDPRに従って、所属の事業体がEU加盟国の居住者に製品やサービスを提供し、そのデータの収集、追跡、モニターの方法と根拠を決定する場合は、[データ管理者](https://gdpr-info.eu/art-24-gdpr/)とみなされます。 Adobe Learning Manager カスタマーとしてこれらのアクティビティのいずれかを実行する場合は、データ管理者とみなされます。
 
-コントローラの代わりにデータを処理する企業は、[データプロセッサ](https://gdpr-info.eu/art-28-gdpr/)と見なされます。 クラウドホスティング版 LMS Adobe Learning Manager のベンダーとして、アドビはデータプロセッサーの役割を果たします。 [GDPRと皆様の事業](https://www.adobe.com/privacy/general-data-protection-regulation.html)に関する詳細をご覧ください。
+コントローラの代わりにデータを処理する企業は、[データプロセッサ](https://gdpr-info.eu/art-28-gdpr/)と見なされます。 クラウドホスティング版 LMS Adobe Learning Manager のベンダーとして、アドビはデータプロセッサーの役割を果たします。 [GDPRと皆様の事業](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)に関する詳細をご覧ください。
 
 +++
 
