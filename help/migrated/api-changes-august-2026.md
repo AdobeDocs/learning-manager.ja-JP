@@ -19,7 +19,7 @@ ht-degree: 3%
 
 これらのエンドポイントは、カスタムユーザーグループでのみ動作します。 All Usersグループや自動生成ユーザーグループなどのシステム管理グループは、API応答でreadOnly: trueが返され、これらのエンドポイントを介して変更または削除することはできません。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### ユーザーグループAPIエンドポイント
 
@@ -205,7 +205,7 @@ APIを介した外部学習ワークフローは、学習者アプリのワー�
 
 5つのエンドポイントはすべて、学習者をスコープに設定します。 学習者は自分の提出物にのみアクセスできます。学習者が別の学習者のデータにアクセスしようとすると、APIはエラーを返します。
 
-API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/ja/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
+API認証の要件については、[Adobe Learning Manager API認証](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)を参照してください。
 
 ### External Learning APIエンドポイント
 
@@ -232,7 +232,7 @@ Content-Type: application/vnd.api+json (POST and PUT only)
 
 ### 提出ステータスのライフサイクル
 
-| **ステータス** | **&#x200B;**&#x200B;が設定 | **意味** | **学習者は更新できますか？** |
+| **ステータス** | ****&#x200B;が設定 | **意味** | **学習者は更新できますか？** |
 |------------|------------------|-----------------------------------------|-----------------------------|
 | 保留中 | システム作成時 | マネージャーのレビュー待ち | はい – PUT経由 |
 | APPROVED | マネージャー | 承認済み：学習者のトランスクリプトに表示されます | No- PUTは409を返します。 |
@@ -321,7 +321,7 @@ GET /primeapi/v2/externalLearnings
 |---------------|-------------|-------------|-------------------------------------------------------------------------------------------------------|
 | ページ[オフセット] | 0 | 5000 | ゼロベースのレコードオフセットです。 |
 | ページ[制限] | 10 | 100 | 1ページあたりのレコード数： 100を超える値は、100に固定されます。 |
-| ls_qp_status | — | — | ステータスでフィルタリングします。 すべての結果を省略します。 有効な値： PENDING、APPROVED、REJECTED （大文字と小文字は区別されません）。 |
+| ls_qp_status | － | － | ステータスでフィルタリングします。 すべての結果を省略します。 有効な値： PENDING、APPROVED、REJECTED （大文字と小文字は区別されません）。 |
 
 #### **応答200 OK**
 
@@ -416,7 +416,7 @@ PENDING状態の新しい外部学習送信を作成します。 アカウント
 | 数値 | achieved_scoreおよびmax_scoreを持つオブジェクト | { &quot;achieved_score&quot;: 88, &quot;max_score&quot;: 100 } |
 | タイムスタンプ | start_dateとend_dateを持つオブジェクト（ISO 8601またはnull） | { &quot;start_date&quot;: &quot;2026-05-01T00:00:00.000Z&quot;, &quot;end_date&quot;: null } |
 | ドロップダウン | アカウント設定のoption_id文字列 | &quot;opt_3&quot; |
-| FILE_UPLOAD | フィールド[]内では許可されていません – submissionUrlを使用してください | — |
+| FILE_UPLOAD | フィールド[]内では許可されていません – submissionUrlを使用してください | － |
 
 #### 入力規則のPOST
 
