@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '35301'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Adobe Learning Managerリリースノート
@@ -20,12 +20,28 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 -->
+
++++アップデート113:2026年10月27日にリリースされたAdobe Learning Manager
+
+## このリリースの機能強化
+
+**Go1との連携：** Adobe Learning ManagerのGo1との連携が強化され、コースの完了トラッキングの信頼性が向上しました。 学習者がコース終了後すぐにコースプレーヤーを離れた場合でも、学習者のGo1の完了が正確に記録されるようになりました。 この修正により、学習者のトランスクリプトと管理者のレポートを完全で最新の状態に保つことができます。 設定は必要なく、既存のGo1コースは引き続き以前と同様に機能します。 [学習を増やす](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)。
+
+## 修正されたバグ
+
+**モバイルデバイス:** iOS Safariを使用しているiPhoneで、カタログまたは検索CTAから縦向きのコースを起動すると、「デバイスを回転してください」というプロンプトが表示されました。 横向きに回転した後もプロンプトが残り、コースが開始されません。 この問題は修正され、プレーヤーは回転で回復し、コースを期待通りに起動できるようになりました。
+
+**学習者：**&#x200B;学習者は、ファイル送信モジュールでExcel、PowerPoint、ビデオ、ZIPなどのファイル形式を送信できず、一般的なエラーが発生しました。 この問題は修正され、学習者は期待どおりに、これらのファイルタイプをアップロードおよび送信できるようになりました。
+
+**電子メールテンプレート：**&#x200B;セッションテンプレートがグローバルレイアウトからリンク解除されたとき、予定表の招待メールに空白の本文と空の.icsイベントの説明が表示されました。 この問題は修正され、リンクされていないテンプレートには、設定されたセッションの詳細とレイアウトの内容が、電子メールとカレンダーイベントの説明の両方で正しく表示されるようになりました。
+
++++
 
 +++アップデート112:2026年9月30日にリリースされたAdobe Learning Manager
 
@@ -77,7 +93,7 @@ Insights Agentに2つの拡張機能が追加されました。 以下の 2 つ�
 
 ## API
 
-* **学習目標のカタログアクセスのAPI:**&#x200B;学習目標のカタログアクセスAPIを使用すると、割り当てられたカタログを通じて学習者が1つ以上の学習目標に直接アクセスできるかどうかを判断できます。 応答を使用して、登録関連のUI要素を制御します。 例えば、カタログへの直接アクセスが確認された場合にのみ「登録」オプションが表示され、学習者はカタログアクセスに関係なくコースページを表示できます。
+* **学習目標のカタログアクセスのAPI:**学習目標のカタログアクセスAPIを使用すると、割り当てられたカタログを通じて学習者が1つ以上の学習目標に直接アクセスできるかどうかを判断できます。 応答を使用して、登録関連のUI要素を制御します。 例えば、カタログへの直接アクセスが確認された場合にのみ「登録」オプションが表示され、学習者はカタログアクセスに関係なくコースページを表示できます。
 詳細情報。
 
 * **管理者監査追跡レポートのジョブAPI:**&#x200B;このAPIは、監査追跡レポートジョブを操作するために使用され、指定した日付範囲と設定の種類のセットについて構成変更監査追跡レポートを生成するジョブを作成します。
@@ -334,7 +350,7 @@ UIロケールが英語以外の言語に設定されている場合、「教室
 4. 左側のナビゲーションパネルで「学習者」に移動します。
    ![](assets/instructor-send-email1.png)
 5. 学習者のリストから学習者を選択します。
-6. 右上の「**アクション**」ドロップダウンリストを開くと、グレー表示されたオプションを含め、その他のオプションが表示されます。 **全員に電子メールを送信**&#x200B;は、オプションの1つです。
+6. 右上の「**アクション**」ドロップダウンリストを開くと、グレー表示されたオプションを含め、その他のオプションが表示されます。 **全員に電子メールを送信**は、オプションの1つです。
    ![](assets/instructor-send-email2.png)
 
 **削除されたユーザーの自動消去：**&#x200B;削除されたユーザーの自動消去は、削除に必要な最小期間として1年に設定されました。 この機能は、日数にも対応するように強化されました。 管理者はカスタマーサクセスマネージャーに連絡してこの変更をリクエストし、バックエンドから変更してもらうことができます。
@@ -707,7 +723,7 @@ Fluidicプレーヤーの詳細については、この[記事](/help/migrated/l
 
 * コンテンツモジュールが新しいバージョンに更新された後、コースを完了した学習者がコースを再び参照すると白い画面が表示される問題を修正しました。
 
-さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
+さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
 
 +++
 
@@ -2187,7 +2203,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -2224,7 +2240,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -3191,7 +3207,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-この更新の一部として、Learning Managerではアプリケーションでユーザーを更新するためのエンドポイント<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->を提供しています。 この API エンドポイントには管理者の役割でアクセスできます。 こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+この更新の一部として、Learning Managerではアプリケーションでユーザーを更新するためのエンドポイント<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->を提供しています。 この API エンドポイントには管理者の役割でアクセスできます。 こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3701,7 +3717,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 社外グループという意味で使用されていた&#x200B;**パートナー**&#x200B;という用語が、**&#x200B;**&#x200B;**&#x200B;**&#x200B;電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 社外グループという意味で使用されていた&#x200B;**パートナー**&#x200B;という用語が、********&#x200B;電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * 「**プロファイルが作成されました (セルフ登録)**」および「**プロファイルが作成されました (社外 / パートナー)**」の各電子メールテンプレートが編集されるたび、管理者が受信する電子メール内の URL がクリックできなくなる。 この問題は修正されました。
