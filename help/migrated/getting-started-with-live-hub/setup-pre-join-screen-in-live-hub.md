@@ -4,7 +4,7 @@ description: Live Hubの事前参加画面の仕組み、ブラウザーのア�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Learning Managerのライブハブセッションは、インストラク�
 ![ブラウザのアクセス許可を求めるメッセージを表示する](assets/allow-browser-permissions-prompt.png)
 *ブラウザーでマイクとカメラへのアクセスを求められたら、「許可」を選択します。*
 
-### オーディオコントロールの設定
+### オーディオコントロールの設定 {#audio-controls}
 
 マイクとスピーカーは自動的に選択されます。 事前結合画面のオーディオコントロールを使用して、機能することを確認するか、別のデバイスに切り替えます。
 
