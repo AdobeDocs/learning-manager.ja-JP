@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # 学習パス
 
@@ -78,9 +78,9 @@ Learning Managerの管理者アプリで、左側のパネルの&#x200B;**[!UICO
 
 学習パスにコースを追加するには、**[!UICONTROL 「コースまたは学習パスの追加」]**&#x200B;をクリックします。
 
-表示されるダイアログで、学習パスに追加するトレーニングを選択します。
+表示されるウィンドウから、学習パスに追加するトレーニングを選択します。 各エントリには、名前、タイプ（コースまたは学習パス）、パブリッシュステータスのほか、セルフペース、バーチャル、クラスルーム、ミックス済みなどのコース形式が表示されます。
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *学習パスへのトレーニングの追加*
 

@@ -5,7 +5,7 @@ exl-id: c430545d-b48e-432d-a278-658c9281818f
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 370f9abfd6ba47ad1364452ac4314b1ee6392a65
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
@@ -90,3 +90,5 @@ Adobe Learning Manager では、コースに異なるインスタンスを個別
 ## 報告
 
 同じコースの 2 つのインスタンスに登録している学習者の場合、2 つの行がコースインスタンスに個別に作成されます。 インスタンスの進捗状況もレポートに表示されます。
+
+

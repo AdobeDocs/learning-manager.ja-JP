@@ -1,16 +1,16 @@
 ---
-title: ライブハブ（ベータ版）セッションのベストプラクティス
+title: ライブハブセッションのベストプラクティス
 description: 作成者、管理者、インストラクター、学習者がAdobe Learning Managerでライブハブセッションを準備、実行、フォローアップするには、以下のベストプラクティスに従ってください。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1883'
 ht-degree: 0%
 ---
 
-# ライブハブ（ベータ版）セッションのベストプラクティス
+# ライブハブセッションのベストプラクティス
 
 Adobe Learning Managerのライブハブコースでは、チャット、投票、クイズ、ホワイトボード、ブレイクアウトルーム、録音、分析などのインタラクティブ機能を使用して、インストラクターと学習者が一緒になってリアルタイムのトレーニングを行うことができます。 このコンパニオンガイドでは、管理者、作成者、インストラクターが採用できる実践に焦点を当て、スムーズで魅力的かつ効果的な学習体験を作成します。
 
