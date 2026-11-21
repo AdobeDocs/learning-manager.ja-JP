@@ -218,7 +218,7 @@ answer_learning_content_questionから開始した会話は、ALM学習アシス
 | 認証URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | トークン URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | URLを更新 | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| 認証サーバーベース | [https://\[alm-host](https://[alm-host)\] |
+| 認証サーバーベース | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | リソース | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | 範囲 | 学習者:write |
 
