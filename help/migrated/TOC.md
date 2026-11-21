@@ -3,10 +3,10 @@ user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
 nudge: true
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 34%
+source-wordcount: '1953'
+ht-degree: 31%
 ---
 
 # Adobe学習マネージャーユーザーガイド {#using}
@@ -41,6 +41,7 @@ ht-degree: 34%
   * [Adobe Learning ManagerでのAPIの廃止と変更](api-deprecations-list.md)
   * [Adobe Learning Manager の推奨機能](recommendations-adobe-learning-manager.md)
   * [Adobe Learning Managerでのホワイトラベル付け](white-label.md)
+  * [ディスカッション掲示板の電子メールダイジェスト（インストラクターの通知）](/help/migrated/discussion-board-instructor-notifications.md)
 * リリースでの機能の可用性 {#feature-availability}
   * [2026年8月リリースで利用可能になった機能](/help/migrated/feature-availability-aug-2026.md)
 * 利用開始 {#get-started}
@@ -50,21 +51,27 @@ ht-degree: 34%
   * [学習者の基本](learners/feature-summary/getting-started-learner.md)
   * [マネージャーの基本](managers/feature-summary/getting-started-manager.md)
   * [Learning Manager インストラクターの基本](instructors/feature-summary/getting-started.md)
-  * [Live Hub （ベータ版）の概要](./getting-started-with-live-hub/getting-started-live-hub.md)
+  * [Live Hubの概要](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 管理者 {#admin}
   * 学習（ベータ版）のAI {#ai-in-learning}
-    * [ライブハブ（ベータ版）を有効にする](./administrators/feature-summary/enable-live-hub.md)
+    * [ライブハブを有効にする](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Managerの管理者AIアシスタント（ベータ版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning ManagerのInsights Agent（ベータ版）](/help/migrated/administrators/feature-summary/insights-agent.md)
+  * [ALM MCPサーバーの概要](/help/migrated/administrators/feature-summary/intro-alm-mcp.md)
+  * [MCPサーバーの構成](/help/migrated/administrators/feature-summary/configure-mcp-admin.md)
+  * [エンタープライズAIクライアントへのALMの追加](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
   * [ユーザーログイン](administrators/feature-summary/user-login.md)
   * User Management {#user-management}
     * [Adobe Learning Managerでのユーザーの追加](administrators/feature-summary/add-users-user-groups.md)
     * [Adobe Learning Managerのユーザーグループ](/help/migrated/administrators/feature-summary/user-group.md)
     * [アクティブなフィールド](/help/migrated/administrators/feature-summary/active-fields.md)
+  * [セーフ試験ブラウザーを有効にする](./administrators/feature-summary/safe-exam-browser.md)
   * [教室の場所を追加](administrators/feature-summary/classroom.md)
   * [コースインスタンスと学習パスの作成](administrators/feature-summary/courses.md)
+  * [グループ（チーム）提出とルーブリックベースの評価](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
   * [モジュールのアクセス時間制御](/help/migrated/administrators/feature-summary/module-access-time-control.md)
   * [休暇の管理](./getting-started-with-live-hub/manage-holidays.md)
+  * [管理者ブランディング：ホームページのPLPとVCストリップの再配置](/help/migrated/administrators/feature-summary/admin-branding-repositioning.md)
   * Adobe Learning ManagerのExperience Builder {#experience-builder}
     * [概要](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Experience Builderのコアコンポーネント](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -82,6 +89,7 @@ ht-degree: 34%
       * [Experience Builderのカスタマイズ](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
     * [Experience Builderのガイドラインと制限事項](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
     * [Experience Builderでのログインなしのエクスペリエンス](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+    * [セルフ登録にログインしていないメニューURLを使用する](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
   * 設定 {#settings}
     * [概要](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
     * [基本設定](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
@@ -107,6 +115,7 @@ ht-degree: 34%
     * [Report Builderの傾向レポートを作成する](administrators/feature-summary/build-trend-report-in-report-builder.md)
     * [レポートのダウンロード、共有、および購読](administrators/feature-summary/download-share-subscribe-report.md)
     * [Report Builderでレポートを複製して再利用する](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+    * [Report Builderのビジュアライゼーション](administrators/feature-summary/report-builder-visualization.md)
     * [よくある質問](administrators/feature-summary/faq-report-builder.md)
     * [Report Builder制限](administrators/feature-summary/limitations-report-builder.md)
   * [グループの成功ダッシュボード](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
@@ -120,7 +129,7 @@ ht-degree: 34%
   * バイタルコーチ {#virtualcoachadmin}
     * [バーチャルコーチの使用と請求の管理](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
     * [バーチャルコーチレポート](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
-  * [チャンネルの作成（ベータ版）](administrators/feature-summary/create-channels.md)
+  * [チャンネルの作成](administrators/feature-summary/create-channels.md)
   * [資格認定](administrators/feature-summary/certifications.md)
   * [証明書の作成とカスタマイズ](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [カタログ](administrators/feature-summary/catalogs.md)
@@ -165,9 +174,12 @@ ht-degree: 34%
   * [学習プログラム](administrators/feature-summary/learning-programs.md)
   * [製品用語](administrators/feature-summary/product-terminology.md)
 * 統合管理者 {#integration}
+  * [ALM MCPサーバーの設定](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
   * [アプリケーションデベロッパーマニュアル](/help/migrated/integration-admin/feature-summary/developer-manual.md)
   * [iFrameを使用した学習者アシスタントの統合](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [移行マニュアル](integration-admin/feature-summary/migration-manual.md)
+  * [ALM-Workfrontのキャンセル/アップデートトリガー](integration-admin/feature-summary/alm-workfront-cancellation.md)
+  * [Adobe Connectのレコードビューを使用した出席の追跡](integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
   * Learning Manager コネクター {#connectors}
     * [コネクターの概要](integration-admin/feature-summary/connectors.md)
     * [ADFS コネクター](integration-admin/feature-summary/adfs-connector.md)
@@ -189,14 +201,17 @@ ht-degree: 34%
   * [ログインしていないAPI](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhooks {#webhooks}
     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
-    * [Webhookを使用したGo1完了追跡](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Webhook使用ガイド](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+    * [インストラクターによるLOインスタンス編集のWebhookイベント](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+    * [Webhookを使用したGo1完了の追跡](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [信心深く](integration-admin/feature-summary/credly-integration.md)
   * [学習ツールの相互運用性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [LTIディープリンク](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
+  * [NRPSのLTIサポート](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
   * AEM Sites {#aem-sites}
     * [AEM SitesのALM参照サイトパッケージ](/help/migrated/adobe-learning-manager-integration-aem.md)
     * [Learning Manager と AEM の統合](integrate-aem-learning-manager.md)
+    * [AEMアセットの統合](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
   * [Learning Manager に Salesforce パッケージをインストールする](integration-admin/feature-summary/install-salesforce-package.md)
   * 導入ガイド {#deployment-guide}
     * [概要](/help/migrated/deployment-guide/introduction.md)
@@ -211,8 +226,11 @@ ht-degree: 34%
   * [ユーザーログイン](authors/feature-summary/user-login.md)
   * [コンテンツライブラリ](authors/feature-summary/content-library.md)
   * [コースの作成、変更、パブリッシュ](authors/feature-summary/courses.md)
+  * [安全な試験ブラウザーでコースを作成する](./authors/feature-summary/create-a-course-with-safe-exam-browser.md)
+  * [学習パスの作成](/help/migrated/authors/feature-summary/create-learning-path.md)
   * [カタログ](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[アダプティブコース](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[アダプティブコースの複数登録](authors/feature-summary/multi-enrollment-for-adaptive-courses.md)
   * バーチャルコーチ {#virtual-coach}
     * [バーチャルコーチとは](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
     * [バーチャルコーチロールプレイのマテリアルを集める](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
@@ -229,6 +247,7 @@ ht-degree: 34%
   * [様々なロケールで学習目標を追加](authors/feature-summary/add-new-language-learning-objects.md)
   * [ユーザー通知](authors/feature-summary/user-notifications.md)
   * [電子メールテンプレート](authors/feature-summary/email-templates-author.md)
+  * [Email Builderでのコースとインスタンスの電子メールのカスタマイズ](authors/feature-summary/customize-course-instance-emails.md)
   * [コースモジュールの選択方法](authors/how-to-choose-modules.md)
   * [学習者としてプレビュー](authors/feature-summary/fluidic-player.md)
   * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
@@ -285,8 +304,10 @@ ht-degree: 34%
       * [Theme JSONプロパティリファレンス](authors/feature-summary/content-composer/theme-json-reference.md)
   * [設定](authors/feature-summary/settings.md)
 * 学習プログラム / 資格認定を {#instructor}
-  * [モジュール](instructors/feature-summary/modules.md)
+  * [モジュール](/help/migrated/instructors/feature-summary/modules.md)
+  * [チームの提出物を評価して送信解除する](/help/migrated/instructors/feature-summary/learners.md)
   * [セッションの学習者の管理](instructors/feature-summary/learners.md)
+  * [セッション招待を再送信](instructors/feature-summary/resend-session-invite.md)
 * 学習者 {#learner}
   * [ログイン](learners/feature-summary/user-login.md)
   * [プロファイル設定](learners/feature-summary/settings.md)
@@ -297,15 +318,18 @@ ht-degree: 34%
   * [ワンクリック登録](learners/feature-summary/learner-one-click-enrollment.md)
   * [「自分が保存済み」ウィジェット](learners/feature-summary/saved-by-me-widget.md)
   * [学習状況](learners/feature-summary/courses.md)
+  * [セーフ試験ブラウザーでのクイズの開始](./learners/feature-summary/launch-safe-exam-browser.md)
+  * [複数登録されたコースが学習者コンプライアンスウィジェットに表示されます](learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
   * {hide-from-toc}[アダプティブコース](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic プレーヤー](learners/feature-summary/fluidic-player.md)
   * [学習プログラム](learners/feature-summary/learning-programs.md)
   * [資格認定](learners/feature-summary/certifications.md)
   * [作業計画書](learners/feature-summary/job-aids.md)
-  * [チャネル（ベータ版）の検索と活用](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [チャネルの発見と活用](learners/feature-summary/discover-and-engage-with-channels.md)
   * [ALMの複数品目カート](learners/feature-summary/multi-item-cart.md)
   * [学習者向け成績表](learners/feature-summary/alm-learner-gradebook.md)
   * [外部学習を提出](learners/feature-summary/submit-external-learning.md)
+  * [チームとして課題を送信する](learners/feature-summary/submit-assignment-as-team.md)
   * [バッジ](learners/feature-summary/badges.md)
   * [スキルとレベル](learners/feature-summary/skills-levels.md)
   * [ゲーミフィケーション](learners/feature-summary/gamification.md)
@@ -313,6 +337,10 @@ ht-degree: 34%
   * [アナウンス](learners/feature-summary/announcements.md)
   * [キャンセル待ちと出席の管理](learners/feature-summary/waitlist-attendance-management.md)
   * [学習者向けの AI アシスタント](learners/feature-summary/learner-ai-assistant.md)
+  * [AIクライアントをALMに接続](learners/feature-summary/connect-ai-client-to-alm-learner.md)
+  * [ALMをクラウドに追加](learners/feature-summary/add-alm-to-claude-learner.md)
+  * [学習者ツールリファレンス](learners/feature-summary/learner-tools-reference.md)
+  * [学習者向けのサンプルプロンプト](learners/feature-summary/sample-prompts-for-learners.md)
   * [Adobe Learning Managerの学習パスエージェント（ベータ版）](learners/feature-summary/learning-path-agent.md)
   * [Adobe Learning ManagerでのAIを活用した検索](/help/migrated/learners/feature-summary/advanced-search.md)
   * [Salesforce 向け Learning Manager アプリ](learners/feature-summary/sfdc-app.md)
@@ -333,7 +361,7 @@ ht-degree: 34%
   * [学習者のトランスクリプト](managers/feature-summary/learner-transcripts.md)
   * [設定](managers/feature-summary/settings.md)
   * [iPad および Android タブレットのユーザー](managers/feature-summary/ipad-android-tablet-users.md)
-* ライブハブ（ベータ版）の操作 {#work-with-live-hub}
+* ライブハブの操作 {#work-with-live-hub}
   * [必要システム構成](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
   * ライブハブでの役割 {#roles-in-live-hub}
     * [管理者](../migrated/getting-started-with-live-hub/administrator.md)
@@ -394,19 +422,20 @@ ht-degree: 34%
       * [セッションダッシュボードを表示](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [セッションダッシュボードのコンポーネント](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [ベストプラクティス](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [学習者としてモバイルでライブハブ（ベータ版）を使用する](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [学習者としてモバイルでライブハブを使用する](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * よくある質問 {#faq}
   * [管理者のよくある質問（FAQ）](administrators/frequently-asked-questions-for-administrators.md)
   * [作成者のよくある質問（FAQ）](authors/frequently-asked-questions-for-authors.md)
   * [インストラクターのよくある質問（FAQ）](instructors/frequently-asked-questions-for-instructors.md)
   * [マネージャーのよくある質問（FAQ）](managers/frequently-asked-questions-for-managers.md)
   * [学習者のよくある質問（FAQ）](learners/frequently-asked-questions-for-learners.md)
-  * [ライブハブ（ベータ版）セッションのよくある質問](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [ライブハブセッションのよくある質問(FAQ)](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新しいexperience leagueの発表](/help/migrated/new-experience-league-announcement.md)
   * [Experience League時にサポートチケットを提出する方法](/help/migrated/how-to-submit-support-ticket.md)
   * [Adobe Learning Managerで体験版アカウントを作成する](/help/migrated/create-trial-account.md)
 * APIの変更 {#api-changes}
   * [増分ユーザーレポート（ジョブAPI）](/help/migrated/incremental-user-report.md)
+  * [2026年12月リリースのAPIの変更](/help/migrated/api-changes-dec-2026.md)
   * [2026年9月リリースのAPIの変更](/help/migrated/api-changes-sep-2026.md)
   * [2026年8月リリースのAPIの変更](/help/migrated/api-changes-august-2026.md)
   * [2026年4月リリースのAPIの変更](/help/migrated/api-changes-alm.md)
