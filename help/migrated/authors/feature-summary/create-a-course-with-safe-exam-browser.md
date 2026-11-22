@@ -1,9 +1,9 @@
 ---
 title: 安全な試験ブラウザーでコースを作成する
 description: 安全試験ブラウザーモードでクイズを作成し、Adobe Learning Managerのセルフペースモジュールとしてコースに追加することで、制限された試験環境を提供します。
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 管理者がこのオプションを有効にした場合、コースクイズモジュールの安全試験ブラウザー(SEB)要件を有効または無効にできます。 管理者がこのオプションを無効にすると、クイズに対してSEBが必須となり、この要件を変更することはできません。
+   > 管理者がこのオプションを有効にした場合、コースクイズモジュールの安全試験ブラウザー(SEB)要件を有効または無効にできます。 管理者がこのオプションを無効にすると、クイズに対してSEBが必須となり、この要件を変更することはできません。 詳細については、[安全な試験ブラウザー統合を有効にする](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration)を参照してください。
 
 1. **Publish**&#x200B;を選択します。
 
@@ -68,3 +68,5 @@ ht-degree: 0%
 1. **保存**/**Publish**&#x200B;を選択します。
 
    このコースには、学習者が安全な試験ブラウザーを使用する必要がある評価が含まれるようになりました。
+
+[安全試験ブラウザーでクイズを開始](../../learners/feature-summary/launch-safe-exam-browser.md)を表示して、学習者が安全試験ブラウザーを使用してどのようにクイズにアクセスし、受けられるかを学習します。

@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 078d9e7c6d0422027818541965135865cc761c20
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '39568'
+source-wordcount: '39583'
 ht-degree: 56%
 ---
 # Adobe Learning Managerリリースノート
@@ -20,7 +20,7 @@ ht-degree: 56%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/jp/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -37,25 +37,41 @@ Live Hubでは、最大5,000人の出席者によるセッション、多言語�
 
 ## このリリースの機能
 
-**Report Builder図とダッシュボード：**&#x200B;管理者は、Report Builderでレポートデータを視覚化できるようになりました。 レポート列から大きな数値、折れ線グラフ、棒グラフ、円グラフ、およびピボット・テーブルを作成し、各チャートに集約とフィルタリングを含めます。 レポートダッシュボードには、1つのレポートから作成されたチャートが保持されます。 カスタムダッシュボードは、複数のレポートのチャートを組み合わせ、最大20個のウィジェットをサポートします。 レポートに属するチャートは、レポートを共有するときに共有されます。 ダッシュボードをエクスポートできません。 [詳細情報](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+**Report Builder図とダッシュボード：**&#x200B;管理者は、Report Builderでレポートデータを視覚化できるようになりました。 レポート列から大きな数値、折れ線グラフ、棒グラフ、円グラフ、およびピボット・テーブルを作成し、各チャートに集約とフィルタリングを含めます。 レポートダッシュボードには、1つのレポートから作成されたチャートが保持されます。 カスタムダッシュボードは、複数のレポートのチャートを組み合わせ、最大20個のウィジェットをサポートします。 レポートに属するチャートは、レポートを共有するときに共有されます。 ダッシュボードをエクスポートできません。
 
-**Report Builderのインサイトエージェントレポート：**&#x200B;管理者は、インサイトエージェントの回答をReport Builderレポートとして開き、確認、編集、保存し、サブスクリプションなどのReport Builder機能を使用できます。 質問の一部がReport Builderフィールドで表現できない場合は、その部分がギャップとしてレポートに表示されます。[詳細情報](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[詳細情報](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Adobe Experience Manager Assetsとの連携：**&#x200B;作成者は、Adobe Learning Managerを離れることなく、Experience Manager Assetsで承認済みの学習コンテンツや画像アセットを参照および選択できます。 デジタルアセットマネージャーでアセットが変更されると、その更新がそのアセットを使用するコースに反映される場合があります。 作成者には、Experience Manager Assetsで既にアクセス権があるアセットのみが表示されます。[詳細](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+**Report Builderのインサイトエージェントレポート：**&#x200B;管理者は、インサイトエージェントの回答をReport Builderレポートとして開き、確認、編集、保存し、サブスクリプションなどのReport Builder機能を使用できます。 質問の一部がReport Builderフィールドで表現できない場合は、その部分がギャップとしてレポートに表示されます。
+
+[詳細情報](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
+
+**Adobe Experience Manager Assetsとの連携：**&#x200B;作成者は、Adobe Learning Managerを離れることなく、Experience Manager Assetsで承認済みの学習コンテンツや画像アセットを参照および選択できます。 デジタルアセットマネージャーでアセットが変更されると、その更新がそのアセットを使用するコースに反映される場合があります。 作成者には、Experience Manager Assetsで既にアクセス権があるアセットのみが表示されます。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **ファイル送信の機能強化：**&#x200B;ファイル送信モジュールは、次の機能をサポートするようになりました。
 
 * **チームの提出：**&#x200B;インストラクターが、最大100人のメンバーでチームを作成します。 各チームが1つのファイルを提出し、インストラクターの評価がすべてのメンバーに適用されます。 インストラクターは、新しい&#x200B;**チーム管理**&#x200B;ページでチームを管理します。
+
+  [詳細情報](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 * **評価プランの評価：**&#x200B;作成者は評価プランを定義し、オプションを付けた客観的な質問と、レビューを書いた主観的な質問を含めます。 1つの評価プランに最大100個の質問が含まれます。
+
 * **インストラクターの承認または自動完了：**&#x200B;作成者は、送信がインストラクターの承認を必要とするか、または送信が自動的に完了するかを選択します。 この設定は、評価プランとは独立しています。
 
-[詳細情報]
+[詳細情報](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
-**学習者アシスタント用のModel Context Protocolサーバー：**&#x200B;学習者は、Model Context Protocol (MCP)サーバーを介して、既に使用しているツール（ChatGPT、Claude、カスタムエージェントなど）からLearning Managerにアクセスできます。 管理者は、統合管理者アプリでサーバーを設定します。 検索、登録の一覧表示、学習目標の取得、ユーザープロファイルの取得、学習コンテンツの質問への回答、パーソナライズされた学習パスの取得機能を提供します。 [詳細情報](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+**学習者アシスタント用のModel Context Protocolサーバー：**&#x200B;学習者は、Model Context Protocol (MCP)サーバーを介して、既に使用しているツール（ChatGPT、Claude、カスタムエージェントなど）からLearning Managerにアクセスできます。 管理者は、統合管理者アプリでサーバーを設定します。 検索、登録の一覧表示、学習目標の取得、ユーザープロファイルの取得、学習コンテンツの質問への回答、パーソナライズされた学習パスの取得機能を提供します。
 
-**コースおよびインスタンス用のEmail Builder:** Email Builderのすべての機能が、コースレベルおよびインスタンスレベルの電子メールで利用できるようになりました。 管理者はアカウントレイアウトとテンプレートを定義し、作成者はレイアウトと書式設定を継承しながら、コースとインスタンスの電子メールをカスタマイズします。 テンプレートは、使用可能な最も近いレイアウトにリンクされます。また、テンプレートのリンクを解除して、個別に編集することもできます。 **バナー**&#x200B;と&#x200B;**署名**&#x200B;の設定が、**設定**&#x200B;タブから&#x200B;**グローバルレイアウト**&#x200B;に移動されました。このタブは削除されています。 アカウントで電子メールビルダーが既に有効になっている場合は、これらの変更が自動的に送信されます。 [詳細情報](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+[詳細情報](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**クイズ用の安全な試験ブラウザーの統合：**&#x200B;管理者は、アカウントレベルで統合を有効にし、安全な試験ブラウザー構成ファイル(.seb)をアップロードして評価制限を定義できます。 作成者は、どのクイズが安全試験ブラウザーを必要とするかを選択します。 このようなクイズを受ける学習者は、Safe Exam Browserを起動またはダウンロードするように求められます。 [詳細情報](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+**コースおよびインスタンス用のEmail Builder:** Email Builderのすべての機能が、コースレベルおよびインスタンスレベルの電子メールで利用できるようになりました。 管理者はアカウントレイアウトとテンプレートを定義し、作成者はレイアウトと書式設定を継承しながら、コースとインスタンスの電子メールをカスタマイズします。 テンプレートは、使用可能な最も近いレイアウトにリンクされます。また、テンプレートのリンクを解除して、個別に編集することもできます。 **バナー**&#x200B;と&#x200B;**署名**&#x200B;の設定が、**設定**&#x200B;タブから&#x200B;**グローバルレイアウト**&#x200B;に移動されました。このタブは削除されています。 アカウントで電子メールビルダーが既に有効になっている場合は、これらの変更が自動的に送信されます。
+
+[詳細情報](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**クイズ用の安全な試験ブラウザーの統合：**&#x200B;管理者は、アカウントレベルで統合を有効にし、安全な試験ブラウザー構成ファイル(.seb)をアップロードして評価制限を定義できます。 作成者は、どのクイズが安全試験ブラウザーを必要とするかを選択します。 このようなクイズを受ける学習者は、Safe Exam Browserを起動またはダウンロードするように求められます。
+
+[詳細情報](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **ログインなしの機能強化：** Learning Managerでは、ユーザーがログインしなくても学習コンテンツに制御された方法でアクセスできるようになりました。
 
@@ -67,66 +83,129 @@ Live Hubでは、最大5,000人の出席者によるセッション、多言語�
 >
 >この機能のドキュメントは、まもなく利用可能になる予定です。
 
-**仮想コーチ:**&#x200B;仮想コーチは、AIを活用したロールプレイとコーチソリューションであり、学習者が現実的な職場の会話を練習することができます。 9つの言語に対応しており、スタンドアロンの作業計画書として使用したり、コースに埋め込むことができます。 [詳細情報](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+**仮想コーチ:**&#x200B;仮想コーチは、AIを活用したロールプレイとコーチソリューションであり、学習者が現実的な職場の会話を練習することができます。 9つの言語に対応しており、スタンドアロンの作業計画書として使用したり、コースに埋め込むことができます。
 
-**Live Hub:** Live HubはUltimateのお客様が一般に利用できるようになり、Primeのお客様は引き続きベータ版をご利用いただけます。 [詳細情報](../administrators/feature-summary/billing-management.md)
+[詳細情報](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
-**ライブハブでの最大5,000人の出席者のサポート** ：作成者は、バーチャルクラスルームモジュールを追加する際に、最大5,000人の出席者の容量を選択できるようになりました。 大規模なセッションの場合、カメラアクセス、画面共有、ホワイトボードの機能はインストラクターに限定されます。 これらのセッションでは、ブレークアウトルームは利用できません。 [詳細情報](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+**Live Hub:** Live HubはUltimateのお客様が一般に利用できるようになり、Primeのお客様は引き続きベータ版をご利用いただけます。
 
-**Live Hubの多言語クローズドキャプション**:インストラクターは、**会議室の設定**&#x200B;からクローズドキャプションの言語を選択できるようになりました。 すべての参加者は、インストラクターが選択した言語でキャプションを表示します。 [詳細情報](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+[詳細情報](../administrators/feature-summary/billing-management.md)
 
-**グループ登録の予約とキャンセル待ちの管理：**&#x200B;作成者は、教室およびバーチャルクラスルームコース内の席を特定のユーザーグループに割り当て、それらのグループとその他すべての学習者に対して個別の登録の開始日を設定し、終了日を含むキャンセル待ちの自動プロモーションをオンにすることができます。 [詳細情報](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**ライブハブでの最大5,000人の出席者のサポート** ：作成者は、バーチャルクラスルームモジュールを追加する際に、最大5,000人の出席者の容量を選択できるようになりました。 大規模なセッションの場合、カメラアクセス、画面共有、ホワイトボードの機能はインストラクターに限定されます。 これらのセッションでは、ブレークアウトルームは利用できません。
 
-**複数のZoom接続のサポート：**&#x200B;統合管理者は、1つのアカウントで複数のZoom接続を設定し、特定の役割またはユーザーグループに割り当てることができます。 作成者は、セッションの作成時または編集時に使用可能な接続から選択します。 [詳細情報](../integration-admin/feature-summary/zoom-connector.md)
+[詳細情報](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**チャネル：**&#x200B;すべての顧客がチャネルを一般的に利用できます。 [詳細情報](../administrators/feature-summary/create-channels.md)
+**Live Hubの多言語クローズドキャプション**:インストラクターは、**会議室の設定**&#x200B;からクローズドキャプションの言語を選択できるようになりました。 すべての参加者は、インストラクターが選択した言語でキャプションを表示します。
+
+[詳細情報](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**グループ登録の予約とキャンセル待ちの管理：**&#x200B;作成者は、教室およびバーチャルクラスルームコース内の席を特定のユーザーグループに割り当て、それらのグループとその他すべての学習者に対して個別の登録の開始日を設定し、終了日を含むキャンセル待ちの自動プロモーションをオンにすることができます。
+
+[詳細情報](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**複数のZoom接続のサポート：**&#x200B;統合管理者は、1つのアカウントで複数のZoom接続を設定し、特定の役割またはユーザーグループに割り当てることができます。 作成者は、セッションの作成時または編集時に使用可能な接続から選択します。
+
+[詳細情報](../integration-admin/feature-summary/zoom-connector.md)
+
+**チャネル：**&#x200B;すべての顧客がチャネルを一般的に利用できます。
+
+[詳細情報](../administrators/feature-summary/create-channels.md)
 
 ## このリリースの機能強化
 
-**パーソナライズされた学習パスの編集とブランディングストリップ:**&#x200B;学習者は、ワンステップで提案されたトピックやコースを削除できます。 管理者は、**ブランディング**&#x200B;ページを使用して、学習者のホームページでパーソナライズされた「学習パス」ストリップの位置を変更できます。 [詳細情報](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
+**パーソナライズされた学習パスの編集とブランディングストリップ:**&#x200B;学習者は、ワンステップで提案されたトピックやコースを削除できます。 管理者は、**ブランディング**&#x200B;ページを使用して、学習者のホームページでパーソナライズされた「学習パス」ストリップの位置を変更できます。
 
-**学習者アシスタントの学習パスの引用：**&#x200B;回答には、コースと共にソースコースを含む学習パスが引用されるようになりました。 作業計画書から取得した回答には、ダウンロードリンクが含まれます。 [詳細情報](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+[詳細情報](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
-**AIアシスタントの構成：**&#x200B;管理者アシスタントには、インサイトエージェントとナレッジエージェントの2つのエージェントが用意されています。 学習者アシスタントには、ナレッジエージェント、アンサーエージェントおよび学習パスエージェントの3つのエージェントが用意されています。 各エージェントは個別に構成できます。 [詳細情報](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+**学習者アシスタントの学習パスの引用：**&#x200B;回答には、コースと共にソースコースを含む学習パスが引用されるようになりました。 作業計画書から取得した回答には、ダウンロードリンクが含まれます。
 
-**バーチャルクラスルームセッションの招待を再送信：**&#x200B;コースの編集権限を持つ管理者は、「インスタンス」ページからセッションの招待を再送信できます。 このオプションは、現在および将来のセッションで使用できます。 [詳細情報](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+[詳細情報](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
 
-**Adobe Connectのビュー録画から自動的に出席する：**&#x200B;学習者がバーチャルクラスルームセッションの不在記録を再生すると、Learning Managerによって出席が記録されます。 スケジュールされた統合では、実際の表示時間が、アカウントに設定された完了条件と比較されます。 [詳細情報](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
+**AIアシスタントの構成：**&#x200B;管理者アシスタントには、インサイトエージェントとナレッジエージェントの2つのエージェントが用意されています。 学習者アシスタントには、ナレッジエージェント、アンサーエージェントおよび学習パスエージェントの3つのエージェントが用意されています。 各エージェントは個別に構成できます。
+
+[詳細情報](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
+
+**バーチャルクラスルームセッションの招待を再送信：**&#x200B;コースの編集権限を持つ管理者は、「インスタンス」ページからセッションの招待を再送信できます。 このオプションは、現在および将来のセッションで使用できます。
+
+[詳細情報](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
+**Adobe Connectのビュー録画から自動的に出席する：**&#x200B;学習者がバーチャルクラスルームセッションの不在記録を再生すると、Learning Managerによって出席が記録されます。 スケジュールされた統合では、実際の表示時間が、アカウントに設定された完了条件と比較されます。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 **ダウンロードしたReport Builderレポートの列見出しの変更：**&#x200B;ダウンロードしたReport Builderレポートの既定の列見出しにデータセット名が含まれるようになりました。 例えば、学習目標データセットの&#x200B;**名前**&#x200B;は、**学習目標 – 名前**&#x200B;と表示されます。 集計列の場合、見出しには&#x200B;**学習目標の数 – ID**&#x200B;などの関数も含まれます。 **エイリアス**&#x200B;フィールドでカスタム名を使用する見出しは変更されません。
 
-**準拠ウィジェットに登録された複数のコース:**&#x200B;準拠ウィジェットには、学習者が完了する必要のある複数登録コースのすべてのインスタンスが一覧表示されます。 1つのインスタンスに期限がある場合、期限のないインスタンスは非表示になります。 [詳細情報](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
+**準拠ウィジェットに登録された複数のコース:**&#x200B;準拠ウィジェットには、学習者が完了する必要のある複数登録コースのすべてのインスタンスが一覧表示されます。 1つのインスタンスに期限がある場合、期限のないインスタンスは非表示になります。
 
-**管理者カタログ検索での関連性のランキング：**&#x200B;管理者ビューでのカタログ検索では、結果が関連性に基づいてランク付けされます。 完全一致が最初に表示され、その後に部分一致が続きます。 [詳細情報](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+[詳細情報](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
 
-**学習パスにアクセスできないようにしてコースを廃止する：**&#x200B;廃止されたコースまたはネストされた学習パスは、上位レベルの学習目標から削除され、新規登録が可能な状態が維持されます。  [詳細情報](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+**管理者カタログ検索での関連性のランキング：**&#x200B;管理者ビューでのカタログ検索では、結果が関連性に基づいてランク付けされます。 完全一致が最初に表示され、その後に部分一致が続きます。
 
-**Adobe Workfrontからのセッションのキャンセル同期：** Adobe Workfrontでキャンセルされたセッションは、移行を介してLearning Managerに引き継がれます。 移行では、**アクティブ**&#x200B;または&#x200B;**キャンセル**&#x200B;を受け入れるオプションの&#x200B;**状態**&#x200B;列が追加されます。 [詳細情報](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+[詳細情報](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**名の文字数制限：**&#x200B;名フィールドには、63文字以内で最大255文字を入力できます。 この制限は、インターフェイスで追加されたユーザー、CSV読み込みによって追加されたユーザー、セルフ登録で追加されたユーザー、および外部ユーザーとして追加されたユーザーに適用されます。 既存のユーザーには影響しません。 長い名前は、テーブルセル、ドロップダウンリスト項目、検索結果で短縮されます。 短縮名にカーソルを合わせると、短縮名が全文で表示されます。 [詳細情報](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+**学習パスにアクセスできないようにしてコースを廃止する：**&#x200B;廃止されたコースまたはネストされた学習パスは、上位レベルの学習目標から削除され、新規登録が可能な状態が維持されます。
+
+[詳細情報](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+**Adobe Workfrontからのセッションのキャンセル同期：** Adobe Workfrontでキャンセルされたセッションは、移行を介してLearning Managerに引き継がれます。 移行では、**アクティブ**&#x200B;または&#x200B;**キャンセル**&#x200B;を受け入れるオプションの&#x200B;**状態**&#x200B;列が追加されます。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**名の文字数制限：**&#x200B;名フィールドには、63文字以内で最大255文字を入力できます。 この制限は、インターフェイスで追加されたユーザー、CSV読み込みによって追加されたユーザー、セルフ登録で追加されたユーザー、および外部ユーザーとして追加されたユーザーに適用されます。 既存のユーザーには影響しません。 長い名前は、テーブルセル、ドロップダウンリスト項目、検索結果で短縮されます。 短縮名にカーソルを合わせると、短縮名が全文で表示されます。
+
+[詳細情報](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
 
 **ローカライズされたLive Hubインターフェイスおよびレコーディングプレーヤー**: Live Hubでは、Adobe Learning Manager用に選択された言語で、同じ18の言語をサポートするインターフェイスが表示されるようになりました。 録音プレーヤーは、コース言語に基づいてローカライズされます。
 
-**コースと学習パスのバッジ情報：**&#x200B;作成者がコースまたは学習パスを追加すると、ウィンドウには既存のコースと学習パスがバッジ情報、公開ステータス、コース形式と共に一覧表示されます。 [詳細情報](/help/migrated/authors/feature-summary/create-learning-path.md)
+**コースと学習パスのバッジ情報：**&#x200B;作成者がコースまたは学習パスを追加すると、ウィンドウには既存のコースと学習パスがバッジ情報、公開ステータス、コース形式と共に一覧表示されます。
 
-**セルフ登録プロファイルのログインなしのページURL:**&#x200B;各セルフ登録プロファイルには、Experience Builderに組み込まれている、共有可能なログインなしのメニューURLを設定できます。 そのURLから&#x200B;**新規登録**&#x200B;を選択したユーザーは、所属するプロファイルに追加されます。 [詳細情報](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+[詳細情報](/help/migrated/authors/feature-summary/create-learning-path.md)
+
+**セルフ登録プロファイルのログインなしのページURL:**&#x200B;各セルフ登録プロファイルには、Experience Builderに組み込まれている、共有可能なログインなしのメニューURLを設定できます。 そのURLから&#x200B;**新規登録**&#x200B;を選択したユーザーは、所属するプロファイルに追加されます。
+
+[詳細情報](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **Learning Toolsの相互運用性におけるカスタム学習者属性：** Learning Managerは、オプションの名前と役割のプロビジョニングサービスのエンドポイント、および起動リクエストから、カスタム学習者属性を読み取ります。 Moodleなどの一部の学習システムは、このエンドポイントをサポートしていません。
 
-**ディスカッション掲示板のインストラクターへの通知：**&#x200B;ヘッドレスのお客様は、APIを介してインストラクターとチームマネージャーにディスカッション掲示板のアクティビティのダイジェストを送信できます。 [詳細情報](/help/migrated/discussion-board-instructor-notifications.md)
+[詳細情報](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
-**インストラクターが学習オブジェクトインスタンスを編集するためのWebhook:**&#x200B;学習オブジェクトインスタンスの変更Webhookは、インストラクターがバーチャルクラスルームセッションを編集したときにもトリガーされるようになりました。 [詳細情報](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+**ディスカッション掲示板のインストラクターへの通知：**&#x200B;ヘッドレスのお客様は、APIを介してインストラクターとチームマネージャーにディスカッション掲示板のアクティビティのダイジェストを送信できます。
 
-**学習パス登録の最終アクセス日：** APIを介して、最終アクセス日などのカスタムメタデータを学習パス登録に添付できます。 [詳細情報](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
+[詳細情報](/help/migrated/discussion-board-instructor-notifications.md)
+
+**インストラクターが学習オブジェクトインスタンスを編集するためのWebhook:**&#x200B;学習オブジェクトインスタンスの変更Webhookは、インストラクターがバーチャルクラスルームセッションを編集したときにもトリガーされるようになりました。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
+**学習パス登録の最終アクセス日：** APIを介して、最終アクセス日などのカスタムメタデータを学習パス登録に添付できます。
+
+[詳細情報](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## API の変更
 
 * **ブックマークAPIの並べ替えと廃止されたコンテンツの処理：**&#x200B;現在、ブックマークは最も新しい順に返され、廃止された学習目標のブックマークは返されません。 エンドポイント、パラメーター、または応答属性は追加されません。
+
+  [詳細情報](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 * **ディスカッション掲示板のAPIインストラクターの通知：**&#x200B;新しいAPIは、インストラクターとコホートマネージャーをディスカッション掲示板に登録し、ダイジェスト電子メールに表示されるアクティビティを制御します。
+
+  [詳細情報](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 * **学習者アプリでの複数登録インスタンスのAPIサポート：**&#x200B;複数登録インスタンスを含めるには、オプションの`includeMultiInstanceEnrollments=true`パラメーターを`GET /enrollments`に追加してください。 既定は`false`です。
+
+  [詳細情報](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
+
 * **学習パス登録の最終アクセス日：**&#x200B;管理者トークンを使用して、学習パス登録にカスタムメタデータを設定します。 管理者または学習者トークンで読みます。
+
+  [詳細情報](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 * **Report BuilderエクスポートのジョブAPIジョブの種類：**&#x200B;新しい`generateCustomReport`ジョブの種類では、レポートIDごとに保存されたReport Builderレポートがエクスポートされます。 `generateQuizReport`を含む既存のジョブの種類は変更されません。
-* **Zoom コネクターのAPI:**&#x200B;新しいAPIは、Zoom接続の取得と管理、Zoom資格情報の保存、および接続を使用できるユーザーグループとカスタムロールの設定を行います。 APIはセッションベースの認証を使用し、統合管理者のログインが必要です。 [詳細情報](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+  [詳細情報](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
+
+* **Zoom コネクターのAPI:**&#x200B;新しいAPIは、Zoom接続の取得と管理、Zoom資格情報の保存、および接続を使用できるユーザーグループとカスタムロールの設定を行います。 APIはセッションベースの認証を使用し、統合管理者のログインが必要です。
+
+  [詳細情報](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## このリリースでの変更の中断
 
@@ -320,7 +399,7 @@ Insights Agentに2つの拡張機能が追加されました。 以下の 2 つ�
 
 ## API
 
-* **学習目標のカタログアクセスのAPI:**&#x200B;学習目標のカタログアクセスAPIを使用すると、割り当てられたカタログを通じて学習者が1つ以上の学習目標に直接アクセスできるかどうかを判断できます。 応答を使用して、登録関連のUI要素を制御します。 例えば、カタログへの直接アクセスが確認された場合にのみ「登録」オプションが表示され、学習者はカタログアクセスに関係なくコースページを表示できます。
+* **学習目標のカタログアクセスのAPI:**学習目標のカタログアクセスAPIを使用すると、割り当てられたカタログを通じて学習者が1つ以上の学習目標に直接アクセスできるかどうかを判断できます。 応答を使用して、登録関連のUI要素を制御します。 例えば、カタログへの直接アクセスが確認された場合にのみ「登録」オプションが表示され、学習者はカタログアクセスに関係なくコースページを表示できます。
 詳細情報。
 
 * **管理者監査追跡レポートのジョブAPI:**&#x200B;このAPIは、監査追跡レポートジョブを操作するために使用され、指定した日付範囲と設定の種類のセットについて構成変更監査追跡レポートを生成するジョブを作成します。
@@ -577,7 +656,7 @@ UIロケールが英語以外の言語に設定されている場合、「教室
 4. 左側のナビゲーションパネルで「学習者」に移動します。
    ![](assets/instructor-send-email1.png)
 5. 学習者のリストから学習者を選択します。
-6. 右上の「**アクション**」ドロップダウンリストを開くと、グレー表示されたオプションを含め、その他のオプションが表示されます。 **全員に電子メールを送信**&#x200B;は、オプションの1つです。
+6. 右上の「**アクション**」ドロップダウンリストを開くと、グレー表示されたオプションを含め、その他のオプションが表示されます。 **全員に電子メールを送信**は、オプションの1つです。
    ![](assets/instructor-send-email2.png)
 
 **削除されたユーザーの自動消去：**&#x200B;削除されたユーザーの自動消去は、削除に必要な最小期間として1年に設定されました。 この機能は、日数にも対応するように強化されました。 管理者はカスタマーサクセスマネージャーに連絡してこの変更をリクエストし、バックエンドから変更してもらうことができます。
@@ -950,7 +1029,7 @@ Fluidicプレーヤーの詳細については、この[記事](/help/migrated/l
 
 * コンテンツモジュールが新しいバージョンに更新された後、コースを完了した学習者がコースを再び参照すると白い画面が表示される問題を修正しました。
 
-さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/ja/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
+さらに、Adobe Learning Managerに対する今後の変更の詳細については、この[記事](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)を参照してください。
 
 +++
 
@@ -2430,7 +2509,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 学習者は社外の資格認定を開いてアセット（pdf、テキスト、画像ファイルなど）をアップロードできます。
 
-詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください&#x200B;**&#x200B;**
+詳細については、[***社外の証明書にアセットをアップロード***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;を参照してください****
 
 ### このリリースで修正された問題 {#issuesfixedinthisrelease}
 
@@ -2467,7 +2546,7 @@ Learning Manager は、Learning Manager がサポートするリンク／URL を
 
 CSV フィールドと手動で追加されたフィールドの場合、「**報告可能**」としてマーキングされているアクティブフィールドを、ダッシュボードレポート内のフィルターで検索することができます。
 
-詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ&#x200B;***い。***
+詳細については、[***レポートのアクティブなフィールドの制限***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)&#x200B;を参照してくだ***い。***
 
 ### コンテンツモジュールの説明の表示 {#viewdescriptionofcontentmodule}
 
@@ -3434,7 +3513,7 @@ Fluidic プレーヤーの機能強化は、ビデオにのみ適用できます
 
 ### 機能強化 {#enhancement}
 
-この更新の一部として、Learning Managerではアプリケーションでユーザーを更新するためのエンドポイント<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->を提供しています。 この API エンドポイントには管理者の役割でアクセスできます。 こ&#x200B;**&#x200B;**&#x200B;エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
+この更新の一部として、Learning Managerではアプリケーションでユーザーを更新するためのエンドポイント<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->を提供しています。 この API エンドポイントには管理者の役割でアクセスできます。 こ****エンドポイントを使用して、Learning Managerユーザーの次の情報を更新できます。
 
 * 名前
 * 電子メール
@@ -3944,7 +4023,7 @@ FTP で CSV を自動的にアップロードする機能では、CSV のアッ�
 
 **電子メールテンプレート**
 
-* 社外グループという意味で使用されていた&#x200B;**パートナー**&#x200B;という用語が、**&#x200B;**&#x200B;**&#x200B;**&#x200B;電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
+* 社外グループという意味で使用されていた&#x200B;**パートナー**&#x200B;という用語が、********&#x200B;電子メールテンプレートの本文とタイトルから削除されました。 社外グループは必ずしもパートナーと呼ばれるわけではありません。\
   **注意：**&#x200B;既定のテンプレートが既に変更されている場合、この更新されたテンプレートは表示されません。 更新されたテンプレートを表示するには、**テンプレートプレビュー**&#x200B;ダイアログで&#x200B;**[元に戻す]**&#x200B;をクリックします。
 
 * 「**プロファイルが作成されました (セルフ登録)**」および「**プロファイルが作成されました (社外 / パートナー)**」の各電子メールテンプレートが編集されるたび、管理者が受信する電子メール内の URL がクリックできなくなる。 この問題は修正されました。

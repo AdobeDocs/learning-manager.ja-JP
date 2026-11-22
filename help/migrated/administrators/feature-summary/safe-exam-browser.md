@@ -1,9 +1,9 @@
 ---
 title: Safe Exam Browser
 description: Adobe Learning ManagerのアカウントレベルでSafe Exam Browserとの連携を有効にすると、作成者がネイティブクイズに安全なブラウザー環境を要求できるようになります。
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ Safe Exam Browserは、評価時に他のブラウザーやアプリケーショ
 
 ## 安全な試験ブラウザー統合を有効にする
 
-作成者がクイズを設定するときにオプションを使用できるようにするには、「安全試験ブラウザー」統合を有効にします。 始める前に、お使いのアカウントに対応するSafe Exam Browserファイルがあることを確認します。
+作成者がクイズを設定するときにオプションを使用できるように、Safe Exam Browser統合を設定します。 始める前に、お使いのアカウントに対応するSafe Exam Browserファイルがあることを確認します。
 
 Safe Exam Browserの統合を有効にするには：
 
@@ -36,6 +36,8 @@ Safe Exam Browserの統合を有効にするには：
 1. 「**保存**」を選択します。
 
    サポートされているクイズを設定するときに、作成者がセーフ試験ブラウザーを使用して有効にできるようになりました。
+
+**作成者**&#x200B;としてSafe Exam Browserを構成する方法の詳細については、[SEBを使用したコースを作成](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md)を参照してください。
 
 ### macOS用の.sebファイルの設定 {#configure-the-seb-file-for-macos}
 
