@@ -5,9 +5,9 @@ title: Adobe Learning ManagerのInsights Agent（ベータ版）
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4259'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ Insights Agentを使用して、次の操作を実行できます。
 
 Adobe Learning ManagerでInsights Agentを使用すると、学習データにプレーンテキストの質問で問い合わせ、結果をテキスト、表、またはダウンロード可能なCSVファイルとして取得できます。
 
-管理者は、Learning ManagerのAIアシスタントパネルからインサイトエージェントを利用できます。 パネルはサイズ変更可能です。 結果が読みやすくなるように展開できます。 既定では、パネルを開くと&#x200B;**[インサイトの取得]**&#x200B;モードが選択されます。 製品の使用方法に関する説明を参照するために、別の&#x200B;**学習**&#x200B;モードも利用できます。 **ラーニング**&#x200B;モードでは、Learning Managerの使用方法に関する説明の質問に回答します。 例：「学習パスを作成するにはどうすればよいですか？」 学習者データは問い合わせられません。
+管理者は、Learning ManagerのAIアシスタントパネルからインサイトエージェントを利用できます。 パネルはサイズ変更可能です。 結果が読みやすくなるように展開できます。 既定では、パネルを開くと&#x200B;**[インサイトの取得]**&#x200B;モードが選択されます。 製品の使用方法に関する説明を参照するために、別の&#x200B;**学習**&#x200B;モードも利用できます。 **ラーニング**&#x200B;モードでは、Learning Managerの使用方法に関する説明の質問に回答します。 例：「学習パスを作成するにはどうすればよいですか？」 学習者データは問い合わせられません。 [詳細情報](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### 質問する
 
@@ -299,7 +299,7 @@ If your administrator has renamed standard terms using **Product Terminology** i
 
 Insights Agentは、フランス語やスペイン語など、英語とラテン文字の言語で書かれたクエリをサポートしています。 日本語、中国語、アラビア語、韓国語、ヒンディー語、ロシア語など、ラテン語以外のスクリプトを使用して送信されたクエリは処理されません。 問い合わせを完了できなかったことを示すメッセージが表示されます。 これらの言語のいずれかでクエリを送信する場合は、新しいクエリを開始して、英語で言い換えます。
 
-## インサイトエージェントの回答からレポートを作成
+## インサイトエージェントの回答からレポートを作成 {#create-report-insights-agent}
 
 Adobe Learning Managerでは、Insightsの担当者に分かりやすい言葉で質問し、その回答をレポートとしてReport Builderで開くことができます。 その後、レポートを編集して再利用できるため、最初から再構築する必要はありません。
 
