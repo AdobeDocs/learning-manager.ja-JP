@@ -3,10 +3,10 @@ user-guide-title: Adobe Learning Manager ガイド
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager のドキュメント
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 31%
+source-wordcount: '1946'
+ht-degree: 32%
 ---
 
 # Adobe学習マネージャーユーザーガイド {#using}
@@ -305,7 +305,6 @@ ht-degree: 31%
   * [設定](authors/feature-summary/settings.md)
 * 学習プログラム / 資格認定を {#instructor}
   * [モジュール](/help/migrated/instructors/feature-summary/modules.md)
-  * [チームの提出物を評価して送信解除する](/help/migrated/instructors/feature-summary/learners.md)
   * [セッションの学習者の管理](instructors/feature-summary/learners.md)
   * [セッション招待を再送信](instructors/feature-summary/resend-session-invite.md)
 * 学習者 {#learner}
@@ -443,7 +442,7 @@ ht-degree: 31%
 * 変更の報告 {#reporting-changes}
   * [2026年8月リリースのレポートの変更](/help/migrated/reporting-changes-august-2026.md)
 * ナレッジベース {#knowledge-base}
-  * [Live Hub（ベータ版）のトラブルシューティングガイド](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Live Hubのトラブルシューティングガイド](./kb/troubleshooting-guide-for-live-hub.md)
   * [Learning Manager にログインできません](kb/unable-log-in-learning-manager.md)
   * [学習の概要に最新のデータが表示されない](kb/learning-summary-not-display-data.md)
   * [CSV をアップロードできない](kb/unable-to-upload-csv.md)
