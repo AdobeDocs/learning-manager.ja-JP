@@ -3,9 +3,9 @@ description: Cloud、ChatGPT Enterprise、およびカスタムエージェン�
 jcr-language: en_us
 title: Adobe Learning Manager Model Context Protocol server
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ AIクライアントがMCPサーバーを呼び出すと、対応する学習者
 
 お客様とパートナーの教育機関が主にMCPサーバを使用します。 エンタープライズ版AIエージェントを独自に構築した組織は、そのエージェントをAdobe Learning ManagerのLearner Toolsに連携できます。 その後、顧客とパートナーは、別の学習アシスタントに移行することなく、既に使用しているアシスタントの中で学習します。
 
-例えば、Acme Inc.は独自のエンタープライズAIアシスタントを構築しています。 Acme Inc.のパートナーがLenovoの環境を訪問し、Lenovo製品について学ぶ。 AcmeのアシスタントはMCPサーバーを介してAdobe Learning Managerアカウントに接続し、学習関連の回答を返すので、パートナーはAcmeのエクスペリエンスを離れることはありません。
+例えば、Acme Inc.は独自のエンタープライズAIアシスタントを構築しています。 Acme Inc.のパートナーがTech Corpの環境を訪問し、Tech Corpの製品について学習します。 AcmeのアシスタントはMCPサーバーを介してAdobe Learning Managerアカウントに接続し、学習関連の回答を返すので、パートナーはAcmeのエクスペリエンスを離れることはありません。
 
 このアプローチにより、組織は次のことを実現できます。
 

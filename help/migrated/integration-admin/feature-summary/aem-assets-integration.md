@@ -3,9 +3,9 @@ description: 学習コンテンツと画像をAdobe Experience Manager Assetsか
 jcr-language: en_us
 title: AEM Assetsとの連携
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -424,3 +424,9 @@ Adobe Learning Managerで統合管理者ロールが割り当てられている�
 **Q.ALMは公開プレビューリンクを生成しますか？**
 
 **A.**&#x200B;はい、SCORM 1.2、SCORM 2004、およびHTMLのファイルに対してのみ有効です。 これは、統合管理者によってパブリックプレビュー機能が有効になっている場合にのみ可能です。
+
+**関連リンク：**
+
+* [コンテンツライブラリでのコンテンツの管理](/help/migrated/authors/feature-summary/content-library.md)
+* [Adobe Admin Consoleドキュメント](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/overview)
