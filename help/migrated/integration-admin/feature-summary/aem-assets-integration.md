@@ -428,5 +428,5 @@ Adobe Learning Managerで統合管理者ロールが割り当てられている�
 **関連リンク：**
 
 * [コンテンツライブラリでのコンテンツの管理](/help/migrated/authors/feature-summary/content-library.md)
-* [Adobe Admin Consoleドキュメント](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Adobe Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Adobe Admin Consoleドキュメント](https://experienceleague.adobe.com/ja/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/assets/overview)
