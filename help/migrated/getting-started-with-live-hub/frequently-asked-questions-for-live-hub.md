@@ -4,9 +4,9 @@ description: Adobe Learning Managerのライブハブに関するよくある質
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '4471'
+source-wordcount: '4470'
 ht-degree: 0%
 ---
 
@@ -54,7 +54,8 @@ Live Hubには、管理者、作成者、インストラクター、学習者の
 
 +++自分のアカウントでLive Hubを使用できますか？
 
-ライブハブ（ベータ版）は2026年8月から利用可能になります。 管理者は、Adobe Learning ManagerアカウントのLive Hubを有効または無効にできます。 ライブハブが有効になっている場合、作成者は、バーチャル教室モジュールの作成時にライブトレーニングプロバイダーとして選択できます。 Live Hubオプションが使用できない場合は、管理者に連絡してアカウントの機能を有効にしてください。
+ライブハブは、2026年8月から利用できるようになります。 管理者は、Adobe Learning ManagerアカウントのLive Hubを有効または無効にできます。 ライブハブが有効になっている場合、作成者は、バーチャル教室モジュールの作成時にライブトレーニングプロバイダーとして選択できます。 Live Hubオプションが使用できない場合は、管理者に連絡してアカウントの機能を有効にしてください。
+
 
 +++
 
