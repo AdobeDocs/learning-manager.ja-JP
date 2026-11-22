@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # コースの作成、変更、パブリッシュ
@@ -169,7 +169,7 @@ Gradebookを有効にした後、コンテンツモジュールを追加し、�
 
 1. 「チームベース」オプションを選択します。 個々のオプションは、以前の単一学習者用ファイル提出モジュールです。
 
-   ![ファイル送信モジュールのチームベースのオプション](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "チームベースのオプション")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. インストラクターを選択します。
 
@@ -189,15 +189,15 @@ Gradebookを有効にした後、コンテンツモジュールを追加し、�
 1. スコアの方法を選択してください：
 
    * 「手動スコア」を選択すると、インストラクターが総合スコアを1つ入力します。
-   * 基準ベースのスコアリングを選択して、各評価計画オプションのポイントからスコアを計算します。 この方法には評価計画が必要である。
+   * 基準ベースのスコアリングを選択して、各評価計画オプションのポイントからスコアを計算します。 この方法には評価計画が必要です。
 
-     ![チームベースのファイル送信モジュールのレビューとスコア付けのオプション](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
 >コースをパブリッシュした後は、モジュールの削除、設定の変更、複数の配信タイプの使用を行うことはできません。
 
-### 評価プランをファイル送信モジュールに追加する
+### 評価プランをファイル提出モジュールに追加する
 
 ファイル提出モジュールに客観的で主観的な質問を追加して、個別またはチーム提出の評価計画を作成します。
 

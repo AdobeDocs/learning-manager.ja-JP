@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ AIアシスタントを使用すると、割り当てられた学習コンテン
 
 学習パスが質問に関連しており、学習者にカタログに表示されることを確認します。 学習者アシスタントには、学習者に対して非表示になっているコンテンツは表示されません。
 
-## Learner Assistantエージェントの設定
+## Learner Assistantエージェントの設定 {#configure-la-agents}
 
 個々の学習者アシスタントのエージェントをオンまたはオフにして、学習者がAdobe Learning Managerで使用できるAI機能を制御します。
 

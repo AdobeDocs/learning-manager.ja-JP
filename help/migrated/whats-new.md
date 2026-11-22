@@ -6,10 +6,10 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 9f214ebfdf686375a53896b186deac31bbe1658c
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '4884'
-ht-degree: 1%
+source-wordcount: '4846'
+ht-degree: 2%
 ---
 
 >[!IMPORTANT]
@@ -70,6 +70,8 @@ Adobe Learning ManagerがAdobe Experience Manager Assetsと統合され、作成
 
 インストラクターは、新しい&#x200B;**チームの管理**&#x200B;ページでチームを管理し、チームの提出ページで作業を確認します。 インストラクターは、チームメンバーが退職した場合など、変更が必要になったときにチームのロックを解除するために、承認された提出物の提出を取り消すこともできます。 1つのチームには100人のメンバーが入る。 学習者は、自分のチーム、そのメンバー、および評価結果を表示できます。 コースの公開後にチームモジュールを追加または削除することはできません。
 
+[詳細情報](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 ### ルーブリックベースの評価（評価計画）
 
 作成者は、評価プランと呼ばれる、ファイル提出モジュールのルーブリックを定義できるようになりました。 ルーブリックは、採点されたオプションを使用して客観的な質問をサポートし、書面によるレビューを使用して主観的な質問をサポートします。
@@ -80,6 +82,8 @@ Adobe Learning ManagerがAdobe Experience Manager Assetsと統合され、作成
 * スコアは1つの総合スコアか、各基準のスコアか
 
 各質問は、必須としてマークし、レビュー担当者の発言を許可するように設定できます。 ルーブリックベースの評価では、最大100個の質問を保持し、作成者はロケールごとに個別に質問を入力します。 コースのパブリッシュ後、変更できるのは質問テキストのみです。
+
+[詳細情報](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
 ### インストラクターの承認または自動補完
 
@@ -123,25 +127,37 @@ Virtual Coachは9つの言語に対応しており、スタンドアロンの作
 
 学習者アシスタントの回答では、コース自体と共にソースコースを含む学習パスが引用されるようになりました。 学習者は、引用文から「コースの概要」ページまたは「学習パス」ページを開きます。 作業計画書から取得した回答には、ダウンロードリンクが含まれます。 これにより、学習者は自分の質問に回答するトレーニングを見つけることができます。
 
+[詳細情報](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+
 ## AI Assistantの設定
 
 管理者アシスタントには、InsightsエージェントとKnowledge Agentの2つのエージェントが用意されています。 これらは個別に設定できます。 学習者アシスタントには、ナレッジエージェント、アンサーエージェントおよび学習パスエージェントの3つのエージェントが用意されています。 カタログ設定と共に設定できます。
+
+[詳細情報](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
 
 ## 学習オブジェクトインスタンスに対するインストラクターの編集のためのWebhook
 
 学習オブジェクトインスタンスの変更webhookは、管理者と作成者の変更に加えて、インストラクターがバーチャルクラスルームセッションを編集したときにトリガーされるようになりました。 セッションのタイミング、会場、登録制限などの変更によってトリガーされます。 ヘッドレスのお客様は、パブリックAPIを介してセッションの詳細を取得し、更新情報を学習者に渡すことができます。
 
+[詳細情報](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
 ## 準拠ウィジェットに複数登録されたコース
 
 準拠ウィジェットに、学習者が完了する必要のある複数登録コースのすべてのインスタンスが表示されるようになりました。 各エントリには、インスタンス名が表示されます。 1つのインスタンスに期限がある場合、期限のないインスタンスは非表示になります。 パブリックAPIの登録エンドポイントは、オプションのパラメーターを使用して同じ動作をサポートします。
+
+[詳細情報](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ## バーチャルクラスルームセッションの招待を再送信
 
 コースの編集権限を持つ管理者は、「インスタンス」ページからセッションの招待を再送信できるようになりました。 **再送信**&#x200B;を選択し、学習者を検索して送信します。 このオプションは、現在および将来のバーチャルクラスルームセッションで利用できます。 複数のインスタンスの学習者の場合、招待は選択したインスタンスにのみ送信されます。 セッションに登録されていない学習者は、警告が表示されてスキップされます。
 
+[詳細情報](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
 ## Adobe Connectの録画ビューからの自動出席
 
 Adobe Learning Managerでは、バーチャルクラスルームセッションの不在時のレコーディングを学習者が再生するときに出席をマークするようになりました。 スケジュールされた統合は、Adobe Connectからビューアデータを取得し、再生時間をアカウントに設定された完了条件と比較します。 管理者は、統合管理アプリでスケジュールを設定します。 Adobe Learning Managerでは、出席を判断する際に、実際の視聴時間のみが考慮されるので、録画をスキップすることは完了条件にはカウントされません。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 ## コースとインスタンス用の電子メールビルダー
 
@@ -160,8 +176,6 @@ Email Builderを使用すると、次の操作を実行できます。
 バナーと署名の設定を移動しました。 以前は、これらの設定が別の&#x200B;**[設定]**&#x200B;タブに表示されていました。 そのタブは削除され、**バナー**&#x200B;と&#x200B;**署名**&#x200B;が&#x200B;**グローバルレイアウト**&#x200B;に表示されます。
 
 電子メールビルダーでは、Title変数を含む電子メールタイトルを追加できます。
-
-[詳細情報](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### 電子メールビルダーの階層の仕組み
 
@@ -202,17 +216,25 @@ Email Builderでは階層が使用されます。 各レベルは親レベルか
 
 アカウントで電子メールビルダーが既に有効になっている場合は、新しい変更が自動的に送信されるため、アクションを実行する必要はありません。 既存のメール機能は、引き続きEmail Builderの移行アクティビティとは独立して動作します。
 
+[詳細情報](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
 ## 学習ツールの相互運用性のカスタム学習者属性
 
 Adobe Learning Managerでは、Learning Toolsの相互運用性にあるオプションの名前と役割のプロビジョニングサービスのエンドポイントを使用して、カスタムの学習者属性を読み取るようになりました。 また、起動リクエストからも読み取られます。 国や都市などの属性は、グループ化可能なプロファイルフィールドに保存されます。 起動パラメーターには、Adobe Learning Managerで認識されるようにプレフィックスが必要です。 Moodleなどの一部の学習システムは、このエンドポイントをサポートしていません。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
 ## ディスカッション掲示板インストラクターの通知
 
 ヘッドレスのお客様が、インストラクターとコホートマネージャーにディスカッション掲示板のアクティビティのダイジェストを送信できるようになりました。 このAPIを使用して、掲示板にサブスクライバーを追加します。 新しい投稿、コメント、返信が1つの電子メールで、指定した間隔で送信されます。 「いいね！」や「嫌い！」は含みません。 この機能は、APIを介して有効にします。
 
+[詳細情報](/help/migrated/discussion-board-instructor-notifications.md)
+
 ## 管理者カタログ検索での関連性のランキング
 
 管理者ビューでのカタログ検索で、学習者や管理者の検索と同じ検索サービスを他の場所で使用し、結果を関連性に基づいてランク付けできるようになりました。 特定の日付を持つカタログ名などの完全一致が最初に表示され、その後に部分一致が続きます。 入力中の候補リストは同じ順序に従います。
+
+[詳細情報](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
 ## Adobe Workfrontからのセッションのキャンセル同期
 
@@ -224,6 +246,8 @@ Adobe Workfrontでキャンセルされたセッションは、移行プロセ�
 * ステートをアクティブに設定すると、セッションが再びアクティブ化されます。その後、セッションの詳細を更新するか、セッションを再度キャンセルすることができます。
 
 セッションの更新は引き続き以前と同様に機能します。
+
+[詳細情報](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
 ## 名の文字数制限
 
@@ -253,9 +277,13 @@ Adobe Learning Managerでは、63文字以内で最大255文字の名を使用�
 
 氏名を表示するには、短縮名にポインタを合わせます。
 
+[詳細情報](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+
 ## コースと学習パスのバッジ情報
 
 作成者がコースまたは学習パスを追加すると、ウィンドウに既存のコースと学習パスがバッジ情報と共に一覧表示されます。 このウィンドウには、名前、タイプ（コースまたは学習パス）、パブリッシュステータスのほか、セルフペース、バーチャル、クラスルーム、ミックス済み済みなどのコース形式が表示されます。
+
+[詳細情報](/help/migrated/authors/feature-summary/create-learning-path.md)
 
 ## ログインなしの機能強化
 
@@ -292,9 +320,15 @@ Adobe Learning Managerでは、Googleなどの検索エンジンや、ChatGPT、
 >
 >ネイティブAdobe Learning Manager上のAIおよび検索検出には、カスタムドメインが必要です。 ヘッドレスデプロイメントでは、独自の環境でセットアップの一部を実装する必要があります。
 
+>[!NOTE]
+>
+>この機能のドキュメントは、まもなく利用可能になる予定です。
+
 ## 学習パスにアクセスできないようにしてコースを廃止する
 
 廃止されたコースまたはネストされた学習パスは、上位レベルの学習オブジェクトから削除され、新規登録が可能なままになります。 コースを廃止することで、学習パスにアクセスできなくなりました。
+
+[詳細情報](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
 ## セルフ登録プロファイルのログインなしのページURL
 
@@ -302,22 +336,15 @@ Adobe Learning Managerでは、Googleなどの検索エンジンや、ChatGPT、
 
 そのURLを通じて到達したページからユーザーが「**新規登録**」を選択すると、ユーザーはそのURLが属するプロファイルに追加されます。 これにより、別のエージェンシーやパートナー企業など、異なる組織のユーザーが個別のプロファイルに保持されます。
 
+[詳細情報](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
 ## 学習パス登録の最終アクセス日の保存
 
 Adobe Learning Managerでは、最終アクセス日などのカスタムメタデータを学習パスの登録に添付できるようになりました。 APIを使用して設定および読み取りを行うことで、割り当てた学習パスへの時間制限のあるアクセスを追跡できます。
 
 コースの登録では、学習者がコースにアクセスできる期間を制御する、APIを介した最終アクセス日が既にサポートされています。 学習パスの登録に汎用メタデータフィールドが提供されるようになりました。このフィールドには、最終アクセス日や追跡する他の値を保存できます。
 
-## ジョブAPIを使用したReport Builderレポートの書き出し
-
-Adobe Learning Managerのこのリリースでは、新しいジョブAPIジョブの種類`generateCustomReport`が追加されています。 レポートIDを渡すと、Report Builderで作成したレポートが自動的に書き出されます。
-
-Report Builderの新しいL2クイズデータセットと組み合わせると、次のことができます。
-
-* 質問レベル(L2)クイズデータは、コースごとに`generateQuizReport`を実行するのではなく、単一のレポートで複数のコースおよびモジュールにわたって書き出します。
-* データウェアハウスまたはビジネスインテリジェンスツールへの日次増分エクスポートなど、定期的なエクスポートを自動化します。
-
-`generateQuizReport`を含む既存のジョブの種類は変更されません。
+[詳細情報](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## ダウンロードされたレポートの列見出しの変更
 
@@ -329,7 +356,7 @@ Report Builderには、ダウンロードされたレポートの既定の列見
 
 Live HubはUltimateのお客様が一般的に利用できるようになり、Primeのお客様は引き続きベータ版をご利用いただけます。
 
-[詳細情報](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
+[詳細情報](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
 
 ## Live Hubでのクローズドキャプションの多言語サポート
 
@@ -360,7 +387,7 @@ Live Hubでは、最大5,000人の参加者が集まる大規模なセッショ�
 
 これにより、組織は同じプラットフォーム内で大規模なトレーニングセッションを実行でき、部屋の大きさをオーディエンスサイズに設定できます。
 
-[詳細情報](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[詳細情報](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## チャネル
 
@@ -427,13 +454,19 @@ Adobe Learning ManagerがSafe Exam Browserと統合され、ネイティブク�
 
 新しいエンドポイント、パラメーター、応答属性は追加されないため、既存の統合は変更されずに動作し続けます。
 
+[詳細情報](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 ### ディスカッション掲示板インストラクター通知のAPI
 
 このリリースには、ディスカッションボードのインストラクター通知をサポートする新しいAPIが含まれています。 これらを使用して、インストラクターやコホートマネージャーをディスカッション掲示板に登録したり、ダイジェスト電子メールに表示されるアクティビティを制御したりできます。
 
+[詳細情報](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 ### 学習者アプリでの複数登録インスタンスのAPIサポート
 
 登録APIで、学習者アプリで複数登録インスタンスがサポートされるようになりました。 省略可能な`includeMultiInstanceEnrollments=true`パラメーターを`GET /enrollments`に追加して含めます。 既定は`false`であるため、ヘッドレス実装を含む既存の統合は変更されずに動作し続けます。
+
+[詳細情報](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ### 学習パス登録の最終アクセス日
 
@@ -444,11 +477,15 @@ Adobe Learning ManagerがSafe Exam Browserと統合され、ネイティブク�
 
 メタデータはユーザー独自のトラッキング用です。 アクセスは制御されず、パス内のコースには適用されません。
 
+[詳細情報](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 ### Report Builder書き出しのジョブAPIジョブタイプ
 
 Job APIには、レポートIDを渡したときに保存されたReport Builderレポートをエクスポートする新しいジョブの種類`generateCustomReport`があります。 新しいL2クイズデータセットを使用すると、1つのレポートで複数のコースにわたる質問レベルのクイズデータを書き出し、繰り返しの書き出しを自動化できます。
 
 `generateQuizReport`を含む既存のジョブの種類は変更されません。
+
+[詳細情報](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
 
 ### Zoom コネクターのAPI
 

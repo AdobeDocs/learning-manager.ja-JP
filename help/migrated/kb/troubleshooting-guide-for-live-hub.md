@@ -1,16 +1,16 @@
 ---
-title: Live Hub（ベータ版）のトラブルシューティングガイド
+title: Live Hubのトラブルシューティングガイド
 description: ライブハブセッション中に発生する可能性のある一般的なエラーメッセージと通知、その原因、および解決手順。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1070'
 ht-degree: 2%
 ---
 
-# Live Hub（ベータ版）のトラブルシューティングガイド
+# Live Hubのトラブルシューティングガイド
 
 ライブハブセッション中に、インストラクターがエラーメッセージや通知を受け取り、特定のアクションが正常に完了しないことがあります。 この記事では、インストラクターが直面する一般的なエラー、考えられる原因、およびエラーを解決するための手順について説明します。
 

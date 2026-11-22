@@ -3,7 +3,7 @@ description: 掲示板サブスクリプション設定と購読者APIを使用�
 jcr-language: en_us
 title: 2026年11月のAPIの変更
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # 2026年12月のAPIの変更
 
-## ディスカッション掲示板のインストラクター通知のAPI
+## ディスカッション掲示板のインストラクター通知のAPI {#api-discussion-board-instructors}
 
 この記事では、ディスカッションボードのインストラクターの通知をサポートする新しいAPIについて説明します。 これらを使用して、インストラクターやコホートマネージャーをディスカッション掲示板に登録したり、ダイジェスト電子メールに表示されるアクティビティを制御したりできます。
 
@@ -585,7 +585,7 @@ curl -X DELETE \
 | 401 | 要求に有効な資格情報がないか、資格情報が無効なため、アクセスが拒否されました。 |
 | 404 | ボードまたはサブスクリプションなどの要求されたリソースが見つかりませんでした。 |
 
-## ブックマークAPIの順序と廃止されたコンテンツ処理
+## ブックマークAPIの順序と廃止されたコンテンツ処理 {#bookmark-api-ordering-retired-content}
 
 ### APIの目的
 
@@ -721,7 +721,7 @@ Authorization: oauth <access-token>
 3. 回避策として追加したクライアント側の並べ替えや削除されたコンテンツフィルタリングをすべて削除します。
 4. 応答の項目数を使用してブックマークの数を表示します。 廃止された学習目標のブックマークは含まれなくなりました。
 
-### 学習者アプリの学習者コンプライアンスウィジェットで、複数登録されたインスタンスのAPIサポート
+### 学習者アプリの学習者コンプライアンスウィジェットで、複数登録されたインスタンスのAPIサポート {#api-multienrolled-instances-lc-widget}
 
 パブリックAPIでは、既存の登録エンドポイントのオプションのクエリパラメーターを使用して、この動作をサポートしています。 このパラメーターを省略した場合、APIは以前と同じ結果を返すため、ヘッドレス実装を含む既存の統合は変更されずに動作し続けます。
 
@@ -1553,7 +1553,7 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &rbrace;
 
-## 学習パス登録の最終アクセス日 {#last-access-date-lp-enrollment}
+## 学習パス登録の最終アクセス日 {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Managerでは、最終アクセス日などのカスタムメタデータを学習パスの登録に保存できます。 メタデータの設定と読み取りは、APIを通じて行います。 これにより、割り当てた学習パスへの期限付きアクセスを追跡できます。
 
@@ -1638,7 +1638,7 @@ POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceI
 * **ポータルの値を表示する：**&#x200B;上のテーブルからトークン型のGET要求を送信し、応答から`metadata`オブジェクトを読み取ります。
 * **Commerce Platformなどの外部システムから値を更新する：**&#x200B;管理者トークンを使用してPATCHリクエストを送信します。
 
-## ジョブAPI:generateCustomReportによるReport Builderレポートの書き出し
+## ジョブAPI:generateCustomReportによるReport Builderレポートの書き出し {#api-job-report-builder-exports}
 
 Adobe Learning Manager 2026年12月リリースでは、新しいジョブの種類`generateCustomReport`がジョブAPIに追加されています。 これを使用すると、レポートIDを渡してReport Builderで作成したレポートを自動的に書き出すことができます。
 
