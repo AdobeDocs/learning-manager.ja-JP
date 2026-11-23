@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Gradebookを有効にした後、コンテンツモジュールを追加し、�
 * モジュールが評価モジュールである場合、学習者が再試行する必要がある場合は、複数回の試行設定に&#x200B;**最高**&#x200B;を使用します。 最高のパフォーマンスではなく、現在の知識レベルを把握する場合は、**最新**&#x200B;を使用します。
 * **加重合計**&#x200B;インジケーターが保存前に100%と正確に表示されることを確認します。
 
-## Adobe Learning Managerでのチームの自動作成の設定
+## Adobe Learning Managerでのチームの自動作成の設定 {#enable-automatic-team-formation}
 
 Adobe Learning Managerがインスタンスを開始する前に登録済み学習者をチームに分割するように、コースの自動チーム作成ルールを設定します。
 
