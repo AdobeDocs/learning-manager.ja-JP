@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 36%
@@ -266,7 +266,7 @@ Gen AI機能を有効にするには、Adobe Learning ManagerアカウントがA
 - 掲示板、投稿、またはコメントを作成してソーシャル学習に参加する。
 - 社外の資格認定提出の承認または教室／バーチャルクラスルームセッションへの出席を通じて要件を満たす。
 
-## 詳細な使用状況を表示 {#viewusagedetails}
+## 詳細な使用状況を表示 {#view-usage-details}
 
 1. 1 ヶ月あたりのアクティブユーザーの数を表示するには、「**[!UICONTROL 詳細な使用状況を表示]**」をクリックします。
 
