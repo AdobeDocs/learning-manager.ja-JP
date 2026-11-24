@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 2%
 ---
 
@@ -109,7 +109,7 @@ ALMを使用すると、学習者はModel Context Protocol(MCP)サーバーを�
 ## パーソナライズされた学習パスの編集とブランディングストリップ
 
 * 学習者は、トピックやコースのリストをチャットで絞り込める既存のオプションに加え、提案されたトピックやコースをワンステップで削除できるようになりました。
-* 管理者は、ブランディングページを通じて、学習者ホームページでパーソナライズされた学習パスストリップの位置を変更できるようになりました。
+* 管理者は、「ブランディング」ページを使用して、学習者ホームページでパーソナライズされた「学習パス」ストリップの位置を変更できるようになりました。
 
 [詳細情報](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -121,7 +121,7 @@ Adobe Learning Managerは、AIを活用したロールプレイとコーチソ�
 
 Virtual Coachは9つの言語に対応しており、スタンドアロンの作業計画書として使用したり、コースに組み込むことができます。
 
-[詳細情報](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[詳細情報](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## 学習者アシスタントの学習パスの引用
 
@@ -305,7 +305,6 @@ Learning Managerでは、ユーザーがログインしなくても学習コン�
 
 管理者は、パブリックアカデミーに表示される特定のカタログを選択できるようになりました。 それらのカタログのみが、匿名の訪問者によって参照され、検索エンジンやAIアシスタントによってインデックス付けされるため、テストコースや内部コンテンツは非公開になります。
  
-
 ### 検索エンジンとAIアシスタント（ベータ版）で検索
 
 Adobe Learning Managerでは、Googleなどの検索エンジンや、ChatGPT、Claude、GeminiなどのAIアシスタントにより、パブリックアカデミーを見つけやすくなりました。 その後、自分のアカデミーに帰属する、コースが検索結果やAIが生成した回答に表示されるようになります。
@@ -338,14 +337,6 @@ Adobe Learning Managerでは、Googleなどの検索エンジンや、ChatGPT、
 
 [詳細情報](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## 学習パス登録の最終アクセス日の保存
-
-Adobe Learning Managerでは、最終アクセス日などのカスタムメタデータを学習パスの登録に添付できるようになりました。 APIを使用して設定および読み取りを行うことで、割り当てた学習パスへの時間制限のあるアクセスを追跡できます。
-
-コースの登録では、学習者がコースにアクセスできる期間を制御する、APIを介した最終アクセス日が既にサポートされています。 学習パスの登録に汎用メタデータフィールドが提供されるようになりました。このフィールドには、最終アクセス日や追跡する他の値を保存できます。
-
-[詳細情報](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## ダウンロードされたレポートの列見出しの変更
 
 Report Builderには、ダウンロードされたレポートの既定の列見出しにデータセット名が含まれるようになりました。そのため、学習目標データセットの名前は、**名前**&#x200B;ではなく、**学習目標 – 名前**&#x200B;として表示されます。 集計列の場合、見出しには「**学習目標の数 – ID**」などの関数も含まれます。 列の&#x200B;**Alias**&#x200B;フィールドにカスタム名を入力した場合、そのエイリアスが見出しとして使用され、変更されません。
@@ -356,7 +347,7 @@ Report Builderには、ダウンロードされたレポートの既定の列見
 
 Live HubはUltimateのお客様が一般的に利用できるようになり、Primeのお客様は引き続きベータ版をご利用いただけます。
 
-[詳細情報](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[詳細情報](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Live Hubでのクローズドキャプションの多言語サポート
 
@@ -387,7 +378,7 @@ Live Hubでは、最大5,000人の参加者が集まる大規模なセッショ�
 
 これにより、組織は同じプラットフォーム内で大規模なトレーニングセッションを実行でき、部屋の大きさをオーディエンスサイズに設定できます。
 
-[詳細情報](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[詳細情報](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## チャネル
 
