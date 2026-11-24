@@ -1,19 +1,25 @@
 ---
-description: Cloud、ChatGPT Enterprise、およびカスタムエージェント内で、コースの検索、進捗状況の追跡、Adobe Learning Managerコンテンツからの回答の取得を行えます。
+description: Adobe Learning ManagerをCloud、ChatGPT Enterprise、カスタムエージェントに拡張することで、学習者はコースを見つけ、進捗状況を追跡し、回答を得られるようになります。
 jcr-language: en_us
 title: Adobe Learning Manager Model Context Protocol server
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '765'
 ht-degree: 0%
 ---
 
 # Adobe Learning Manager Model Context Protocol server
 
-## 概要
+モデルコンテキストプロトコル(MCP)は、AIクライアントが外部ツールを検出して呼び出すことができるオープンスタンダードです。 Adobe Learning Manager MCPサーバーを使用すると、Adobe Learning Managerの学習ツールが、カスタムエンタープライズエージェント、Claude、ChatGPT EnterpriseなどのMCP互換クライアントに表示されます。 学習者は、使用しているクライアントからトレーニングと進捗状況を受け取りますが、学習コンテンツと記録はAdobe Learning Managerに残ります。
 
-モデルコンテキストプロトコル(MCP)は、AIクライアントがツールに接続するための標準的な方法です。 Adobe Learning Manager MCPサーバーは、学習者が既に作業している場所に学習をもたらします。 Adobe Learning Managerの学習者ツールが、カスタムエンタープライズエージェント、Claude、ChatGPTなど、MCPをサポートする任意のAIクライアントに表示されます。 これにより、学習者は同じクライアント内からトレーニングや進捗状況にアクセスでき、コンテンツはAdobe Learning Managerに残ります。
+## 動作の仕組み
+
+学習者が、自然言語のリクエストをAIクライアントに送信します。 クライアントは、最も関連性の高い学習者ツールを選択し、学習者のOAuthアクセストークンを使用してMCPサーバーを呼び出します。 Adobe Learning Managerは学習者としてツールを実行して結果を返し、クライアントが最終的な回答を作成します。
+
+各呼び出しには、学習者のIDが含まれます。 したがって、学習者は、既にアクセスを許可されているコンテンツとレコードのみを取得できます。
+
+AIクライアントがMCPサーバーを呼び出すと、対応する学習者ツールに各リクエストがルーティングされます。
 
 ## 学習者の機能
 
@@ -23,35 +29,36 @@ ht-degree: 0%
 * 有効期限が近づいている学習を含め、登録、進捗状況、期限を追跡できます。
 * 学習コンテンツに基づいて回答できます。
 * 目標からパーソナライズされた学習パスを生成して保存します。
-完全なリストについては、**学習者ツールのリファレンス**&#x200B;を参照してください。
-
-AIクライアントがMCPサーバーを呼び出すと、対応する学習者ツールに各リクエストがルーティングされます。
 
 完全なリストについては、**学習者ツールのリファレンス**&#x200B;を参照してください。
 
 ## お客様とパートナーの教育機関
 
+>[!IMPORTANT]
+>
+>独自のエンタープライズエージェントを構築するお客様も、サーバーに接続できます。 例えば、パートナー組織は、独自のエージェントを通じて学習へのアクセス権を顧客に提供できます。
+
 お客様とパートナーの教育機関が主にMCPサーバを使用します。 エンタープライズ版AIエージェントを独自に構築した組織は、そのエージェントをAdobe Learning ManagerのLearner Toolsに連携できます。 その後、顧客とパートナーは、別の学習アシスタントに移行することなく、既に使用しているアシスタントの中で学習します。
 
-例えば、Acme Inc.は独自のエンタープライズAIアシスタントを構築しています。 Acme Inc.のパートナーがTech Corpの環境を訪問し、Tech Corpの製品について学習します。 AcmeのアシスタントはMCPサーバーを介してAdobe Learning Managerアカウントに接続し、学習関連の回答を返すので、パートナーはAcmeのエクスペリエンスを離れることはありません。
+例えば、Acme Inc.は独自のエンタープライズAIアシスタントを構築しています。 Acme Inc.のパートナーがアシスタントを訪問し、Acme Inc.の製品について学びます。 アシスタントはMCPサーバーを介してAcme Inc. Adobe Learning Managerアカウントに接続し、学習関連の回答を返します。 パートナーは、Acme Inc.の経験を離れることはありません。
 
 このアプローチにより、組織は次のことを実現できます。
 
 * パートナーの既存のAIエクスペリエンスの中で学習を提供する。
-* カスタムエンタープライズ版の担当者がAdobe Learning Managerの学習ツールを使用できるようにします。
-* 独自のワークフローに学習を組み込みます。
+* Adobe Learning Managerの学習ツールを使用して、カスタムエンタープライズエージェントを拡張できます。
+* 学習を独自のワークフローに埋め込むことができます。
 * 学習をエンタープライズAIエコシステムと統合します。
 
 ## 従業員教育
 
-ClaudeなどのAIクライアントを既に使用している従業員は、そこに学習情報を取得できます。 例えば、従業員は、Adobe Learning Managerに切り替えることなく、割り当てられた学習の確認、登録のレビュー、トピック上のコースの検索、または学習パスの要求を行うことができます。 サンプルのリクエストについては、[学習者向けのサンプルプロンプト](https://word-edit.officeapps.live.com/docs/sample-prompts-adobe-learning-manager-learners)を参照してください。
+ClaudeなどのAIクライアントを既に使用している従業員は、そこに学習情報を取得できます。 例えば、従業員は、Adobe Learning Managerに切り替えることなく、割り当てられた学習の確認、登録のレビュー、トピック上のコースの検索、または学習パスの要求を行うことができます。 サンプルリクエストについては、[学習者向けのサンプルプロンプト](/help/migrated/learners/feature-summary/sample-prompts-for-learners.md)を参照してください。
 
 このアプローチにより、従業員は次のことが可能になります。
 
-* お客様が既に使用しているツールを引き続き使用してください。
+* お客様がすでに使用しているツールを引き続き使用してください。
 * どこで働いても学習にアクセスできます。
-* MCPをサポートする任意のAIクライアントを、Adobe Learning Managerのエントリポイントとして使用できます。
-* コンテキストを変更せずに学習情報を取得できます。
+* MCP互換のAIクライアントはすべて、Adobe Learning Managerのエントリポイントとして使用できます。
+* コンテキストを変更せずに学習情報を取得します。
 
 ## 両方のオーディエンス用に1つのサーバー
 
@@ -64,17 +71,18 @@ ClaudeなどのAIクライアントを既に使用している従業員は、そ
 
 ## ロールの設定
 
-セットアップは3つのロールに分割されます。
+セットアップは3つの役割に分かれています。
 
-* **Administrator:** Adobe Learning ManagerでMCPクライアントアプリケーションを作成し、管理します。 [MCPサーバーの構成](https://word-edit.officeapps.live.com/docs/configure-model-context-protocol-server-adobe-learning-manager)を参照してください。
+* **Administrator:** Adobe Learning ManagerでMCPクライアントアプリケーションを作成し、管理します。 [MCPサーバーの構成](/help/migrated/administrators/feature-summary/configure-mcp-admin.md)に関する詳細をご覧ください。
 * **AIクライアント管理者：**&#x200B;サーバーを組織のエンタープライズAIクライアント（ClaudeやChatGPT Enterpriseなど）に追加します。
 * **学習者：** AIクライアントで&#x200B;**Connect**&#x200B;を選択し、接続を認証して、Adobe Learning Managerアカウントの詳細を提供します。
 
 ## 学習者リクエストのセキュリティ
 
-各学習者は連携を認証し、Adobe Learning Managerアカウントの詳細を提供します。 リクエストはその学習者として実行されるため、AIクライアントは、学習者がAdobe Learning Managerでアクセスできる情報のみを返します。 サーバーを使用しても、学習者はアクセスできなくなります。
+各学習者は連携を認証し、Adobe Learning Managerアカウントの詳細を提供します。 リクエストはすべて学習者として実行されるため、AIクライアントは、学習者がAdobe Learning Managerでアクセスできる情報のみを返します。 サーバーでは、学習者に追加のアクセス権を付与しません。
 
-## このアップデートにおけるMCPの制限
+## 制限
 
+* MCPサーバーは、Adobe Learning Manager Ultimate階層アカウントでのみご利用いただけます。
 * ツールが利用できるかどうかは、AIクライアントがサポートする機能によって異なります。
-* それぞれのリクエストは新規として扱われます。 マルチターンの会話は、AIクライアントが会話のコンテキストを維持する場合にのみ機能します。
+* サーバは各要求を新しい要求として扱います。 マルチターン会話は、AIクライアントが会話コンテキストを保持する場合にのみ機能します。
