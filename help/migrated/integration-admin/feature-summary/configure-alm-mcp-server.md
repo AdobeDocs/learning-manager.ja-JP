@@ -3,9 +3,9 @@ description: AIアシスタントが学習者のトレーニングに安全に�
 jcr-language: en_us
 title: Adobe Learning Manager MCPサーバーの設定
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
-source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
+source-git-commit: 47770f784e9f88684c19d6c72cf08b1f36e859fe
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2089'
 ht-degree: 1%
 ---
 
@@ -182,30 +182,30 @@ MCPサーバは、次のツールを表示します。 これらはすべて、�
 </thead>
 <tbody>
 <tr>
-<td>search_learning_itemsread-only</td>
+<td>search_learning_items</td>
 <td>コース、学習パス、資格認定、作業計画書、バッジ、スキル、カタログ、タグをカタログで検索します。 フィルター：タイプ、学習者の状態、スキル、タグ、カタログ、配信形式、価格、言語。 1ページあたり最大10件の結果を返します。</td>
 <td>「初級Pythonコース」<br />
 「フランス語の無料クラスルームトレーニング」</td>
 </tr>
 <tr>
-<td>list_my_learning_enrollmentsread-only</td>
+<td>list_my_learning_enrollments</td>
 <td>学習者の登録済み学習、進行中の学習、完了済み学習、状態、進捗状況、期日が一覧表示されます。 デフォルトでは、最後に登録されたユーザーが最初に登録されます。</td>
 <td>「私は何に登録しているのですか？」<br />
 「もうすぐ何が予定されているんだ？」<br />
 「完了したトレーニング」</td>
 </tr>
 <tr>
-<td>get_learning_objectread-only</td>
+<td>get_learning_object</td>
 <td>IDによって、コース、学習パス、資格認定、作業計画書の詳細を取得します。インスタンス、スキル、サブ項目を含めることもできます。</td>
 <td>「二つ目の授業の話をもっと聞かせてくれ」</td>
 </tr>
 <tr>
-<td>get_my_learning_profileread-only</td>
+<td>get_my_learning_profile</td>
 <td>アカウントおよびマネージャーを含む学習者のALMプロファイルを取得します。</td>
 <td>「ALMの管理職はだれですか？」</td>
 </tr>
 <tr>
-<td>answer_learning_content_questionuses AIクレジット</td>
+<td>answer_learning_content_question</td>
 <td>引用符付きのコースコンテンツに基づくALM学習アシスタントを使用して、コースの主題に関する質問に回答します。 アシスタントがフォローアップの質問に使用する会話IDを返します。</td>
 <td>「ネットワークのコースで説明したTCPとUDPの比較」</td>
 </tr>
@@ -238,7 +238,7 @@ answer_learning_content_questionから開始した会話は、ALM学習アシス
 | 認証URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | トークン URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | URLを更新 | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| 認証サーバーベース | &lbrack;https://\[alm-host](https://[alm-host)\] |
+| 認証サーバーベース | [https://\[alm-host\]](https://[alm-host]) |
 | リソース | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | 範囲 | 学習者:write |
 
