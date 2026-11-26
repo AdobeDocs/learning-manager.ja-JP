@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Adobe Learning Managerリリースノート
@@ -355,6 +355,7 @@ Adobe Learning Managerでは、1つのコースインスタンスに1つの共�
 
 **iPadのFirefoxでフルスクリーンモードが機能しません**
 参加者がiPadのFirefoxブラウザーを使用してLive Hubセッションにアクセスする際に、フルスクリーンボタンをクリックしても、セッションがフルスクリーンモードに切り替わりません。 セッションは、画面全体に展開されるのではなく、標準のブラウザービューのままになります。
+
 これは、iPadのFirefoxに固有の既知のブラウザー制限です。 フルスクリーン機能は、このブラウザーとデバイスの組み合わせでは使用できません。 これは既知の制限であり、今後のリリースで解決される可能性があります。
 
 **Live Hubでのキャプションの品質の制限**
