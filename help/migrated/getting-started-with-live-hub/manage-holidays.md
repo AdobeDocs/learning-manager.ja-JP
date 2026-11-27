@@ -4,7 +4,7 @@ description: ライブハブセッションのインストラクターの利用�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: d0b166a48876f5dcb7268c9c956d624cff55fae1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 7%
@@ -58,7 +58,7 @@ Adobe Learning Managerの&#x200B;**祝日**&#x200B;設定を使用して、組�
 
 1. 「**保存**」を選択します。 祝日がリストに追加されます。
 
-### 休暇を一括で追加
+### 休暇を一括で追加 {#holidays-in-bulk}
 
 CSVファイルを使用して、一度に複数の休日を追加します。
 
